@@ -1,0 +1,218 @@
+#EXTM3U : iptv36.my.to/IPTV36.m3u - Last Update 20200719
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tv5.png" group-title="THAI Digital TV", 1. TV5 HD
+http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8
+#http://160.119.77.50/iptv/hd-ch5.stream/playlist.m3u8
+#http://27.254.130.64/live01/ch6.m3u8?p=st
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/nbt.png" group-title="THAI Digital TV", 2. NBT HD
+http://160.119.77.50/iptv/sd-nbt.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/thaipbs.png" group-title="THAI Digital TV" , 3. Thai PBS HD
+http://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/altv.png" group-title="THAI Digital TV", 4. ALTV HD
+https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/warner.png" group-title="Movies"", 5. Warner TV HD
+http://203.150.107.30:8081/tested2iptv/core108/playlist.m3u8
+
+### START 6-10
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/axn.png" group-title="Movies", 6. AXN HD
+https://livedoomovies.com/02_AXNHD_720p/chunklist.m3u8
+#http://160.119.77.50/iptv/hd-axn.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/fox_movies.png" group-title="Movies", 7. FOX Movies HD
+https://www.livedoomovies.com/02_FoxMoviesTH_720p/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/fox_action_movies.png" group-title="Movies", 8. FOX Action Movies HD
+http://160.119.77.50/iptv/hd-foxaction.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/fox_thai.jpg" group-title="Movies", 9. FOX Thai HD
+https://www.livedoomovies.com/02_FoxThai_TH_720p/chunklist.m3u8
+#http://160.119.77.50/iptv/sd-fox.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tptv.png" group-title="THAI Digital TV", 10. TPTV
+http://49.231.66.85:1935/live/tptv/playlist.m3u8
+
+### START 11-15
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/premier_hd1.png" group-title="Sports", 11. Premier HD1
+http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/premier_hd2.png" group-title="Sports", 12. Premier HD2
+http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/premier_hd3.png" group-title="Sports", 13. Premier HD3
+http://103.208.24.234:1935/thaisport/epl-3.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/premier_hd4.png" group-title="Sports", 14. Premier HD4
+http://103.208.24.234:1935/thaisport/epl-4.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/premier_hd5.png" group-title="Sports", 15. Premier HD5
+http://103.208.24.234:1935/thaisport/epl-5.stream/playlist.m3u8
+
+### START 15-20
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tnn16.png" group-title="THAI Digital TV", 16. TNN 16
+http://119.59.125.74/stream/totnew.php?channel_id=77774220bb8e40aa94e549e29ff3ed8a&.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/news1.png" group-title="Other" , 17. NEWS1 HD
+http://news1.live14.com/stream/news1_hi.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/new18.jpg" group-title="THAI Digital TV", 18. NEW 18 HD
+https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL549I7I7GYzSq-qSG6uohPB6E)/dm/3/x7kx5i7/s/live-4.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/psi.png" group-title="Other", 19. PSI Saradee HD
+http://96.30.124.100:1935/edgepsi/PSIHD.stream_720p/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/bbc_earth.jpg" group-title="Other", 20. BBC earth HD
+http://160.119.77.50/iptv/sd-bbcearth.stream/playlist.m3u8
+
+### START 21-25
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/voice_tv.png" group-title="Other", 21. Voice TV HD
+https://edge6a.v2h-cdn.com//appt3//WOWSH.stream_720p//chunklist_w142679599.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/nation.jpg" group-title="THAI Digital TV", 22. Nation TV HD
+#https://cdn6.goprimetime.info/feed/chnation/index.m3u8
+https://stream-01.sg1.dailymotion.com/sec(ccIVIlWaGsSkNrAGI3_YSW9hfuKDihPOt03zuCHvYNg)/dm/3/x6eoldf/d/live-3.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/workpoint.png" group-title="THAI Digital TV", 23. Workpoint TV HD
+https://stream-01.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8iMITon2OLB9PQ5YABY30JQ)/dm/3/x6g9qjj/s/live-4.m3u8
+#http://27.254.130.56:80/live01/ch7.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/true4u.png" group-title="THAI Digital TV", 24. true4U
+http://183.182.100.184/live/true4u/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/gmm25.png" group-title="THAI Digital TV", 25. GMM25 HD
+#http://27.254.130.56:80/live01/ch11.m3u8
+#http://183.182.100.184/live/mcothd/playlist.m3u8
+https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_d_WoQz08FomhdvDxMaeuxU)/dm/3/x6rz4t7/s/live-3.m3u8
+
+### START 26-30
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/m.png" group-title="Movies", 26. M Channel
+http://www.m-channel.com:1935/live/my_stream.sdp/chunklist_w1568234806.m3u8
+#http://www.m-channel.com:1935/live/my_stream.sdp/playlist.m3u8
+#http://27.254.142.207:8080/live/web.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch8.jpg" group-title="THAI Digital TV", 27. CH8 RS HD
+http://stream.rs.co.th/ch8-hi/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/monoplus.png" group-title="Movies", 28. MONO+ HD
+https://edge4-bkk.3bb.co.th:9443/MonoPlus_LiveHLS/monoplusLive_HLS720p.stream/chunklist_w501711662.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/mono29.png" group-title="THAI Digital TV", 29. MONO29 HD
+https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/chunklist_w1578972109.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/mcot.png" group-title="THAI Digital TV", 30. MCOT HD
+http://mcotdigital-pnnouc.cdn.byteark.com/mcothd1080p_edge/smil:mcothd1080p.smil/chunklist.m3u8
+#http://livesport2018.dyndns.tv:8080/live/mcothd/playlist.m3u8
+
+### START 31-35
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/one.png" group-title="THAI Digital TV", 31. ONE HD
+#http://160.119.77.50/iptv/hd-gmmone.stream/playlist.m3u8
+#https://cdn-laos.workpoint.news/hd-gmmone_720/index.m3u8
+https://one31-rlbwkq.cdn.byteark.com/live/playlist-hd.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/thairath.png" group-title="THAI Digital TV", 32. Thairath TV HD
+http://live.thairath.co.th/trtv2/playlist_720p/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch3.png" group-title="THAI Digital TV", 33. CH3 HD
+http://160.119.77.50/iptv/hd-ch3.stream/playlist.m3u8
+#http://thaiip.tv/tvlogo2/33.png
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/amarin.png" group-title="THAI Digital TV", 34. Amarin TV HD
+#http://160.119.77.50/iptv/hd-amarin.stream/playlist.m3u8
+http://27.254.130.64:80/feed/chamarin/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch7.png" group-title="THAI Digital TV", 35. CH7 HD
+#http://160.119.77.50/iptv/hd-ch7.stream/playlist.m3u8
+http://livesport2018.dyndns.tv:8080/live/7hd/playlist.m3u8
+
+### START 36-40
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/pptv.png" group-title="THAI Digital TV", 36. PPTV HD
+http://27.254.130.64/live01/ch2.m3u8?p=st
+#https://www.livedoomovies.com/02_PPTVHD_720p/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/bein1.png" group-title="Sports", 37. beIN Sports HD1
+http://103.208.24.234:1935/thaisport/epl-bein1.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/bein2.png" group-title="Sports", 38. beIN Sports HD2
+http://103.208.24.234:1935/thaisport/epl-bein2.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/true_sports_hd.png" group-title="Sports", 39. True Sports HD
+http://103.208.24.234:1935/thaisport/hd-tsport1.stream/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/true_sports_hd2.png" group-title="Sports", 40. True Sports HD2
+http://103.208.24.234:1935/thaisport/hd-tsport2.stream/chunklist.m3u8
+
+### START 41-45
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/csat.jpg" group-title="Movies", 41. Live Sky 1 HD
+http://27.254.149.109:8081/tumlive/ipmskyworldhd1.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/csat.jpg" group-title="Movies", 42. Live Sky 2 HD
+http://27.254.149.109:8081/tumlive/ipmskyworldhd2.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/csat.jpg" group-title="Movies", 43. Live Sky 3 HD
+http://27.254.149.109:8081/tumlive/ipmskyworldhd3.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/csat.jpg" group-title="Movies", 44. Live Sky 4 HD
+http://27.254.149.109:8081/tumlive/ipmskyworldhd4.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/blue_ant.jpg" group-title="Movies", 45. Blue Ant Entertainment HD
+http://160.119.77.50/iptv/hd-rtlcbs.stream/playlist.m3u8
+
+### START 46-50
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/hbo.jpg" group-title="Movies", 46. HBO HD
+https://www.livedoomovies.com/02_HBOHD_720p/chunklist.m3u8
+
+#EXTINF:-1  tvg-logo="https://iptv36.my.to/logo/true_film_hd.png" group-title="Movies", 47. True Film HD
+#https://www.we-play.tv/videos/tv-entertainment/true-film-hd/
+http://160.119.77.50/iptv/hd-tfilm.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://thaiip.tv/tvlogo2/cartoonclub.png" group-title="Kids", 48. Cartoon Club
+http://edge4-bkk.3bb.co.th:1935/CartoonClub_Livestream/cartoonclub_480P.stream/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/nat_geo.jpg" group-title="Other", 49. NAT Geo HD
+http://160.119.77.50/iptv/hd-natgeo.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/mysci.jpg" group-title="Other", 50. MySci HD
+https://www.livedoomovies.com/sumrujlok_goodtv/chunklist.m3u8
+
+### START 50-55
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/cctv.png" group-title="IP CAM", 51. CAM1 | Park-164
+rtsp://admin@192.168.1.211:554/mpeg4/ch1/main/av_stream
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/cctv.png" group-title="IP CAM", 52. CAM2 | Park-163
+rtsp://admin@192.168.1.212:554/mpeg4/ch1/main/av_stream
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/cctv.png" group-title="IP CAM", 53. CAM3 | Toilet-163
+rtsp://admin@192.168.1.203:554/mpeg4/ch1/main/av_stream
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/cctv.png" group-title="IP CAM", 54. CAM4 | Door-163
+rtsp://admin@192.168.1.204:554/mpeg4/ch1/main/av_stream
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/cctv.png" group-title="IP CAM", 55. CAM5 | Kitchen
+rtsp://admin@192.168.1.205:554/mpeg4/ch1/main/av_stream
+
+### START 56-60
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/cctv.png" group-title="IP CAM", 56. CAM6 | Floor-2
+rtsp://admin@192.168.1.206:554/mpeg4/ch1/main/av_stream
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/cctv.png" group-title="IP CAM", 57. CAM7 | Com-TV
+rtsp://admin@192.168.1.207:554/mpeg4/ch1/main/av_stream
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/cctv.png" group-title="IP CAM", 58. CAM8 | Com-Ying
+rtsp://admin@192.168.1.208:554/mpeg4/ch1/main/av_stream
+
+# #EXTINF:-1 tvg-logo="https://icon2.cleanpng.com/20180805/cgi/kisspng-computer-icons-vector-graphics-no-symbol-image-cli-ban-hammer-ikony-5b66d74fe212c8.732862441533466447926.jpg" group-title="News", 49. BLANK
+# https://load1.v2h-cdn.com/redirect/INFO_T1/NEW.stream_720p?type=m3u8
