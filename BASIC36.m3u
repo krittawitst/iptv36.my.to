@@ -1,4 +1,4 @@
-#EXTM3U : iptv36.my.to/BASIC36.m3u - Last Update 2020-7-22 4:11:22 PM
+#EXTM3U : iptv36.my.to/BASIC36.m3u - Last Update 2020-7-22 4:39:31 PM
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tv5.png" group-title="THAI Digital TV", 1. TV5 HD
 http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8
@@ -15,7 +15,7 @@ https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/nation.jpg" group-title="THAI Digital TV", 5. Nation TV (Alt.)
 https://cdn6.goprimetime.info/feed/chnation/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch7.png" group-title="THAI Digital TV", 6. PPTV HD (Alt.)
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/pptv.png" group-title="THAI Digital TV", 6. PPTV HD (Alt.)
 http://27.254.130.64/live01/ch2.m3u8?p=st
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch7.png" group-title="THAI Digital TV", 7. CH7 HD (Alt.)
@@ -24,16 +24,16 @@ http://160.119.77.50/iptv/hd-ch7.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch8.jpg" group-title="THAI Digital TV", 8. CH8 RS (Alt.)
 http://stream.rs.co.th/ch8-hi/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/mono29.jpg" group-title="THAI Digital TV", 9. MONO29 HD (Alt.)
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/mono29.png" group-title="THAI Digital TV", 9. MONO29 HD (Alt.)
 https://59ffdfa4495c3.streamlock.net/MONO29_HLS_1080P/mono29hls_1080TH.stream/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tptv.png" group-title="THAI Digital TV", 10. TPTV
 http://49.231.66.85:1935/live/tptv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/one.png" group-title="THAI Digital TV", 11. ONE HD (Alt.)
-https://cdn-laos.workpoint.news/hd-gmmone_720/index.m3u8
+http://160.119.77.50/iptv/hd-gmmone.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/thairath.png" group-title="THAI Digital TV", 12. Thairath TV (Alt.)
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/thairath.png" group-title="THAI Digital TV", 12. Thairath TV HD (Alt.)
 http://160.119.77.50/iptv/hd-thairath.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch3.png" group-title="THAI Digital TV", 13. CH3 HD (Alt.)
@@ -45,26 +45,26 @@ http://160.119.77.50/iptv/hd-amarin.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/workpoint.png" group-title="THAI Digital TV", 15. Workpoint TV (Alt.)
 http://27.254.130.56:80/live01/ch7.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tnn16.png" group-title="THAI Digital TV", 16. TNN 16 HD
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tnn16.png" group-title="THAI Digital TV", 16. TNN 16
 http://119.59.125.74/stream/totnew.php?channel_id=77774220bb8e40aa94e549e29ff3ed8a&.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/blank.png" group-title="No group", 17. Undefined
-http://not.found
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/news1.png" group-title="NEWS/DOCS", 17. NEWS1 HD
+http://news1.live14.com/stream/news1_hi.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tptv.png" group-title="THAI Digital TV", 18. NEW 18 HD
 https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54_jx19XaDqd3H6rASDTX4kw)/dm/3/x7kx5i7/s/live-4.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/blank.png" group-title="No group", 19. Undefined
-http://not.found
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/psi.png" group-title="NEWS/DOCS", 19. PSI Saradee HD
+http://96.30.124.100:1935/edgepsi/PSIHD.stream_720p/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/blank.png" group-title="No group", 20. Undefined
-http://not.found
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch2.png" group-title="SAT/CABLE", 20. CH2 RS
+http://stream.rs.co.th/ch2-hi/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/blank.png" group-title="No group", 21. Undefined
-http://not.found
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/voice_tv.png" group-title="SAT/CABLE", 21. Voice TV HD
+https://edge6a.v2h-cdn.com/appt3/WOWSH.stream_720p/chunklist_w142679599.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/nation.jpg" group-title="THAI Digital TV", 22. Nation TV HD
-https://stream-03.sg1.dailymotion.com/sec(ccIVIlWaGsSkNrAGI3_YSU1xUKzfQcSVMDPsmMipUJI)/dm/3/x6eoldf/d/live-4.m3u8
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/nation.jpg" group-title="THAI Digital TV", 22. Nation TV
+https://stream-03.sg1.dailymotion.com/sec(ccIVIlWaGsSkNrAGI3_YSU1xUKzfQcSVMDPsmMipUJI)/dm/3/x6eoldf/d/live-2.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/workpoint.png" group-title="THAI Digital TV", 23. Workpoint TV HD
 https://stream-01.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8iMITon2OLB9PQ5YABY30JQ)/dm/3/x6g9qjj/s/live-4.m3u8
@@ -75,16 +75,16 @@ http://183.182.100.184/live/true4u/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/gmm25.png" group-title="THAI Digital TV", 25. GMM25 HD
 https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_d_WoQz08FomhdvDxMaeuxU)/dm/3/x6rz4t7/s/live-4.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/blank.png" group-title="No group", 26. Undefined
-http://not.found
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/voice_tv.png" group-title="SAT/CABLE", 26. M Channel
+https://edge6a.v2h-cdn.com/appt3/WOWSH.stream_720p/chunklist_w142679599.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch8.jpg" group-title="THAI Digital TV", 27. CH8 RS HD
 https://5d6025096ade6.streamlock.net/desktop/ch8_720p/playlist.m3u8?oasendtime=1595428761&oashash=DQj8tTl3T8RDJDHcCzi2lOQkBsyAZdXUuZ6eRQ2V8uQ=
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/monoplus.jpg" group-title="THAI Digital TV", 28. MONO PLUS HD
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/monoplus.png" group-title="THAI Digital TV", 28. MONO PLUS HD
 https://edge4-bkk.3bb.co.th:9443/MonoPlus_LiveHLS/monoplusLive_HLS720p.stream/chunklist_w501711662.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/mono29.jpg" group-title="THAI Digital TV", 29. MONO29 HD
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/mono29.png" group-title="THAI Digital TV", 29. MONO29 HD
 https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/chunklist_w1578972109.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/mcot.png" group-title="THAI Digital TV", 30. MCOT HD
@@ -105,6 +105,6 @@ http://27.254.130.64:80/feed/chamarin/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch7.png" group-title="THAI Digital TV", 35. CH7 HD
 http://livesport2018.dyndns.tv:8080/live/7hd/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch7.png" group-title="THAI Digital TV", 36. PPTV HD
-http://160.119.77.50/iptv/hd-pptv.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/pptv.png" group-title="THAI Digital TV", 36. PPTV HD
+https://www.livedoomovies.com/02_PPTVHD_720p/chunklist.m3u8
 
