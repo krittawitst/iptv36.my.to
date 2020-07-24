@@ -1,0 +1,345 @@
+const streamingInfo = {
+  altv: {
+    channelName: "ALTV HD",
+    logo: "https://iptv36.my.to/logo/altv.png",
+    urlList: ["https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8"],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  amarin: {
+    channelName: "Amarin TV HD",
+    logo: "https://iptv36.my.to/logo/amarin.png",
+    urlList: [
+      "http://27.254.130.64:80/feed/chamarin/playlist.m3u8",
+      "http://160.119.77.50/iptv/hd-amarin.stream/playlist.m3u8",
+      ,
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  axn: {
+    channelName: "AXN HD",
+    logo: "https://iptv36.my.to/logo/axn.png",
+    urlList: [
+      "http://160.119.77.50/iptv/hd-axn.stream/playlist.m3u8",
+      "https://livedoomovies.com/02_AXNHD_720p/chunklist.m3u8",
+    ],
+    groupName: "PREMIUM",
+  },
+
+  bein1: {
+    channelName: "beIN Sports HD1",
+    logo: "https://iptv36.my.to/logo/bein1.png",
+    urlList: [
+      "http://103.208.24.234:1935/thaisport/epl-bein1.stream/playlist.m3u8",
+    ],
+    groupName: "PREMIUM",
+  },
+
+  bein2: {
+    channelName: "beIN Sports HD2",
+    logo: "https://iptv36.my.to/logo/bein2.png",
+    urlList: [
+      "http://103.208.24.234:1935/thaisport/epl-bein2.stream/playlist.m3u8",
+    ],
+    groupName: "PREMIUM",
+  },
+
+  ch2: {
+    channelName: "CH2 RS",
+    logo: "https://iptv36.my.to/logo/ch2.png",
+    urlList: ["http://stream.rs.co.th/ch2-hi/index.m3u8"],
+    groupName: "SAT & CABLE",
+  },
+
+  ch3: {
+    channelName: "CH3 HD",
+    logo: "https://iptv36.my.to/logo/ch3.png",
+    urlList: [
+      "http://160.119.77.50/iptv/hd-ch3.stream/playlist.m3u8",
+      "https://ch3-33-web.cdn.byteark.com/live/playlist_720p/index.m3u8?x_ark_access_id=D78MkxZFEr5Zr9PE&x_ark_auth_type=ark-v2&x_ark_expires=1595425605&x_ark_max_resolution=720p&x_ark_path_prefix=%2Flive%2F&x_ark_signature=pe4yMhzhuE4ASTVC-PKFRw",
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  ch7: {
+    channelName: "CH7 HD",
+    logo: "https://iptv36.my.to/logo/ch7.png",
+    urlList: [
+      "http://livesport2018.dyndns.tv:8080/live/7hd/playlist.m3u8",
+      "http://160.119.77.50/iptv/hd-ch7.stream/playlist.m3u8",
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  ch8: {
+    channelName: "CH8 RS HD",
+    logo: "https://iptv36.my.to/logo/ch8.jpg",
+    urlList: [
+      "https://5b629247e594c.streamlock.net/desktop/ch8_720p/playlist.m3u8?oasendtime=1595595463&oashash=dSkIuffOZlyX40pOkS0INKxh1cQAAAChqN7GImygyuw=",
+      "http://stream.rs.co.th/ch8-hi/index.m3u8",
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  foxmovies: {
+    channelName: "Fox Movies",
+    logo: "https://iptv36.my.to/logo/fox-movies.png",
+    urlList: [
+      "https://www.livedoomovies.com/02_FoxMoviesTH_720p/chunklist.m3u8",
+    ],
+    groupName: "PREMIUM",
+  },
+
+  gmm25: {
+    channelName: "GMM25 HD",
+    logo: "https://iptv36.my.to/logo/gmm25.png",
+    urlList: [
+      "https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_d_WoQz08FomhdvDxMaeuxU)/dm/3/x6rz4t7/s/live-4.m3u8",
+      "http://183.182.100.184/live/mcothd/playlist.m3u8",
+      "http://27.254.130.56:80/live01/ch11.m3u8",
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  history: {
+    channelName: "History HD",
+    logo: "https://iptv36.my.to/logo/history.png",
+    urlList: [
+      "http://203.150.107.30:8081/tested2iptv/core106/playlist.m3u8",
+      "https://www.livedoomovies.com/02_H2HD_720p/chunklist.m3u8",
+    ],
+    groupName: "PREMIUM",
+  },
+
+  history2: {
+    channelName: "History2 HD",
+    logo: "https://iptv36.my.to/logo/history2.png",
+    urlList: [
+      "http://203.150.107.30:8081/tested2iptv/core105/playlist.m3u8",
+      "https://www.livedoomovies.com/02_HISTORYHD_720p/chunklist.m3u8",
+    ],
+    groupName: "PREMIUM",
+  },
+
+  m: {
+    channelName: "M Channel",
+    logo: "https://iptv36.my.to/logo/m.png",
+    urlList: [
+      "https://edge6a.v2h-cdn.com/appt3/WOWSH.stream_720p/chunklist_w142679599.m3u8",
+      "http://27.254.142.207:8080/live/web.m3u8",
+    ],
+    groupName: "SAT & CABLE",
+  },
+
+  monoplus: {
+    channelName: "MONO PLUS HD",
+    logo: "https://iptv36.my.to/logo/monoplus.png",
+    urlList: [
+      "https://edge4-bkk.3bb.co.th:9443/MonoPlus_LiveHLS/monoplusLive_HLS720p.stream/chunklist_w501711662.m3u8",
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  mono29: {
+    channelName: "MONO29 HD",
+    logo: "https://iptv36.my.to/logo/mono29.png",
+    urlList: [
+      "https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/chunklist_w1578972109.m3u8",
+      "https://59ffdfa4495c3.streamlock.net/MONO29_HLS_1080P/mono29hls_1080TH.stream/chunklist.m3u8",
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  mcot: {
+    channelName: "MCOT HD",
+    logo: "https://iptv36.my.to/logo/mcot.png",
+    urlList: [
+      "http://mcotdigital-pnnouc.cdn.byteark.com/mcothd1080p_edge/smil:mcothd1080p.smil/chunklist.m3u8",
+      "http://livesport2018.dyndns.tv:8080/live/mcothd/playlist.m3u8",
+      "http://160.119.77.50/iptv/hd-mcot.stream/playlist.m3u8",
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  nation: {
+    channelName: "Nation TV",
+    logo: "https://iptv36.my.to/logo/nation.jpg",
+    urlList: [
+      "https://stream-03.sg1.dailymotion.com/sec(ccIVIlWaGsSkNrAGI3_YSU1xUKzfQcSVMDPsmMipUJI)/dm/3/x6eoldf/d/live-2.m3u8",
+      "https://cdn6.goprimetime.info/feed/chnation/index.m3u8",
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  nbt: {
+    channelName: "NBT HD",
+    logo: "https://iptv36.my.to/logo/nbt.png",
+    urlList: ["http://160.119.77.50/iptv/sd-nbt.stream/playlist.m3u8"],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  new18: {
+    channelName: "NEW 18 HD",
+    logo: "https://iptv36.my.to/logo/tptv.png",
+    urlList: [
+      "https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54_jx19XaDqd3H6rASDTX4kw)/dm/3/x7kx5i7/s/live-4.m3u8",
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  news1: {
+    channelName: "NEWS1 HD",
+    logo: "https://iptv36.my.to/logo/news1.png",
+    urlList: ["http://news1.live14.com/stream/news1_hi.m3u8"],
+    groupName: "SAT & CABLE",
+  },
+
+  one: {
+    channelName: "ONE HD",
+    logo: "https://iptv36.my.to/logo/one.png",
+    urlList: [
+      "https://one31-rlbwkq.cdn.byteark.com/live/playlist-hd.m3u8",
+      "http://160.119.77.50/iptv/hd-gmmone.stream/playlist.m3u8",
+      "https://cdn-laos.workpoint.news/hd-gmmone_720/index.m3u8",
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  pptv: {
+    channelName: "PPTV HD",
+    logo: "https://iptv36.my.to/logo/pptv.png",
+    urlList: [
+      "https://www.livedoomovies.com/02_PPTVHD_720p/chunklist.m3u8",
+      "http://27.254.130.64/live01/ch2.m3u8?p=st",
+      "http://160.119.77.50/iptv/hd-pptv.stream/playlist.m3u8",
+      "http://203.150.107.30:8081/tested2iptv/core1/playlist.m3u8",
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  psi: {
+    channelName: "PSI Saradee HD",
+    logo: "https://iptv36.my.to/logo/psi.png",
+    urlList: [
+      "http://96.30.124.100:1935/edgepsi/PSIHD.stream_720p/playlist.m3u8",
+    ],
+    groupName: "SAT & CABLE",
+  },
+
+  thaipbs: {
+    channelName: "Thai PBS HD",
+    logo: "https://iptv36.my.to/logo/thaipbs.png",
+    urlList: [
+      "http://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8",
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  thairath: {
+    channelName: "Thairath TV HD",
+    logo: "https://iptv36.my.to/logo/thairath.png",
+    urlList: [
+      "http://live.thairath.co.th/trtv2/playlist_720p/index.m3u8",
+      "http://160.119.77.50/iptv/hd-thairath.stream/playlist.m3u8",
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  tnn16: {
+    channelName: "TNN 16",
+    logo: "https://iptv36.my.to/logo/tnn16.png",
+    urlList: [
+      "http://119.59.125.74/stream/totnew.php?channel_id=77774220bb8e40aa94e549e29ff3ed8a&.m3u8",
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  tptv: {
+    channelName: "TPTV",
+    logo: "https://iptv36.my.to/logo/tptv.png",
+    urlList: [
+      "http://49.231.66.85:1935/live/tptv/playlist.m3u8",
+      "https://www.livedoomovies.com/02_TPTV_480p/chunklist.m3u8",
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  true4u: {
+    channelName: "true4U",
+    logo: "https://iptv36.my.to/logo/true4u.png",
+    urlList: [
+      "http://183.182.100.184/live/true4u/chunklist.m3u8",
+      "https://livedoomovies.com/02_TRUE4U_480p/chunklist.m3u8",
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  tv5: {
+    channelName: "TV5 HD",
+    logo: "https://iptv36.my.to/logo/tv5.png",
+    urlList: [
+      "http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8",
+      "http://160.119.77.50/iptv/hd-ch5.stream/playlist.m3u8",
+      "http://27.254.130.64/live01/ch6.m3u8?p=st",
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+
+  voice: {
+    channelName: "Voice TV HD",
+    logo: "https://iptv36.my.to/logo/voice_tv.png",
+    urlList: [
+      "https://edge6a.v2h-cdn.com/appt3/WOWSH.stream_720p/chunklist_w142679599.m3u8",
+    ],
+    groupName: "SAT & CABLE",
+  },
+
+  universal: {
+    channelName: "Universal TH",
+    logo: "https://iptv36.my.to/logo/blank.png",
+    urlList: ["https://tv4.chang55.com:446/live2/tv4ch43.stream/chunks.m3u8"],
+    groupName: "PREMIUM",
+  },
+
+  warner: {
+    channelName: "Warner TV HD",
+    logo: "https://iptv36.my.to/logo/warner.png",
+    urlList: ["http://203.150.107.30:8081/tested2iptv/core108/playlist.m3u8"],
+    groupName: "PREMIUM",
+  },
+
+  workpoint: {
+    channelName: "Workpoint TV HD",
+    logo: "https://iptv36.my.to/logo/workpoint.png",
+    urlList: [
+      "https://stream-01.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8iMITon2OLB9PQ5YABY30JQ)/dm/3/x6g9qjj/s/live-4.m3u8",
+      "http://27.254.130.56:80/live01/ch7.m3u8",
+    ],
+    groupName: "THAI DIGITAL TV",
+  },
+};
+
+const getStreamingInfo = (
+  channelKey,
+  urlIndex = 0,
+  overrideStreamingData = {}
+) => {
+  let streamingData = streamingInfo[channelKey] || {};
+  mergedStreamingData = { ...streamingData, ...overrideStreamingData };
+
+  let channelName = `${mergedStreamingData.channelName || "Blank"}`;
+  let logo = mergedStreamingData.logo || "https://iptv36.my.to/logo/blank.png";
+  let groupName = mergedStreamingData.groupName || "No group";
+  let urlList = mergedStreamingData.urlList || [];
+  let url =
+    urlIndex < urlList.length
+      ? urlList[urlIndex]
+      : urlList[0]
+      ? urlList[0]
+      : "http://not.found";
+
+  return { channelName, logo, groupName, url };
+};
+
+module.exports = getStreamingInfo;
