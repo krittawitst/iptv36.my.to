@@ -272,7 +272,7 @@ const streamingInfo = {
     channelName: "NEW 18 HD",
     logo: "https://iptv36.my.to/logo/new18.jpg",
     urlList: [
-      "https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54_jx19XaDqd3H6rASDTX4kw)/dm/3/x7kx5i7/s/live-3.m3u8",
+      "https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54_jx19XaDqd3H6rASDTX4kw)/dm/3/x7kx5i7/s/live-4.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
   },
@@ -472,7 +472,7 @@ const streamingInfo = {
     channelName: "Workpoint TV HD",
     logo: "https://iptv36.my.to/logo/workpoint.png",
     urlList: [
-      "https://stream-01.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8pgK24YkyQHLfYqx9ycL16c)/dm/3/x6g9qjj/s/live-3.m3u8",
+      "https://stream-01.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8pgK24YkyQHLfYqx9ycL16c)/dm/3/x6g9qjj/s/live-4.m3u8",
       "http://27.254.130.56:80/live01/ch7.m3u8",
     ],
     groupName: "THAI DIGITAL TV",

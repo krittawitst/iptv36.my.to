@@ -8,17 +8,47 @@ const basicPlaylist = {
     getStreamingInfo("nbt"),
     getStreamingInfo("thaipbs"),
     getStreamingInfo("altv"),
-    getStreamingInfo("nation", 1, { channelName: "Nation TV (Alt)" }),
-    getStreamingInfo("pptv", 1, { channelName: "PPTV HD (Alt)" }),
-    getStreamingInfo("ch7", 1, { channelName: "CH7 HD (Alt)" }),
-    getStreamingInfo("ch8", 1, { channelName: "CH8 RS (Alt)" }),
-    getStreamingInfo("mono29", 1, { channelName: "MONO29 HD (Alt)" }),
+    getStreamingInfo("nation", 1, {
+      channelName: "Nation TV (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
+    getStreamingInfo("pptv", 1, {
+      channelName: "PPTV HD (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
+    getStreamingInfo("ch7", 1, {
+      channelName: "CH7 HD (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
+    getStreamingInfo("ch8", 1, {
+      channelName: "CH8 RS (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
+    getStreamingInfo("mono29", 1, {
+      channelName: "MONO29 HD (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
     getStreamingInfo("tptv"),
-    getStreamingInfo("one", 1, { channelName: "ONE HD (Alt)" }),
-    getStreamingInfo("thairath", 1, { channelName: "Thairath TV HD (Alt)" }),
-    getStreamingInfo("ch3", 1, { channelName: "CH3 HD (Alt)" }),
-    getStreamingInfo("amarin", 1, { channelName: "Amarin TV HD (Alt)" }),
-    getStreamingInfo("workpoint", 1, { channelName: "Workpoint TV (Alt)" }),
+    getStreamingInfo("one", 1, {
+      channelName: "ONE HD (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
+    getStreamingInfo("thairath", 1, {
+      channelName: "Thairath TV HD (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
+    getStreamingInfo("ch3", 1, {
+      channelName: "CH3 HD (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
+    getStreamingInfo("amarin", 1, {
+      channelName: "Amarin TV HD (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
+    getStreamingInfo("workpoint", 1, {
+      channelName: "Workpoint TV (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
     getStreamingInfo("tnn16"),
     getStreamingInfo("news1"),
     getStreamingInfo("new18"),
@@ -73,16 +103,46 @@ const proPlaylist = {
     getStreamingInfo("bbcearth"),
     getStreamingInfo("history"),
     getStreamingInfo("history2"),
-    getStreamingInfo("one", 1, { channelName: "ONE HD (Alt)" }),
-    getStreamingInfo("thairath", 1, { channelName: "Thairath TV HD (Alt)" }),
-    getStreamingInfo("ch3", 1, { channelName: "CH3 HD (Alt)" }),
-    getStreamingInfo("amarin", 1, { channelName: "Amarin TV HD (Alt)" }),
-    getStreamingInfo("ch7", 1, { channelName: "CH7 HD (Alt)" }),
-    getStreamingInfo("pptv", 1, { channelName: "PPTV HD (Alt)" }),
-    getStreamingInfo("workpoint", 1, { channelName: "Workpoint TV (Alt)" }),
-    getStreamingInfo("ch8", 1, { channelName: "CH8 RS (Alt)" }),
-    getStreamingInfo("mono29", 1, { channelName: "MONO29 HD (Alt)" }),
-    getStreamingInfo("nation", 1, { channelName: "Nation TV (Alt)" }),
+    getStreamingInfo("one", 1, {
+      channelName: "ONE HD (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
+    getStreamingInfo("thairath", 1, {
+      channelName: "Thairath TV HD (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
+    getStreamingInfo("ch3", 1, {
+      channelName: "CH3 HD (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
+    getStreamingInfo("amarin", 1, {
+      channelName: "Amarin TV HD (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
+    getStreamingInfo("ch7", 1, {
+      channelName: "CH7 HD (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
+    getStreamingInfo("pptv", 1, {
+      channelName: "PPTV HD (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
+    getStreamingInfo("workpoint", 1, {
+      channelName: "Workpoint TV (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
+    getStreamingInfo("ch8", 1, {
+      channelName: "CH8 RS (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
+    getStreamingInfo("mono29", 1, {
+      channelName: "MONO29 HD (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
+    getStreamingInfo("nation", 1, {
+      channelName: "Nation TV (Alt)",
+      groupName: "THAI DIGITAL TV ALT",
+    }),
   ],
 };
 
