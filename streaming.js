@@ -54,7 +54,7 @@ const streamingInfo = {
 
   blueantent: {
     channelName: "Blue Ant Ent HD",
-    logo: "https://iptv36.my.to/logo/blue_ant.png",
+    logo: "https://iptv36.my.to/logo/blue_ant.jpg",
     urlList: ["http://160.119.77.50/iptv/hd-rtlcbs.stream/playlist.m3u8"],
     groupName: "PREMIUM",
   },
@@ -122,15 +122,15 @@ const streamingInfo = {
   },
 
   foxactionmovies: {
-    channelName: "Fox Movies HD",
+    channelName: "Fox Action Movies HD",
     logo: "https://iptv36.my.to/logo/fox_action_movies.png",
     urlList: ["http://160.119.77.50/iptv/hd-foxaction.stream/playlist.m3u8"],
     groupName: "PREMIUM",
   },
 
   foxmovies: {
-    channelName: "FOX Action Movies HD",
-    logo: "https://iptv36.my.to/logo/fox-movies.png",
+    channelName: "FOX Movies HD",
+    logo: "https://iptv36.my.to/logo/fox_movies.png",
     urlList: [
       "https://www.livedoomovies.com/02_FoxMoviesTH_720p/chunklist.m3u8",
     ],
@@ -159,7 +159,7 @@ const streamingInfo = {
   },
 
   hbo: {
-    channelName: "History HD",
+    channelName: "HBO HD",
     logo: "https://iptv36.my.to/logo/hbo.jpg",
     urlList: ["https://www.livedoomovies.com/02_HBOHD_720p/chunklist.m3u8"],
     groupName: "PREMIUM",
@@ -270,7 +270,7 @@ const streamingInfo = {
 
   new18: {
     channelName: "NEW 18 HD",
-    logo: "https://iptv36.my.to/logo/tptv.png",
+    logo: "https://iptv36.my.to/logo/new18.jpg",
     urlList: [
       "https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54_jx19XaDqd3H6rASDTX4kw)/dm/3/x7kx5i7/s/live-3.m3u8",
     ],
@@ -317,7 +317,7 @@ const streamingInfo = {
   },
 
   premier2: {
-    channelName: "Premier HD1",
+    channelName: "Premier HD2",
     logo: "https://iptv36.my.to/logo/premier_hd2.png",
     urlList: [
       "http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8",

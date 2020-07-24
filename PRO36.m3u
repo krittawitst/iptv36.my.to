@@ -1,4 +1,4 @@
-#EXTM3U : iptv36.my.to/PRO36.m3u - Last Update 2020-7-24 3:23:27 PM
+#EXTM3U : iptv36.my.to/PRO36.m3u - Last Update 2020-7-24 3:37:03 PM
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tv5.png" group-title="THAI DIGITAL TV", 1. TV5 HD
 http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8
@@ -15,13 +15,13 @@ https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/true_film_hd.png" group-title="PREMIUM", 5. True Film HD
 http://160.119.77.50/iptv/hd-tfilm.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/hbo.jpg" group-title="PREMIUM", 6. History HD
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/hbo.jpg" group-title="PREMIUM", 6. HBO HD
 https://www.livedoomovies.com/02_HBOHD_720p/chunklist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/fox-movies.png" group-title="PREMIUM", 7. FOX Action Movies HD
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/fox_movies.png" group-title="PREMIUM", 7. FOX Movies HD
 https://www.livedoomovies.com/02_FoxMoviesTH_720p/chunklist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/fox_action_movies.png" group-title="PREMIUM", 8. Fox Movies HD
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/fox_action_movies.png" group-title="PREMIUM", 8. Fox Action Movies HD
 http://160.119.77.50/iptv/hd-foxaction.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/fox_thai.jpg" group-title="PREMIUM", 9. FOX Thai HD
@@ -33,7 +33,7 @@ https://www.livedoomovies.com/02_TPTV_480p/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/premier_hd1.png" group-title="PREMIUM", 11. Premier HD1
 http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/premier_hd2.png" group-title="PREMIUM", 12. Premier HD1
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/premier_hd2.png" group-title="PREMIUM", 12. Premier HD2
 http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/premier_hd3.png" group-title="PREMIUM", 13. Premier HD3
@@ -51,7 +51,7 @@ http://119.59.125.74/stream/totnew.php?channel_id=77774220bb8e40aa94e549e29ff3ed
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/news1.png" group-title="SAT & CABLE", 17. NEWS1 HD
 http://news1.live14.com/stream/news1_hi.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tptv.png" group-title="THAI DIGITAL TV", 18. NEW 18 HD
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/new18.jpg" group-title="THAI DIGITAL TV", 18. NEW 18 HD
 https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54_jx19XaDqd3H6rASDTX4kw)/dm/3/x7kx5i7/s/live-3.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/psi.png" group-title="SAT & CABLE", 19. PSI Saradee HD
@@ -75,8 +75,8 @@ http://183.182.100.184/live/true4u/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/gmm25.png" group-title="THAI DIGITAL TV", 25. GMM25 HD
 https://stream-04.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_fgrCh_Cfl1H_qYOWaN-ZBg)/dm/3/x6rz4t7/s/live-3.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/blank.png" group-title="PREMIUM", 26. Universal HD
-https://tv4.chang55.com:446/live2/tv4ch43.stream/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/m.png" group-title="SAT & CABLE", 26. M Channel
+http://27.254.142.207:8080/live/web.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch8.jpg" group-title="THAI DIGITAL TV", 27. CH8 RS HD
 https://5b629247e594c.streamlock.net/desktop/ch8_720p/playlist.m3u8?oasendtime=1595597850&oashash=KummHKZ4HWz8KgIOHbs7_xXzLMATSQxUAUagp95bEsU=
@@ -121,34 +121,34 @@ http://103.208.24.234:1935/thaisport/hd-tsport1.stream/chunklist.m3u8
 http://103.208.24.234:1935/thaisport/hd-tsport2.stream/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/csat.jpg" group-title="SAT & CABLE", 41. Live SKY 1 HD
-http://27.254.149.109:8081/tumlive/ipmskyworldhd2.stream/playlist.m3u8
+http://27.254.149.109:8081/tumlive/ipmskyworldhd1.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/csat.jpg" group-title="SAT & CABLE", 42. Live SKY 2 HD
-http://27.254.149.109:8081/tumlive/ipmskyworldhd3.stream/playlist.m3u8
+http://27.254.149.109:8081/tumlive/ipmskyworldhd2.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/csat.jpg" group-title="SAT & CABLE", 43. Live SKY 3 HD
-http://27.254.149.109:8081/tumlive/ipmskyworldhd4.stream/playlist.m3u8
+http://27.254.149.109:8081/tumlive/ipmskyworldhd3.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/csat.jpg" group-title="SAT & CABLE", 44. Live SKY 4 HD
-http://27.254.149.109:8081/tumlive/ipmskyworldhd1.stream/playlist.m3u8
+http://27.254.149.109:8081/tumlive/ipmskyworldhd4.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/warner.png" group-title="PREMIUM", 45. Warner TV HD
 http://203.150.107.30:8081/tested2iptv/core108/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/axn.png" group-title="PREMIUM", 46. AXN HD
-http://160.119.77.50/iptv/hd-axn.stream/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/blue_ant.png" group-title="PREMIUM", 47. Blue Ant Ent HD
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/blue_ant.jpg" group-title="PREMIUM", 46. Blue Ant Ent HD
 http://160.119.77.50/iptv/hd-rtlcbs.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/nat_geo.jpg" group-title="PREMIUM", 48. NAT Geo HD
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/nat_geo.jpg" group-title="PREMIUM", 47. NAT Geo HD
 http://160.119.77.50/iptv/hd-natgeo.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/bbc_earth.jpg" group-title="PREMIUM", 49. BBC earth HD
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/bbc_earth.jpg" group-title="PREMIUM", 48. BBC earth HD
 http://160.119.77.50/iptv/sd-bbcearth.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/mysci.jpg" group-title="SAT & CABLE", 50. MySci HD
-https://www.livedoomovies.com/sumrujlok_goodtv/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/history.png" group-title="PREMIUM", 49. History HD
+http://203.150.107.30:8081/tested2iptv/core106/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/history2.png" group-title="PREMIUM", 50. History2 HD
+http://203.150.107.30:8081/tested2iptv/core105/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/one.png" group-title="THAI DIGITAL TV", 51. ONE HD (Alt)
 http://160.119.77.50/iptv/hd-gmmone.stream/playlist.m3u8
