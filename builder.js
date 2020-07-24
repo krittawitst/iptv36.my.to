@@ -46,13 +46,66 @@ const basicPlaylist = {
 const proPlaylist = {
   filename: "PRO36.m3u",
   channelList: [
-    ...basicPlaylist.channelList,
+    ...basicPlaylist.channelList.slice(0, 4),
+    getStreamingInfo("truefilm"),
+    getStreamingInfo("hbo"),
+    getStreamingInfo("foxmovies"),
+    getStreamingInfo("foxactionmovies"),
+    getStreamingInfo("foxthai"),
+    ...basicPlaylist.channelList.slice(9, 10),
+    getStreamingInfo("premier1"),
+    getStreamingInfo("premier2"),
+    getStreamingInfo("premier3"),
+    getStreamingInfo("premier4"),
+    getStreamingInfo("premier5"),
+    ...basicPlaylist.channelList.slice(15, 25),
+    getStreamingInfo("universal"),
+    ...basicPlaylist.channelList.slice(26, 36),
     getStreamingInfo("bein1"),
     getStreamingInfo("bein2"),
+    getStreamingInfo("truesporthd"),
+    getStreamingInfo("truesporthd2"),
+    getStreamingInfo("livesky", 1, { channelName: "Live SKY 1 HD" }),
+    getStreamingInfo("livesky", 2, { channelName: "Live SKY 2 HD" }),
+    getStreamingInfo("livesky", 3, { channelName: "Live SKY 3 HD" }),
+    getStreamingInfo("livesky", 4, { channelName: "Live SKY 4 HD" }),
+    getStreamingInfo("warner"),
+    getStreamingInfo("axn"),
+    getStreamingInfo("blueantent"),
+    getStreamingInfo("natgeo"),
+    getStreamingInfo("bbcearth"),
+    getStreamingInfo("mysci"),
+    getStreamingInfo("one", 1, { channelName: "ONE HD (Alt)" }),
+    getStreamingInfo("thairath", 1, { channelName: "Thairath TV HD (Alt)" }),
+    getStreamingInfo("ch3", 1, { channelName: "CH3 HD (Alt)" }),
+    getStreamingInfo("amarin", 1, { channelName: "Amarin TV HD (Alt)" }),
+    getStreamingInfo("ch7", 1, { channelName: "CH7 HD (Alt)" }),
+    getStreamingInfo("pptv", 1, { channelName: "PPTV HD (Alt)" }),
+    getStreamingInfo("workpoint", 1, { channelName: "Workpoint TV (Alt)" }),
+    getStreamingInfo("ch8", 1, { channelName: "CH8 RS (Alt)" }),
+    getStreamingInfo("mono29", 1, { channelName: "MONO29 HD (Alt)" }),
+    getStreamingInfo("nation", 1, { channelName: "Nation TV (Alt)" }),
   ],
 };
 
-for (let playlist of [basicPlaylist, proPlaylist]) {
+const iptvPlaylist = {
+  filename: "IPTV36.m3u",
+  channelList: [
+    ...proPlaylist.channelList.slice(0, 50),
+    getStreamingInfo("cctv", 1, { channelName: "CAM1 | Park-164" }),
+    getStreamingInfo("cctv", 2, { channelName: "CAM2 | Park-163" }),
+    getStreamingInfo("cctv", 3, { channelName: "CAM3 | Toilet-163" }),
+    getStreamingInfo("cctv", 4, { channelName: "CAM4 | Door-163" }),
+    getStreamingInfo("cctv", 5, { channelName: "CAM5 | Kitchen" }),
+    getStreamingInfo("cctv", 6, { channelName: "CAM6 | Floor-2" }),
+    getStreamingInfo("cctv", 7, { channelName: "CAM7 | Com-TV" }),
+    getStreamingInfo("cctv", 7, { channelName: "CAM8 | Com-Ying" }),
+    getStreamingInfo("history"),
+    getStreamingInfo("history2"),
+  ],
+};
+
+for (let playlist of [basicPlaylist, proPlaylist, iptvPlaylist]) {
   let textStr = `#EXTM3U : iptv36.my.to/${
     playlist.filename
   } - Last Update ${new Date().toLocaleString()}\n\n`;
@@ -66,3 +119,5 @@ for (let playlist of [basicPlaylist, proPlaylist]) {
 
   fs.writeFileSync(playlist.filename, textStr, "utf8");
 }
+
+console.log("Exported");
