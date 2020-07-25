@@ -1,4 +1,4 @@
-#EXTM3U : iptv36.my.to/IPTV36.m3u - Last Update 2020-7-24 3:51:50 PM
+#EXTM3U : iptv36.my.to/IPTV36.m3u - Last Update 2020-07-25T07:00:37.482Z
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tv5.png" group-title="THAI DIGITAL TV", 1. TV5 HD
 http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8
@@ -28,7 +28,7 @@ http://160.119.77.50/iptv/hd-foxaction.stream/playlist.m3u8
 https://www.livedoomovies.com/02_FoxThai_TH_720p/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tptv.png" group-title="THAI DIGITAL TV", 10. TPTV
-https://www.livedoomovies.com/02_TPTV_480p/chunklist.m3u8
+http://49.231.66.85:1935/live/tptv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/premier_hd1.png" group-title="PREMIUM", 11. Premier HD1
 http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8
@@ -78,8 +78,8 @@ https://stream-04.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_fgrCh_Cfl1H_qYOWa
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/m.png" group-title="SAT & CABLE", 26. M Channel
 http://27.254.142.207:8080/live/web.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch8.jpg" group-title="THAI DIGITAL TV", 27. CH8 RS HD
-https://5b629247e594c.streamlock.net/desktop/ch8_720p/playlist.m3u8?oasendtime=1595597850&oashash=KummHKZ4HWz8KgIOHbs7_xXzLMATSQxUAUagp95bEsU=
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch8.jpg" group-title="THAI DIGITAL TV", 27. CH8 RS
+http://stream.rs.co.th/ch8-hi/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/monoplus.png" group-title="THAI DIGITAL TV", 28. MONO PLUS HD
 https://edge4-bkk.3bb.co.th:9443/MonoPlus_LiveHLS/monoplusLive_HLS720p.stream/chunklist_w501711662.m3u8

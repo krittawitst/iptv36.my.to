@@ -166,7 +166,7 @@ const iptvPlaylist = {
 for (let playlist of [basicPlaylist, proPlaylist, iptvPlaylist]) {
   let textStr = `#EXTM3U : iptv36.my.to/${
     playlist.filename
-  } - Last Update ${new Date().toLocaleString()}\n\n`;
+  } - Last Update ${new Date().toISOString()}\n\n`;
 
   playlist.channelList.forEach((channel, index) => {
     let channelStr = `#EXTINF:-1 tvg-logo="${channel.logo}" group-title="${

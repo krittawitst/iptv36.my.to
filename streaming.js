@@ -112,11 +112,11 @@ const streamingInfo = {
   },
 
   ch8: {
-    channelName: "CH8 RS HD",
+    channelName: "CH8 RS",
     logo: "https://iptv36.my.to/logo/ch8.jpg",
     urlList: [
-      "https://5b629247e594c.streamlock.net/desktop/ch8_720p/playlist.m3u8?oasendtime=1595597850&oashash=KummHKZ4HWz8KgIOHbs7_xXzLMATSQxUAUagp95bEsU=",
       "http://stream.rs.co.th/ch8-hi/index.m3u8",
+      "http://27.254.130.64/live01/ch15.m3u8?p=st",
     ],
     groupName: "THAI DIGITAL TV",
   },
@@ -393,8 +393,8 @@ const streamingInfo = {
     channelName: "TPTV",
     logo: "https://iptv36.my.to/logo/tptv.png",
     urlList: [
-      "https://www.livedoomovies.com/02_TPTV_480p/chunklist.m3u8",
       "http://49.231.66.85:1935/live/tptv/playlist.m3u8",
+      "https://www.livedoomovies.com/02_TPTV_480p/chunklist.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
   },
