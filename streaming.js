@@ -28,7 +28,7 @@ const streamingInfo = {
   },
 
   bbcearth: {
-    channelName: "BBC earth HD",
+    channelName: "BBC Earth HD",
     logo: "https://iptv36.my.to/logo/bbc_earth.jpg",
     urlList: ["http://160.119.77.50/iptv/sd-bbcearth.stream/playlist.m3u8"],
     groupName: "PREMIUM",
@@ -53,7 +53,7 @@ const streamingInfo = {
   },
 
   blueantent: {
-    channelName: "Blue Ant Ent HD",
+    channelName: "Blue Ant ENT HD",
     logo: "https://iptv36.my.to/logo/blue_ant.jpg",
     urlList: ["http://160.119.77.50/iptv/hd-rtlcbs.stream/playlist.m3u8"],
     groupName: "PREMIUM",
@@ -66,22 +66,6 @@ const streamingInfo = {
       "http://edge4-bkk.3bb.co.th:1935/CartoonClub_Livestream/cartoonclub_480P.stream/chunklist.m3u8",
     ],
     groupName: "SAT & CABLE",
-  },
-
-  cctv: {
-    channelName: "CCTV",
-    logo: "https://iptv36.my.to/logo/cctv.png",
-    urlList: [
-      "rtsp://admin@192.168.1.211:554/mpeg4/ch1/main/av_stream",
-      "rtsp://admin@192.168.1.212:554/mpeg4/ch1/main/av_stream",
-      "rtsp://admin@192.168.1.203:554/mpeg4/ch1/main/av_stream",
-      "rtsp://admin@192.168.1.204:554/mpeg4/ch1/main/av_stream",
-      "rtsp://admin@192.168.1.205:554/mpeg4/ch1/main/av_stream",
-      "rtsp://admin@192.168.1.206:554/mpeg4/ch1/main/av_stream",
-      "rtsp://admin@192.168.1.207:554/mpeg4/ch1/main/av_stream",
-      "rtsp://admin@192.168.1.208:554/mpeg4/ch1/main/av_stream",
-    ],
-    groupName: "IP CAM",
   },
 
   ch2: {
@@ -121,6 +105,13 @@ const streamingInfo = {
     groupName: "THAI DIGITAL TV",
   },
 
+  ctb: {
+    channelName: "CTB TV",
+    logo: "https://iptv36.my.to/logo/ctb.jpg",
+    urlList: ["http://vip.login.in.th:1935/CTB/CTB/chunklist.m3u8"],
+    groupName: "SAT & CABLE",
+  },
+
   foxactionmovies: {
     channelName: "Fox Action Movies HD",
     logo: "https://iptv36.my.to/logo/fox_action_movies.png",
@@ -151,7 +142,7 @@ const streamingInfo = {
     channelName: "GMM25 HD",
     logo: "https://iptv36.my.to/logo/gmm25.png",
     urlList: [
-      "https://stream-04.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_fgrCh_Cfl1H_qYOWaN-ZBg)/dm/3/x6rz4t7/s/live-3.m3u8",
+      "https://stream-05.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_YLomQ5yg-ceviitJLiLrz8)/dm/3/x6rz4t7/s/live-3.m3u8",
       "http://183.182.100.184/live/mcothd/playlist.m3u8",
       "http://27.254.130.56:80/live01/ch11.m3u8",
     ],
@@ -169,18 +160,18 @@ const streamingInfo = {
     channelName: "History HD",
     logo: "https://iptv36.my.to/logo/history.png",
     urlList: [
-      "http://203.150.107.30:8081/tested2iptv/core106/playlist.m3u8",
-      "https://www.livedoomovies.com/02_H2HD_720p/chunklist.m3u8",
+      "http://203.150.107.30:8081/tested2iptv/core105/playlist.m3u8",
+      "https://www.livedoomovies.com/02_HISTORYHD_720p/chunklist.m3u8",
     ],
     groupName: "PREMIUM",
   },
 
   history2: {
-    channelName: "History2 HD",
+    channelName: "History HD",
     logo: "https://iptv36.my.to/logo/history2.png",
     urlList: [
-      "http://203.150.107.30:8081/tested2iptv/core105/playlist.m3u8",
-      "https://www.livedoomovies.com/02_HISTORYHD_720p/chunklist.m3u8",
+      "http://203.150.107.30:8081/tested2iptv/core106/playlist.m3u8",
+      "https://www.livedoomovies.com/02_H2HD_720p/chunklist.m3u8",
     ],
     groupName: "PREMIUM",
   },
@@ -197,6 +188,22 @@ const streamingInfo = {
     groupName: "SAT & CABLE",
   },
 
+  ipcam: {
+    channelName: "IPCAM",
+    logo: "https://iptv36.my.to/logo/cctv.png",
+    urlList: [
+      "rtsp://admin@192.168.1.211:554/mpeg4/ch1/main/av_stream",
+      "rtsp://admin@192.168.1.212:554/mpeg4/ch1/main/av_stream",
+      "rtsp://admin@192.168.1.203:554/mpeg4/ch1/main/av_stream",
+      "rtsp://admin@192.168.1.204:554/mpeg4/ch1/main/av_stream",
+      "rtsp://admin@192.168.1.205:554/mpeg4/ch1/main/av_stream",
+      "rtsp://admin@192.168.1.206:554/mpeg4/ch1/main/av_stream",
+      "rtsp://admin@192.168.1.207:554/mpeg4/ch1/main/av_stream",
+      "rtsp://admin@192.168.1.208:554/mpeg4/ch1/main/av_stream",
+    ],
+    groupName: "IP CAM",
+  },
+
   m: {
     channelName: "M Channel",
     logo: "https://iptv36.my.to/logo/m.png",
@@ -211,9 +218,9 @@ const streamingInfo = {
     channelName: "MCOT HD",
     logo: "https://iptv36.my.to/logo/mcot.png",
     urlList: [
-      "http://mcotdigital-pnnouc.cdn.byteark.com/mcothd1080p_edge/smil:mcothd1080p.smil/chunklist.m3u8",
       "http://livesport2018.dyndns.tv:8080/live/mcothd/playlist.m3u8",
       "http://160.119.77.50/iptv/hd-mcot.stream/playlist.m3u8",
+      "https://stream-05.sg1.dailymotion.com/sec(86G48EQSWKUUFPhHXEV5xmwnnbF33IWoa-BrdFbZd9E)/dm/3/x74wlgj/s/live-3.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
   },
@@ -245,7 +252,7 @@ const streamingInfo = {
   },
 
   natgeo: {
-    channelName: "NAT Geo HD",
+    channelName: "NAT GEO HD",
     logo: "https://iptv36.my.to/logo/nat_geo.jpg",
     urlList: ["http://160.119.77.50/iptv/hd-natgeo.stream/playlist.m3u8"],
     groupName: "PREMIUM",
@@ -255,8 +262,8 @@ const streamingInfo = {
     channelName: "Nation TV",
     logo: "https://iptv36.my.to/logo/nation.jpg",
     urlList: [
-      "https://stream-03.sg1.dailymotion.com/sec(ccIVIlWaGsSkNrAGI3_YSU1xUKzfQcSVMDPsmMipUJI)/dm/3/x6eoldf/d/live-2.m3u8",
       "https://cdn6.goprimetime.info/feed/chnation/index.m3u8",
+      "https://stream-04.sg1.dailymotion.com/sec(ccIVIlWaGsSkNrAGI3_YSXmG9Ahkq2SGjTnVvp1azdM)/dm/3/x6eoldf/d/live-2.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
   },
@@ -272,7 +279,7 @@ const streamingInfo = {
     channelName: "NEW 18 HD",
     logo: "https://iptv36.my.to/logo/new18.jpg",
     urlList: [
-      "https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54_jx19XaDqd3H6rASDTX4kw)/dm/3/x7kx5i7/s/live-4.m3u8",
+      "https://stream-04.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL545mPUJco46dajilq0T23fKc)/dm/3/x7kx5i7/s/live-3.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
   },
@@ -381,7 +388,7 @@ const streamingInfo = {
   },
 
   tnn16: {
-    channelName: "TNN 16",
+    channelName: "TNN16",
     logo: "https://iptv36.my.to/logo/tnn16.png",
     urlList: [
       "http://119.59.125.74/stream/totnew.php?channel_id=77774220bb8e40aa94e549e29ff3ed8a&.m3u8",
@@ -445,6 +452,15 @@ const streamingInfo = {
     groupName: "THAI DIGITAL TV",
   },
 
+  tvb: {
+    channelName: "TVB Thai",
+    logo: "https://iptv36.my.to/logo/blank.png",
+    urlList: [
+      "https://edge6a.v2h-cdn.com/RE_HD/smil:TVB_HD_ABR.smil/playlist.m3u8",
+    ],
+    groupName: "SAT & CABLE",
+  },
+
   voice: {
     channelName: "Voice TV HD",
     logo: "https://iptv36.my.to/logo/voice_tv.png",
@@ -461,6 +477,15 @@ const streamingInfo = {
     groupName: "PREMIUM",
   },
 
+  up1: {
+    channelName: "UP1 Movie",
+    logo: "https://iptv36.my.to/logo/ctb.jpg",
+    urlList: [
+      "http://27.254.149.109:8081/tumlive/upmovie.stream/playlist.m3u8",
+    ],
+    groupName: "SAT & CABLE",
+  },
+
   warner: {
     channelName: "Warner TV HD",
     logo: "https://iptv36.my.to/logo/warner.png",
@@ -472,7 +497,7 @@ const streamingInfo = {
     channelName: "Workpoint TV HD",
     logo: "https://iptv36.my.to/logo/workpoint.png",
     urlList: [
-      "https://stream-01.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8pgK24YkyQHLfYqx9ycL16c)/dm/3/x6g9qjj/s/live-4.m3u8",
+      "https://stream-04.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8k7FJWa0snOI0-vHnoZ2QTA)/dm/3/x6g9qjj/s/live-3.m3u8",
       "http://27.254.130.56:80/live01/ch7.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
