@@ -48,7 +48,7 @@ const streamingInfo = {
     channelName: "beIN Sports HD2",
     logo: "https://iptv36.my.to/logo/bein2.png",
     urlList: [
-      "https://livedoomovies.com/02_epl2_720p/chunklist.m3u8",
+      "https://www.livedoomovies.com/02_epl2_720p/chunklist.m3u8",
       "http://103.208.24.234:1935/thaisport/epl-bein2.stream/playlist.m3u8",
     ],
     groupName: "PREMIUM",
@@ -351,6 +351,7 @@ const streamingInfo = {
     channelName: "Premier HD4",
     logo: "https://iptv36.my.to/logo/premier_hd4.png",
     urlList: [
+      "https://www.livedoomovies.com/02_PremierHD4_720p/chunklist.m3u8",
       "http://103.208.24.234:1935/thaisport/epl-4.stream/playlist.m3u8",
     ],
     groupName: "PREMIUM",
@@ -360,6 +361,7 @@ const streamingInfo = {
     channelName: "Premier HD5",
     logo: "https://iptv36.my.to/logo/premier_hd5.png",
     urlList: [
+      "https://www.livedoomovies.com/02_PremierHD5_720p/chunklist.m3u8",
       "http://103.208.24.234:1935/thaisport/epl-5.stream/playlist.m3u8",
     ],
     groupName: "PREMIUM",

@@ -58,7 +58,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 21          | Voice TV HD          |
 | 22          | Nation TV HD         |
 | 23          | Workpoint TV HD      |
-| 24          | true4U               |
+| 24          | True 4U              |
 | 25          | GMM25 HD             |
 | 26          | M Channel            |
 | 27          | CH8 RS               |

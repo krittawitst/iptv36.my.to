@@ -1,4 +1,4 @@
-#EXTM3U : iptv36.my.to/IPTV36.m3u - Last Update 2020-07-31T13:09:16.253Z
+#EXTM3U : iptv36.my.to/IPTV36.m3u - Last Update 2020-07-31T13:21:12.206Z
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tv5.png" group-title="THAI DIGITAL TV", 1. TV5 HD
 http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8
@@ -40,10 +40,10 @@ http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8
 http://203.150.107.30:8081/tested2iptv/core103/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/premier_hd4.png" group-title="PREMIUM", 14. Premier HD4
-http://103.208.24.234:1935/thaisport/epl-4.stream/playlist.m3u8
+https://www.livedoomovies.com/02_PremierHD4_720p/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/premier_hd5.png" group-title="PREMIUM", 15. Premier HD5
-http://103.208.24.234:1935/thaisport/epl-5.stream/playlist.m3u8
+https://www.livedoomovies.com/02_PremierHD5_720p/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tnn16.png" group-title="THAI DIGITAL TV", 16. TNN16
 http://119.59.125.74/stream/totnew.php?channel_id=77774220bb8e40aa94e549e29ff3ed8a&.m3u8
@@ -112,7 +112,7 @@ http://203.150.107.30:8081/tested2iptv/core1/playlist.m3u8
 https://www.livedoomovies.com/02_epl1_720p/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/bein2.png" group-title="PREMIUM", 38. beIN Sports HD2
-https://livedoomovies.com/02_epl2_720p/chunklist.m3u8
+https://www.livedoomovies.com/02_epl2_720p/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/true_sports_hd.png" group-title="PREMIUM", 39. True Sports HD
 http://103.208.24.234:1935/thaisport/hd-tsport1.stream/chunklist.m3u8
