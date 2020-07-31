@@ -102,7 +102,7 @@ const proPlaylist = {
     getStreamingInfo("blueantent"),
     getStreamingInfo("natgeo"),
     getStreamingInfo("bbcearth"),
-    getStreamingInfo("history"),
+    getStreamingInfo("history2"),
     getStreamingInfo("one", 1, {
       channelName: "ONE HD (Alt)",
       groupName: "THAI DIGITAL TV 2",

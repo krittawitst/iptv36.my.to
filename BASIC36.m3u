@@ -1,4 +1,4 @@
-#EXTM3U : iptv36.my.to/BASIC36.m3u - Last Update 2020-07-31T12:35:43.506Z
+#EXTM3U : iptv36.my.to/BASIC36.m3u - Last Update 2020-07-31T13:09:16.252Z
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tv5.png" group-title="THAI DIGITAL TV", 1. TV5 HD
 http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8
@@ -69,7 +69,7 @@ https://cdn6.goprimetime.info/feed/chnation/index.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/workpoint.png" group-title="THAI DIGITAL TV", 23. Workpoint TV HD
 https://stream-01.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8qtq0dstMoKtTcVPwS7gbWk)/dm/3/x6g9qjj/s/live-4.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/true4u.png" group-title="THAI DIGITAL TV", 24. true4U
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/true4u.png" group-title="THAI DIGITAL TV", 24. True 4U
 http://183.182.100.184/live/true4u/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/gmm25.png" group-title="THAI DIGITAL TV", 25. GMM25 HD

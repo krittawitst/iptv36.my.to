@@ -1,4 +1,4 @@
-#EXTM3U : iptv36.my.to/IPTV36.m3u - Last Update 2020-07-31T12:35:43.508Z
+#EXTM3U : iptv36.my.to/IPTV36.m3u - Last Update 2020-07-31T13:09:16.253Z
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tv5.png" group-title="THAI DIGITAL TV", 1. TV5 HD
 http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8
@@ -15,7 +15,7 @@ https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/true_film_hd.png" group-title="PREMIUM", 5. True Film HD
 http://160.119.77.50/iptv/hd-tfilm.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/hbo.jpg" group-title="PREMIUM", 6. HBO HD
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/hbo.jpg" group-title="PREMIUM", 6. HBO
 https://www.livedoomovies.com/02_HBOHD_720p/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/fox_movies.png" group-title="PREMIUM", 7. FOX Movies HD
@@ -37,7 +37,7 @@ http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8
 http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/premier_hd3.png" group-title="PREMIUM", 13. Premier HD3
-http://103.208.24.234:1935/thaisport/epl-3.stream/playlist.m3u8
+http://203.150.107.30:8081/tested2iptv/core103/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/premier_hd4.png" group-title="PREMIUM", 14. Premier HD4
 http://103.208.24.234:1935/thaisport/epl-4.stream/playlist.m3u8
@@ -69,7 +69,7 @@ https://cdn6.goprimetime.info/feed/chnation/index.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/workpoint.png" group-title="THAI DIGITAL TV", 23. Workpoint TV HD
 https://stream-01.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8qtq0dstMoKtTcVPwS7gbWk)/dm/3/x6g9qjj/s/live-4.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/true4u.png" group-title="THAI DIGITAL TV", 24. true4U
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/true4u.png" group-title="THAI DIGITAL TV", 24. True 4U
 http://183.182.100.184/live/true4u/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/gmm25.png" group-title="THAI DIGITAL TV", 25. GMM25 HD
@@ -109,10 +109,10 @@ http://livesport2018.dyndns.tv:8080/live/7hd/playlist.m3u8
 http://203.150.107.30:8081/tested2iptv/core1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/bein1.png" group-title="PREMIUM", 37. beIN Sports HD1
-http://103.208.24.234:1935/thaisport/epl-bein1.stream/playlist.m3u8
+https://www.livedoomovies.com/02_epl1_720p/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/bein2.png" group-title="PREMIUM", 38. beIN Sports HD2
-http://103.208.24.234:1935/thaisport/epl-bein2.stream/playlist.m3u8
+https://livedoomovies.com/02_epl2_720p/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/true_sports_hd.png" group-title="PREMIUM", 39. True Sports HD
 http://103.208.24.234:1935/thaisport/hd-tsport1.stream/chunklist.m3u8
@@ -136,7 +136,7 @@ http://27.254.149.109:8081/tumlive/ipmskyworldhd4.stream/playlist.m3u8
 http://203.150.107.30:8081/tested2iptv/core108/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/axn.png" group-title="PREMIUM", 46. AXN HD
-http://160.119.77.50/iptv/hd-axn.stream/playlist.m3u8
+https://livedoomovies.com/02_AXNHD_720p/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/blue_ant.jpg" group-title="PREMIUM", 47. Blue Ant ENT HD
 http://160.119.77.50/iptv/hd-rtlcbs.stream/playlist.m3u8
@@ -147,8 +147,8 @@ http://160.119.77.50/iptv/hd-natgeo.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/bbc_earth.jpg" group-title="PREMIUM", 49. BBC Earth HD
 http://160.119.77.50/iptv/sd-bbcearth.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/history.png" group-title="PREMIUM", 50. History HD
-http://203.150.107.30:8081/tested2iptv/core105/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/history2.png" group-title="PREMIUM", 50. History2 HD
+http://203.150.107.30:8081/tested2iptv/core106/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/one.png" group-title="THAI DIGITAL TV 2", 51. ONE HD (Alt)
 http://160.119.77.50/iptv/hd-gmmone.stream/playlist.m3u8
@@ -207,7 +207,7 @@ rtsp://admin@192.168.1.208:554/mpeg4/ch1/main/av_stream
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ctb.png" group-title="SAT & CABLE", 69. CTB TV
 http://vip.login.in.th:1935/CTB/CTB/chunklist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/up1.png" group-title="SAT & CABLE", 70. UP1 Movie
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/up1.jpg" group-title="SAT & CABLE", 70. UP1 Movie
 http://27.254.149.109:8081/tumlive/upmovie.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tvb.png" group-title="SAT & CABLE", 71. TVB Thai

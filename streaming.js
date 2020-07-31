@@ -21,8 +21,8 @@ const streamingInfo = {
     channelName: "AXN HD",
     logo: "https://iptv36.my.to/logo/axn.png",
     urlList: [
-      "http://160.119.77.50/iptv/hd-axn.stream/playlist.m3u8",
       "https://livedoomovies.com/02_AXNHD_720p/chunklist.m3u8",
+      "http://160.119.77.50/iptv/hd-axn.stream/playlist.m3u8",
     ],
     groupName: "PREMIUM",
   },
@@ -38,6 +38,7 @@ const streamingInfo = {
     channelName: "beIN Sports HD1",
     logo: "https://iptv36.my.to/logo/bein1.png",
     urlList: [
+      "https://www.livedoomovies.com/02_epl1_720p/chunklist.m3u8",
       "http://103.208.24.234:1935/thaisport/epl-bein1.stream/playlist.m3u8",
     ],
     groupName: "PREMIUM",
@@ -47,6 +48,7 @@ const streamingInfo = {
     channelName: "beIN Sports HD2",
     logo: "https://iptv36.my.to/logo/bein2.png",
     urlList: [
+      "https://livedoomovies.com/02_epl2_720p/chunklist.m3u8",
       "http://103.208.24.234:1935/thaisport/epl-bein2.stream/playlist.m3u8",
     ],
     groupName: "PREMIUM",
@@ -151,7 +153,7 @@ const streamingInfo = {
   },
 
   hbo: {
-    channelName: "HBO HD",
+    channelName: "HBO",
     logo: "https://iptv36.my.to/logo/hbo.jpg",
     urlList: ["https://www.livedoomovies.com/02_HBOHD_720p/chunklist.m3u8"],
     groupName: "PREMIUM",
@@ -320,6 +322,7 @@ const streamingInfo = {
     logo: "https://iptv36.my.to/logo/premier_hd1.png",
     urlList: [
       "http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8",
+      "http://203.150.107.30:8081/tested2iptv/core101/playlist.m3u8",
     ],
     groupName: "PREMIUM",
   },
@@ -329,6 +332,7 @@ const streamingInfo = {
     logo: "https://iptv36.my.to/logo/premier_hd2.png",
     urlList: [
       "http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8",
+      "http://203.150.107.30:8081/tested2iptv/core102/playlist.m3u8",
     ],
     groupName: "PREMIUM",
   },
@@ -337,6 +341,7 @@ const streamingInfo = {
     channelName: "Premier HD3",
     logo: "https://iptv36.my.to/logo/premier_hd3.png",
     urlList: [
+      "http://203.150.107.30:8081/tested2iptv/core103/playlist.m3u8",
       "http://103.208.24.234:1935/thaisport/epl-3.stream/playlist.m3u8",
     ],
     groupName: "PREMIUM",
@@ -408,7 +413,7 @@ const streamingInfo = {
   },
 
   true4u: {
-    channelName: "true4U",
+    channelName: "True 4U",
     logo: "https://iptv36.my.to/logo/true4u.png",
     urlList: [
       "http://183.182.100.184/live/true4u/chunklist.m3u8",
@@ -480,7 +485,7 @@ const streamingInfo = {
 
   up1: {
     channelName: "UP1 Movie",
-    logo: "https://iptv36.my.to/logo/up1.png",
+    logo: "https://iptv36.my.to/logo/up1.jpg",
     urlList: [
       "http://27.254.149.109:8081/tumlive/upmovie.stream/playlist.m3u8",
     ],
@@ -490,7 +495,10 @@ const streamingInfo = {
   warner: {
     channelName: "Warner TV HD",
     logo: "https://iptv36.my.to/logo/warner.png",
-    urlList: ["http://203.150.107.30:8081/tested2iptv/core108/playlist.m3u8"],
+    urlList: [
+      "http://203.150.107.30:8081/tested2iptv/core108/playlist.m3u8",
+      "http://203.150.107.30:8081/tested2iptv/core107/playlist.m3u8",
+    ],
     groupName: "PREMIUM",
   },
 
