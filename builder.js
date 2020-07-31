@@ -149,7 +149,7 @@ const proPlaylist = {
 const iptvPlaylist = {
   filename: "IPTV36.m3u",
   channelList: [
-    ...proPlaylist.channelList.slice(0, 50),
+    ...proPlaylist.channelList,
     getStreamingInfo("ipcam", 1, { channelName: "CAM1 | Park-164" }),
     getStreamingInfo("ipcam", 2, { channelName: "CAM2 | Park-163" }),
     getStreamingInfo("ipcam", 3, { channelName: "CAM3 | Toilet-163" }),
@@ -160,6 +160,8 @@ const iptvPlaylist = {
     getStreamingInfo("ipcam", 7, { channelName: "CAM8 | Com-Ying" }),
     getStreamingInfo("ctb"),
     getStreamingInfo("up1"),
+    getStreamingInfo("tvb"),
+    getStreamingInfo("cartoonclub"),
   ],
 };
 

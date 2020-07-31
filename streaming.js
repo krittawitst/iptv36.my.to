@@ -100,6 +100,7 @@ const streamingInfo = {
     logo: "https://iptv36.my.to/logo/ch8.jpg",
     urlList: [
       "http://stream.rs.co.th/ch8-hi/index.m3u8",
+      "https://5b629247e594c.streamlock.net/desktop/ch8_720p/playlist.m3u8?oasendtime=1596220069&oashash=OaFAijS6evCZ2FiOl-n5WGbqYG37q-EfslfPijLsskc=",
       "http://27.254.130.64/live01/ch15.m3u8?p=st",
     ],
     groupName: "THAI DIGITAL TV",
@@ -107,7 +108,7 @@ const streamingInfo = {
 
   ctb: {
     channelName: "CTB TV",
-    logo: "https://iptv36.my.to/logo/ctb.jpg",
+    logo: "https://iptv36.my.to/logo/ctb.png",
     urlList: ["http://vip.login.in.th:1935/CTB/CTB/chunklist.m3u8"],
     groupName: "SAT & CABLE",
   },
@@ -167,7 +168,7 @@ const streamingInfo = {
   },
 
   history2: {
-    channelName: "History HD",
+    channelName: "History2 HD",
     logo: "https://iptv36.my.to/logo/history2.png",
     urlList: [
       "http://203.150.107.30:8081/tested2iptv/core106/playlist.m3u8",
@@ -279,7 +280,7 @@ const streamingInfo = {
     channelName: "NEW 18 HD",
     logo: "https://iptv36.my.to/logo/new18.jpg",
     urlList: [
-      "https://stream-04.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL545mPUJco46dajilq0T23fKc)/dm/3/x7kx5i7/s/live-3.m3u8",
+      "https://stream-04.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54-e_ix1x-aKxfn1J5dUgaYc)/dm/3/x7kx5i7/s/live-3.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
   },
@@ -306,8 +307,8 @@ const streamingInfo = {
     channelName: "PPTV HD",
     logo: "https://iptv36.my.to/logo/pptv.png",
     urlList: [
-      "https://www.livedoomovies.com/02_PPTVHD_720p/chunklist.m3u8",
       "http://203.150.107.30:8081/tested2iptv/core1/playlist.m3u8",
+      "https://www.livedoomovies.com/02_PPTVHD_720p/chunklist.m3u8",
       "http://160.119.77.50/iptv/hd-pptv.stream/playlist.m3u8",
       "http://27.254.130.64/live01/ch2.m3u8?p=st",
     ],
@@ -454,7 +455,7 @@ const streamingInfo = {
 
   tvb: {
     channelName: "TVB Thai",
-    logo: "https://iptv36.my.to/logo/blank.png",
+    logo: "https://iptv36.my.to/logo/tvb.png",
     urlList: [
       "https://edge6a.v2h-cdn.com/RE_HD/smil:TVB_HD_ABR.smil/playlist.m3u8",
     ],
@@ -479,7 +480,7 @@ const streamingInfo = {
 
   up1: {
     channelName: "UP1 Movie",
-    logo: "https://iptv36.my.to/logo/ctb.jpg",
+    logo: "https://iptv36.my.to/logo/up1.png",
     urlList: [
       "http://27.254.149.109:8081/tumlive/upmovie.stream/playlist.m3u8",
     ],
@@ -497,7 +498,7 @@ const streamingInfo = {
     channelName: "Workpoint TV HD",
     logo: "https://iptv36.my.to/logo/workpoint.png",
     urlList: [
-      "https://stream-04.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8k7FJWa0snOI0-vHnoZ2QTA)/dm/3/x6g9qjj/s/live-3.m3u8",
+      "https://stream-01.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8qtq0dstMoKtTcVPwS7gbWk)/dm/3/x6g9qjj/s/live-4.m3u8",
       "http://27.254.130.56:80/live01/ch7.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
