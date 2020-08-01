@@ -39,7 +39,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 2           | NBT HD               |
 | 3           | Thai PBS HD          |
 | 4           | ALTV HD              |
-| 5           | Nation TV (Alt)      |
+| 5           | Workpoint TV (Alt)   |
 | 6           | PPTV HD (Alt)        |
 | 7           | CH7 HD (Alt)         |
 | 8           | CH8 RS (Alt)         |
@@ -49,7 +49,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 12          | Thairath TV HD (Alt) |
 | 13          | CH3 HD (Alt)         |
 | 14          | Amarin TV HD (Alt)   |
-| 15          | Workpoint TV (Alt)   |
+| 15          | Nation TV (Alt)      |
 | 16          | TNN16                |
 | 17          | NEWS1 HD             |
 | 18          | NEW 18 HD            |
@@ -58,7 +58,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 21          | Voice TV HD          |
 | 22          | Nation TV HD         |
 | 23          | Workpoint TV HD      |
-| 24          | True 4U              |
+| 24          | True4U               |
 | 25          | GMM25 HD             |
 | 26          | M Channel            |
 | 27          | CH8 RS               |

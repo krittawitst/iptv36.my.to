@@ -8,46 +8,46 @@ const basicPlaylist = {
     getStreamingInfo("nbt"),
     getStreamingInfo("thaipbs"),
     getStreamingInfo("altv"),
-    getStreamingInfo("nation", 1, {
-      channelName: "Nation TV (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+    getStreamingInfo("workpoint", 1, {
+      channelName: "Workpoint TV (Alt)",
+      groupName: "BACKUP",
     }),
     getStreamingInfo("pptv", 1, {
       channelName: "PPTV HD (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+      groupName: "BACKUP",
     }),
     getStreamingInfo("ch7", 1, {
       channelName: "CH7 HD (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+      groupName: "BACKUP",
     }),
     getStreamingInfo("ch8", 1, {
       channelName: "CH8 RS (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+      groupName: "BACKUP",
     }),
     getStreamingInfo("mono29", 1, {
       channelName: "MONO29 HD (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+      groupName: "BACKUP",
     }),
     getStreamingInfo("tptv"),
     getStreamingInfo("one", 1, {
       channelName: "ONE HD (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+      groupName: "BACKUP",
     }),
     getStreamingInfo("thairath", 1, {
       channelName: "Thairath TV HD (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+      groupName: "BACKUP",
     }),
     getStreamingInfo("ch3", 1, {
       channelName: "CH3 HD (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+      groupName: "BACKUP",
     }),
     getStreamingInfo("amarin", 1, {
       channelName: "Amarin TV HD (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+      groupName: "BACKUP",
     }),
-    getStreamingInfo("workpoint", 1, {
-      channelName: "Workpoint TV (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+    getStreamingInfo("nation", 1, {
+      channelName: "Nation TV (Alt)",
+      groupName: "BACKUP",
     }),
     getStreamingInfo("tnn16"),
     getStreamingInfo("news1"),
@@ -105,43 +105,43 @@ const proPlaylist = {
     getStreamingInfo("history2"),
     getStreamingInfo("one", 1, {
       channelName: "ONE HD (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+      groupName: "BACKUP",
     }),
     getStreamingInfo("thairath", 1, {
       channelName: "Thairath TV HD (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+      groupName: "BACKUP",
     }),
     getStreamingInfo("ch3", 1, {
       channelName: "CH3 HD (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+      groupName: "BACKUP",
     }),
     getStreamingInfo("amarin", 1, {
       channelName: "Amarin TV HD (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+      groupName: "BACKUP",
     }),
     getStreamingInfo("ch7", 1, {
       channelName: "CH7 HD (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+      groupName: "BACKUP",
     }),
     getStreamingInfo("pptv", 1, {
       channelName: "PPTV HD (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+      groupName: "BACKUP",
     }),
     getStreamingInfo("workpoint", 1, {
       channelName: "Workpoint TV (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+      groupName: "BACKUP",
     }),
     getStreamingInfo("ch8", 1, {
       channelName: "CH8 RS (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+      groupName: "BACKUP",
     }),
     getStreamingInfo("mono29", 1, {
       channelName: "MONO29 HD (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+      groupName: "BACKUP",
     }),
     getStreamingInfo("nation", 1, {
       channelName: "Nation TV (Alt)",
-      groupName: "THAI DIGITAL TV 2",
+      groupName: "BACKUP",
     }),
   ],
 };
@@ -161,7 +161,7 @@ const iptvPlaylist = {
     getStreamingInfo("ctb"),
     getStreamingInfo("up1"),
     getStreamingInfo("tvb"),
-    getStreamingInfo("cartoonclub"),
+    getStreamingInfo("history"),
   ],
 };
 

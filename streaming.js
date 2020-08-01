@@ -21,8 +21,8 @@ const streamingInfo = {
     channelName: "AXN HD",
     logo: "https://iptv36.my.to/logo/axn.png",
     urlList: [
-      "https://livedoomovies.com/02_AXNHD_720p/chunklist.m3u8",
       "http://160.119.77.50/iptv/hd-axn.stream/playlist.m3u8",
+      "https://livedoomovies.com/02_AXNHD_720p/chunklist.m3u8",
     ],
     groupName: "PREMIUM",
   },
@@ -38,8 +38,8 @@ const streamingInfo = {
     channelName: "beIN Sports HD1",
     logo: "https://iptv36.my.to/logo/bein1.png",
     urlList: [
-      "https://www.livedoomovies.com/02_epl1_720p/chunklist.m3u8",
       "http://103.208.24.234:1935/thaisport/epl-bein1.stream/playlist.m3u8",
+      "https://www.livedoomovies.com/02_epl1_720p/chunklist.m3u8",
     ],
     groupName: "PREMIUM",
   },
@@ -102,7 +102,6 @@ const streamingInfo = {
     logo: "https://iptv36.my.to/logo/ch8.jpg",
     urlList: [
       "http://stream.rs.co.th/ch8-hi/index.m3u8",
-      "https://5b629247e594c.streamlock.net/desktop/ch8_720p/playlist.m3u8?oasendtime=1596220069&oashash=OaFAijS6evCZ2FiOl-n5WGbqYG37q-EfslfPijLsskc=",
       "http://27.254.130.64/live01/ch15.m3u8?p=st",
     ],
     groupName: "THAI DIGITAL TV",
@@ -331,8 +330,8 @@ const streamingInfo = {
     channelName: "Premier HD2",
     logo: "https://iptv36.my.to/logo/premier_hd2.png",
     urlList: [
-      "http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8",
       "http://203.150.107.30:8081/tested2iptv/core102/playlist.m3u8",
+      "http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8",
     ],
     groupName: "PREMIUM",
   },
@@ -415,7 +414,7 @@ const streamingInfo = {
   },
 
   true4u: {
-    channelName: "True 4U",
+    channelName: "True4U",
     logo: "https://iptv36.my.to/logo/true4u.png",
     urlList: [
       "http://183.182.100.184/live/true4u/chunklist.m3u8",
