@@ -77,7 +77,7 @@ const proPlaylist = {
   filename: "PRO36.m3u",
   channelList: [
     ...basicPlaylist.channelList.slice(0, 4),
-    getStreamingInfo("truefilm"),
+    getStreamingInfo("up1"),
     getStreamingInfo("hbo"),
     getStreamingInfo("foxmovies"),
     getStreamingInfo("foxactionmovies"),
@@ -100,8 +100,8 @@ const proPlaylist = {
     getStreamingInfo("warner"),
     getStreamingInfo("axn"),
     getStreamingInfo("blueantent"),
-    getStreamingInfo("natgeo"),
     getStreamingInfo("bbcearth"),
+    getStreamingInfo("history"),
     getStreamingInfo("history2"),
     getStreamingInfo("one", 1, {
       channelName: "ONE HD (Alt)",
@@ -159,9 +159,9 @@ const iptvPlaylist = {
     getStreamingInfo("ipcam", 7, { channelName: "CAM7 | Com-TV" }),
     getStreamingInfo("ipcam", 7, { channelName: "CAM8 | Com-Ying" }),
     getStreamingInfo("ctb"),
-    getStreamingInfo("up1"),
+    getStreamingInfo("truefilm"),
     getStreamingInfo("tvb"),
-    getStreamingInfo("history"),
+    getStreamingInfo("natgeo"),
   ],
 };
 

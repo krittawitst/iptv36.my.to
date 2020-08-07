@@ -1,4 +1,4 @@
-#EXTM3U : iptv36.my.to/BASIC36.m3u - Last Update 2020-08-01T04:48:52.785Z
+#EXTM3U : iptv36.my.to/BASIC36.m3u - Last Update 2020-08-07T02:42:48.215Z
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tv5.png" group-title="THAI DIGITAL TV", 1. TV5 HD
 http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8
@@ -43,7 +43,7 @@ https://www.livedoomovies.com/02_3HD_720p/chunklist.m3u8
 http://160.119.77.50/iptv/hd-amarin.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/nation.jpg" group-title="BACKUP", 15. Nation TV (Alt)
-https://stream-04.sg1.dailymotion.com/sec(ccIVIlWaGsSkNrAGI3_YSXmG9Ahkq2SGjTnVvp1azdM)/dm/3/x6eoldf/d/live-2.m3u8
+https://stream-02.sg1.dailymotion.com/sec(ccIVIlWaGsSkNrAGI3_YSU87tHIp7_fcuzD2C9y1i2g)/dm/3/x6eoldf/d/live-3.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tnn16.png" group-title="THAI DIGITAL TV", 16. TNN16
 http://119.59.125.74/stream/totnew.php?channel_id=77774220bb8e40aa94e549e29ff3ed8a&.m3u8
@@ -52,7 +52,7 @@ http://119.59.125.74/stream/totnew.php?channel_id=77774220bb8e40aa94e549e29ff3ed
 http://news1.live14.com/stream/news1_hi.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/new18.jpg" group-title="THAI DIGITAL TV", 18. NEW 18 HD
-https://stream-04.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54-e_ix1x-aKxfn1J5dUgaYc)/dm/3/x7kx5i7/s/live-3.m3u8
+https://stream-02.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54yisLUgYGEm7wtMwh0gAqwE)/dm/3/x7kx5i7/s/live-4.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/psi.png" group-title="SAT & CABLE", 19. PSI Saradee HD
 http://96.30.124.100:1935/edgepsi/PSIHD.stream_720p/playlist.m3u8
@@ -67,13 +67,13 @@ https://edge6a.v2h-cdn.com/appt3/WOWSH.stream_720p/chunklist_w142679599.m3u8
 https://cdn6.goprimetime.info/feed/chnation/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/workpoint.png" group-title="THAI DIGITAL TV", 23. Workpoint TV HD
-https://stream-01.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8qtq0dstMoKtTcVPwS7gbWk)/dm/3/x6g9qjj/s/live-4.m3u8
+https://stream-02.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8sBIK5TrScOCK8EKTRLBZrk)/dm/3/x6g9qjj/s/live-4.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/true4u.png" group-title="THAI DIGITAL TV", 24. True4U
 http://183.182.100.184/live/true4u/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/gmm25.png" group-title="THAI DIGITAL TV", 25. GMM25 HD
-https://stream-05.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_YLomQ5yg-ceviitJLiLrz8)/dm/3/x6rz4t7/s/live-3.m3u8
+https://stream-04.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_VWGWmcsOl2LoFFv1BPMKE8)/dm/3/x6rz4t7/s/live-3.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/m.png" group-title="SAT & CABLE", 26. M Channel
 http://27.254.142.207:8080/live/web.m3u8
