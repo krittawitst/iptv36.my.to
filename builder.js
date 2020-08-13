@@ -9,7 +9,7 @@ const basicPlaylist = {
     getStreamingInfo("thaipbs"),
     getStreamingInfo("altv"),
     getStreamingInfo("workpoint", 1, {
-      channelName: "Workpoint TV (Alt)",
+      channelName: "Workpoint TV HD (Alt)",
       groupName: "BACKUP",
     }),
     getStreamingInfo("pptv", 1, {
@@ -45,8 +45,8 @@ const basicPlaylist = {
       channelName: "Amarin TV HD (Alt)",
       groupName: "BACKUP",
     }),
-    getStreamingInfo("nation", 1, {
-      channelName: "Nation TV (Alt)",
+    getStreamingInfo("gmm25", 1, {
+      channelName: "GMM25 HD (Alt)",
       groupName: "BACKUP",
     }),
     getStreamingInfo("tnn16"),
@@ -77,7 +77,7 @@ const proPlaylist = {
   filename: "PRO36.m3u",
   channelList: [
     ...basicPlaylist.channelList.slice(0, 4),
-    getStreamingInfo("up1"),
+    getStreamingInfo("truefilm"),
     getStreamingInfo("hbo"),
     getStreamingInfo("foxmovies"),
     getStreamingInfo("foxactionmovies"),
@@ -91,8 +91,8 @@ const proPlaylist = {
     ...basicPlaylist.channelList.slice(15, 36),
     getStreamingInfo("bein1"),
     getStreamingInfo("bein2"),
-    getStreamingInfo("truesporthd"),
-    getStreamingInfo("truesporthd2"),
+    getStreamingInfo("up1"),
+    getStreamingInfo("ctb"),
     getStreamingInfo("livesky", 4, { channelName: "Live SKY 1 HD" }),
     getStreamingInfo("livesky", 1, { channelName: "Live SKY 2 HD" }),
     getStreamingInfo("livesky", 2, { channelName: "Live SKY 3 HD" }),
@@ -128,7 +128,7 @@ const proPlaylist = {
       groupName: "BACKUP",
     }),
     getStreamingInfo("workpoint", 1, {
-      channelName: "Workpoint TV (Alt)",
+      channelName: "Workpoint TV HD (Alt)",
       groupName: "BACKUP",
     }),
     getStreamingInfo("ch8", 1, {
@@ -139,8 +139,8 @@ const proPlaylist = {
       channelName: "MONO29 HD (Alt)",
       groupName: "BACKUP",
     }),
-    getStreamingInfo("nation", 1, {
-      channelName: "Nation TV (Alt)",
+    getStreamingInfo("gmm25", 1, {
+      channelName: "GMM25 HD (Alt)",
       groupName: "BACKUP",
     }),
   ],
@@ -158,8 +158,8 @@ const iptvPlaylist = {
     getStreamingInfo("ipcam", 6, { channelName: "CAM6 | Floor-2" }),
     getStreamingInfo("ipcam", 7, { channelName: "CAM7 | Com-TV" }),
     getStreamingInfo("ipcam", 7, { channelName: "CAM8 | Com-Ying" }),
-    getStreamingInfo("ctb"),
-    getStreamingInfo("truefilm"),
+    getStreamingInfo("truesporthd"),
+    getStreamingInfo("truesporthd2"),
     getStreamingInfo("tvb"),
     getStreamingInfo("natgeo"),
   ],

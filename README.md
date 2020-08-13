@@ -33,41 +33,41 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 
 ## ช่องรายการ
 
-| หมายเลขช่อง | ชื่อช่อง             |
-| ----------- | -------------------- |
-| 1           | TV5 HD               |
-| 2           | NBT HD               |
-| 3           | Thai PBS HD          |
-| 4           | ALTV HD              |
-| 5           | Workpoint TV (Alt)   |
-| 6           | PPTV HD (Alt)        |
-| 7           | CH7 HD (Alt)         |
-| 8           | CH8 RS (Alt)         |
-| 9           | MONO29 HD (Alt)      |
-| 10          | TPTV                 |
-| 11          | ONE HD (Alt)         |
-| 12          | Thairath TV HD (Alt) |
-| 13          | CH3 HD (Alt)         |
-| 14          | Amarin TV HD (Alt)   |
-| 15          | Nation TV (Alt)      |
-| 16          | TNN16                |
-| 17          | NEWS1 HD             |
-| 18          | NEW 18 HD            |
-| 19          | PSI Saradee HD       |
-| 20          | CH2 RS               |
-| 21          | Voice TV HD          |
-| 22          | Nation TV HD         |
-| 23          | Workpoint TV HD      |
-| 24          | True4U               |
-| 25          | GMM25 HD             |
-| 26          | M Channel            |
-| 27          | CH8 RS               |
-| 28          | MONO PLUS HD         |
-| 29          | MONO29 HD            |
-| 30          | MCOT HD              |
-| 31          | ONE HD               |
-| 32          | Thairath TV HD       |
-| 33          | CH3 HD               |
-| 34          | Amarin TV HD         |
-| 35          | CH7 HD               |
-| 36          | PPTV HD              |
+| หมายเลขช่อง | ชื่อช่อง              |
+| ----------- | --------------------- |
+| 1           | TV5 HD                |
+| 2           | NBT HD                |
+| 3           | Thai PBS HD           |
+| 4           | ALTV HD               |
+| 5           | Workpoint TV HD (Alt) |
+| 6           | PPTV HD (Alt)         |
+| 7           | CH7 HD (Alt)          |
+| 8           | CH8 RS (Alt)          |
+| 9           | MONO29 HD (Alt)       |
+| 10          | TPTV                  |
+| 11          | ONE HD (Alt)          |
+| 12          | Thairath TV HD (Alt)  |
+| 13          | CH3 HD (Alt)          |
+| 14          | Amarin TV HD (Alt)    |
+| 15          | GMM25 HD (Alt)        |
+| 16          | TNN16                 |
+| 17          | NEWS1 HD              |
+| 18          | NEW 18 HD             |
+| 19          | PSI Saradee HD        |
+| 20          | CH2 RS                |
+| 21          | Voice TV HD           |
+| 22          | Nation TV HD          |
+| 23          | Workpoint TV          |
+| 24          | True4U                |
+| 25          | GMM25                 |
+| 26          | M Channel             |
+| 27          | CH8 RS                |
+| 28          | MONO PLUS HD          |
+| 29          | MONO29 HD             |
+| 30          | MCOT HD               |
+| 31          | ONE HD                |
+| 32          | Thairath TV HD        |
+| 33          | CH3 HD                |
+| 34          | Amarin TV HD          |
+| 35          | CH7 HD                |
+| 36          | PPTV HD               |
