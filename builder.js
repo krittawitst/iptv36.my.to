@@ -161,7 +161,7 @@ const iptvPlaylist = {
     getStreamingInfo("truesporthd"),
     getStreamingInfo("truesporthd2"),
     getStreamingInfo("tvb"),
-    getStreamingInfo("natgeo"),
+    getStreamingInfo("mysci"),
   ],
 };
 
