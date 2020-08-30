@@ -21,8 +21,8 @@ const streamingInfo = {
     channelName: "AXN HD",
     logo: "https://iptv36.my.to/logo/axn.png",
     urlList: [
-      "http://160.119.77.50/iptv/hd-axn.stream/playlist.m3u8",
       "https://livedoomovies.com/02_AXNHD_720p/chunklist.m3u8",
+      "http://160.119.77.50/iptv/hd-axn.stream/playlist.m3u8",
     ],
     groupName: "PREMIUM",
   },
@@ -48,8 +48,8 @@ const streamingInfo = {
     channelName: "beIN Sports HD2",
     logo: "https://iptv36.my.to/logo/bein2.png",
     urlList: [
-      "https://www.livedoomovies.com/02_epl2_720p/chunklist.m3u8",
       "http://103.208.24.234:1935/thaisport/epl-bein2.stream/playlist.m3u8",
+      "https://www.livedoomovies.com/02_epl2_720p/chunklist.m3u8",
     ],
     groupName: "PREMIUM",
   },
@@ -81,8 +81,8 @@ const streamingInfo = {
     channelName: "CH3 HD",
     logo: "https://iptv36.my.to/logo/ch3.png",
     urlList: [
-      "https://www.livedoomovies.com/02_3HD_720p/chunklist.m3u8",
       "http://160.119.77.50/iptv/hd-ch3.stream/playlist.m3u8",
+      "https://www.livedoomovies.com/02_3HD_720p/chunklist.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
   },
@@ -102,8 +102,8 @@ const streamingInfo = {
     channelName: "CH8 RS",
     logo: "https://iptv36.my.to/logo/ch8.jpg",
     urlList: [
-      "http://stream.rs.co.th/ch8-hi/index.m3u8",
       "https://5b684377f3572.streamlock.net/desktop/ch8_720p/playlist.m3u8?oasendtime=1598303615&oashash=Cr6Uh_0RHJtRVJNrKYFkKDm9Yr2tYUwY46RJytBS7IM=",
+      "http://stream.rs.co.th/ch8-hi/index.m3u8",
       "http://27.254.130.64/live01/ch15.m3u8?p=st",
     ],
     groupName: "THAI DIGITAL TV",
@@ -147,7 +147,7 @@ const streamingInfo = {
     logo: "https://iptv36.my.to/logo/gmm25.png",
     urlList: [
       "http://183.182.100.184/live/mcothd/playlist.m3u8",
-      " https://stream-05.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_Xsc_oABtZkRYvAANIUuLxQ)/dm/3/x6rz4t7/s/live-3.m3u8",
+      "https://stream-04.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_QV6v6KB_X1hXKWFIEp2HBo)/dm/3/x6rz4t7/s/live-3.m3u8",
       "http://27.254.130.56:80/live01/ch11.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
@@ -233,9 +233,8 @@ const streamingInfo = {
     channelName: "MONO PLUS HD",
     logo: "https://iptv36.my.to/logo/monoplus.png",
     urlList: [
-      "http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/cloudiptv_monoplus_live1.stream/chunklist_w1565154725.m3u8?username=GkMz5DWCVWpqHRTXjCehexvGgI25cp0I&password=cSYpVEE2gBTXKNlTEBDoct4OOKPphBJk",
-      "https://edge4-bkk.3bb.co.th:9443/MonoPlus_LiveHLS/monoplusLive_HLS720p.stream/chunklist_w501711662.m3u8",
-    ],
+      "https://edge3-bkk.3bb.co.th:9443/MonoPlus_LiveDRM/MonoPlusLive_DRM720p.stream/manifest_w351631964.mpd",
+      "https://edge4-bkk.3bb.co.th:9443/MonoPlus_LiveHLS/monoplusLive_HLS720p.stream/chunklist_w501711662.m3u8"],
     groupName: "THAI DIGITAL TV",
   },
 
@@ -244,7 +243,7 @@ const streamingInfo = {
     logo: "https://iptv36.my.to/logo/mono29.png",
     urlList: [
       "https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/chunklist_w1578972109.m3u8",
-      "https://edge3-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/chunklist_w1578972109.m3u8",
+      "https://59257875d9af2.streamlock.net/MONO29_DRM/mono29DRM_360TH.stream/manifest_w998972392.mpd",
     ],
     groupName: "THAI DIGITAL TV",
   },
@@ -297,8 +296,8 @@ const streamingInfo = {
     channelName: "ONE HD",
     logo: "https://iptv36.my.to/logo/one.png",
     urlList: [
-      "https://one31-rlbwkq.cdn.byteark.com/live/playlist-hd.m3u8",
       "http://160.119.77.50/iptv/hd-gmmone.stream/playlist.m3u8",
+      "https://one31-rlbwkq.cdn.byteark.com/live/playlist-hd.m3u8",
       "https://cdn-laos.workpoint.news/hd-gmmone_720/index.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
@@ -330,8 +329,8 @@ const streamingInfo = {
     channelName: "Premier HD2",
     logo: "https://iptv36.my.to/logo/premier_hd2.png",
     urlList: [
-      "http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8",
       "http://203.150.107.30:8081/tested2iptv/core102/playlist.m3u8",
+      "http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8",
     ],
     groupName: "PREMIUM",
   },
@@ -507,9 +506,8 @@ const streamingInfo = {
     channelName: "Workpoint TV",
     logo: "https://iptv36.my.to/logo/workpoint.png",
     urlList: [
-      "https://stream-04.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8hvPDbbikO7XN5u0QtZRzT8)/dm/3/x6g9qjj/s/live-3.m3u8",
-      "https://stream-04.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8hvPDbbikO7XN5u0QtZRzT8)/dm/3/x6g9qjj/s/live-5.m3u8",
       "http://27.254.130.56:80/live01/ch7.m3u8",
+      "https://stream-04.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8hvPDbbikO7XN5u0QtZRzT8)/dm/3/x6g9qjj/s/live-4.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
   },

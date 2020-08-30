@@ -160,8 +160,8 @@ const iptvPlaylist = {
     getStreamingInfo("ipcam", 7, { channelName: "CAM8 | Com-Ying" }),
     getStreamingInfo("truesporthd"),
     getStreamingInfo("truesporthd2"),
-    getStreamingInfo("tvb"),
-    getStreamingInfo("mysci"),
+    getStreamingInfo("natgeo"),
+    getStreamingInfo("cartoonclub"),
   ],
 };
 
