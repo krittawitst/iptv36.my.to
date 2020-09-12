@@ -102,7 +102,7 @@ const streamingInfo = {
   },
 
   ch8: {
-    channelName: "CH8 RS",
+    channelName: "CH8 RS HD",
     logo: "https://iptv36.my.to/logo/ch8.jpg",
     urlList: [
       "https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8",
@@ -282,11 +282,11 @@ const streamingInfo = {
   },
 
   new18: {
-    channelName: "NEW 18 HD",
+    channelName: "NEW 18",
     logo: "https://iptv36.my.to/logo/new18.jpg",
     urlList: [
-      "https://stream-04.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL542p-cXeg9cecoOgQmR5X048)/dm/3/x7kx5i7/s/live-3.m3u8",
       "http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/broadcastwowza64_newstv_live1.stream/playlist.m3u8?username=1ZYBg8YZnpIlZHcXlpU79aqY7wfdPvTM&password=pDxO32zIPOaMTWmT8lIEDMeNxsAcVlEa",
+      "https://stream-04.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL542p-cXeg9cecoOgQmR5X048)/dm/3/x7kx5i7/s/live-3.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
   },
@@ -512,10 +512,10 @@ const streamingInfo = {
     channelName: "Workpoint TV",
     logo: "https://iptv36.my.to/logo/workpoint.png",
     urlList: [
-      "http://160.119.77.50/iptv/hd-workpoint.stream/playlist.m3u8",
+      "http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/broadcastwowza64_workpoint_live1.stream/playlist.m3u8?username=mBwFjrapocmlT6zPSTHgH5h3SZ3ApwnB&password=LL1H0df2B8yj0iw9PwXA9AG5ivulOgGq",
       "https://stream-04.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8lBTevKO5fnVuJrbbgxFa7I)/dm/3/x6g9qjj/s/live-3.m3u8",
       "http://27.254.130.56:80/live01/ch7.m3u8",
-      "http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/broadcastwowza64_workpoint_live1.stream/playlist.m3u8?username=mBwFjrapocmlT6zPSTHgH5h3SZ3ApwnB&password=LL1H0df2B8yj0iw9PwXA9AG5ivulOgGq",
+      "http://160.119.77.50/iptv/hd-workpoint.stream/playlist.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
   },

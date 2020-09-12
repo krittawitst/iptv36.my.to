@@ -95,16 +95,21 @@ const proPlaylist = {
     getStreamingInfo("truesporthd2"),
     getStreamingInfo("tvb"),
     getStreamingInfo("blank", 0, {
-      channelName: `Last Update: ${new Date().toISOString()}`,
+      channelName: `Last Update: `,
     }),
-    getStreamingInfo("livesky", 2, { channelName: "Live SKY 3 HD (เสีย)" }),
-    getStreamingInfo("livesky", 3, { channelName: "Live SKY 4 HD (เสีย)" }),
+    getStreamingInfo("blank", 0, {
+      channelName: `${new Date().toISOString()}`,
+    }),
     getStreamingInfo("ctb"),
     getStreamingInfo("axn"),
     getStreamingInfo("blueantent"),
-    getStreamingInfo("cartoonclub"),
     getStreamingInfo("history"),
     getStreamingInfo("history2"),
+    getStreamingInfo("cartoonclub"),
+    getStreamingInfo("new18", 1, {
+      channelName: "NEW 18 HD (Alt)",
+      groupName: "BACKUP",
+    }),
     getStreamingInfo("one", 1, {
       channelName: "ONE HD (Alt)",
       groupName: "BACKUP",
