@@ -2,7 +2,7 @@ const streamingInfo = {
   altv: {
     channelName: "ALTV HD",
     logo: "https://iptv36.my.to/logo/altv.png",
-    urlList: ["https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8"],
+    urlList: ["https://iptv36.my.to/altv.m3u8"],
     groupName: "THAI DIGITAL TV",
   },
 
@@ -21,8 +21,8 @@ const streamingInfo = {
     channelName: "AXN HD",
     logo: "https://iptv36.my.to/logo/axn.png",
     urlList: [
-      "https://livedoomovies.com/02_AXNHD_720p/chunklist.m3u8",
       "http://160.119.77.50/iptv/hd-axn.stream/playlist.m3u8",
+      "https://livedoomovies.com/02_AXNHD_720p/chunklist.m3u8",
     ],
     groupName: "PREMIUM",
   },
@@ -48,8 +48,8 @@ const streamingInfo = {
     channelName: "beIN Sports HD2",
     logo: "https://iptv36.my.to/logo/bein2.png",
     urlList: [
-      "http://103.208.24.234:1935/thaisport/epl-bein2.stream/playlist.m3u8",
       "https://www.livedoomovies.com/02_epl2_720p/chunklist.m3u8",
+      "http://103.208.24.234:1935/thaisport/epl-bein2.stream/playlist.m3u8",
     ],
     groupName: "PREMIUM",
   },
@@ -73,7 +73,10 @@ const streamingInfo = {
   ch2: {
     channelName: "CH2 RS",
     logo: "https://iptv36.my.to/logo/ch2.png",
-    urlList: ["http://stream.rs.co.th/ch2-hi/index.m3u8"],
+    urlList: [
+      "http://stream.rs.co.th/ch2-hi/index.m3u8",
+      "http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/broadcast73_ch2_live1.stream/playlist.m3u8?username=tE5dtG2cAgDtIdZrGOiSfFehTCCgMY84&password=hpB8ltPKORaaGLkL7ZNlHXWk6ssPgMTl",
+    ],
     groupName: "SAT & CABLE",
   },
 
@@ -81,8 +84,8 @@ const streamingInfo = {
     channelName: "CH3 HD",
     logo: "https://iptv36.my.to/logo/ch3.png",
     urlList: [
-      "http://160.119.77.50/iptv/hd-ch3.stream/playlist.m3u8",
       "https://www.livedoomovies.com/02_3HD_720p/chunklist.m3u8",
+      "http://160.119.77.50/iptv/hd-ch3.stream/playlist.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
   },
@@ -102,7 +105,7 @@ const streamingInfo = {
     channelName: "CH8 RS",
     logo: "https://iptv36.my.to/logo/ch8.jpg",
     urlList: [
-      "https://5b684377f3572.streamlock.net/desktop/ch8_720p/playlist.m3u8?oasendtime=1598303615&oashash=Cr6Uh_0RHJtRVJNrKYFkKDm9Yr2tYUwY46RJytBS7IM=",
+      "https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8",
       "http://stream.rs.co.th/ch8-hi/index.m3u8",
       "http://27.254.130.64/live01/ch15.m3u8?p=st",
     ],
@@ -147,7 +150,7 @@ const streamingInfo = {
     logo: "https://iptv36.my.to/logo/gmm25.png",
     urlList: [
       "http://183.182.100.184/live/mcothd/playlist.m3u8",
-      "https://stream-04.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_QV6v6KB_X1hXKWFIEp2HBo)/dm/3/x6rz4t7/s/live-3.m3u8",
+      "https://stream-04.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_YtSqm4XwFu_b63ZOQfafXU)/dm/3/x6rz4t7/s/live-3.m3u8",
       "http://27.254.130.56:80/live01/ch11.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
@@ -233,8 +236,10 @@ const streamingInfo = {
     channelName: "MONO PLUS HD",
     logo: "https://iptv36.my.to/logo/monoplus.png",
     urlList: [
-      "https://edge3-bkk.3bb.co.th:9443/MonoPlus_LiveDRM/MonoPlusLive_DRM720p.stream/manifest_w351631964.mpd",
-      "https://edge4-bkk.3bb.co.th:9443/MonoPlus_LiveHLS/monoplusLive_HLS720p.stream/chunklist_w501711662.m3u8"],
+      "http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/cloudiptv_monoplus_live1.stream/playlist.m3u8?username=mTRTvdvQbtd1DsswhsZTMoZUdI8MT4W6&password=Rp93AKS1peyuyYDApZw6sThMshGL1vvO",
+      "https://mono29-proxy-new.mthai.com/monoplus/widevine?video_id=360",
+      "https://edge4-bkk.3bb.co.th:9443/MonoPlus_LiveHLS/monoplusLive_HLS720p.stream/chunklist_w501711662.m3u8",
+    ],
     groupName: "THAI DIGITAL TV",
   },
 
@@ -243,7 +248,7 @@ const streamingInfo = {
     logo: "https://iptv36.my.to/logo/mono29.png",
     urlList: [
       "https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/chunklist_w1578972109.m3u8",
-      "https://59257875d9af2.streamlock.net/MONO29_DRM/mono29DRM_360TH.stream/manifest_w998972392.mpd",
+      "https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_720P/mono29hls_720TH.stream/playlist.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
   },
@@ -280,7 +285,8 @@ const streamingInfo = {
     channelName: "NEW 18 HD",
     logo: "https://iptv36.my.to/logo/new18.jpg",
     urlList: [
-      "https://stream-05.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL5475JeyHPFNMfpSlRDUd4e3M)/dm/3/x7kx5i7/s/live-3.m3u8",
+      "https://stream-04.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL542p-cXeg9cecoOgQmR5X048)/dm/3/x7kx5i7/s/live-3.m3u8",
+      "http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/broadcastwowza64_newstv_live1.stream/playlist.m3u8?username=1ZYBg8YZnpIlZHcXlpU79aqY7wfdPvTM&password=pDxO32zIPOaMTWmT8lIEDMeNxsAcVlEa",
     ],
     groupName: "THAI DIGITAL TV",
   },
@@ -477,14 +483,14 @@ const streamingInfo = {
   },
 
   universal: {
-    channelName: "Universal HD",
+    channelName: "Universal HD (เสีย)",
     logo: "https://iptv36.my.to/logo/blank.png",
     urlList: ["https://tv4.chang55.com:446/live2/tv4ch43.stream/chunks.m3u8"],
     groupName: "PREMIUM",
   },
 
   up1: {
-    channelName: "UP1 Movie",
+    channelName: "UP1 Movie (เสีย)",
     logo: "https://iptv36.my.to/logo/up1.jpg",
     urlList: [
       "http://27.254.149.109:8081/tumlive/upmovie.stream/playlist.m3u8",
@@ -506,8 +512,10 @@ const streamingInfo = {
     channelName: "Workpoint TV",
     logo: "https://iptv36.my.to/logo/workpoint.png",
     urlList: [
+      "http://160.119.77.50/iptv/hd-workpoint.stream/playlist.m3u8",
+      "https://stream-04.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8lBTevKO5fnVuJrbbgxFa7I)/dm/3/x6g9qjj/s/live-3.m3u8",
       "http://27.254.130.56:80/live01/ch7.m3u8",
-      "https://stream-04.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8hvPDbbikO7XN5u0QtZRzT8)/dm/3/x6g9qjj/s/live-4.m3u8",
+      "http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/broadcastwowza64_workpoint_live1.stream/playlist.m3u8?username=mBwFjrapocmlT6zPSTHgH5h3SZ3ApwnB&password=LL1H0df2B8yj0iw9PwXA9AG5ivulOgGq",
     ],
     groupName: "THAI DIGITAL TV",
   },
