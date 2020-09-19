@@ -93,6 +93,7 @@ const streamingInfo = {
     channelName: "CH3 HD",
     logo: "https://iptv36.my.to/logo/ch3.png",
     urlList: [
+      "http://dootvthai-hd.com/cmd/api/true/CH3-HD/playlist.m3u8",
       "https://www.livedoomovies.com/02_3HD_720p/chunklist.m3u8",
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/3hd_720p/chunks.m3u8",
       "http://27.254.130.64/live01/ch0.m3u8?p=st",
@@ -107,6 +108,8 @@ const streamingInfo = {
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/7hd_720p/chunks.m3u8",
       "https://bcovlive-a.akamaihd.net/44cc55c80fef46a8baa3a405433e63b8/ap-southeast-1/5282994675001/playlist.m3u8",
       "http://edge160.bugaboo.tv/liveedgech7_partner/smil:auto.smil/chunklist_b1210000_sleng.m3u8",
+      "https://cdn6.goprimetime.info//feed//ch7hd//index.m3u8",
+      "https://doomovielive.b-cdn.net/hd-ch7_720/index.m3u8",
     ],
     groupName: `THAI DIGITAL TV ${new Date().toISOString().slice(0, 10)}`,
   },
@@ -457,9 +460,10 @@ const streamingInfo = {
   },
 
   tnn16: {
-    channelName: "TNN16",
+    channelName: "TNN16 HD",
     logo: "https://iptv36.my.to/logo/tnn16.png",
     urlList: [
+      "http://dootvthai-hd.com/cmd/true/TNN-16/playlist.m3u8",
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/tnn24_720p/playlist.m3u8",
       "http://27.254.130.64/live01/chsd_TNN_5.m3u8?p=st",
       "http://119.59.125.74/stream/totnew.php?channel_id=77774220bb8e40aa94e549e29ff3ed8a&.m3u8",
@@ -478,9 +482,10 @@ const streamingInfo = {
   },
 
   true4u: {
-    channelName: "True4U",
+    channelName: "True4U HD",
     logo: "https://iptv36.my.to/logo/true4u.png",
     urlList: [
+      "http://dootvthai-hd.com/cmd/true/true4u/playlist.m3u8",
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/true4u_720p/playlist.m3u8",
       "http://183.182.100.184/live/true4u/chunklist.m3u8",
       "https://livedoomovies.com/02_TRUE4U_480p/chunklist.m3u8",
@@ -528,6 +533,7 @@ const streamingInfo = {
     logo: "https://iptv36.my.to/logo/tv5.png",
     urlList: [
       "http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8",
+      "http://dootvthai-hd.com/cmd/api/true/CH5-HD/playlist.m3u8",
       "http://160.119.77.50/iptv/hd-ch5.stream/playlist.m3u8",
       "http://27.254.130.64/live01/ch6.m3u8?p=st",
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/5hd_720p/chunks.m3u8",
