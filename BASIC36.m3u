@@ -1,4 +1,4 @@
-#EXTM3U : iptv36.my.to/BASIC36.m3u - Last Update 2020-09-12T05:49:24.018Z
+#EXTM3U : iptv36.my.to/BASIC36.m3u - Last Update 2020-09-19T02:44:45.439Z
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tv5.png" group-title="THAI DIGITAL TV", 1. TV5 HD
 http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8
@@ -12,37 +12,37 @@ http://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/altv.png" group-title="THAI DIGITAL TV", 4. ALTV HD
 https://iptv36.my.to/altv.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/workpoint.png" group-title="BACKUP", 5. Workpoint TV HD (Alt)
-https://stream-04.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8lBTevKO5fnVuJrbbgxFa7I)/dm/3/x6g9qjj/s/live-3.m3u8
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/workpoint.png" group-title="BACKUP", 5. Workpoint TV HD Backup
+http://27.254.130.56:80/live01/ch7.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/pptv.png" group-title="BACKUP", 6. PPTV HD (Alt)
-https://www.livedoomovies.com/02_PPTVHD_720p/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/pptv.png" group-title="BACKUP", 6. PPTV HD Backup
+http://203.150.107.30:8081/tested2iptv/core1/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch7.png" group-title="BACKUP", 7. CH7 HD (Alt)
-http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/broadcastwowza53_ch7hd_live1.stream/chunklist_w1780789268.m3u8?username=AOm9DFma3llwUEcQJTEFoUPNtwZ9vF6V&password=IoLFTR1NtDpbq1cyvz5oX3JjHsTeGrge
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch7.png" group-title="BACKUP", 7. CH7 HD Backup
+https://bcovlive-a.akamaihd.net/44cc55c80fef46a8baa3a405433e63b8/ap-southeast-1/5282994675001/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch8.jpg" group-title="BACKUP", 8. CH8 RS (Alt)
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch8.jpg" group-title="BACKUP", 8. CH8 RS Backup
 http://stream.rs.co.th/ch8-hi/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/mono29.png" group-title="BACKUP", 9. MONO29 HD (Alt)
-https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_720P/mono29hls_720TH.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/mono29.png" group-title="BACKUP", 9. MONO29 HD Backup
+https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080EN.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tptv.png" group-title="THAI DIGITAL TV", 10. TPTV
 http://49.231.66.85:1935/live/tptv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/one.png" group-title="BACKUP", 11. ONE HD (Alt)
-https://one31-rlbwkq.cdn.byteark.com/live/playlist-hd.m3u8
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/one.png" group-title="BACKUP", 11. ONE HD Backup
+http://160.119.77.50/iptv/hd-gmmone.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/thairath.png" group-title="BACKUP", 12. Thairath TV HD (Alt)
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/thairath.png" group-title="BACKUP", 12. Thairath TV HD Backup
 http://160.119.77.50/iptv/hd-thairath.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch3.png" group-title="BACKUP", 13. CH3 HD (Alt)
-http://160.119.77.50/iptv/hd-ch3.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch3.png" group-title="BACKUP", 13. CH3 HD Backup
+https://www.livedoomovies.com/02_3HD_720p/chunklist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/amarin.png" group-title="BACKUP", 14. Amarin TV HD (Alt)
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/amarin.png" group-title="BACKUP", 14. Amarin TV HD Backup
 http://160.119.77.50/iptv/hd-amarin.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/gmm25.png" group-title="BACKUP", 15. GMM25 HD (Alt)
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/gmm25.png" group-title="BACKUP", 15. GMM25 HD Backup
 https://stream-04.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_YtSqm4XwFu_b63ZOQfafXU)/dm/3/x6rz4t7/s/live-3.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tnn16.png" group-title="THAI DIGITAL TV", 16. TNN16
@@ -51,14 +51,14 @@ http://119.59.125.74/stream/totnew.php?channel_id=77774220bb8e40aa94e549e29ff3ed
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/news1.png" group-title="SAT & CABLE", 17. NEWS1 HD
 http://news1.live14.com/stream/news1_hi.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/new18.jpg" group-title="THAI DIGITAL TV", 18. NEW 18
-http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/broadcastwowza64_newstv_live1.stream/playlist.m3u8?username=1ZYBg8YZnpIlZHcXlpU79aqY7wfdPvTM&password=pDxO32zIPOaMTWmT8lIEDMeNxsAcVlEa
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/new18.jpg" group-title="THAI DIGITAL TV", 18. NEW 18 HD
+https://stream-04.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL542p-cXeg9cecoOgQmR5X048)/dm/3/x7kx5i7/s/live-4.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/psi.png" group-title="SAT & CABLE", 19. PSI Saradee HD
 http://96.30.124.100:1935/edgepsi/PSIHD.stream_720p/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch2.png" group-title="SAT & CABLE", 20. CH2 RS
-http://stream.rs.co.th/ch2-hi/index.m3u8
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/cartoonclub.png" group-title="SAT & CABLE", 20. Cartoon Club
+http://edge4-bkk.3bb.co.th:1935/CartoonClub_Livestream/cartoonclub_480P.stream/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/voice_tv.png" group-title="SAT & CABLE", 21. Voice TV HD
 https://edge6a.v2h-cdn.com/appt3/WOWSH.stream_720p/chunklist_w142679599.m3u8
@@ -66,8 +66,8 @@ https://edge6a.v2h-cdn.com/appt3/WOWSH.stream_720p/chunklist_w142679599.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/nation.jpg" group-title="THAI DIGITAL TV", 22. Nation TV
 https://cdn6.goprimetime.info/feed/chnation/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/workpoint.png" group-title="THAI DIGITAL TV", 23. Workpoint TV
-http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/broadcastwowza64_workpoint_live1.stream/playlist.m3u8?username=mBwFjrapocmlT6zPSTHgH5h3SZ3ApwnB&password=LL1H0df2B8yj0iw9PwXA9AG5ivulOgGq
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/workpoint.png" group-title="THAI DIGITAL TV", 23. Workpoint TV HD
+https://stream-05.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8u3IwtdvIPt3sMsT1DQ_vY8)/dm/3/x6g9qjj/s/live-4.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/true4u.png" group-title="THAI DIGITAL TV", 24. True4U
 http://183.182.100.184/live/true4u/chunklist.m3u8
@@ -91,7 +91,7 @@ https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/chunkl
 http://160.119.77.50/iptv/hd-mcot.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/one.png" group-title="THAI DIGITAL TV", 31. ONE HD
-http://160.119.77.50/iptv/hd-gmmone.stream/playlist.m3u8
+https://one31-rlbwkq.cdn.byteark.com/live/playlist-hd.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/thairath.png" group-title="THAI DIGITAL TV", 32. Thairath TV HD
 http://live.thairath.co.th/trtv2/playlist_720p/index.m3u8
@@ -103,8 +103,8 @@ https://www.livedoomovies.com/02_3HD_720p/chunklist.m3u8
 http://27.254.130.64:80/feed/chamarin/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch7.png" group-title="THAI DIGITAL TV", 35. CH7 HD
-http://160.119.77.50/iptv/hd-ch7.stream/playlist.m3u8
+http://edge160.bugaboo.tv/liveedgech7_partner/smil:auto.smil/chunklist_b1210000_sleng.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/pptv.png" group-title="THAI DIGITAL TV", 36. PPTV HD
-http://203.150.107.30:8081/tested2iptv/core1/playlist.m3u8
+https://www.livedoomovies.com/02_PPTVHD_720p/chunklist.m3u8
 

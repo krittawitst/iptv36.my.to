@@ -9,51 +9,51 @@ const basicPlaylist = {
     getStreamingInfo("thaipbs"),
     getStreamingInfo("altv"),
     getStreamingInfo("workpoint", 1, {
-      channelName: "Workpoint TV HD (Alt)",
+      channelName: "Workpoint TV HD Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("pptv", 1, {
-      channelName: "PPTV HD (Alt)",
+      channelName: "PPTV HD Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("ch7", 1, {
-      channelName: "CH7 HD (Alt)",
+      channelName: "CH7 HD Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("ch8", 1, {
-      channelName: "CH8 RS (Alt)",
+      channelName: "CH8 RS Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("mono29", 1, {
-      channelName: "MONO29 HD (Alt)",
+      channelName: "MONO29 HD Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("tptv"),
     getStreamingInfo("one", 1, {
-      channelName: "ONE HD (Alt)",
+      channelName: "ONE HD Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("thairath", 1, {
-      channelName: "Thairath TV HD (Alt)",
+      channelName: "Thairath TV HD Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("ch3", 1, {
-      channelName: "CH3 HD (Alt)",
+      channelName: "CH3 HD Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("amarin", 1, {
-      channelName: "Amarin TV HD (Alt)",
+      channelName: "Amarin TV HD Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("gmm25", 1, {
-      channelName: "GMM25 HD (Alt)",
+      channelName: "GMM25 HD Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("tnn16"),
     getStreamingInfo("news1"),
     getStreamingInfo("new18"),
     getStreamingInfo("psi"),
-    getStreamingInfo("ch2"),
+    getStreamingInfo("cartoonclub"),
     getStreamingInfo("voice"),
     getStreamingInfo("nation"),
     getStreamingInfo("workpoint"),
@@ -93,61 +93,64 @@ const proPlaylist = {
     getStreamingInfo("bein2"),
     getStreamingInfo("truesporthd"),
     getStreamingInfo("truesporthd2"),
-    getStreamingInfo("tvb"),
-    getStreamingInfo("blank", 0, {
-      channelName: `Last Update: `,
+    getStreamingInfo("premier1", 1, {
+      channelName: "Premier HD1 Backup",
+      groupName: "BACKUP",
     }),
-    getStreamingInfo("blank", 0, {
-      channelName: `${new Date().toISOString()}`,
+    getStreamingInfo("premier2", 1, {
+      channelName: "Premier HD2 Backup",
+      groupName: "BACKUP",
     }),
+    getStreamingInfo("premier3", 1, {
+      channelName: "Premier HD3 Backup",
+      groupName: "BACKUP",
+    }),
+    // getStreamingInfo("tvb"),
     getStreamingInfo("ctb"),
     getStreamingInfo("axn"),
     getStreamingInfo("blueantent"),
     getStreamingInfo("history"),
     getStreamingInfo("history2"),
-    getStreamingInfo("cartoonclub"),
-    getStreamingInfo("new18", 1, {
-      channelName: "NEW 18 HD (Alt)",
-      groupName: "BACKUP",
-    }),
+    getStreamingInfo("bbcearth"),
+    getStreamingInfo("truefilm"),
     getStreamingInfo("one", 1, {
-      channelName: "ONE HD (Alt)",
+      channelName: "ONE HD Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("thairath", 1, {
-      channelName: "Thairath TV HD (Alt)",
+      channelName: "Thairath TV HD Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("ch3", 1, {
-      channelName: "CH3 HD (Alt)",
+      channelName: "CH3 HD Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("amarin", 1, {
-      channelName: "Amarin TV HD (Alt)",
+      channelName: "Amarin TV HD Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("ch7", 1, {
-      channelName: "CH7 HD (Alt)",
+      channelName: "CH7 HD Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("pptv", 1, {
-      channelName: "PPTV HD (Alt)",
+      channelName: "PPTV HD Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("workpoint", 1, {
-      channelName: "Workpoint TV HD (Alt)",
+      channelName: "Workpoint TV Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("ch8", 1, {
-      channelName: "CH8 RS (Alt)",
+      channelName: "CH8 RS Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("mono29", 1, {
-      channelName: "MONO29 HD (Alt)",
+      channelName: "MONO29 HD Soundtrack",
       groupName: "BACKUP",
     }),
-    getStreamingInfo("gmm25", 1, {
-      channelName: "GMM25 HD (Alt)",
+    getStreamingInfo("blank", 0, {
+      channelName: `v${new Date().toISOString().slice(0, 10)}`,
       groupName: "BACKUP",
     }),
   ],

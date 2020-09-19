@@ -83,10 +83,7 @@ const streamingInfo = {
   ch3: {
     channelName: "CH3 HD",
     logo: "https://iptv36.my.to/logo/ch3.png",
-    urlList: [
-      "https://www.livedoomovies.com/02_3HD_720p/chunklist.m3u8",
-      "http://160.119.77.50/iptv/hd-ch3.stream/playlist.m3u8",
-    ],
+    urlList: ["https://www.livedoomovies.com/02_3HD_720p/chunklist.m3u8"],
     groupName: "THAI DIGITAL TV",
   },
 
@@ -94,9 +91,9 @@ const streamingInfo = {
     channelName: "CH7 HD",
     logo: "https://iptv36.my.to/logo/ch7.png",
     urlList: [
-      "http://160.119.77.50/iptv/hd-ch7.stream/playlist.m3u8",
-      "http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/broadcastwowza53_ch7hd_live1.stream/chunklist_w1780789268.m3u8?username=AOm9DFma3llwUEcQJTEFoUPNtwZ9vF6V&password=IoLFTR1NtDpbq1cyvz5oX3JjHsTeGrge",
-      "http://livesport2018.dyndns.tv:8080/live/7hd/playlist.m3u8",
+      "http://edge160.bugaboo.tv/liveedgech7_partner/smil:auto.smil/chunklist_b1210000_sleng.m3u8",
+      "https://bcovlive-a.akamaihd.net/44cc55c80fef46a8baa3a405433e63b8/ap-southeast-1/5282994675001/playlist.m3u8",
+      // "http://160.119.77.50/iptv/hd-ch7.stream/playlist.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
   },
@@ -183,17 +180,17 @@ const streamingInfo = {
     groupName: "PREMIUM",
   },
 
-  livesky: {
-    channelName: "Live SKY 1 HD",
-    logo: "https://iptv36.my.to/logo/csat.jpg",
-    urlList: [
-      "http://27.254.149.109:8081/tumlive/ipmskyworldhd1.stream/playlist.m3u8",
-      "http://27.254.149.109:8081/tumlive/ipmskyworldhd2.stream/playlist.m3u8",
-      "http://27.254.149.109:8081/tumlive/ipmskyworldhd3.stream/playlist.m3u8",
-      "http://27.254.149.109:8081/tumlive/ipmskyworldhd4.stream/playlist.m3u8",
-    ],
-    groupName: "SAT & CABLE",
-  },
+  // livesky: {
+  //   channelName: "Live SKY 1 HD",
+  //   logo: "https://iptv36.my.to/logo/csat.jpg",
+  //   urlList: [
+  //     "http://27.254.149.109:8081/tumlive/ipmskyworldhd1.stream/playlist.m3u8",
+  //     "http://27.254.149.109:8081/tumlive/ipmskyworldhd2.stream/playlist.m3u8",
+  //     "http://27.254.149.109:8081/tumlive/ipmskyworldhd3.stream/playlist.m3u8",
+  //     "http://27.254.149.109:8081/tumlive/ipmskyworldhd4.stream/playlist.m3u8",
+  //   ],
+  //   groupName: "SAT & CABLE",
+  // },
 
   ipcam: {
     channelName: "IPCAM",
@@ -248,24 +245,24 @@ const streamingInfo = {
     logo: "https://iptv36.my.to/logo/mono29.png",
     urlList: [
       "https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/chunklist_w1578972109.m3u8",
-      "https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_720P/mono29hls_720TH.stream/playlist.m3u8",
+      "https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080EN.stream/playlist.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
   },
 
-  mysci: {
-    channelName: "MySci HD",
-    logo: "https://iptv36.my.to/logo/mysci.jpg",
-    urlList: ["https://www.livedoomovies.com/sumrujlok_goodtv/chunklist.m3u8"],
-    groupName: "SAT & CABLE",
-  },
+  // mysci: {
+  //   channelName: "MySci HD",
+  //   logo: "https://iptv36.my.to/logo/mysci.jpg",
+  //   urlList: ["https://www.livedoomovies.com/sumrujlok_goodtv/chunklist.m3u8"],
+  //   groupName: "SAT & CABLE",
+  // },
 
-  natgeo: {
-    channelName: "NAT GEO HD",
-    logo: "https://iptv36.my.to/logo/nat_geo.jpg",
-    urlList: ["http://160.119.77.50/iptv/hd-natgeo.stream/playlist.m3u8"],
-    groupName: "PREMIUM",
-  },
+  // natgeo: {
+  //   channelName: "NAT GEO HD",
+  //   logo: "https://iptv36.my.to/logo/nat_geo.jpg",
+  //   urlList: ["http://160.119.77.50/iptv/hd-natgeo.stream/playlist.m3u8"],
+  //   groupName: "PREMIUM",
+  // },
 
   nation: {
     channelName: "Nation TV",
@@ -282,11 +279,10 @@ const streamingInfo = {
   },
 
   new18: {
-    channelName: "NEW 18",
+    channelName: "NEW 18 HD",
     logo: "https://iptv36.my.to/logo/new18.jpg",
     urlList: [
-      "http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/broadcastwowza64_newstv_live1.stream/playlist.m3u8?username=1ZYBg8YZnpIlZHcXlpU79aqY7wfdPvTM&password=pDxO32zIPOaMTWmT8lIEDMeNxsAcVlEa",
-      "https://stream-04.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL542p-cXeg9cecoOgQmR5X048)/dm/3/x7kx5i7/s/live-3.m3u8",
+      "https://stream-04.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL542p-cXeg9cecoOgQmR5X048)/dm/3/x7kx5i7/s/live-4.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
   },
@@ -302,9 +298,8 @@ const streamingInfo = {
     channelName: "ONE HD",
     logo: "https://iptv36.my.to/logo/one.png",
     urlList: [
-      "http://160.119.77.50/iptv/hd-gmmone.stream/playlist.m3u8",
       "https://one31-rlbwkq.cdn.byteark.com/live/playlist-hd.m3u8",
-      "https://cdn-laos.workpoint.news/hd-gmmone_720/index.m3u8",
+      "http://160.119.77.50/iptv/hd-gmmone.stream/playlist.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
   },
@@ -313,8 +308,8 @@ const streamingInfo = {
     channelName: "PPTV HD",
     logo: "https://iptv36.my.to/logo/pptv.png",
     urlList: [
-      "http://203.150.107.30:8081/tested2iptv/core1/playlist.m3u8",
       "https://www.livedoomovies.com/02_PPTVHD_720p/chunklist.m3u8",
+      "http://203.150.107.30:8081/tested2iptv/core1/playlist.m3u8",
       "http://160.119.77.50/iptv/hd-pptv.stream/playlist.m3u8",
       "http://27.254.130.64/live01/ch2.m3u8?p=st",
     ],
@@ -449,6 +444,7 @@ const streamingInfo = {
     logo: "https://iptv36.my.to/logo/true_sports_hd2.png",
     urlList: [
       "http://103.208.24.234:1935/thaisport/hd-tsport2.stream/chunklist.m3u8",
+      "https://www.we-play.tv/videos/digital-tv/ch3-hd/",
     ],
     groupName: "PREMIUM",
   },
@@ -509,13 +505,12 @@ const streamingInfo = {
   },
 
   workpoint: {
-    channelName: "Workpoint TV",
+    channelName: "Workpoint TV HD",
     logo: "https://iptv36.my.to/logo/workpoint.png",
     urlList: [
-      "http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/broadcastwowza64_workpoint_live1.stream/playlist.m3u8?username=mBwFjrapocmlT6zPSTHgH5h3SZ3ApwnB&password=LL1H0df2B8yj0iw9PwXA9AG5ivulOgGq",
-      "https://stream-04.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8lBTevKO5fnVuJrbbgxFa7I)/dm/3/x6g9qjj/s/live-3.m3u8",
+      "https://stream-05.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8u3IwtdvIPt3sMsT1DQ_vY8)/dm/3/x6g9qjj/s/live-4.m3u8",
       "http://27.254.130.56:80/live01/ch7.m3u8",
-      "http://160.119.77.50/iptv/hd-workpoint.stream/playlist.m3u8",
+      // "http://160.119.77.50/iptv/hd-workpoint.stream/playlist.m3u8",
     ],
     groupName: "THAI DIGITAL TV",
   },

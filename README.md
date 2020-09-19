@@ -39,25 +39,25 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 2           | NBT HD                |
 | 3           | Thai PBS HD           |
 | 4           | ALTV HD               |
-| 5           | Workpoint TV HD (Alt) |
-| 6           | PPTV HD (Alt)         |
-| 7           | CH7 HD (Alt)          |
-| 8           | CH8 RS (Alt)          |
-| 9           | MONO29 HD (Alt)       |
+| 5           | Workpoint TV Backup   |
+| 6           | PPTV HD Backup        |
+| 7           | CH7 HD Backup         |
+| 8           | CH8 RS Backup         |
+| 9           | MONO29 HD Soundtrack  |
 | 10          | TPTV                  |
-| 11          | ONE HD (Alt)          |
-| 12          | Thairath TV HD (Alt)  |
-| 13          | CH3 HD (Alt)          |
-| 14          | Amarin TV HD (Alt)    |
-| 15          | GMM25 HD (Alt)        |
+| 11          | ONE HD Backup         |
+| 12          | Thairath TV HD Backup |
+| 13          | ?                     |
+| 14          | Amarin TV HD Backup   |
+| 15          | ?                     |
 | 16          | TNN16                 |
 | 17          | NEWS1 HD              |
 | 18          | NEW 18 HD             |
 | 19          | PSI Saradee HD        |
-| 20          | CH2 RS                |
+| 20          | Cartoon Club          |
 | 21          | Voice TV HD           |
 | 22          | Nation TV HD          |
-| 23          | Workpoint TV          |
+| 23          | Workpoint TV HD       |
 | 24          | True4U                |
 | 25          | GMM25                 |
 | 26          | M Channel             |
