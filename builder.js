@@ -77,10 +77,10 @@ const proPlaylist = {
   filename: "PRO36.m3u",
   channelList: [
     ...basicPlaylist.channelList.slice(0, 4),
-    getStreamingInfo("warner"),
     getStreamingInfo("truefilm"),
     getStreamingInfo("foxmovies"),
     getStreamingInfo("foxactionmovies"),
+    getStreamingInfo("foxfamilymovies"),
     getStreamingInfo("foxthai"),
     ...basicPlaylist.channelList.slice(9, 10),
     getStreamingInfo("premier1"),
@@ -108,9 +108,9 @@ const proPlaylist = {
       channelName: "Premier HD3 Backup",
       groupName: "BACKUP",
     }),
+    getStreamingInfo("warner"),
     getStreamingInfo("axn"),
     getStreamingInfo("blueantent"),
-    getStreamingInfo("ctb"),
     getStreamingInfo("history"),
     getStreamingInfo("history2"),
     getStreamingInfo("discoveryasia"),
@@ -158,13 +158,17 @@ const proPlaylist = {
       channelName: "NEW 18 HD Backup",
       groupName: "BACKUP",
     }),
+    getStreamingInfo("cartoonnetwork"),
+    getStreamingInfo("hbo"),
+    getStreamingInfo("ctb"),
+    getStreamingInfo("tvb"),
   ],
 };
 
 const iptvPlaylist = {
   filename: "IPTV36.m3u",
   channelList: [
-    ...proPlaylist.channelList,
+    ...proPlaylist.channelList.slice(0, 60),
     getStreamingInfo("ipcam", 0, { channelName: "CAM1 | Park-164" }),
     getStreamingInfo("ipcam", 1, { channelName: "CAM2 | Park-163" }),
     getStreamingInfo("ipcam", 2, { channelName: "CAM3 | Toilet-163" }),
@@ -173,9 +177,7 @@ const iptvPlaylist = {
     getStreamingInfo("ipcam", 5, { channelName: "CAM6 | Floor-2" }),
     getStreamingInfo("ipcam", 6, { channelName: "CAM7 | Com-TV" }),
     getStreamingInfo("ipcam", 7, { channelName: "CAM8 | Com-Ying" }),
-    getStreamingInfo("cartoonnetwork"),
-    getStreamingInfo("hbo"),
-    getStreamingInfo("tvb"),
+    ...proPlaylist.channelList.slice(60),
   ],
 };
 

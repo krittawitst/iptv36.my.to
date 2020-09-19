@@ -1,4 +1,4 @@
-#EXTM3U : iptv36.my.to/PRO36.m3u - Last Update 2020-09-19T04:27:54.008Z
+#EXTM3U : iptv36.my.to/PRO36.m3u - Last Update 2020-09-19T04:40:04.182Z
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tv5.png" group-title="THAI DIGITAL TV 2020-09-19", 1. TV5 HD
 http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8
@@ -12,17 +12,17 @@ http://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/altv.png" group-title="THAI DIGITAL TV 2020-09-19", 4. ALTV HD
 https://iptv36.my.to/altv.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/warner.png" group-title="PREMIUM", 5. Warner TV HD
-http://203.150.107.30:8081/tested2iptv/core108/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/true_film_hd.png" group-title="PREMIUM", 6. True Film HD
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/true_film_hd.png" group-title="PREMIUM", 5. True Film HD
 http://160.119.77.50/iptv/hd-tfilm.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/fox_movies.png" group-title="PREMIUM", 7. FOX Movies HD
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/fox_movies.png" group-title="PREMIUM", 6. FOX Movies HD
 https://www.livedoomovies.com/02_FoxMoviesTH_720p/chunklist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/fox_action_movies.png" group-title="PREMIUM", 8. Fox Action Movies HD
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/fox_action_movies.png" group-title="PREMIUM", 7. Fox Action Movies HD
 http://160.119.77.50/iptv/hd-foxaction.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/fox_family_movies.png" group-title="PREMIUM", 8. Fox Family Movies HD
+http://203.150.107.30:8081/tested2iptv/core14/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/fox_thai.jpg" group-title="PREMIUM", 9. FOX Thai HD
 https://www.livedoomovies.com/02_FoxThai_TH_720p/chunklist.m3u8
@@ -129,14 +129,14 @@ http://203.150.107.30:8081/tested2iptv/core102/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/premier_hd3.png" group-title="BACKUP", 43. Premier HD3 Backup
 https://cdn161.cloud-streaming.com/ilike4kin_x5/premierhd3_720/chunks.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/axn.png" group-title="PREMIUM", 44. AXN HD
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/warner.png" group-title="PREMIUM", 44. Warner TV HD
+http://203.150.107.30:8081/tested2iptv/core108/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/axn.png" group-title="PREMIUM", 45. AXN HD
 http://ip2121.com:8081/live2/AXN_Y/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/blue_ant.jpg" group-title="PREMIUM", 45. Blue Ant ENT HD
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/blue_ant.jpg" group-title="PREMIUM", 46. Blue Ant ENT HD
 http://160.119.77.50/iptv/hd-rtlcbs.stream/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ctb.png" group-title="SAT & CABLE", 46. CTB TV
-http://vip.login.in.th:1935/CTB/CTB/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/history.png" group-title="PREMIUM", 47. History HD
 http://dootvthai-hd.com/cmd/api/true/HISTORY-CHANNEL-HD/playlist.m3u8
@@ -163,7 +163,7 @@ https://cdn161.cloud-streaming.com/ilike4kin_x6/3hd_720p/chunks.m3u8
 https://cdn161.cloud-streaming.com/ilike4kin_x6/amarintv_720p/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch7.png" group-title="BACKUP", 55. CH7 Backup
-http://edge160.bugaboo.tv/liveedgech7_partner/smil:auto.smil/chunklist_b1210000_sleng.m3u8
+https://bcovlive-a.akamaihd.net/44cc55c80fef46a8baa3a405433e63b8/ap-southeast-1/5282994675001/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/pptv.png" group-title="BACKUP", 56. PPTV HD Backup
 http://203.150.107.30:8081/tested2iptv/core1/playlist.m3u8
@@ -179,4 +179,16 @@ https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080EN.stream/playli
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/new18.jpg" group-title="BACKUP", 60. NEW 18 HD Backup
 https://stream-01.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54wWPK1G5BRvNcs1sYCZgch8)/dm/3/x7kx5i7/s/live-4.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/cnhd.png" group-title="PREMIUM", 61. Cartoon Network HD
+https://www.livedoomovies.com/02_CartoonNetwork_720p/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/hbo.jpg" group-title="PREMIUM", 62. HBO
+https://www.livedoomovies.com/02_HBOHD_720p/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ctb.png" group-title="SAT & CABLE", 63. CTB TV
+http://vip.login.in.th:1935/CTB/CTB/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tvb.png" group-title="SAT & CABLE", 64. TVB Thai
+https://edge6a.v2h-cdn.com/RE_HD/smil:TVB_HD_ABR.smil/playlist.m3u8
 

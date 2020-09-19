@@ -85,10 +85,7 @@ const streamingInfo = {
   ch2: {
     channelName: "CH2 RS",
     logo: "https://iptv36.my.to/logo/ch2.png",
-    urlList: [
-      "http://stream.rs.co.th/ch2-hi/index.m3u8",
-      "http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/broadcast73_ch2_live1.stream/playlist.m3u8?username=tE5dtG2cAgDtIdZrGOiSfFehTCCgMY84&password=hpB8ltPKORaaGLkL7ZNlHXWk6ssPgMTl",
-    ],
+    urlList: ["http://stream.rs.co.th/ch2-hi/index.m3u8"],
     groupName: "SAT & CABLE",
   },
 
@@ -108,8 +105,8 @@ const streamingInfo = {
     logo: "https://iptv36.my.to/logo/ch7.png",
     urlList: [
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/7hd_720p/chunks.m3u8",
-      "http://edge160.bugaboo.tv/liveedgech7_partner/smil:auto.smil/chunklist_b1210000_sleng.m3u8",
       "https://bcovlive-a.akamaihd.net/44cc55c80fef46a8baa3a405433e63b8/ap-southeast-1/5282994675001/playlist.m3u8",
+      "http://edge160.bugaboo.tv/liveedgech7_partner/smil:auto.smil/chunklist_b1210000_sleng.m3u8",
     ],
     groupName: `THAI DIGITAL TV ${new Date().toISOString().slice(0, 10)}`,
   },
@@ -156,10 +153,7 @@ const streamingInfo = {
   foxfamilymovies: {
     channelName: "Fox Family Movies HD",
     logo: "https://iptv36.my.to/logo/fox_family_movies.png",
-    urlList: [
-      "http://160.119.77.50/iptv/hd-foxaction.stream/playlist.m3u8",
-      "http://dootvthai-hd.com/cmd/api/true/Fox-Action/playlist.m3u8",
-    ],
+    urlList: ["http://203.150.107.30:8081/tested2iptv/core14/playlist.m3u8"],
     groupName: "PREMIUM",
   },
 
