@@ -297,6 +297,7 @@ const streamingInfo = {
     logo: "https://iptv36.my.to/logo/mono29.png",
     urlList: [
       "https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/chunklist_w1578972109.m3u8",
+      "https://cdn6.goprimetime.info//feed//chmono29//index.m3u8",
       "https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080EN.stream/playlist.m3u8",
     ],
     groupName: `THAI DIGITAL TV ${new Date().toISOString().slice(0, 10)}`,

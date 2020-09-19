@@ -43,7 +43,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 6           | PPTV HD Backup        |
 | 7           | CH7 HD Backup         |
 | 8           | CH8 RS Backup         |
-| 9           | MONO29 HD Soundtrack  |
+| 9           | MONO29 Backup         |
 | 10          | TPTV                  |
 | 11          | ONE HD Backup         |
 | 12          | Thairath TV HD Backup |

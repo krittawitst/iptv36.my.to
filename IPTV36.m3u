@@ -1,4 +1,4 @@
-#EXTM3U : iptv36.my.to/IPTV36.m3u - Last Update 2020-09-19T04:56:17.737Z
+#EXTM3U : iptv36.my.to/IPTV36.m3u - Last Update 2020-09-19T05:08:54.522Z
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tv5.png" group-title="THAI DIGITAL TV 2020-09-19", 1. TV5 HD
 http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8
@@ -51,8 +51,8 @@ http://dootvthai-hd.com/cmd/true/TNN-16/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/news1.png" group-title="SAT & CABLE", 17. NEWS1 HD
 http://news1.live14.com/stream/news1_hi.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/new18.jpg" group-title="THAI DIGITAL TV 2020-09-19", 18. NEW 18
-https://cdn161.cloud-streaming.com/ilike4kin_x6/new18_720p/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/new18.jpg" group-title="THAI DIGITAL TV 2020-09-19", 18. NEW 18 HD
+https://stream-01.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54wWPK1G5BRvNcs1sYCZgch8)/dm/3/x7kx5i7/s/live-3.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/psi.png" group-title="SAT & CABLE", 19. PSI Saradee HD
 http://96.30.124.100:1935/edgepsi/PSIHD.stream_720p/playlist.m3u8
@@ -174,11 +174,11 @@ https://cdn161.cloud-streaming.com/ilike4kin_x6/workpoint_720p/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch8.jpg" group-title="BACKUP", 58. CH8 RS Backup
 http://dootvthai-hd.com/cmd/api/true/CH8-HD/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/mono29.png" group-title="BACKUP", 59. MONO29 HD Soundtrack
-https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080EN.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/mono29.png" group-title="BACKUP", 59. MONO29 Backup
+https://cdn6.goprimetime.info//feed//chmono29//index.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/new18.jpg" group-title="BACKUP", 60. NEW 18 HD Backup
-https://stream-01.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54wWPK1G5BRvNcs1sYCZgch8)/dm/3/x7kx5i7/s/live-3.m3u8
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/new18.jpg" group-title="BACKUP", 60. NEW 18 Backup
+https://cdn161.cloud-streaming.com/ilike4kin_x6/new18_720p/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/cctv.png" group-title="IP CAM", 61. CAM1 | Park-164
 rtsp://admin@192.168.1.211:554/mpeg4/ch1/main/av_stream

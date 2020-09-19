@@ -1,4 +1,4 @@
-#EXTM3U : iptv36.my.to/BASIC36.m3u - Last Update 2020-09-19T04:56:17.734Z
+#EXTM3U : iptv36.my.to/BASIC36.m3u - Last Update 2020-09-19T05:08:54.518Z
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tv5.png" group-title="THAI DIGITAL TV 2020-09-19", 1. TV5 HD
 http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8
@@ -24,8 +24,8 @@ https://bcovlive-a.akamaihd.net/44cc55c80fef46a8baa3a405433e63b8/ap-southeast-1/
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch8.jpg" group-title="BACKUP", 8. CH8 RS Backup
 http://dootvthai-hd.com/cmd/api/true/CH8-HD/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/mono29.png" group-title="BACKUP", 9. MONO29 HD Soundtrack
-https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080EN.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/mono29.png" group-title="BACKUP", 9. MONO29 Backup
+https://cdn6.goprimetime.info//feed//chmono29//index.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tptv.png" group-title="THAI DIGITAL TV 2020-09-19", 10. TPTV
 http://49.231.66.85:1935/live/tptv/playlist.m3u8

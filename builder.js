@@ -25,7 +25,7 @@ const basicPlaylist = {
       groupName: "BACKUP",
     }),
     getStreamingInfo("mono29", 1, {
-      channelName: "MONO29 HD Soundtrack",
+      channelName: "MONO29 Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("tptv"),
@@ -88,7 +88,11 @@ const proPlaylist = {
     getStreamingInfo("premier3"),
     getStreamingInfo("premier4"),
     getStreamingInfo("premier5"),
-    ...basicPlaylist.channelList.slice(15, 36),
+    ...basicPlaylist.channelList.slice(15, 17),
+    getStreamingInfo("new18", 1, {
+      channelName: "NEW 18 HD",
+    }),
+    ...basicPlaylist.channelList.slice(18, 36),
     getStreamingInfo("bein1"),
     getStreamingInfo("bein2"),
     getStreamingInfo("idstation"),
@@ -151,11 +155,11 @@ const proPlaylist = {
       groupName: "BACKUP",
     }),
     getStreamingInfo("mono29", 1, {
-      channelName: "MONO29 HD Soundtrack",
+      channelName: "MONO29 Backup",
       groupName: "BACKUP",
     }),
-    getStreamingInfo("new18", 1, {
-      channelName: "NEW 18 HD Backup",
+    getStreamingInfo("new18", 0, {
+      channelName: "NEW 18 Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("cartoonnetwork"),
