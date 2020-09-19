@@ -49,17 +49,17 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 12          | Thairath TV HD Backup |
 | 13          | CH3 HD Backup         |
 | 14          | Amarin TV HD Backup   |
-| 15          | GMM25 HD Backup       |
+| 15          | GMM25 Backup          |
 | 16          | TNN16                 |
 | 17          | NEWS1 HD              |
-| 18          | NEW 18 HD             |
+| 18          | NEW 18                |
 | 19          | PSI Saradee HD        |
 | 20          | Cartoon Club          |
 | 21          | Voice TV HD           |
 | 22          | Nation TV HD          |
 | 23          | Workpoint TV HD       |
 | 24          | True4U                |
-| 25          | GMM25                 |
+| 25          | GMM25 HD              |
 | 26          | M Channel             |
 | 27          | CH8 RS HD             |
 | 28          | MONO PLUS HD          |

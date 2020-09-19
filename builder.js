@@ -25,7 +25,7 @@ const basicPlaylist = {
       groupName: "BACKUP",
     }),
     getStreamingInfo("mono29", 1, {
-      channelName: "MONO29 HD Backup",
+      channelName: "MONO29 HD Soundtrack",
       groupName: "BACKUP",
     }),
     getStreamingInfo("tptv"),
@@ -78,13 +78,13 @@ const proPlaylist = {
   channelList: [
     ...basicPlaylist.channelList.slice(0, 4),
     getStreamingInfo("warner"),
-    getStreamingInfo("hbo"),
+    getStreamingInfo("truefilm"),
     getStreamingInfo("foxmovies"),
     getStreamingInfo("foxactionmovies"),
     getStreamingInfo("foxthai"),
     ...basicPlaylist.channelList.slice(9, 10),
-    getStreamingInfo("premier1", 2),
-    getStreamingInfo("premier2", 3),
+    getStreamingInfo("premier1"),
+    getStreamingInfo("premier2", 2),
     getStreamingInfo("premier3"),
     getStreamingInfo("premier4"),
     getStreamingInfo("premier5"),
@@ -104,12 +104,12 @@ const proPlaylist = {
       channelName: "Premier HD2 Backup",
       groupName: "BACKUP",
     }),
-    getStreamingInfo("premier3", 1, {
+    getStreamingInfo("premier3", 2, {
       channelName: "Premier HD3 Backup",
       groupName: "BACKUP",
     }),
     // getStreamingInfo("tvb"),
-    getStreamingInfo("truefilm"),
+    getStreamingInfo("hbo"),
     getStreamingInfo("axn"),
     getStreamingInfo("blueantent"),
     getStreamingInfo("ctb"),
@@ -175,9 +175,7 @@ const iptvPlaylist = {
     getStreamingInfo("ipcam", 5, { channelName: "CAM6 | Floor-2" }),
     getStreamingInfo("ipcam", 6, { channelName: "CAM7 | Com-TV" }),
     getStreamingInfo("ipcam", 7, { channelName: "CAM8 | Com-Ying" }),
-    getStreamingInfo("discoveryasia"),
-    getStreamingInfo("cartoonclub"),
-    getStreamingInfo("truefilm"),
+    getStreamingInfo("cartoonnetwork"),
   ],
 };
 

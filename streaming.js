@@ -327,11 +327,11 @@ const streamingInfo = {
   },
 
   new18: {
-    channelName: "NEW 18 HD",
+    channelName: "NEW 18",
     logo: "https://iptv36.my.to/logo/new18.jpg",
     urlList: [
-      "https://stream-01.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54wWPK1G5BRvNcs1sYCZgch8)/dm/3/x7kx5i7/s/live-4.m3u8",
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/new18_720p/playlist.m3u8",
+      "https://stream-01.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54wWPK1G5BRvNcs1sYCZgch8)/dm/3/x7kx5i7/s/live-4.m3u8",
     ],
     groupName: `THAI DIGITAL TV v${new Date().toISOString().slice(0, 10)}`,
   },
@@ -348,8 +348,8 @@ const streamingInfo = {
     logo: "https://iptv36.my.to/logo/one.png",
     urlList: [
       "https://one31-rlbwkq.cdn.byteark.com/live/playlist-hd.m3u8",
-      "http://160.119.77.50/iptv/hd-gmmone.stream/playlist.m3u8",
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/one_720p/chunks.m3u8",
+      "http://160.119.77.50/iptv/hd-gmmone.stream/playlist.m3u8",
       "http://dootvthai-hd.com/cmd/api/true/ONE-HD/playlist.m3u8",
     ],
     groupName: `THAI DIGITAL TV v${new Date().toISOString().slice(0, 10)}`,

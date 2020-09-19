@@ -1,4 +1,4 @@
-#EXTM3U : iptv36.my.to/BASIC36.m3u - Last Update 2020-09-19T03:58:26.320Z
+#EXTM3U : iptv36.my.to/BASIC36.m3u - Last Update 2020-09-19T04:20:41.239Z
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tv5.png" group-title="THAI DIGITAL TV v2020-09-19", 1. TV5 HD
 http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8
@@ -24,14 +24,14 @@ https://bcovlive-a.akamaihd.net/44cc55c80fef46a8baa3a405433e63b8/ap-southeast-1/
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch8.jpg" group-title="BACKUP", 8. CH8 RS Backup
 http://dootvthai-hd.com/cmd/api/true/CH8-HD/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/mono29.png" group-title="BACKUP", 9. MONO29 HD Backup
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/mono29.png" group-title="BACKUP", 9. MONO29 HD Soundtrack
 https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080EN.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tptv.png" group-title="THAI DIGITAL TV v2020-09-19", 10. TPTV
 http://49.231.66.85:1935/live/tptv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/one.png" group-title="BACKUP", 11. ONE HD Backup
-http://160.119.77.50/iptv/hd-gmmone.stream/playlist.m3u8
+https://cdn161.cloud-streaming.com/ilike4kin_x6/one_720p/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/thairath.png" group-title="BACKUP", 12. Thairath TV HD Backup
 http://160.119.77.50/iptv/hd-thairath.stream/playlist.m3u8
@@ -51,8 +51,8 @@ https://cdn161.cloud-streaming.com/ilike4kin_x6/tnn24_720p/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/news1.png" group-title="SAT & CABLE", 17. NEWS1 HD
 http://news1.live14.com/stream/news1_hi.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/new18.jpg" group-title="THAI DIGITAL TV v2020-09-19", 18. NEW 18 HD
-https://stream-01.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54wWPK1G5BRvNcs1sYCZgch8)/dm/3/x7kx5i7/s/live-4.m3u8
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/new18.jpg" group-title="THAI DIGITAL TV v2020-09-19", 18. NEW 18
+https://cdn161.cloud-streaming.com/ilike4kin_x6/new18_720p/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/psi.png" group-title="SAT & CABLE", 19. PSI Saradee HD
 http://96.30.124.100:1935/edgepsi/PSIHD.stream_720p/playlist.m3u8
