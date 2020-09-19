@@ -83,7 +83,7 @@ const proPlaylist = {
     getStreamingInfo("foxfamilymovies"),
     getStreamingInfo("foxthai"),
     ...basicPlaylist.channelList.slice(9, 10),
-    getStreamingInfo("premier1", 4),
+    getStreamingInfo("premier1"),
     getStreamingInfo("premier2", 2),
     getStreamingInfo("premier3"),
     getStreamingInfo("premier4"),
