@@ -9,7 +9,7 @@ const basicPlaylist = {
     getStreamingInfo("thaipbs"),
     getStreamingInfo("altv"),
     getStreamingInfo("workpoint", 1, {
-      channelName: "Workpoint TV HD Backup",
+      channelName: "Workpoint TV Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("pptv", 1, {
@@ -46,7 +46,7 @@ const basicPlaylist = {
       groupName: "BACKUP",
     }),
     getStreamingInfo("gmm25", 1, {
-      channelName: "GMM25 HD Backup",
+      channelName: "GMM25 Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("tnn16"),
@@ -83,16 +83,19 @@ const proPlaylist = {
     getStreamingInfo("foxactionmovies"),
     getStreamingInfo("foxthai"),
     ...basicPlaylist.channelList.slice(9, 10),
-    getStreamingInfo("premier1"),
-    getStreamingInfo("premier2"),
+    getStreamingInfo("premier1", 2),
+    getStreamingInfo("premier2", 3),
     getStreamingInfo("premier3"),
     getStreamingInfo("premier4"),
     getStreamingInfo("premier5"),
     ...basicPlaylist.channelList.slice(15, 36),
     getStreamingInfo("bein1"),
     getStreamingInfo("bein2"),
-    getStreamingInfo("truesporthd"),
-    getStreamingInfo("truesporthd2"),
+    getStreamingInfo("idstation"),
+    getStreamingInfo("bein1", 1, {
+      channelName: "beIN Sports HD1 Backup",
+      groupName: "BACKUP",
+    }),
     getStreamingInfo("premier1", 1, {
       channelName: "Premier HD1 Backup",
       groupName: "BACKUP",
@@ -106,13 +109,17 @@ const proPlaylist = {
       groupName: "BACKUP",
     }),
     // getStreamingInfo("tvb"),
-    getStreamingInfo("ctb"),
+    getStreamingInfo("truefilm"),
     getStreamingInfo("axn"),
     getStreamingInfo("blueantent"),
+    getStreamingInfo("ctb"),
     getStreamingInfo("history"),
     getStreamingInfo("history2"),
-    getStreamingInfo("bbcearth"),
-    getStreamingInfo("truefilm"),
+    getStreamingInfo("discoveryasia"),
+    getStreamingInfo("gmm25", 1, {
+      channelName: "GMM25 Backup",
+      groupName: "BACKUP",
+    }),
     getStreamingInfo("one", 1, {
       channelName: "ONE HD Backup",
       groupName: "BACKUP",
@@ -130,7 +137,7 @@ const proPlaylist = {
       groupName: "BACKUP",
     }),
     getStreamingInfo("ch7", 1, {
-      channelName: "CH7 HD Backup",
+      channelName: "CH7 Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("pptv", 1, {
@@ -149,8 +156,8 @@ const proPlaylist = {
       channelName: "MONO29 HD Soundtrack",
       groupName: "BACKUP",
     }),
-    getStreamingInfo("blank", 0, {
-      channelName: `v${new Date().toISOString().slice(0, 10)}`,
+    getStreamingInfo("new18", 1, {
+      channelName: "NEW 18 HD Backup",
       groupName: "BACKUP",
     }),
   ],
@@ -168,6 +175,9 @@ const iptvPlaylist = {
     getStreamingInfo("ipcam", 5, { channelName: "CAM6 | Floor-2" }),
     getStreamingInfo("ipcam", 6, { channelName: "CAM7 | Com-TV" }),
     getStreamingInfo("ipcam", 7, { channelName: "CAM8 | Com-Ying" }),
+    getStreamingInfo("discoveryasia"),
+    getStreamingInfo("cartoonclub"),
+    getStreamingInfo("truefilm"),
   ],
 };
 

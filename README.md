@@ -47,9 +47,9 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 10          | TPTV                  |
 | 11          | ONE HD Backup         |
 | 12          | Thairath TV HD Backup |
-| 13          | ?                     |
+| 13          | CH3 HD Backup         |
 | 14          | Amarin TV HD Backup   |
-| 15          | ?                     |
+| 15          | GMM25 HD Backup       |
 | 16          | TNN16                 |
 | 17          | NEWS1 HD              |
 | 18          | NEW 18 HD             |
@@ -61,7 +61,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 24          | True4U                |
 | 25          | GMM25                 |
 | 26          | M Channel             |
-| 27          | CH8 RS                |
+| 27          | CH8 RS HD             |
 | 28          | MONO PLUS HD          |
 | 29          | MONO29 HD             |
 | 30          | MCOT HD               |
