@@ -108,8 +108,6 @@ const proPlaylist = {
       channelName: "Premier HD3 Backup",
       groupName: "BACKUP",
     }),
-    // getStreamingInfo("tvb"),
-    getStreamingInfo("hbo"),
     getStreamingInfo("axn"),
     getStreamingInfo("blueantent"),
     getStreamingInfo("ctb"),
@@ -176,6 +174,8 @@ const iptvPlaylist = {
     getStreamingInfo("ipcam", 6, { channelName: "CAM7 | Com-TV" }),
     getStreamingInfo("ipcam", 7, { channelName: "CAM8 | Com-Ying" }),
     getStreamingInfo("cartoonnetwork"),
+    getStreamingInfo("hbo"),
+    getStreamingInfo("tvb"),
   ],
 };
 
