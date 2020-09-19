@@ -1,4 +1,4 @@
-#EXTM3U : iptv36.my.to/PRO36.m3u - Last Update 2020-09-19T05:08:54.519Z
+#EXTM3U : iptv36.my.to/PRO36.m3u - Last Update 2020-09-19T12:22:08.204Z
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tv5.png" group-title="THAI DIGITAL TV 2020-09-19", 1. TV5 HD
 http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8
@@ -31,7 +31,7 @@ https://www.livedoomovies.com/02_FoxThai_TH_720p/chunklist.m3u8
 http://49.231.66.85:1935/live/tptv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/premier_hd1.png" group-title="PREMIUM", 11. Premier HD1
-http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8
+http://160.119.77.50/iptv/epl-1.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/premier_hd2.png" group-title="PREMIUM", 12. Premier HD2
 https://cdn161.cloud-streaming.com/ilike4kin_x5/premierhd2_720/chunks.m3u8
@@ -81,7 +81,7 @@ http://27.254.142.207:8080/live/web.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch8.jpg" group-title="THAI DIGITAL TV 2020-09-19", 27. CH8 RS HD
 https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/monoplus.png" group-title="THAI DIGITAL TV 2020-09-19", 28. MONO PLUS HD
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/monoplus.png" group-title="SAT & CABLE", 28. MONO PLUS HD
 http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/cloudiptv_monoplus_live1.stream/playlist.m3u8?username=mTRTvdvQbtd1DsswhsZTMoZUdI8MT4W6&password=Rp93AKS1peyuyYDApZw6sThMshGL1vvO
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/mono29.png" group-title="THAI DIGITAL TV 2020-09-19", 29. MONO29 HD

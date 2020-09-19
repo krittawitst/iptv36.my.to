@@ -289,7 +289,7 @@ const streamingInfo = {
       "http://110.164.95.230:1935/Edge_Cloudiptv_Authen/cloudiptv_monoplus_live1.stream/chunklist_w282266064.m3u8",
       "https://edge4-bkk.3bb.co.th:9443/MonoPlus_LiveHLS/monoplusLive_HLS1080p.stream/chunklist.m3u8",
     ],
-    groupName: `THAI DIGITAL TV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: "SAT & CABLE",
   },
 
   mono29: {
