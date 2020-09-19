@@ -1,4 +1,4 @@
-#EXTM3U : iptv36.my.to/IPTV36.m3u - Last Update 2020-09-19T04:47:19.121Z
+#EXTM3U : iptv36.my.to/IPTV36.m3u - Last Update 2020-09-19T04:56:17.737Z
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tv5.png" group-title="THAI DIGITAL TV 2020-09-19", 1. TV5 HD
 http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8
@@ -72,7 +72,7 @@ https://stream-05.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8u3IwtdvIPt3sMsT1D
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/true4u.png" group-title="THAI DIGITAL TV 2020-09-19", 24. True4U HD
 http://dootvthai-hd.com/cmd/true/true4u/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/gmm25.png" group-title="THAI DIGITAL TV 2020-09-19", 25. GMM25 HD
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/gmm25.png" group-title="THAI DIGITAL TV 2020-09-19", 25. GMM25
 https://cdn161.cloud-streaming.com/ilike4kin_x6/gmm25_720p/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/m.png" group-title="SAT & CABLE", 26. M Channel
@@ -148,13 +148,13 @@ http://203.150.107.30:8081/tested2iptv/core106/playlist.m3u8
 https://doofootball.livestream-cdn.com:443/iptv/hd-discovery.stream/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/gmm25.png" group-title="BACKUP", 50. GMM25 Backup
-http://183.182.100.184/live/mcothd/playlist.m3u8
+https://cdn6.goprimetime.info/feed/chgmm/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/one.png" group-title="BACKUP", 51. ONE HD Backup
 https://cdn161.cloud-streaming.com/ilike4kin_x6/one_720p/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/thairath.png" group-title="BACKUP", 52. Thairath TV HD Backup
-http://160.119.77.50/iptv/hd-thairath.stream/playlist.m3u8
+http://dootvthai-hd.com/cmd/true/Thairathtv-HD/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/ch3.png" group-title="BACKUP", 53. CH3 HD Backup
 https://www.livedoomovies.com/02_3HD_720p/chunklist.m3u8
@@ -178,7 +178,7 @@ http://dootvthai-hd.com/cmd/api/true/CH8-HD/playlist.m3u8
 https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080EN.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/new18.jpg" group-title="BACKUP", 60. NEW 18 HD Backup
-https://stream-01.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54wWPK1G5BRvNcs1sYCZgch8)/dm/3/x7kx5i7/s/live-4.m3u8
+https://stream-01.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54wWPK1G5BRvNcs1sYCZgch8)/dm/3/x7kx5i7/s/live-3.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/cctv.png" group-title="IP CAM", 61. CAM1 | Park-164
 rtsp://admin@192.168.1.211:554/mpeg4/ch1/main/av_stream

@@ -59,7 +59,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 22          | Nation TV HD          |
 | 23          | Workpoint TV HD       |
 | 24          | True4U HD             |
-| 25          | GMM25 HD              |
+| 25          | GMM25                 |
 | 26          | M Channel             |
 | 27          | CH8 RS HD             |
 | 28          | MONO PLUS HD          |
