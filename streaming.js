@@ -149,8 +149,8 @@ const streamingInfo = {
     channelName: "Fox Action Movies HD",
     logo: "https://iptv36.my.to/logo/fox_action_movies.png",
     urlList: [
-      "http://160.119.77.50/iptv/hd-foxaction.stream/playlist.m3u8",
       "http://dootvthai-hd.com/cmd/api/true/Fox-Action/playlist.m3u8",
+      "http://160.119.77.50/iptv/hd-foxaction.stream/playlist.m3u8",
     ],
     groupName: "PREMIUM",
   },
@@ -198,7 +198,10 @@ const streamingInfo = {
   hbo: {
     channelName: "HBO",
     logo: "https://iptv36.my.to/logo/hbo.jpg",
-    urlList: ["https://www.livedoomovies.com/02_HBOHD_720p/chunklist.m3u8"],
+    urlList: [
+      "https://liveorigin01.hbogoasia.com:8443/origin/live/HBO/index.m3u8?HBO",
+      "https://www.livedoomovies.com/02_HBOHD_720p/chunklist.m3u8",
+    ],
     groupName: "PREMIUM",
   },
 
@@ -598,10 +601,9 @@ const streamingInfo = {
     channelName: "Workpoint TV HD",
     logo: "https://iptv36.my.to/logo/workpoint.png",
     urlList: [
-      "https://stream-05.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8u3IwtdvIPt3sMsT1DQ_vY8)/dm/3/x6g9qjj/s/live-4.m3u8",
+      "http://dootvthai-hd.com/cmd/true/Workpointtv/playlist.m3u8",
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/workpoint_720p/playlist.m3u8",
       "http://27.254.130.56:80/live01/ch7.m3u8",
-      "http://dootvthai-hd.com/cmd/true/Workpointtv/playlist.m3u8",
       // "http://160.119.77.50/iptv/hd-workpoint.stream/playlist.m3u8",
     ],
     groupName: `THAI DIGITAL TV ${new Date().toISOString().slice(0, 10)}`,
