@@ -25,7 +25,7 @@ const basicPlaylist = {
       groupName: "BACKUP",
     }),
     getStreamingInfo("mono29", 1, {
-      channelName: "MONO29 Backup",
+      channelName: "MONO29 HD Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("tptv"),
@@ -59,7 +59,7 @@ const basicPlaylist = {
     getStreamingInfo("workpoint"),
     getStreamingInfo("true4u"),
     getStreamingInfo("gmm25"),
-    getStreamingInfo("m"),
+    getStreamingInfo("tvb"),
     getStreamingInfo("ch8"),
     getStreamingInfo("monoplus"),
     getStreamingInfo("mono29"),
@@ -77,7 +77,7 @@ const proPlaylist = {
   filename: "PRO36.m3u",
   channelList: [
     ...basicPlaylist.channelList.slice(0, 4),
-    getStreamingInfo("truefilm"),
+    getStreamingInfo("hitsmovie"),
     getStreamingInfo("foxmovies"),
     getStreamingInfo("foxactionmovies"),
     getStreamingInfo("foxfamilymovies"),
@@ -88,11 +88,9 @@ const proPlaylist = {
     getStreamingInfo("premier3"),
     getStreamingInfo("premier4"),
     getStreamingInfo("premier5"),
-    ...basicPlaylist.channelList.slice(15, 17),
-    getStreamingInfo("new18", 1, {
-      channelName: "NEW 18 HD",
-    }),
-    ...basicPlaylist.channelList.slice(18, 36),
+    ...basicPlaylist.channelList.slice(15, 19),
+    getStreamingInfo("cartoonnetwork"),
+    ...basicPlaylist.channelList.slice(20, 36),
     getStreamingInfo("bein1"),
     getStreamingInfo("bein2"),
     getStreamingInfo("idstation"),
@@ -104,10 +102,7 @@ const proPlaylist = {
       channelName: "Premier HD1 Backup",
       groupName: "BACKUP",
     }),
-    getStreamingInfo("premier2", 1, {
-      channelName: "Premier HD2 Backup",
-      groupName: "BACKUP",
-    }),
+    getStreamingInfo("truesport2"),
     getStreamingInfo("premier3", 2, {
       channelName: "Premier HD3 Backup",
       groupName: "BACKUP",
@@ -155,17 +150,15 @@ const proPlaylist = {
       groupName: "BACKUP",
     }),
     getStreamingInfo("mono29", 1, {
-      channelName: "MONO29 Backup",
+      channelName: "MONO29 HD Backup",
       groupName: "BACKUP",
     }),
-    getStreamingInfo("new18", 0, {
-      channelName: "NEW 18 Backup",
+    getStreamingInfo("mono29", 2, {
+      channelName: "MONO29 HD Soundtrack",
       groupName: "BACKUP",
     }),
-    getStreamingInfo("cartoonnetwork"),
     getStreamingInfo("hbo"),
     getStreamingInfo("ctb"),
-    getStreamingInfo("tvb"),
   ],
 };
 
