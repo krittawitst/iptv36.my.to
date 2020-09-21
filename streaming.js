@@ -230,7 +230,7 @@ const streamingInfo = {
 
   hitsmovie: {
     channelName: "Hits Movie HD",
-    logo: "https://iptv36.my.to/logo/hitsmovie.png.png",
+    logo: "https://iptv36.my.to/logo/hitsmovie.png",
     urlList: ["https://www.livedoomovies.com/02_HITSMOVIE_720p/chunklist.m3u8"],
     groupName: "PREMIUM",
   },
