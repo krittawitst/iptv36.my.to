@@ -1,4 +1,4 @@
-#EXTM3U : iptv36.my.to/IPTV36.m3u - Last Update 2020-09-25T04:45:58.964Z
+#EXTM3U : iptv36.my.to/IPTV36.m3u - Last Update 2020-09-25T05:07:29.495Z
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/tv5.png" group-title="TH DTV 2020-09-25", 1. TV5 HD
 http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8
@@ -51,7 +51,7 @@ http://dootvthai-hd.com/cmd/true/TNN-16/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/news1.png" group-title="FREE TV", 17. NEWS1 HD
 http://news1.live14.com/stream/news1_hi.m3u8
 
-#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/new18.jpg" group-title="TH DTV 2020-09-25", 18. NEW 18
+#EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/new18.jpg" group-title="TH DTV 2020-09-25", 18. NEW 18 HD
 https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54_PCNvrWmNuipQtSKgbImSc)/dm/3/x7kx5i7/s/live-3.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptv36.my.to/logo/psi.png" group-title="FREE TV", 19. PSI Saradee HD

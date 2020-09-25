@@ -343,7 +343,7 @@ const streamingInfo = {
   },
 
   new18: {
-    channelName: "NEW 18",
+    channelName: "NEW 18 HD",
     logo: "https://iptv36.my.to/logo/new18.jpg",
     urlList: [
       "https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54_PCNvrWmNuipQtSKgbImSc)/dm/3/x7kx5i7/s/live-3.m3u8",
