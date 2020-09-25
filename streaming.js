@@ -231,7 +231,7 @@ const streamingInfo = {
 
   hitsmovie: {
     channelName: "Hits Movie HD",
-    logo: "https://iptv36.my.to/logo/hitsmovie.png.png",
+    logo: "https://iptv36.my.to/logo/hitsmovie.png",
     urlList: ["https://www.livedoomovies.com/02_HITSMOVIE_720p/chunklist.m3u8"],
     groupName: "PREMIUM",
   },
@@ -335,6 +335,7 @@ const streamingInfo = {
     channelName: "NBT HD",
     logo: "https://iptv36.my.to/logo/nbt.png",
     urlList: [
+      "http://122.155.92.8:1935/live/ch1_L.sdp/playlist.m3u8",
       "http://160.119.77.50/iptv/sd-nbt.stream/playlist.m3u8",
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/nbt_720p/playlist.m3u8",
     ],
@@ -345,7 +346,7 @@ const streamingInfo = {
     channelName: "NEW 18",
     logo: "https://iptv36.my.to/logo/new18.jpg",
     urlList: [
-      "https://stream-01.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54wWPK1G5BRvNcs1sYCZgch8)/dm/3/x7kx5i7/s/live-3.m3u8",
+      "https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54_PCNvrWmNuipQtSKgbImSc)/dm/3/x7kx5i7/s/live-3.m3u8",
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/new18_720p/playlist.m3u8",
     ],
     groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,

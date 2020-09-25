@@ -52,7 +52,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 15          | GMM25 Backup          |
 | 16          | TNN16 HD              |
 | 17          | NEWS1 HD              |
-| 18          | NEW 18                |
+| 18          | NEW 18 HD             |
 | 19          | PSI Saradee HD        |
 | 20          | Cartoon Club          |
 | 21          | Voice TV HD           |
