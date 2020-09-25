@@ -83,8 +83,8 @@ const proPlaylist = {
     getStreamingInfo("foxfamilymovies"),
     getStreamingInfo("foxthai"),
     ...basicPlaylist.channelList.slice(9, 10),
-    getStreamingInfo("premier1", 3),
-    getStreamingInfo("premier2", 2),
+    getStreamingInfo("premier1", 1),
+    getStreamingInfo("premier2", 1),
     getStreamingInfo("premier3"),
     getStreamingInfo("premier4"),
     getStreamingInfo("premier5"),
@@ -98,12 +98,12 @@ const proPlaylist = {
       channelName: "beIN Sports HD1 Backup",
       groupName: "BACKUP",
     }),
-    getStreamingInfo("premier1", 2, {
+    getStreamingInfo("premier1", 3, {
       channelName: "Premier HD1 Backup",
       groupName: "BACKUP",
     }),
     getStreamingInfo("truesport2"),
-    getStreamingInfo("premier3", 2, {
+    getStreamingInfo("premier3", 4, {
       channelName: "Premier HD3 Backup",
       groupName: "BACKUP",
     }),
