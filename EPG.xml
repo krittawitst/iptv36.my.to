@@ -1,6 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
 <tv>
+  <channel id="dtv1.th">
+    <display-name>display dtv1.th</display-name>
+  </channel>
+  <channel id="dtv2.th">
+    <display-name>display dtv2.th</display-name>
+  </channel>
+  <channel id="dtv3.th">
+    <display-name>display dtv3.th</display-name>
+  </channel>
+  <channel id="dtv4.th">
+    <display-name>display dtv4.th</display-name>
+  </channel>
+  <channel id="dtv5.th">
+    <display-name>display dtv5.th</display-name>
+  </channel>
+  <channel id="dtv6.th">
+    <display-name>display dtv6.th</display-name>
+  </channel>
+  <channel id="dtv7.th">
+    <display-name>display dtv7.th</display-name>
+  </channel>
+  <channel id="dtv8.th">
+    <display-name>display dtv8.th</display-name>
+  </channel>
+  <channel id="dtv9.th">
+    <display-name>display dtv9.th</display-name>
+  </channel>
+  <channel id="dtv10.th">
+    <display-name>display dtv10.th</display-name>
+  </channel>
+  <channel id="dtv11.th">
+    <display-name>display dtv11.th</display-name>
+  </channel>
+  <channel id="dtv12.th">
+    <display-name>display dtv12.th</display-name>
+  </channel>
+  <channel id="dtv13.th">
+    <display-name>display dtv13.th</display-name>
+  </channel>
+  <channel id="dtv14.th">
+    <display-name>display dtv14.th</display-name>
+  </channel>
+  <channel id="dtv15.th">
+    <display-name>display dtv15.th</display-name>
+  </channel>
+  <channel id="dtv16.th">
+    <display-name>display dtv16.th</display-name>
+  </channel>
+  <channel id="dtv17.th">
+    <display-name>display dtv17.th</display-name>
+  </channel>
+  <channel id="dtv18.th">
+    <display-name>display dtv18.th</display-name>
+  </channel>
+  <channel id="dtv19.th">
+    <display-name>display dtv19.th</display-name>
+  </channel>
+  <channel id="dtv20.th">
+    <display-name>display dtv20.th</display-name>
+  </channel>
+  <channel id="dtv21.th">
+    <display-name>display dtv21.th</display-name>
+  </channel>
+  <channel id="dtv22.th">
+    <display-name>display dtv22.th</display-name>
+  </channel>
+  <channel id="dtv23.th">
+    <display-name>display dtv23.th</display-name>
+  </channel>
+  <channel id="dtv24.th">
+    <display-name>display dtv24.th</display-name>
+  </channel>
+  <channel id="dtv25.th">
+    <display-name>display dtv25.th</display-name>
+  </channel>
+  <channel id="dtv26.th">
+    <display-name>display dtv26.th</display-name>
+  </channel>
+  <channel id="dtv27.th">
+    <display-name>display dtv27.th</display-name>
+  </channel>
+  <channel id="dtv28.th">
+    <display-name>display dtv28.th</display-name>
+  </channel>
+  <channel id="dtv29.th">
+    <display-name>display dtv29.th</display-name>
+  </channel>
+  <channel id="dtv30.th">
+    <display-name>display dtv30.th</display-name>
+  </channel>
+  <channel id="dtv31.th">
+    <display-name>display dtv31.th</display-name>
+  </channel>
+  <channel id="dtv32.th">
+    <display-name>display dtv32.th</display-name>
+  </channel>
+  <channel id="dtv33.th">
+    <display-name>display dtv33.th</display-name>
+  </channel>
+  <channel id="dtv34.th">
+    <display-name>display dtv34.th</display-name>
+  </channel>
+  <channel id="dtv35.th">
+    <display-name>display dtv35.th</display-name>
+  </channel>
+  <channel id="dtv36.th">
+    <display-name>display dtv36.th</display-name>
+  </channel>
   <programme start="20200926130000" stop="20200926133000" channel="dtv1.th">
     <title><![CDATA[ข่าวในพระราชสำนัก]]></title>
     <desc><![CDATA[สอบถามข้อมูลเพิ่มเติม 0-2615-2213]]></desc>
@@ -415,7 +523,7 @@
   </programme>
   <programme start="20200927001000" stop="20200927002000" channel="dtv3.th">
     <title><![CDATA[สอนศิลป์]]></title>
-    <desc><![CDATA[สาธิต วิธีการทางศิลปะ และงานประดิษฐ์ต่าง ๆ]]></desc>
+    <desc><![CDATA[สาธิต วิธีการทางศิลปะ และงานประดิษฐ์ต่าง ๆ ]]></desc>
   </programme>
   <programme start="20200927002000" stop="20200927004000" channel="dtv3.th">
     <title><![CDATA[หม้อข้าวหม้อแกง]]></title>
@@ -497,10 +605,6 @@
     <title><![CDATA[ดูให้รู้]]></title>
     <desc><![CDATA[เจาะลึกถึงวัฒนธรรม ระบบการศึกษา ระบบการออกแบบวางแผนจราจร และอื่น ๆ ในญี่ปุ่น]]></desc>
   </programme>
-  <programme start="20200926125000" stop="20200926133000" channel="dtv10.th">
-    <title><![CDATA[ข่าวในพระราชสำนัก]]></title>
-    <desc><![CDATA[No Description]]></desc>
-  </programme>
   <programme start="20200926133000" stop="20200926143000" channel="dtv10.th">
     <title><![CDATA[Zoom In]]></title>
     <desc><![CDATA[No Description]]></desc>
@@ -559,7 +663,7 @@
   </programme>
   <programme start="20200927050000" stop="20200927060000" channel="dtv10.th">
     <title><![CDATA[สรุปข่าวรัฐสภาในรอบสัปดาห์]]></title>
-    <desc><![CDATA[ข่าวในแวดวงงานรัฐสภา การประชุมของรัฐสภา การประชุมของคณะกรรมาธิการฯ รวมถึงกิจกรรมต่างๆ ภายในรอบสัปดาห์]]></desc>
+    <desc><![CDATA[ข่าวในแวดวงงานรัฐสภา การประชุมของรัฐสภา การประชุมของคณะกรรมาธิการฯ รวมถึงกิจกรรมต่างๆ ภายในรอบสัปดาห์ ]]></desc>
   </programme>
   <programme start="20200927060000" stop="20200927070000" channel="dtv10.th">
     <title><![CDATA[วุฒิสภารายสัปดาห์]]></title>
@@ -599,6 +703,10 @@
   </programme>
   <programme start="20200927110000" stop="20200927120000" channel="dtv10.th">
     <title><![CDATA[สูงวัยโซไซตี้]]></title>
+    <desc><![CDATA[No Description]]></desc>
+  </programme>
+  <programme start="20200927120000" stop="20200927125000" channel="dtv10.th">
+    <title><![CDATA[Hightlight ประชุมสภา]]></title>
     <desc><![CDATA[No Description]]></desc>
   </programme>
   <programme start="20200926130000" stop="20200926133000" channel="dtv16.th">
@@ -703,7 +811,7 @@
   </programme>
   <programme start="20200927060000" stop="20200927063000" channel="dtv16.th">
     <title><![CDATA[พารู้...พารวย]]></title>
-    <desc><![CDATA[สาระความรู้แนว variety นำเสนอเหตุการณ์ที่น่ารู้ในและต่างประเทศ เคล็ดลับความสำเร็จด้านธุรกิจ สุขภาพ ท่องเที่ยว รวมถึงด้านเกษตรสมัยใหม่]]></desc>
+    <desc><![CDATA[สาระความรู้แนว variety นำเสนอเหตุการณ์ที่น่ารู้ในและต่างประเทศ เคล็ดลับความสำเร็จด้านธุรกิจ สุขภาพ ท่องเที่ยว รวมถึงด้านเกษตรสมัยใหม่	]]></desc>
   </programme>
   <programme start="20200927063000" stop="20200927063200" channel="dtv16.th">
     <title><![CDATA[TNN Biz News]]></title>
@@ -895,7 +1003,7 @@
   </programme>
   <programme start="20200926173000" stop="20200926175500" channel="dtv22.th">
     <title><![CDATA[True Shopping]]></title>
-    <desc><![CDATA[รายการแนะนำสินค้าต่างๆ สุขภาพ ความงาม]]></desc>
+    <desc><![CDATA[รายการแนะนำสินค้าต่างๆ สุขภาพ ความงาม ]]></desc>
   </programme>
   <programme start="20200926175500" stop="20200926180000" channel="dtv22.th">
     <title><![CDATA[มีเรื่องมาคุย (CC)]]></title>
@@ -939,7 +1047,7 @@
   </programme>
   <programme start="20200927011000" stop="20200927012000" channel="dtv22.th">
     <title><![CDATA[สุข Society]]></title>
-    <desc><![CDATA[รายการแนะนำสินค้าต่างๆ สุขภาพ ความงาม]]></desc>
+    <desc><![CDATA[รายการแนะนำสินค้าต่างๆ สุขภาพ ความงาม ]]></desc>
   </programme>
   <programme start="20200927012000" stop="20200927015000" channel="dtv22.th">
     <title><![CDATA[เรื่องดีที่เมืองไทย]]></title>
@@ -947,7 +1055,7 @@
   </programme>
   <programme start="20200927015000" stop="20200927020000" channel="dtv22.th">
     <title><![CDATA[สุข Society]]></title>
-    <desc><![CDATA[รายการแนะนำสินค้าต่างๆ สุขภาพ ความงาม]]></desc>
+    <desc><![CDATA[รายการแนะนำสินค้าต่างๆ สุขภาพ ความงาม ]]></desc>
   </programme>
   <programme start="20200927020000" stop="20200927020300" channel="dtv22.th">
     <title><![CDATA[Nation News Update  (L)]]></title>
@@ -971,7 +1079,7 @@
   </programme>
   <programme start="20200927043000" stop="20200927044000" channel="dtv22.th">
     <title><![CDATA[สุข Society]]></title>
-    <desc><![CDATA[รายการแนะนำสินค้าต่างๆ สุขภาพ ความงาม]]></desc>
+    <desc><![CDATA[รายการแนะนำสินค้าต่างๆ สุขภาพ ความงาม ]]></desc>
   </programme>
   <programme start="20200927044000" stop="20200927055000" channel="dtv22.th">
     <title><![CDATA[เก็บตกจากเนชั่น ภาคเที่ยง (L)]]></title>
@@ -979,7 +1087,7 @@
   </programme>
   <programme start="20200927055000" stop="20200927060000" channel="dtv22.th">
     <title><![CDATA[สุข Society]]></title>
-    <desc><![CDATA[รายการแนะนำสินค้าต่างๆ สุขภาพ ความงาม]]></desc>
+    <desc><![CDATA[รายการแนะนำสินค้าต่างๆ สุขภาพ ความงาม ]]></desc>
   </programme>
   <programme start="20200927060000" stop="20200927063000" channel="dtv22.th">
     <title><![CDATA[คุยกับหมออัจจิมา]]></title>
@@ -1023,11 +1131,11 @@
   </programme>
   <programme start="20200927100000" stop="20200927110000" channel="dtv22.th">
     <title><![CDATA[ใช่..หรือไม่ ได้รู้กัน  [R]]]></title>
-    <desc><![CDATA[โต้วาทีข่าว ตัวต่อตัว ประเด็นต่อประเด็น]]></desc>
+    <desc><![CDATA[โต้วาทีข่าว ตัวต่อตัว ประเด็นต่อประเด็น ]]></desc>
   </programme>
   <programme start="20200927110000" stop="20200927111000" channel="dtv22.th">
     <title><![CDATA[สุข Society]]></title>
-    <desc><![CDATA[รายการแนะนำสินค้าต่างๆ สุขภาพ ความงาม]]></desc>
+    <desc><![CDATA[รายการแนะนำสินค้าต่างๆ สุขภาพ ความงาม ]]></desc>
   </programme>
   <programme start="20200927111000" stop="20200927113500" channel="dtv22.th">
     <title><![CDATA[ชั่วโมงสืบสวน ]]></title>
@@ -1151,7 +1259,7 @@
   </programme>
   <programme start="20200927021000" stop="20200927030500" channel="dtv23.th">
     <title><![CDATA[คุณพระช่วย]]></title>
-    <desc><![CDATA[รายการที่นำเรื่องราวเกี่ยวกับประเพณี วัฒนธรรม ต่างๆ]]></desc>
+    <desc><![CDATA[รายการที่นำเรื่องราวเกี่ยวกับประเพณี วัฒนธรรม ต่างๆ ]]></desc>
   </programme>
   <programme start="20200927030500" stop="20200927034500" channel="dtv23.th">
     <title><![CDATA[เลดี้พลาซ่า]]></title>
@@ -1187,7 +1295,7 @@
   </programme>
   <programme start="20200927095500" stop="20200927105800" channel="dtv23.th">
     <title><![CDATA[ซูเปอร์ 100]]></title>
-    <desc><![CDATA[รายการแข่งขันความสามารถ]]></desc>
+    <desc><![CDATA[รายการแข่งขันความสามารถ ]]></desc>
   </programme>
   <programme start="20200927105800" stop="20200927110000" channel="dtv23.th">
     <title><![CDATA[จักรวาลทาสน้อง]]></title>
@@ -1379,7 +1487,7 @@
   </programme>
   <programme start="20200926182000" stop="20200926193000" channel="dtv27.th">
     <title><![CDATA[ซีรี่ส์ มหาราชรานจิตซิงห์]]></title>
-    <desc><![CDATA[เรื่องราวของกษัตริย์ที่ครองความยิ่งใหญ่และครองใจผู้คน ประวัติศาสตร์การรวมอำนาจเป็นหนึ่งของอินเดีย]]></desc>
+    <desc><![CDATA[เรื่องราวของกษัตริย์ที่ครองความยิ่งใหญ่และครองใจผู้คน ประวัติศาสตร์การรวมอำนาจเป็นหนึ่งของอินเดีย ]]></desc>
   </programme>
   <programme start="20200926193000" stop="20200926194000" channel="dtv27.th">
     <title><![CDATA[ชีวิตดี สาระดี]]></title>
@@ -1431,7 +1539,7 @@
   </programme>
   <programme start="20200927032000" stop="20200927040500" channel="dtv27.th">
     <title><![CDATA[นายจ๋า ทาสมาแล้ว]]></title>
-    <desc><![CDATA[รายการสำหรับคนรักสุนัขและแมว เพื่อดูแลสัตว์เลี้ยงแสนรักอย่างถูกวิธีเสมือนคนในครอบครัว]]></desc>
+    <desc><![CDATA[รายการสำหรับคนรักสุนัขและแมว เพื่อดูแลสัตว์เลี้ยงแสนรักอย่างถูกวิธีเสมือนคนในครอบครัว ]]></desc>
   </programme>
   <programme start="20200927040500" stop="20200927041500" channel="dtv27.th">
     <title><![CDATA[ชีวิตดี สาระดี]]></title>
@@ -1563,6 +1671,10 @@
   </programme>
   <programme start="20200927110000" stop="20200927110500" channel="dtv29.th">
     <title><![CDATA[Movie Language : ซีนเด็ดภาษาหนัง]]></title>
+    <desc><![CDATA[[ออกอากาศทีวีดิจิตอล 27 ก.ย. 63]]]></desc>
+  </programme>
+  <programme start="20200927110500" stop="20200927125500" channel="dtv29.th">
+    <title><![CDATA[Premium Blockbuster]]></title>
     <desc><![CDATA[[ออกอากาศทีวีดิจิตอล 27 ก.ย. 63]]]></desc>
   </programme>
   <programme start="20200926135000" stop="20200926145000" channel="dtv30.th">
@@ -1749,10 +1861,6 @@
     <title><![CDATA[การแข่งขันฟุตบอล J League 1 ฤดูกาล 2020]]></title>
     <desc><![CDATA[No Description]]></desc>
   </programme>
-  <programme start="20200926125500" stop="20200926131500" channel="dtv31.th">
-    <title><![CDATA[ข่าวค่ำช่องวัน / ข่าว ]]></title>
-    <desc><![CDATA[ข่าวค่ำช่องวัน / ข่าว]]></desc>
-  </programme>
   <programme start="20200926131500" stop="20200926141500" channel="dtv31.th">
     <title><![CDATA[3 หนุ่ม 3 มุม x 2 ]]></title>
     <desc><![CDATA[เตรียมพบการกลับมาของ สามหนุ่มสามมุม ที่คุณคิดถึง พร้อมกับอีกสามหนุ่ม ที่ไม่ได้มาหาเรื่อง แต่มาหาพ่อ]]></desc>
@@ -1767,7 +1875,7 @@
   </programme>
   <programme start="20200926162000" stop="20200926163000" channel="dtv31.th">
     <title><![CDATA[รายการ O Shopping ]]></title>
-    <desc><![CDATA[สัมผัสประสบการณ์ใหม่ในการช้อปปิ้งออนไลน์ระดับโลกอย่างสะดวกสบายและเพลิดเพลินใจ]]></desc>
+    <desc><![CDATA[สัมผัสประสบการณ์ใหม่ในการช้อปปิ้งออนไลน์ระดับโลกอย่างสะดวกสบายและเพลิดเพลินใจ ]]></desc>
   </programme>
   <programme start="20200926163000" stop="20200926165959" channel="dtv31.th">
     <title><![CDATA[ละคร ฉันชื่อบุษบา รีรัน]]></title>
@@ -1779,7 +1887,7 @@
   </programme>
   <programme start="20200926193000" stop="20200926194000" channel="dtv31.th">
     <title><![CDATA[รายการ O Shopping ]]></title>
-    <desc><![CDATA[สัมผัสประสบการณ์ใหม่ในการช้อปปิ้งออนไลน์ระดับโลกอย่างสะดวกสบายและเพลิดเพลินใจ]]></desc>
+    <desc><![CDATA[สัมผัสประสบการณ์ใหม่ในการช้อปปิ้งออนไลน์ระดับโลกอย่างสะดวกสบายและเพลิดเพลินใจ ]]></desc>
   </programme>
   <programme start="20200926194000" stop="20200926200000" channel="dtv31.th">
     <title><![CDATA[Music in one]]></title>
@@ -1791,7 +1899,7 @@
   </programme>
   <programme start="20200926210000" stop="20200926211000" channel="dtv31.th">
     <title><![CDATA[รายการ O Shopping ]]></title>
-    <desc><![CDATA[สัมผัสประสบการณ์ใหม่ในการช้อปปิ้งออนไลน์ระดับโลกอย่างสะดวกสบายและเพลิดเพลินใจ]]></desc>
+    <desc><![CDATA[สัมผัสประสบการณ์ใหม่ในการช้อปปิ้งออนไลน์ระดับโลกอย่างสะดวกสบายและเพลิดเพลินใจ ]]></desc>
   </programme>
   <programme start="20200926211000" stop="20200926214000" channel="dtv31.th">
     <title><![CDATA[รักแท้แม่ไม่ปลื้ม]]></title>
@@ -1799,7 +1907,7 @@
   </programme>
   <programme start="20200926214000" stop="20200926220000" channel="dtv31.th">
     <title><![CDATA[รายการ O Shopping ]]></title>
-    <desc><![CDATA[สัมผัสประสบการณ์ใหม่ในการช้อปปิ้งออนไลน์ระดับโลกอย่างสะดวกสบายและเพลิดเพลินใจ]]></desc>
+    <desc><![CDATA[สัมผัสประสบการณ์ใหม่ในการช้อปปิ้งออนไลน์ระดับโลกอย่างสะดวกสบายและเพลิดเพลินใจ ]]></desc>
   </programme>
   <programme start="20200926220000" stop="20200926220500" channel="dtv31.th">
     <title><![CDATA[Music in one]]></title>
@@ -1823,7 +1931,7 @@
   </programme>
   <programme start="20200926233000" stop="20200926234000" channel="dtv31.th">
     <title><![CDATA[รายการ O Shopping ]]></title>
-    <desc><![CDATA[สัมผัสประสบการณ์ใหม่ในการช้อปปิ้งออนไลน์ระดับโลกอย่างสะดวกสบายและเพลิดเพลินใจ]]></desc>
+    <desc><![CDATA[สัมผัสประสบการณ์ใหม่ในการช้อปปิ้งออนไลน์ระดับโลกอย่างสะดวกสบายและเพลิดเพลินใจ ]]></desc>
   </programme>
   <programme start="20200926234000" stop="20200927010000" channel="dtv31.th">
     <title><![CDATA[ละคร 4 เทพผู้พิทักษ์]]></title>
@@ -1855,7 +1963,11 @@
   </programme>
   <programme start="20200927100000" stop="20200927110000" channel="dtv31.th">
     <title><![CDATA[ข่าวเย็นช่องวัน]]></title>
-    <desc><![CDATA[เกาะติดสถานการณ์ข่าว จับประเด็นโดยผู้ประกาศมืออาชีพ]]></desc>
+    <desc><![CDATA[เกาะติดสถานการณ์ข่าว จับประเด็นโดยผู้ประกาศมืออาชีพ ]]></desc>
+  </programme>
+  <programme start="20200927110000" stop="20200927125500" channel="dtv31.th">
+    <title><![CDATA[ศึกวันดวลเพลง เสาร์๕]]></title>
+    <desc><![CDATA[รายการสุดยิ่งใหญ่ ศึกวันดวลเพลงเสาร์ ๕ สานต่อความมันกับศึกครั้งยิ่งใหญ่ที่สุด]]></desc>
   </programme>
   <programme start="20200926130000" stop="20200926131500" channel="dtv32.th">
     <title><![CDATA[ข่าวในพระราชสำนัก]]></title>
@@ -2021,14 +2133,6 @@
     <title><![CDATA[ร้องได้ให้ล้าน ]]></title>
     <desc><![CDATA[No Description]]></desc>
   </programme>
-  <programme start="20200926125000" stop="20200926125800" channel="dtv33.th">
-    <title><![CDATA[ข่าวนอกลู่ เสาร์ - อาทิตย์]]></title>
-    <desc><![CDATA[รายการข่าวสั้น ที่เอาเบื้องหลังของข่าว หรือคลิปข่าวสั้นๆ มารายงานเป็นข่าวน่ารัก สนุกสนาน]]></desc>
-  </programme>
-  <programme start="20200926125800" stop="20200926131200" channel="dtv33.th">
-    <title><![CDATA[ข่าวในพระราชสำนัก]]></title>
-    <desc><![CDATA[No Description]]></desc>
-  </programme>
   <programme start="20200926131200" stop="20200926131800" channel="dtv33.th">
     <title><![CDATA[ตะลุยกองถ่าย / แฟลช นิวส์]]></title>
     <desc><![CDATA[เป็นรายการที่จะพาคุณผู้ชมไปบุกตะลุยกองถ่าย...รวมไปถึงงานบวงสรวงของละครหรือรายการของทางไทยทีวีสีช่อง 3 ในแต่ละเรื่อง]]></desc>
@@ -2156,6 +2260,14 @@
   <programme start="20200927110000" stop="20200927112000" channel="dtv33.th">
     <title><![CDATA[ข่าวเด่น เย็น เสาร์ - อาทิตย์]]></title>
     <desc><![CDATA[No Description]]></desc>
+  </programme>
+  <programme start="20200927112000" stop="20200927125000" channel="dtv33.th">
+    <title><![CDATA[Hollywood Game Night Thailand]]></title>
+    <desc><![CDATA[No Description]]></desc>
+  </programme>
+  <programme start="20200927125000" stop="20200927125800" channel="dtv33.th">
+    <title><![CDATA[ข่าวนอกลู่ เสาร์ - อาทิตย์]]></title>
+    <desc><![CDATA[รายการข่าวสั้น ที่เอาเบื้องหลังของข่าว หรือคลิปข่าวสั้นๆ มารายงานเป็นข่าวน่ารัก สนุกสนาน]]></desc>
   </programme>
   <programme start="20200926130000" stop="20200926131500" channel="dtv34.th">
     <title><![CDATA[ข่าวในพระราชสำนัก]]></title>
@@ -2295,123 +2407,123 @@
   </programme>
   <programme start="20200926133000" stop="20200926152700" channel="dtv35.th">
     <title><![CDATA[สิงห์สั่งป่า ]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200926152700" stop="20200926153200" channel="dtv35.th">
     <title><![CDATA[ข่าวเด็ด 7 สี]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200926153200" stop="20200926162600" channel="dtv35.th">
     <title><![CDATA[เรื่องจริง Night Life]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200926162600" stop="20200926163200" channel="dtv35.th">
     <title><![CDATA[ข่าวเด็ดภาคดึก]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200926163200" stop="20200926165959" channel="dtv35.th">
     <title><![CDATA[ดอก ชู้ ลับ (TULIP FEVER)]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200926170000" stop="20200926182700" channel="dtv35.th">
     <title><![CDATA[ดอก ชู้ ลับ (TULIP FEVER)]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200926182700" stop="20200926200800" channel="dtv35.th">
     <title><![CDATA[ฝ่าเส้นตาย สายมรณะ (CONNECTED)]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200926200800" stop="20200926210500" channel="dtv35.th">
     <title><![CDATA[สาวน้อยอ้อยควั่น (Rerun) ]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200926210500" stop="20200926213000" channel="dtv35.th">
     <title><![CDATA[สุดยอดสารคดีสุดสัปดาห์ สีสันแห่งแดนอาทิตย์อุทัย (INSPIRING LANDSCAPES) ]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200926213000" stop="20200926214200" channel="dtv35.th">
     <title><![CDATA[ธรรมะ ]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200926214200" stop="20200926235400" channel="dtv35.th">
     <title><![CDATA[สนามข่าว เสาร์ - อาทิตย์]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200926235400" stop="20200927002600" channel="dtv35.th">
     <title><![CDATA[ดิสนีย์คลับ ]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200927002600" stop="20200927002700" channel="dtv35.th">
     <title><![CDATA[ชุมชนล้นสุข ]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200927002700" stop="20200927005100" channel="dtv35.th">
     <title><![CDATA[รวมพันธุ์ฮีโร่ผู้พิทักษ์จักรวาล (MARVEL'S GUARDIANS OF THE GALAXY YR2) (ตอนจบ) ]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200927005100" stop="20200927005600" channel="dtv35.th">
     <title><![CDATA[ร้อยเรื่องเมืองไทย ]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200927005600" stop="20200927010000" channel="dtv35.th">
     <title><![CDATA[ข่าวเด็ด 7 สี]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200927010000" stop="20200927020300" channel="dtv35.th">
     <title><![CDATA[พระสุธน มโนห์รา ]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200927020300" stop="20200927025900" channel="dtv35.th">
     <title><![CDATA[กองพัน รักลั่นฟ้า (Rerun) (ตอนจบ)]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200927025900" stop="20200927030300" channel="dtv35.th">
     <title><![CDATA[ข่าวเด็ด 7 สี]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200927030300" stop="20200927050000" channel="dtv35.th">
     <title><![CDATA[๑๕ ค่ำ เดือน ๑๑ (MEKHONG FULL MOON PARTY)]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200927050000" stop="20200927053000" channel="dtv35.th">
     <title><![CDATA[อาทิตย์ติดข่าว]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200927053000" stop="20200927062500" channel="dtv35.th">
     <title><![CDATA[ดวลเพลงดัง ดาราท้าดวล ]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200927062500" stop="20200927072300" channel="dtv35.th">
     <title><![CDATA[ศึกเจ้านักกิน กิน แข่ง แบ่งสุข]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200927072300" stop="20200927072700" channel="dtv35.th">
     <title><![CDATA[ข่าวเด็ด 7 สี]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200927072700" stop="20200927073000" channel="dtv35.th">
     <title><![CDATA[พบหมอศิริราช ]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200927073000" stop="20200927093000" channel="dtv35.th">
     <title><![CDATA[มวยไทย 7 สี ]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200927093000" stop="20200927100100" channel="dtv35.th">
     <title><![CDATA[เจาะประเด็นข่าวค่ำ]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200927100100" stop="20200927105800" channel="dtv35.th">
     <title><![CDATA[Shark Tank Thailand ธุรกิจพิชิตล้าน ซีซั่น 2 ]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200927105800" stop="20200927110000" channel="dtv35.th">
     <title><![CDATA[MODEL TV ]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200927110000" stop="20200927124600" channel="dtv35.th">
     <title><![CDATA[The Next Iron Chef Season 2 ศึกค้นหาเชฟกระทะเหล็ก ซีซั่น 2]]></title>
-    <desc><![CDATA[No Description]]></desc>
+    <desc><![CDATA[ ]]></desc>
   </programme>
   <programme start="20200926132500" stop="20200926134000" channel="dtv36.th">
     <title><![CDATA[ข่าวในพระราชสำนัก]]></title>
@@ -2427,11 +2539,11 @@
   </programme>
   <programme start="20200926162500" stop="20200926165959" channel="dtv36.th">
     <title><![CDATA[ถ่ายทอดสดฟุตบอลบุนเดสลีกา]]></title>
-    <desc><![CDATA[ถ่ายทอดสดการแข่งขันฟุตบอล Bundesliga 2020 2021 ระหว่าง Schalke 04 v Bremen]]></desc>
+    <desc><![CDATA[ถ่ายทอดสดการแข่งขันฟุตบอล Bundesliga 2020 2021 ระหว่าง Schalke 04 v Bremen ]]></desc>
   </programme>
   <programme start="20200926170000" stop="20200926183000" channel="dtv36.th">
     <title><![CDATA[สดฟุตบอลบุนเดสลีกา ระหว่าง Schalke 04 v Bremen ]]></title>
-    <desc><![CDATA[ถ่ายทอดสดการแข่งขันฟุตบอล Bundesliga 2020 2021 ระหว่าง Schalke 04 v Bremen]]></desc>
+    <desc><![CDATA[ถ่ายทอดสดการแข่งขันฟุตบอล Bundesliga 2020 2021 ระหว่าง Schalke 04 v Bremen ]]></desc>
   </programme>
   <programme start="20200926183000" stop="20200926190000" channel="dtv36.th">
     <title><![CDATA[True Shopping ]]></title>
@@ -2447,7 +2559,7 @@
   </programme>
   <programme start="20200926213000" stop="20200926220000" channel="dtv36.th">
     <title><![CDATA[มองมุมใหม่ Birds Eye View]]></title>
-    <desc><![CDATA[รายการท่องเที่ยวที่จะพาคุณไปสัมผัสประเทศไทยที่ให้เห็น ความงาม ของทัศนียภาพ จากมุมสูงที่ใครหลายคนอาจ ไม่เคยเห็นมาก่อน เก็บซ็อตมันส์มันส์แบบแอกซ์ตรีม]]></desc>
+    <desc><![CDATA[รายการท่องเที่ยวที่จะพาคุณไปสัมผัสประเทศไทยที่ให้เห็น ความงาม ของทัศนียภาพ จากมุมสูงที่ใครหลายคนอาจ ไม่เคยเห็นมาก่อน เก็บซ็อตมันส์มันส์แบบแอกซ์ตรีม ]]></desc>
   </programme>
   <programme start="20200926220000" stop="20200926223000" channel="dtv36.th">
     <title><![CDATA[TV Direct ]]></title>
