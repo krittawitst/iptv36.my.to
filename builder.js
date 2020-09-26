@@ -1,5 +1,8 @@
 const fs = require("fs");
+const axios = require("axios");
 const getStreamingInfo = require("./streaming.js");
+const epgUrl =
+  "http://dtvguide.nbtc.go.th/NbtcMobileWebService/nbtc.mobile.service/epgservice/getAllChannelTemp";
 
 const basicPlaylist = {
   filename: "BASIC36.m3u",
@@ -176,19 +179,98 @@ const iptvPlaylist = {
   ],
 };
 
-for (let playlist of [basicPlaylist, proPlaylist, iptvPlaylist]) {
-  let textStr = `#EXTM3U : iptv36.my.to/${
-    playlist.filename
-  } - Last Update ${new Date().toISOString()}\n\n`;
+const getEpgJsonDataData = async (url) => {
+  try {
+    const response = await axios.post(url);
+    const data = response.data;
+    return data;
+  } catch (error) {
+    console.log(error);
+  }
+};
 
-  playlist.channelList.forEach((channel, index) => {
-    let channelStr = `#EXTINF:-1 tvg-logo="${channel.logo}" group-title="${
-      channel.groupName
-    }", ${index + 1}. ${channel.channelName}\n${channel.url}\n\n`;
-    textStr = textStr + `${channelStr}`;
-  });
+const main = async () => {
+  // M3U PLAYLIST
+  for (let playlist of [basicPlaylist, proPlaylist, iptvPlaylist]) {
+    let textStr = `#EXTM3U : iptv36.my.to/${
+      playlist.filename
+    } - Last Update ${new Date().toISOString()}\n\n`;
 
-  fs.writeFileSync(playlist.filename, textStr, "utf8");
-}
+    playlist.channelList.forEach((channel, index) => {
+      let channelStr = `#EXTINF:-1 tvg-id="dtv${
+        index + 1
+      }.th" tvg-logo-small="${channel.logo}" tvg-logo="${
+        channel.logo
+      }" tvg-chno="${index + 1}" group-title="${channel.groupName}", ${
+        channel.channelName
+      }\n${channel.url}\n\n`;
+      textStr = textStr + `${channelStr}`;
+    });
 
-console.log("Exported");
+    fs.writeFileSync(playlist.filename, textStr, "utf8");
+
+    console.log(`Created playlist '${playlist.filename}'`);
+  }
+
+  // EPG
+  const epgJsonData = await getEpgJsonDataData(epgUrl);
+  fs.writeFileSync("EPG.json", JSON.stringify(epgJsonData), "utf8");
+  console.log(`Created EPG 'EPG.json'`);
+
+  let xmlHead = `<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<tv>
+`;
+  for (let i = 1; i <= 36; i++) {
+    xmlHead += `  <channel id="dtv${i}.th">
+    <display-name>display dtv${i}.th</display-name>
+  </channel>
+`;
+  }
+  let xmlBody = "";
+  let xmlTail = "</tv>";
+  let currentDatetime = new Date();
+  let currentDatetimePlusOneDay = new Date(
+    currentDatetime.getTime() + 86400000
+  );
+
+  for (let result of epgJsonData.results) {
+    let channelId = `${parseInt(result.channelNo)}`;
+    for (let program of result.programOfChannel) {
+      let programStart = new Date(program.pgBeginTimeLong * 1000);
+      let programEnd = new Date(program.pgEndTimeLong * 1000);
+      if (
+        programEnd < currentDatetime ||
+        programStart > currentDatetimePlusOneDay // ||
+        // channelId != 31
+      ) {
+        continue;
+      }
+      let programStartStr = programStart
+        .toISOString()
+        .replace(/-|:|T/g, "")
+        .replace(".000Z", "");
+      let programEndStr = programEnd
+        .toISOString()
+        .replace(/-|:|T/g, "")
+        .replace(".000Z", "");
+      let programDescription = "No Description";
+      if (program.pgDesc && program.pgDesc.trim()) {
+        programDescription = program.pgDesc.trim();
+      }
+      console.log(
+        `${program.pgDate} ${program.pgBeginTime} ${program.pgTitle}`
+      );
+      xmlBody += `  <programme start="${programStartStr} -1400" stop="${programEndStr} -1400" channel="dtv${channelId}.th">
+    <title><![CDATA[77 ${program.pgTitle || "No Program Name"}]]></title>
+    <desc><![CDATA[${program.pgDesc || "No Description"}]]></desc>
+  </programme>
+`;
+    }
+  }
+
+  fs.writeFileSync("EPG.xml", xmlHead + xmlBody + xmlTail, "utf8");
+  console.log(`Created EPG 'EPG.xml'`);
+};
+
+main();

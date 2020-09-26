@@ -1,0 +1,9 @@
+{
+  "name": "iptv36.my.to",
+  "version": "1.0.0",
+  "description": "Thai Digital IPTV Playlist for Android TV",
+  "repository": "https://github.com/krittawitst/iptv36.my.to.git",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}

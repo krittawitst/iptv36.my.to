@@ -109,14 +109,6 @@
   <channel id="dtv36.th">
     <display-name>display dtv36.th</display-name>
   </channel>
-  <programme start="20200926133000 -1400" stop="20200926140000 -1400" channel="dtv1.th">
-    <title><![CDATA[77 สารคดีพิเศษชุดโรงพยาบาลสมเด็จพระยุพราชเพื่อประชาชน]]></title>
-    <desc><![CDATA[สอบถามข้อมูลเพิ่มเติม 0-2615-2213]]></desc>
-  </programme>
-  <programme start="20200926140000 -1400" stop="20200926140500 -1400" channel="dtv1.th">
-    <title><![CDATA[77 รายการสารคดี]]></title>
-    <desc><![CDATA[สอบถามข้อมูลเพิ่มเติม 0-2615-2213]]></desc>
-  </programme>
   <programme start="20200926140500 -1400" stop="20200926143500 -1400" channel="dtv1.th">
     <title><![CDATA[77 เที่ยวไม่ซ้ำทาง]]></title>
     <desc><![CDATA[สอบถามข้อมูลเพิ่มเติม 0-2615-2213]]></desc>
@@ -349,6 +341,14 @@
     <title><![CDATA[77 สารคดีพิเศษชุดโรงพยาบาลสมเด็จพระยุพราชเพื่อประชาชน]]></title>
     <desc><![CDATA[สอบถามข้อมูลเพิ่มเติม 0-2615-2213]]></desc>
   </programme>
+  <programme start="20200927140000 -1400" stop="20200927141000 -1400" channel="dtv1.th">
+    <title><![CDATA[77 ทีวีพูล ไลฟ์]]></title>
+    <desc><![CDATA[สอบถามข้อมูลเพิ่มเติม 0-2615-2213]]></desc>
+  </programme>
+  <programme start="20200927141000 -1400" stop="20200927143500 -1400" channel="dtv1.th">
+    <title><![CDATA[77 บันทึกท่องเที่ยว]]></title>
+    <desc><![CDATA[สอบถามข้อมูลเพิ่มเติม 0-2615-2213]]></desc>
+  </programme>
   <programme start="20200926133000 -1400" stop="20200926143000 -1400" channel="dtv2.th">
     <title><![CDATA[77 To be number one variety]]></title>
     <desc><![CDATA[To ne number one]]></desc>
@@ -477,9 +477,9 @@
     <title><![CDATA[77 Hero ต้านโกง]]></title>
     <desc><![CDATA[ประชาชนทั่วไป]]></desc>
   </programme>
-  <programme start="20200926131500 -1400" stop="20200926141000 -1400" channel="dtv3.th">
-    <title><![CDATA[77 ปลายจวัก]]></title>
-    <desc><![CDATA[ละครไทยที่นำเสนอเรื่องราวประวัติศาสตร์ไทยในสมัยรัชกาลที่ ๕ ผ่านเมนูอาหาร]]></desc>
+  <programme start="20200927140000 -1400" stop="20200927143000 -1400" channel="dtv2.th">
+    <title><![CDATA[77 มิติใหม่ Thailand]]></title>
+    <desc><![CDATA[ประชาชนทั่วไป]]></desc>
   </programme>
   <programme start="20200926141000 -1400" stop="20200926150000 -1400" channel="dtv3.th">
     <title><![CDATA[77 บ้านพลังใจ]]></title>
@@ -629,6 +629,10 @@
     <title><![CDATA[77 ปลายจวัก]]></title>
     <desc><![CDATA[ละครไทยที่นำเสนอเรื่องราวประวัติศาสตร์ไทยในสมัยรัชกาลที่ ๕ ผ่านเมนูอาหาร]]></desc>
   </programme>
+  <programme start="20200927141000 -1400" stop="20200927150000 -1400" channel="dtv3.th">
+    <title><![CDATA[77 สารคดี หนึ่งคนว่ายหลายคนช่วย]]></title>
+    <desc><![CDATA[โครงการที่ต้องการปลุกจิตสำนึกให้คนไทยเห็นถึงความสำคัญของระบบนิเวศทางทะเล ลงมือช่วยกันอนุรักษ์ทรัพยากรธรรมชาติและสิ่งแวดล้อมทางทะเล]]></desc>
+  </programme>
   <programme start="20200926133000 -1400" stop="20200926143000 -1400" channel="dtv10.th">
     <title><![CDATA[77 Zoom In]]></title>
     <desc><![CDATA[No Description]]></desc>
@@ -739,6 +743,10 @@
   </programme>
   <programme start="20200927133000 -1400" stop="20200927140000 -1400" channel="dtv10.th">
     <title><![CDATA[77 The key ไขการเมืองเรื่องใกล้ตัว]]></title>
+    <desc><![CDATA[No Description]]></desc>
+  </programme>
+  <programme start="20200927140000 -1400" stop="20200927143000 -1400" channel="dtv10.th">
+    <title><![CDATA[77 โลกน่ารักษ์]]></title>
     <desc><![CDATA[No Description]]></desc>
   </programme>
   <programme start="20200926133000 -1400" stop="20200926141500 -1400" channel="dtv16.th">
@@ -877,9 +885,13 @@
     <title><![CDATA[77 โฟกัส China]]></title>
     <desc><![CDATA[รายการที่นำเสนอเรื่องราวเกี่ยวกับประเทศจีน ทุกๆ ด้าน]]></desc>
   </programme>
-  <programme start="20200926131000 -1400" stop="20200926140000 -1400" channel="dtv18.th">
-    <title><![CDATA[77 NEW Documentary สำรวจโลก : นักล่ายามวิกาล - ไฮยีน่า]]></title>
-    <desc><![CDATA[No Description]]></desc>
+  <programme start="20200927140000 -1400" stop="20200927140200 -1400" channel="dtv16.th">
+    <title><![CDATA[77 TNN Biz News]]></title>
+    <desc><![CDATA[สรุปเหตุการณ์ข่าวตลอดทั้งวันที่มีความหลากหลายจากในและต่างประเทศ พร้อมทั้งการรายงานสภาพอากาศจากทุกมุมโลก]]></desc>
+  </programme>
+  <programme start="20200927140200 -1400" stop="20200927150000 -1400" channel="dtv16.th">
+    <title><![CDATA[77 Business Watch]]></title>
+    <desc><![CDATA[รายงานข่าวเศรษฐกิจในประเทศและต่างประเทศสำหรับแวดวงธุรกิจ]]></desc>
   </programme>
   <programme start="20200926140000 -1400" stop="20200926150000 -1400" channel="dtv18.th">
     <title><![CDATA[77 NEW Documentary สำรวจโลก : นักสำรวจสัตว์ลึกลับ]]></title>
@@ -1005,9 +1017,9 @@
     <title><![CDATA[77 NEW Documentary สำรวจโลก : กุ้งนินจา]]></title>
     <desc><![CDATA[No Description]]></desc>
   </programme>
-  <programme start="20200926131000 -1400" stop="20200926141000 -1400" channel="dtv22.th">
-    <title><![CDATA[77 ใช่..หรือไม่ ได้รู้กัน]]></title>
-    <desc><![CDATA[โต้วาทีข่าว ตัวต่อตัว ประเด็นต่อประเด็น กับ  วรเทพ วัฒนพิมพ์]]></desc>
+  <programme start="20200927140000 -1400" stop="20200927150000 -1400" channel="dtv18.th">
+    <title><![CDATA[77 NEW Documentary สำรวจโลก : ต้นกำเนิดร่างกายมนุษย์]]></title>
+    <desc><![CDATA[No Description]]></desc>
   </programme>
   <programme start="20200926141000 -1400" stop="20200926152700 -1400" channel="dtv22.th">
     <title><![CDATA[77 ข่าวข้นคนเนชั่น  (L)]]></title>
@@ -1200,6 +1212,10 @@
   <programme start="20200927131000 -1400" stop="20200927141000 -1400" channel="dtv22.th">
     <title><![CDATA[77 ไลน์กนก ปี 7 ]]></title>
     <desc><![CDATA[วาไรตี้ สไตล์ กนก รัตน์วงสกุล]]></desc>
+  </programme>
+  <programme start="20200927141000 -1400" stop="20200927152700 -1400" channel="dtv22.th">
+    <title><![CDATA[77 ข่าวข้นคนเนชั่น  (L)]]></title>
+    <desc><![CDATA[คุยข่าวกับ กนก ธีระ เจษฏ์]]></desc>
   </programme>
   <programme start="20200926131500 -1400" stop="20200926141500 -1400" channel="dtv23.th">
     <title><![CDATA[77 เพลงเอก Best Song Contest]]></title>

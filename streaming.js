@@ -3,7 +3,7 @@ const streamingInfo = {
     channelName: "ALTV HD",
     logo: "https://iptv36.my.to/logo/altv.png",
     urlList: ["https://iptv36.my.to/altv.m3u8"],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   amarin: {
@@ -16,7 +16,7 @@ const streamingInfo = {
       "http://203.150.107.30:8081/tested2iptv/core13/playlist.m3u8",
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/amarintv_720p/chunks.m3u8",
     ],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   axn: {
@@ -103,7 +103,7 @@ const streamingInfo = {
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/3hd_720p/chunks.m3u8",
       "http://27.254.130.64/live01/ch0.m3u8?p=st",
     ],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   ch7: {
@@ -116,7 +116,7 @@ const streamingInfo = {
       "https://doomovielive.b-cdn.net/hd-ch7_720/index.m3u8",
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/7hd_720p/chunks.m3u8",
     ],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   ch8: {
@@ -129,7 +129,7 @@ const streamingInfo = {
       "http://stream.rs.co.th/ch8-hi/index.m3u8",
       "http://27.254.130.64/live01/ch15.m3u8?p=st",
     ],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   ctb: {
@@ -196,7 +196,7 @@ const streamingInfo = {
       "http://27.254.130.56:80/live01/ch11.m3u8",
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/gmm25_720p/playlist.m3u8",
     ],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   hbo: {
@@ -292,7 +292,7 @@ const streamingInfo = {
       "http://livesport2018.dyndns.tv:8080/live/mcothd/playlist.m3u8",
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/mcothd_720p/chunks.m3u8",
     ],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   monoplus: {
@@ -314,7 +314,7 @@ const streamingInfo = {
       "https://cdn6.goprimetime.info//feed//chmono29//index.m3u8",
       "https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080EN.stream/playlist.m3u8",
     ],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   // natgeo: {
@@ -328,7 +328,7 @@ const streamingInfo = {
     channelName: "Nation TV",
     logo: "https://iptv36.my.to/logo/nation.jpg",
     urlList: ["https://cdn6.goprimetime.info/feed/chnation/index.m3u8"],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   nbt: {
@@ -339,7 +339,7 @@ const streamingInfo = {
       "http://160.119.77.50/iptv/sd-nbt.stream/playlist.m3u8",
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/nbt_720p/playlist.m3u8",
     ],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   new18: {
@@ -349,7 +349,7 @@ const streamingInfo = {
       "https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54_PCNvrWmNuipQtSKgbImSc)/dm/3/x7kx5i7/s/live-3.m3u8",
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/new18_720p/playlist.m3u8",
     ],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   news1: {
@@ -369,7 +369,7 @@ const streamingInfo = {
       "http://160.119.77.50/iptv/hd-gmmone.stream/playlist.m3u8",
       "http://203.150.107.30:8081/tested2iptv/I1_CNNHD/playlist.m3u8",
     ],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   pptv: {
@@ -383,7 +383,7 @@ const streamingInfo = {
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/pptv_720p/chunks.m3u8",
       "http://160.119.77.50/iptv/hd-pptv.stream/playlist.m3u8",
     ],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   premier1: {
@@ -467,7 +467,7 @@ const streamingInfo = {
       "http://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8",
       "https://cdn6.goprimetime.info/feed/chthaipbs/index.m3u8",
     ],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   thairath: {
@@ -478,7 +478,7 @@ const streamingInfo = {
       "http://dootvthai-hd.com/cmd/true/Thairathtv-HD/playlist.m3u8",
       "http://160.119.77.50/iptv/hd-thairath.stream/playlist.m3u8",
     ],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   tnn16: {
@@ -490,7 +490,7 @@ const streamingInfo = {
       "http://119.59.125.74/stream/totnew.php?channel_id=77774220bb8e40aa94e549e29ff3ed8a&.m3u8",
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/tnn24_720p/playlist.m3u8",
     ],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   tptv: {
@@ -500,7 +500,7 @@ const streamingInfo = {
       "http://49.231.66.85:1935/live/tptv/playlist.m3u8",
       "https://www.livedoomovies.com/02_TPTV_480p/chunklist.m3u8",
     ],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   true4u: {
@@ -512,7 +512,7 @@ const streamingInfo = {
       "https://livedoomovies.com/02_TRUE4U_480p/chunklist.m3u8",
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/true4u_720p/playlist.m3u8",
     ],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   truefilm: {
@@ -562,7 +562,7 @@ const streamingInfo = {
       "http://27.254.130.64/live01/ch6.m3u8?p=st",
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/5hd_720p/chunks.m3u8",
     ],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 
   tvb: {
@@ -621,7 +621,7 @@ const streamingInfo = {
       "https://cdn161.cloud-streaming.com/ilike4kin_x6/workpoint_720p/playlist.m3u8",
       // "http://160.119.77.50/iptv/hd-workpoint.stream/playlist.m3u8",
     ],
-    groupName: `TH DTV ${new Date().toISOString().slice(0, 10)}`,
+    groupName: `TH DTV ${new Date().toISOString().slice(0, 16)}`,
   },
 };
 
