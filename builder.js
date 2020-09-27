@@ -262,9 +262,7 @@ const main = async () => {
         `${program.pgDate} ${program.pgBeginTime} ${program.pgTitle}`
       );
       xmlBody += `  <programme start="${programStartStr} -0000" stop="${programEndStr} -0000" channel="dtv${channelId}.th">
-    <title><![CDATA[88 ${program.pgTitle || "No Program Name"} ${
-        program.pgBeginTime
-      }]]></title>
+    <title><![CDATA[${program.pgTitle || "No Program Name"}]]></title>
     <desc><![CDATA[${program.pgDesc || "No Description"}]]></desc>
   </programme>
 `;

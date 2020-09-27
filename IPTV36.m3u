@@ -1,15 +1,15 @@
-#EXTM3U : iptv36.my.to/IPTV36.m3u - Last Update 2020-09-27T04:57:29.972Z
+#EXTM3U : iptv36.my.to/IPTV36.m3u - Last Update 2020-09-27T05:19:10.161Z
 
-#EXTINF:-1 tvg-id="dtv1.th" tvg-logo-small="https://iptv36.my.to/logo/tv5.png" tvg-logo="https://iptv36.my.to/logo/tv5.png" tvg-chno="1" group-title="TH DTV 2020-09-27T04:57", TV5 HD
+#EXTINF:-1 tvg-id="dtv1.th" tvg-logo-small="https://iptv36.my.to/logo/tv5.png" tvg-logo="https://iptv36.my.to/logo/tv5.png" tvg-chno="1" group-title="TH DTV 2020-09-27T05:19", TV5 HD
 http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8
 
-#EXTINF:-1 tvg-id="dtv2.th" tvg-logo-small="https://iptv36.my.to/logo/nbt.png" tvg-logo="https://iptv36.my.to/logo/nbt.png" tvg-chno="2" group-title="TH DTV 2020-09-27T04:57", NBT HD
+#EXTINF:-1 tvg-id="dtv2.th" tvg-logo-small="https://iptv36.my.to/logo/nbt.png" tvg-logo="https://iptv36.my.to/logo/nbt.png" tvg-chno="2" group-title="TH DTV 2020-09-27T05:19", NBT HD
 http://122.155.92.8:1935/live/ch1_L.sdp/playlist.m3u8
 
-#EXTINF:-1 tvg-id="dtv3.th" tvg-logo-small="https://iptv36.my.to/logo/thaipbs.png" tvg-logo="https://iptv36.my.to/logo/thaipbs.png" tvg-chno="3" group-title="TH DTV 2020-09-27T04:57", Thai PBS HD
+#EXTINF:-1 tvg-id="dtv3.th" tvg-logo-small="https://iptv36.my.to/logo/thaipbs.png" tvg-logo="https://iptv36.my.to/logo/thaipbs.png" tvg-chno="3" group-title="TH DTV 2020-09-27T05:19", Thai PBS HD
 http://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8
 
-#EXTINF:-1 tvg-id="dtv4.th" tvg-logo-small="https://iptv36.my.to/logo/altv.png" tvg-logo="https://iptv36.my.to/logo/altv.png" tvg-chno="4" group-title="TH DTV 2020-09-27T04:57", ALTV HD
+#EXTINF:-1 tvg-id="dtv4.th" tvg-logo-small="https://iptv36.my.to/logo/altv.png" tvg-logo="https://iptv36.my.to/logo/altv.png" tvg-chno="4" group-title="TH DTV 2020-09-27T05:19", ALTV HD
 https://iptv36.my.to/altv.m3u8
 
 #EXTINF:-1 tvg-id="dtv5.th" tvg-logo-small="https://iptv36.my.to/logo/hitsmovie.png" tvg-logo="https://iptv36.my.to/logo/hitsmovie.png" tvg-chno="5" group-title="PREMIUM", Hits Movie HD
@@ -27,7 +27,7 @@ http://203.150.107.30:8081/tested2iptv/core14/playlist.m3u8
 #EXTINF:-1 tvg-id="dtv9.th" tvg-logo-small="https://iptv36.my.to/logo/fox_thai.jpg" tvg-logo="https://iptv36.my.to/logo/fox_thai.jpg" tvg-chno="9" group-title="PREMIUM", FOX Thai HD
 https://www.livedoomovies.com/02_FoxThai_TH_720p/chunklist.m3u8
 
-#EXTINF:-1 tvg-id="dtv10.th" tvg-logo-small="https://iptv36.my.to/logo/tptv.png" tvg-logo="https://iptv36.my.to/logo/tptv.png" tvg-chno="10" group-title="TH DTV 2020-09-27T04:57", TPTV
+#EXTINF:-1 tvg-id="dtv10.th" tvg-logo-small="https://iptv36.my.to/logo/tptv.png" tvg-logo="https://iptv36.my.to/logo/tptv.png" tvg-chno="10" group-title="TH DTV 2020-09-27T05:19", TPTV
 http://49.231.66.85:1935/live/tptv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="dtv11.th" tvg-logo-small="https://iptv36.my.to/logo/premier_hd1.png" tvg-logo="https://iptv36.my.to/logo/premier_hd1.png" tvg-chno="11" group-title="PREMIUM", Premier HD1
@@ -45,13 +45,13 @@ http://103.208.24.234:1935/thaisport/epl-4.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="dtv15.th" tvg-logo-small="https://iptv36.my.to/logo/premier_hd5.png" tvg-logo="https://iptv36.my.to/logo/premier_hd5.png" tvg-chno="15" group-title="PREMIUM", Premier HD5
 http://103.208.24.234:1935/thaisport/epl-5.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-id="dtv16.th" tvg-logo-small="https://iptv36.my.to/logo/tnn16.png" tvg-logo="https://iptv36.my.to/logo/tnn16.png" tvg-chno="16" group-title="TH DTV 2020-09-27T04:57", TNN16 HD
+#EXTINF:-1 tvg-id="dtv16.th" tvg-logo-small="https://iptv36.my.to/logo/tnn16.png" tvg-logo="https://iptv36.my.to/logo/tnn16.png" tvg-chno="16" group-title="TH DTV 2020-09-27T05:19", TNN16 HD
 http://dootvthai-hd.com/cmd/true/TNN-16/playlist.m3u8
 
 #EXTINF:-1 tvg-id="dtv17.th" tvg-logo-small="https://iptv36.my.to/logo/news1.png" tvg-logo="https://iptv36.my.to/logo/news1.png" tvg-chno="17" group-title="FREE TV", NEWS1 HD
 http://news1.live14.com/stream/news1_hi.m3u8
 
-#EXTINF:-1 tvg-id="dtv18.th" tvg-logo-small="https://iptv36.my.to/logo/new18.jpg" tvg-logo="https://iptv36.my.to/logo/new18.jpg" tvg-chno="18" group-title="TH DTV 2020-09-27T04:57", NEW 18 HD
+#EXTINF:-1 tvg-id="dtv18.th" tvg-logo-small="https://iptv36.my.to/logo/new18.jpg" tvg-logo="https://iptv36.my.to/logo/new18.jpg" tvg-chno="18" group-title="TH DTV 2020-09-27T05:19", NEW 18 HD
 https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54_PCNvrWmNuipQtSKgbImSc)/dm/3/x7kx5i7/s/live-3.m3u8
 
 #EXTINF:-1 tvg-id="dtv19.th" tvg-logo-small="https://iptv36.my.to/logo/psi.png" tvg-logo="https://iptv36.my.to/logo/psi.png" tvg-chno="19" group-title="FREE TV", PSI Saradee HD
@@ -63,49 +63,49 @@ http://edge4-bkk.3bb.co.th:1935/CartoonClub_Livestream/cartoonclub_480P.stream/c
 #EXTINF:-1 tvg-id="dtv21.th" tvg-logo-small="https://iptv36.my.to/logo/voice_tv.png" tvg-logo="https://iptv36.my.to/logo/voice_tv.png" tvg-chno="21" group-title="FREE TV", Voice TV HD
 https://edge6a.v2h-cdn.com/appt3/WOWSH.stream_720p/chunklist_w142679599.m3u8
 
-#EXTINF:-1 tvg-id="dtv22.th" tvg-logo-small="https://iptv36.my.to/logo/nation.jpg" tvg-logo="https://iptv36.my.to/logo/nation.jpg" tvg-chno="22" group-title="TH DTV 2020-09-27T04:57", Nation TV
+#EXTINF:-1 tvg-id="dtv22.th" tvg-logo-small="https://iptv36.my.to/logo/nation.jpg" tvg-logo="https://iptv36.my.to/logo/nation.jpg" tvg-chno="22" group-title="TH DTV 2020-09-27T05:19", Nation TV
 https://cdn6.goprimetime.info/feed/chnation/index.m3u8
 
-#EXTINF:-1 tvg-id="dtv23.th" tvg-logo-small="https://iptv36.my.to/logo/workpoint.png" tvg-logo="https://iptv36.my.to/logo/workpoint.png" tvg-chno="23" group-title="TH DTV 2020-09-27T04:57", Workpoint TV HD
+#EXTINF:-1 tvg-id="dtv23.th" tvg-logo-small="https://iptv36.my.to/logo/workpoint.png" tvg-logo="https://iptv36.my.to/logo/workpoint.png" tvg-chno="23" group-title="TH DTV 2020-09-27T05:19", Workpoint TV HD
 https://stream-01.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8rX-E0L4vsi93TvIJZVxH9k)/dm/3/x6g9qjj/s/live-3.m3u8
 
-#EXTINF:-1 tvg-id="dtv24.th" tvg-logo-small="https://iptv36.my.to/logo/true4u.png" tvg-logo="https://iptv36.my.to/logo/true4u.png" tvg-chno="24" group-title="TH DTV 2020-09-27T04:57", True4U HD
+#EXTINF:-1 tvg-id="dtv24.th" tvg-logo-small="https://iptv36.my.to/logo/true4u.png" tvg-logo="https://iptv36.my.to/logo/true4u.png" tvg-chno="24" group-title="TH DTV 2020-09-27T05:19", True4U HD
 http://dootvthai-hd.com/cmd/true/true4u/playlist.m3u8
 
-#EXTINF:-1 tvg-id="dtv25.th" tvg-logo-small="https://iptv36.my.to/logo/gmm25.png" tvg-logo="https://iptv36.my.to/logo/gmm25.png" tvg-chno="25" group-title="TH DTV 2020-09-27T04:57", GMM25 HD
+#EXTINF:-1 tvg-id="dtv25.th" tvg-logo-small="https://iptv36.my.to/logo/gmm25.png" tvg-logo="https://iptv36.my.to/logo/gmm25.png" tvg-chno="25" group-title="TH DTV 2020-09-27T05:19", GMM25 HD
 https://stream-01.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_UGZtjJhedSJ5rzYJxKz5z4)/dm/3/x6rz4t7/s/live-3.m3u8
 
 #EXTINF:-1 tvg-id="dtv26.th" tvg-logo-small="https://iptv36.my.to/logo/tvb.png" tvg-logo="https://iptv36.my.to/logo/tvb.png" tvg-chno="26" group-title="FREE TV", TVB Thai
 https://edge6a.v2h-cdn.com/RE_HD/smil:TVB_HD_ABR.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="dtv27.th" tvg-logo-small="https://iptv36.my.to/logo/ch8.jpg" tvg-logo="https://iptv36.my.to/logo/ch8.jpg" tvg-chno="27" group-title="TH DTV 2020-09-27T04:57", CH8 RS HD
+#EXTINF:-1 tvg-id="dtv27.th" tvg-logo-small="https://iptv36.my.to/logo/ch8.jpg" tvg-logo="https://iptv36.my.to/logo/ch8.jpg" tvg-chno="27" group-title="TH DTV 2020-09-27T05:19", CH8 RS HD
 https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8
 
 #EXTINF:-1 tvg-id="dtv28.th" tvg-logo-small="https://iptv36.my.to/logo/monoplus.png" tvg-logo="https://iptv36.my.to/logo/monoplus.png" tvg-chno="28" group-title="FREE TV", MONO PLUS HD
 http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/cloudiptv_monoplus_live1.stream/playlist.m3u8?username=mTRTvdvQbtd1DsswhsZTMoZUdI8MT4W6&password=Rp93AKS1peyuyYDApZw6sThMshGL1vvO
 
-#EXTINF:-1 tvg-id="dtv29.th" tvg-logo-small="https://iptv36.my.to/logo/mono29.png" tvg-logo="https://iptv36.my.to/logo/mono29.png" tvg-chno="29" group-title="TH DTV 2020-09-27T04:57", MONO29 HD
+#EXTINF:-1 tvg-id="dtv29.th" tvg-logo-small="https://iptv36.my.to/logo/mono29.png" tvg-logo="https://iptv36.my.to/logo/mono29.png" tvg-chno="29" group-title="TH DTV 2020-09-27T05:19", MONO29 HD
 https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/chunklist_w1578972109.m3u8
 
-#EXTINF:-1 tvg-id="dtv30.th" tvg-logo-small="https://iptv36.my.to/logo/mcot.png" tvg-logo="https://iptv36.my.to/logo/mcot.png" tvg-chno="30" group-title="TH DTV 2020-09-27T04:57", MCOT HD
+#EXTINF:-1 tvg-id="dtv30.th" tvg-logo-small="https://iptv36.my.to/logo/mcot.png" tvg-logo="https://iptv36.my.to/logo/mcot.png" tvg-chno="30" group-title="TH DTV 2020-09-27T05:19", MCOT HD
 http://dootvthai-hd.com/cmd/api/true/9MCOT-HD/playlist.m3u8
 
-#EXTINF:-1 tvg-id="dtv31.th" tvg-logo-small="https://iptv36.my.to/logo/one.png" tvg-logo="https://iptv36.my.to/logo/one.png" tvg-chno="31" group-title="TH DTV 2020-09-27T04:57", ONE HD
-https://one31-rlbwkq.cdn.byteark.com/live/playlist-hd.m3u8
+#EXTINF:-1 tvg-id="dtv31.th" tvg-logo-small="https://iptv36.my.to/logo/one.png" tvg-logo="https://iptv36.my.to/logo/one.png" tvg-chno="31" group-title="TH DTV 2020-09-27T05:19", ONE HD
+https://iptv36.my.to/one.m3u8
 
-#EXTINF:-1 tvg-id="dtv32.th" tvg-logo-small="https://iptv36.my.to/logo/thairath.png" tvg-logo="https://iptv36.my.to/logo/thairath.png" tvg-chno="32" group-title="TH DTV 2020-09-27T04:57", Thairath TV HD
+#EXTINF:-1 tvg-id="dtv32.th" tvg-logo-small="https://iptv36.my.to/logo/thairath.png" tvg-logo="https://iptv36.my.to/logo/thairath.png" tvg-chno="32" group-title="TH DTV 2020-09-27T05:19", Thairath TV HD
 http://live.thairath.co.th/trtv2/playlist_720p/index.m3u8
 
-#EXTINF:-1 tvg-id="dtv33.th" tvg-logo-small="https://iptv36.my.to/logo/ch3.png" tvg-logo="https://iptv36.my.to/logo/ch3.png" tvg-chno="33" group-title="TH DTV 2020-09-27T04:57", CH3 HD
+#EXTINF:-1 tvg-id="dtv33.th" tvg-logo-small="https://iptv36.my.to/logo/ch3.png" tvg-logo="https://iptv36.my.to/logo/ch3.png" tvg-chno="33" group-title="TH DTV 2020-09-27T05:19", CH3 HD
 http://dootvthai-hd.com/cmd/api/true/CH3-HD/playlist.m3u8
 
-#EXTINF:-1 tvg-id="dtv34.th" tvg-logo-small="https://iptv36.my.to/logo/amarin.png" tvg-logo="https://iptv36.my.to/logo/amarin.png" tvg-chno="34" group-title="TH DTV 2020-09-27T04:57", Amarin TV HD
+#EXTINF:-1 tvg-id="dtv34.th" tvg-logo-small="https://iptv36.my.to/logo/amarin.png" tvg-logo="https://iptv36.my.to/logo/amarin.png" tvg-chno="34" group-title="TH DTV 2020-09-27T05:19", Amarin TV HD
 http://27.254.130.64:80/feed/chamarin/playlist.m3u8
 
-#EXTINF:-1 tvg-id="dtv35.th" tvg-logo-small="https://iptv36.my.to/logo/ch7.png" tvg-logo="https://iptv36.my.to/logo/ch7.png" tvg-chno="35" group-title="TH DTV 2020-09-27T04:57", CH7 HD
+#EXTINF:-1 tvg-id="dtv35.th" tvg-logo-small="https://iptv36.my.to/logo/ch7.png" tvg-logo="https://iptv36.my.to/logo/ch7.png" tvg-chno="35" group-title="TH DTV 2020-09-27T05:19", CH7 HD
 https://cdn6.goprimetime.info//feed//ch7hd//index.m3u8
 
-#EXTINF:-1 tvg-id="dtv36.th" tvg-logo-small="https://iptv36.my.to/logo/pptv.png" tvg-logo="https://iptv36.my.to/logo/pptv.png" tvg-chno="36" group-title="TH DTV 2020-09-27T04:57", PPTV HD
+#EXTINF:-1 tvg-id="dtv36.th" tvg-logo-small="https://iptv36.my.to/logo/pptv.png" tvg-logo="https://iptv36.my.to/logo/pptv.png" tvg-chno="36" group-title="TH DTV 2020-09-27T05:19", PPTV HD
 http://dootvthai-hd.com/cmd/true/PPTV-HD/playlist.m3u8
 
 #EXTINF:-1 tvg-id="dtv37.th" tvg-logo-small="https://iptv36.my.to/logo/bein1.png" tvg-logo="https://iptv36.my.to/logo/bein1.png" tvg-chno="37" group-title="PREMIUM", beIN Sports HD1
