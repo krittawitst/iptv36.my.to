@@ -230,8 +230,8 @@ const main = async () => {
   let xmlBody = "";
   let xmlTail = "</tv>";
   let currentDatetime = new Date();
-  let currentDatetimePlusOneDay = new Date(
-    currentDatetime.getTime() + 86400000
+  let currentDatetimePlusTwoDay = new Date(
+    currentDatetime.getTime() + 86400 * 2 * 1000
   );
 
   for (let result of epgJsonData.results) {
@@ -241,7 +241,7 @@ const main = async () => {
       let programEnd = new Date(program.pgEndTimeLong * 1000);
       if (
         programEnd < currentDatetime ||
-        programStart > currentDatetimePlusOneDay // ||
+        programStart > currentDatetimePlusTwoDay // ||
         // channelId != 31
       ) {
         continue;
@@ -261,8 +261,10 @@ const main = async () => {
       console.log(
         `${program.pgDate} ${program.pgBeginTime} ${program.pgTitle}`
       );
-      xmlBody += `  <programme start="${programStartStr} -1400" stop="${programEndStr} -1400" channel="dtv${channelId}.th">
-    <title><![CDATA[77 ${program.pgTitle || "No Program Name"}]]></title>
+      xmlBody += `  <programme start="${programStartStr} -0000" stop="${programEndStr} -0000" channel="dtv${channelId}.th">
+    <title><![CDATA[88 ${program.pgTitle || "No Program Name"} ${
+        program.pgBeginTime
+      }]]></title>
     <desc><![CDATA[${program.pgDesc || "No Description"}]]></desc>
   </programme>
 `;
