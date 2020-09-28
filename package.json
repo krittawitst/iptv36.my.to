@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Thai Digital IPTV Playlist for Android TV",
   "repository": "https://github.com/krittawitst/iptv36.my.to.git",
+  "license": "MIT",
   "dependencies": {
-    "axios": "^0.20.0"
+    "axios": "^0.20.0",
+    "date-format": "^3.0.0"
   }
 }

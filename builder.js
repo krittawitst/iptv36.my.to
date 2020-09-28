@@ -1,5 +1,6 @@
 const fs = require("fs");
 const axios = require("axios");
+const format = require("date-format");
 const getStreamingInfo = require("./streaming.js");
 const epgUrl =
   "http://dtvguide.nbtc.go.th/NbtcMobileWebService/nbtc.mobile.service/epgservice/getAllChannelTemp";
@@ -194,12 +195,12 @@ const main = async () => {
   for (let playlist of [basicPlaylist, proPlaylist, iptvPlaylist]) {
     let textStr = `#EXTM3U : iptv36.my.to/${
       playlist.filename
-    } - Last Update ${new Date().toISOString()}\n\n`;
+    } - Last Update ${format()}\n\n`;
 
     playlist.channelList.forEach((channel, index) => {
-      let channelStr = `#EXTINF:-1 tvg-id="dtv${
+      let channelStr = `#EXTINF:-1 tvg-id="th-dtv${
         index + 1
-      }.th" tvg-logo-small="${channel.logo}" tvg-logo="${
+      }.iptv36.my.to" tvg-logo-small="${channel.logo}" tvg-logo="${
         channel.logo
       }" tvg-chno="${index + 1}" group-title="${channel.groupName}", ${
         channel.channelName
@@ -222,8 +223,8 @@ const main = async () => {
 <tv>
 `;
   for (let i = 1; i <= 36; i++) {
-    xmlHead += `  <channel id="dtv${i}.th">
-    <display-name>display dtv${i}.th</display-name>
+    xmlHead += `  <channel id="th-dtv${i}.iptv36.my.to">
+    <display-name>Thai digital tv channel ${i}</display-name>
   </channel>
 `;
   }
@@ -254,18 +255,21 @@ const main = async () => {
         .toISOString()
         .replace(/-|:|T/g, "")
         .replace(".000Z", "");
-      let programDescription = "No Description";
+      let programDescription = undefined;
       if (program.pgDesc && program.pgDesc.trim()) {
         programDescription = program.pgDesc.trim();
       }
-      console.log(
-        `${program.pgDate} ${program.pgBeginTime} ${program.pgTitle}`
-      );
-      xmlBody += `  <programme start="${programStartStr} -0000" stop="${programEndStr} -0000" channel="dtv${channelId}.th">
-    <title><![CDATA[${program.pgTitle || "No Program Name"}]]></title>
-    <desc><![CDATA[${program.pgDesc || "No Description"}]]></desc>
-  </programme>
-`;
+      // console.log(
+      //   `${program.pgDate} ${program.pgBeginTime} ${program.pgTitle}`
+      // );
+      xmlBody += `  <programme start="${programStartStr} -0000" stop="${programEndStr} -0000" channel="th-dtv${channelId}.iptv36.my.to">\n`;
+      xmlBody += `    <title><![CDATA[${program.pgTitle || "No Program Name"} ${
+        program.pgBeginTime
+      }]]></title>\n`;
+      if (programDescription) {
+        xmlBody += `    <desc><![CDATA[${programDescription}]]></desc>\n`;
+      }
+      xmlBody += `  </programme>\n`;
     }
   }
 
