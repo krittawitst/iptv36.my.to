@@ -651,25 +651,25 @@ const streamingInfo = {
   },
 };
 
-let testPassedUrl = [];
+// let testPassedUrl = [];
 
-const testUrl = async (url) => {
-  console.log(`test ${url}`);
-  if (testPassedUrl.includes(url)) {
-    return true;
-  }
-  try {
-    const response = await axios.get(url);
-    const data = response.data;
-    testPassedUrl.push(url);
-    return true;
-  } catch (error) {
-    console.log(`${error.response.status} on ${url}`);
-    return false;
-  }
-};
+// const testUrl = async (url) => {
+//   console.log(`test ${url}`);
+//   if (testPassedUrl.includes(url)) {
+//     return true;
+//   }
+//   try {
+//     const response = await axios.get(url);
+//     const data = response.data;
+//     testPassedUrl.push(url);
+//     return true;
+//   } catch (error) {
+//     console.log(`${error.response.status} on ${url}`);
+//     return false;
+//   }
+// };
 
-const getStreamingInfo = async (
+const getStreamingInfo = (
   channelKey,
   urlIndex = 0,
   overrideStreamingData = {}
@@ -688,7 +688,7 @@ const getStreamingInfo = async (
       ? urlList[0]
       : "http://not.found";
 
-  let success = await testUrl(url);
+  // let success = await testUrl(url);
 
   return { channelName, logo, groupName, url };
 };

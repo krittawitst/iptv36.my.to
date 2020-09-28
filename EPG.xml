@@ -109,10 +109,6 @@
   <channel id="th-dtv36.iptv36.my.to">
     <display-name>Thai digital tv channel 36</display-name>
   </channel>
-  <programme start="20200928110000 -0000" stop="20200928111500 -0000" channel="th-dtv1.iptv36.my.to">
-    <title><![CDATA[เพื่อชาติ ศาสตร์ กษัตริย์ 18:00:00]]></title>
-    <desc><![CDATA[สอบถามข้อมูลเพิ่มเติม 0-2615-2213]]></desc>
-  </programme>
   <programme start="20200928111500 -0000" stop="20200928113000 -0000" channel="th-dtv1.iptv36.my.to">
     <title><![CDATA[เพื่อชีวิตที่ดีกว่า 18:15:00]]></title>
     <desc><![CDATA[สอบถามข้อมูลเพิ่มเติม 0-2615-2213]]></desc>
@@ -547,6 +543,10 @@
   </programme>
   <programme start="20200930110000 -0000" stop="20200930111500 -0000" channel="th-dtv1.iptv36.my.to">
     <title><![CDATA[เพื่อชาติ ศาสตร์ กษัตริย์ 18:00:00]]></title>
+    <desc><![CDATA[สอบถามข้อมูลเพิ่มเติม 0-2615-2213]]></desc>
+  </programme>
+  <programme start="20200930111500 -0000" stop="20200930113000 -0000" channel="th-dtv1.iptv36.my.to">
+    <title><![CDATA[เพื่อชีวิตที่ดีกว่า 18:15:00]]></title>
     <desc><![CDATA[สอบถามข้อมูลเพิ่มเติม 0-2615-2213]]></desc>
   </programme>
   <programme start="20200928100000 -0000" stop="20200928130000 -0000" channel="th-dtv2.iptv36.my.to">
@@ -4028,9 +4028,6 @@
   <programme start="20200930110000 -0000" stop="20200930130000 -0000" channel="th-dtv33.iptv36.my.to">
     <title><![CDATA[ละคร ลมซ่อนรัก / แฟลช นิวส์ 18:00:00]]></title>
   </programme>
-  <programme start="20200928110100 -0000" stop="20200928112000 -0000" channel="th-dtv34.iptv36.my.to">
-    <title><![CDATA[APOP Today 18:01:00]]></title>
-  </programme>
   <programme start="20200928112000 -0000" stop="20200928115000 -0000" channel="th-dtv34.iptv36.my.to">
     <title><![CDATA[เรื่องเด็ดเอ็ดตะโร 18:20:00]]></title>
   </programme>
@@ -4246,6 +4243,9 @@
   </programme>
   <programme start="20200930110100 -0000" stop="20200930112000 -0000" channel="th-dtv34.iptv36.my.to">
     <title><![CDATA[APOP Today 18:01:00]]></title>
+  </programme>
+  <programme start="20200930112000 -0000" stop="20200930115000 -0000" channel="th-dtv34.iptv36.my.to">
+    <title><![CDATA[เรื่องเด็ดเอ็ดตะโร 18:20:00]]></title>
   </programme>
   <programme start="20200928110000 -0000" stop="20200928115500 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[แหวน 5 ท้าแสน 5 Golden Rings  18:00:00]]></title>
