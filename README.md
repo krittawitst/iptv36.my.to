@@ -1,8 +1,10 @@
-## มาใช้กันเลย
+## IPTV M3U Playlist
 
 เพียงนำ IPTV Playlist URL ของเรา ด้านล่างนี้ ไปใส่ในโปรแกรมที่รองรับ M3U file
 
 # https://iptv36.netlify.app/playlist
+
+## XMLTV EPG
 
 นอกจากนี้ เรายังมี Electronic programming guides (EPG) ในรูปแบบ XMLTV ให้คุณนำไปใช้ด้วย
 
