@@ -167,7 +167,7 @@ const proPlaylist = {
 const iptvPlaylist = {
   filename: "IPTV36.m3u",
   channelList: [
-    ...proPlaylist.channelList.slice(0, 60),
+    ...proPlaylist.channelList,
     getStreamingInfo("ipcam", 0, { channelName: "CAM1 | Park-164" }),
     getStreamingInfo("ipcam", 1, { channelName: "CAM2 | Park-163" }),
     getStreamingInfo("ipcam", 2, { channelName: "CAM3 | Toilet-163" }),
@@ -176,7 +176,6 @@ const iptvPlaylist = {
     getStreamingInfo("ipcam", 5, { channelName: "CAM6 | Floor-2" }),
     getStreamingInfo("ipcam", 6, { channelName: "CAM7 | Com-TV" }),
     getStreamingInfo("ipcam", 7, { channelName: "CAM8 | Com-Ying" }),
-    ...proPlaylist.channelList.slice(60),
   ],
 };
 
@@ -198,13 +197,11 @@ const main = async () => {
     } - Last Update ${format()}\n\n`;
 
     playlist.channelList.forEach((channel, index) => {
-      let channelStr = `#EXTINF:-1 tvg-id="th-dtv${
-        index + 1
-      }.iptv36.my.to" tvg-logo-small="${channel.logo}" tvg-logo="${
+      let channelStr = `#EXTINF:-1 tvg-id="${channel.tvgId}" tvg-logo-small="${
         channel.logo
-      }" tvg-chno="${index + 1}" group-title="${channel.groupName}", ${
-        channel.channelName
-      }\n${channel.url}\n\n`;
+      }" tvg-logo="${channel.logo}" tvg-chno="${index + 1}" group-title="${
+        channel.groupName
+      }", ${channel.channelName}\n${channel.url}\n\n`;
       textStr = textStr + `${channelStr}`;
     });
 
