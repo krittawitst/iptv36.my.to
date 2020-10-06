@@ -57,9 +57,9 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 14          | Amarin TV HD Backup   |
 | 15          | GMM25 Backup          |
 | 16          | TNN16 HD              |
-| 17          | NEWS1 HD              |
+| 17          | PSI Saradee HD        |
 | 18          | NEW 18 HD             |
-| 19          | PSI Saradee HD        |
+| 19          | MONO29 Soundtrack HD  |
 | 20          | Cartoon Club          |
 | 21          | Voice TV HD           |
 | 22          | Nation TV HD          |

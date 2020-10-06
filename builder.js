@@ -127,11 +127,11 @@ const proPlaylist = {
       channelName: "Premier HD3 Backup",
       groupName: "BACKUP",
     }),
-    getStreamingInfo("premier1", 1, {
+    getStreamingInfo("premier1", 2, {
       channelName: "Premier HD1 Backup2",
       groupName: "BACKUP",
     }),
-    getStreamingInfo("premier3", 1, {
+    getStreamingInfo("premier3", 2, {
       channelName: "Premier HD3 Backup2",
       groupName: "BACKUP",
     }),
@@ -200,11 +200,13 @@ const main = async () => {
     let textStr = `#EXTM3U : IPTV Playlist from https://iptv36.my.to/ - Last Update ${format()}\n\n`;
 
     playlist.channelList.forEach((channel, index) => {
-      let channelStr = `#EXTINF:-1 tvg-id="${channel.tvgId}" tvg-logo-small="${
+      let channelStr = `#EXTINF:-1 tvg-chno="${index + 1}" tvg-id="${
+        channel.tvgId
+      }" group-title="${channel.groupName}" tvg-logo-small="${
         channel.logo
-      }" tvg-logo="${channel.logo}" tvg-chno="${index + 1}" group-title="${
-        channel.groupName
-      }", ${channel.channelName}\n${channel.url}\n\n`;
+      }" tvg-logo="${channel.logo}", ${channel.channelName}\n${
+        channel.url
+      }\n\n`;
       textStr = textStr + `${channelStr}`;
     });
 
