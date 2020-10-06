@@ -6,6 +6,7 @@ const getStreamingInfo = require("./streaming.js");
 const basicPlaylist = {
   filename: "BASIC36.m3u",
   channelList: [
+    // 1-10
     getStreamingInfo("tv5"),
     getStreamingInfo("nbt"),
     getStreamingInfo("thaipbs"),
@@ -35,6 +36,7 @@ const basicPlaylist = {
       channelName: "ONE HD Backup",
       groupName: "BACKUP",
     }),
+    // 11-20
     getStreamingInfo("thairath", 1, {
       channelName: "Thairath TV HD Backup",
       groupName: "BACKUP",
@@ -52,10 +54,11 @@ const basicPlaylist = {
       groupName: "BACKUP",
     }),
     getStreamingInfo("tnn16"),
-    getStreamingInfo("news1"),
-    getStreamingInfo("new18"),
     getStreamingInfo("psi"),
+    getStreamingInfo("new18"),
+    getStreamingInfo("mono29soundtrack"),
     getStreamingInfo("cartoonclub"),
+    // 21-30
     getStreamingInfo("voice"),
     getStreamingInfo("nation"),
     getStreamingInfo("workpoint"),
@@ -66,6 +69,7 @@ const basicPlaylist = {
     getStreamingInfo("monoplus"),
     getStreamingInfo("mono29"),
     getStreamingInfo("mcot"),
+    // 31-36
     getStreamingInfo("one"),
     getStreamingInfo("thairath"),
     getStreamingInfo("ch3"),
@@ -78,87 +82,74 @@ const basicPlaylist = {
 const proPlaylist = {
   filename: "PRO36.m3u",
   channelList: [
-    ...basicPlaylist.channelList.slice(0, 4),
-    getStreamingInfo("paramount"),
+    ...basicPlaylist.channelList,
+
+    // 37-40
     getStreamingInfo("foxmovies"),
     getStreamingInfo("foxactionmovies"),
     getStreamingInfo("foxfamilymovies"),
     getStreamingInfo("foxthai"),
-    ...basicPlaylist.channelList.slice(9, 10),
-    getStreamingInfo("premier1", 1),
-    getStreamingInfo("premier2", 1),
+
+    // 41-50
+    getStreamingInfo("hbo"),
+    getStreamingInfo("paramount"),
+    getStreamingInfo("warner"),
+    getStreamingInfo("axn"),
+    getStreamingInfo("hitsmovie"),
+    getStreamingInfo("ctb"),
+    getStreamingInfo("history"),
+    getStreamingInfo("history2"),
+    getStreamingInfo("discoveryasia"),
+    getStreamingInfo("trueplookpanya"),
+
+    // 51-60
+    getStreamingInfo("premier1"),
+    getStreamingInfo("premier2"),
     getStreamingInfo("premier3"),
     getStreamingInfo("premier4"),
     getStreamingInfo("premier5"),
-    ...basicPlaylist.channelList.slice(15, 36),
     getStreamingInfo("bein1"),
     getStreamingInfo("bein2"),
-    getStreamingInfo("idstation"),
+    getStreamingInfo("truesporthd"),
+    getStreamingInfo("truesporthd2"),
+    getStreamingInfo("truesport2"),
+
+    // 61-70
+    getStreamingInfo("premier1", 1, {
+      channelName: "Premier HD1 Backup",
+      groupName: "BACKUP",
+    }),
+    getStreamingInfo("premier2", 1, {
+      channelName: "Premier HD2 Backup",
+      groupName: "BACKUP",
+    }),
+    getStreamingInfo("premier3", 1, {
+      channelName: "Premier HD3 Backup",
+      groupName: "BACKUP",
+    }),
+    getStreamingInfo("premier1", 1, {
+      channelName: "Premier HD1 Backup2",
+      groupName: "BACKUP",
+    }),
+    getStreamingInfo("premier3", 1, {
+      channelName: "Premier HD3 Backup2",
+      groupName: "BACKUP",
+    }),
     getStreamingInfo("bein1", 1, {
       channelName: "beIN Sports HD1 Backup",
       groupName: "BACKUP",
     }),
-    getStreamingInfo("premier1", 3, {
-      channelName: "Premier HD1 Backup",
+    getStreamingInfo("bein2", 1, {
+      channelName: "beIN Sports HD2 Backup",
       groupName: "BACKUP",
     }),
-    getStreamingInfo("truesport2"),
-    getStreamingInfo("premier3", 4, {
-      channelName: "Premier HD3 Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("warner"),
-    getStreamingInfo("axn"),
     getStreamingInfo("cartoonnetwork"),
-    getStreamingInfo("history"),
-    getStreamingInfo("history2"),
-    getStreamingInfo("discoveryasia"),
-    getStreamingInfo("gmm25", 1, {
-      channelName: "GMM25 Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("one", 1, {
-      channelName: "ONE HD Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("thairath", 1, {
-      channelName: "Thairath TV HD Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("ch3", 1, {
-      channelName: "CH3 HD Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("amarin", 1, {
-      channelName: "Amarin TV HD Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("ch7", 1, {
-      channelName: "CH7 Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("pptv", 1, {
-      channelName: "PPTV HD Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("workpoint", 1, {
-      channelName: "Workpoint TV Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("ch8", 1, {
-      channelName: "CH8 RS Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("mono29", 1, {
-      channelName: "MONO29 HD Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("mono29", 2, {
-      channelName: "MONO29 HD Soundtrack",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("hbo"),
-    getStreamingInfo("bbcearth"),
+    getStreamingInfo("disneyxd"),
+    getStreamingInfo("nickelodeon"),
+
+    // 71-72
+    getStreamingInfo("idstation"),
+    getStreamingInfo("truexzyte"),
   ],
 };
 
@@ -166,6 +157,8 @@ const iptvPlaylist = {
   filename: "IPTV36.m3u",
   channelList: [
     ...proPlaylist.channelList,
+
+    // 73-80
     getStreamingInfo("ipcam", 0, { channelName: "CAM1 | Park-164" }),
     getStreamingInfo("ipcam", 1, { channelName: "CAM2 | Park-163" }),
     getStreamingInfo("ipcam", 2, { channelName: "CAM3 | Toilet-163" }),
@@ -204,9 +197,7 @@ const getEpgJsonDataFromAis = async () => {
 const main = async () => {
   // M3U PLAYLIST
   for (let playlist of [basicPlaylist, proPlaylist, iptvPlaylist]) {
-    let textStr = `#EXTM3U : iptv36.my.to/${
-      playlist.filename
-    } - Last Update ${format()}\n\n`;
+    let textStr = `#EXTM3U : IPTV Playlist from https://iptv36.my.to/ - Last Update ${format()}\n\n`;
 
     playlist.channelList.forEach((channel, index) => {
       let channelStr = `#EXTINF:-1 tvg-id="${channel.tvgId}" tvg-logo-small="${
