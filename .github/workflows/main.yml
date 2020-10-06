@@ -8,5 +8,8 @@ jobs:
     name: Netlify build
     runs-on: ubuntu-latest
     steps:
+      - uses: zcong1993/setup-timezone@master
+        with:
+          timezone: Asia/Bangkok
       - name: Curl request
         run: curl -X POST -d {} https://api.netlify.com/build_hooks/5f71c6dc0bbae8ced02327f8
