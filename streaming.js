@@ -663,12 +663,15 @@ const testUrl = async (url) => {
     url.includes("bugaboo.tv") ||
     url.includes("byteark.com") ||
     url.includes("doofootball.livestream-cdn.com") ||
-    url.includes("3bb.co.th")
+    url.includes("3bb.co.th") ||
+    // url.includes("27.254.130.64") ||
+    // url.includes("stream.rs.co.th") ||
+    // url.includes("live.thairath.co.th")
   ) {
     return true;
   }
   try {
-    const response = await axios.get(url, { timeout: 2000 });
+    const response = await axios.get(url, { timeout: 3000 });
     // console.log(`  / ${url}`);
     return true;
   } catch (error) {
