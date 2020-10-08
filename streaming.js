@@ -115,7 +115,7 @@ const streamingInfo = {
       "https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_dO1X6ohg5EVaBt6k3tqoVo)/dm/3/x6rz4t7/s/live-3.m3u8",
       "https://cdn6.goprimetime.info/feed/chgmm/index.m3u8", // 720p hw
       "http://183.182.100.184/live/mcothd/playlist.m3u8", // 360p
-      "http://27.254.130.56:80/live01/ch11.m3u8",
+      "http://27.254.130.56:80/live01/ch11.m3u8", // 72op
     ],
     groupName: `TH DTV ${format().slice(0, 16)}`,
   },
@@ -138,9 +138,9 @@ const streamingInfo = {
     logo: "https://iptv36.my.to/logo/mono29.png",
     tvgId: "th-dtv29.iptv36.my.to",
     urlList: [
-      "https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/chunklist_w1232130570.m3u8",
+      "https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/playlist.m3u8",
       "https://dootvthai-hd.com/cmd/api/true/mono29/playlist.m3u8",
-      "https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_720P/mono29hls_720EN.stream/chunklist_w1064113829.m3u8",
+      "https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_720P/mono29hls_720TH.stream/playlist.m3u8",
       "https://cdn6.goprimetime.info/feed/chmono29/index.m3u8", // hw
     ],
     groupName: `TH DTV ${format().slice(0, 16)}`,
@@ -151,8 +151,8 @@ const streamingInfo = {
     logo: "https://iptv36.my.to/logo/mono29.png",
     tvgId: "th-dtv29.iptv36.my.to",
     urlList: [
-      "https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080EN.stream/chunklist_w1064113829.m3u8",
-      "https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_720P/mono29hls_720EN.stream/chunklist_w1064113829.m3u8",
+      "https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080EN.stream/playlist.m3u8",
+      "https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_720P/mono29hls_720EN.stream/playlist.m3u8",
     ],
     groupName: `TH DTV ${format().slice(0, 16)}`,
   },
@@ -212,9 +212,9 @@ const streamingInfo = {
     tvgId: "th-dtv34.iptv36.my.to",
     urlList: [
       "https://dootvthai-hd.com/cmd/true/Amarintv-HD/playlist.m3u8", // 1080p
+      "http://27.254.130.64:80/feed/chamarin/playlist.m3u8", // 720p
       "http://119.59.125.74/stream/totnew.php?channel_id=78f57ebcf6064b308d75208a20756983", // 720p
       "http://203.150.107.30:8081/tested2iptv/core13/playlist.m3u8", // 1080p fake
-      "http://27.254.130.64:80/feed/chamarin/playlist.m3u8", // 720p
     ],
     groupName: `TH DTV ${format().slice(0, 16)}`,
   },
@@ -510,9 +510,8 @@ const streamingInfo = {
     channelName: "MONO PLUS HD",
     logo: "https://iptv36.my.to/logo/monoplus.png",
     urlList: [
-      "http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/cloudiptv_monoplus_live1.stream/playlist.m3u8?username=mTRTvdvQbtd1DsswhsZTMoZUdI8MT4W6&password=Rp93AKS1peyuyYDApZw6sThMshGL1vvO",
-      "http://110.164.95.230:1935/Edge_Cloudiptv_Authen/cloudiptv_monoplus_live1.stream/chunklist_w282266064.m3u8",
-      "https://edge4-bkk.3bb.co.th:9443/MonoPlus_LiveHLS/monoplusLive_HLS1080p.stream/chunklist.m3u8",
+      "https://edge4-bkk.3bb.co.th:9443/MonoPlus_LiveHLS/monoplusLive_HLS1080p.stream/chunklist.m3u8", // 1080p50
+      "http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/cloudiptv_monoplus_live1.stream/playlist.m3u8?username=mTRTvdvQbtd1DsswhsZTMoZUdI8MT4W6&password=Rp93AKS1peyuyYDApZw6sThMshGL1vvO", // 720p
     ],
     groupName: "FREE TV",
   },
@@ -578,7 +577,7 @@ const streamingInfo = {
 
   trueplookpanya: {
     channelName: "True Plook Panya",
-    logo: "https://iptv36.my.to/logo/true_film_hd.png",
+    logo: "https://iptv36.my.to/logo/trueplookpanya.png",
     urlList: [
       "https://dootvthai-hd.com/cmd/api/true/trueplookpanya/playlist.m3u8",
     ],
@@ -589,8 +588,8 @@ const streamingInfo = {
     channelName: "True Sports HD",
     logo: "https://iptv36.my.to/logo/true_sports_hd.png",
     urlList: [
+      "https://dootvthai-hd.com/cmd/true/truesport-hd/playlist.m3u8",
       "http://103.208.24.234:1935/thaisport/hd-tsport1.stream/chunklist.m3u8",
-      "https://dootvthai-hd.com/cmd/true/truesport-HD/playlist.m3u8",
     ],
     groupName: "PREMIUM",
   },
@@ -599,9 +598,9 @@ const streamingInfo = {
     channelName: "True Sports HD2",
     logo: "https://iptv36.my.to/logo/true_sports_hd2.png",
     urlList: [
+      "https://dootvthai-hd.com/cmd/true/truesport-hd2/playlist.m3u8",
       "http://103.208.24.234:1935/thaisport/hd-tsport2.stream/chunklist.m3u8",
       "https://www.we-play.tv/videos/digital-tv/ch3-hd/",
-      "https://dootvthai-hd.com/cmd/true/truesport-HD2/playlist.m3u8",
     ],
     groupName: "PREMIUM",
   },
@@ -657,43 +656,59 @@ const streamingInfo = {
 
 // let testPassedUrl = [];
 
-// const testUrl = async (url) => {
-//   console.log(`test ${url}`);
-//   if (testPassedUrl.includes(url)) {
-//     return true;
-//   }
-//   try {
-//     const response = await axios.get(url);
-//     const data = response.data;
-//     testPassedUrl.push(url);
-//     return true;
-//   } catch (error) {
-//     console.log(`${error.response.status} on ${url}`);
-//     return false;
-//   }
-// };
+const testUrl = async (url) => {
+  try {
+    const response = await axios.get(url);
+    // console.log(`  / ${url}`);
+    return true;
+  } catch (error) {
+    console.log(`  X ${url}`);
+    return false;
+  }
+};
 
-const getStreamingInfo = (
-  channelKey,
-  urlIndex = 0,
-  overrideStreamingData = {}
-) => {
+const generateValidUrl = async (streamingData) => {
+  console.log(`Checking url for ${streamingData.channelName}`);
+
+  // find invalidUrlList
+  let invalidUrlList = [];
+  await Promise.all(
+    streamingData.urlList.map(async (url) => {
+      let result = await testUrl(url);
+      if (result === false) {
+        invalidUrlList.push(url);
+      }
+    })
+  );
+
+  // create validUrlList
+  streamingData.validUrlList = [];
+  for (let i = 0; i < streamingData.urlList.length; i++) {
+    let url = streamingData.urlList[i];
+    if (invalidUrlList.includes(url)) {
+      continue;
+    }
+    streamingData.validUrlList.push(url);
+  }
+};
+
+const getStreamingInfo = async (channelKey, skip = 0) => {
   let streamingData = streamingInfo[channelKey] || {};
-  mergedStreamingData = { ...streamingData, ...overrideStreamingData };
 
-  let channelName = `${mergedStreamingData.channelName || "Blank"}`;
-  let logo = mergedStreamingData.logo || "https://iptv36.my.to/logo/blank.png";
-  let groupName = mergedStreamingData.groupName || "No group";
-  let tvgId = mergedStreamingData.tvgId || "";
-  let urlList = mergedStreamingData.urlList || [];
-  let url =
-    urlIndex < urlList.length
-      ? urlList[urlIndex]
-      : urlList[0]
-      ? urlList[0]
-      : "http://not.found";
+  // check validUrlList available or not
+  if (streamingData.validUrlList === undefined) {
+    await generateValidUrl(streamingData);
+  }
 
-  // let success = await testUrl(url);
+  let channelNameComponent = [streamingData.channelName];
+  let logo = streamingData.logo || "https://iptv36.my.to/logo/blank.png";
+  let groupName = skip === 0 ? streamingData.groupName || "Other" : "Backup";
+  let tvgId = streamingData.tvgId || "";
+  let urlList = streamingData.validUrlList || [];
+  let url = skip < urlList.length ? urlList[skip] : `${urlList[0]}`;
+
+  if (skip > 0) channelNameComponent.push("Backup");
+  let channelName = channelNameComponent.join(" ");
 
   return { channelName, logo, groupName, tvgId, url };
 };

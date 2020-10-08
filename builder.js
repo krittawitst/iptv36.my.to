@@ -2,173 +2,7 @@ const fs = require("fs");
 const axios = require("axios");
 const format = require("date-format");
 const getStreamingInfo = require("./streaming.js");
-
-const basicPlaylist = {
-  filename: "BASIC36.m3u",
-  channelList: [
-    // 1-10
-    getStreamingInfo("tv5"),
-    getStreamingInfo("nbt"),
-    getStreamingInfo("thaipbs"),
-    getStreamingInfo("altv"),
-    getStreamingInfo("workpoint", 1, {
-      channelName: "Workpoint TV Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("pptv", 1, {
-      channelName: "PPTV HD Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("ch7", 1, {
-      channelName: "CH7 HD Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("ch8", 1, {
-      channelName: "CH8 RS Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("mono29", 1, {
-      channelName: "MONO29 HD Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("tptv"),
-    getStreamingInfo("one", 1, {
-      channelName: "ONE HD Backup",
-      groupName: "BACKUP",
-    }),
-    // 11-20
-    getStreamingInfo("thairath", 1, {
-      channelName: "Thairath TV HD Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("ch3", 1, {
-      channelName: "CH3 HD Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("amarin", 1, {
-      channelName: "Amarin TV HD Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("gmm25", 1, {
-      channelName: "GMM25 Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("tnn16"),
-    getStreamingInfo("psi"),
-    getStreamingInfo("new18"),
-    getStreamingInfo("mono29soundtrack"),
-    getStreamingInfo("cartoonclub"),
-    // 21-30
-    getStreamingInfo("voice"),
-    getStreamingInfo("nation"),
-    getStreamingInfo("workpoint"),
-    getStreamingInfo("true4u"),
-    getStreamingInfo("gmm25"),
-    getStreamingInfo("tvb"),
-    getStreamingInfo("ch8"),
-    getStreamingInfo("monoplus"),
-    getStreamingInfo("mono29"),
-    getStreamingInfo("mcot"),
-    // 31-36
-    getStreamingInfo("one"),
-    getStreamingInfo("thairath"),
-    getStreamingInfo("ch3"),
-    getStreamingInfo("amarin"),
-    getStreamingInfo("ch7"),
-    getStreamingInfo("pptv"),
-  ],
-};
-
-const proPlaylist = {
-  filename: "PRO36.m3u",
-  channelList: [
-    ...basicPlaylist.channelList,
-
-    // 37-40
-    getStreamingInfo("foxmovies"),
-    getStreamingInfo("foxactionmovies"),
-    getStreamingInfo("foxfamilymovies"),
-    getStreamingInfo("foxthai"),
-
-    // 41-50
-    getStreamingInfo("hbo"),
-    getStreamingInfo("paramount"),
-    getStreamingInfo("warner"),
-    getStreamingInfo("axn"),
-    getStreamingInfo("hitsmovie"),
-    getStreamingInfo("ctb"),
-    getStreamingInfo("history"),
-    getStreamingInfo("history2"),
-    getStreamingInfo("discoveryasia"),
-    getStreamingInfo("trueplookpanya"),
-
-    // 51-60
-    getStreamingInfo("premier1"),
-    getStreamingInfo("premier2"),
-    getStreamingInfo("premier3"),
-    getStreamingInfo("premier4"),
-    getStreamingInfo("premier5"),
-    getStreamingInfo("bein1"),
-    getStreamingInfo("bein2"),
-    getStreamingInfo("truesporthd"),
-    getStreamingInfo("truesporthd2"),
-    getStreamingInfo("truesport2"),
-
-    // 61-70
-    getStreamingInfo("premier1", 1, {
-      channelName: "Premier HD1 Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("premier2", 1, {
-      channelName: "Premier HD2 Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("premier3", 1, {
-      channelName: "Premier HD3 Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("premier1", 2, {
-      channelName: "Premier HD1 Backup2",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("premier3", 2, {
-      channelName: "Premier HD3 Backup2",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("bein1", 1, {
-      channelName: "beIN Sports HD1 Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("bein2", 1, {
-      channelName: "beIN Sports HD2 Backup",
-      groupName: "BACKUP",
-    }),
-    getStreamingInfo("cartoonnetwork"),
-    getStreamingInfo("disneyxd"),
-    getStreamingInfo("nickelodeon"),
-
-    // 71-72
-    getStreamingInfo("idstation"),
-    getStreamingInfo("truexzyte"),
-  ],
-};
-
-const iptvPlaylist = {
-  filename: "IPTV36.m3u",
-  channelList: [
-    ...proPlaylist.channelList,
-
-    // 73-80
-    getStreamingInfo("ipcam", 0, { channelName: "CAM1 | Park-164" }),
-    getStreamingInfo("ipcam", 1, { channelName: "CAM2 | Park-163" }),
-    getStreamingInfo("ipcam", 2, { channelName: "CAM3 | Toilet-163" }),
-    getStreamingInfo("ipcam", 3, { channelName: "CAM4 | Door-163" }),
-    getStreamingInfo("ipcam", 4, { channelName: "CAM5 | Kitchen" }),
-    getStreamingInfo("ipcam", 5, { channelName: "CAM6 | Floor-2" }),
-    getStreamingInfo("ipcam", 6, { channelName: "CAM7 | Com-TV" }),
-    getStreamingInfo("ipcam", 7, { channelName: "CAM8 | Com-Ying" }),
-  ],
-};
+const allPlaylist = require("./playlist.js");
 
 const getEpgJsonDataFromNbtc = async () => {
   try {
@@ -196,23 +30,25 @@ const getEpgJsonDataFromAis = async () => {
 
 const main = async () => {
   // M3U PLAYLIST
-  for (let playlist of [basicPlaylist, proPlaylist, iptvPlaylist]) {
-    let textStr = `#EXTM3U : IPTV Playlist from https://iptv36.my.to/ - Last Update ${format()}\n\n`;
+  for (let playlist of allPlaylist) {
+    let textStr = `#EXTM3U : Thai IPTV Playlist from https://iptv36.my.to/ - Last Update ${format()}\n\n`;
 
-    playlist.channelList.forEach((channel, index) => {
-      let channelStr = `#EXTINF:-1 tvg-chno="${index + 1}" tvg-id="${
-        channel.tvgId
-      }" group-title="${channel.groupName}" tvg-logo-small="${
-        channel.logo
-      }" tvg-logo="${channel.logo}", ${channel.channelName}\n${
-        channel.url
+    for (let i = 0; i < playlist.channelList.length; i++) {
+      let [channelKey, skip = 0] = playlist.channelList[i];
+      let streamingInfo = await getStreamingInfo(channelKey, skip);
+      let channelStr = `#EXTINF:-1 tvg-chno="${i + 1}" tvg-id="${
+        streamingInfo.tvgId
+      }" group-title="${streamingInfo.groupName}" tvg-logo-small="${
+        streamingInfo.logo
+      }" tvg-logo="${streamingInfo.logo}", ${streamingInfo.channelName}\n${
+        streamingInfo.url
       }\n\n`;
       textStr = textStr + `${channelStr}`;
-    });
+    }
 
     fs.writeFileSync(playlist.filename, textStr, "utf8");
 
-    console.log(`Created playlist '${playlist.filename}'`);
+    console.log(`==> Created playlist '${playlist.filename}'\n`);
   }
 
   // EPG
@@ -275,7 +111,7 @@ const main = async () => {
   // const epgJsonDataFromAis = await epgJsonDataFromAis();
 
   fs.writeFileSync("EPG.xml", xmlHead + xmlBody + xmlTail, "utf8");
-  console.log(`Created EPG 'EPG.xml'`);
+  console.log(`==> Created EPG 'EPG.xml'`);
 };
 
 main();
