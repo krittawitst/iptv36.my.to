@@ -662,12 +662,13 @@ const testUrl = async (url) => {
     url.includes("dootvthai-hd.com") ||
     url.includes("bugaboo.tv") ||
     url.includes("byteark.com") ||
-    url.includes("doofootball.livestream-cdn.com")
+    url.includes("doofootball.livestream-cdn.com") ||
+    url.includes("3bb.co.th")
   ) {
     return true;
   }
   try {
-    const response = await axios.get(url, { timeout: 1000 });
+    const response = await axios.get(url, { timeout: 2000 });
     // console.log(`  / ${url}`);
     return true;
   } catch (error) {
