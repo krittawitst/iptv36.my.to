@@ -657,8 +657,17 @@ const streamingInfo = {
 // let testPassedUrl = [];
 
 const testUrl = async (url) => {
+  // exception url list to not check/test
+  if (
+    url.includes("dootvthai-hd.com") ||
+    url.includes("bugaboo.tv") ||
+    url.includes("byteark.com") ||
+    url.includes("doofootball.livestream-cdn.com")
+  ) {
+    return true;
+  }
   try {
-    const response = await axios.get(url);
+    const response = await axios.get(url, { timeout: 1000 });
     // console.log(`  / ${url}`);
     return true;
   } catch (error) {
