@@ -665,8 +665,8 @@ const testUrl = async (url) => {
     url.includes("dootvthai-hd.com") ||
     url.includes("bugaboo.tv") ||
     url.includes("byteark.com") ||
-    // url.includes("doofootball.livestream-cdn.com") ||
-    // url.includes("3bb.co.th") ||
+    url.includes("doofootball.livestream-cdn.com") ||
+    url.includes("3bb.co.th") ||
     url.includes("103.208.24.234") ||
     url.includes("stream.rs.co.th")
   ) {

@@ -36,25 +36,35 @@ const main = async () => {
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
 <tv>
 `;
-  //   for (let i = 1; i <= 36; i++) {
-  //     xmlHead += `  <channel id="th-dtv${i}.iptv36.my.to">
-  //     <display-name>Thai digital tv channel ${i}</display-name>
-  //   </channel>
-  // `;
-  //   }
-  let xmlBody = "";
   let xmlTail = "</tv>";
 
+  let allTvgTagId = [];
+
+  let xmlProgramBody = "";
   for (let epg of epgData) {
-    xmlBody += `  <programme start="${epg.programStartStr}" stop="${epg.programEndStr}" channel="${epg.tvgTagId}">\n`;
-    xmlBody += `    <title><![CDATA[${epg.programTitle}]]></title>\n`;
+    xmlProgramBody += `  <programme start="${epg.programStartStr}" stop="${epg.programEndStr}" channel="${epg.tvgTagId}">\n`;
+    xmlProgramBody += `    <title><![CDATA[${epg.programTitle}]]></title>\n`;
     if (epg.programDescription) {
-      xmlBody += `    <desc><![CDATA[${epg.programDescription}]]></desc>\n`;
+      xmlProgramBody += `    <desc><![CDATA[${epg.programDescription}]]></desc>\n`;
     }
-    xmlBody += `  </programme>\n`;
+    xmlProgramBody += `  </programme>\n`;
+
+    allTvgTagId.push(epg.tvgTagId);
   }
 
-  fs.writeFileSync("EPG.xml", xmlHead + xmlBody + xmlTail, "utf8");
+  let xmlChannelBody = "";
+  for (let tvgTagId of new Set(allTvgTagId)) {
+    xmlChannelBody += `  <channel id="${tvgTagId}">
+    <display-name>${tvgTagId}</display-name>
+  </channel>
+`;
+  }
+
+  fs.writeFileSync(
+    "EPG.xml",
+    xmlHead + xmlChannelBody + xmlProgramBody + xmlTail,
+    "utf8"
+  );
   console.log(`==> Created EPG 'EPG.xml'`);
 };
 
