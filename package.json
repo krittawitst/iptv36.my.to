@@ -1,11 +1,14 @@
 {
   "name": "iptv36.my.to",
   "version": "1.0.0",
-  "description": "Thai Digital IPTV Playlist for Android TV",
+  "description": "Thai IPTV M3U Playlist & XMLTV EPG",
   "repository": "https://github.com/krittawitst/iptv36.my.to.git",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.20.0",
     "date-format": "^3.0.0"
+  },
+  "scripts": {
+    "build": "node src/builder"
   }
 }
