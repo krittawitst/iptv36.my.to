@@ -56,8 +56,10 @@ const getEpgDataFromAis = async () => {
   // mapping tvg id
   let channelIdToTvgId = {
     '5efdd162fbb0045345ef2b61': 'th-dtv4.iptv36.my.to',
+    '5ee1eb4d0f24872fd951d196': 'paramount.iptv36.my.to',
     '597e004b7ed5a24e46f6725a': 'warnertv.iptv36.my.to',
     '5e44faeeaae73158d325f8f9': 'hitsmovies.iptv36.my.to',
+    '597bd2a07ed5a24e46f6724f': 'm.iptv36.my.to',
     '596716e6bf6aee05dcdfc119': 'voice.iptv36.my.to',
     '5e69984f609ced33cfa4e734': 'bein1.iptv36.my.to',
     '5e699a69bf6aee30a499dc9b': 'bein2.iptv36.my.to',
@@ -108,6 +110,8 @@ const getEpgDataFromAis = async () => {
   }
   return epgData;
 };
+
+// http://tvsmagazine.com/schedule_th.php
 
 const getEpgData = async () => {
   // EPG

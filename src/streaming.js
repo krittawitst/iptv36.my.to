@@ -126,7 +126,7 @@ const streamingInfo = {
 
   ch8: {
     channelName: 'CH8',
-    logo: 'https://iptv36.my.to/logo/ch8.jpg',
+    logo: 'https://iptv36.my.to/logo/ch8.png',
     tvgId: 'th-dtv27.iptv36.my.to',
     urlList: [
       'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8',
@@ -441,7 +441,7 @@ const streamingInfo = {
 
   hbo: {
     channelName: 'HBO',
-    logo: 'https://iptv36.my.to/logo/hbo.jpg',
+    logo: 'https://iptv36.my.to/logo/hbo.png',
     urlList: [
       'https://liveorigin01.hbogoasia.com:8443/origin/live/HBO/index.m3u8?HBO',
       'https://www.livedoomovies.com/02_HBOHD_720p/chunklist.m3u8', // hw
@@ -505,6 +505,7 @@ const streamingInfo = {
   m: {
     channelName: 'M Channel',
     logo: 'https://iptv36.my.to/logo/m.png',
+    tvgId: 'm.iptv36.my.to',
     urlList: [
       'http://27.254.142.207:8080/live/web.m3u8',
       'http://27.254.130.61/live01/ch19.m3u8?p=st',
@@ -559,6 +560,7 @@ const streamingInfo = {
   paramount: {
     channelName: 'Paramount HD',
     logo: 'https://iptv36.my.to/logo/paramount.png',
+    tvgId: 'paramount.iptv36.my.to',
     urlList: ['https://dootvthai-hd.com/cmd/api/true/paramount-hd/playlist.m3u8'],
     groupName: 'PREMIUM',
   },
