@@ -4,11 +4,14 @@
   "description": "Thai IPTV M3U Playlist & XMLTV EPG",
   "repository": "https://github.com/krittawitst/iptv36.my.to.git",
   "license": "MIT",
-  "dependencies": {
-    "axios": "^0.20.0",
-    "date-format": "^3.0.0"
-  },
   "scripts": {
     "build": "node src/builder"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
   }
 }

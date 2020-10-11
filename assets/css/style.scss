@@ -1,29 +1,28 @@
-@import "{{ site.theme }}";
+--- 
+---
+
+@import '{{ site.theme }}';
 
 @font-face {
-  font-family: "Noto Sans Thai";
+  font-family: 'Noto Sans Thai';
   font-style: normal;
   font-weight: 400;
-  src: url("https://static.pkn.sh/fonts/NotoSansThai/NotoSansThai-Regular.woff2")
-      format("woff2"),
-    url("https://static.pkn.sh/fonts/NotoSansThai/NotoSansThai-Regular.woff")
-      format("woff");
+  src: url('https://static.pkn.sh/fonts/NotoSansThai/NotoSansThai-Regular.woff2') format('woff2'),
+    url('https://static.pkn.sh/fonts/NotoSansThai/NotoSansThai-Regular.woff') format('woff');
 }
 
 @font-face {
-  font-family: "Noto Sans Thai";
+  font-family: 'Noto Sans Thai';
   font-style: bold;
   font-weight: 700;
-  src: url("https://static.pkn.sh/fonts/NotoSansThai/NotoSansThai-SemiBold.woff2")
-      format("woff2"),
-    url("https://static.pkn.sh/fonts/NotoSansThai/NotoSansThai-SemiBold.woff")
-      format("woff");
+  src: url('https://static.pkn.sh/fonts/NotoSansThai/NotoSansThai-SemiBold.woff2') format('woff2'),
+    url('https://static.pkn.sh/fonts/NotoSansThai/NotoSansThai-SemiBold.woff') format('woff');
 }
 
 body {
-  font-family: "Noto Sans Thai", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
-    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
   overflow-wrap: break-word;
 }
 
@@ -33,7 +32,7 @@ header {
     width: 100%;
   }
 
-  header h2 {
+  h2 {
     font-size: 2em;
   }
 }
