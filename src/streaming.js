@@ -116,7 +116,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/gmm25.png',
     tvgId: 'th-dtv25.iptv36.my.to',
     urlList: [
-      'https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_dO1X6ohg5EVaBt6k3tqoVo)/dm/3/x6rz4t7/s/live-3.m3u8',
+      'https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_Sh-pMcvKaAnxHKgCVsGkkg)/dm/3/x6rz4t7/s/live-3.m3u8',
       'https://cdn6.goprimetime.info/feed/chgmm/index.m3u8', // 720p hw
       'http://183.182.100.184/live/mcothd/playlist.m3u8', // 360p
       'http://27.254.130.56:80/live01/ch11.m3u8', // 72op
