@@ -3,6 +3,7 @@ const getStreamingInfo = require('./streaming.js');
 const getEpgData = require('./epg.js');
 const allPlaylist = require('./playlist.js');
 
+const channelLogoRevision = 1;
 const currentEpochDatetime = new Date().getTime();
 const currentDatetimePlus7Hrs = new Date(currentEpochDatetime + 7 * 60 * 60 * 1000);
 const currentBkkDatetimeStr = currentDatetimePlus7Hrs.toISOString().slice(0, 16);
@@ -21,7 +22,7 @@ const main = async () => {
         streamingInfo.groupName
       }" tvg-logo-small="https://iptv36.my.to/logo/tptv.png" tvg-logo="${
         streamingInfo.logo
-      }?${currentEpochDatetime}", ${streamingInfo.channelName}\n${streamingInfo.url}\n\n`;
+      }?rev=${channelLogoRevision}", ${streamingInfo.channelName}\n${streamingInfo.url}\n\n`;
       textStr = textStr + `${channelStr}`;
     }
 
