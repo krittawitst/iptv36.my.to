@@ -16,9 +16,11 @@ const main = async () => {
       let streamingInfo = await getStreamingInfo(channelKey, skip);
       let channelStr = `#EXTINF:-1 tvg-chno="${i + 1}" tvg-id="${
         streamingInfo.tvgId
-      }" group-title="${streamingInfo.groupName}" tvg-logo-small="${
+      }" group-title="${
+        streamingInfo.groupName
+      }" tvg-logo-small="https://iptv36.my.to/logo/discoveryasia.png" tvg-logo="${
         streamingInfo.logo
-      }" tvg-logo="${streamingInfo.logo}", ${streamingInfo.channelName}\n${streamingInfo.url}\n\n`;
+      }", ${streamingInfo.channelName}\n${streamingInfo.url}\n\n`;
       textStr = textStr + `${channelStr}`;
     }
 
