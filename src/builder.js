@@ -3,7 +3,8 @@ const getStreamingInfo = require('./streaming.js');
 const getEpgData = require('./epg.js');
 const allPlaylist = require('./playlist.js');
 
-const currentDatetimePlus7Hrs = new Date(new Date().getTime() + 7 * 60 * 60 * 1000);
+const currentEpochDatetime = new Date().getTime();
+const currentDatetimePlus7Hrs = new Date(currentEpochDatetime + 7 * 60 * 60 * 1000);
 const currentBkkDatetimeStr = currentDatetimePlus7Hrs.toISOString().slice(0, 16);
 
 const main = async () => {
@@ -16,11 +17,11 @@ const main = async () => {
       let streamingInfo = await getStreamingInfo(channelKey, skip);
       let channelStr = `#EXTINF:-1 tvg-chno="${i + 1}" tvg-id="${
         streamingInfo.tvgId
-      }" group-title="${
-        streamingInfo.groupName
-      }" tvg-logo-small="https://iptv36.my.to/logo/discoveryasia.png" tvg-logo="${
+      }" group-title="${streamingInfo.groupName}" tvg-logo-small="${
         streamingInfo.logo
-      }", ${streamingInfo.channelName}\n${streamingInfo.url}\n\n`;
+      }?${currentEpochDatetime}" tvg-logo="${streamingInfo.logo}", ${streamingInfo.channelName}\n${
+        streamingInfo.url
+      }\n\n`;
       textStr = textStr + `${channelStr}`;
     }
 
