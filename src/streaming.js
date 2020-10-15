@@ -112,7 +112,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-03.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8k_N8NPcgnddrxdwrPeo7dg)/dm/3/x6g9qjj/s/live-3.m3u8',
+        'https://stream-05.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8m7T62il3egwVGjwd9UoZSI)/dm/3/x6g9qjj/s/live-3.m3u8',
       ], // 720p
       'https://dootvthai-hd.com/cmd/true/Workpointtv/playlist.m3u8', // 576p
       'http://27.254.130.56:80/live01/ch7.m3u8',
@@ -424,7 +424,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/nickelodeon.png',
     tvgId: 'nickelodeon.iptv36.my.to',
     urlList: ['https://dootvthai-hd.com/cmd/api/true/nickelodeon/playlist.m3u8'],
-    groupName: 'CARTOON',
+    groupName: 'ENTERTAINMENT',
   },
 
   truesparkplay: {
@@ -473,7 +473,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/discoveryasia.png',
     tvgId: 'discoveryasia.iptv36.my.to',
     urlList: ['https://doofootball.livestream-cdn.com:443/iptv/hd-discovery.stream/chunks.m3u8'],
-    groupName: 'ENTERTAINMENT',
+    groupName: 'NEW & DOC',
   },
 
   foxactionmovies: {
@@ -599,9 +599,9 @@ const streamingInfo = {
 
   natgeo: {
     channelName: 'NAT GEO HD',
-    logo: 'https://iptv36.my.to/logo/nat_geo.jpg',
+    logo: 'https://iptv36.my.to/logo/natgeo.png',
     urlList: ['http://dootvthai-hd.com/cmd/true/national-geographic-hd/playlist.m3u8'],
-    groupName: 'ENTERTAINMENT',
+    groupName: 'NEW & DOC',
   },
 
   news1: {
@@ -623,7 +623,7 @@ const streamingInfo = {
     channelName: 'PSI Saradee HD',
     logo: 'https://iptv36.my.to/logo/psi.png',
     urlList: ['http://96.30.124.100:1935/edgepsi/PSIHD.stream_720p/playlist.m3u8'],
-    groupName: 'ENTERTAINMENT',
+    groupName: 'NEW & DOC',
   },
 
   // truefilm: {
@@ -637,7 +637,7 @@ const streamingInfo = {
     channelName: 'True Plook Panya',
     logo: 'https://iptv36.my.to/logo/trueplookpanya.png',
     urlList: ['https://dootvthai-hd.com/cmd/api/true/trueplookpanya/playlist.m3u8'],
-    groupName: 'ENTERTAINMENT',
+    groupName: 'NEW & DOC',
   },
 
   truexzyte: {
@@ -663,7 +663,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/voice_tv.png',
     tvgId: 'voice.iptv36.my.to',
     urlList: ['https://edge6a.v2h-cdn.com/appt3/WOWSH.stream_720p/chunklist_w142679599.m3u8'],
-    groupName: 'ENTERTAINMENT',
+    groupName: 'NEW & DOC',
   },
 
   warnertv: {
