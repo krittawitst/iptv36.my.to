@@ -5,7 +5,7 @@
   "repository": "https://github.com/krittawitst/iptv36.my.to.git",
   "license": "MIT",
   "scripts": {
-    "build": "node src/builder"
+    "build": "node builder"
   },
   "prettier": {
     "printWidth": 100,
