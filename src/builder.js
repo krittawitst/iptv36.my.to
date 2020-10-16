@@ -38,24 +38,29 @@ const main = async () => {
 `;
   let xmlTail = '</tv>';
 
-  let allTvgTagId = [];
+  let allTvgId = [];
 
   let xmlProgramBody = '';
   for (let epg of epgData) {
-    xmlProgramBody += `  <programme start="${epg.programStartStr}" stop="${epg.programEndStr}" channel="${epg.tvgTagId}">\n`;
+    xmlProgramBody += `  <programme start="${epg.programStartStr}" `;
+    xmlProgramBody += epg.programEndStr ? `stop="${epg.programEndStr}" ` : '';
+    xmlProgramBody += `channel="${epg.tvgId}">\n`;
     xmlProgramBody += `    <title><![CDATA[${epg.programTitle}]]></title>\n`;
+    if (epg.programSubtitle) {
+      xmlProgramBody += `    <sub-title><![CDATA[${epg.programSubtitle}]]></sub-title>\n`;
+    }
     if (epg.programDescription) {
       xmlProgramBody += `    <desc><![CDATA[${epg.programDescription}]]></desc>\n`;
     }
     xmlProgramBody += `  </programme>\n`;
 
-    allTvgTagId.push(epg.tvgTagId);
+    allTvgId.push(epg.tvgId);
   }
 
   let xmlChannelBody = '';
-  for (let tvgTagId of new Set(allTvgTagId)) {
-    xmlChannelBody += `  <channel id="${tvgTagId}">
-    <display-name>${tvgTagId}</display-name>
+  for (let tvgId of new Set(allTvgId)) {
+    xmlChannelBody += `  <channel id="${tvgId}">
+    <display-name>${tvgId}</display-name>
   </channel>
 `;
   }

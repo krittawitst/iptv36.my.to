@@ -60,7 +60,7 @@ const proPlaylist = {
     ['foxthai'],
 
     // 41-50
-    ['hbo'],
+    ['m'],
     ['paramount'],
     ['warnertv'],
     ['axn'],
