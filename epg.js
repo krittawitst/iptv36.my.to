@@ -229,16 +229,16 @@ const getEpgDataFromTrueVisions = async () => {
 
 const getEpgData = async () => {
   // EPG
-  // console.log(`Fetching epg data from NBTC`);
-  // const epgDataFromNbtc = await getEpgDataFromNbtc();
+  console.log(`Fetching epg data from NBTC`);
+  const epgDataFromNbtc = await getEpgDataFromNbtc();
 
-  // console.log(`Fetching epg data from AIS Play`);
-  // const epgDataFromAisPlay = await getEpgDataFromAisPlay();
+  console.log(`Fetching epg data from AIS Play`);
+  const epgDataFromAisPlay = await getEpgDataFromAisPlay();
 
   console.log(`Fetching epg data from TrueVisions`);
   const epgDataFromTrueVisions = await getEpgDataFromTrueVisions();
 
-  let mergedEpgData = [/*...epgDataFromNbtc, ...epgDataFromAisPlay,*/ ...epgDataFromTrueVisions];
+  let mergedEpgData = [...epgDataFromNbtc, ...epgDataFromAisPlay, ...epgDataFromTrueVisions];
   mergedEpgData = mergedEpgData.sort((item1, item2) =>
     item1.tvgId > item2.tvgId
       ? 1
