@@ -120,6 +120,16 @@ const getEpgDataFromAisPlay = async () => {
   return epgData;
 };
 
+const htmlEntityDecode = (textStr) => {
+  return textStr
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#x27;/g, "'")
+    .replace(/&#x60;/g, '`');
+};
+
 const getEpgDataFromTrueVisions = async () => {
   let currentDatetime = new Date();
   let currentDatetimePlus7Hrs = new Date(currentDatetime.getTime() + 7 * 60 * 60 * 1000);
@@ -176,13 +186,15 @@ const getEpgDataFromTrueVisions = async () => {
             let programStartTime = programRowDiv.querySelector('div.p-time').innerHTML.trim();
             let programStartStr =
               `${bkkDateStr}${programStartTime}00`.replace(/-|:|T/g, '') + ' +0700';
-            let programTitle = programRowDiv.querySelector('span.p-title').innerHTML.trim();
-            let programSubtitle = programRowDiv
-              .querySelector('span.p-type-year-genre')
-              .innerHTML.trim();
-            let programDescription = programRowDiv
-              .querySelector('span.p-synopsis')
-              .innerHTML.trim();
+            let programTitle = htmlEntityDecode(
+              programRowDiv.querySelector('span.p-title').innerHTML.trim()
+            );
+            let programSubtitle = htmlEntityDecode(
+              programRowDiv.querySelector('span.p-type-year-genre').innerHTML.trim()
+            );
+            let programDescription = htmlEntityDecode(
+              programRowDiv.querySelector('span.p-synopsis').innerHTML.trim()
+            );
 
             epgDataForThisChannel.push({
               programStartStr,

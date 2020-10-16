@@ -121,9 +121,6 @@
   <channel id="warnertv.iptv36.my.to">
     <display-name>warnertv.iptv36.my.to</display-name>
   </channel>
-  <programme start="20201016152000 +0700" stop="20201016171000 +0700" channel="bein1.iptv36.my.to">
-    <title><![CDATA[Ligue 1 2020/21 : Brest vs Marseille]]></title>
-  </programme>
   <programme start="20201016171000 +0700" stop="20201016190000 +0700" channel="bein1.iptv36.my.to">
     <title><![CDATA[LaLiga 2020/21 : Celta vs Valencia]]></title>
   </programme>
@@ -357,6 +354,9 @@
   </programme>
   <programme start="20201018170000 +0700" stop="20201018172000 +0700" channel="bein2.iptv36.my.to">
     <title><![CDATA[Serie A Club Classic 2017 : Fiorentina vs Juventus]]></title>
+  </programme>
+  <programme start="20201018172000 +0700" stop="20201018193000 +0700" channel="bein2.iptv36.my.to">
+    <title><![CDATA[Serie A 2020/21 : Bologna vs Sassuolo (Live)]]></title>
   </programme>
   <programme start="20201016170000 +0700" stop="20201016173000 +0700" channel="cartoonclub.iptv36.my.to">
     <title><![CDATA[บาคุกัน/ ขบวนการจอมโจร ลูแปงเรนเจอร์ ปะทะ ขบวนการมือปราบ แพทเรนเจอร์]]></title>
@@ -853,9 +853,6 @@
   <programme start="20201018170000 +0700" stop="20201018173000 +0700" channel="cartoonnetwork.iptv36.my.to">
     <title><![CDATA[Dc Super Hero Girls Series]]></title>
   </programme>
-  <programme start="20201016164000 +0700" stop="20201016170500 +0700" channel="discoveryasia.iptv36.my.to">
-    <title><![CDATA[Special Delivery (S1)]]></title>
-  </programme>
   <programme start="20201016170500 +0700" stop="20201016173000 +0700" channel="discoveryasia.iptv36.my.to">
     <title><![CDATA[Special Delivery (S1)]]></title>
   </programme>
@@ -1261,12 +1258,12 @@
     <desc><![CDATA[พบกับบทสรุปของภาพยนตร์ไตรภาคแนวจินตนิมิตเรื่อง 'เดอะ ฮอบบิท' ซึ่งในภาคนี้ บิลโบ แบ็กกินส์ และพลพรรคต้องออกสมรภูมิศึกเพื่อพิทักษ์ผืนปิตุภูมิ -- นำแสดงโดย มาร์ติน ฟรีแมน]]></desc>
   </programme>
   <programme start="20201016002500 +0700" stop="20201016011500 +0700" channel="foxthai.iptv36.my.to">
-    <title><![CDATA[Blood &amp; Treasure]]></title>
+    <title><![CDATA[Blood & Treasure]]></title>
     <sub-title><![CDATA[SR-ENT-KN :: Action Series]]></sub-title>
     <desc><![CDATA[ภาพยนตร์ชุดทางโทรทัศน์เกี่ยวกับผู้เชี่ยวชาญทางด้านโบราณวัตถุที่ต้องร่วมมือกับโจรเพื่อดักจับผู้ก่อการร้าย -- นำแสดงโดย แมตต์ บาร์, โซเฟีย เพอร์นาส, และ เจมส์ คาลลิส]]></desc>
   </programme>
   <programme start="20201016011500 +0700" stop="20201016020500 +0700" channel="foxthai.iptv36.my.to">
-    <title><![CDATA[Blood &amp; Treasure]]></title>
+    <title><![CDATA[Blood & Treasure]]></title>
     <sub-title><![CDATA[SR-ENT-KN :: Action Series]]></sub-title>
     <desc><![CDATA[ภาพยนตร์ชุดทางโทรทัศน์เกี่ยวกับผู้เชี่ยวชาญทางด้านโบราณวัตถุที่ต้องร่วมมือกับโจรเพื่อดักจับผู้ก่อการร้าย -- นำแสดงโดย แมตต์ บาร์, โซเฟีย เพอร์นาส, และ เจมส์ คาลลิส]]></desc>
   </programme>
@@ -1329,7 +1326,7 @@
     <desc><![CDATA[พบกับปฏิบัติการของทีมเจ้าหน้าที่พิเศษซึ่งมีภารกิจในการสืบสวนคดีอาชญากรรมที่เชื่อมโยงกับบุคลากรในกองทัพเรือของสหรัฐโดยไม่หวั่นเกรงว่าผู้นั้นจะเป็นใคร -- นำแสดงโดย มาร์ค ฮาร์มอน]]></desc>
   </programme>
   <programme start="20201016093500 +0700" stop="20201016102000 +0700" channel="foxthai.iptv36.my.to">
-    <title><![CDATA[Blood &amp; Treasure]]></title>
+    <title><![CDATA[Blood & Treasure]]></title>
     <sub-title><![CDATA[SR-ENT-KN :: Action Series]]></sub-title>
     <desc><![CDATA[ภาพยนตร์ชุดทางโทรทัศน์เกี่ยวกับผู้เชี่ยวชาญทางด้านโบราณวัตถุที่ต้องร่วมมือกับโจรเพื่อดักจับผู้ก่อการร้าย -- นำแสดงโดย แมตต์ บาร์, โซเฟีย เพอร์นาส, และ เจมส์ คาลลิส]]></desc>
   </programme>
@@ -1372,12 +1369,12 @@
     <desc><![CDATA[พบกับรายการการแข่งขันกีฬารูปแบบใหม่ภายใต้ความเชื่อที่ว่าทุกๆคนมีศักยภาพอันน่าทึ่ง]]></desc>
   </programme>
   <programme start="20201016153000 +0700" stop="20201016162000 +0700" channel="foxthai.iptv36.my.to">
-    <title><![CDATA[Blood &amp; Treasure]]></title>
+    <title><![CDATA[Blood & Treasure]]></title>
     <sub-title><![CDATA[SR-ENT-KN :: Action Series]]></sub-title>
     <desc><![CDATA[ภาพยนตร์ชุดทางโทรทัศน์เกี่ยวกับผู้เชี่ยวชาญทางด้านโบราณวัตถุที่ต้องร่วมมือกับโจรเพื่อดักจับผู้ก่อการร้าย -- นำแสดงโดย แมตต์ บาร์, โซเฟีย เพอร์นาส, และ เจมส์ คาลลิส]]></desc>
   </programme>
   <programme start="20201016162000 +0700" stop="20201016171500 +0700" channel="foxthai.iptv36.my.to">
-    <title><![CDATA[Blood &amp; Treasure]]></title>
+    <title><![CDATA[Blood & Treasure]]></title>
     <sub-title><![CDATA[SR-ENT-KN :: Action Series]]></sub-title>
     <desc><![CDATA[ภาพยนตร์ชุดทางโทรทัศน์เกี่ยวกับผู้เชี่ยวชาญทางด้านโบราณวัตถุที่ต้องร่วมมือกับโจรเพื่อดักจับผู้ก่อการร้าย -- นำแสดงโดย แมตต์ บาร์, โซเฟีย เพอร์นาส, และ เจมส์ คาลลิส]]></desc>
   </programme>
@@ -1585,12 +1582,6 @@
   </programme>
   <programme start="20201018164000 +0700" stop="20201018184500 +0700" channel="m.iptv36.my.to">
     <title><![CDATA[Sinbad the fifth voyage ซินแบด พิชิตศึกสุดขอบฟ้า]]></title>
-  </programme>
-  <programme start="20201016165000 +0700" stop="20201016170500 +0700" channel="nickelodeon.iptv36.my.to">
-    <title><![CDATA[The Casagrandes S01 EP.109]]></title>
-  </programme>
-  <programme start="20201016170500 +0700" stop="20201016171500 +0700" channel="nickelodeon.iptv36.my.to">
-    <title><![CDATA[It's Pony S1 EP.110]]></title>
   </programme>
   <programme start="20201016171500 +0700" stop="20201016173000 +0700" channel="nickelodeon.iptv36.my.to">
     <title><![CDATA[It's Pony S1 EP.110]]></title>
@@ -2048,6 +2039,9 @@
   <programme start="20201018165000 +0700" stop="20201018171000 +0700" channel="nickelodeon.iptv36.my.to">
     <title><![CDATA[Henry Danger S05 EP.895]]></title>
   </programme>
+  <programme start="20201018171000 +0700" stop="20201018173500 +0700" channel="nickelodeon.iptv36.my.to">
+    <title><![CDATA[Henry Danger S05 EP.539]]></title>
+  </programme>
   <programme start="20201016151500 +0700" stop="20201016173000 +0700" channel="paramount.iptv36.my.to">
     <title><![CDATA[Fat Man and Little Boy]]></title>
   </programme>
@@ -2214,7 +2208,7 @@
     <title><![CDATA[Big Match Preview]]></title>
   </programme>
   <programme start="20201016030000 +0700" stop="20201016043000 +0700" channel="premier2.iptv36.my.to">
-    <title><![CDATA[The Kelly &amp; Wrighty Show]]></title>
+    <title><![CDATA[The Kelly & Wrighty Show]]></title>
   </programme>
   <programme start="20201016043000 +0700" stop="20201016050000 +0700" channel="premier2.iptv36.my.to">
     <title><![CDATA[The Big Interview]]></title>
@@ -2235,7 +2229,7 @@
     <title><![CDATA[Classic Match Rewind]]></title>
   </programme>
   <programme start="20201016080000 +0700" stop="20201016093000 +0700" channel="premier2.iptv36.my.to">
-    <title><![CDATA[The Kelly &amp; Wrighty Show]]></title>
+    <title><![CDATA[The Kelly & Wrighty Show]]></title>
   </programme>
   <programme start="20201016093000 +0700" stop="20201016100000 +0700" channel="premier2.iptv36.my.to">
     <title><![CDATA[The Big Interview]]></title>
@@ -2259,7 +2253,7 @@
     <title><![CDATA[Big Match Preview]]></title>
   </programme>
   <programme start="20201016140000 +0700" stop="20201016153000 +0700" channel="premier2.iptv36.my.to">
-    <title><![CDATA[The Kelly &amp; Wrighty Show]]></title>
+    <title><![CDATA[The Kelly & Wrighty Show]]></title>
   </programme>
   <programme start="20201016153000 +0700" stop="20201016160000 +0700" channel="premier2.iptv36.my.to">
     <title><![CDATA[The Big Interview]]></title>
@@ -3112,9 +3106,6 @@
     <title><![CDATA[TNN สปอร์ต]]></title>
     <desc><![CDATA[สรุปความเคลื่อนไหวกีฬาทั่วโลก]]></desc>
   </programme>
-  <programme start="20201016100000 -0000" stop="20201016101000 -0000" channel="th-dtv18.iptv36.my.to">
-    <title><![CDATA[S channel]]></title>
-  </programme>
   <programme start="20201016101000 -0000" stop="20201016110000 -0000" channel="th-dtv18.iptv36.my.to">
     <title><![CDATA[NEW Documentary สำรวจโลก : ผจญภัยในเซเรนเกติ]]></title>
   </programme>
@@ -3288,6 +3279,9 @@
   </programme>
   <programme start="20201018100000 -0000" stop="20201018101000 -0000" channel="th-dtv18.iptv36.my.to">
     <title><![CDATA[S channel]]></title>
+  </programme>
+  <programme start="20201018101000 -0000" stop="20201018110000 -0000" channel="th-dtv18.iptv36.my.to">
+    <title><![CDATA[NEW Documentary สำรวจโลก : ต้นกำเนิดร่างกายมนุษย์]]></title>
   </programme>
   <programme start="20201016100000 -0000" stop="20201016130000 -0000" channel="th-dtv2.iptv36.my.to">
     <title><![CDATA[ข่าวค่ำ NBT]]></title>
@@ -4214,10 +4208,6 @@
     <title><![CDATA[ซูเปอร์ 100]]></title>
     <desc><![CDATA[รายการแข่งขันความสามารถ]]></desc>
   </programme>
-  <programme start="20201016093000 -0000" stop="20201016101500 -0000" channel="th-dtv24.iptv36.my.to">
-    <title><![CDATA[ข่าวติดปาก]]></title>
-    <desc><![CDATA[วาไรตี้ข่าวนำเสนอบรรดาเรื่องราวที่กำลังอยู่ในกระแสและเป็นประเด็นร้อน -- ดำเนินรายการโดยทีมพิธีกรฝีปากกล้ามากฝีมือ เอกกี้ โบ เฟียต จิ๊ป ชมพู่ อาตุ่ย และ อ้น ศรีพรรณ]]></desc>
-  </programme>
   <programme start="20201016101500 -0000" stop="20201016103000 -0000" channel="th-dtv24.iptv36.my.to">
     <title><![CDATA[ลุยกองข่าว]]></title>
     <desc><![CDATA[รายการข่าวสารล่าสุดทั้งสาระและบันเทิง -- ดำเนินรายการโดยผู้ประกาศสาวมากความสามารถ ภัทร จินตนะกุล]]></desc>
@@ -4471,6 +4461,10 @@
     <desc><![CDATA[พบกับรายการแข่งขัน พีทีที บริค ซูเปอร์ไบค์]]></desc>
   </programme>
   <programme start="20201018100000 -0000" stop="20201018101500 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[หัวใจนักสู้]]></title>
+    <desc><![CDATA[รายการเปี่ยมแรงบันดาลใจที่นำเสนอเรื่องราวของบรรดานักกีฬาผู้ทุพพลภาพซึ่งต่อสู้ชีวิตเพื่อก้าวไปสู่การแข่งขันระดับโลก]]></desc>
+  </programme>
+  <programme start="20201018101500 -0000" stop="20201018103000 -0000" channel="th-dtv24.iptv36.my.to">
     <title><![CDATA[หัวใจนักสู้]]></title>
     <desc><![CDATA[รายการเปี่ยมแรงบันดาลใจที่นำเสนอเรื่องราวของบรรดานักกีฬาผู้ทุพพลภาพซึ่งต่อสู้ชีวิตเพื่อก้าวไปสู่การแข่งขันระดับโลก]]></desc>
   </programme>
@@ -5775,6 +5769,9 @@
   <programme start="20201018100500 -0000" stop="20201018100700 -0000" channel="th-dtv30.iptv36.my.to">
     <title><![CDATA[ตลาดนัดรัชดา]]></title>
   </programme>
+  <programme start="20201018100700 -0000" stop="20201018105800 -0000" channel="th-dtv30.iptv36.my.to">
+    <title><![CDATA[ซิทคอม วุ่นนักรักข้ามตึก]]></title>
+  </programme>
   <programme start="20201016093000 -0000" stop="20201016110000 -0000" channel="th-dtv31.iptv36.my.to">
     <title><![CDATA[ข่าวเย็นช่องวัน]]></title>
     <desc><![CDATA[ขยายประเด็นข่าวที่เกิดขึ้นในรอบวัน เกาะติดสถานการณ์ข่าว จับประเด็นโดยผู้ประกาศมืออาชีพ เจาะลึกวงการกีฬา]]></desc>
@@ -6016,9 +6013,6 @@
   <programme start="20201018100000 -0000" stop="20201018110000 -0000" channel="th-dtv31.iptv36.my.to">
     <title><![CDATA[ข่าวเย็นช่องวัน]]></title>
     <desc><![CDATA[เกาะติดสถานการณ์ข่าว จับประเด็นโดยผู้ประกาศมืออาชีพ]]></desc>
-  </programme>
-  <programme start="20201016095000 -0000" stop="20201016102000 -0000" channel="th-dtv32.iptv36.my.to">
-    <title><![CDATA[บันเทิงไทยรัฐ]]></title>
   </programme>
   <programme start="20201016102000 -0000" stop="20201016105600 -0000" channel="th-dtv32.iptv36.my.to">
     <title><![CDATA[รายการพิเศษ เกาะติดสถานการณ์ชุมนุม]]></title>
@@ -6764,34 +6758,28 @@
   <programme start="20201018100000 -0000" stop="20201018110000 -0000" channel="th-dtv34.iptv36.my.to">
     <title><![CDATA[ความลับแห่งเอเชีย]]></title>
   </programme>
-  <programme start="20201016100000 -0000" stop="20201016101400 -0000" channel="th-dtv35.iptv36.my.to">
-    <title><![CDATA[หนทางพารวย]]></title>
-  </programme>
-  <programme start="20201016101400 -0000" stop="20201016101500 -0000" channel="th-dtv35.iptv36.my.to">
-    <title><![CDATA[แบบนี้...ใช่เลย]]></title>
-  </programme>
   <programme start="20201016101500 -0000" stop="20201016110000 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[FIGHT FOR HER เธอสั่งลุย]]></title>
   </programme>
   <programme start="20201016110000 -0000" stop="20201016115400 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[GUESS MY AGE รู้หน้า ไม่รู้วัย]]></title>
   </programme>
-  <programme start="20201016115400 -0000" stop="20201016130100 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201016115400 -0000" stop="20201016125600 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[สมบัติมหาเฮง]]></title>
   </programme>
-  <programme start="20201016130100 -0000" stop="20201016132600 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201016125600 -0000" stop="20201016132500 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[ข่าวภาคค่ำ]]></title>
   </programme>
-  <programme start="20201016132600 -0000" stop="20201016133000 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201016132500 -0000" stop="20201016133000 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[เส้นทางบันเทิง]]></title>
   </programme>
-  <programme start="20201016133000 -0000" stop="20201016153000 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201016133000 -0000" stop="20201016152700 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[สิงห์สั่งป่า]]></title>
   </programme>
-  <programme start="20201016153000 -0000" stop="20201016163700 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201016152700 -0000" stop="20201016163000 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[ฮัลโหล ซุปตาร์ (Rerun)]]></title>
   </programme>
-  <programme start="20201016163700 -0000" stop="20201016165959 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201016163000 -0000" stop="20201016165959 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[สดๆ บทไม่มี ตีสนิท]]></title>
   </programme>
   <programme start="20201016170000 -0000" stop="20201016173000 -0000" channel="th-dtv35.iptv36.my.to">
@@ -7201,12 +7189,6 @@
   </programme>
   <programme start="20201018100000 -0000" stop="20201018114500 -0000" channel="th-dtv36.iptv36.my.to">
     <title><![CDATA[ถ่ายทอดสดการแข่งขัน MOTO2]]></title>
-  </programme>
-  <programme start="20201016165500 +0700" stop="20201016171700 +0700" channel="th-dtv4.iptv36.my.to">
-    <title><![CDATA[Nature Spy สายลับธรรมชาติ]]></title>
-  </programme>
-  <programme start="20201016171700 +0700" stop="20201016172000 +0700" channel="th-dtv4.iptv36.my.to">
-    <title><![CDATA[คลิป So เชี่ยว]]></title>
   </programme>
   <programme start="20201016172000 +0700" stop="20201016174000 +0700" channel="th-dtv4.iptv36.my.to">
     <title><![CDATA[Safe Home Mania]]></title>
