@@ -449,6 +449,7 @@ const streamingInfo = {
   axn: {
     channelName: 'AXN HD',
     logo: 'https://iptv36.my.to/logo/axn.png',
+    tvgId: 'axn.iptv36.my.to',
     urlList: ['http://ip2121.com:8081/live2/AXN_Y/playlist.m3u8'],
     groupName: 'ENTERTAINMENT',
   },
