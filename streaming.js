@@ -78,7 +78,7 @@ const streamingInfo = {
 
   new18: {
     channelName: 'NEW 18',
-    logo: 'https://iptv36.my.to/logo/new18.jpg',
+    logo: 'https://iptv36.my.to/logo/new18.png',
     tvgId: 'th-dtv18.iptv36.my.to',
     urlList: [
       [
@@ -431,7 +431,7 @@ const streamingInfo = {
 
   nickelodeon: {
     channelName: 'nickelodeon',
-    logo: 'https://iptv36.my.to/logo/nickelodeon.png',
+    logo: 'https://iptv36.my.to/logo/nick.png',
     tvgId: 'nickelodeon.iptv36.my.to',
     urlList: ['https://dootvthai-hd.com/cmd/api/true/nickelodeon/playlist.m3u8'],
     groupName: 'ENTERTAINMENT',
@@ -485,12 +485,12 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/discoveryasia.png',
     tvgId: 'discoveryasia.iptv36.my.to',
     urlList: ['https://doofootball.livestream-cdn.com:443/iptv/hd-discovery.stream/chunks.m3u8'],
-    groupName: 'NEWS & DOC',
+    groupName: 'NEWS & DOCS',
   },
 
   foxactionmovies: {
     channelName: 'Fox Action Movies HD',
-    logo: 'https://iptv36.my.to/logo/fox_action_movies.png',
+    logo: 'https://iptv36.my.to/logo/foxactionmovies.png',
     tvgId: 'foxactionmovies.iptv36.my.to',
     urlList: ['https://dootvthai-hd.com/cmd/api/true/Fox-Action/playlist.m3u8'],
     groupName: 'ENTERTAINMENT',
@@ -498,7 +498,7 @@ const streamingInfo = {
 
   foxfamilymovies: {
     channelName: 'Fox Family Movies HD',
-    logo: 'https://iptv36.my.to/logo/fox_family_movies.png',
+    logo: 'https://iptv36.my.to/logo/foxfamilymovies.png',
     tvgId: 'foxfamilymovies.iptv36.my.to',
     urlList: ['http://203.150.107.30:8081/tested2iptv/core14/playlist.m3u8'],
     groupName: 'ENTERTAINMENT',
@@ -506,7 +506,7 @@ const streamingInfo = {
 
   foxmovies: {
     channelName: 'FOX Movies HD',
-    logo: 'https://iptv36.my.to/logo/fox_movies.png',
+    logo: 'https://iptv36.my.to/logo/foxmovies.png',
     tvgId: 'foxmovies.iptv36.my.to',
     urlList: [
       'https://dootvthai-hd.com/cmd/api/true/Fox-Movie/playlist.m3u8',
@@ -518,7 +518,7 @@ const streamingInfo = {
 
   foxthai: {
     channelName: 'FOX Thai HD',
-    logo: 'https://iptv36.my.to/logo/fox_thai.jpg',
+    logo: 'https://iptv36.my.to/logo/foxthai.png',
     tvgId: 'foxthai.iptv36.my.to',
     urlList: [
       'https://dootvthai-hd.com/cmd/api/true/Fox-Thai/playlist.m3u8',
@@ -618,11 +618,11 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/natgeo.png',
     tvgId: 'natgeo.iptv36.my.to',
     urlList: ['http://dootvthai-hd.com/cmd/true/national-geographic-hd/playlist.m3u8'],
-    groupName: 'NEWS & DOC',
+    groupName: 'NEWS & DOCS',
   },
 
   news1: {
-    channelName: 'NEWS1',
+    channelName: 'NEWS18',
     logo: 'https://iptv36.my.to/logo/news1.png',
     urlList: ['http://news1.live14.com/stream/news1_hi.m3u8'],
     groupName: 'ENTERTAINMENT',
@@ -640,7 +640,7 @@ const streamingInfo = {
     channelName: 'PSI Saradee HD',
     logo: 'https://iptv36.my.to/logo/psi.png',
     urlList: ['http://96.30.124.100:1935/edgepsi/PSIHD.stream_720p/playlist.m3u8'],
-    groupName: 'NEWS & DOC',
+    groupName: 'NEWS & DOCS',
   },
 
   // truefilm: {
@@ -654,7 +654,7 @@ const streamingInfo = {
     channelName: 'True Plook Panya',
     logo: 'https://iptv36.my.to/logo/trueplookpanya.png',
     urlList: ['https://dootvthai-hd.com/cmd/api/true/trueplookpanya/playlist.m3u8'],
-    groupName: 'NEWS & DOC',
+    groupName: 'NEWS & DOCS',
   },
 
   truexzyte: {
@@ -677,10 +677,10 @@ const streamingInfo = {
 
   voice: {
     channelName: 'Voice TV HD',
-    logo: 'https://iptv36.my.to/logo/voice_tv.png',
+    logo: 'https://iptv36.my.to/logo/voice.png',
     tvgId: 'voice.iptv36.my.to',
     urlList: ['https://edge6a.v2h-cdn.com/appt3/WOWSH.stream_720p/chunklist_w142679599.m3u8'],
-    groupName: 'NEWS & DOC',
+    groupName: 'NEWS & DOCS',
   },
 
   warnertv: {

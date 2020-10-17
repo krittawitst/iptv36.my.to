@@ -4,7 +4,7 @@ const getEpgData = require('./epg.js');
 const allPlaylist = require('./playlist.js');
 const { abort } = require('process');
 
-const channelLogoRevision = 3;
+const channelLogoRevision = 4;
 const currentEpochDatetime = new Date().getTime();
 const currentDatetimePlus7Hrs = new Date(currentEpochDatetime + 7 * 60 * 60 * 1000);
 const currentBkkDatetimeStr = currentDatetimePlus7Hrs.toISOString().slice(0, 16);
