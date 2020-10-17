@@ -4,6 +4,8 @@ const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
 
 const getEpgDataFromNbtc = async () => {
+  console.log(`Fetching epg data from NBTC...`);
+
   // send request
   let rawData = {};
   try {
@@ -16,19 +18,18 @@ const getEpgDataFromNbtc = async () => {
     return [];
   }
 
-  // get program start now + 2 days
+  // get program start now + 1.5 days
   let currentDatetime = new Date();
-  let currentDatetimePlus2Days = new Date(currentDatetime.getTime() + 86400 * 2 * 1000);
+  let currentDatetimePlus36Hrs = new Date(currentDatetime.getTime() + 36 * 3600 * 1000);
 
   // process data
   let epgData = [];
   for (let result of rawData.results) {
-    let channelNo = parseInt(result.channelNo);
-    let tvgId = `th-dtv${channelNo}.iptv36.my.to`;
+    let tvgId = `th-dtv${result.channelNo}.iptv36.my.to`;
     for (let program of result.programOfChannel) {
       let programStart = new Date(program.pgBeginTimeLong * 1000);
       let programEnd = new Date(program.pgEndTimeLong * 1000);
-      if (programEnd < currentDatetime || programStart > currentDatetimePlus2Days) {
+      if (programEnd < currentDatetime || programStart > currentDatetimePlus36Hrs) {
         continue;
       }
       let programStartStr = `${programStart
@@ -45,7 +46,7 @@ const getEpgDataFromNbtc = async () => {
         program.pgDesc &&
         program.pgDesc.trim() &&
         program.pgDesc.trim() !== programTitle &&
-        ![1, 29].includes(channelNo) // tv5 and mono29 have useless programDescription
+        !['01', '29'].includes(result.channelNo) // tv5 and mono29 have useless programDescription
       ) {
         programDescription = program.pgDesc.trim();
       }
@@ -58,13 +59,17 @@ const getEpgDataFromNbtc = async () => {
       });
     }
   }
+
+  // console.log(`  / Fetched epg data from NBTC...`);
   return epgData;
 };
 
 const getEpgDataFromAisPlay = async () => {
+  console.log('Fetching epg data from AIS Play...');
+
   // mapping tvg id
   let channelIdToTvgId = {
-    '5efdd162fbb0045345ef2b61': 'th-dtv4.iptv36.my.to',
+    '5efdd162fbb0045345ef2b61': 'th-dtv04.iptv36.my.to',
     '5ee1eb4d0f24872fd951d196': 'paramount.iptv36.my.to',
     '597e004b7ed5a24e46f6725a': 'warnertv.iptv36.my.to',
     '5e44faeeaae73158d325f8f9': 'hitsmovies.iptv36.my.to',
@@ -80,12 +85,12 @@ const getEpgDataFromAisPlay = async () => {
 
   // build parameter
   let currentDatetime = new Date();
-  let currentDatetimePlus7Hrs = new Date(currentDatetime.getTime() + 7 * 60 * 60 * 1000);
-  let currentDatetimePlus2Days7Hrs = new Date(currentDatetimePlus7Hrs.getTime() + 86400 * 2 * 1000);
+  let currentDatetimePlus7Hrs = new Date(currentDatetime.getTime() + 7 * 3600 * 1000);
+  let currentDatetimePlus43Hrs = new Date(currentDatetime.getTime() + 43 * 3600 * 1000);
   let startBkkDateStr = currentDatetimePlus7Hrs.toISOString().slice(0, 10);
   let startBkkTimeStr = currentDatetimePlus7Hrs.toISOString().slice(11, 16) + ':00';
-  let endBkkDateStr = currentDatetimePlus2Days7Hrs.toISOString().slice(0, 10);
-  let endBkkTimeStr = currentDatetimePlus2Days7Hrs.toISOString().slice(11, 16) + ':00';
+  let endBkkDateStr = currentDatetimePlus43Hrs.toISOString().slice(0, 10);
+  let endBkkTimeStr = currentDatetimePlus43Hrs.toISOString().slice(11, 16) + ':00';
 
   // send request
   let rawData = {};
@@ -117,6 +122,8 @@ const getEpgDataFromAisPlay = async () => {
       programDescription,
     });
   }
+
+  // console.log(`  / Fetched epg data from AIS Play...`);
   return epgData;
 };
 
@@ -131,6 +138,8 @@ const htmlEntityDecode = (textStr) => {
 };
 
 const getEpgDataFromTrueVisions = async () => {
+  console.log('Fetching epg data from TrueVisions...');
+
   let currentDatetime = new Date();
   let currentDatetimePlus7Hrs = new Date(currentDatetime.getTime() + 7 * 60 * 60 * 1000);
   let currentDatetimePlus1Days7Hrs = new Date(currentDatetimePlus7Hrs.getTime() + 86400 * 1000);
@@ -145,12 +154,24 @@ const getEpgDataFromTrueVisions = async () => {
       '#page5': 'foxfamilymovies.iptv36.my.to',
       '#page16': 'foxthai.iptv36.my.to',
     },
+    ent: {
+      '#page2': 'axn.iptv36.my.to',
+    },
     sport: {
       '#page1': 'premier1.iptv36.my.to',
       '#page2': 'premier2.iptv36.my.to',
       '#page3': 'truesporthd.iptv36.my.to',
       '#page4': 'truesporthd2.iptv36.my.to',
       '#page12': 'truesport2.iptv36.my.to',
+    },
+    know: {
+      '#page2': 'history.iptv36.my.to',
+      '#page3': 'history2.iptv36.my.to',
+      '#page4': 'natgeo.iptv36.my.to',
+    },
+    kids: {
+      '#page1': 'truesparkplay.iptv36.my.to',
+      '#page3': 'disneyxd.iptv36.my.to',
     },
   };
 
@@ -236,19 +257,21 @@ const getEpgDataFromTrueVisions = async () => {
     }
   }
 
+  // console.log(`  / Fetched epg data from TrueVisions...`);
   return epgData;
 };
 
 const getEpgData = async () => {
   // EPG
-  console.log(`Fetching epg data from NBTC`);
-  const epgDataFromNbtc = await getEpgDataFromNbtc();
+  let epgDataFromNbtcPromise = getEpgDataFromNbtc();
+  let epgDataFromAisPlayPromise = getEpgDataFromAisPlay();
+  let epgDataFromTrueVisionsPromise = getEpgDataFromTrueVisions();
 
-  console.log(`Fetching epg data from AIS Play`);
-  const epgDataFromAisPlay = await getEpgDataFromAisPlay();
-
-  console.log(`Fetching epg data from TrueVisions`);
-  const epgDataFromTrueVisions = await getEpgDataFromTrueVisions();
+  const [epgDataFromNbtc, epgDataFromAisPlay, epgDataFromTrueVisions] = await Promise.all([
+    epgDataFromNbtcPromise,
+    epgDataFromAisPlayPromise,
+    epgDataFromTrueVisionsPromise,
+  ]);
 
   let mergedEpgData = [...epgDataFromNbtc, ...epgDataFromAisPlay, ...epgDataFromTrueVisions];
   mergedEpgData = mergedEpgData.sort((item1, item2) =>

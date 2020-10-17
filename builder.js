@@ -2,6 +2,7 @@ const fs = require('fs');
 const getStreamingInfo = require('./streaming.js');
 const getEpgData = require('./epg.js');
 const allPlaylist = require('./playlist.js');
+const { abort } = require('process');
 
 const channelLogoRevision = 2;
 const currentEpochDatetime = new Date().getTime();
@@ -9,10 +10,23 @@ const currentDatetimePlus7Hrs = new Date(currentEpochDatetime + 7 * 60 * 60 * 10
 const currentBkkDatetimeStr = currentDatetimePlus7Hrs.toISOString().slice(0, 16);
 
 const main = async () => {
-  // M3U PLAYLIST
+  // pre fetch epg data
+  const epgDataPromise = getEpgData();
+
+  // generate M3U PLAYLIST file
   for (let playlist of allPlaylist) {
     let textStr = `#EXTM3U : Thai IPTV Playlist from https://iptv36.my.to/ - Last Update ${currentBkkDatetimeStr}\n\n`;
 
+    // test all streaming simultaneously
+    console.log(`\nChecking streaming url for playlist '${playlist.filename}'...`);
+    await Promise.all(
+      playlist.channelList.map(async (channel) => {
+        let [channelKey, skip = 0] = channel;
+        await getStreamingInfo(channelKey, skip);
+      })
+    );
+
+    // generate playlist file
     for (let i = 0; i < playlist.channelList.length; i++) {
       let [channelKey, skip = 0] = playlist.channelList[i];
       let streamingInfo = await getStreamingInfo(channelKey, skip);
@@ -26,11 +40,11 @@ const main = async () => {
 
     fs.writeFileSync(`${playlist.filename}`, textStr, 'utf8');
 
-    console.log(`==> Created playlist '${playlist.filename}'\n`);
+    console.log(`==> Created playlist '${playlist.filename}'`);
   }
 
-  // XMLTV EPG
-  const epgData = await getEpgData();
+  // generate XMLTV EPG file
+  const epgData = await epgDataPromise;
 
   let xmlHead = `<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
@@ -66,7 +80,7 @@ const main = async () => {
   }
 
   fs.writeFileSync('EPG.xml', xmlHead + xmlChannelBody + xmlProgramBody + xmlTail, 'utf8');
-  console.log(`==> Created EPG 'EPG.xml'`);
+  console.log(`\n==> Created EPG 'EPG.xml'`);
 };
 
 main();
