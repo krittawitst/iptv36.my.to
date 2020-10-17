@@ -101,7 +101,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-01.sg1.dailymotion.com/sec(ccIVIlWaGsSkNrAGI3_YSSW_iTU1JlGVUx7UhvmoCH8)/dm/3/x6eoldf/d/live-2.m3u8',
+        'https://stream-04.sg1.dailymotion.com/sec(ccIVIlWaGsSkNrAGI3_YSSW_iTU1JlGVUx7UhvmoCH8)/dm/3/x6eoldf/d/live-3.m3u8',
       ], // 720p
       'https://dootvthai-hd.com/cmd/api/true/nationtv/playlist.m3u8', // 576p
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chnation/index.m3u8'],
