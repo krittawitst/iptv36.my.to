@@ -2,7 +2,6 @@ const fs = require('fs');
 const getStreamingInfo = require('./streaming.js');
 const getEpgData = require('./epg.js');
 const allPlaylist = require('./playlist.js');
-const { abort } = require('process');
 
 const channelLogoRevision = 4;
 const currentEpochDatetime = new Date().getTime();
@@ -19,10 +18,18 @@ const main = async () => {
 
     // test all streaming simultaneously
     console.log(`\nChecking streaming url for playlist '${playlist.filename}'...`);
+
+    let uniqueChannelKeyForThisPlaylist = playlist.channelList.reduce((channelList, channel) => {
+      let [channelKey, skip = 0] = channel;
+      if (!channelList.includes(channelKey)) {
+        channelList.push(channelKey);
+      }
+      return channelList;
+    }, []);
+
     await Promise.all(
-      playlist.channelList.map(async (channel) => {
-        let [channelKey, skip = 0] = channel;
-        await getStreamingInfo(channelKey, skip);
+      uniqueChannelKeyForThisPlaylist.map(async (channelKey) => {
+        await getStreamingInfo(channelKey);
       })
     );
 

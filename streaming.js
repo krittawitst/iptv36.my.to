@@ -83,11 +83,11 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54_ALrDu1f_WnXXDdPatM1w0)/dm/3/x7kx5i7/s/live-4.m3u8',
+        'https://stream-02.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL549kMAzGK39FhwlU9dHO1iWE)/dm/3/x7kx5i7/s/live-4.m3u8',
       ], // 1080p
       [
         'HD',
-        'https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54_ALrDu1f_WnXXDdPatM1w0)/dm/3/x7kx5i7/s/live-3.m3u8',
+        'https://stream-01.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL549kMAzGK39FhwlU9dHO1iWE)/dm/3/x7kx5i7/s/live-3.m3u8',
       ], // 720p
       'https://dootvthai-hd.com/cmd/api/true/new-tv/playlist.m3u8', // 576p
     ],
@@ -101,7 +101,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-04.sg1.dailymotion.com/sec(ccIVIlWaGsSkNrAGI3_YSSW_iTU1JlGVUx7UhvmoCH8)/dm/3/x6eoldf/d/live-3.m3u8',
+        'https://stream-01.sg1.dailymotion.com/sec(ccIVIlWaGsSkNrAGI3_YSYF5kmhgL2SvanOSuLCFl2M)/dm/3/x6eoldf/d/live-3.m3u8',
       ], // 720p
       'https://dootvthai-hd.com/cmd/api/true/nationtv/playlist.m3u8', // 576p
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chnation/index.m3u8'],
@@ -517,7 +517,7 @@ const streamingInfo = {
   },
 
   foxthai: {
-    channelName: 'FOX Thai HD',
+    channelName: 'FOX ไทย HD',
     logo: 'https://iptv36.my.to/logo/foxthai.png',
     tvgId: 'foxthai.iptv36.my.to',
     urlList: [
@@ -665,12 +665,12 @@ const streamingInfo = {
   },
 
   tvb: {
-    channelName: 'TVB Thai',
+    channelName: 'TVB ไทย HD',
     logo: 'https://iptv36.my.to/logo/tvb.png',
     urlList: [
-      'https://edge6a.v2h-cdn.com/RE_HD/smil:TVB_HD_ABR.smil/playlist.m3u8',
-      'https://edge6a.v2h-cdn.com:443/appt7/TDramaTV.stream_720p/iptv-ton.m3u8',
-      'https://edge6a.v2h-cdn.com/m2a7/TDramaTV.stream_720p/playlist.m3u8',
+      'https://edge6a.v2h-cdn.com/RE_HD/smil:TVB_HD_ABR.smil/playlist.m3u8', // 1080p
+      'https://edge6a.v2h-cdn.com:443/appt7/TDramaTV.stream_720p/iptv-ton.m3u8', // 720p
+      'https://edge6a.v2h-cdn.com/m2a7/TDramaTV.stream_720p/playlist.m3u8', // 720p
     ],
     groupName: 'ENTERTAINMENT',
   },
@@ -717,12 +717,22 @@ const testUrl = async (url) => {
     return true;
   }
 
-  try {
-    const response = await axios.get(url, { timeout: 4000 });
-    return true;
-  } catch (error) {
-    return false;
+  const maximumRetry = 3;
+  let attempt = 0;
+  let errorMessageArray = [];
+
+  while (attempt < maximumRetry) {
+    try {
+      const response = await axios.get(url, { timeout: 5000 });
+      return true;
+    } catch (error) {
+      errorMessageArray.push(error.code || error.response.status);
+      await new Promise((resolve) => setTimeout(resolve, 100));
+      attempt += 1;
+    }
   }
+
+  return Array.from(new Set(errorMessageArray)).join(' / ');
 };
 
 const generateValidUrl = async (streamingData) => {
@@ -736,8 +746,8 @@ const generateValidUrl = async (streamingData) => {
       }
 
       let result = await testUrl(urlForTest);
-      if (result === false) {
-        console.log(`  X ${streamingData.channelName} | ${urlForTest}`);
+      if (result !== true) {
+        console.log(`  X ${streamingData.channelName} - ${result}\n    ${urlForTest}`);
         invalidUrlList.push(urlForTest);
       }
     })

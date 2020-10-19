@@ -202,30 +202,36 @@ const getEpgDataFromTrueVisions = async () => {
 
       for (let timeDiv of ['div.before-18h', 'div.after-18h']) {
         let parentOfProgramRowDiv = dom.window.document.body.querySelector(`${pageDiv} ${timeDiv}`);
-        for (let programRowDiv of parentOfProgramRowDiv.children) {
-          if (programRowDiv.querySelector('div.p-time')) {
-            let programStartTime = programRowDiv.querySelector('div.p-time').innerHTML.trim();
-            let programStartStr =
-              `${bkkDateStr}${programStartTime}00`.replace(/-|:|T/g, '') + ' +0700';
-            let programTitle = htmlEntityDecode(
-              programRowDiv.querySelector('span.p-title').innerHTML.trim()
-            );
-            let programSubtitle = htmlEntityDecode(
-              programRowDiv.querySelector('span.p-type-year-genre').innerHTML.trim()
-            );
-            let programDescription = htmlEntityDecode(
-              programRowDiv.querySelector('span.p-synopsis').innerHTML.trim()
-            );
 
-            epgDataForThisChannel.push({
-              programStartStr,
-              programEndStr: null,
-              tvgId,
-              programTitle,
-              programSubtitle: programSubtitle !== '::' ? programSubtitle : null,
-              programDescription,
-            });
+        try {
+          for (let programRowDiv of parentOfProgramRowDiv.children) {
+            if (programRowDiv.querySelector('div.p-time')) {
+              let programStartTime = programRowDiv.querySelector('div.p-time').innerHTML.trim();
+              let programStartStr =
+                `${bkkDateStr}${programStartTime}00`.replace(/-|:|T/g, '') + ' +0700';
+              let programTitle = htmlEntityDecode(
+                programRowDiv.querySelector('span.p-title').innerHTML.trim()
+              );
+              let programSubtitle = htmlEntityDecode(
+                programRowDiv.querySelector('span.p-type-year-genre').innerHTML.trim()
+              );
+              let programDescription = htmlEntityDecode(
+                programRowDiv.querySelector('span.p-synopsis').innerHTML.trim()
+              );
+
+              epgDataForThisChannel.push({
+                programStartStr,
+                programEndStr: null,
+                tvgId,
+                programTitle,
+                programSubtitle: programSubtitle !== '::' ? programSubtitle : null,
+                programDescription,
+              });
+            }
           }
+        } catch (error) {
+          console.error(`something went wrong when building epg for ${tvgId}`);
+          console.error(error);
         }
       }
 
