@@ -276,6 +276,10 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/pptv.png',
     tvgId: 'th-dtv36.iptv36.my.to',
     urlList: [
+      [
+        'HD',
+        'https://pptv36-1tsjfj.cdn.byteark.com/live/pl_720p/index.m3u8?x_ark_access_id=fleet-963&x_ark_auth_type=ark-v2&x_ark_expires=1603300801&x_ark_path_prefix=%2Flive%2F&x_ark_signature=FMbedWUoCMOipaXPkTaQ1A',
+      ], // 720p
       ['HD', 'https://dootvthai-hd.com/cmd/true/PPTV-HD/playlist.m3u8'], // 1080p
       ['HD', 'http://203.150.107.30:8081/tested2iptv/core1/playlist.m3u8'], // 720p
       ['HD', 'http://27.254.130.64/live01/ch2.m3u8?p=st'], // 720p?
