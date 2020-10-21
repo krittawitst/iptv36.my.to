@@ -278,7 +278,7 @@ const streamingInfo = {
     urlList: [
       ['HD', 'https://dootvthai-hd.com/cmd/true/PPTV-HD/playlist.m3u8'], // 1080p
       ['HD', 'http://203.150.107.30:8081/tested2iptv/core1/playlist.m3u8'], // 720p
-      'http://27.254.130.64/live01/ch2.m3u8?p=st', // 480p
+      ['HD', 'http://27.254.130.64/live01/ch2.m3u8?p=st'], // 720p?
       ['[NO HW+]', 'http://www.livedoomovies.com/02_PPTVHD_720p/chunklist.m3u8'],
     ],
     groupName: thDtvWithCurrentDate,
@@ -706,19 +706,6 @@ const streamingInfo = {
 // let testPassedUrl = [];
 
 const testUrl = async (url) => {
-  // list of url that cannot check/test in Netlify
-  // if (
-  //   process.env.NETLIFY && // url.includes('dootvthai-hd.com') ||
-  //   (url.includes('bugaboo.tv') ||
-  //     url.includes('byteark.com') ||
-  //     url.includes('doofootball.livestream-cdn.com') ||
-  //     url.includes('3bb.co.th') ||
-  //     // url.includes('103.208.24.234') ||
-  //     url.includes('stream.rs.co.th'))
-  // ) {
-  //   return true;
-  // }
-
   // list of url that we will always not check
   if (url.includes('rtsp://')) {
     return true;
@@ -735,7 +722,29 @@ const testUrl = async (url) => {
     } catch (error) {
       let errorMsg = error.code || error.response.status;
 
-      if (url.includes('livedoomovies.com') && errorMsg === 'UNABLE_TO_VERIFY_LEAF_SIGNATURE') {
+      if (errorMsg === 'UNABLE_TO_VERIFY_LEAF_SIGNATURE' && url.includes('livedoomovies.com')) {
+        return true;
+      }
+
+      if (
+        process.env.NETLIFY &&
+        errorMsg === 'ECONNABORTED' &&
+        (url.includes('edge1-bkk.3bb.co.th') ||
+          url.includes('doofootball.livestream-cdn.com') ||
+          url.includes('103.208.24.234'))
+      ) {
+        return true;
+      }
+
+      if (
+        process.env.NETLIFY &&
+        errorMsg === 'ECONNRESET' &&
+        (url.includes('stream.rs.co.th') || url.includes('bugaboo.tv'))
+      ) {
+        return true;
+      }
+
+      if (process.env.NETLIFY && errorMsg === 451 && url.includes('byteark.com')) {
         return true;
       }
 
