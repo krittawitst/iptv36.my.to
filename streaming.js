@@ -116,7 +116,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-05.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8m7T62il3egwVGjwd9UoZSI)/dm/3/x6g9qjj/s/live-3.m3u8',
+        'https://stream-04.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8t9sJ92tRqTXKX6Xq6IpGTc)/dm/3/x6g9qjj/s/live-3.m3u8',
       ], // 720p
       'https://dootvthai-hd.com/cmd/true/Workpointtv/playlist.m3u8', // 576p
       'http://27.254.130.56:80/live01/ch7.m3u8',
@@ -198,7 +198,11 @@ const streamingInfo = {
     channelName: 'MCOT HD',
     logo: 'https://iptv36.my.to/logo/mcot.png',
     tvgId: 'th-dtv30.iptv36.my.to',
-    urlList: ['https://dootvthai-hd.com/cmd/api/true/9MCOT-HD/playlist.m3u8'], // 1080p
+    urlList: [
+      'https://stream-04.sg1.dailymotion.com/sec(86G48EQSWKUUFPhHXEV5xl99fpRz8U8O6Jklt2N_2-A)/dm/3/x74wlgj/s/live-4.m3u8',
+      'https://dootvthai-hd.com/cmd/api/true/9MCOT-HD/playlist.m3u8',
+      ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chmcothd/index.m3u8'], // 720p
+    ], // 1080p
     groupName: thDtvWithCurrentDate,
   },
 
@@ -700,9 +704,8 @@ const streamingInfo = {
 const testUrl = async (url) => {
   // list of url that cannot check/test in Netlify
   if (
-    process.env.NETLIFY &&
-    (url.includes('dootvthai-hd.com') ||
-      url.includes('bugaboo.tv') ||
+    process.env.NETLIFY && // url.includes('dootvthai-hd.com') ||
+    (url.includes('bugaboo.tv') ||
       url.includes('byteark.com') ||
       url.includes('doofootball.livestream-cdn.com') ||
       url.includes('3bb.co.th') ||
@@ -782,7 +785,19 @@ const getStreamingInfo = async (channelKey, skip = 0) => {
   let groupName = streamingData.groupName || 'Other';
   let tvgId = streamingData.tvgId || '';
   let urlList = streamingData.validUrlList || [];
-  let url = skip < urlList.length ? urlList[skip] : `${urlList[0]}`;
+
+  let url = '';
+  if (urlList.length) {
+    if (skip < urlList.length) {
+      url = urlList[skip];
+    } else {
+      url = urlList[0];
+    }
+  } else {
+    channelNameComponent.unshift('[เสีย]');
+    url = streamingData.urlList[0];
+  }
+
   if (Array.isArray(url)) {
     channelNameComponent.push(url[0]);
     url = url[1];
