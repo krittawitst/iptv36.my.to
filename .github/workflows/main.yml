@@ -1,8 +1,8 @@
 name: Trigger Netlify Build at 0,4,8,12,16,20 GTM+7
 on:
   schedule:
-    # Every 4 hours on UTC
-    - cron: '0 1,5,9,13,17,21 * * *'
+    # Every 2 hours on UTC
+    - cron: '0 0,2,4,6,8,10,12,14,16,18,20,22 * * *'
 jobs:
   build:
     name: Netlify build
