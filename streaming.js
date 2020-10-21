@@ -142,8 +142,9 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-04.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_ahqEbrGDczZLH2HVEtZdu0)/dm/3/x6rz4t7/s/live-2.m3u8',
+        'https://stream-03.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_ZxxHwOCTQ7HElU1WzYnbxI)/dm/3/x6rz4t7/s/live-3.m3u8',
       ], // 720p
+      'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8',
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chgmm/index.m3u8'], // 720p upscale
       'http://183.182.100.184/live/mcothd/playlist.m3u8', // 360p
       'http://27.254.130.56:80/live01/ch11.m3u8',
@@ -174,11 +175,11 @@ const streamingInfo = {
         'https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/playlist.m3u8',
       ], // 1080p
       'https://dootvthai-hd.com/cmd/api/true/mono29/playlist.m3u8', // 576p
+      ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chmono29/index.m3u8'], // 720p upscale
       [
         'HD',
         'https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_720P/mono29hls_720TH.stream/playlist.m3u8',
       ], // 720p
-      ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chmono29/index.m3u8'], // 720p upscale
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -264,7 +265,6 @@ const streamingInfo = {
     urlList: [
       ['HD [NO HW+]', 'https://cdn6.goprimetime.info/feed/ch7hd/index.m3u8'], // 720p
       'https://dootvthai-hd.com/cmd/true/CH7-HD/playlist.m3u8', // 576p
-      'https://bcovlive-a.akamaihd.net/44cc55c80fef46a8baa3a405433e63b8/ap-southeast-1/5282994675001/playlist.m3u8', // 576p
       'http://119.59.125.74/stream/totnew.php?channel_id=ddfa47e726444446864b14e0e819fdde&.m3u', // 480p
       'http://edge160.bugaboo.tv/liveedgech7_partner/smil:auto.smil/chunklist_b1210000_sleng.m3u8', // 480p
     ],
@@ -317,6 +317,8 @@ const streamingInfo = {
       'http://203.150.107.30:8081/tested2iptv/core101/playlist.m3u8', // 720p60
       'https://dootvthai-hd.com/cmd/true/ep1-1/playlist.m3u8', //1080p
       'http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8', //720p
+      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_PremierHD1_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'http://www.livedoomovies.com/02_PremierHD1_720p/chunklist.m3u8'],
     ],
     groupName: 'SPORT',
   },
@@ -330,6 +332,7 @@ const streamingInfo = {
       'https://dootvthai-hd.com/cmd/true/ep1-2/playlist.m3u8', //1080p
       'http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8', // 720p
       'http://160.119.77.116:8081/iptv/epl-2.stream/playlist.m3u8', // 720p
+      ['[NO HW+]', 'http://www.livedoomovies.com/02_PremierHD2_720p/chunklist.m3u8'],
     ],
     groupName: 'SPORT',
   },
@@ -341,6 +344,7 @@ const streamingInfo = {
       'http://103.208.24.234:1935/thaisport/epl-3.stream/playlist.m3u8', // 720p
       'https://dootvthai-hd.com/cmd/true/ep1-3/playlist.m3u8', // 1080p
       'http://160.119.77.116:8081/iptv/epl-3.stream/playlist.m3u8', // 720p
+      ['[NO HW+]', 'http://www.livedoomovies.com/02_PremierHD3_720p/chunklist.m3u8'],
     ],
     groupName: 'SPORT',
   },
@@ -409,7 +413,7 @@ const streamingInfo = {
     tvgId: 'cartoonclub.iptv36.my.to',
     urlList: [
       'https://dootvthai-hd.com/cmd/api/true/cartoonclub/playlist.m3u8',
-      'http://edge4-bkk.3bb.co.th:1935/CartoonClub_Livestream/cartoonclub_480P.stream/chunklist.m3u8',
+      'http://edge4-bkk.3bb.co.th:1935/CartoonClub_Livestream/cartoonclub_480P.stream/playlist.m3u8',
     ],
     groupName: 'CARTOON',
   },
@@ -703,24 +707,24 @@ const streamingInfo = {
 
 const testUrl = async (url) => {
   // list of url that cannot check/test in Netlify
-  if (
-    process.env.NETLIFY && // url.includes('dootvthai-hd.com') ||
-    (url.includes('bugaboo.tv') ||
-      url.includes('byteark.com') ||
-      url.includes('doofootball.livestream-cdn.com') ||
-      url.includes('3bb.co.th') ||
-      url.includes('103.208.24.234') ||
-      url.includes('stream.rs.co.th'))
-  ) {
-    return true;
-  }
+  // if (
+  //   process.env.NETLIFY && // url.includes('dootvthai-hd.com') ||
+  //   (url.includes('bugaboo.tv') ||
+  //     url.includes('byteark.com') ||
+  //     url.includes('doofootball.livestream-cdn.com') ||
+  //     url.includes('3bb.co.th') ||
+  //     // url.includes('103.208.24.234') ||
+  //     url.includes('stream.rs.co.th'))
+  // ) {
+  //   return true;
+  // }
 
   // list of url that we will always not check
   if (url.includes('rtsp://')) {
     return true;
   }
 
-  const maximumRetry = 3;
+  const maximumRetry = 2;
   let attempt = 0;
   let errorMessageArray = [];
 
@@ -729,8 +733,14 @@ const testUrl = async (url) => {
       const response = await axios.get(url, { timeout: 5000 });
       return true;
     } catch (error) {
-      errorMessageArray.push(error.code || error.response.status);
-      await new Promise((resolve) => setTimeout(resolve, 100));
+      let errorMsg = error.code || error.response.status;
+
+      if (url.includes('livedoomovies.com') && errorMsg === 'UNABLE_TO_VERIFY_LEAF_SIGNATURE') {
+        return true;
+      }
+
+      errorMessageArray.push(errorMsg);
+      await new Promise((resolve) => setTimeout(resolve, 300));
       attempt += 1;
     }
   }
@@ -787,15 +797,12 @@ const getStreamingInfo = async (channelKey, skip = 0) => {
   let urlList = streamingData.validUrlList || [];
 
   let url = '';
-  if (urlList.length) {
-    if (skip < urlList.length) {
-      url = urlList[skip];
-    } else {
-      url = urlList[0];
-    }
+  if (urlList.length > 0) {
+    url = skip < urlList.length ? urlList[skip] : urlList[0];
   } else {
     channelNameComponent.unshift('[เสีย]');
-    url = streamingData.urlList[0];
+    url =
+      skip < streamingData.urlList.length ? streamingData.urlList[skip] : streamingData.urlList[0];
   }
 
   if (Array.isArray(url)) {
