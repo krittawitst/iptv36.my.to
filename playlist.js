@@ -61,8 +61,8 @@ const proPlaylist = {
 
     // 41-50
     ['m'],
-    ['paramount'],
-    ['warnertv'],
+    ['hitsmovies'],
+    ['hbo'],
     ['axn'],
     ['ctb'],
     ['natgeo'],
