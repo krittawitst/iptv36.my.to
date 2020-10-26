@@ -14,7 +14,7 @@ const streamingInfo = {
     urlList: [
       // 'https://dootvthai-hd.com/cmd/api/true/ch5-hd/playlist.m3u8', // 1080p
       'http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8', // 1080p
-      'http://27.254.130.64/live01/ch6.m3u8?p=st',
+      // 'http://27.254.130.56/live01/ch6.m3u8?p=st',
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -48,7 +48,7 @@ const streamingInfo = {
     tvgId: 'th-dtv04.iptv36.my.to',
     urlList: [
       'https://iptv36.my.to/altv.m3u8', // 1080p
-      'https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8', // 1080p
+      'https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8', // 1080p auto
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -70,7 +70,7 @@ const streamingInfo = {
     tvgId: 'th-dtv16.iptv36.my.to',
     urlList: [
       // ['HD', 'https://dootvthai-hd.com/cmd/true/tnn-16/playlist.m3u8'], // 1080p
-      'http://27.254.130.64/live01/chsd_TNN_5.m3u8?p=st', // 720p upscale
+      // 'http://27.254.130.56/live01/chsd_TNN_5.m3u8?p=st', // 720p upscale
       'http://119.59.125.74/stream/totnew.php?channel_id=77774220bb8e40aa94e549e29ff3ed8a&.m3u8', // 240p
     ],
     groupName: thDtvWithCurrentDate,
@@ -83,12 +83,13 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-02.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL549kMAzGK39FhwlU9dHO1iWE)/dm/3/x7kx5i7/s/live-4.m3u8',
+        'https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54xcMLoS2aK8AExf8b_BiPak)/dm/3/x7kx5i7/s/live-4.m3u8',
       ], // 1080p
       [
         'HD',
-        'https://stream-01.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL549kMAzGK39FhwlU9dHO1iWE)/dm/3/x7kx5i7/s/live-3.m3u8',
+        'https://stream-02.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54xcMLoS2aK8AExf8b_BiPak)/dm/3/x7kx5i7/s/live-3.m3u8',
       ], // 720p
+      ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/newtv/index.m3u8'],
       // 'https://dootvthai-hd.com/cmd/api/true/new-tv/playlist.m3u8', // 576p
     ],
     groupName: thDtvWithCurrentDate,
@@ -101,7 +102,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-01.sg1.dailymotion.com/sec(ccIVIlWaGsSkNrAGI3_YSYF5kmhgL2SvanOSuLCFl2M)/dm/3/x6eoldf/d/live-3.m3u8',
+        'https://stream-04.sg1.dailymotion.com/sec(ccIVIlWaGsSkNrAGI3_YSYd1OgOdrI_qPlB5fU0Jfa8)/dm/3/x6eoldf/d/live-3.m3u8',
       ], // 720p
       // 'https://dootvthai-hd.com/cmd/api/true/nationtv/playlist.m3u8', // 576p
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chnation/index.m3u8'],
@@ -116,10 +117,10 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-04.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8t9sJ92tRqTXKX6Xq6IpGTc)/dm/3/x6g9qjj/s/live-3.m3u8',
+        'https://stream-02.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8nSs7CGuzewffp95CvAfa9E)/dm/3/x6g9qjj/s/live-3.m3u8',
       ], // 720p
+      // 'http://27.254.130.56/live01/ch7.m3u8', // 720p
       // 'https://dootvthai-hd.com/cmd/true/Workpointtv/playlist.m3u8', // 576p
-      'http://27.254.130.56:80/live01/ch7.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -147,7 +148,7 @@ const streamingInfo = {
       'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8',
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chgmm/index.m3u8'], // 720p upscale
       'http://183.182.100.184/live/mcothd/playlist.m3u8', // 360p
-      'http://27.254.130.56:80/live01/ch11.m3u8',
+      // 'http://27.254.130.56:80/live01/ch11.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -159,8 +160,8 @@ const streamingInfo = {
     urlList: [
       ['HD', 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8'], // 720p
       // 'https://dootvthai-hd.com/cmd/api/true/ch8-hd/playlist.m3u8', // 576p
-      'http://stream.rs.co.th/ch8-hi/index.m3u8', // 360p
-      'http://27.254.130.64/live01/ch15.m3u8?p=st',
+      'http://stream.rs.co.th/ch8-hi/index.m3u8', // 360p loud
+      'http://27.254.130.56/live01/ch15.m3u8?p=st',
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -200,10 +201,9 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/mcot.png',
     tvgId: 'th-dtv30.iptv36.my.to',
     urlList: [
-      'https://stream-04.sg1.dailymotion.com/sec(86G48EQSWKUUFPhHXEV5xl99fpRz8U8O6Jklt2N_2-A)/dm/3/x74wlgj/s/live-4.m3u8',
       // 'https://dootvthai-hd.com/cmd/api/true/9MCOT-HD/playlist.m3u8',
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chmcothd/index.m3u8'], // 720p
-    ], // 1080p
+    ],
     groupName: thDtvWithCurrentDate,
   },
 
@@ -240,7 +240,7 @@ const streamingInfo = {
       // ['HD', 'http://203.150.107.30:8081/tested2iptv/core11/playlist.m3u8'], // 1080p
       'http://119.59.125.74/stream/totnew.php?channel_id=a4485b656d764f308c63b14a8bf62326', // 480p
       ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_3HD_720p/chunklist.m3u8'],
-      'http://27.254.130.64/live01/ch0.m3u8?p=st', // 480p
+      'http://27.254.130.56/live01/ch0.m3u8?p=st', // 480p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -252,7 +252,7 @@ const streamingInfo = {
     urlList: [
       // ['HD', 'https://dootvthai-hd.com/cmd/true/Amarintv-HD/playlist.m3u8'], // 1080p
       ['HD', 'http://119.59.125.74/stream/totnew.php?channel_id=78f57ebcf6064b308d75208a20756983'], // 720p
-      ['HD', 'http://27.254.130.64:80/feed/chamarin/playlist.m3u8'], // 720p
+      // ['HD', 'http://27.254.130.64:80/feed/chamarin/playlist.m3u8'], // 720p
       // 'http://203.150.107.30:8081/tested2iptv/core13/playlist.m3u8', // 1080p upscale
     ],
     groupName: thDtvWithCurrentDate,
@@ -278,7 +278,7 @@ const streamingInfo = {
     urlList: [
       // ['HD', 'https://dootvthai-hd.com/cmd/true/PPTV-HD/playlist.m3u8'], // 1080p
       // ['HD', 'http://203.150.107.30:8081/tested2iptv/core1/playlist.m3u8'], // 720p
-      ['HD', 'http://27.254.130.64/live01/ch2.m3u8?p=st'], // 720p?
+      // ['HD', // 'http://27.254.130.56/live01/ch2.m3u8?p=st'], // 720p?
       ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_PPTVHD_720p/chunklist.m3u8'],
     ],
     groupName: thDtvWithCurrentDate,
@@ -610,7 +610,7 @@ const streamingInfo = {
     urlList: [
       // 'https://dootvthai-hd.com/cmd/true/mchannel/playlist.m3u8',
       'http://27.254.142.207:8080/live/web.m3u8',
-      'http://27.254.130.61/live01/ch19.m3u8?p=st',
+      // 'http://27.254.130.61/live01/ch19.m3u8?p=st',
       'https://edge6a.v2h-cdn.com/appt3/WOWSH.stream_720p/chunklist_w142679599.m3u8',
     ],
     groupName: 'ENTERTAINMENT',
@@ -631,17 +631,17 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/natgeo.png',
     tvgId: 'natgeo.iptv36.my.to',
     urlList: [
-      ['NO HW+', 'https://stream1.xn--l3cm7a5azd.live/sumrujlok_goodtv/chunklist.m3u8'],
+      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/sumrujlok_goodtv/chunklist.m3u8'],
       // 'http://dootvthai-hd.com/cmd/true/national-geographic-hd/playlist.m3u8'
     ],
     groupName: 'NEWS & DOCS',
   },
 
   news1: {
-    channelName: 'NEWS18',
+    channelName: 'NEWS1',
     logo: 'https://iptv36.my.to/logo/news1.png',
     urlList: ['http://news1.live14.com/stream/news1_hi.m3u8'],
-    groupName: 'ENTERTAINMENT',
+    groupName: 'NEWS & DOCS',
   },
 
   paramount: {
@@ -701,16 +701,16 @@ const streamingInfo = {
     groupName: 'NEWS & DOCS',
   },
 
-  warnertv: {
-    channelName: 'Warner TV HD',
-    logo: 'https://iptv36.my.to/logo/warnertv.png',
-    tvgId: 'warnertv.iptv36.my.to',
-    urlList: [
-      // 'https://dootvthai-hd.com/cmd/api/true/warner-hd/playlist.m3u8',
-      // 'http://203.150.107.30:8081/tested2iptv/core108/playlist.m3u8',
-    ],
-    groupName: 'ENTERTAINMENT',
-  },
+  // warnertv: {
+  //   channelName: 'Warner TV HD',
+  //   logo: 'https://iptv36.my.to/logo/warnertv.png',
+  //   tvgId: 'warnertv.iptv36.my.to',
+  //   urlList: [
+  //     // 'https://dootvthai-hd.com/cmd/api/true/warner-hd/playlist.m3u8',
+  //     // 'http://203.150.107.30:8081/tested2iptv/core108/playlist.m3u8',
+  //   ],
+  //   groupName: 'ENTERTAINMENT',
+  // },
 };
 
 // let testPassedUrl = [];
@@ -735,7 +735,7 @@ const testUrl = async (url) => {
       if (
         process.env.NETLIFY &&
         errorMsg === 'ECONNABORTED' &&
-        (url.includes('edge1-bkk.3bb.co.th') ||
+        (url.includes('3bb.co.th') ||
           url.includes('doofootball.livestream-cdn.com') ||
           url.includes('103.208.24.234'))
       ) {
