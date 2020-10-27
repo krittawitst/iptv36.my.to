@@ -424,6 +424,7 @@ const streamingInfo = {
     tvgId: 'cartoonnetwork.iptv36.my.to',
     urlList: [
       // 'https://dootvthai-hd.com/cmd/api/true/cartoon-network-hd/playlist.m3u8',
+      'https://r4-sn-w5nuxa-o53d.googlevideocdn.com/kids/cnhd/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCA2OjI5OjQwIEFNJmhhc2hfdmFsdWU9L0EyeTRUOC81TW41cE9pVmJlZytIUT09JnZhbGlkbWludXRlcz0yMA==',
       'https://stream1.xn--l3cm7a5azd.live/02_CartoonNetwork_720p/chunklist.m3u8',
     ],
     groupName: 'CARTOON',
