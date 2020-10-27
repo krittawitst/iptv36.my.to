@@ -3,7 +3,7 @@ const streaming = require('./streaming.js');
 const getEpgData = require('./epg.js');
 const allPlaylist = require('./playlist.js');
 
-const channelLogoRevision = 4;
+const channelLogoRevision = 5;
 const currentEpochDatetime = new Date().getTime();
 const currentDatetimePlus7Hrs = new Date(currentEpochDatetime + 7 * 60 * 60 * 1000);
 const currentBkkDatetimeStr = currentDatetimePlus7Hrs.toISOString().slice(0, 16);

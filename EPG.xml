@@ -43,9 +43,6 @@
   <channel id="hitsmovies.iptv36.my.to">
     <display-name>hitsmovies.iptv36.my.to</display-name>
   </channel>
-  <channel id="m.iptv36.my.to">
-    <display-name>m.iptv36.my.to</display-name>
-  </channel>
   <channel id="natgeo.iptv36.my.to">
     <display-name>natgeo.iptv36.my.to</display-name>
   </channel>
@@ -120,6 +117,9 @@
   </channel>
   <channel id="th-dtv36.iptv36.my.to">
     <display-name>th-dtv36.iptv36.my.to</display-name>
+  </channel>
+  <channel id="truesparkjump.iptv36.my.to">
+    <display-name>truesparkjump.iptv36.my.to</display-name>
   </channel>
   <channel id="truesparkplay.iptv36.my.to">
     <display-name>truesparkplay.iptv36.my.to</display-name>
@@ -274,12 +274,6 @@
     <sub-title><![CDATA[SR-ENT-KN :: Drama Series]]></sub-title>
     <desc><![CDATA[เรื่องราวของเหล่าทหารหาญในหน่วยปฎิบัติการพิเศษของกองทัพเรือสหรัฐอเมริกาและภารกิจลับสุดอันตรายเพื่อชาติซึ่งล้วนเดิมพันด้วยชีวิต -- นำแสดงโดย เดวิด โบรีนาซ และ แม็กซ์ เธียเรียต]]></desc>
   </programme>
-  <programme start="20201027152000 +0700" stop="20201027171000 +0700" channel="bein1.iptv36.my.to">
-    <title><![CDATA[Ligue 1 2020/21 : Lorient vs Marseille]]></title>
-  </programme>
-  <programme start="20201027171000 +0700" stop="20201027190000 +0700" channel="bein1.iptv36.my.to">
-    <title><![CDATA[LaLiga 2020/21 : Levante vs Celta]]></title>
-  </programme>
   <programme start="20201027190000 +0700" stop="20201027200000 +0700" channel="bein1.iptv36.my.to">
     <title><![CDATA[Serie A Highlights Show 2020/21 : MD 5]]></title>
   </programme>
@@ -358,20 +352,11 @@
   <programme start="20201029030000 +0700" stop="20201029050000 +0700" channel="bein1.iptv36.my.to">
     <title><![CDATA[Major League Soccer 2020 : Houston vs Columbus]]></title>
   </programme>
-  <programme start="20201027153000 +0700" stop="20201027160000 +0700" channel="bein2.iptv36.my.to">
-    <title><![CDATA[LFC TV Specials 2020/21 : Ajax vs Liverpool]]></title>
+  <programme start="20201029050000 +0700" stop="20201029070000 +0700" channel="bein1.iptv36.my.to">
+    <title><![CDATA[LaLiga 2020/21 : Barcelona vs Real Madrid]]></title>
   </programme>
-  <programme start="20201027160000 +0700" stop="20201027174500 +0700" channel="bein2.iptv36.my.to">
-    <title><![CDATA[Serie A 2020/21 : Milan vs Roma]]></title>
-  </programme>
-  <programme start="20201027174500 +0700" stop="20201027180000 +0700" channel="bein2.iptv36.my.to">
-    <title><![CDATA[SPFL Highlights 2020/21 : Episode Number 12]]></title>
-  </programme>
-  <programme start="20201027180000 +0700" stop="20201027183000 +0700" channel="bein2.iptv36.my.to">
-    <title><![CDATA[Chelsea TV Specials 2020/21 : Retro Blues: Manchester United 70s]]></title>
-  </programme>
-  <programme start="20201027183000 +0700" stop="20201027190000 +0700" channel="bein2.iptv36.my.to">
-    <title><![CDATA[Inside Chelsea 2020/21 : Episode Number 7]]></title>
+  <programme start="20201029070000 +0700" stop="20201029073500 +0700" channel="bein1.iptv36.my.to">
+    <title><![CDATA[Sporting Rivalries : Argentina v Brazil]]></title>
   </programme>
   <programme start="20201027190000 +0700" stop="20201027210000 +0700" channel="bein2.iptv36.my.to">
     <title><![CDATA[Chelsea TV 2020/21 : Man Utd vs Chelsea]]></title>
@@ -457,26 +442,11 @@
   <programme start="20201029025500 +0700" stop="20201029050000 +0700" channel="bein2.iptv36.my.to">
     <title><![CDATA[UEFA Champions League 2020/21 : Man Utd vs Leipzig (MD2) (Live)]]></title>
   </programme>
-  <programme start="20201027153000 +0700" stop="20201027160000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[ขบวนการผู้พิทักษ์อวกาศ คิวเรนเจอร์]]></title>
+  <programme start="20201029050000 +0700" stop="20201029060000 +0700" channel="bein2.iptv36.my.to">
+    <title><![CDATA[LaLiga 2 Highlights 2020/21 : MD 8]]></title>
   </programme>
-  <programme start="20201027160000 +0700" stop="20201027163000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[Astro boy + โพโรโระ]]></title>
-  </programme>
-  <programme start="20201027163000 +0700" stop="20201027170000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[ก๊อง (ปี1) + ชินจังจอมแก่น]]></title>
-  </programme>
-  <programme start="20201027170000 +0700" stop="20201027173000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[บาคุกัน/ ขบวนการจอมโจร ลูแปงเรนเจอร์ ปะทะ ขบวนการมือปราบ แพทเรนเจอร์]]></title>
-  </programme>
-  <programme start="20201027173000 +0700" stop="20201027180000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[ฟิวเจอร์การ์ดบัดดี้ไฟท์ (ปี1)]]></title>
-  </programme>
-  <programme start="20201027180000 +0700" stop="20201027183000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[นินจาโก]]></title>
-  </programme>
-  <programme start="20201027183000 +0700" stop="20201027190000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[Dr.SLUMP กับหนูน้อยอาราเล่]]></title>
+  <programme start="20201029060000 +0700" stop="20201029080500 +0700" channel="bein2.iptv36.my.to">
+    <title><![CDATA[Major League Soccer 2020 : NY Red Bulls vs New England (Live)]]></title>
   </programme>
   <programme start="20201027190000 +0700" stop="20201027193000 +0700" channel="cartoonclub.iptv36.my.to">
     <title><![CDATA[นารูโตะ นินจาจอมคาถา (ปี1-3)]]></title>
@@ -670,26 +640,26 @@
   <programme start="20201029033000 +0700" stop="20201029040000 +0700" channel="cartoonclub.iptv36.my.to">
     <title><![CDATA[บัดดี้ไฟท์ (100)]]></title>
   </programme>
-  <programme start="20201027150000 +0700" stop="20201027160000 +0700" channel="cartoonnetwork.iptv36.my.to">
-    <title><![CDATA[We Bare Bears]]></title>
+  <programme start="20201029040000 +0700" stop="20201029043000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[วันพีช เกาะโซว ปีที่ 15]]></title>
   </programme>
-  <programme start="20201027160000 +0700" stop="20201027170000 +0700" channel="cartoonnetwork.iptv36.my.to">
-    <title><![CDATA[The Amazing World Of Gumball]]></title>
+  <programme start="20201029043000 +0700" stop="20201029050000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[โบโบยบอย แก๊งจิ๋วซ่าพิทักษ์โลก]]></title>
   </programme>
-  <programme start="20201027170000 +0700" stop="20201027172500 +0700" channel="cartoonnetwork.iptv36.my.to">
-    <title><![CDATA[The Powerpuff Girls]]></title>
+  <programme start="20201029050000 +0700" stop="20201029053000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[ขบวนการจอมโจร ลูแปงเรนเจอร์ ปะทะ ขบวนการมือปราบ แพทเรนเจอร์]]></title>
   </programme>
-  <programme start="20201027172500 +0700" stop="20201027173000 +0700" channel="cartoonnetwork.iptv36.my.to">
-    <title><![CDATA[Dc Super Hero Girls Shorts]]></title>
+  <programme start="20201029053000 +0700" stop="20201029060000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[โพโรโระ + Astro boy]]></title>
   </programme>
-  <programme start="20201027173000 +0700" stop="20201027180000 +0700" channel="cartoonnetwork.iptv36.my.to">
-    <title><![CDATA[Thundercats Roar!]]></title>
+  <programme start="20201029060000 +0700" stop="20201029063000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[ก๊อง (ปี1) + ชินจังจอมแก่น]]></title>
   </programme>
-  <programme start="20201027180000 +0700" stop="20201027183500 +0700" channel="cartoonnetwork.iptv36.my.to">
-    <title><![CDATA[Teen Titans Go!]]></title>
+  <programme start="20201029063000 +0700" stop="20201029070000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[Dr.SLUMP กับหนูน้อยอาราเล่]]></title>
   </programme>
-  <programme start="20201027183500 +0700" stop="20201027190000 +0700" channel="cartoonnetwork.iptv36.my.to">
-    <title><![CDATA[Ben 10]]></title>
+  <programme start="20201029070000 +0700" stop="20201029073000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[โบโบยบอย แก๊งจิ๋วซ่าพิทักษ์โลก]]></title>
   </programme>
   <programme start="20201027190000 +0700" stop="20201027200000 +0700" channel="cartoonnetwork.iptv36.my.to">
     <title><![CDATA[We Bare Bears]]></title>
@@ -811,20 +781,20 @@
   <programme start="20201029030000 +0700" stop="20201029040000 +0700" channel="cartoonnetwork.iptv36.my.to">
     <title><![CDATA[Adventure Time]]></title>
   </programme>
-  <programme start="20201027150000 +0700" stop="20201027155000 +0700" channel="discoveryasia.iptv36.my.to">
-    <title><![CDATA[Nigel Marven's Wild Philippines (S1)]]></title>
+  <programme start="20201029040000 +0700" stop="20201029050000 +0700" channel="cartoonnetwork.iptv36.my.to">
+    <title><![CDATA[Grizzy And The Lemmings]]></title>
   </programme>
-  <programme start="20201027155000 +0700" stop="20201027164000 +0700" channel="discoveryasia.iptv36.my.to">
-    <title><![CDATA[Untamed China With Nigel Marven (S1)]]></title>
+  <programme start="20201029050000 +0700" stop="20201029053000 +0700" channel="cartoonnetwork.iptv36.my.to">
+    <title><![CDATA[Oggy & The Cockroaches]]></title>
   </programme>
-  <programme start="20201027164000 +0700" stop="20201027173000 +0700" channel="discoveryasia.iptv36.my.to">
-    <title><![CDATA[Untamed China With Nigel Marven (S1)]]></title>
+  <programme start="20201029053000 +0700" stop="20201029063000 +0700" channel="cartoonnetwork.iptv36.my.to">
+    <title><![CDATA[Teen Titans Go!]]></title>
   </programme>
-  <programme start="20201027173000 +0700" stop="20201027182000 +0700" channel="discoveryasia.iptv36.my.to">
-    <title><![CDATA[Marco Polo Reloaded (S1)]]></title>
+  <programme start="20201029063000 +0700" stop="20201029070000 +0700" channel="cartoonnetwork.iptv36.my.to">
+    <title><![CDATA[Monster Beach]]></title>
   </programme>
-  <programme start="20201027182000 +0700" stop="20201027191000 +0700" channel="discoveryasia.iptv36.my.to">
-    <title><![CDATA[18 Wheels Across Vietnam (S1)]]></title>
+  <programme start="20201029070000 +0700" stop="20201029080000 +0700" channel="cartoonnetwork.iptv36.my.to">
+    <title><![CDATA[We Bare Bears]]></title>
   </programme>
   <programme start="20201027191000 +0700" stop="20201027193500 +0700" channel="discoveryasia.iptv36.my.to">
     <title><![CDATA[Taxi To Asia (S1)]]></title>
@@ -966,6 +936,21 @@
   </programme>
   <programme start="20201029033000 +0700" stop="20201029043000 +0700" channel="discoveryasia.iptv36.my.to">
     <title><![CDATA[Orangutan Jungle School Special (S2)]]></title>
+  </programme>
+  <programme start="20201029043000 +0700" stop="20201029050000 +0700" channel="discoveryasia.iptv36.my.to">
+    <title><![CDATA[Garden In The Sky (S1)]]></title>
+  </programme>
+  <programme start="20201029050000 +0700" stop="20201029055000 +0700" channel="discoveryasia.iptv36.my.to">
+    <title><![CDATA[Marco Polo Reloaded (S1)]]></title>
+  </programme>
+  <programme start="20201029055000 +0700" stop="20201029064000 +0700" channel="discoveryasia.iptv36.my.to">
+    <title><![CDATA[18 Wheels Across Vietnam (S1)]]></title>
+  </programme>
+  <programme start="20201029064000 +0700" stop="20201029070500 +0700" channel="discoveryasia.iptv36.my.to">
+    <title><![CDATA[Taxi To Asia (S1)]]></title>
+  </programme>
+  <programme start="20201029070500 +0700" stop="20201029073000 +0700" channel="discoveryasia.iptv36.my.to">
+    <title><![CDATA[Taxi To Asia (S1)]]></title>
   </programme>
   <programme start="20201027000000 +0700" stop="20201027010000 +0700" channel="disneyxd.iptv36.my.to">
     <title><![CDATA[Freaktown]]></title>
@@ -1761,12 +1746,6 @@
     <sub-title><![CDATA[SR-ENT-KN :: Motoring]]></sub-title>
     <desc><![CDATA[พิธีกรและนักแสดงชื่อดัง ชัค นอร์ริส จะพาคุณผู้ชมไปชมเหล่าบรรดายานพาหนะในการสู้รบที่สมบุกสมบันที่สุดของกองทัพ]]></desc>
   </programme>
-  <programme start="20201027134500 +0700" stop="20201027160000 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[Chariots of Fire]]></title>
-  </programme>
-  <programme start="20201027160000 +0700" stop="20201027190000 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[Lion Of the Desert]]></title>
-  </programme>
   <programme start="20201027190000 +0700" stop="20201027210000 +0700" channel="hitsmovies.iptv36.my.to">
     <title><![CDATA[Commando]]></title>
   </programme>
@@ -1812,74 +1791,8 @@
   <programme start="20201029013000 +0700" stop="20201029034500 +0700" channel="hitsmovies.iptv36.my.to">
     <title><![CDATA[The Hand that rocks the cradle]]></title>
   </programme>
-  <programme start="20201027134500 +0700" stop="20201027164000 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[Hostage ฝ่านรกชิงตัวประกัน]]></title>
-  </programme>
-  <programme start="20201027164000 +0700" stop="20201027184500 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[Killer Tattoo มือปืน โลก พระ จัน]]></title>
-  </programme>
-  <programme start="20201027184500 +0700" stop="20201027190000 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[M News]]></title>
-  </programme>
-  <programme start="20201027190000 +0700" stop="20201027225000 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[Birth of the dragon บรูซ ลี มังกรผงาดโลก]]></title>
-  </programme>
-  <programme start="20201027225000 +0700" stop="20201027230000 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[วลีหนังเด็ด]]></title>
-  </programme>
-  <programme start="20201027230000 +0700" stop="20201028000000 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[High Voltage ปล้นแบบนี้ ก็ได้เหรอ]]></title>
-  </programme>
-  <programme start="20201028000000 +0700" stop="20201028011500 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[High Voltage ปล้นแบบนี้ ก็ได้เหรอ]]></title>
-  </programme>
-  <programme start="20201028011500 +0700" stop="20201028030500 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[Lords Of Salem ล่าแม่มดแห่งซาเล็ม]]></title>
-  </programme>
-  <programme start="20201028030500 +0700" stop="20201028050000 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[BANSHEE BLACKTOP คำสาบจากนรก]]></title>
-  </programme>
-  <programme start="20201028050000 +0700" stop="20201028064000 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[Run Hide Die ทริปสยอง วิ่ง ซ่อน ตาย]]></title>
-  </programme>
-  <programme start="20201028064000 +0700" stop="20201028082000 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[Phantom Halo มนุษย์ใต้ดิน พิทักษ์จักรวาล]]></title>
-  </programme>
-  <programme start="20201028082000 +0700" stop="20201028103000 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[Young Detective Dee Rise of The Sea Dragon ตี๋เหรินเจี๋ย ผจญกับดักเทพมังกร]]></title>
-  </programme>
-  <programme start="20201028103000 +0700" stop="20201028133500 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[Plastic ลวงล่อหักหลังแกงค์มาเฟีย]]></title>
-  </programme>
-  <programme start="20201028133500 +0700" stop="20201028134500 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[M Comedy]]></title>
-  </programme>
-  <programme start="20201028134500 +0700" stop="20201028164000 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[The night crew ทีมล่าคืนนรกเดือด]]></title>
-  </programme>
-  <programme start="20201028164000 +0700" stop="20201028184500 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[Reclaim แผนลับ ไถ่โหดอำมหิต]]></title>
-  </programme>
-  <programme start="20201028184500 +0700" stop="20201028190000 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[M News]]></title>
-  </programme>
-  <programme start="20201028190000 +0700" stop="20201028225000 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[DELINQUENT โจ๋ปล้นฆ่า]]></title>
-  </programme>
-  <programme start="20201028225000 +0700" stop="20201028230000 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[วลีหนังเด็ด]]></title>
-  </programme>
-  <programme start="20201028230000 +0700" stop="20201029000000 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[ชอบกดLike ใช่กดLove]]></title>
-  </programme>
-  <programme start="20201029000000 +0700" stop="20201029011500 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[ชอบกดLike ใช่กดLove]]></title>
-  </programme>
-  <programme start="20201029011500 +0700" stop="20201029030500 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[The Hunted ป่าหอน วิญญาณโหด]]></title>
-  </programme>
-  <programme start="20201029030500 +0700" stop="20201029050000 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[Brothers น้องพี่ ปฐพีเดือด]]></title>
+  <programme start="20201029034500 +0700" stop="20201029080000 +0700" channel="hitsmovies.iptv36.my.to">
+    <title><![CDATA[Chariots of Fire]]></title>
   </programme>
   <programme start="20201027000000 +0700" stop="20201027005500 +0700" channel="natgeo.iptv36.my.to">
     <title><![CDATA[Car SOS   [ 8 ]]]></title>
@@ -2041,45 +1954,6 @@
     <title><![CDATA[Air Crash Investigation   [ 7 ]]]></title>
     <sub-title><![CDATA[SR-ENT-KN :: Disaster]]></sub-title>
     <desc><![CDATA[สารคดีนำเสนอการวิเคราะห์สืบสวนบรรดาเหตุการณ์เครื่องบินตกจากทั่วทุกมุมโลกโดยรวบรวมข้อมูลจากรายงานการกู้ซากเครื่องบินและบทสัมภาษณ์ผู้เชี่ยวชาญและผู้เห็นเหตุการณ์]]></desc>
-  </programme>
-  <programme start="20201027153000 +0700" stop="20201027155500 +0700" channel="nickelodeon.iptv36.my.to">
-    <title><![CDATA[The Thundermans S03 EP.303]]></title>
-  </programme>
-  <programme start="20201027155500 +0700" stop="20201027161500 +0700" channel="nickelodeon.iptv36.my.to">
-    <title><![CDATA[The Thundermans S03 EP.304]]></title>
-  </programme>
-  <programme start="20201027161500 +0700" stop="20201027163000 +0700" channel="nickelodeon.iptv36.my.to">
-    <title><![CDATA[LEGO® City Adventures S02 EP.202]]></title>
-  </programme>
-  <programme start="20201027163000 +0700" stop="20201027164000 +0700" channel="nickelodeon.iptv36.my.to">
-    <title><![CDATA[LEGO® City Adventures S02 EP.202]]></title>
-  </programme>
-  <programme start="20201027164000 +0700" stop="20201027165000 +0700" channel="nickelodeon.iptv36.my.to">
-    <title><![CDATA[The Casagrandes S01 EP.104]]></title>
-  </programme>
-  <programme start="20201027165000 +0700" stop="20201027170500 +0700" channel="nickelodeon.iptv36.my.to">
-    <title><![CDATA[The Casagrandes S01 EP.104]]></title>
-  </programme>
-  <programme start="20201027170500 +0700" stop="20201027171500 +0700" channel="nickelodeon.iptv36.my.to">
-    <title><![CDATA[It's Pony S1 EP.107]]></title>
-  </programme>
-  <programme start="20201027171500 +0700" stop="20201027173000 +0700" channel="nickelodeon.iptv36.my.to">
-    <title><![CDATA[It's Pony S1 EP.107]]></title>
-  </programme>
-  <programme start="20201027173000 +0700" stop="20201027174000 +0700" channel="nickelodeon.iptv36.my.to">
-    <title><![CDATA[SpongeBob SquarePants S08 EP.163]]></title>
-  </programme>
-  <programme start="20201027174000 +0700" stop="20201027175500 +0700" channel="nickelodeon.iptv36.my.to">
-    <title><![CDATA[SpongeBob SquarePants S08 EP.163]]></title>
-  </programme>
-  <programme start="20201027175500 +0700" stop="20201027182000 +0700" channel="nickelodeon.iptv36.my.to">
-    <title><![CDATA[Just Add Magic S03 EP.302]]></title>
-  </programme>
-  <programme start="20201027182000 +0700" stop="20201027184500 +0700" channel="nickelodeon.iptv36.my.to">
-    <title><![CDATA[Henry Danger S02 EP.207]]></title>
-  </programme>
-  <programme start="20201027184500 +0700" stop="20201027191000 +0700" channel="nickelodeon.iptv36.my.to">
-    <title><![CDATA[Henry Danger S02 EP.208]]></title>
   </programme>
   <programme start="20201027191000 +0700" stop="20201027193000 +0700" channel="nickelodeon.iptv36.my.to">
     <title><![CDATA[The Loud House S01 EP.108]]></title>
@@ -2402,11 +2276,44 @@
   <programme start="20201029033500 +0700" stop="20201029040000 +0700" channel="nickelodeon.iptv36.my.to">
     <title><![CDATA[SpongeBob SquarePants S11 EP.234]]></title>
   </programme>
-  <programme start="20201027151500 +0700" stop="20201027170000 +0700" channel="paramount.iptv36.my.to">
-    <title><![CDATA[An Inconvenient Truth]]></title>
+  <programme start="20201029040000 +0700" stop="20201029042000 +0700" channel="nickelodeon.iptv36.my.to">
+    <title><![CDATA[Butterbean's Cafe S01 EP.120]]></title>
   </programme>
-  <programme start="20201027170000 +0700" stop="20201027190000 +0700" channel="paramount.iptv36.my.to">
-    <title><![CDATA[Four Brothers]]></title>
+  <programme start="20201029042000 +0700" stop="20201029044500 +0700" channel="nickelodeon.iptv36.my.to">
+    <title><![CDATA[Blaze and the Monster Machines S01 EP.117]]></title>
+  </programme>
+  <programme start="20201029044500 +0700" stop="20201029045500 +0700" channel="nickelodeon.iptv36.my.to">
+    <title><![CDATA[Paw Patrol S04 EP.417]]></title>
+  </programme>
+  <programme start="20201029045500 +0700" stop="20201029052000 +0700" channel="nickelodeon.iptv36.my.to">
+    <title><![CDATA[Paw Patrol S04 EP.418]]></title>
+  </programme>
+  <programme start="20201029052000 +0700" stop="20201029053000 +0700" channel="nickelodeon.iptv36.my.to">
+    <title><![CDATA[Paw Patrol S01 EP.124]]></title>
+  </programme>
+  <programme start="20201029053000 +0700" stop="20201029054000 +0700" channel="nickelodeon.iptv36.my.to">
+    <title><![CDATA[Top Wing S01 EP.103]]></title>
+  </programme>
+  <programme start="20201029054000 +0700" stop="20201029055500 +0700" channel="nickelodeon.iptv36.my.to">
+    <title><![CDATA[44 Cats S01 EP.115]]></title>
+  </programme>
+  <programme start="20201029055500 +0700" stop="20201029061000 +0700" channel="nickelodeon.iptv36.my.to">
+    <title><![CDATA[44 Cats S01 EP.116]]></title>
+  </programme>
+  <programme start="20201029061000 +0700" stop="20201029062000 +0700" channel="nickelodeon.iptv36.my.to">
+    <title><![CDATA[ALVINNN!!! and the Chipmunks S01 EP.136]]></title>
+  </programme>
+  <programme start="20201029062000 +0700" stop="20201029063000 +0700" channel="nickelodeon.iptv36.my.to">
+    <title><![CDATA[ALVINNN!!! and the Chipmunks S01 EP.137]]></title>
+  </programme>
+  <programme start="20201029063000 +0700" stop="20201029064500 +0700" channel="nickelodeon.iptv36.my.to">
+    <title><![CDATA[SpongeBob SquarePants S08 EP.163]]></title>
+  </programme>
+  <programme start="20201029064500 +0700" stop="20201029071000 +0700" channel="nickelodeon.iptv36.my.to">
+    <title><![CDATA[SpongeBob SquarePants S08 EP.164]]></title>
+  </programme>
+  <programme start="20201029071000 +0700" stop="20201029073000 +0700" channel="nickelodeon.iptv36.my.to">
+    <title><![CDATA[The Thundermans S04 EP.427]]></title>
   </programme>
   <programme start="20201027190000 +0700" stop="20201027210000 +0700" channel="paramount.iptv36.my.to">
     <title><![CDATA[Trading Places]]></title>
@@ -2461,6 +2368,12 @@
   </programme>
   <programme start="20201029024500 +0700" stop="20201029042000 +0700" channel="paramount.iptv36.my.to">
     <title><![CDATA[Blue City]]></title>
+  </programme>
+  <programme start="20201029042000 +0700" stop="20201029060000 +0700" channel="paramount.iptv36.my.to">
+    <title><![CDATA[Back to the Beach]]></title>
+  </programme>
+  <programme start="20201029060000 +0700" stop="20201029074000 +0700" channel="paramount.iptv36.my.to">
+    <title><![CDATA[The Little Prince]]></title>
   </programme>
   <programme start="20201027000000 +0700" stop="20201027002000 +0700" channel="premier1.iptv36.my.to">
     <title><![CDATA[Filler PL Goalไฮไลต์พรีเมียร์ลีก]]></title>
@@ -2584,33 +2497,6 @@
   </programme>
   <programme start="20201027230000 +0700" stop="20201027235959 +0700" channel="premier2.iptv36.my.to">
     <title><![CDATA[Fanzone]]></title>
-  </programme>
-  <programme start="20201027083500 -0000" stop="20201027090000 -0000" channel="th-dtv01.iptv36.my.to">
-    <title><![CDATA[กูรู ทีวี]]></title>
-  </programme>
-  <programme start="20201027090000 -0000" stop="20201027090500 -0000" channel="th-dtv01.iptv36.my.to">
-    <title><![CDATA[ช่อง5ทันข่าว]]></title>
-  </programme>
-  <programme start="20201027090500 -0000" stop="20201027093500 -0000" channel="th-dtv01.iptv36.my.to">
-    <title><![CDATA[ไทก้าตูน]]></title>
-  </programme>
-  <programme start="20201027093500 -0000" stop="20201027100000 -0000" channel="th-dtv01.iptv36.my.to">
-    <title><![CDATA[นั่นไงใช่เลย]]></title>
-  </programme>
-  <programme start="20201027100000 -0000" stop="20201027102500 -0000" channel="th-dtv01.iptv36.my.to">
-    <title><![CDATA[กูรู ทีวี]]></title>
-  </programme>
-  <programme start="20201027102500 -0000" stop="20201027105500 -0000" channel="th-dtv01.iptv36.my.to">
-    <title><![CDATA[เกษตรบ้านทุ่ง]]></title>
-  </programme>
-  <programme start="20201027105500 -0000" stop="20201027110000 -0000" channel="th-dtv01.iptv36.my.to">
-    <title><![CDATA[ป๋าแหง็มจู่โจม]]></title>
-  </programme>
-  <programme start="20201027110000 -0000" stop="20201027111500 -0000" channel="th-dtv01.iptv36.my.to">
-    <title><![CDATA[เพื่อชาติ ศาสตร์ กษัตริย์]]></title>
-  </programme>
-  <programme start="20201027111500 -0000" stop="20201027113000 -0000" channel="th-dtv01.iptv36.my.to">
-    <title><![CDATA[เพื่อชีวิตที่ดีกว่า]]></title>
   </programme>
   <programme start="20201027113000 -0000" stop="20201027123000 -0000" channel="th-dtv01.iptv36.my.to">
     <title><![CDATA[ช่อง5ข่าวค่ำ]]></title>
@@ -2837,17 +2723,26 @@
   <programme start="20201028200000 -0000" stop="20201028205800 -0000" channel="th-dtv01.iptv36.my.to">
     <title><![CDATA[CC องค์รักษ์ พิทักษ์ซุยยัดเซ้น]]></title>
   </programme>
-  <programme start="20201027070000 -0000" stop="20201027090000 -0000" channel="th-dtv02.iptv36.my.to">
-    <title><![CDATA[NBT รวมใจ คนไทยไม่ทิ้งกัน]]></title>
-    <desc><![CDATA[ประชาชนทั่วไป]]></desc>
+  <programme start="20201028205800 -0000" stop="20201028210000 -0000" channel="th-dtv01.iptv36.my.to">
+    <title><![CDATA[ช้อปชาแชล]]></title>
   </programme>
-  <programme start="20201027090000 -0000" stop="20201027093000 -0000" channel="th-dtv02.iptv36.my.to">
-    <title><![CDATA[เคลียร์ คัด ชัดเจน]]></title>
-    <desc><![CDATA[ประชาชนทั่วไป]]></desc>
+  <programme start="20201028210000 -0000" stop="20201028212000 -0000" channel="th-dtv01.iptv36.my.to">
+    <title><![CDATA[รายการสารคดี]]></title>
   </programme>
-  <programme start="20201027093000 -0000" stop="20201027100000 -0000" channel="th-dtv02.iptv36.my.to">
-    <title><![CDATA[Asean Connect]]></title>
-    <desc><![CDATA[ประชาชนทั่วไป]]></desc>
+  <programme start="20201028212000 -0000" stop="20201028220000 -0000" channel="th-dtv01.iptv36.my.to">
+    <title><![CDATA[กูรู ทีวี/คั่นเวลา]]></title>
+  </programme>
+  <programme start="20201028220000 -0000" stop="20201028223000 -0000" channel="th-dtv01.iptv36.my.to">
+    <title><![CDATA[มุสลิมไทม์]]></title>
+  </programme>
+  <programme start="20201028223000 -0000" stop="20201028233000 -0000" channel="th-dtv01.iptv36.my.to">
+    <title><![CDATA[ช่อง5ข่าวเช้า]]></title>
+  </programme>
+  <programme start="20201028233000 -0000" stop="20201029000000 -0000" channel="th-dtv01.iptv36.my.to">
+    <title><![CDATA[วงจรกีฬา]]></title>
+  </programme>
+  <programme start="20201029000000 -0000" stop="20201029010000 -0000" channel="th-dtv01.iptv36.my.to">
+    <title><![CDATA[เช้านี้ประเทศไทย]]></title>
   </programme>
   <programme start="20201027100000 -0000" stop="20201027130000 -0000" channel="th-dtv02.iptv36.my.to">
     <title><![CDATA[ข่าวค่ำ NBT]]></title>
@@ -2955,29 +2850,17 @@
   <programme start="20201028170000 -0000" stop="20201028210000 -0000" channel="th-dtv02.iptv36.my.to">
     <title><![CDATA[ปิดสถานี]]></title>
   </programme>
-  <programme start="20201027083000 -0000" stop="20201027090000 -0000" channel="th-dtv03.iptv36.my.to">
-    <title><![CDATA[ทุกทิศทั่วไทย]]></title>
-    <desc><![CDATA[วาไรตี้ข่าวภูมิภาคบอกเล่าเรื่องราวที่เกิดขึ้นในทุกพื้นที่ของประเทศไทย]]></desc>
+  <programme start="20201028210000 -0000" stop="20201028220000 -0000" channel="th-dtv02.iptv36.my.to">
+    <title><![CDATA[ธรรมปริทรรศน์]]></title>
+    <desc><![CDATA[รายการธรรมมะ]]></desc>
   </programme>
-  <programme start="20201027090000 -0000" stop="20201027093000 -0000" channel="th-dtv03.iptv36.my.to">
-    <title><![CDATA[ทันข่าว 16.00 น.]]></title>
-    <desc><![CDATA[รายงานข่าวตามสถานการณ์ต้นชั่วโมง]]></desc>
+  <programme start="20201028220000 -0000" stop="20201028233000 -0000" channel="th-dtv02.iptv36.my.to">
+    <title><![CDATA[ข่าวเช้า NBT]]></title>
+    <desc><![CDATA[ข่าว เหตุการณ์ประจำวัน]]></desc>
   </programme>
-  <programme start="20201027093000 -0000" stop="20201027102500 -0000" channel="th-dtv03.iptv36.my.to">
-    <title><![CDATA[คิดสนุก]]></title>
-    <desc><![CDATA[ส่งเสริมทักษะชีวิตและวิทยาการความรู้ต่าง ๆ สำหรับเด็ก]]></desc>
-  </programme>
-  <programme start="20201027102500 -0000" stop="20201027103000 -0000" channel="th-dtv03.iptv36.my.to">
-    <title><![CDATA[ข.ขยับ]]></title>
-    <desc><![CDATA[ส่งเสริมคุณภาพและสร้างแรงบันดาลใจในการดูแลสุขภาพ]]></desc>
-  </programme>
-  <programme start="20201027103000 -0000" stop="20201027110000 -0000" channel="th-dtv03.iptv36.my.to">
-    <title><![CDATA[ยินดีที่ได้รู้จัก]]></title>
-    <desc><![CDATA[นำเสนอมุมมองของผู้คนที่แตกต่างหลากหลาย เชื่อว่าคนทุกคนสามารถ เป็นแรงบันดาลใจซึ่งกันและกันได้]]></desc>
-  </programme>
-  <programme start="20201027110000 -0000" stop="20201027115000 -0000" channel="th-dtv03.iptv36.my.to">
-    <title><![CDATA[ท่องโลกกว้าง]]></title>
-    <desc><![CDATA[เพื่อให้ความรู้และสร้างความตระหนักในคุณค่า ของความแตกต่างหลากหลาย]]></desc>
+  <programme start="20201028233000 -0000" stop="20201029013000 -0000" channel="th-dtv02.iptv36.my.to">
+    <title><![CDATA[คุยถึงแก่น]]></title>
+    <desc><![CDATA[สนทนา]]></desc>
   </programme>
   <programme start="20201027115000 -0000" stop="20201027133000 -0000" channel="th-dtv03.iptv36.my.to">
     <title><![CDATA[ข่าวค่ำ มิติใหม่ ทั่วไทย]]></title>
@@ -3113,41 +2996,14 @@
   <programme start="20201028180000 -0000" stop="20201028213000 -0000" channel="th-dtv03.iptv36.my.to">
     <title><![CDATA[ปิดสถานี]]></title>
   </programme>
-  <programme start="20201027154000 +0700" stop="20201027160500 +0700" channel="th-dtv04.iptv36.my.to">
-    <title><![CDATA[โต้คลื่นอนาคต]]></title>
+  <programme start="20201028213000 -0000" stop="20201028220000 -0000" channel="th-dtv03.iptv36.my.to">
+    <title><![CDATA[มหาอำนาจบ้านนา]]></title>
+    <desc><![CDATA["รายการเกษตรที่มีความกลมกล่อมไปด้วยสาระและบันเทิง ฉีกกฏรายการเกษตรแบบเดิมที่เคยมี พาไปรู้จักกับ Hero 
+ทางการเกษตรแบบลึกซึ้ง ให้เห็นแนวคิดในการทำเกษตรแบบครบทุกรสชาติ"]]></desc>
   </programme>
-  <programme start="20201027160500 +0700" stop="20201027162500 +0700" channel="th-dtv04.iptv36.my.to">
-    <title><![CDATA[ไม่ตายหรอกเธอ]]></title>
-  </programme>
-  <programme start="20201027162500 +0700" stop="20201027165500 +0700" channel="th-dtv04.iptv36.my.to">
-    <title><![CDATA[ห้องเรียน On Air]]></title>
-  </programme>
-  <programme start="20201027165500 +0700" stop="20201027171700 +0700" channel="th-dtv04.iptv36.my.to">
-    <title><![CDATA[Nature Spy สายลับธรรมชาติ]]></title>
-  </programme>
-  <programme start="20201027171700 +0700" stop="20201027172000 +0700" channel="th-dtv04.iptv36.my.to">
-    <title><![CDATA[คลิป So เชี่ยว]]></title>
-  </programme>
-  <programme start="20201027172000 +0700" stop="20201027174000 +0700" channel="th-dtv04.iptv36.my.to">
-    <title><![CDATA[ครูพุ่มพวง]]></title>
-  </programme>
-  <programme start="20201027174000 +0700" stop="20201027180000 +0700" channel="th-dtv04.iptv36.my.to">
-    <title><![CDATA[Have A Newsday]]></title>
-  </programme>
-  <programme start="20201027180000 +0700" stop="20201027180200 +0700" channel="th-dtv04.iptv36.my.to">
-    <title><![CDATA[เคารพธงชาติ]]></title>
-  </programme>
-  <programme start="20201027180200 +0700" stop="20201027181500 +0700" channel="th-dtv04.iptv36.my.to">
-    <title><![CDATA[ชวนคิด กับนักวิทย์น้อย]]></title>
-  </programme>
-  <programme start="20201027181500 +0700" stop="20201027183500 +0700" channel="th-dtv04.iptv36.my.to">
-    <title><![CDATA[คิดวิทย์]]></title>
-  </programme>
-  <programme start="20201027183500 +0700" stop="20201027190000 +0700" channel="th-dtv04.iptv36.my.to">
-    <title><![CDATA[สนุกเรียน]]></title>
-  </programme>
-  <programme start="20201027190000 +0700" stop="20201027190500 +0700" channel="th-dtv04.iptv36.my.to">
-    <title><![CDATA[คลิป The Active]]></title>
+  <programme start="20201028220000 -0000" stop="20201029010000 -0000" channel="th-dtv03.iptv36.my.to">
+    <title><![CDATA[วันใหม่ ไทยพีบีเอส]]></title>
+    <desc><![CDATA[เปิดมุมมองข่าว อย่างรู้เท่าทัน รวมถึงมองไปข้างหน้ากับทิศทางข่าว ที่จะเกิดขึ้น]]></desc>
   </programme>
   <programme start="20201027190500 +0700" stop="20201027200000 +0700" channel="th-dtv04.iptv36.my.to">
     <title><![CDATA[กล้าคิด]]></title>
@@ -3302,12 +3158,32 @@
   <programme start="20201028210000 +0700" stop="20201029060000 +0700" channel="th-dtv04.iptv36.my.to">
     <title><![CDATA[ปิดสถานี]]></title>
   </programme>
-  <programme start="20201027023000 -0000" stop="20201027110000 -0000" channel="th-dtv10.iptv36.my.to">
-    <title><![CDATA[ถ่ายทอดสดการประชุมร่วมกันของรัฐสภา]]></title>
-    <desc><![CDATA[การประชุมร่วมกันของรัฐสภา ครั้งที่ 2 (สมัยวิสามัญ)]]></desc>
+  <programme start="20201029060000 +0700" stop="20201029060500 +0700" channel="th-dtv04.iptv36.my.to">
+    <title><![CDATA[PEPPA PIG (Rerun)]]></title>
   </programme>
-  <programme start="20201027110000 -0000" stop="20201027113000 -0000" channel="th-dtv10.iptv36.my.to">
-    <title><![CDATA[ลืมป่วย]]></title>
+  <programme start="20201029060500 +0700" stop="20201029061500 +0700" channel="th-dtv04.iptv36.my.to">
+    <title><![CDATA[เด็กจอมพลัง]]></title>
+  </programme>
+  <programme start="20201029061500 +0700" stop="20201029062000 +0700" channel="th-dtv04.iptv36.my.to">
+    <title><![CDATA[คิดคลับส์]]></title>
+  </programme>
+  <programme start="20201029062000 +0700" stop="20201029063000 +0700" channel="th-dtv04.iptv36.my.to">
+    <title><![CDATA[นิทานตื่นนอน]]></title>
+  </programme>
+  <programme start="20201029063000 +0700" stop="20201029064000 +0700" channel="th-dtv04.iptv36.my.to">
+    <title><![CDATA[SHIMAJIRO (Rer8n)]]></title>
+  </programme>
+  <programme start="20201029064000 +0700" stop="20201029064500 +0700" channel="th-dtv04.iptv36.my.to">
+    <title><![CDATA[คิดคลับส์]]></title>
+  </programme>
+  <programme start="20201029064500 +0700" stop="20201029065500 +0700" channel="th-dtv04.iptv36.my.to">
+    <title><![CDATA[ฉงน ฉงาย สองควายช่างสงสัย (Rerun)]]></title>
+  </programme>
+  <programme start="20201029065500 +0700" stop="20201029070500 +0700" channel="th-dtv04.iptv36.my.to">
+    <title><![CDATA[คิดคลับส์]]></title>
+  </programme>
+  <programme start="20201029070500 +0700" stop="20201029072000 +0700" channel="th-dtv04.iptv36.my.to">
+    <title><![CDATA[ART BOX กล่องนี้มีอะไร]]></title>
   </programme>
   <programme start="20201027113000 -0000" stop="20201027125000 -0000" channel="th-dtv10.iptv36.my.to">
     <title><![CDATA[ห้องข่าวรัฐสภาแชนแนล ข่าวค่ำ]]></title>
@@ -3424,14 +3300,6 @@
   </programme>
   <programme start="20201028170000 -0000" stop="20201029010000 -0000" channel="th-dtv10.iptv36.my.to">
     <title><![CDATA[สาระความรู้คู่สภา]]></title>
-  </programme>
-  <programme start="20201027083000 -0000" stop="20201027100000 -0000" channel="th-dtv16.iptv36.my.to">
-    <title><![CDATA[TNN ข่าวเย็น]]></title>
-    <desc><![CDATA[สรุปเหตุการณ์ข่าวตลอดทั้งวันที่มีความหลากหลายจากในและต่างประเทศพร้อมทั้งการรายงานสภาพอากาศจากทุกมุมโลก]]></desc>
-  </programme>
-  <programme start="20201027100000 -0000" stop="20201027110000 -0000" channel="th-dtv16.iptv36.my.to">
-    <title><![CDATA[TNN ประเด็นใหญ่]]></title>
-    <desc><![CDATA[สรุปเหตุการณ์ข่าวตลอดทั้งวันที่มีความหลากหลายจากในและต่างประเทศ พร้อมทั้งการรายงานสภาพอากาศจากทุกมุมโลก]]></desc>
   </programme>
   <programme start="20201027110000 -0000" stop="20201027130000 -0000" channel="th-dtv16.iptv36.my.to">
     <title><![CDATA[TNN ข่าวค่ำ]]></title>
@@ -3625,23 +3493,21 @@
     <title><![CDATA[TNN ข่าวดึก]]></title>
     <desc><![CDATA[สรุปเหตุการณ์ข่าวตลอดทั้งวันที่มีความหลากหลายจากในและต่างประเทศพร้อมทั้งการรายงานสภาพอากาศจากทุกมุมโลก]]></desc>
   </programme>
-  <programme start="20201027080000 -0000" stop="20201027090000 -0000" channel="th-dtv18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : นักสำรวจสัตว์ลึกลับ]]></title>
+  <programme start="20201028213000 -0000" stop="20201028220000 -0000" channel="th-dtv16.iptv36.my.to">
+    <title><![CDATA[เชฟข้างถนน]]></title>
+    <desc><![CDATA[รายการที่จะพาไปตระเวนตามถนนหนทาง ซอกเล็กซอกน้อย เพื่อค้นหาร้านอร่อยร้านดัง ที่มีเรื่องราวการต่อสู้ยืนหยัด จนเป็นร้านอาหารที่ประสบความสำเร็จได้ในทุกวันนี้ เพื่อเป็นแรงบันดาลใจที่จะส่งต่อให้กับคนที่กำลังก่อร่างสร้างตัวอยู่ เพื่อให้เห็นว่าคนธรรมดาๆ ก็สามารถประสบความสำเร็จได้เช่นกัน]]></desc>
   </programme>
-  <programme start="20201027090000 -0000" stop="20201027093000 -0000" channel="th-dtv18.iptv36.my.to">
-    <title><![CDATA[NEW ข่าวเย็น]]></title>
+  <programme start="20201028220000 -0000" stop="20201028223000 -0000" channel="th-dtv16.iptv36.my.to">
+    <title><![CDATA[I AM ฉัน(จะ)เป็น]]></title>
+    <desc><![CDATA[รายการแนะแนวอาชีพ และแนะแนวการศึกษา สำหรับนักเรียนชั้นมัธยมศึกษา ถ่ายทอดผ่านผู้ประสบความสำเร็จในสาขาวิชาชีพต่าง ๆ เพื่อสร้างแรงบันดาลใจ และเปิดมุมมองที่รอบด้านของทุกสาขาอาชีพ นำเสนอเส้นทางการศึกษาของสาขาวิชาชีพนั้น ๆ รวมทั้งพาไปชมบรรยากาศการเรียนการสอนในมหาวิทยาลัยเพื่อให้นักเรียนมัธยมได้ค้นพบและตัดสินใจเลือกเส้นทางชีวิตของตนเอง]]></desc>
   </programme>
-  <programme start="20201027093000 -0000" stop="20201027100000 -0000" channel="th-dtv18.iptv36.my.to">
-    <title><![CDATA[Global Connect]]></title>
+  <programme start="20201028223000 -0000" stop="20201028230000 -0000" channel="th-dtv16.iptv36.my.to">
+    <title><![CDATA[TNN ข่าวรุ่งเช้า]]></title>
+    <desc><![CDATA[สรุปเหตุการณ์ข่าวตลอดทั้งวันที่มีความหลากหลายจากในและต่างประเทศ พร้อมทั้งการรายงานสภาพอากาศจากทุกมุมโลก]]></desc>
   </programme>
-  <programme start="20201027100000 -0000" stop="20201027101000 -0000" channel="th-dtv18.iptv36.my.to">
-    <title><![CDATA[S channel]]></title>
-  </programme>
-  <programme start="20201027101000 -0000" stop="20201027110000 -0000" channel="th-dtv18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : หินมหัศจรรย์ ตอน หินอุกกาบาต]]></title>
-  </programme>
-  <programme start="20201027110000 -0000" stop="20201027110200 -0000" channel="th-dtv18.iptv36.my.to">
-    <title><![CDATA[เคารพธงชาติ]]></title>
+  <programme start="20201028230000 -0000" stop="20201029010000 -0000" channel="th-dtv16.iptv36.my.to">
+    <title><![CDATA[TNN  ข่าวเช้า]]></title>
+    <desc><![CDATA[สรุปเหตุการณ์ข่าวตลอดทั้งวันที่มีความหลากหลายจากในและต่างประเทศ พร้อมทั้งการรายงานสภาพอากาศจากทุกมุมโลก]]></desc>
   </programme>
   <programme start="20201027110200 -0000" stop="20201027123000 -0000" channel="th-dtv18.iptv36.my.to">
     <title><![CDATA[NEW ข่าวค่ำ]]></title>
@@ -3754,37 +3620,11 @@
   <programme start="20201028170000 -0000" stop="20201028230000 -0000" channel="th-dtv18.iptv36.my.to">
     <title><![CDATA[TVD SHOP]]></title>
   </programme>
-  <programme start="20201027083500 -0000" stop="20201027090500 -0000" channel="th-dtv22.iptv36.my.to">
-    <title><![CDATA[ราศีสุขภาพ]]></title>
-    <desc><![CDATA[โหราศาสตร์กับการดูแลสุขภาพ]]></desc>
+  <programme start="20201028230000 -0000" stop="20201029000000 -0000" channel="th-dtv18.iptv36.my.to">
+    <title><![CDATA[NEW Documentary สำรวจโลก : โลกลึกลับของสัตว์หน้าแปลก]]></title>
   </programme>
-  <programme start="20201027090500 -0000" stop="20201027090800 -0000" channel="th-dtv22.iptv36.my.to">
-    <title><![CDATA[Nation News Update  (L)]]></title>
-    <desc><![CDATA[รายงานสด ข่าวสั้น ข่าวด่วนต้นชั่วโมง]]></desc>
-  </programme>
-  <programme start="20201027090800 -0000" stop="20201027091800 -0000" channel="th-dtv22.iptv36.my.to">
-    <title><![CDATA[สุข Society]]></title>
-    <desc><![CDATA[รายการแนะนำสินค้า สุขภาพ ความงาม]]></desc>
-  </programme>
-  <programme start="20201027091800 -0000" stop="20201027094700 -0000" channel="th-dtv22.iptv36.my.to">
-    <title><![CDATA[เรื่องดีรายวัน (L)]]></title>
-    <desc><![CDATA[ข่าวสารดีๆ วาไรตี้สุขภาพ เรื่องราวน่ารู้ที่น่าสนใจ]]></desc>
-  </programme>
-  <programme start="20201027094700 -0000" stop="20201027095000 -0000" channel="th-dtv22.iptv36.my.to">
-    <title><![CDATA[Nation News Update  (L)]]></title>
-    <desc><![CDATA[รายงานสด ข่าวสั้น ข่าวด่วนต้นชั่วโมง]]></desc>
-  </programme>
-  <programme start="20201027095000 -0000" stop="20201027100000 -0000" channel="th-dtv22.iptv36.my.to">
-    <title><![CDATA[สุข Society]]></title>
-    <desc><![CDATA[รายการแนะนำสินค้า สุขภาพ ความงาม]]></desc>
-  </programme>
-  <programme start="20201027100000 -0000" stop="20201027110000 -0000" channel="th-dtv22.iptv36.my.to">
-    <title><![CDATA[เนชั่นเจาะข่าว  (L)]]></title>
-    <desc><![CDATA[เจาะประเด็นร้อน สังคม เศรษฐกิจ การเมือง สถานการณ์โลก กับสถาพร เกื้อสกุล]]></desc>
-  </programme>
-  <programme start="20201027110000 -0000" stop="20201027110700 -0000" channel="th-dtv22.iptv36.my.to">
-    <title><![CDATA[ที่นี่มีสุข]]></title>
-    <desc><![CDATA[รายการแนะนำสินค้าต่างๆ สุขภาพ ความงาม]]></desc>
+  <programme start="20201029000000 -0000" stop="20201029010000 -0000" channel="th-dtv18.iptv36.my.to">
+    <title><![CDATA[NEW อรุณสวัสดิ์]]></title>
   </programme>
   <programme start="20201027110700 -0000" stop="20201027125000 -0000" channel="th-dtv22.iptv36.my.to">
     <title><![CDATA[เนชั่นทันข่าว  (L)]]></title>
@@ -4008,36 +3848,17 @@
     <title><![CDATA[ถามสุดซอย  [R]]]></title>
     <desc><![CDATA[รายการสนทนาถามตรง ข่าวเด่นกระแสดังในสังคม กับ พรหมพร & ธัญญาเรศ]]></desc>
   </programme>
-  <programme start="20201027082000 -0000" stop="20201027085000 -0000" channel="th-dtv23.iptv36.my.to">
-    <title><![CDATA[คุกกิ้ง กูรู]]></title>
-    <desc><![CDATA[รายการสอนทำอาหาร]]></desc>
+  <programme start="20201028210000 -0000" stop="20201028230000 -0000" channel="th-dtv22.iptv36.my.to">
+    <title><![CDATA[ข่าวข้นคนเนชั่น [R]]]></title>
+    <desc><![CDATA[รายการ วิเคราะห์ข่าว กับ 3 คนข่าว กนก -ธีระ -เจษฎ์]]></desc>
   </programme>
-  <programme start="20201027085000 -0000" stop="20201027090000 -0000" channel="th-dtv23.iptv36.my.to">
-    <title><![CDATA[High Shopping]]></title>
+  <programme start="20201028230000 -0000" stop="20201028231000 -0000" channel="th-dtv22.iptv36.my.to">
+    <title><![CDATA[สุข Society]]></title>
     <desc><![CDATA[รายการแนะนำสินค้า]]></desc>
   </programme>
-  <programme start="20201027090000 -0000" stop="20201027094500 -0000" channel="th-dtv23.iptv36.my.to">
-    <title><![CDATA[ชิงร้อยชิงล้าน ว้าวว้าวว้าว รีรัน]]></title>
-    <desc><![CDATA[รายการตลก]]></desc>
-  </programme>
-  <programme start="20201027094500 -0000" stop="20201027105000 -0000" channel="th-dtv23.iptv36.my.to">
-    <title><![CDATA[บรรจงชงข่าว]]></title>
-    <desc><![CDATA[รายการวิเคราะห์ข่าว]]></desc>
-  </programme>
-  <programme start="20201027105000 -0000" stop="20201027105500 -0000" channel="th-dtv23.iptv36.my.to">
-    <title><![CDATA[2 ข่าวใหญ่ เวิร์คพอยท์]]></title>
-    <desc><![CDATA[รายงานข่าว]]></desc>
-  </programme>
-  <programme start="20201027105500 -0000" stop="20201027110000 -0000" channel="th-dtv23.iptv36.my.to">
-    <title><![CDATA[ติ่งข่าว]]></title>
-    <desc><![CDATA[รายงานข่าว]]></desc>
-  </programme>
-  <programme start="20201027110000 -0000" stop="20201027110100 -0000" channel="th-dtv23.iptv36.my.to">
-    <title><![CDATA[เคารพธงชาติ]]></title>
-  </programme>
-  <programme start="20201027110100 -0000" stop="20201027120000 -0000" channel="th-dtv23.iptv36.my.to">
-    <title><![CDATA[ไมค์หมดหนี้ นักร้องนำโชค]]></title>
-    <desc><![CDATA[รายการโทรทัศน์ประกวดนักร้องเพลงลูกทุ่ง]]></desc>
+  <programme start="20201028231000 -0000" stop="20201029012200 -0000" channel="th-dtv22.iptv36.my.to">
+    <title><![CDATA[ขยี้ข่าวเช้า(L)]]></title>
+    <desc><![CDATA[เปิดประเด็นข่าวเช้า ขยี้ข่าวให้ลึก กระจ่างชัด กับ สันติสุข มะโรงศรี]]></desc>
   </programme>
   <programme start="20201027120000 -0000" stop="20201027125800 -0000" channel="th-dtv23.iptv36.my.to">
     <title><![CDATA[ปัญญาปันสุข]]></title>
@@ -4304,25 +4125,37 @@
     <title><![CDATA[ยุทธการสลัดนอ รีรัน]]></title>
     <desc><![CDATA[ละคร]]></desc>
   </programme>
-  <programme start="20201027083000 -0000" stop="20201027093000 -0000" channel="th-dtv24.iptv36.my.to">
-    <title><![CDATA[TNN ข่าวเย็น]]></title>
-    <desc><![CDATA[ทันโลก ทันเศรษฐกิจ ทันทุกความจริง กับรายการ TNN ข่าวเย็น]]></desc>
+  <programme start="20201028211500 -0000" stop="20201028211700 -0000" channel="th-dtv23.iptv36.my.to">
+    <title><![CDATA[ธรรมสวัสดี]]></title>
+    <desc><![CDATA[รายการธรรมสวัสดี]]></desc>
   </programme>
-  <programme start="20201027093000 -0000" stop="20201027101500 -0000" channel="th-dtv24.iptv36.my.to">
-    <title><![CDATA[ข่าวติดปาก]]></title>
-    <desc><![CDATA[วาไรตี้ข่าวนำเสนอบรรดาเรื่องราวที่กำลังอยู่ในกระแสและเป็นประเด็นร้อน -- ดำเนินรายการโดยทีมพิธีกรฝีปากกล้ามากฝีมือ เอกกี้ โบ เฟียต จิ๊ป ชมพู่ อาตุ่ย และ อ้น ศรีพรรณ]]></desc>
+  <programme start="20201028211700 -0000" stop="20201028213500 -0000" channel="th-dtv23.iptv36.my.to">
+    <title><![CDATA[ลูกทุ่งไมค์ทองคำ รีรัน]]></title>
+    <desc><![CDATA[รายการเพลงลูกทุ่ง]]></desc>
   </programme>
-  <programme start="20201027101500 -0000" stop="20201027103000 -0000" channel="th-dtv24.iptv36.my.to">
-    <title><![CDATA[ลุยกองข่าว]]></title>
-    <desc><![CDATA[รายการข่าวสารล่าสุดทั้งสาระและบันเทิง -- ดำเนินรายการโดยผู้ประกาศสาวมากความสามารถ ภัทร จินตนะกุล]]></desc>
+  <programme start="20201028213500 -0000" stop="20201028220000 -0000" channel="th-dtv23.iptv36.my.to">
+    <title><![CDATA[High Shopping]]></title>
+    <desc><![CDATA[รายการแนะนำสินค้า]]></desc>
   </programme>
-  <programme start="20201027103000 -0000" stop="20201027110000 -0000" channel="th-dtv24.iptv36.my.to">
-    <title><![CDATA[Entertainment Day]]></title>
-    <desc><![CDATA[รายการนำเสนอข่าวสารล่าสุดในวงการบันเทิงทุกเหตุการณ์และความเคลื่อนไหวไม่ว่าจะเป็นข่าวของดาราไทยในอดีตและปัจจุบัน ข่าวภาพยนตร์ ละคร วงการเพลง รวมทั้งศิลปะและวัฒนธรรมไทย]]></desc>
+  <programme start="20201028220000 -0000" stop="20201028220300 -0000" channel="th-dtv23.iptv36.my.to">
+    <title><![CDATA[ธรรมสวัสดี]]></title>
+    <desc><![CDATA[รายการธรรมสวัสดี]]></desc>
   </programme>
-  <programme start="20201027110000 -0000" stop="20201027110100 -0000" channel="th-dtv24.iptv36.my.to">
-    <title><![CDATA[เพลงชาติไทย]]></title>
-    <desc><![CDATA[เคารพธงชาติ]]></desc>
+  <programme start="20201028220300 -0000" stop="20201028225000 -0000" channel="th-dtv23.iptv36.my.to">
+    <title><![CDATA[ตลาดข่าวเวิร์คพอยท์]]></title>
+    <desc><![CDATA[รายงานข่าว]]></desc>
+  </programme>
+  <programme start="20201028225000 -0000" stop="20201028230000 -0000" channel="th-dtv23.iptv36.my.to">
+    <title><![CDATA[High Shopping]]></title>
+    <desc><![CDATA[รายการแนะนำสินค้า]]></desc>
+  </programme>
+  <programme start="20201028230000 -0000" stop="20201028232000 -0000" channel="th-dtv23.iptv36.my.to">
+    <title><![CDATA[ตลาดข่าวเวิร์คพอยท์]]></title>
+    <desc><![CDATA[รายงานข่าว]]></desc>
+  </programme>
+  <programme start="20201028232000 -0000" stop="20201029010000 -0000" channel="th-dtv23.iptv36.my.to">
+    <title><![CDATA[ข่าวเช้าเวิร์คพอยท์]]></title>
+    <desc><![CDATA[รายงานข่าว]]></desc>
   </programme>
   <programme start="20201027110100 -0000" stop="20201027130000 -0000" channel="th-dtv24.iptv36.my.to">
     <title><![CDATA[MATCH DAY]]></title>
@@ -4340,20 +4173,179 @@
     <title><![CDATA[ภ.โคตรคนโค่นคนอันตราย 2]]></title>
     <desc><![CDATA[เรื่องราวการเปิดฉากไล่ล่าหัวหน้าแก๊งค้ายาเสพติด -- นำแสดงโดย หลิวเต๋อหัว]]></desc>
   </programme>
-  <programme start="20201027083500 -0000" stop="20201027095000 -0000" channel="th-dtv25.iptv36.my.to">
-    <title><![CDATA[เนื้อใน]]></title>
-    <desc><![CDATA[รายการประเภท ละคร]]></desc>
+  <programme start="20201027170000 -0000" stop="20201027173000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ภ.โคตรคนโค่นคนอันตราย 2]]></title>
+    <desc><![CDATA[เรื่องราวการเปิดฉากไล่ล่าหัวหน้าแก๊งค้ายาเสพติด -- นำแสดงโดย หลิวเต๋อหัว]]></desc>
   </programme>
-  <programme start="20201027095000 -0000" stop="20201027110000 -0000" channel="th-dtv25.iptv36.my.to">
-    <title><![CDATA[ข่าวเย็น25 (LIVE)]]></title>
-    <desc><![CDATA[รายการประเภท ข่าวสาร สาระความรู้]]></desc>
+  <programme start="20201027173000 -0000" stop="20201027180000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อปปิ้งโดยคัดสรรสินค้าคุณภาพในราคาสุดคุ้มค่าหลากหลายให้เลือกสรรอย่างจุใจ]]></desc>
   </programme>
-  <programme start="20201027110000 -0000" stop="20201027110100 -0000" channel="th-dtv25.iptv36.my.to">
-    <title><![CDATA[เคารพธงชาติ]]></title>
+  <programme start="20201027180000 -0000" stop="20201027183000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อปปิ้งโดยคัดสรรสินค้าคุณภาพในราคาสุดคุ้มค่าหลากหลายให้เลือกสรรอย่างจุใจ]]></desc>
   </programme>
-  <programme start="20201027110100 -0000" stop="20201027120000 -0000" channel="th-dtv25.iptv36.my.to">
-    <title><![CDATA[ข่าวเย็น25 (LIVE)]]></title>
-    <desc><![CDATA[รายการประเภท  ข่าวสาร สาระความรู้]]></desc>
+  <programme start="20201027183000 -0000" stop="20201027190000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อปปิ้งโดยคัดสรรสินค้าคุณภาพในราคาสุดคุ้มค่าหลากหลายให้เลือกสรรอย่างจุใจ]]></desc>
+  </programme>
+  <programme start="20201027190000 -0000" stop="20201027200000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[TNN ประเด็นใหญ่]]></title>
+    <desc><![CDATA[คุยข่าวใหญ่ ขยายข่าวดัง กับ เคนโด้ เกรียงไกรมาศ และ เก๋ กมลพรวรกุล]]></desc>
+  </programme>
+  <programme start="20201027200000 -0000" stop="20201027203000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อปปิ้งโดยคัดสรรสินค้าคุณภาพในราคาสุดคุ้มค่าหลากหลายให้เลือกสรรอย่างจุใจ]]></desc>
+  </programme>
+  <programme start="20201027203000 -0000" stop="20201027210000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อปปิ้งโดยคัดสรรสินค้าคุณภาพในราคาสุดคุ้มค่าหลากหลายให้เลือกสรรอย่างจุใจ]]></desc>
+  </programme>
+  <programme start="20201027210000 -0000" stop="20201027213000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อปปิ้งโดยคัดสรรสินค้าคุณภาพในราคาสุดคุ้มค่าหลากหลายให้เลือกสรรอย่างจุใจ]]></desc>
+  </programme>
+  <programme start="20201027213000 -0000" stop="20201027220000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[เชฟข้างถนน]]></title>
+    <desc><![CDATA[รายการที่จะพาไปสัมผัสลิ้มรสอาหารริมทางแสนอร่อยและเหล่านักปรุงอาหารมือฉมังผู้ล้วนสร้างแรงบัลดาลใจให้กับผู้คนซึ่งอยากเปิดร้านเป็นของตนเอง]]></desc>
+  </programme>
+  <programme start="20201027220000 -0000" stop="20201027223000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[I am ฉัน(จะ)เป็น]]></title>
+    <desc><![CDATA[รายการแนะแนวอาชีพและการศึกษาสำหรับนักเรียนวัยมัธยมโดยถ่ายทอดผ่านมุมมองของผู้ประสบความสำเร็จในสาขาวิชาชีพต่างๆเพื่อสร้างแรงบันดาลใจและเปิดโลกทัศน์รอบด้าน]]></desc>
+  </programme>
+  <programme start="20201027223000 -0000" stop="20201027230000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[TNN ข่าวรุ่งเช้า]]></title>
+    <desc><![CDATA[ทันโลก ทันเศรษฐกิจ ทันทุกความจริง ทุกเหตุการณ์ไปกับรายการ TNN ข่าวรุ่งเช้า]]></desc>
+  </programme>
+  <programme start="20201027230000 -0000" stop="20201028010000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[TNN ข่าวเช้า]]></title>
+    <desc><![CDATA[ทันโลก ทันเศรษฐกิจ ทันทุกความจริง กับรายการ TNN ข่าวเช้า]]></desc>
+  </programme>
+  <programme start="20201028010000 -0000" stop="20201028010100 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[เพลงชาติไทย]]></title>
+    <desc><![CDATA[เคารพธงชาติ]]></desc>
+  </programme>
+  <programme start="20201028010100 -0000" stop="20201028013000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[TRUE INSIDER]]></title>
+    <desc><![CDATA[รายการนำเสนอโลกแห่งวงการบันเทิงทั้งเบื้องหน้าเบื้องหลังที่ผู้ชมอาจจะไม่เคยรู้มาก่อน]]></desc>
+  </programme>
+  <programme start="20201028013000 -0000" stop="20201028020000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[Good Morning Inside]]></title>
+    <desc><![CDATA[ต้อนรับเช้าวันใหม่ด้วยข่าวบันเทิงล่าสุดสดใหม่ก่อนใคร]]></desc>
+  </programme>
+  <programme start="20201028020000 -0000" stop="20201028023000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อปปิ้งโดยคัดสรรสินค้าคุณภาพในราคาสุดคุ้มค่าหลากหลายให้เลือกสรรอย่างจุใจ]]></desc>
+  </programme>
+  <programme start="20201028023000 -0000" stop="20201028040000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[Game Time]]></title>
+  </programme>
+  <programme start="20201028040000 -0000" stop="20201028043000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อปปิ้งโดยคัดสรรสินค้าคุณภาพในราคาสุดคุ้มค่าหลากหลายให้เลือกสรรอย่างจุใจ]]></desc>
+  </programme>
+  <programme start="20201028043000 -0000" stop="20201028053000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[TNN ข่าวเที่ยง]]></title>
+    <desc><![CDATA[ทันโลก ทันเศรษฐกิจ ทันทุกความจริง กับรายการ TNN ข่าวเที่ยง]]></desc>
+  </programme>
+  <programme start="20201028053000 -0000" stop="20201028060000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อปปิ้งโดยคัดสรรสินค้าคุณภาพในราคาสุดคุ้มค่าหลากหลายให้เลือกสรรอย่างจุใจ]]></desc>
+  </programme>
+  <programme start="20201028060000 -0000" stop="20201028070000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ซีรีส์ นาคิน ภาค 2]]></title>
+  </programme>
+  <programme start="20201028070000 -0000" stop="20201028073000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อปปิ้งโดยคัดสรรสินค้าคุณภาพในราคาสุดคุ้มค่าหลากหลายให้เลือกสรรอย่างจุใจ]]></desc>
+  </programme>
+  <programme start="20201028073000 -0000" stop="20201028083000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[สปอร์ต เวิลด์ คลาส]]></title>
+    <desc><![CDATA[รายการนำเสนอช่วงสำคัญๆของกีฬาระดับโลกในรอบสัปดาห์ทุกการแข่งขันไม่ว่าจะเป็นศึกโตโยต้าไทยพรีเมียร์ลีก มวย กอล์ฟ อเมริกันฟุตบอล เทนนิส และอื่นๆอีกมากมาย]]></desc>
+  </programme>
+  <programme start="20201028083000 -0000" stop="20201028093000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[TNN ข่าวเย็น]]></title>
+    <desc><![CDATA[ทันโลก ทันเศรษฐกิจ ทันทุกความจริง กับรายการ TNN ข่าวเย็น]]></desc>
+  </programme>
+  <programme start="20201028093000 -0000" stop="20201028101500 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ข่าวติดปาก]]></title>
+    <desc><![CDATA[วาไรตี้ข่าวนำเสนอบรรดาเรื่องราวที่กำลังอยู่ในกระแสและเป็นประเด็นร้อน -- ดำเนินรายการโดยทีมพิธีกรฝีปากกล้ามากฝีมือ เอกกี้ โบ เฟียต จิ๊ป ชมพู่ อาตุ่ย และ อ้น ศรีพรรณ]]></desc>
+  </programme>
+  <programme start="20201028101500 -0000" stop="20201028103000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ลุยกองข่าว]]></title>
+    <desc><![CDATA[รายการข่าวสารล่าสุดทั้งสาระและบันเทิง -- ดำเนินรายการโดยผู้ประกาศสาวมากความสามารถ ภัทร จินตนะกุล]]></desc>
+  </programme>
+  <programme start="20201028103000 -0000" stop="20201028110000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[Entertainment Day]]></title>
+    <desc><![CDATA[รายการนำเสนอข่าวสารล่าสุดในวงการบันเทิงทุกเหตุการณ์และความเคลื่อนไหวไม่ว่าจะเป็นข่าวของดาราไทยในอดีตและปัจจุบัน ข่าวภาพยนตร์ ละคร วงการเพลง รวมทั้งศิลปะและวัฒนธรรมไทย]]></desc>
+  </programme>
+  <programme start="20201028110000 -0000" stop="20201028110100 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[เพลงชาติไทย]]></title>
+    <desc><![CDATA[เคารพธงชาติ]]></desc>
+  </programme>
+  <programme start="20201028110100 -0000" stop="20201028130000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[MATCH DAY]]></title>
+    <desc><![CDATA[อัพเดทข่าวสารแบบเจาะลึกของวงการฟุตบอลทั้งในและนอกสนาม]]></desc>
+  </programme>
+  <programme start="20201028130000 -0000" stop="20201028133000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ข่าวพระราชสำนัก]]></title>
+    <desc><![CDATA[ข่าวในพระราชสำนัก]]></desc>
+  </programme>
+  <programme start="20201028133000 -0000" stop="20201028153000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ภ.รักกันไว้ หัวใจบานฉ่ำ]]></title>
+    <desc><![CDATA[เรื่องราวของชายว่างงานวัยกลางคนที่หวนกลับไปเป็นนักศึกษาในรั้ววิทยาลัยและได้พบกับความหมายแห่งชีวิต -- นำแสดงโดย ทอม แฮงส์ และ จูเลีย โรเบิร์ตส์]]></desc>
+  </programme>
+  <programme start="20201028153000 -0000" stop="20201028165959 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ภาพยนตร์ วิ่งสู้ฟัด]]></title>
+    <desc><![CDATA[เรื่องราวของตำรวจหนุ่มแห่งฮ่องกงที่ต้องพิสูจน์ตัวเองเมื่อเขาถูกจัดฉากป้ายสีหลังจากแผนจับตัวเจ้าพ่อยาเสพติดรายใหญ่เกิดความผิดพลาด -- นำแสดงโดย เฉินหลง]]></desc>
+  </programme>
+  <programme start="20201028170000 -0000" stop="20201028173000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ภาพยนตร์ วิ่งสู้ฟัด]]></title>
+    <desc><![CDATA[เรื่องราวของตำรวจหนุ่มแห่งฮ่องกงที่ต้องพิสูจน์ตัวเองเมื่อเขาถูกจัดฉากป้ายสีหลังจากแผนจับตัวเจ้าพ่อยาเสพติดรายใหญ่เกิดความผิดพลาด -- นำแสดงโดย เฉินหลง]]></desc>
+  </programme>
+  <programme start="20201028173000 -0000" stop="20201028180000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อปปิ้งโดยคัดสรรสินค้าคุณภาพในราคาสุดคุ้มค่าหลากหลายให้เลือกสรรอย่างจุใจ]]></desc>
+  </programme>
+  <programme start="20201028180000 -0000" stop="20201028183000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อปปิ้งโดยคัดสรรสินค้าคุณภาพในราคาสุดคุ้มค่าหลากหลายให้เลือกสรรอย่างจุใจ]]></desc>
+  </programme>
+  <programme start="20201028183000 -0000" stop="20201028190000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อปปิ้งโดยคัดสรรสินค้าคุณภาพในราคาสุดคุ้มค่าหลากหลายให้เลือกสรรอย่างจุใจ]]></desc>
+  </programme>
+  <programme start="20201028190000 -0000" stop="20201028200000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[TNN ประเด็นใหญ่]]></title>
+    <desc><![CDATA[คุยข่าวใหญ่ ขยายข่าวดัง กับ เคนโด้ เกรียงไกรมาศ และ เก๋ กมลพรวรกุล]]></desc>
+  </programme>
+  <programme start="20201028200000 -0000" stop="20201028203000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อปปิ้งโดยคัดสรรสินค้าคุณภาพในราคาสุดคุ้มค่าหลากหลายให้เลือกสรรอย่างจุใจ]]></desc>
+  </programme>
+  <programme start="20201028203000 -0000" stop="20201028210000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อปปิ้งโดยคัดสรรสินค้าคุณภาพในราคาสุดคุ้มค่าหลากหลายให้เลือกสรรอย่างจุใจ]]></desc>
+  </programme>
+  <programme start="20201028210000 -0000" stop="20201028213000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อปปิ้งโดยคัดสรรสินค้าคุณภาพในราคาสุดคุ้มค่าหลากหลายให้เลือกสรรอย่างจุใจ]]></desc>
+  </programme>
+  <programme start="20201028213000 -0000" stop="20201028220000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[เชฟข้างถนน]]></title>
+    <desc><![CDATA[รายการที่จะพาไปสัมผัสลิ้มรสอาหารริมทางแสนอร่อยและเหล่านักปรุงอาหารมือฉมังผู้ล้วนสร้างแรงบัลดาลใจให้กับผู้คนซึ่งอยากเปิดร้านเป็นของตนเอง]]></desc>
+  </programme>
+  <programme start="20201028220000 -0000" stop="20201028223000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[I am ฉัน(จะ)เป็น]]></title>
+    <desc><![CDATA[รายการแนะแนวอาชีพและการศึกษาสำหรับนักเรียนวัยมัธยมโดยถ่ายทอดผ่านมุมมองของผู้ประสบความสำเร็จในสาขาวิชาชีพต่างๆเพื่อสร้างแรงบันดาลใจและเปิดโลกทัศน์รอบด้าน]]></desc>
+  </programme>
+  <programme start="20201028223000 -0000" stop="20201028230000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[TNN ข่าวรุ่งเช้า]]></title>
+    <desc><![CDATA[ทันโลก ทันเศรษฐกิจ ทันทุกความจริง ทุกเหตุการณ์ไปกับรายการ TNN ข่าวรุ่งเช้า]]></desc>
+  </programme>
+  <programme start="20201028230000 -0000" stop="20201029010000 -0000" channel="th-dtv24.iptv36.my.to">
+    <title><![CDATA[TNN ข่าวเช้า]]></title>
+    <desc><![CDATA[ทันโลก ทันเศรษฐกิจ ทันทุกความจริง กับรายการ TNN ข่าวเช้า]]></desc>
   </programme>
   <programme start="20201027120000 -0000" stop="20201027130000 -0000" channel="th-dtv25.iptv36.my.to">
     <title><![CDATA[ลูกทุ่งสู้ฟัด 2020]]></title>
@@ -4577,21 +4569,37 @@
     <title><![CDATA[Playlist:25 MUSIC NON-STOP ลูกทุ่ง]]></title>
     <desc><![CDATA[รายการประเภท เพลง]]></desc>
   </programme>
-  <programme start="20201027072500 -0000" stop="20201027085500 -0000" channel="th-dtv27.iptv36.my.to">
-    <title><![CDATA[ซีรี่ส์ สีดาราม 2]]></title>
-    <desc><![CDATA[ศึกรักมหาลงกา มหากาพย์วรรณกรรม ตำนานรัก ตำนานโลก สีดาราม ศึกรักมหาลงกา]]></desc>
+  <programme start="20201028205500 -0000" stop="20201028211500 -0000" channel="th-dtv25.iptv36.my.to">
+    <title><![CDATA[25 WOW SALE]]></title>
+    <desc><![CDATA[รายการประเภท แนะนำสินค้า]]></desc>
   </programme>
-  <programme start="20201027085500 -0000" stop="20201027090500 -0000" channel="th-dtv27.iptv36.my.to">
-    <title><![CDATA[ชีวิตดี สาระดี]]></title>
-    <desc><![CDATA[รายการแนะนำสินค้า]]></desc>
+  <programme start="20201028211500 -0000" stop="20201028213000 -0000" channel="th-dtv25.iptv36.my.to">
+    <title><![CDATA[Playlist:25 MUSIC NON-STOP ลูกทุ่ง]]></title>
+    <desc><![CDATA[รายการประเภท เพลง]]></desc>
   </programme>
-  <programme start="20201027090500 -0000" stop="20201027095000 -0000" channel="th-dtv27.iptv36.my.to">
-    <title><![CDATA[ข่าวใหญ่ช่อง 8]]></title>
-    <desc><![CDATA[รายการที่นำเสนอข่าวสำคัญประเด็นดัง ทั้งในประเทศและต่างประเทศ]]></desc>
+  <programme start="20201028213000 -0000" stop="20201028215000 -0000" channel="th-dtv25.iptv36.my.to">
+    <title><![CDATA[25 WOW SALE]]></title>
+    <desc><![CDATA[รายการประเภท แนะนำสินค้า]]></desc>
   </programme>
-  <programme start="20201027095000 -0000" stop="20201027120000 -0000" channel="th-dtv27.iptv36.my.to">
-    <title><![CDATA[คุยข่าวเย็นช่อง 8]]></title>
-    <desc><![CDATA[รายการข่าวที่นำเสนอข่าวสาร อัพเดทข่าวเด่นและเหตุการณ์ต่างๆทั้งในประเทศและต่างประเทศ]]></desc>
+  <programme start="20201028215000 -0000" stop="20201028225000 -0000" channel="th-dtv25.iptv36.my.to">
+    <title><![CDATA[ธรรมนำชีวิต]]></title>
+    <desc><![CDATA[รายการประเภท สาระความรู้]]></desc>
+  </programme>
+  <programme start="20201028225000 -0000" stop="20201028230000 -0000" channel="th-dtv25.iptv36.my.to">
+    <title><![CDATA[25 WOW SALE]]></title>
+    <desc><![CDATA[รายการประเภท แนะนำสินค้า]]></desc>
+  </programme>
+  <programme start="20201028230000 -0000" stop="20201029000000 -0000" channel="th-dtv25.iptv36.my.to">
+    <title><![CDATA[เจาะข่าวเช้านี้ (LIVE)]]></title>
+    <desc><![CDATA[รายการประเภท ข่าวสาร สาระความรู้]]></desc>
+  </programme>
+  <programme start="20201029000000 -0000" stop="20201029000500 -0000" channel="th-dtv25.iptv36.my.to">
+    <title><![CDATA[let's be a Doctor มาเป็นหมอกันเถอะ]]></title>
+    <desc><![CDATA[รายการประเภท สาระความรู้]]></desc>
+  </programme>
+  <programme start="20201029000500 -0000" stop="20201029010000 -0000" channel="th-dtv25.iptv36.my.to">
+    <title><![CDATA[ไทยทึ่ง WOW THAILAND (Rerun)]]></title>
+    <desc><![CDATA[รายการประเภท วาไรตี้]]></desc>
   </programme>
   <programme start="20201027120000 -0000" stop="20201027130000 -0000" channel="th-dtv27.iptv36.my.to">
     <title><![CDATA[ละคร ขุมทรัพย์ลำโขง]]></title>
@@ -4775,11 +4783,29 @@
     <title><![CDATA[เรื่องว้าวเล่าโลก]]></title>
     <desc><![CDATA[รายการสารคดีที่จะพาไปดูเรื่องราวต่างๆจากทั่วทุกมุมโลก]]></desc>
   </programme>
-  <programme start="20201027084000 -0000" stop="20201027103000 -0000" channel="th-dtv29.iptv36.my.to">
-    <title><![CDATA[Happy Family Time]]></title>
+  <programme start="20201028210500 -0000" stop="20201028211500 -0000" channel="th-dtv27.iptv36.my.to">
+    <title><![CDATA[ชีวิตดี สาระดี]]></title>
+    <desc><![CDATA[รายการแนะนำสินค้า]]></desc>
   </programme>
-  <programme start="20201027103000 -0000" stop="20201027110000 -0000" channel="th-dtv29.iptv36.my.to">
-    <title><![CDATA[เรื่องเด่นประเด็นดัง : Top Talk Daily]]></title>
+  <programme start="20201028211500 -0000" stop="20201028220000 -0000" channel="th-dtv27.iptv36.my.to">
+    <title><![CDATA[คุยข่าวเช้ารุ่งอรุณช่อง 8]]></title>
+    <desc><![CDATA[รายการข่าวที่นำเสนอข่าวสาร อัพเดทข่าวเด่นและเหตุการณ์ต่างๆทั้งในประเทศและต่างประเทศ]]></desc>
+  </programme>
+  <programme start="20201028220000 -0000" stop="20201028223000 -0000" channel="th-dtv27.iptv36.my.to">
+    <title><![CDATA[คุยข่าวเช้ารุ่งอรุณช่อง 8]]></title>
+    <desc><![CDATA[รายการข่าวที่นำเสนอข่าวสาร อัพเดทข่าวเด่นและเหตุการณ์ต่างๆทั้งในประเทศและต่างประเทศ]]></desc>
+  </programme>
+  <programme start="20201028223000 -0000" stop="20201028224000 -0000" channel="th-dtv27.iptv36.my.to">
+    <title><![CDATA[ชีวิตดี สาระดี]]></title>
+    <desc><![CDATA[รายการแนะนำสินค้า]]></desc>
+  </programme>
+  <programme start="20201028224000 -0000" stop="20201028230000 -0000" channel="th-dtv27.iptv36.my.to">
+    <title><![CDATA[คุยข่าวเช้ารุ่งอรุณช่อง 8]]></title>
+    <desc><![CDATA[รายการข่าวที่นำเสนอข่าวสาร อัพเดทข่าวเด่นและเหตุการณ์ต่างๆทั้งในประเทศและต่างประเทศ]]></desc>
+  </programme>
+  <programme start="20201028230000 -0000" stop="20201029020000 -0000" channel="th-dtv27.iptv36.my.to">
+    <title><![CDATA[คุยข่าวเช้าช่อง 8]]></title>
+    <desc><![CDATA[รายการข่าวที่นำเสนอข่าวสาร อัพเดทข่าวเด่นและเหตุการณ์ต่างๆทั้งในประเทศและต่างประเทศ]]></desc>
   </programme>
   <programme start="20201027110000 -0000" stop="20201027130500 -0000" channel="th-dtv29.iptv36.my.to">
     <title><![CDATA[Premium Blockbuster]]></title>
@@ -4802,16 +4828,16 @@
   <programme start="20201027170000 -0000" stop="20201027182500 -0000" channel="th-dtv29.iptv36.my.to">
     <title><![CDATA[Midnight Cinema]]></title>
   </programme>
-  <programme start="20201027182500 -0000" stop="20201027191000 -0000" channel="th-dtv29.iptv36.my.to">
+  <programme start="20201027182500 -0000" stop="20201027192000 -0000" channel="th-dtv29.iptv36.my.to">
     <title><![CDATA[Treasures Decoded : ถอดรหัสขุมทรัพย์ (ตอน The Vinland Map)]]></title>
   </programme>
-  <programme start="20201027191000 -0000" stop="20201027201000 -0000" channel="th-dtv29.iptv36.my.to">
+  <programme start="20201027192000 -0000" stop="20201027201000 -0000" channel="th-dtv29.iptv36.my.to">
     <title><![CDATA[Life Below Zero : ชีวิตติดลบ (ตอน The Howling)]]></title>
   </programme>
-  <programme start="20201027201000 -0000" stop="20201027204500 -0000" channel="th-dtv29.iptv36.my.to">
+  <programme start="20201027201000 -0000" stop="20201027204000 -0000" channel="th-dtv29.iptv36.my.to">
     <title><![CDATA[News (Rerun)]]></title>
   </programme>
-  <programme start="20201027204500 -0000" stop="20201027213500 -0000" channel="th-dtv29.iptv36.my.to">
+  <programme start="20201027204000 -0000" stop="20201027213500 -0000" channel="th-dtv29.iptv36.my.to">
     <title><![CDATA[Revolutions : The Ideas That Changed the World : ปฏิวัติเปลี่ยนโลก (ตอน The Robot)]]></title>
   </programme>
   <programme start="20201027213500 -0000" stop="20201027223000 -0000" channel="th-dtv29.iptv36.my.to">
@@ -4832,13 +4858,13 @@
   <programme start="20201028030500 -0000" stop="20201028050500 -0000" channel="th-dtv29.iptv36.my.to">
     <title><![CDATA[Hit Movies]]></title>
   </programme>
-  <programme start="20201028050500 -0000" stop="20201028071000 -0000" channel="th-dtv29.iptv36.my.to">
+  <programme start="20201028050500 -0000" stop="20201028071500 -0000" channel="th-dtv29.iptv36.my.to">
     <title><![CDATA[Hit Movies]]></title>
   </programme>
-  <programme start="20201028071000 -0000" stop="20201028071500 -0000" channel="th-dtv29.iptv36.my.to">
+  <programme start="20201028071500 -0000" stop="20201028072000 -0000" channel="th-dtv29.iptv36.my.to">
     <title><![CDATA[Entertainment Now]]></title>
   </programme>
-  <programme start="20201028071500 -0000" stop="20201028081500 -0000" channel="th-dtv29.iptv36.my.to">
+  <programme start="20201028072000 -0000" stop="20201028081500 -0000" channel="th-dtv29.iptv36.my.to">
     <title><![CDATA[The Longest Day in Chang'an : ฉางอันสิบสองชั่วยาม]]></title>
   </programme>
   <programme start="20201028081500 -0000" stop="20201028083000 -0000" channel="th-dtv29.iptv36.my.to">
@@ -4877,20 +4903,17 @@
   <programme start="20201028195500 -0000" stop="20201028205500 -0000" channel="th-dtv29.iptv36.my.to">
     <title><![CDATA[Savage Kingdom : อาณาจักรนักล่า (ตอน Army of Darkness)]]></title>
   </programme>
-  <programme start="20201027080500 -0000" stop="20201027090000 -0000" channel="th-dtv30.iptv36.my.to">
-    <title><![CDATA[คุยโขมง บ่าย 3 โมง]]></title>
+  <programme start="20201028205500 -0000" stop="20201028211000 -0000" channel="th-dtv29.iptv36.my.to">
+    <title><![CDATA[News (Rerun)]]></title>
   </programme>
-  <programme start="20201027090000 -0000" stop="20201027094500 -0000" channel="th-dtv30.iptv36.my.to">
-    <title><![CDATA[ตกมันส์บันเทิง]]></title>
+  <programme start="20201028211000 -0000" stop="20201028223000 -0000" channel="th-dtv29.iptv36.my.to">
+    <title><![CDATA[Step : สเต็ป]]></title>
   </programme>
-  <programme start="20201027094500 -0000" stop="20201027110000 -0000" channel="th-dtv30.iptv36.my.to">
-    <title><![CDATA[เรื่องพลบค่ำ]]></title>
+  <programme start="20201028223000 -0000" stop="20201028230000 -0000" channel="th-dtv29.iptv36.my.to">
+    <title><![CDATA[World Voyage]]></title>
   </programme>
-  <programme start="20201027110000 -0000" stop="20201027110100 -0000" channel="th-dtv30.iptv36.my.to">
-    <title><![CDATA[เคารพธงชาติ 18.00 น.]]></title>
-  </programme>
-  <programme start="20201027110100 -0000" stop="20201027120000 -0000" channel="th-dtv30.iptv36.my.to">
-    <title><![CDATA[เปาบุ้นจิ้น]]></title>
+  <programme start="20201028230000 -0000" stop="20201029005500 -0000" channel="th-dtv29.iptv36.my.to">
+    <title><![CDATA[ข่าวเช้า : Good Morning Thailand]]></title>
   </programme>
   <programme start="20201027120000 -0000" stop="20201027135000 -0000" channel="th-dtv30.iptv36.my.to">
     <title><![CDATA[ข่าวค่ำ]]></title>
@@ -5094,25 +5117,26 @@
   <programme start="20201028203000 -0000" stop="20201028210000 -0000" channel="th-dtv30.iptv36.my.to">
     <title><![CDATA[โลกตะลึง]]></title>
   </programme>
-  <programme start="20201027073000 -0000" stop="20201027090000 -0000" channel="th-dtv31.iptv36.my.to">
-    <title><![CDATA[ละคร สาวน้อย 100 ล้านวิว]]></title>
-    <desc><![CDATA[เรื่องราวของเด็กสาวบ้านนาที่มีพรสวรรค์ในการร้องเพลง เธอทำทุกวิถีทางเพื่อก้าวผ่านอุปสรรค จนทำให้เธอกลายเป็นเน็ตไอดอลเพียงชั่วข้ามคืน]]></desc>
+  <programme start="20201028210000 -0000" stop="20201028213000 -0000" channel="th-dtv30.iptv36.my.to">
+    <title><![CDATA[รายการสถานีฯ]]></title>
   </programme>
-  <programme start="20201027090000 -0000" stop="20201027091500 -0000" channel="th-dtv31.iptv36.my.to">
-    <title><![CDATA[แม่บ้าน มือหนึ่ง]]></title>
-    <desc><![CDATA[รายการที่จะมาเติมแรงบันดาลใจให้คนรุ่นใหม่หันมาใส่ใจการดูแลเรื่องในบ้านให้สนุกและง่าย]]></desc>
+  <programme start="20201028213000 -0000" stop="20201028220000 -0000" channel="th-dtv30.iptv36.my.to">
+    <title><![CDATA[รากแก้วศาสนทายาท]]></title>
   </programme>
-  <programme start="20201027091500 -0000" stop="20201027093000 -0000" channel="th-dtv31.iptv36.my.to">
-    <title><![CDATA[วันของคุณ]]></title>
-    <desc><![CDATA[วาไรตี้ทอล์คเรื่องราวของละครที่น่าสนใจ และ เบื้องหลังละครที่กำลังออนแอร์]]></desc>
+  <programme start="20201028220000 -0000" stop="20201028225000 -0000" channel="th-dtv30.iptv36.my.to">
+    <title><![CDATA[TVD SHOP]]></title>
   </programme>
-  <programme start="20201027093000 -0000" stop="20201027110000 -0000" channel="th-dtv31.iptv36.my.to">
-    <title><![CDATA[ข่าวเย็นช่องวัน]]></title>
-    <desc><![CDATA[ขยายประเด็นข่าวที่เกิดขึ้นในรอบวัน เกาะติดสถานการณ์ข่าว จับประเด็นโดยผู้ประกาศมืออาชีพ เจาะลึกวงการกีฬา]]></desc>
+  <programme start="20201028225000 -0000" stop="20201028230000 -0000" channel="th-dtv30.iptv36.my.to">
+    <title><![CDATA[Shop Mania]]></title>
   </programme>
-  <programme start="20201027110000 -0000" stop="20201027120000 -0000" channel="th-dtv31.iptv36.my.to">
-    <title><![CDATA[ดวลเพลงชิงทุน]]></title>
-    <desc><![CDATA[รายการประกวดร้องเพลง ที่จะเปลี่ยนเสียงของคุณเป็นทุนตั้งตัว]]></desc>
+  <programme start="20201028230000 -0000" stop="20201028232500 -0000" channel="th-dtv30.iptv36.my.to">
+    <title><![CDATA[คนไทยหัวใจเกษตร]]></title>
+  </programme>
+  <programme start="20201028232500 -0000" stop="20201028233000 -0000" channel="th-dtv30.iptv36.my.to">
+    <title><![CDATA[ต้นไม้ใบหญ้า]]></title>
+  </programme>
+  <programme start="20201028233000 -0000" stop="20201029010000 -0000" channel="th-dtv30.iptv36.my.to">
+    <title><![CDATA[เช้าชวนคุย]]></title>
   </programme>
   <programme start="20201027120000 -0000" stop="20201027125500 -0000" channel="th-dtv31.iptv36.my.to">
     <title><![CDATA[ละคร นางฟ้าลำแคน]]></title>
@@ -5286,20 +5310,21 @@
     <title><![CDATA[วันนี้...มีธรรม]]></title>
     <desc><![CDATA[รับอรุณกับรายการคติธรรมสอนใจ เพื่อใช้ในชีวิตประจำวัน]]></desc>
   </programme>
-  <programme start="20201027083000 -0000" stop="20201027094500 -0000" channel="th-dtv32.iptv36.my.to">
-    <title><![CDATA[ข่าวเย็นไทยรัฐ]]></title>
+  <programme start="20201028210000 -0000" stop="20201028211000 -0000" channel="th-dtv31.iptv36.my.to">
+    <title><![CDATA[รายการ O Shopping]]></title>
+    <desc><![CDATA[สัมผัสประสบการณ์ใหม่ในการช้อปปิ้งออนไลน์ระดับโลกอย่างสะดวกสบายและเพลิดเพลินใจ]]></desc>
   </programme>
-  <programme start="20201027094500 -0000" stop="20201027101500 -0000" channel="th-dtv32.iptv36.my.to">
-    <title><![CDATA[บันเทิงไทยรัฐ]]></title>
+  <programme start="20201028211000 -0000" stop="20201028223000 -0000" channel="th-dtv31.iptv36.my.to">
+    <title><![CDATA[ดวลเพลงชิงทุน รีรัน]]></title>
+    <desc><![CDATA[รายการประกวดร้องเพลง ที่จะเปลี่ยนเสียงของคุณเป็นทุนตั้งตัว]]></desc>
   </programme>
-  <programme start="20201027101500 -0000" stop="20201027105800 -0000" channel="th-dtv32.iptv36.my.to">
-    <title><![CDATA[ถามตรงๆกับจอมขวัญ]]></title>
+  <programme start="20201028223000 -0000" stop="20201028230000 -0000" channel="th-dtv31.iptv36.my.to">
+    <title><![CDATA[ข่าวเช้าตรู่ช่องวัน]]></title>
+    <desc><![CDATA[รวมข่าวเช้าตรู่ เกาะติดข่าว ทันเหตุการณ์]]></desc>
   </programme>
-  <programme start="20201027105800 -0000" stop="20201027110000 -0000" channel="th-dtv32.iptv36.my.to">
-    <title><![CDATA[ดีลด่วนชวนช็อป]]></title>
-  </programme>
-  <programme start="20201027110000 -0000" stop="20201027120000 -0000" channel="th-dtv32.iptv36.my.to">
-    <title><![CDATA[ข่าวใส่ไข่]]></title>
+  <programme start="20201028230000 -0000" stop="20201029010000 -0000" channel="th-dtv31.iptv36.my.to">
+    <title><![CDATA[ข่าวเช้าช่องวัน]]></title>
+    <desc><![CDATA[รับเช้าวันใหม่ เปิดประเด็น ทิศทางข่าว ให้คุณทันโลก เกาะติดทุกสถานการณ์]]></desc>
   </programme>
   <programme start="20201027120000 -0000" stop="20201027153800 -0000" channel="th-dtv32.iptv36.my.to">
     <title><![CDATA[ไทยรัฐ นิวส์โชว์ / ข่าวในพระราชสำนัก]]></title>
@@ -5418,24 +5443,20 @@
   <programme start="20201028194500 -0000" stop="20201028204500 -0000" channel="th-dtv32.iptv36.my.to">
     <title><![CDATA[คลินิคสัตว์เลี้ยงแสนรัก AD CC]]></title>
   </programme>
-  <programme start="20201027064500 -0000" stop="20201027084500 -0000" channel="th-dtv33.iptv36.my.to">
-    <title><![CDATA[ละคร คุณแม่สวมรอย]]></title>
+  <programme start="20201028204500 -0000" stop="20201028213000 -0000" channel="th-dtv32.iptv36.my.to">
+    <title><![CDATA[ไทยรัฐเจาะประเด็น (Rerun)]]></title>
   </programme>
-  <programme start="20201027084500 -0000" stop="20201027094500 -0000" channel="th-dtv33.iptv36.my.to">
-    <title><![CDATA[เรื่องเด่นเย็นนี้ / เล่าเรื่องไทย ๆ กับสายสวรรค์]]></title>
-    <desc><![CDATA[รายการข่าวที่นำข่าวประเภทต่างๆ คือ ข่าวการเมือง ข่าวในกระแสสังคม ข่าวเศรษฐกิจ ข่าวต่างประเทศ และ ข่าวกีฬา มาเล่าให้ผู้ชมฟังอย่างเป็นกันเอง และเข้าใจได้ง่าย]]></desc>
+  <programme start="20201028213000 -0000" stop="20201028220000 -0000" channel="th-dtv32.iptv36.my.to">
+    <title><![CDATA[True Shopping]]></title>
   </programme>
-  <programme start="20201027094500 -0000" stop="20201027100000 -0000" channel="th-dtv33.iptv36.my.to">
-    <title><![CDATA[รีวิวบันเทิง]]></title>
-    <desc><![CDATA[รายการข่าวบันเทิงที่จะจับทุกประเด็นร้อนมารีวิวให้ผู้ชมฟัง]]></desc>
+  <programme start="20201028220000 -0000" stop="20201028223000 -0000" channel="th-dtv32.iptv36.my.to">
+    <title><![CDATA[TVD Shop]]></title>
   </programme>
-  <programme start="20201027100000 -0000" stop="20201027103000 -0000" channel="th-dtv33.iptv36.my.to">
-    <title><![CDATA[ดาวินชี เกมถอดรหัส]]></title>
-    <desc><![CDATA[เป็นรายการเกมโชว์แนวควิซโชว์ที่ทดสอบความรู้รอบตัวและไหวพริบของผู้เข้าแข่งขันผ่านคำถามที่มาในรูปแบบของรูปภาพที่นำมาร้อยเรียงกันเป็นคำปริศนา]]></desc>
+  <programme start="20201028223000 -0000" stop="20201028233000 -0000" channel="th-dtv32.iptv36.my.to">
+    <title><![CDATA[ห้องข่าว หัวเขียว]]></title>
   </programme>
-  <programme start="20201027103000 -0000" stop="20201027110000 -0000" channel="th-dtv33.iptv36.my.to">
-    <title><![CDATA[เกมแจกรถ / อิงลิช ออน ทัวร์]]></title>
-    <desc><![CDATA[เกมส์โชว์รูปแบบใหม่ ที่ได้ น้าเน็ก-เกตุเสพย์สวัสดิ์ ปาลกะวงศ์ ณ อยุธยา รับหน้าที่พิธีกร พาผู้เข้าแข่งขันไปเลือกรถเลือกกุญแจที่ใช่ กับอีก 1 คำถาม ที่ต้องตอบและสตาร์ทรถติดก็รับไปเลยทันที และยังมีคำถามพิเศษให้ได้ลุ้นรับรางวัลอีกมากมาย]]></desc>
+  <programme start="20201028233000 -0000" stop="20201029011000 -0000" channel="th-dtv32.iptv36.my.to">
+    <title><![CDATA[ข่าวเช้าหัวเขียว]]></title>
   </programme>
   <programme start="20201027110000 -0000" stop="20201027130000 -0000" channel="th-dtv33.iptv36.my.to">
     <title><![CDATA[ละคร ดาวเคียงเดือน / แฟลช นิวส์]]></title>
@@ -5623,29 +5644,20 @@
     <title><![CDATA[ภ.จีน หน่วยล่าพยัคฆ์บิน]]></title>
     <desc><![CDATA[Flying Tiger]]></desc>
   </programme>
-  <programme start="20201027083500 -0000" stop="20201027084500 -0000" channel="th-dtv34.iptv36.my.to">
-    <title><![CDATA[ชีวิตดีมีสุข]]></title>
+  <programme start="20201028212700 -0000" stop="20201028213000 -0000" channel="th-dtv33.iptv36.my.to">
+    <title><![CDATA[ตะวันส่องธรรม]]></title>
+    <desc><![CDATA[เริ่มต้นวันใหม่ด้วยสิ่งดีๆ เช่นการฟัง, สวดมนต์ตาม และฟังคำสอนดีๆ เพื่อนำพระธรรมที่ได้รับไปปรับใช้กับชีวิตประจำวัน]]></desc>
   </programme>
-  <programme start="20201027084500 -0000" stop="20201027094500 -0000" channel="th-dtv34.iptv36.my.to">
-    <title><![CDATA[เอเชียนซีรีส์ เรื่อง องค์หญิงสวมรอย]]></title>
+  <programme start="20201028213000 -0000" stop="20201028223000 -0000" channel="th-dtv33.iptv36.my.to">
+    <title><![CDATA[ตีข่าว]]></title>
   </programme>
-  <programme start="20201027094500 -0000" stop="20201027095500 -0000" channel="th-dtv34.iptv36.my.to">
-    <title><![CDATA[ชีวิตดีมีสุข]]></title>
+  <programme start="20201028223000 -0000" stop="20201028230000 -0000" channel="th-dtv33.iptv36.my.to">
+    <title><![CDATA[เรื่องเล่าหน้าหนึ่ง]]></title>
+    <desc><![CDATA[รายการข่าวเด่น ประเด็นสำคัญ สำหรับคนตื่นเช้า]]></desc>
   </programme>
-  <programme start="20201027095500 -0000" stop="20201027105000 -0000" channel="th-dtv34.iptv36.my.to">
-    <title><![CDATA[ฅ.คนขั้นเทพ]]></title>
-  </programme>
-  <programme start="20201027105000 -0000" stop="20201027110000 -0000" channel="th-dtv34.iptv36.my.to">
-    <title><![CDATA[APOP Today]]></title>
-  </programme>
-  <programme start="20201027110000 -0000" stop="20201027110100 -0000" channel="th-dtv34.iptv36.my.to">
-    <title><![CDATA[เพลงชาติไทย]]></title>
-  </programme>
-  <programme start="20201027110100 -0000" stop="20201027112000 -0000" channel="th-dtv34.iptv36.my.to">
-    <title><![CDATA[APOP Today]]></title>
-  </programme>
-  <programme start="20201027112000 -0000" stop="20201027115000 -0000" channel="th-dtv34.iptv36.my.to">
-    <title><![CDATA[เรื่องเด็ดเอ็ดตะโร]]></title>
+  <programme start="20201028230000 -0000" stop="20201029010000 -0000" channel="th-dtv33.iptv36.my.to">
+    <title><![CDATA[เรื่องเล่าเช้านี้ / เพื่อนคู่คิด]]></title>
+    <desc><![CDATA[รายการข่าวที่มีหลากเรื่องราวเล่าขาน สาระพันข่าวสารข้อมูลใหม่รับอรุณ ดั่งมื้อเช้าที่คุณขาดไม่ได้ ในเรื่องเล่าเช้านี้]]></desc>
   </programme>
   <programme start="20201027115000 -0000" stop="20201027130000 -0000" channel="th-dtv34.iptv36.my.to">
     <title><![CDATA[ทุบโต๊ะข่าว]]></title>
@@ -5782,55 +5794,46 @@
   <programme start="20201028200000 -0000" stop="20201028213000 -0000" channel="th-dtv34.iptv36.my.to">
     <title><![CDATA[TVD SHOP]]></title>
   </programme>
-  <programme start="20201027064500 -0000" stop="20201027084500 -0000" channel="th-dtv35.iptv36.my.to">
-    <title><![CDATA[หลงเงาจันทร์ (Rerun)]]></title>
+  <programme start="20201028213000 -0000" stop="20201028223000 -0000" channel="th-dtv34.iptv36.my.to">
+    <title><![CDATA[สุขทุกวัน 7 วัน 7 กูรู]]></title>
   </programme>
-  <programme start="20201027084500 -0000" stop="20201027100000 -0000" channel="th-dtv35.iptv36.my.to">
-    <title><![CDATA[เจาะประเด็นข่าวค่ำ]]></title>
+  <programme start="20201028223000 -0000" stop="20201028231500 -0000" channel="th-dtv34.iptv36.my.to">
+    <title><![CDATA[ข่าวอรุณอมรินทร์ ทั่วไทย]]></title>
   </programme>
-  <programme start="20201027100000 -0000" stop="20201027101600 -0000" channel="th-dtv35.iptv36.my.to">
-    <title><![CDATA[7 สีช่วยชาวบ้าน]]></title>
+  <programme start="20201028231500 -0000" stop="20201029010000 -0000" channel="th-dtv34.iptv36.my.to">
+    <title><![CDATA[ข่าวอรุณอมรินทร์]]></title>
   </programme>
-  <programme start="20201027101600 -0000" stop="20201027105900 -0000" channel="th-dtv35.iptv36.my.to">
-    <title><![CDATA[ปลดหนี้ พลิกชีวิต]]></title>
-  </programme>
-  <programme start="20201027105900 -0000" stop="20201027110000 -0000" channel="th-dtv35.iptv36.my.to">
-    <title><![CDATA[ไอเดีย เกษตร]]></title>
-  </programme>
-  <programme start="20201027110000 -0000" stop="20201027115400 -0000" channel="th-dtv35.iptv36.my.to">
-    <title><![CDATA[เกมแจกเงิน The Money Drop ไทยแลนด์]]></title>
-  </programme>
-  <programme start="20201027115400 -0000" stop="20201027130100 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201027115400 -0000" stop="20201027125400 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[สมบัติมหาเฮง]]></title>
   </programme>
-  <programme start="20201027130100 -0000" stop="20201027132600 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201027125400 -0000" stop="20201027132500 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[ข่าวภาคค่ำ]]></title>
   </programme>
-  <programme start="20201027132600 -0000" stop="20201027133000 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201027132500 -0000" stop="20201027133000 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[เส้นทางบันเทิง]]></title>
   </programme>
-  <programme start="20201027133000 -0000" stop="20201027153000 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201027133000 -0000" stop="20201027152500 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[ฟ้ามีตะวัน]]></title>
   </programme>
-  <programme start="20201027153000 -0000" stop="20201027161000 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201027152500 -0000" stop="20201027160000 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[ประเด็นเด็ด 7 สี]]></title>
   </programme>
-  <programme start="20201027161000 -0000" stop="20201027165959 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201027160000 -0000" stop="20201027165959 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[เชฟกระทะเหล็ก ประเทศไทย  (IRON CHEF THAILAND) (Rerun)]]></title>
   </programme>
-  <programme start="20201027170000 -0000" stop="20201027172500 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201027170000 -0000" stop="20201027171500 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[เชฟกระทะเหล็ก ประเทศไทย  (IRON CHEF THAILAND) (Rerun)]]></title>
   </programme>
-  <programme start="20201027172500 -0000" stop="20201027182500 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201027171500 -0000" stop="20201027182300 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[สมบัติมหาเฮง (Rerun)]]></title>
   </programme>
-  <programme start="20201027182500 -0000" stop="20201027194000 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201027182300 -0000" stop="20201027193900 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[ข่าวดึก 7HD]]></title>
   </programme>
-  <programme start="20201027194000 -0000" stop="20201027204000 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201027193900 -0000" stop="20201027204300 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[ยอดชายนายตุ๊กตุ๊ก (Rerun)]]></title>
   </programme>
-  <programme start="20201027204000 -0000" stop="20201027213000 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201027204300 -0000" stop="20201027213000 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[ห้องข่าววาไรตี้]]></title>
   </programme>
   <programme start="20201027213000 -0000" stop="20201027230000 -0000" channel="th-dtv35.iptv36.my.to">
@@ -5845,37 +5848,37 @@
   <programme start="20201028023000 -0000" stop="20201028042000 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[คมพยาบาท (Rerun)]]></title>
   </programme>
-  <programme start="20201028042000 -0000" stop="20201028060000 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201028042000 -0000" stop="20201028060100 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[ห้องข่าวภาคเที่ยง]]></title>
   </programme>
-  <programme start="20201028060000 -0000" stop="20201028064300 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201028060100 -0000" stop="20201028063800 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[สดๆ บทไม่มี ตีสนิท (Rerun)]]></title>
   </programme>
-  <programme start="20201028064300 -0000" stop="20201028064500 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201028063800 -0000" stop="20201028064000 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[ข่าวเด็ด 7 สี]]></title>
   </programme>
-  <programme start="20201028064500 -0000" stop="20201028084500 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201028064000 -0000" stop="20201028084500 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[หลงเงาจันทร์ (Rerun)]]></title>
   </programme>
   <programme start="20201028084500 -0000" stop="20201028100000 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[เจาะประเด็นข่าวค่ำ]]></title>
   </programme>
-  <programme start="20201028100000 -0000" stop="20201028101500 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201028100000 -0000" stop="20201028101600 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[7 สีช่วยชาวบ้าน]]></title>
   </programme>
-  <programme start="20201028101500 -0000" stop="20201028110000 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201028101600 -0000" stop="20201028110000 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[ดวลเพลงดัง (Rerun)]]></title>
   </programme>
-  <programme start="20201028110000 -0000" stop="20201028120000 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201028110000 -0000" stop="20201028115400 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[GUESS MY AGE รู้หน้า ไม่รู้วัย]]></title>
   </programme>
-  <programme start="20201028120000 -0000" stop="20201028130000 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201028115400 -0000" stop="20201028130300 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[สมบัติมหาเฮง]]></title>
   </programme>
-  <programme start="20201028130000 -0000" stop="20201028132500 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201028130300 -0000" stop="20201028132800 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[ข่าวภาคค่ำ]]></title>
   </programme>
-  <programme start="20201028132500 -0000" stop="20201028133000 -0000" channel="th-dtv35.iptv36.my.to">
+  <programme start="20201028132800 -0000" stop="20201028133000 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[เส้นทางบันเทิง]]></title>
   </programme>
   <programme start="20201028133000 -0000" stop="20201028153000 -0000" channel="th-dtv35.iptv36.my.to">
@@ -5905,13 +5908,11 @@
   <programme start="20201028204000 -0000" stop="20201028213000 -0000" channel="th-dtv35.iptv36.my.to">
     <title><![CDATA[ห้องข่าววาไรตี้]]></title>
   </programme>
-  <programme start="20201027080800 -0000" stop="20201027095500 -0000" channel="th-dtv36.iptv36.my.to">
-    <title><![CDATA[หนังดังยามบ่าย]]></title>
-    <desc><![CDATA[THE ANIMAL คนพิลึกยึดร่างเพี้ยน]]></desc>
+  <programme start="20201028213000 -0000" stop="20201028230000 -0000" channel="th-dtv35.iptv36.my.to">
+    <title><![CDATA[เช้า - ข่าว 7 สี]]></title>
   </programme>
-  <programme start="20201027095500 -0000" stop="20201027110000 -0000" channel="th-dtv36.iptv36.my.to">
-    <title><![CDATA[เข้มข่าวเย็น]]></title>
-    <desc><![CDATA[Highlight ข่าวในกระแส สัมภาษณ์ ข่าวสีสันภูมิภาค สีสันสนั่นทุ่ง ข่าวต่างประเทศ]]></desc>
+  <programme start="20201028230000 -0000" stop="20201029003000 -0000" channel="th-dtv35.iptv36.my.to">
+    <title><![CDATA[เช้านี้...ที่หมอชิต]]></title>
   </programme>
   <programme start="20201027110000 -0000" stop="20201027130000 -0000" channel="th-dtv36.iptv36.my.to">
     <title><![CDATA[เข้มข่าวค่ำ]]></title>
@@ -6070,6 +6071,236 @@
   <programme start="20201028190000 -0000" stop="20201028213000 -0000" channel="th-dtv36.iptv36.my.to">
     <title><![CDATA[True Shopping]]></title>
     <desc><![CDATA[คัดสรรสินค้าและบริการต่างๆที่มีคุณภาพ นำเสนอต่อผู้ชมรายการทั่วประเทศเพื่อให้สามารถเลือกซื้อสินค้าด้วยความสะดวกสบาย]]></desc>
+  </programme>
+  <programme start="20201028213000 -0000" stop="20201028220000 -0000" channel="th-dtv36.iptv36.my.to">
+    <title><![CDATA[มองมุมใหม่ Birds Eye View]]></title>
+    <desc><![CDATA[รายการท่องเที่ยวที่จะพาคุณไปสัมผัสประเทศไทยที่ให้เห็น ความงาม ของทัศนียภาพ จากมุมสูงที่ใครหลายคนอาจ ไม่เคยเห็นมาก่อน เก็บซ็อตมันส์มันส์แบบแอกซ์ตรีม]]></desc>
+  </programme>
+  <programme start="20201028220000 -0000" stop="20201028223000 -0000" channel="th-dtv36.iptv36.my.to">
+    <title><![CDATA[TV Direct]]></title>
+    <desc><![CDATA[รายการแนะนำสินค้าช้อปปิ้งโดยใช้นวัตกรรมที่หลากหลายตั้งแต่แบรด์สินค้าระดับโลกและของไทยในราคาสุดพิเศษ]]></desc>
+  </programme>
+  <programme start="20201028223000 -0000" stop="20201028230000 -0000" channel="th-dtv36.iptv36.my.to">
+    <title><![CDATA[เที่ยวกินกับหมึกแดง]]></title>
+    <desc><![CDATA[เชฟหมึกแดงจะพาไปพบเจอสิ่งใหม่ๆ ที่มาเที่ยว ชิม กิน และทำอาหารแบบใหม่ในสไตล์เชฟหมึกแดง]]></desc>
+  </programme>
+  <programme start="20201028230000 -0000" stop="20201029010000 -0000" channel="th-dtv36.iptv36.my.to">
+    <title><![CDATA[โชว์ข่าวเช้านี้]]></title>
+    <desc><![CDATA[ข่าวเช้าที่จะทำให้คุณเข้าใจข่าวแบบง่ายๆเหมือนเพื่อนคุยข่าวให้ฟังอัดแน่นไปด้วยข่าวใกล้ตัวที่พร้อมเสิร์ฟคุณถึงเช้า]]></desc>
+  </programme>
+  <programme start="20201027000000 +0700" stop="20201027000100 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[เพลงสรรเสริญพระบารมี ร.10]]></title>
+    <sub-title><![CDATA[SR-ENT-KN ::]]></sub-title>
+  </programme>
+  <programme start="20201027000100 +0700" stop="20201027003000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[นักสืบรุ่นจิ๋ว]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[เรื่องราวของนักสืบ โคนัน ที่ใช้อุปกรณ์ประดิษฐ์พิเศษช่วยคลี่คลายคดีต่างๆด้วยหลักการและเหตุผล]]></desc>
+  </programme>
+  <programme start="20201027003000 +0700" stop="20201027010000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[ฮีโร่ส์ เดอะแบทเทิ้ลดิสก์ส]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[มาร่วมปกป้องโลกของพวกเขาจากกองกำลังมืดไปด้วยกันกับเหล่าฮีโร่คนเก่ง]]></desc>
+  </programme>
+  <programme start="20201027010000 +0700" stop="20201027013000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[บาคุกัน มอนสเตอร์บอล ทะลุมิติ ภาค 5]]></title>
+    <sub-title><![CDATA[KIDS :: Animation]]></sub-title>
+    <desc><![CDATA[ออกไปผจญภัยสุดสนุกกับพวกเขากันอีกครั้งกับ แดน และ บาคุกัน]]></desc>
+  </programme>
+  <programme start="20201027013000 +0700" stop="20201027020000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[ยูกิโอ เวรนส์   [ 3 ]]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[เรื่องราวการแข่งขันแห่งโลกเสมือนจริงซึ่งผู้เล่นสามารถสร้างตัวอวตารขึ้นมาในเกมดวลสัตว์ประหลาด]]></desc>
+  </programme>
+  <programme start="20201027020000 +0700" stop="20201027023000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[ซอยด์ไวลด์ ศึกจักรกลไดโนเสาร์ถล่มโลก]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[พบกับตำนานบทใหม่ของหุ่นจักรกลขนาดยักษ์ซึ่งพัฒนามาจากรูปร่างของสัตว์ร้ายจนกลายมาเป็นนักรบไดโนเสาร์]]></desc>
+  </programme>
+  <programme start="20201027023000 +0700" stop="20201027030000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[ขบวนการอวกาศ คิวเรนเจอร์]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[เรื่องราวของเก้ายอดนักรบในนาม คิวเรนเจอร์ ที่ลุกขึ้นมาปกป้องผืนพิภพและจักรวาลจากเงื้อมมือของผู้รุกรานนอกอวกาศ]]></desc>
+  </programme>
+  <programme start="20201027030000 +0700" stop="20201027033000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[โปเกมอน ซันแอนด์มูน]]></title>
+    <sub-title><![CDATA[KIDS :: Animation]]></sub-title>
+    <desc><![CDATA[ขอต้อนรับสู่โลกของโปเกม่อนซึ่งเด็กๆจะเป็นผู้ฝึกสอนการต่อสู้ให้กับเหล่าโปเกม่อนและส่งพวกมันไปประลองฝีมือเพื่อชิงความเป็นหนึ่ง]]></desc>
+  </programme>
+  <programme start="20201027033000 +0700" stop="20201027040000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[สงครามเกมส์ไพ่ วีเอสอาร์เอฟ]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[เรื่องราวของ คัตตะ ที่ปลุกจิตวิญญาณนักสู้ในตัวขึ้นอีกครั้งและหวนคืนสู่เส้นทางเพื่อความเป็นนักเล่นเกมการ์ดผู้ยิ่งยงจนได้พบปะกับเพื่อนและศัตรูหน้าใหม่ๆรวมถึงการประลองครั้งสำคัญ]]></desc>
+  </programme>
+  <programme start="20201027040000 +0700" stop="20201027043000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[ปาร์แมน   [ 2 ]]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[เรื่องราวของเด็กชายในโรงเรียนประถมที่ได้รับพลังพิเศษจนกลายเป็นยอดมนุษย์ปาร์แมนและได้ออกช่วยเหลือผู้คนพร้อมกับพิทักษ์ปฐพีไปพร้อมๆกัน]]></desc>
+  </programme>
+  <programme start="20201027043000 +0700" stop="20201027050000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[เฮลโล! ครอบครัวสี่ขา   [ 2 ]]]></title>
+    <sub-title><![CDATA[KIDS :: Animation]]></sub-title>
+    <desc><![CDATA[พบกับเรื่องราวแสนสนุกของแมวน้อยและสุนัขเพื่อนรักที่จะมาทำให้คุณได้อมยิ้มไปกับความน่ารักของพวกเขา]]></desc>
+  </programme>
+  <programme start="20201027050000 +0700" stop="20201027053000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[โทบอต แอธลอน]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[พบกับเรื่องราวสุดสนุกของเหล่านักเรียนกับภารกิจในการเข้าแข่งขันรถหุ่นยนต์ซุปเปอร์ไคล์ฮิวจ์ที่จะทำให้ฝันของพวกเขาเป็นจริง]]></desc>
+  </programme>
+  <programme start="20201027053000 +0700" stop="20201027060000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[กัปตันไบเซ็ปส์]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[พบกับการผจญภัยอันน่าตื่นเต้นของสุดยอดฮีโร่และเพื่อนสนิทผู้ซื่อสัตย์ในภารกิจพิทักษ์โลกให้ปลอดภัยจากเหล่าวายร้าย]]></desc>
+  </programme>
+  <programme start="20201027060000 +0700" stop="20201027063000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[นักสืบรุ่นจิ๋ว]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[เรื่องราวของนักสืบ โคนัน ที่ใช้อุปกรณ์ประดิษฐ์พิเศษช่วยคลี่คลายคดีต่างๆด้วยหลักการและเหตุผล]]></desc>
+  </programme>
+  <programme start="20201027063000 +0700" stop="20201027070000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[ฮีโร่ส์ เดอะแบทเทิ้ลดิสก์ส]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[มาร่วมปกป้องโลกของพวกเขาจากกองกำลังมืดไปด้วยกันกับเหล่าฮีโร่คนเก่ง]]></desc>
+  </programme>
+  <programme start="20201027070000 +0700" stop="20201027073000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[บาคุกัน มอนสเตอร์บอล ทะลุมิติ ภาค 5]]></title>
+    <sub-title><![CDATA[KIDS :: Animation]]></sub-title>
+    <desc><![CDATA[ออกไปผจญภัยสุดสนุกกับพวกเขากันอีกครั้งกับ แดน และ บาคุกัน]]></desc>
+  </programme>
+  <programme start="20201027073000 +0700" stop="20201027080000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[ยูกิโอ เวรนส์   [ 3 ]]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[เรื่องราวการแข่งขันแห่งโลกเสมือนจริงซึ่งผู้เล่นสามารถสร้างตัวอวตารขึ้นมาในเกมดวลสัตว์ประหลาด]]></desc>
+  </programme>
+  <programme start="20201027080000 +0700" stop="20201027083000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[ซอยด์ไวลด์ ศึกจักรกลไดโนเสาร์ถล่มโลก]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[พบกับตำนานบทใหม่ของหุ่นจักรกลขนาดยักษ์ซึ่งพัฒนามาจากรูปร่างของสัตว์ร้ายจนกลายมาเป็นนักรบไดโนเสาร์]]></desc>
+  </programme>
+  <programme start="20201027083000 +0700" stop="20201027090000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[ขบวนการอวกาศ คิวเรนเจอร์]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[เรื่องราวของเก้ายอดนักรบในนาม คิวเรนเจอร์ ที่ลุกขึ้นมาปกป้องผืนพิภพและจักรวาลจากเงื้อมมือของผู้รุกรานนอกอวกาศ]]></desc>
+  </programme>
+  <programme start="20201027090000 +0700" stop="20201027093000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[โปเกมอน ซันแอนด์มูน]]></title>
+    <sub-title><![CDATA[KIDS :: Animation]]></sub-title>
+    <desc><![CDATA[ขอต้อนรับสู่โลกของโปเกม่อนซึ่งเด็กๆจะเป็นผู้ฝึกสอนการต่อสู้ให้กับเหล่าโปเกม่อนและส่งพวกมันไปประลองฝีมือเพื่อชิงความเป็นหนึ่ง]]></desc>
+  </programme>
+  <programme start="20201027093000 +0700" stop="20201027100000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[สงครามเกมส์ไพ่ วีเอสอาร์เอฟ]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[เรื่องราวของ คัตตะ ที่ปลุกจิตวิญญาณนักสู้ในตัวขึ้นอีกครั้งและหวนคืนสู่เส้นทางเพื่อความเป็นนักเล่นเกมการ์ดผู้ยิ่งยงจนได้พบปะกับเพื่อนและศัตรูหน้าใหม่ๆรวมถึงการประลองครั้งสำคัญ]]></desc>
+  </programme>
+  <programme start="20201027100000 +0700" stop="20201027103000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[ปาร์แมน   [ 2 ]]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[เรื่องราวของเด็กชายในโรงเรียนประถมที่ได้รับพลังพิเศษจนกลายเป็นยอดมนุษย์ปาร์แมนและได้ออกช่วยเหลือผู้คนพร้อมกับพิทักษ์ปฐพีไปพร้อมๆกัน]]></desc>
+  </programme>
+  <programme start="20201027103000 +0700" stop="20201027110000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[เฮลโล! ครอบครัวสี่ขา   [ 2 ]]]></title>
+    <sub-title><![CDATA[KIDS :: Animation]]></sub-title>
+    <desc><![CDATA[พบกับเรื่องราวแสนสนุกของแมวน้อยและสุนัขเพื่อนรักที่จะมาทำให้คุณได้อมยิ้มไปกับความน่ารักของพวกเขา]]></desc>
+  </programme>
+  <programme start="20201027110000 +0700" stop="20201027113000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[โทบอต แอธลอน]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[พบกับเรื่องราวสุดสนุกของเหล่านักเรียนกับภารกิจในการเข้าแข่งขันรถหุ่นยนต์ซุปเปอร์ไคล์ฮิวจ์ที่จะทำให้ฝันของพวกเขาเป็นจริง]]></desc>
+  </programme>
+  <programme start="20201027113000 +0700" stop="20201027120000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[กัปตันไบเซ็ปส์]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[พบกับการผจญภัยอันน่าตื่นเต้นของสุดยอดฮีโร่และเพื่อนสนิทผู้ซื่อสัตย์ในภารกิจพิทักษ์โลกให้ปลอดภัยจากเหล่าวายร้าย]]></desc>
+  </programme>
+  <programme start="20201027120000 +0700" stop="20201027123000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[นักสืบรุ่นจิ๋ว]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[เรื่องราวของนักสืบ โคนัน ที่ใช้อุปกรณ์ประดิษฐ์พิเศษช่วยคลี่คลายคดีต่างๆด้วยหลักการและเหตุผล]]></desc>
+  </programme>
+  <programme start="20201027123000 +0700" stop="20201027130000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[ฮีโร่ส์ เดอะแบทเทิ้ลดิสก์ส]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[มาร่วมปกป้องโลกของพวกเขาจากกองกำลังมืดไปด้วยกันกับเหล่าฮีโร่คนเก่ง]]></desc>
+  </programme>
+  <programme start="20201027130000 +0700" stop="20201027133000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[บาคุกัน มอนสเตอร์บอล ทะลุมิติ ภาค 5]]></title>
+    <sub-title><![CDATA[KIDS :: Animation]]></sub-title>
+    <desc><![CDATA[ออกไปผจญภัยสุดสนุกกับพวกเขากันอีกครั้งกับ แดน และ บาคุกัน]]></desc>
+  </programme>
+  <programme start="20201027133000 +0700" stop="20201027140000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[ยูกิโอ เวรนส์   [ 3 ]]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[เรื่องราวการแข่งขันแห่งโลกเสมือนจริงซึ่งผู้เล่นสามารถสร้างตัวอวตารขึ้นมาในเกมดวลสัตว์ประหลาด]]></desc>
+  </programme>
+  <programme start="20201027140000 +0700" stop="20201027143000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[ซอยด์ไวลด์ ศึกจักรกลไดโนเสาร์ถล่มโลก]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[พบกับตำนานบทใหม่ของหุ่นจักรกลขนาดยักษ์ซึ่งพัฒนามาจากรูปร่างของสัตว์ร้ายจนกลายมาเป็นนักรบไดโนเสาร์]]></desc>
+  </programme>
+  <programme start="20201027143000 +0700" stop="20201027150000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[การ์ดไฟท์ แวนการ์ด จี]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[สมาชิกทีม TRY3 มุ่งมั่นกับการแข่งขันการ์ดเกมครั้งใหญ่ที่พวกเขาต้องเผชิญกับนักแข่งระดับตำนานโดยไม่รู้ว่าเบื้องหลังมีการวางแผนร้ายที่จะทำลายสมาพันธ์แวนการ์ดผู้จัดแข่งเกมนี้]]></desc>
+  </programme>
+  <programme start="20201027150000 +0700" stop="20201027153000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[โปเกมอน ซันแอนด์มูน]]></title>
+    <sub-title><![CDATA[KIDS :: Animation]]></sub-title>
+    <desc><![CDATA[ขอต้อนรับสู่โลกของโปเกม่อนซึ่งเด็กๆจะเป็นผู้ฝึกสอนการต่อสู้ให้กับเหล่าโปเกม่อนและส่งพวกมันไปประลองฝีมือเพื่อชิงความเป็นหนึ่ง]]></desc>
+  </programme>
+  <programme start="20201027153000 +0700" stop="20201027160000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[สงครามเกมส์ไพ่ วีเอสอาร์เอฟ]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[เรื่องราวของ คัตตะ ที่ปลุกจิตวิญญาณนักสู้ในตัวขึ้นอีกครั้งและหวนคืนสู่เส้นทางเพื่อความเป็นนักเล่นเกมการ์ดผู้ยิ่งยงจนได้พบปะกับเพื่อนและศัตรูหน้าใหม่ๆรวมถึงการประลองครั้งสำคัญ]]></desc>
+  </programme>
+  <programme start="20201027160000 +0700" stop="20201027163000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[ปาร์แมน   [ 2 ]]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[เรื่องราวของเด็กชายในโรงเรียนประถมที่ได้รับพลังพิเศษจนกลายเป็นยอดมนุษย์ปาร์แมนและได้ออกช่วยเหลือผู้คนพร้อมกับพิทักษ์ปฐพีไปพร้อมๆกัน]]></desc>
+  </programme>
+  <programme start="20201027163000 +0700" stop="20201027170000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[เฮลโล! ครอบครัวสี่ขา   [ 2 ]]]></title>
+    <sub-title><![CDATA[KIDS :: Animation]]></sub-title>
+    <desc><![CDATA[พบกับเรื่องราวแสนสนุกของแมวน้อยและสุนัขเพื่อนรักที่จะมาทำให้คุณได้อมยิ้มไปกับความน่ารักของพวกเขา]]></desc>
+  </programme>
+  <programme start="20201027170000 +0700" stop="20201027173000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[โทบอต แอธลอน]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[พบกับเรื่องราวสุดสนุกของเหล่านักเรียนกับภารกิจในการเข้าแข่งขันรถหุ่นยนต์ซุปเปอร์ไคล์ฮิวจ์ที่จะทำให้ฝันของพวกเขาเป็นจริง]]></desc>
+  </programme>
+  <programme start="20201027173000 +0700" stop="20201027180000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[กัปตันไบเซ็ปส์]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[พบกับการผจญภัยอันน่าตื่นเต้นของสุดยอดฮีโร่และเพื่อนสนิทผู้ซื่อสัตย์ในภารกิจพิทักษ์โลกให้ปลอดภัยจากเหล่าวายร้าย]]></desc>
+  </programme>
+  <programme start="20201027180000 +0700" stop="20201027183000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[นักสืบรุ่นจิ๋ว]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[เรื่องราวของนักสืบ โคนัน ที่ใช้อุปกรณ์ประดิษฐ์พิเศษช่วยคลี่คลายคดีต่างๆด้วยหลักการและเหตุผล]]></desc>
+  </programme>
+  <programme start="20201027183000 +0700" stop="20201027190000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[ฮีโร่ส์ เดอะแบทเทิ้ลดิสก์ส]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[มาร่วมปกป้องโลกของพวกเขาจากกองกำลังมืดไปด้วยกันกับเหล่าฮีโร่คนเก่ง]]></desc>
+  </programme>
+  <programme start="20201027190000 +0700" stop="20201027193000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[บาคุกัน มอนสเตอร์บอล ทะลุมิติ ภาค 5]]></title>
+    <sub-title><![CDATA[KIDS :: Animation]]></sub-title>
+    <desc><![CDATA[ออกไปผจญภัยสุดสนุกกับพวกเขากันอีกครั้งกับ แดน และ บาคุกัน]]></desc>
+  </programme>
+  <programme start="20201027193000 +0700" stop="20201027200300 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[ยูกิโอ เวรนส์   [ 3 ]]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[เรื่องราวการแข่งขันแห่งโลกเสมือนจริงซึ่งผู้เล่นสามารถสร้างตัวอวตารขึ้นมาในเกมดวลสัตว์ประหลาด]]></desc>
+  </programme>
+  <programme start="20201027200300 +0700" stop="20201027203000 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[ซอยด์ไวลด์ ศึกจักรกลไดโนเสาร์ถล่มโลก]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[พบกับตำนานบทใหม่ของหุ่นจักรกลขนาดยักษ์ซึ่งพัฒนามาจากรูปร่างของสัตว์ร้ายจนกลายมาเป็นนักรบไดโนเสาร์]]></desc>
+  </programme>
+  <programme start="20201027203000 +0700" stop="20201027235959 +0700" channel="truesparkjump.iptv36.my.to">
+    <title><![CDATA[ขบวนการอวกาศ คิวเรนเจอร์]]></title>
+    <sub-title><![CDATA[KIDS :: Kids]]></sub-title>
+    <desc><![CDATA[เรื่องราวของเก้ายอดนักรบในนาม คิวเรนเจอร์ ที่ลุกขึ้นมาปกป้องผืนพิภพและจักรวาลจากเงื้อมมือของผู้รุกรานนอกอวกาศ]]></desc>
   </programme>
   <programme start="20201027000000 +0700" stop="20201027000100 +0700" channel="truesparkplay.iptv36.my.to">
     <title><![CDATA[เพลงสรรเสริญพระบารมี ร.10]]></title>
@@ -6443,26 +6674,6 @@
   <programme start="20201027230000 +0700" stop="20201027235959 +0700" channel="truesporthd2.iptv36.my.to">
     <title><![CDATA[Jet Ski Pro Tour 2020]]></title>
   </programme>
-  <programme start="20201027153000 +0700" stop="20201027160000 +0700" channel="voice.iptv36.my.to">
-    <title><![CDATA[TV Direct 15:30 น.]]></title>
-    <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
-  </programme>
-  <programme start="20201027160000 +0700" stop="20201027170000 +0700" channel="voice.iptv36.my.to">
-    <title><![CDATA[ภาพยนตร์จีนชุด]]></title>
-    <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
-  </programme>
-  <programme start="20201027170000 +0700" stop="20201027173000 +0700" channel="voice.iptv36.my.to">
-    <title><![CDATA[TV Direct 17:00]]></title>
-    <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
-  </programme>
-  <programme start="20201027173000 +0700" stop="20201027180000 +0700" channel="voice.iptv36.my.to">
-    <title><![CDATA[Voice GO]]></title>
-    <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
-  </programme>
-  <programme start="20201027180000 +0700" stop="20201027183000 +0700" channel="voice.iptv36.my.to">
-    <title><![CDATA[Overview]]></title>
-    <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
-  </programme>
   <programme start="20201027183000 +0700" stop="20201027200000 +0700" channel="voice.iptv36.my.to">
     <title><![CDATA[Talking Thailand]]></title>
     <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
@@ -6583,23 +6794,17 @@
     <title><![CDATA[TV DIRECT PROGRAM]]></title>
     <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
   </programme>
-  <programme start="20201027150000 +0700" stop="20201027155000 +0700" channel="warnertv.iptv36.my.to">
-    <title><![CDATA[Person Of Interest S3 EP.13]]></title>
+  <programme start="20201029060000 +0700" stop="20201029063000 +0700" channel="voice.iptv36.my.to">
+    <title><![CDATA[TV DIRECT SHOWCASE 06:00 น.]]></title>
+    <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
   </programme>
-  <programme start="20201027155000 +0700" stop="20201027164000 +0700" channel="warnertv.iptv36.my.to">
-    <title><![CDATA[DC's Stargirl S1 EP.4]]></title>
+  <programme start="20201029063000 +0700" stop="20201029070000 +0700" channel="voice.iptv36.my.to">
+    <title><![CDATA[คุยธรรมะกับพระพยอม]]></title>
+    <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
   </programme>
-  <programme start="20201027164000 +0700" stop="20201027173000 +0700" channel="warnertv.iptv36.my.to">
-    <title><![CDATA[Supergirl S4 EP.09]]></title>
-  </programme>
-  <programme start="20201027173000 +0700" stop="20201027182000 +0700" channel="warnertv.iptv36.my.to">
-    <title><![CDATA[Person Of Interest S3 EP.13]]></title>
-  </programme>
-  <programme start="20201027182000 +0700" stop="20201027184500 +0700" channel="warnertv.iptv36.my.to">
-    <title><![CDATA[The Big Bang Theory S9 EP.02]]></title>
-  </programme>
-  <programme start="20201027184500 +0700" stop="20201027191000 +0700" channel="warnertv.iptv36.my.to">
-    <title><![CDATA[Friends S9 EP.2]]></title>
+  <programme start="20201029070000 +0700" stop="20201029073000 +0700" channel="voice.iptv36.my.to">
+    <title><![CDATA[The Toppick]]></title>
+    <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
   </programme>
   <programme start="20201027191000 +0700" stop="20201027193500 +0700" channel="warnertv.iptv36.my.to">
     <title><![CDATA[Storage Hunters S6 EP.22]]></title>
@@ -6723,5 +6928,17 @@
   </programme>
   <programme start="20201029031500 +0700" stop="20201029040500 +0700" channel="warnertv.iptv36.my.to">
     <title><![CDATA[Supergirl S4 EP.10]]></title>
+  </programme>
+  <programme start="20201029040500 +0700" stop="20201029050000 +0700" channel="warnertv.iptv36.my.to">
+    <title><![CDATA[The Flash S5 EP.12]]></title>
+  </programme>
+  <programme start="20201029050000 +0700" stop="20201029055000 +0700" channel="warnertv.iptv36.my.to">
+    <title><![CDATA[World's Dumbest S17 EP.7]]></title>
+  </programme>
+  <programme start="20201029055000 +0700" stop="20201029064000 +0700" channel="warnertv.iptv36.my.to">
+    <title><![CDATA[Supergirl S4 EP.11]]></title>
+  </programme>
+  <programme start="20201029064000 +0700" stop="20201029073000 +0700" channel="warnertv.iptv36.my.to">
+    <title><![CDATA[The Flash S5 EP.13]]></title>
   </programme>
 </tv>

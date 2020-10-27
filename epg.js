@@ -73,7 +73,7 @@ const getEpgDataFromAisPlay = async () => {
     '5ee1eb4d0f24872fd951d196': 'paramount.iptv36.my.to',
     '597e004b7ed5a24e46f6725a': 'warnertv.iptv36.my.to',
     '5e44faeeaae73158d325f8f9': 'hitsmovies.iptv36.my.to',
-    '597bd2a07ed5a24e46f6724f': 'm.iptv36.my.to',
+    // '597bd2a07ed5a24e46f6724f': 'm.iptv36.my.to',
     '596716e6bf6aee05dcdfc119': 'voice.iptv36.my.to',
     '5e69984f609ced33cfa4e734': 'bein1.iptv36.my.to',
     '5e699a69bf6aee30a499dc9b': 'bein2.iptv36.my.to',
@@ -171,6 +171,7 @@ const getEpgDataFromTrueVisions = async () => {
     },
     kids: {
       '#page1': 'truesparkplay.iptv36.my.to',
+      '#page2': 'truesparkjump.iptv36.my.to',
       '#page3': 'disneyxd.iptv36.my.to',
     },
   };

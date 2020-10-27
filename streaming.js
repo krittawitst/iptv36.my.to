@@ -12,9 +12,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/tv5.png',
     tvgId: 'th-dtv01.iptv36.my.to',
     urlList: [
-      // 'https://dootvthai-hd.com/cmd/api/true/ch5-hd/playlist.m3u8', // 1080p
       'http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8', // 1080p
-      // 'http://27.254.130.56/live01/ch6.m3u8?p=st',
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -24,7 +22,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/nbt.png',
     tvgId: 'th-dtv02.iptv36.my.to',
     urlList: [
-      // 'https://dootvthai-hd.com/cmd/api/true/nbt-hd/playlist.m3u8', // 1080p
       'http://122.155.92.8:1935/live/ch1_L.sdp/playlist.m3u8', // 720p
     ],
     groupName: thDtvWithCurrentDate,
@@ -36,7 +33,6 @@ const streamingInfo = {
     tvgId: 'th-dtv03.iptv36.my.to',
     urlList: [
       'http://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8', //1080p
-      // 'https://dootvthai-hd.com/cmd/true/thaipbshd/playlist.m3u8', // 1080p
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chthaipbs/index.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
@@ -59,7 +55,7 @@ const streamingInfo = {
     tvgId: 'th-dtv10.iptv36.my.to',
     urlList: [
       'http://49.231.66.85:1935/live/tptv/playlist.m3u8', // 240p
-      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_TPTV_480p/chunklist.m3u8'],
+      ['[NO HW+]', 'http://livedoomovie.com/02_TPTV_480p/chunklist.m3u8'],
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -69,8 +65,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/tnn16.png',
     tvgId: 'th-dtv16.iptv36.my.to',
     urlList: [
-      // ['HD', 'https://dootvthai-hd.com/cmd/true/tnn-16/playlist.m3u8'], // 1080p
-      // 'http://27.254.130.56/live01/chsd_TNN_5.m3u8?p=st', // 720p upscale
+      'http://27.254.130.56/live01/chsd_TNN_5.m3u8?p=st', // 720p upscale
       'http://119.59.125.74/stream/totnew.php?channel_id=77774220bb8e40aa94e549e29ff3ed8a&.m3u8', // 240p
     ],
     groupName: thDtvWithCurrentDate,
@@ -89,8 +84,7 @@ const streamingInfo = {
         'HD',
         'https://stream-02.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54xcMLoS2aK8AExf8b_BiPak)/dm/3/x7kx5i7/s/live-3.m3u8',
       ], // 720p
-      ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/newtv/index.m3u8'],
-      // 'https://dootvthai-hd.com/cmd/api/true/new-tv/playlist.m3u8', // 576p
+      ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/newtv/index.m3u8'], // 720p upscale
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -104,8 +98,7 @@ const streamingInfo = {
         'HD',
         'https://stream-04.sg1.dailymotion.com/sec(ccIVIlWaGsSkNrAGI3_YSYd1OgOdrI_qPlB5fU0Jfa8)/dm/3/x6eoldf/d/live-3.m3u8',
       ], // 720p
-      // 'https://dootvthai-hd.com/cmd/api/true/nationtv/playlist.m3u8', // 576p
-      ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chnation/index.m3u8'],
+      ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chnation/index.m3u8'], // 720p upscale
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -119,8 +112,7 @@ const streamingInfo = {
         'HD',
         'https://stream-02.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8nSs7CGuzewffp95CvAfa9E)/dm/3/x6g9qjj/s/live-3.m3u8',
       ], // 720p
-      // 'http://27.254.130.56/live01/ch7.m3u8', // 720p
-      // 'https://dootvthai-hd.com/cmd/true/Workpointtv/playlist.m3u8', // 576p
+      'http://27.254.130.56/live01/ch7.m3u8', // 720p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -130,7 +122,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/true4u.png',
     tvgId: 'th-dtv24.iptv36.my.to',
     urlList: [
-      // ['HD', 'https://dootvthai-hd.com/cmd/true/true4u/playlist.m3u8'], // 1080p
       'http://183.182.100.184/live/true4u/chunklist.m3u8', // 360p
     ],
     groupName: thDtvWithCurrentDate,
@@ -145,10 +136,9 @@ const streamingInfo = {
         'HD',
         'https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_WtBpZYt9OOLB_NzOdrPK5k)/dm/3/x6rz4t7/s/live-3.m3u8',
       ], // 720p
-      'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8',
+      'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8', // 720p upscale
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chgmm/index.m3u8'], // 720p upscale
       'http://183.182.100.184/live/mcothd/playlist.m3u8', // 360p
-      // 'http://27.254.130.56:80/live01/ch11.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -159,9 +149,8 @@ const streamingInfo = {
     tvgId: 'th-dtv27.iptv36.my.to',
     urlList: [
       ['HD', 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8'], // 720p
-      // 'https://dootvthai-hd.com/cmd/api/true/ch8-hd/playlist.m3u8', // 576p
+      'http://27.254.130.56/live01/ch15.m3u8?p=st', // 720p upscale
       'http://stream.rs.co.th/ch8-hi/index.m3u8', // 360p loud
-      'http://27.254.130.56/live01/ch15.m3u8?p=st',
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -175,7 +164,6 @@ const streamingInfo = {
         'HD',
         'https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/playlist.m3u8',
       ], // 1080p
-      // 'https://dootvthai-hd.com/cmd/api/true/mono29/playlist.m3u8', // 576p
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chmono29/index.m3u8'], // 720p upscale
       [
         'HD',
@@ -201,7 +189,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/mcot.png',
     tvgId: 'th-dtv30.iptv36.my.to',
     urlList: [
-      // 'https://dootvthai-hd.com/cmd/api/true/9MCOT-HD/playlist.m3u8',
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chmcothd/index.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
@@ -212,7 +199,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/one.png',
     tvgId: 'th-dtv31.iptv36.my.to',
     urlList: [
-      // 'https://dootvthai-hd.com/cmd/api/true/ONE-HD/playlist.m3u8', // 1080p
       'https://iptv36.my.to/one.m3u8', // 720p
       'https://one31-rlbwkq.cdn.byteark.com/live/playlist-hd.m3u8', // 240p auto
     ],
@@ -224,7 +210,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/thairath.png',
     tvgId: 'th-dtv32.iptv36.my.to',
     urlList: [
-      // 'https://dootvthai-hd.com/cmd/true/thairathtv-hd/playlist.m3u8', // 1080p
       'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8', // 720p
       'https://live.thairath.co.th/trtv2/playlist.m3u8', // 720p auto
     ],
@@ -236,11 +221,9 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/ch3.png',
     tvgId: 'th-dtv33.iptv36.my.to',
     urlList: [
-      // ['HD', 'https://dootvthai-hd.com/cmd/api/true/CH3-HD/playlist.m3u8'], // 1080p
-      // ['HD', 'http://203.150.107.30:8081/tested2iptv/core11/playlist.m3u8'], // 1080p
       'http://119.59.125.74/stream/totnew.php?channel_id=a4485b656d764f308c63b14a8bf62326', // 480p
-      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_3HD_720p/chunklist.m3u8'],
-      'http://27.254.130.56/live01/ch0.m3u8?p=st', // 480p
+      ['[NO HW+]', 'http://livedoomovie.com/02_3HD_720p/chunklist.m3u8'], // 480p
+      // 'http://27.254.130.56/live01/ch0.m3u8?p=st', // 720p hang
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -250,10 +233,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/amarin.png',
     tvgId: 'th-dtv34.iptv36.my.to',
     urlList: [
-      // ['HD', 'https://dootvthai-hd.com/cmd/true/Amarintv-HD/playlist.m3u8'], // 1080p
       ['HD', 'http://119.59.125.74/stream/totnew.php?channel_id=78f57ebcf6064b308d75208a20756983'], // 720p
-      // ['HD', 'http://27.254.130.64:80/feed/chamarin/playlist.m3u8'], // 720p
-      // 'http://203.150.107.30:8081/tested2iptv/core13/playlist.m3u8', // 1080p upscale
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -264,7 +244,6 @@ const streamingInfo = {
     tvgId: 'th-dtv35.iptv36.my.to',
     urlList: [
       ['HD [NO HW+]', 'https://cdn6.goprimetime.info/feed/ch7hd/index.m3u8'], // 720p
-      // 'https://dootvthai-hd.com/cmd/true/CH7-HD/playlist.m3u8', // 576p
       'http://119.59.125.74/stream/totnew.php?channel_id=ddfa47e726444446864b14e0e819fdde&.m3u', // 480p
       'http://edge160.bugaboo.tv/liveedgech7_partner/smil:auto.smil/chunklist_b1210000_sleng.m3u8', // 480p
     ],
@@ -279,7 +258,7 @@ const streamingInfo = {
       // ['HD', 'https://dootvthai-hd.com/cmd/true/PPTV-HD/playlist.m3u8'], // 1080p
       // ['HD', 'http://203.150.107.30:8081/tested2iptv/core1/playlist.m3u8'], // 720p
       // ['HD', // 'http://27.254.130.56/live01/ch2.m3u8?p=st'], // 720p?
-      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_PPTVHD_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'http://livedoomovie.com/02_PPTVHD_720p/chunklist.m3u8'],
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -290,8 +269,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/bein1.png',
     tvgId: 'bein1.iptv36.my.to',
     urlList: [
-      // 'http://203.150.107.30:8081/tested2iptv/core2/playlist.m3u8', // 720p
-      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_epl1_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'http://livedoomovie.com/02_epl1_720p/chunklist.m3u8'],
       'http://103.208.24.234:1935/thaisport/epl-bein1.stream/playlist.m3u8', // 480p
     ],
     groupName: 'SPORT',
@@ -302,8 +280,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/bein2.png',
     tvgId: 'bein2.iptv36.my.to',
     urlList: [
-      // 'http://203.150.107.30:8081/tested2iptv/core4/playlist.m3u8', // 720p
-      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_epl2_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'http://livedoomovie.com/02_epl2_720p/chunklist.m3u8'],
       'http://103.208.24.234:1935/thaisport/epl-bein2.stream/playlist.m3u8', // 480p
     ],
     groupName: 'SPORT',
@@ -314,11 +291,9 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/premier_hd1.png',
     tvgId: 'premier1.iptv36.my.to',
     urlList: [
-      // 'http://203.150.107.30:8081/tested2iptv/core101/playlist.m3u8', // 720p60
-      // 'https://dootvthai-hd.com/cmd/true/ep1-1/playlist.m3u8', //1080p
-      'http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8', //720p
-      'http://160.119.77.116:8081/iptv/epl-1.stream/playlist.m3u8', //720p
-      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_PremierHD1_720p/chunklist.m3u8'],
+      'http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8', // 720p
+      'http://160.119.77.116:8081/iptv/epl-1.stream/playlist.m3u8', // 720p
+      ['[NO HW+]', 'http://livedoomovie.com/02_PremierHD1_720p/chunklist.m3u8'],
     ],
     groupName: 'SPORT',
   },
@@ -328,11 +303,9 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/premier_hd2.png',
     tvgId: 'premier2.iptv36.my.to',
     urlList: [
-      // 'http://203.150.107.30:8081/tested2iptv/core102/playlist.m3u8', // 720p60
-      // 'https://dootvthai-hd.com/cmd/true/ep1-2/playlist.m3u8', //1080p
       'http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8', // 720p
       'http://160.119.77.116:8081/iptv/epl-2.stream/playlist.m3u8', // 720p
-      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_PremierHD2_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'http://livedoomovie.com/02_PremierHD2_720p/chunklist.m3u8'],
     ],
     groupName: 'SPORT',
   },
@@ -342,9 +315,8 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/premier_hd3.png',
     urlList: [
       'http://103.208.24.234:1935/thaisport/epl-3.stream/playlist.m3u8', // 720p
-      // 'https://dootvthai-hd.com/cmd/true/ep1-3/playlist.m3u8', // 1080p
       'http://160.119.77.116:8081/iptv/epl-3.stream/playlist.m3u8', // 720p
-      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_PremierHD3_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'http://livedoomovie.com/02_PremierHD3_720p/chunklist.m3u8'],
     ],
     groupName: 'SPORT',
   },
@@ -353,10 +325,9 @@ const streamingInfo = {
     channelName: 'Premier HD4',
     logo: 'https://iptv36.my.to/logo/premier_hd4.png',
     urlList: [
-      // 'https://dootvthai-hd.com/cmd/true/ep1-4/playlist.m3u8', // 1080p
       'http://103.208.24.234:1935/thaisport/epl-4.stream/playlist.m3u8', // 720p
       'http://160.119.77.116:8081/iptv/epl-4.stream/playlist.m3u8', // 720p
-      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_PremierHD4_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'http://livedoomovie.com/02_PremierHD4_720p/chunklist.m3u8'],
     ],
     groupName: 'SPORT',
   },
@@ -365,10 +336,9 @@ const streamingInfo = {
     channelName: 'Premier HD5',
     logo: 'https://iptv36.my.to/logo/premier_hd5.png',
     urlList: [
-      // 'https://dootvthai-hd.com/cmd/true/ep1-5/playlist.m3u8', // 1080p
       'http://103.208.24.234:1935/thaisport/epl-5.stream/playlist.m3u8', // 720p
       'http://160.119.77.116:8081/iptv/epl-5.stream/playlist.m3u8', // 720p
-      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_PremierHD5_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'http://livedoomovie.com/02_PremierHD5_720p/chunklist.m3u8'],
     ],
     groupName: 'SPORT',
   },
@@ -378,7 +348,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/true_sports_hd.png',
     tvgId: 'truesporthd.iptv36.my.to',
     urlList: [
-      // 'https://dootvthai-hd.com/cmd/true/truesport-hd/playlist.m3u8', // 1080p
       'http://103.208.24.234:1935/thaisport/hd-tsport1.stream/chunklist.m3u8', // 720p
     ],
     groupName: 'SPORT',
@@ -389,7 +358,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/true_sports_hd2.png',
     tvgId: 'truesporthd2.iptv36.my.to',
     urlList: [
-      // 'https://dootvthai-hd.com/cmd/true/truesport-hd2/playlist.m3u8', // 1080p
       'http://103.208.24.234:1935/thaisport/hd-tsport2.stream/chunklist.m3u8', // 720p
     ],
     groupName: 'SPORT',
@@ -400,7 +368,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/truesports2.png',
     tvgId: 'truesport2.iptv36.my.to',
     urlList: [
-      // 'https://dootvthai-hd.com/cmd/true/truesport-2/playlist.m3u8', // 576p
       'http://103.208.24.234:1935/thaisport/sd-tsport2.stream/chunklist.m3u8', // 576p
     ],
     groupName: 'SPORT',
@@ -412,7 +379,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/cartoonclub.png',
     tvgId: 'cartoonclub.iptv36.my.to',
     urlList: [
-      // 'https://dootvthai-hd.com/cmd/api/true/cartoonclub/playlist.m3u8',
       'http://edge4-bkk.3bb.co.th:1935/CartoonClub_Livestream/cartoonclub_480P.stream/playlist.m3u8',
     ],
     groupName: 'CARTOON',
@@ -422,11 +388,7 @@ const streamingInfo = {
     channelName: 'Cartoon Network HD',
     logo: 'https://iptv36.my.to/logo/cnhd.png',
     tvgId: 'cartoonnetwork.iptv36.my.to',
-    urlList: [
-      // 'https://dootvthai-hd.com/cmd/api/true/cartoon-network-hd/playlist.m3u8',
-      'https://r4-sn-w5nuxa-o53d.googlevideocdn.com/kids/cnhd/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCA2OjI5OjQwIEFNJmhhc2hfdmFsdWU9L0EyeTRUOC81TW41cE9pVmJlZytIUT09JnZhbGlkbWludXRlcz0yMA==',
-      'https://stream1.xn--l3cm7a5azd.live/02_CartoonNetwork_720p/chunklist.m3u8',
-    ],
+    urlList: [['[NO HW+]', 'http://livedoomovie.com/02_CartoonNetwork_720p/chunklist.m3u8']],
     groupName: 'CARTOON',
   },
 
@@ -434,10 +396,7 @@ const streamingInfo = {
     channelName: 'Disney XD',
     logo: 'https://iptv36.my.to/logo/disneyxd.png',
     tvgId: 'disneyxd.iptv36.my.to',
-    urlList: [
-      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_DisneyXD_720p/chunklist.m3u8'],
-      'http://203.150.107.30:8081/tested2iptv/core107/playlist.m3u8',
-    ],
+    urlList: [['[NO HW+]', 'http://livedoomovie.com/02_DisneyXD_720p/chunklist.m3u8']],
     groupName: 'CARTOON',
   },
 
@@ -445,7 +404,7 @@ const streamingInfo = {
     channelName: 'nickelodeon',
     logo: 'https://iptv36.my.to/logo/nick.png',
     tvgId: 'nickelodeon.iptv36.my.to',
-    urlList: ['https://dootvthai-hd.com/cmd/api/true/nickelodeon/playlist.m3u8'],
+    urlList: [],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -453,7 +412,15 @@ const streamingInfo = {
     channelName: 'True Spark Play',
     logo: 'https://iptv36.my.to/logo/truesparkplay.png',
     tvgId: 'truesparkplay.iptv36.my.to',
-    urlList: ['https://dootvthai-hd.com/cmd/true/true-spark-play/playlist.m3u8'],
+    urlList: [],
+    groupName: 'CARTOON',
+  },
+
+  truesparkjump: {
+    channelName: 'True Spark Jump',
+    logo: 'https://iptv36.my.to/logo/truesparkjump.png',
+    tvgId: 'truesparkjump.iptv36.my.to',
+    urlList: [],
     groupName: 'CARTOON',
   },
 
@@ -490,7 +457,7 @@ const streamingInfo = {
   },
 
   discoveryasia: {
-    channelName: 'Discovery Asia',
+    channelName: 'Discovery Asia HD',
     logo: 'https://iptv36.my.to/logo/discoveryasia.png',
     tvgId: 'discoveryasia.iptv36.my.to',
     urlList: ['https://doofootball.livestream-cdn.com:443/iptv/hd-discovery.stream/chunks.m3u8'],
@@ -501,11 +468,7 @@ const streamingInfo = {
     channelName: 'FOX Movies HD',
     logo: 'https://iptv36.my.to/logo/foxmovies.png',
     tvgId: 'foxmovies.iptv36.my.to',
-    urlList: [
-      // 'https://dootvthai-hd.com/cmd/api/true/Fox-Movie/playlist.m3u8',
-      // 'http://203.150.107.30:8081/tested2iptv/core12/playlist.m3u8',
-      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_FoxMoviesTH_720p/chunklist.m3u8'],
-    ],
+    urlList: [['[NO HW+]', 'http://livedoomovie.com/02_FoxMoviesTH_720p/chunklist.m3u8']],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -513,7 +476,7 @@ const streamingInfo = {
     channelName: 'Fox Action Movies HD',
     logo: 'https://iptv36.my.to/logo/foxactionmovies.png',
     tvgId: 'foxactionmovies.iptv36.my.to',
-    urlList: ['https://dootvthai-hd.com/cmd/api/true/Fox-Action/playlist.m3u8'],
+    urlList: [],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -521,7 +484,7 @@ const streamingInfo = {
     channelName: 'Fox Family Movies HD',
     logo: 'https://iptv36.my.to/logo/foxfamilymovies.png',
     tvgId: 'foxfamilymovies.iptv36.my.to',
-    urlList: ['http://203.150.107.30:8081/tested2iptv/core14/playlist.m3u8'],
+    urlList: [],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -537,10 +500,7 @@ const streamingInfo = {
     channelName: 'FOX Thai HD',
     logo: 'https://iptv36.my.to/logo/foxthai.png',
     tvgId: 'foxthai.iptv36.my.to',
-    urlList: [
-      // 'https://dootvthai-hd.com/cmd/api/true/Fox-Thai/playlist.m3u8',
-      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_FoxThai_TH_720p/chunklist.m3u8'],
-    ],
+    urlList: [['[NO HW+]', 'http://livedoomovie.com/02_FoxThai_TH_720p/chunklist.m3u8']],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -549,7 +509,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/hbo.png',
     urlList: [
       'https://liveorigin01.hbogoasia.com:8443/origin/live/HBO/index.m3u8?HBO',
-      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_HBOHD_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'http://livedoomovie.com/02_HBOHD_720p/chunklist.m3u8'],
     ],
     groupName: 'ENTERTAINMENT',
   },
@@ -558,11 +518,7 @@ const streamingInfo = {
     channelName: 'History HD',
     logo: 'https://iptv36.my.to/logo/history.png',
     tvgId: 'history.iptv36.my.to',
-    urlList: [
-      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_HISTORYHD_720p/chunklist.m3u8'],
-      // 'https://dootvthai-hd.com/cmd/api/true/history-channel-hd/playlist.m3u8',
-      // 'http://203.150.107.30:8081/tested2iptv/core105/playlist.m3u8',
-    ],
+    urlList: [['[NO HW+]', 'http://livedoomovie.com/02_HISTORYHD_720p/chunklist.m3u8']],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -570,11 +526,7 @@ const streamingInfo = {
     channelName: 'History2 HD',
     logo: 'https://iptv36.my.to/logo/history2.png',
     tvgId: 'history2.iptv36.my.to',
-    urlList: [
-      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_H2HD_720p/chunklist.m3u8'],
-      // 'https://dootvthai-hd.com/cmd/api/true/h2/playlist.m3u8',
-      // 'http://203.150.107.30:8081/tested2iptv/core106/playlist.m3u8',
-    ],
+    urlList: [['[NO HW+]', 'http://livedoomovie.com/02_H2HD_720p/chunklist.m3u8']],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -582,14 +534,14 @@ const streamingInfo = {
     channelName: 'Hits Movies HD',
     logo: 'https://iptv36.my.to/logo/hitsmovies.png',
     tvgId: 'hitsmovies.iptv36.my.to',
-    urlList: [['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_HITSMOVIE_720p/chunklist.m3u8']],
+    urlList: [['[NO HW+]', 'http://livedoomovie.com/02_HITSMOVIE_720p/chunklist.m3u8']],
     groupName: 'ENTERTAINMENT',
   },
 
   idstation: {
     channelName: 'ID Station',
     logo: 'https://iptv36.my.to/logo/idstation.png',
-    urlList: ['https://dootvthai-hd.com/cmd/api/true/idstation/playlist.m3u8'],
+    urlList: [],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -614,9 +566,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/m.png',
     tvgId: 'm.iptv36.my.to',
     urlList: [
-      // 'https://dootvthai-hd.com/cmd/true/mchannel/playlist.m3u8',
       'http://27.254.142.207:8080/live/web.m3u8',
-      // 'http://27.254.130.61/live01/ch19.m3u8?p=st',
       'https://edge6a.v2h-cdn.com/appt3/WOWSH.stream_720p/chunklist_w142679599.m3u8',
     ],
     groupName: 'ENTERTAINMENT',
@@ -627,7 +577,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/monoplus.png',
     urlList: [
       'https://edge4-bkk.3bb.co.th:9443/MonoPlus_LiveHLS/monoplusLive_HLS1080p.stream/chunklist.m3u8', // 1080p50
-      'http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/cloudiptv_monoplus_live1.stream/playlist.m3u8?username=mTRTvdvQbtd1DsswhsZTMoZUdI8MT4W6&password=Rp93AKS1peyuyYDApZw6sThMshGL1vvO', // 720p
+      // 'http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/cloudiptv_monoplus_live1.stream/playlist.m3u8?username=mTRTvdvQbtd1DsswhsZTMoZUdI8MT4W6&password=Rp93AKS1peyuyYDApZw6sThMshGL1vvO', // 720p
     ],
     groupName: 'ENTERTAINMENT',
   },
@@ -636,10 +586,7 @@ const streamingInfo = {
     channelName: 'NAT GEO HD',
     logo: 'https://iptv36.my.to/logo/natgeo.png',
     tvgId: 'natgeo.iptv36.my.to',
-    urlList: [
-      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/sumrujlok_goodtv/chunklist.m3u8'],
-      // 'http://dootvthai-hd.com/cmd/true/national-geographic-hd/playlist.m3u8'
-    ],
+    urlList: [['[NO HW+]', 'http://livedoomovie.com/sumrujlok_goodtv/chunklist.m3u8']],
     groupName: 'NEWS & DOCS',
   },
 
@@ -675,14 +622,14 @@ const streamingInfo = {
   trueplookpanya: {
     channelName: 'True Plook Panya',
     logo: 'https://iptv36.my.to/logo/trueplookpanya.png',
-    urlList: ['https://dootvthai-hd.com/cmd/api/true/trueplookpanya/playlist.m3u8'],
+    urlList: [],
     groupName: 'NEWS & DOCS',
   },
 
   // truexzyte: {
   //   channelName: 'True X-Zyte',
   //   logo: 'https://iptv36.my.to/logo/truexzyte.png',
-  //   urlList: ['https://dootvthai-hd.com/cmd/api/true/true-x-zyte-hd/playlist.m3u8'],
+  //   urlList: [],
   //   groupName: 'ENTERTAINMENT',
   // },
 
@@ -715,37 +662,52 @@ const streamingInfo = {
 };
 
 const dynamicallyAddStreamingUrlFromWePlay = async () => {
+  console.log('\nGetting dynamic streaming url...');
+  console.log('==> Done');
+
   // config
-  let config = {
-    true4u: 'https://www.we-play.tv/watching/tv/true4u',
-    ch3: 'https://www.we-play.tv/watching/tv/ch3-hd',
-    ch7: 'https://www.we-play.tv/watching/tv/ch7-hd',
-    pptv: 'https://www.we-play.tv/watching/tv/pptv-hd',
-    history: 'https://www.we-play.tv/watching/tv/history-hd',
-    history2: 'https://www.we-play.tv/watching/tv/history-h2',
-    natgeo: 'https://www.we-play.tv/watching/tv/national-geographic',
-    cartoonnetwork: 'https://www.we-play.tv/watching/tv/cartoon-network',
-    truesparkplay: 'https://www.we-play.tv/watching/tv/true-spark-play',
-    nickelodeon: 'https://www.we-play.tv/watching/tv/nickelodeon',
-    foxmovies: 'https://www.we-play.tv/watching/tv/fox-movies',
-    foxactionmovies: 'https://www.we-play.tv/watching/tv/fox-action-movies',
-    foxfamilymovies: 'https://www.we-play.tv/watching/tv/fox-family-movies',
-    foxlife: 'https://www.we-play.tv/watching/tv/fox-life',
-    foxthai: 'https://www.we-play.tv/watching/tv/fox-thai',
-    hbo: 'https://www.we-play.tv/watching/tv/hbo-hd',
-    warnertv: 'https://www.we-play.tv/watching/tv/warner-tv',
-    paramount: 'https://www.we-play.tv/watching/tv/paramount-channel',
-    blueantent: 'https://www.we-play.tv/watching/tv/blueant-entertainment',
-    truesport2: 'https://www.we-play.tv/watching/tv/true-sports-2',
-    truesporthd2: 'https://www.we-play.tv/watching/tv/true-sports-hd-2',
-    truesporthd: 'https://www.we-play.tv/watching/tv/true-sports-hd',
-    bein1: 'https://www.we-play.tv/watching/tv/bein-sports-1',
-    bein2: 'https://www.we-play.tv/watching/tv/bein-sports-2',
-  };
+  let config = [
+    ['true4u', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true4u'],
+    ['mcot', '[NO HW+]', 'https://www.we-play.tv/watching/tv/mcot-hd'],
+    ['one', '[NO HW+]', 'https://www.we-play.tv/watching/tv/one-hd'],
+    ['thairath', '[NO HW+]', 'https://www.we-play.tv/watching/tv/thairath-tv'],
+    ['ch3', 'HD [NO HW+]', 'https://www.we-play.tv/watching/tv/ch3-hd'],
+    ['amarin', 'HD [NO HW+]', 'https://www.we-play.tv/watching/tv/amarin-tv'],
+    ['ch7', 'HD [NO HW+]', 'https://www.we-play.tv/watching/tv/ch7-hd'],
+    ['pptv', 'HD [NO HW+]', 'https://www.we-play.tv/watching/tv/pptv-hd'],
+    ['discoveryasia', '[NO HW+]', 'https://www.we-play.tv/watching/tv/discovery-asia'],
+    ['history', '[NO HW+]', 'https://www.we-play.tv/watching/tv/history-hd'],
+    ['history2', '[NO HW+]', 'https://www.we-play.tv/watching/tv/history-h2'],
+    ['natgeo', '[NO HW+]', 'https://www.we-play.tv/watching/tv/national-geographic'],
+    ['foxmovies', '[NO HW+]', 'https://www.we-play.tv/watching/tv/fox-movies'],
+    ['foxactionmovies', '[NO HW+]', 'https://www.we-play.tv/watching/tv/fox-action-movies'],
+    ['foxfamilymovies', '[NO HW+]', 'https://www.we-play.tv/watching/tv/fox-family-movies'],
+    ['foxlife', '[NO HW+]', 'https://www.we-play.tv/watching/tv/fox-life'],
+    ['foxthai', '[NO HW+]', 'https://www.we-play.tv/watching/tv/fox-thai'],
+    ['hbo', 'HD [NO HW+]', 'https://www.we-play.tv/watching/tv/hbo-hd'],
+    ['warnertv', '[NO HW+]', 'https://www.we-play.tv/watching/tv/warner-tv'],
+    ['paramount', '[NO HW+]', 'https://www.we-play.tv/watching/tv/paramount-channel'],
+    ['blueantent', '[NO HW+]', 'https://www.we-play.tv/watching/tv/blueant-entertainment'],
+    ['premier1', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-premier-football-hd-1'],
+    ['premier2', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-premier-football-hd-2'],
+    ['premier3', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-premier-football-hd-3'],
+    ['premier4', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-premier-football-hd-4'],
+    ['premier5', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-premier-football-hd-5'],
+    ['truesport2', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-sports-2'],
+    ['truesporthd2', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-sports-hd-2'],
+    ['truesporthd', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-sports-hd'],
+    ['bein1', '[NO HW+]', 'https://www.we-play.tv/watching/tv/bein-sports-1'],
+    ['bein2', '[NO HW+]', 'https://www.we-play.tv/watching/tv/bein-sports-2'],
+    ['cartoonclub', '[NO HW+]', 'https://www.we-play.tv/watching/tv/cartoon-club'],
+    ['cartoonnetwork', '[NO HW+]', 'https://www.we-play.tv/watching/tv/cartoon-network'],
+    ['nickelodeon', '[NO HW+]', 'https://www.we-play.tv/watching/tv/nickelodeon'],
+    ['truesparkplay', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-spark-play'],
+    ['truesparkjump', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-spark-jump'],
+  ];
 
   let result = {};
   await Promise.all(
-    Object.entries(config).map(async ([channelKey, pageUrl]) => {
+    config.map(async ([channelKey, channelNameSuffix, pageUrl]) => {
       let rawPageHtml = '';
       try {
         const response = await axios.get(pageUrl);
@@ -762,7 +724,7 @@ const dynamicallyAddStreamingUrlFromWePlay = async () => {
           console.error(`Not recognize channel ${channelKey}`);
           return;
         }
-        streamingInfo[channelKey].urlList.unshift(['[NO HW+]', regExpMatchArray[1]]);
+        streamingInfo[channelKey].urlList.unshift([channelNameSuffix, regExpMatchArray[1]]);
       }
     })
   );

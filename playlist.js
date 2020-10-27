@@ -97,7 +97,7 @@ const proPlaylist = {
 
     // 71-72
     ['truesparkplay'],
-    ['idstation'],
+    ['truesparkjump'],
   ],
 };
 
