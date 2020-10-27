@@ -1,5 +1,5 @@
 const fs = require('fs');
-const getStreamingInfo = require('./streaming.js');
+const streaming = require('./streaming.js');
 const getEpgData = require('./epg.js');
 const allPlaylist = require('./playlist.js');
 
@@ -11,6 +11,9 @@ const currentBkkDatetimeStr = currentDatetimePlus7Hrs.toISOString().slice(0, 16)
 const main = async () => {
   // pre fetch epg data
   const epgDataPromise = getEpgData();
+
+  // dynamically add streaming url
+  await streaming.dynamicallyAddStreamingUrlFromWePlay();
 
   // generate M3U PLAYLIST file
   for (let playlist of allPlaylist) {
@@ -29,14 +32,14 @@ const main = async () => {
 
     await Promise.all(
       uniqueChannelKeyForThisPlaylist.map(async (channelKey) => {
-        await getStreamingInfo(channelKey);
+        await streaming.getStreamingInfo(channelKey);
       })
     );
 
     // generate playlist file
     for (let i = 0; i < playlist.channelList.length; i++) {
       let [channelKey, skip = 0] = playlist.channelList[i];
-      let streamingInfo = await getStreamingInfo(channelKey, skip);
+      let streamingInfo = await streaming.getStreamingInfo(channelKey, skip);
       let channelStr = `#EXTINF:-1 tvg-chno="${i + 1}" tvg-id="${
         streamingInfo.tvgId
       }" group-title="${streamingInfo.groupName}" tvg-logo="${

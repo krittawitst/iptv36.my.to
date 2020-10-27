@@ -57,19 +57,19 @@ const proPlaylist = {
     ['foxmovies'],
     ['foxactionmovies'],
     ['foxfamilymovies'],
-    ['foxthai'],
+    ['foxlife'],
 
     // 41-50
-    ['m'],
-    ['hitsmovies'],
+    ['foxthai'],
+    ['warnertv'],
+    ['paramount'],
     ['hbo'],
     ['axn'],
-    ['ctb'],
+    ['blueantent'],
     ['natgeo'],
     ['history'],
     ['history2'],
     ['discoveryasia'],
-    ['trueplookpanya'],
 
     // 51-60
     ['premier1'],

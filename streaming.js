@@ -143,7 +143,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-03.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_ZxxHwOCTQ7HElU1WzYnbxI)/dm/3/x6rz4t7/s/live-3.m3u8',
+        'https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_WtBpZYt9OOLB_NzOdrPK5k)/dm/3/x6rz4t7/s/live-3.m3u8',
       ], // 720p
       'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8',
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chgmm/index.m3u8'], // 720p upscale
@@ -475,15 +475,12 @@ const streamingInfo = {
   //   groupName: "PREMIUM",
   // },
 
-  // blueantent: {
-  //   channelName: "Blue Ant ENT HD",
-  //   logo: "https://iptv36.my.to/logo/blue_ant.jpg",
-  //   urlList: [
-  //     // 403 "http://160.119.77.50/iptv/hd-rtlcbs.stream/playlist.m3u8",
-  //     // sub indo "http://210.210.155.35:80/session/676c25ba-724e-11e9-834b-8ac28bf32f5a/dr9445/h/h16/01.m3u8",
-  //   ],
-  //   groupName: "PREMIUM",
-  // },
+  blueantent: {
+    channelName: 'Blue Ant ENT HD',
+    logo: 'https://iptv36.my.to/logo/blueantent.png',
+    urlList: [],
+    groupName: 'ENTERTAINMENT',
+  },
 
   ctb: {
     channelName: 'CTB TV',
@@ -498,6 +495,18 @@ const streamingInfo = {
     tvgId: 'discoveryasia.iptv36.my.to',
     urlList: ['https://doofootball.livestream-cdn.com:443/iptv/hd-discovery.stream/chunks.m3u8'],
     groupName: 'NEWS & DOCS',
+  },
+
+  foxmovies: {
+    channelName: 'FOX Movies HD',
+    logo: 'https://iptv36.my.to/logo/foxmovies.png',
+    tvgId: 'foxmovies.iptv36.my.to',
+    urlList: [
+      // 'https://dootvthai-hd.com/cmd/api/true/Fox-Movie/playlist.m3u8',
+      // 'http://203.150.107.30:8081/tested2iptv/core12/playlist.m3u8',
+      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_FoxMoviesTH_720p/chunklist.m3u8'],
+    ],
+    groupName: 'ENTERTAINMENT',
   },
 
   foxactionmovies: {
@@ -516,20 +525,16 @@ const streamingInfo = {
     groupName: 'ENTERTAINMENT',
   },
 
-  foxmovies: {
-    channelName: 'FOX Movies HD',
-    logo: 'https://iptv36.my.to/logo/foxmovies.png',
-    tvgId: 'foxmovies.iptv36.my.to',
-    urlList: [
-      // 'https://dootvthai-hd.com/cmd/api/true/Fox-Movie/playlist.m3u8',
-      // 'http://203.150.107.30:8081/tested2iptv/core12/playlist.m3u8',
-      ['[NO HW+]', 'https://stream1.xn--l3cm7a5azd.live/02_FoxMoviesTH_720p/chunklist.m3u8'],
-    ],
+  foxlife: {
+    channelName: 'Fox Life HD',
+    logo: 'https://iptv36.my.to/logo/foxlife.png',
+    // tvgId: 'foxlife.iptv36.my.to',
+    urlList: [],
     groupName: 'ENTERTAINMENT',
   },
 
   foxthai: {
-    channelName: 'FOX ไทย HD',
+    channelName: 'FOX Thai HD',
     logo: 'https://iptv36.my.to/logo/foxthai.png',
     tvgId: 'foxthai.iptv36.my.to',
     urlList: [
@@ -649,9 +654,7 @@ const streamingInfo = {
     channelName: 'Paramount HD',
     logo: 'https://iptv36.my.to/logo/paramount.png',
     tvgId: 'paramount.iptv36.my.to',
-    urlList: [
-      'https://free2.fwstream.com:1215/freelive-edge/_definst_/paramountchannel/playlist.m3u8?VTQ3UTFyeDJDYmEvZUpicmx1ejFQMkh4ejE4QmprRWdiVS95N1dHeGNKSWMzWW9iVkd4MlJ2TXNrSTZ6OEUvRzh4K3haOXdLYWR3MHA0MmxHakdYWDdiZXdhMmtyNDFtT25qTldGYVBzaEdOYVY0Y0djTVBXZDh6clB5OFc1UURMRGV1TDhtaU1zcEdwaHNDbGk2dk9nPT0=,f018ada7be4e6df429b6174d2675c165',
-    ],
+    urlList: [],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -684,7 +687,7 @@ const streamingInfo = {
   // },
 
   tvb: {
-    channelName: 'TVB ไทย HD',
+    channelName: 'TVB Thai HD',
     logo: 'https://iptv36.my.to/logo/tvb.png',
     urlList: [
       'https://edge6a.v2h-cdn.com/RE_HD/smil:TVB_HD_ABR.smil/playlist.m3u8', // 1080p
@@ -702,19 +705,68 @@ const streamingInfo = {
     groupName: 'NEWS & DOCS',
   },
 
-  // warnertv: {
-  //   channelName: 'Warner TV HD',
-  //   logo: 'https://iptv36.my.to/logo/warnertv.png',
-  //   tvgId: 'warnertv.iptv36.my.to',
-  //   urlList: [
-  //     // 'https://dootvthai-hd.com/cmd/api/true/warner-hd/playlist.m3u8',
-  //     // 'http://203.150.107.30:8081/tested2iptv/core108/playlist.m3u8',
-  //   ],
-  //   groupName: 'ENTERTAINMENT',
-  // },
+  warnertv: {
+    channelName: 'Warner TV HD',
+    logo: 'https://iptv36.my.to/logo/warnertv.png',
+    tvgId: 'warnertv.iptv36.my.to',
+    urlList: [],
+    groupName: 'ENTERTAINMENT',
+  },
 };
 
-// let testPassedUrl = [];
+const dynamicallyAddStreamingUrlFromWePlay = async () => {
+  // config
+  let config = {
+    true4u: 'https://www.we-play.tv/watching/tv/true4u',
+    ch3: 'https://www.we-play.tv/watching/tv/ch3-hd',
+    ch7: 'https://www.we-play.tv/watching/tv/ch7-hd',
+    pptv: 'https://www.we-play.tv/watching/tv/pptv-hd',
+    history: 'https://www.we-play.tv/watching/tv/history-hd',
+    history2: 'https://www.we-play.tv/watching/tv/history-h2',
+    natgeo: 'https://www.we-play.tv/watching/tv/national-geographic',
+    cartoonnetwork: 'https://www.we-play.tv/watching/tv/cartoon-network',
+    truesparkplay: 'https://www.we-play.tv/watching/tv/true-spark-play',
+    nickelodeon: 'https://www.we-play.tv/watching/tv/nickelodeon',
+    foxmovies: 'https://www.we-play.tv/watching/tv/fox-movies',
+    foxactionmovies: 'https://www.we-play.tv/watching/tv/fox-action-movies',
+    foxfamilymovies: 'https://www.we-play.tv/watching/tv/fox-family-movies',
+    foxlife: 'https://www.we-play.tv/watching/tv/fox-life',
+    foxthai: 'https://www.we-play.tv/watching/tv/fox-thai',
+    hbo: 'https://www.we-play.tv/watching/tv/hbo-hd',
+    warnertv: 'https://www.we-play.tv/watching/tv/warner-tv',
+    paramount: 'https://www.we-play.tv/watching/tv/paramount-channel',
+    blueantent: 'https://www.we-play.tv/watching/tv/blueant-entertainment',
+    truesport2: 'https://www.we-play.tv/watching/tv/true-sports-2',
+    truesporthd2: 'https://www.we-play.tv/watching/tv/true-sports-hd-2',
+    truesporthd: 'https://www.we-play.tv/watching/tv/true-sports-hd',
+    bein1: 'https://www.we-play.tv/watching/tv/bein-sports-1',
+    bein2: 'https://www.we-play.tv/watching/tv/bein-sports-2',
+  };
+
+  let result = {};
+  await Promise.all(
+    Object.entries(config).map(async ([channelKey, pageUrl]) => {
+      let rawPageHtml = '';
+      try {
+        const response = await axios.get(pageUrl);
+        rawPageHtml = response.data;
+      } catch (error) {
+        console.error(`Cannot extract playlist for channel ${channelKey}`);
+        console.error(error);
+      }
+
+      let regExpMatchArray = rawPageHtml.match(/"(https:\/\/.+\.m3u8?.+)"/);
+
+      if (regExpMatchArray) {
+        if (!(channelKey in streamingInfo)) {
+          console.error(`Not recognize channel ${channelKey}`);
+          return;
+        }
+        streamingInfo[channelKey].urlList.unshift(['[NO HW+]', regExpMatchArray[1]]);
+      }
+    })
+  );
+};
 
 const testUrl = async (url) => {
   // list of url that we will always not check
@@ -834,4 +886,7 @@ const getStreamingInfo = async (channelKey, skip = 0) => {
   return { channelName, logo, groupName, tvgId, url };
 };
 
-module.exports = getStreamingInfo;
+module.exports = {
+  getStreamingInfo,
+  dynamicallyAddStreamingUrlFromWePlay,
+};
