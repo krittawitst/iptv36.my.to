@@ -78,11 +78,11 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://www.dailymotion.com/cdn/live/video/x7kx5i7.m3u8?sec=8RY3ICI_0p21M8ieD40iVJEBEiOO7cJW6YynagiH41gPh18FfXhaybxYWm_VdpVP9DFLZfI2Xn4GLsFt1B4O_w',
+        'https://stream-05.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL541UxO--Vpy8Ml-acZv1q2ec)/dm/3/x7kx5i7/s/live-3.m3u8#cell=lsg1&qos_vpart=1&qos_stail=1',
       ], // 1080p
       [
         'HD',
-        'https://stream-02.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54xcMLoS2aK8AExf8b_BiPak)/dm/3/x7kx5i7/s/live-3.m3u8',
+        'https://stream-01.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL541UxO--Vpy8Ml-acZv1q2ec)/dm/3/x7kx5i7/s/live-4.m3u8',
       ], // 720p
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/newtv/index.m3u8'], // 720p upscale
     ],
