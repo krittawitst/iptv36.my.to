@@ -91,9 +91,9 @@ const proPlaylist = {
     ['truesporthd2'],
     ['bein1', 1],
     ['bein2', 1],
+    ['hitsmovies'],
     ['cartoonnetwork'],
     ['disneyxd'],
-    ['nickelodeon'],
 
     // 71-72
     ['truesparkplay'],

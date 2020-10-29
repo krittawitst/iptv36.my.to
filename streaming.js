@@ -65,7 +65,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/tnn16.png',
     tvgId: 'th-dtv16.iptv36.my.to',
     urlList: [
-      'http://27.254.130.56/live01/chsd_TNN_5.m3u8?p=st', // 720p upscale
+      // 'http://27.254.130.56/live01/chsd_TNN_5.m3u8?p=st', // 720p upscale hang
       'http://119.59.125.74/stream/totnew.php?channel_id=77774220bb8e40aa94e549e29ff3ed8a&.m3u8', // 240p
     ],
     groupName: thDtvWithCurrentDate,
@@ -78,7 +78,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54xcMLoS2aK8AExf8b_BiPak)/dm/3/x7kx5i7/s/live-4.m3u8',
+        'https://www.dailymotion.com/cdn/live/video/x7kx5i7.m3u8?sec=8RY3ICI_0p21M8ieD40iVJEBEiOO7cJW6YynagiH41gPh18FfXhaybxYWm_VdpVP9DFLZfI2Xn4GLsFt1B4O_w',
       ], // 1080p
       [
         'HD',
@@ -112,7 +112,7 @@ const streamingInfo = {
         'HD',
         'https://stream-02.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8nSs7CGuzewffp95CvAfa9E)/dm/3/x6g9qjj/s/live-3.m3u8',
       ], // 720p
-      'http://27.254.130.56/live01/ch7.m3u8', // 720p
+      // 'http://27.254.130.56/live01/ch7.m3u8', // 720p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -149,7 +149,7 @@ const streamingInfo = {
     tvgId: 'th-dtv27.iptv36.my.to',
     urlList: [
       ['HD', 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8'], // 720p
-      'http://27.254.130.56/live01/ch15.m3u8?p=st', // 720p upscale
+      // 'http://27.254.130.56/live01/ch15.m3u8?p=st', // 720p upscale hang
       'http://stream.rs.co.th/ch8-hi/index.m3u8', // 360p loud
     ],
     groupName: thDtvWithCurrentDate,
@@ -445,6 +445,7 @@ const streamingInfo = {
   blueantent: {
     channelName: 'Blue Ant ENT HD',
     logo: 'https://iptv36.my.to/logo/blueantent.png',
+    tvgId: 'blueantent.iptv36.my.to',
     urlList: [],
     groupName: 'ENTERTAINMENT',
   },
@@ -612,12 +613,13 @@ const streamingInfo = {
     groupName: 'NEWS & DOCS',
   },
 
-  // truefilm: {
-  //   channelName: "True Film HD",
-  //   logo: "https://iptv36.my.to/logo/true_film_hd.png",
-  //   urlList: ["http://160.119.77.50/iptv/hd-tfilm.stream/playlist.m3u8"],
-  //   groupName: "PREMIUM",
-  // },
+  truefilm: {
+    channelName: 'True Film HD',
+    logo: 'https://iptv36.my.to/logo/truefilm.png',
+    tvgId: 'truefilm.iptv36.my.to',
+    urlList: [],
+    groupName: 'PREMIUM',
+  },
 
   trueplookpanya: {
     channelName: 'True Plook Panya',
@@ -667,6 +669,8 @@ const dynamicallyAddStreamingUrlFromWePlay = async () => {
 
   // config
   let config = [
+    // [channelKey, channelNameSuffix, pageUrl, appendUrlToBottom=false]
+    ['workpoint', '[NO HW+]', 'https://www.we-play.tv/watching/tv/workpoint', true],
     ['true4u', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true4u'],
     ['mcot', '[NO HW+]', 'https://www.we-play.tv/watching/tv/mcot-hd'],
     ['one', '[NO HW+]', 'https://www.we-play.tv/watching/tv/one-hd'],
@@ -684,7 +688,9 @@ const dynamicallyAddStreamingUrlFromWePlay = async () => {
     ['foxfamilymovies', '[NO HW+]', 'https://www.we-play.tv/watching/tv/fox-family-movies'],
     ['foxlife', '[NO HW+]', 'https://www.we-play.tv/watching/tv/fox-life'],
     ['foxthai', '[NO HW+]', 'https://www.we-play.tv/watching/tv/fox-thai'],
+    ['truefilm', 'HD [NO HW+]', 'https://www.we-play.tv/watching/tv/true-film-hd'],
     ['hbo', 'HD [NO HW+]', 'https://www.we-play.tv/watching/tv/hbo-hd'],
+    ['hitsmovies', '[NO HW+]', 'https://www.we-play.tv/watching/tv/hits-movies'],
     ['warnertv', '[NO HW+]', 'https://www.we-play.tv/watching/tv/warner-tv'],
     ['paramount', '[NO HW+]', 'https://www.we-play.tv/watching/tv/paramount-channel'],
     ['blueantent', '[NO HW+]', 'https://www.we-play.tv/watching/tv/blueant-entertainment'],
@@ -707,7 +713,7 @@ const dynamicallyAddStreamingUrlFromWePlay = async () => {
 
   let result = {};
   await Promise.all(
-    config.map(async ([channelKey, channelNameSuffix, pageUrl]) => {
+    config.map(async ([channelKey, channelNameSuffix, pageUrl, appendUrlToBottom = false]) => {
       let rawPageHtml = '';
       try {
         const response = await axios.get(pageUrl);
@@ -724,7 +730,11 @@ const dynamicallyAddStreamingUrlFromWePlay = async () => {
           console.error(`Not recognize channel ${channelKey}`);
           return;
         }
-        streamingInfo[channelKey].urlList.unshift([channelNameSuffix, regExpMatchArray[1]]);
+        if (appendUrlToBottom) {
+          streamingInfo[channelKey].urlList.push([channelNameSuffix, regExpMatchArray[1]]);
+        } else {
+          streamingInfo[channelKey].urlList.unshift([channelNameSuffix, regExpMatchArray[1]]);
+        }
       }
     })
   );

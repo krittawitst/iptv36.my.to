@@ -9,11 +9,14 @@ const currentDatetimePlus7Hrs = new Date(currentEpochDatetime + 7 * 60 * 60 * 10
 const currentBkkDatetimeStr = currentDatetimePlus7Hrs.toISOString().slice(0, 16);
 
 const main = async () => {
-  // pre fetch epg data
+  // prefetch epg data
   const epgDataPromise = getEpgData();
 
   // dynamically add streaming url
-  await streaming.dynamicallyAddStreamingUrlFromWePlay();
+  // await streaming.dynamicallyAddStreamingUrlFromWePlay();
+
+  // remember all active channel key to build epg
+  let allActiveChannelKey = [];
 
   // generate M3U PLAYLIST file
   for (let playlist of allPlaylist) {
@@ -22,13 +25,17 @@ const main = async () => {
     // test all streaming simultaneously
     console.log(`\nChecking streaming url for playlist '${playlist.filename}'...`);
 
-    let uniqueChannelKeyForThisPlaylist = playlist.channelList.reduce((channelList, channel) => {
-      let [channelKey, skip = 0] = channel;
-      if (!channelList.includes(channelKey)) {
-        channelList.push(channelKey);
-      }
-      return channelList;
-    }, []);
+    let uniqueChannelKeyForThisPlaylist = playlist.channelList.reduce(
+      (channelList, [channelKey, skip = 0]) => {
+        if (!channelList.includes(channelKey)) {
+          channelList.push(channelKey);
+        }
+        return channelList;
+      },
+      []
+    );
+
+    allActiveChannelKey = [...allActiveChannelKey, ...uniqueChannelKeyForThisPlaylist];
 
     await Promise.all(
       uniqueChannelKeyForThisPlaylist.map(async (channelKey) => {
@@ -40,9 +47,9 @@ const main = async () => {
     for (let i = 0; i < playlist.channelList.length; i++) {
       let [channelKey, skip = 0] = playlist.channelList[i];
       let streamingInfo = await streaming.getStreamingInfo(channelKey, skip);
-      let channelStr = `#EXTINF:-1 tvg-chno="${i + 1}" tvg-id="${
-        streamingInfo.tvgId
-      }" group-title="${streamingInfo.groupName}" tvg-logo="${
+      let channelStr = `#EXTINF:-1 tvg-chno="${
+        i + 1
+      }" tvg-id="${channelKey}.iptv36.my.to" group-title="${streamingInfo.groupName}" tvg-logo="${
         streamingInfo.logo
       }?rev=${channelLogoRevision}",${streamingInfo.channelName}\n${streamingInfo.url}\n\n`;
       textStr = textStr + `${channelStr}`;
@@ -54,6 +61,7 @@ const main = async () => {
   }
 
   // generate XMLTV EPG file
+  allActiveChannelKey = [new Set(allActiveChannelKey)];
   const epgData = await epgDataPromise;
 
   let xmlHead = `<?xml version="1.0" encoding="UTF-8"?>
@@ -62,13 +70,18 @@ const main = async () => {
 `;
   let xmlTail = '</tv>';
 
-  let allTvgId = [];
+  let availableTvgId = [];
 
   let xmlProgramBody = '';
   for (let epg of epgData) {
+    if (!allActiveChannelKey.includes(epg.channelKey)) {
+      continue;
+    }
+
+    let tvgId = `${epg.channelKey}.iptv36.my.to`;
     xmlProgramBody += `  <programme start="${epg.programStartStr}" `;
     xmlProgramBody += epg.programEndStr ? `stop="${epg.programEndStr}" ` : '';
-    xmlProgramBody += `channel="${epg.tvgId}">\n`;
+    xmlProgramBody += `channel="${tvgId}">\n`;
     xmlProgramBody += `    <title><![CDATA[${epg.programTitle}]]></title>\n`;
     if (epg.programSubtitle) {
       xmlProgramBody += `    <sub-title><![CDATA[${epg.programSubtitle}]]></sub-title>\n`;
@@ -78,11 +91,11 @@ const main = async () => {
     }
     xmlProgramBody += `  </programme>\n`;
 
-    allTvgId.push(epg.tvgId);
+    availableTvgId.push(tvgId);
   }
 
   let xmlChannelBody = '';
-  for (let tvgId of new Set(allTvgId)) {
+  for (let tvgId of new Set(availableTvgId)) {
     xmlChannelBody += `  <channel id="${tvgId}">
     <display-name>${tvgId}</display-name>
   </channel>

@@ -1,199 +1,199 @@
-#EXTM3U : Thai IPTV Playlist from https://iptv36.my.to/ - Last Update 2020-10-27T19:16
+#EXTM3U : Thai IPTV Playlist from https://iptv36.my.to/ - Last Update 2020-10-29T17:48
 
-#EXTINF:-1 tvg-chno="1" tvg-id="th-dtv01.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/tv5.png?rev=5",TV5 HD
+#EXTINF:-1 tvg-chno="1" tvg-id="tv5.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/tv5.png?rev=5",TV5 HD
 http://110.170.117.27:1935/tv5hd1/vdo/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="th-dtv02.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/nbt.png?rev=5",NBT HD
+#EXTINF:-1 tvg-chno="2" tvg-id="nbt.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/nbt.png?rev=5",NBT HD
 http://122.155.92.8:1935/live/ch1_L.sdp/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="th-dtv03.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/thaipbs.png?rev=5",Thai PBS HD
+#EXTINF:-1 tvg-chno="3" tvg-id="thaipbs.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/thaipbs.png?rev=5",Thai PBS HD
 http://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="th-dtv04.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/altv.png?rev=5",ALTV HD
+#EXTINF:-1 tvg-chno="4" tvg-id="altv.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/altv.png?rev=5",ALTV HD
 https://iptv36.my.to/altv.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="th-dtv23.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/workpoint.png?rev=5",Workpoint TV Backup
-http://27.254.130.56/live01/ch7.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="workpoint.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/workpoint.png?rev=5",Workpoint TV HD Backup
+https://stream-02.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8nSs7CGuzewffp95CvAfa9E)/dm/3/x6g9qjj/s/live-3.m3u8
 
-#EXTINF:-1 tvg-chno="6" tvg-id="th-dtv36.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/pptv.png?rev=5",PPTV [NO HW+] Backup
+#EXTINF:-1 tvg-chno="6" tvg-id="pptv.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/pptv.png?rev=5",PPTV [NO HW+] Backup
 http://livedoomovie.com/02_PPTVHD_720p/chunklist.m3u8
 
-#EXTINF:-1 tvg-chno="7" tvg-id="th-dtv35.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/ch7.png?rev=5",CH7 HD [NO HW+] Backup
-https://cdn6.goprimetime.info/feed/ch7hd/index.m3u8
+#EXTINF:-1 tvg-chno="7" tvg-id="ch7.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/ch7.png?rev=5",CH7 Backup
+http://119.59.125.74/stream/totnew.php?channel_id=ddfa47e726444446864b14e0e819fdde&.m3u
 
-#EXTINF:-1 tvg-chno="8" tvg-id="th-dtv27.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/ch8.png?rev=5",CH8 Backup
-http://27.254.130.56/live01/ch15.m3u8?p=st
+#EXTINF:-1 tvg-chno="8" tvg-id="ch8.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/ch8.png?rev=5",CH8 Backup
+http://stream.rs.co.th/ch8-hi/index.m3u8
 
-#EXTINF:-1 tvg-chno="9" tvg-id="th-dtv29.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/mono29.png?rev=5",MONO29 [NO HW+] Backup
+#EXTINF:-1 tvg-chno="9" tvg-id="mono29.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/mono29.png?rev=5",MONO29 [NO HW+] Backup
 https://cdn6.goprimetime.info/feed/chmono29/index.m3u8
 
-#EXTINF:-1 tvg-chno="10" tvg-id="th-dtv10.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/tptv.png?rev=5",TPTV
+#EXTINF:-1 tvg-chno="10" tvg-id="tptv.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/tptv.png?rev=5",TPTV
 http://49.231.66.85:1935/live/tptv/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="11" tvg-id="th-dtv31.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/one.png?rev=5",ONE HD Backup
-https://iptv36.my.to/one.m3u8
+#EXTINF:-1 tvg-chno="11" tvg-id="one.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/one.png?rev=5",ONE HD Backup
+https://one31-rlbwkq.cdn.byteark.com/live/playlist-hd.m3u8
 
-#EXTINF:-1 tvg-chno="12" tvg-id="th-dtv32.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/thairath.png?rev=5",Thairath TV HD Backup
-https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8
+#EXTINF:-1 tvg-chno="12" tvg-id="thairath.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/thairath.png?rev=5",Thairath TV HD Backup
+https://live.thairath.co.th/trtv2/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="13" tvg-id="th-dtv33.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/ch3.png?rev=5",CH3 Backup
-http://119.59.125.74/stream/totnew.php?channel_id=a4485b656d764f308c63b14a8bf62326
+#EXTINF:-1 tvg-chno="13" tvg-id="ch3.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/ch3.png?rev=5",CH3 [NO HW+] Backup
+http://livedoomovie.com/02_3HD_720p/chunklist.m3u8
 
-#EXTINF:-1 tvg-chno="14" tvg-id="th-dtv34.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/amarin.png?rev=5",Amarin TV HD Backup
+#EXTINF:-1 tvg-chno="14" tvg-id="amarin.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/amarin.png?rev=5",Amarin TV HD Backup
 http://119.59.125.74/stream/totnew.php?channel_id=78f57ebcf6064b308d75208a20756983
 
-#EXTINF:-1 tvg-chno="15" tvg-id="th-dtv25.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/gmm25.png?rev=5",GMM25 Backup
+#EXTINF:-1 tvg-chno="15" tvg-id="gmm25.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/gmm25.png?rev=5",GMM25 Backup
 http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8
 
-#EXTINF:-1 tvg-chno="16" tvg-id="th-dtv16.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/tnn16.png?rev=5",TNN16
-http://27.254.130.56/live01/chsd_TNN_5.m3u8?p=st
+#EXTINF:-1 tvg-chno="16" tvg-id="tnn16.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/tnn16.png?rev=5",TNN16
+http://119.59.125.74/stream/totnew.php?channel_id=77774220bb8e40aa94e549e29ff3ed8a&.m3u8
 
-#EXTINF:-1 tvg-chno="17" tvg-id="" group-title="NEWS & DOCS" tvg-logo="https://iptv36.my.to/logo/psi.png?rev=5",PSI Saradee HD
+#EXTINF:-1 tvg-chno="17" tvg-id="psi.iptv36.my.to" group-title="NEWS & DOCS" tvg-logo="https://iptv36.my.to/logo/psi.png?rev=5",PSI Saradee HD
 http://96.30.124.100:1935/edgepsi/PSIHD.stream_720p/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="18" tvg-id="th-dtv18.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/new18.png?rev=5",NEW 18 HD
-https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54xcMLoS2aK8AExf8b_BiPak)/dm/3/x7kx5i7/s/live-4.m3u8
+#EXTINF:-1 tvg-chno="18" tvg-id="new18.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/new18.png?rev=5",NEW 18 [NO HW+]
+https://cdn6.goprimetime.info/feed/newtv/index.m3u8
 
-#EXTINF:-1 tvg-chno="19" tvg-id="th-dtv29.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/mono29.png?rev=5",MONO29 HD Soundtrack
+#EXTINF:-1 tvg-chno="19" tvg-id="mono29soundtrack.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/mono29.png?rev=5",MONO29 HD Soundtrack
 https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080EN.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="20" tvg-id="cartoonclub.iptv36.my.to" group-title="CARTOON" tvg-logo="https://iptv36.my.to/logo/cartoonclub.png?rev=5",Cartoon Club [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/kids/cartoon-club/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="20" tvg-id="cartoonclub.iptv36.my.to" group-title="CARTOON" tvg-logo="https://iptv36.my.to/logo/cartoonclub.png?rev=5",Cartoon Club
+http://edge4-bkk.3bb.co.th:1935/CartoonClub_Livestream/cartoonclub_480P.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="21" tvg-id="voice.iptv36.my.to" group-title="NEWS & DOCS" tvg-logo="https://iptv36.my.to/logo/voice.png?rev=5",Voice TV HD
 https://edge6a.v2h-cdn.com/appt3/WOWSH.stream_720p/chunklist_w142679599.m3u8
 
-#EXTINF:-1 tvg-chno="22" tvg-id="th-dtv22.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/nation.png?rev=5",Nation TV HD
+#EXTINF:-1 tvg-chno="22" tvg-id="nation.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/nation.png?rev=5",Nation TV HD
 https://stream-04.sg1.dailymotion.com/sec(ccIVIlWaGsSkNrAGI3_YSYd1OgOdrI_qPlB5fU0Jfa8)/dm/3/x6eoldf/d/live-3.m3u8
 
-#EXTINF:-1 tvg-chno="23" tvg-id="th-dtv23.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/workpoint.png?rev=5",Workpoint TV HD
+#EXTINF:-1 tvg-chno="23" tvg-id="workpoint.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/workpoint.png?rev=5",Workpoint TV HD
 https://stream-02.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8nSs7CGuzewffp95CvAfa9E)/dm/3/x6g9qjj/s/live-3.m3u8
 
-#EXTINF:-1 tvg-chno="24" tvg-id="th-dtv24.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/true4u.png?rev=5",True4U [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/digitaltv/true4u/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="24" tvg-id="true4u.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/true4u.png?rev=5",True4U
+http://183.182.100.184/live/true4u/chunklist.m3u8
 
-#EXTINF:-1 tvg-chno="25" tvg-id="th-dtv25.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/gmm25.png?rev=5",GMM25 HD
+#EXTINF:-1 tvg-chno="25" tvg-id="gmm25.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/gmm25.png?rev=5",GMM25 HD
 https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_WtBpZYt9OOLB_NzOdrPK5k)/dm/3/x6rz4t7/s/live-3.m3u8
 
-#EXTINF:-1 tvg-chno="26" tvg-id="" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/tvb.png?rev=5",TVB Thai HD
+#EXTINF:-1 tvg-chno="26" tvg-id="tvb.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/tvb.png?rev=5",TVB Thai HD
 https://edge6a.v2h-cdn.com/RE_HD/smil:TVB_HD_ABR.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="27" tvg-id="th-dtv27.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/ch8.png?rev=5",CH8 HD
+#EXTINF:-1 tvg-chno="27" tvg-id="ch8.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/ch8.png?rev=5",CH8 HD
 https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8
 
-#EXTINF:-1 tvg-chno="28" tvg-id="" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/monoplus.png?rev=5",MONO PLUS HD
+#EXTINF:-1 tvg-chno="28" tvg-id="monoplus.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/monoplus.png?rev=5",MONO PLUS HD
 https://edge4-bkk.3bb.co.th:9443/MonoPlus_LiveHLS/monoplusLive_HLS1080p.stream/chunklist.m3u8
 
-#EXTINF:-1 tvg-chno="29" tvg-id="th-dtv29.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/mono29.png?rev=5",MONO29 HD
+#EXTINF:-1 tvg-chno="29" tvg-id="mono29.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/mono29.png?rev=5",MONO29 HD
 https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="30" tvg-id="th-dtv30.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/mcot.png?rev=5",MCOT HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/digitaltv/mcothd/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMiBQTSZoYXNoX3ZhbHVlPXlFN0krS0ZoZXJEKzBVSENHUkJnUHc9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="30" tvg-id="mcot.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/mcot.png?rev=5",MCOT HD [NO HW+]
+https://cdn6.goprimetime.info/feed/chmcothd/index.m3u8
 
-#EXTINF:-1 tvg-chno="31" tvg-id="th-dtv31.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/one.png?rev=5",ONE HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/digitaltv/one31/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="31" tvg-id="one.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/one.png?rev=5",ONE HD
+https://iptv36.my.to/one.m3u8
 
-#EXTINF:-1 tvg-chno="32" tvg-id="th-dtv32.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/thairath.png?rev=5",Thairath TV HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/digitaltv/thairathtv/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMiBQTSZoYXNoX3ZhbHVlPXlFN0krS0ZoZXJEKzBVSENHUkJnUHc9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="32" tvg-id="thairath.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/thairath.png?rev=5",Thairath TV HD
+https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8
 
-#EXTINF:-1 tvg-chno="33" tvg-id="th-dtv33.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/ch3.png?rev=5",CH3 HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/digitaltv/ch3hd/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMiBQTSZoYXNoX3ZhbHVlPXlFN0krS0ZoZXJEKzBVSENHUkJnUHc9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="33" tvg-id="ch3.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/ch3.png?rev=5",CH3
+http://119.59.125.74/stream/totnew.php?channel_id=a4485b656d764f308c63b14a8bf62326
 
-#EXTINF:-1 tvg-chno="34" tvg-id="th-dtv34.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/amarin.png?rev=5",Amarin TV HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/digitaltv/amarintv/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="34" tvg-id="amarin.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/amarin.png?rev=5",Amarin TV HD
+http://119.59.125.74/stream/totnew.php?channel_id=78f57ebcf6064b308d75208a20756983
 
-#EXTINF:-1 tvg-chno="35" tvg-id="th-dtv35.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/ch7.png?rev=5",CH7 HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/digitaltv/ch7hd/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="35" tvg-id="ch7.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/ch7.png?rev=5",CH7 HD [NO HW+]
+https://cdn6.goprimetime.info/feed/ch7hd/index.m3u8
 
-#EXTINF:-1 tvg-chno="36" tvg-id="th-dtv36.iptv36.my.to" group-title="TH DTV 2020-10-27T19:16" tvg-logo="https://iptv36.my.to/logo/pptv.png?rev=5",PPTV HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/digitaltv/pptv/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMiBQTSZoYXNoX3ZhbHVlPXlFN0krS0ZoZXJEKzBVSENHUkJnUHc9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="36" tvg-id="pptv.iptv36.my.to" group-title="TH DTV 2020-10-29T17:48" tvg-logo="https://iptv36.my.to/logo/pptv.png?rev=5",PPTV [NO HW+]
+http://livedoomovie.com/02_PPTVHD_720p/chunklist.m3u8
 
 #EXTINF:-1 tvg-chno="37" tvg-id="foxmovies.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/foxmovies.png?rev=5",FOX Movies HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/entertainment/fox-movies/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
+http://livedoomovie.com/02_FoxMoviesTH_720p/chunklist.m3u8
 
-#EXTINF:-1 tvg-chno="38" tvg-id="foxactionmovies.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/foxactionmovies.png?rev=5",Fox Action Movies HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/entertainment/fox-action/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMiBQTSZoYXNoX3ZhbHVlPXlFN0krS0ZoZXJEKzBVSENHUkJnUHc9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="38" tvg-id="foxactionmovies.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/foxactionmovies.png?rev=5",[เสีย] Fox Action Movies HD
+undefined
 
-#EXTINF:-1 tvg-chno="39" tvg-id="foxfamilymovies.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/foxfamilymovies.png?rev=5",Fox Family Movies HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/entertainment/fox-fam/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMiBQTSZoYXNoX3ZhbHVlPXlFN0krS0ZoZXJEKzBVSENHUkJnUHc9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="39" tvg-id="foxfamilymovies.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/foxfamilymovies.png?rev=5",[เสีย] Fox Family Movies HD
+undefined
 
-#EXTINF:-1 tvg-chno="40" tvg-id="" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/foxlife.png?rev=5",Fox Life HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/entertainment/fox-life/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="40" tvg-id="foxlife.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/foxlife.png?rev=5",[เสีย] Fox Life HD
+undefined
 
 #EXTINF:-1 tvg-chno="41" tvg-id="foxthai.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/foxthai.png?rev=5",FOX Thai HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/entertainment/foxth/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
+http://livedoomovie.com/02_FoxThai_TH_720p/chunklist.m3u8
 
-#EXTINF:-1 tvg-chno="42" tvg-id="warnertv.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/warnertv.png?rev=5",Warner TV HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/entertainment/warner/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="42" tvg-id="warnertv.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/warnertv.png?rev=5",[เสีย] Warner TV HD
+undefined
 
-#EXTINF:-1 tvg-chno="43" tvg-id="paramount.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/paramount.png?rev=5",Paramount HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/entertainment/paramount/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="43" tvg-id="paramount.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/paramount.png?rev=5",[เสีย] Paramount HD
+undefined
 
-#EXTINF:-1 tvg-chno="44" tvg-id="" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/hbo.png?rev=5",HBO HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/entertainment/hbo-hd/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="44" tvg-id="hbo.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/hbo.png?rev=5",HBO
+https://liveorigin01.hbogoasia.com:8443/origin/live/HBO/index.m3u8?HBO
 
 #EXTINF:-1 tvg-chno="45" tvg-id="axn.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/axn.png?rev=5",AXN HD
 http://ip2121.com:8081/live2/AXN_Y/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="46" tvg-id="" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/blueantent.png?rev=5",Blue Ant ENT HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/entertainment/blue-ent/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="46" tvg-id="blueantent.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/blueantent.png?rev=5",[เสีย] Blue Ant ENT HD
+undefined
 
 #EXTINF:-1 tvg-chno="47" tvg-id="natgeo.iptv36.my.to" group-title="NEWS & DOCS" tvg-logo="https://iptv36.my.to/logo/natgeo.png?rev=5",NAT GEO HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/documentary/natgeo/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMiBQTSZoYXNoX3ZhbHVlPXlFN0krS0ZoZXJEKzBVSENHUkJnUHc9PSZ2YWxpZG1pbnV0ZXM9MjA=
+http://livedoomovie.com/sumrujlok_goodtv/chunklist.m3u8
 
 #EXTINF:-1 tvg-chno="48" tvg-id="history.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/history.png?rev=5",History HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/documentary/history/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMiBQTSZoYXNoX3ZhbHVlPXlFN0krS0ZoZXJEKzBVSENHUkJnUHc9PSZ2YWxpZG1pbnV0ZXM9MjA=
+http://livedoomovie.com/02_HISTORYHD_720p/chunklist.m3u8
 
 #EXTINF:-1 tvg-chno="49" tvg-id="history2.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/history2.png?rev=5",History2 HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/documentary/h2/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMiBQTSZoYXNoX3ZhbHVlPXlFN0krS0ZoZXJEKzBVSENHUkJnUHc9PSZ2YWxpZG1pbnV0ZXM9MjA=
+http://livedoomovie.com/02_H2HD_720p/chunklist.m3u8
 
-#EXTINF:-1 tvg-chno="50" tvg-id="discoveryasia.iptv36.my.to" group-title="NEWS & DOCS" tvg-logo="https://iptv36.my.to/logo/discoveryasia.png?rev=5",Discovery Asia HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/documentary/disasia/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="50" tvg-id="discoveryasia.iptv36.my.to" group-title="NEWS & DOCS" tvg-logo="https://iptv36.my.to/logo/discoveryasia.png?rev=5",Discovery Asia HD
+https://doofootball.livestream-cdn.com:443/iptv/hd-discovery.stream/chunks.m3u8
 
-#EXTINF:-1 tvg-chno="51" tvg-id="premier1.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd1.png?rev=5",Premier HD1 [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/sports/true-epl-1/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMiBQTSZoYXNoX3ZhbHVlPXlFN0krS0ZoZXJEKzBVSENHUkJnUHc9PSZ2YWxpZG1pbnV0ZXM9MjA=
-
-#EXTINF:-1 tvg-chno="52" tvg-id="premier2.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd2.png?rev=5",Premier HD2 [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/sports/tpf2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
-
-#EXTINF:-1 tvg-chno="53" tvg-id="" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd3.png?rev=5",Premier HD3 [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/sports/tpf3/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMiBQTSZoYXNoX3ZhbHVlPXlFN0krS0ZoZXJEKzBVSENHUkJnUHc9PSZ2YWxpZG1pbnV0ZXM9MjA=
-
-#EXTINF:-1 tvg-chno="54" tvg-id="" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd4.png?rev=5",Premier HD4 [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/sports/tpf4/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
-
-#EXTINF:-1 tvg-chno="55" tvg-id="" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd5.png?rev=5",Premier HD5 [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/sports/tpf5/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMiBQTSZoYXNoX3ZhbHVlPXlFN0krS0ZoZXJEKzBVSENHUkJnUHc9PSZ2YWxpZG1pbnV0ZXM9MjA=
-
-#EXTINF:-1 tvg-chno="56" tvg-id="bein1.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/bein1.png?rev=5",beIN Sports HD1 [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/sports/bein1/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
-
-#EXTINF:-1 tvg-chno="57" tvg-id="bein2.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/bein2.png?rev=5",beIN Sports HD2 [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/sports/bein2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMiBQTSZoYXNoX3ZhbHVlPXlFN0krS0ZoZXJEKzBVSENHUkJnUHc9PSZ2YWxpZG1pbnV0ZXM9MjA=
-
-#EXTINF:-1 tvg-chno="58" tvg-id="premier1.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd1.png?rev=5",Premier HD1 Backup2
-http://160.119.77.116:8081/iptv/epl-1.stream/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="59" tvg-id="" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd3.png?rev=5",Premier HD3 Backup2
-http://160.119.77.116:8081/iptv/epl-3.stream/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="60" tvg-id="truesport2.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/truesports2.png?rev=5",True Sports 2 [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/sports/tsp2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
-
-#EXTINF:-1 tvg-chno="61" tvg-id="premier1.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd1.png?rev=5",Premier HD1 Backup
+#EXTINF:-1 tvg-chno="51" tvg-id="premier1.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd1.png?rev=5",Premier HD1
 http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="62" tvg-id="premier2.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd2.png?rev=5",Premier HD2 Backup
+#EXTINF:-1 tvg-chno="52" tvg-id="premier2.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd2.png?rev=5",Premier HD2
 http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="63" tvg-id="" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd3.png?rev=5",Premier HD3 Backup
+#EXTINF:-1 tvg-chno="53" tvg-id="premier3.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd3.png?rev=5",Premier HD3
 http://103.208.24.234:1935/thaisport/epl-3.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="64" tvg-id="truesporthd.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/true_sports_hd.png?rev=5",True Sports HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/sports/thd1/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="54" tvg-id="premier4.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd4.png?rev=5",Premier HD4
+http://103.208.24.234:1935/thaisport/epl-4.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="65" tvg-id="truesporthd2.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/true_sports_hd2.png?rev=5",True Sports HD2 [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/sports/thd2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMiBQTSZoYXNoX3ZhbHVlPXlFN0krS0ZoZXJEKzBVSENHUkJnUHc9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="55" tvg-id="premier5.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd5.png?rev=5",Premier HD5
+http://103.208.24.234:1935/thaisport/epl-5.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="56" tvg-id="bein1.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/bein1.png?rev=5",beIN Sports HD1 [NO HW+]
+http://livedoomovie.com/02_epl1_720p/chunklist.m3u8
+
+#EXTINF:-1 tvg-chno="57" tvg-id="bein2.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/bein2.png?rev=5",beIN Sports HD2 [NO HW+]
+http://livedoomovie.com/02_epl2_720p/chunklist.m3u8
+
+#EXTINF:-1 tvg-chno="58" tvg-id="premier1.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd1.png?rev=5",Premier HD1 [NO HW+] Backup2
+http://livedoomovie.com/02_PremierHD1_720p/chunklist.m3u8
+
+#EXTINF:-1 tvg-chno="59" tvg-id="premier3.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd3.png?rev=5",Premier HD3 [NO HW+] Backup2
+http://livedoomovie.com/02_PremierHD3_720p/chunklist.m3u8
+
+#EXTINF:-1 tvg-chno="60" tvg-id="truesport2.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/truesports2.png?rev=5",True Sports 2
+http://103.208.24.234:1935/thaisport/sd-tsport2.stream/chunklist.m3u8
+
+#EXTINF:-1 tvg-chno="61" tvg-id="premier1.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd1.png?rev=5",Premier HD1 Backup
+http://160.119.77.116:8081/iptv/epl-1.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="62" tvg-id="premier2.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd2.png?rev=5",Premier HD2 Backup
+http://160.119.77.116:8081/iptv/epl-2.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="63" tvg-id="premier3.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/premier_hd3.png?rev=5",Premier HD3 Backup
+http://160.119.77.116:8081/iptv/epl-3.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="64" tvg-id="truesporthd.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/true_sports_hd.png?rev=5",True Sports HD
+http://103.208.24.234:1935/thaisport/hd-tsport1.stream/chunklist.m3u8
+
+#EXTINF:-1 tvg-chno="65" tvg-id="truesporthd2.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/true_sports_hd2.png?rev=5",True Sports HD2
+http://103.208.24.234:1935/thaisport/hd-tsport2.stream/chunklist.m3u8
 
 #EXTINF:-1 tvg-chno="66" tvg-id="bein1.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/bein1.png?rev=5",beIN Sports HD1 [NO HW+] Backup
 http://livedoomovie.com/02_epl1_720p/chunklist.m3u8
@@ -201,18 +201,18 @@ http://livedoomovie.com/02_epl1_720p/chunklist.m3u8
 #EXTINF:-1 tvg-chno="67" tvg-id="bein2.iptv36.my.to" group-title="SPORT" tvg-logo="https://iptv36.my.to/logo/bein2.png?rev=5",beIN Sports HD2 [NO HW+] Backup
 http://livedoomovie.com/02_epl2_720p/chunklist.m3u8
 
-#EXTINF:-1 tvg-chno="68" tvg-id="cartoonnetwork.iptv36.my.to" group-title="CARTOON" tvg-logo="https://iptv36.my.to/logo/cnhd.png?rev=5",Cartoon Network HD [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/kids/cnhd/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="68" tvg-id="hitsmovies.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/hitsmovies.png?rev=5",Hits Movies HD [NO HW+]
+http://livedoomovie.com/02_HITSMOVIE_720p/chunklist.m3u8
 
-#EXTINF:-1 tvg-chno="69" tvg-id="disneyxd.iptv36.my.to" group-title="CARTOON" tvg-logo="https://iptv36.my.to/logo/disneyxd.png?rev=5",Disney XD [NO HW+]
+#EXTINF:-1 tvg-chno="69" tvg-id="cartoonnetwork.iptv36.my.to" group-title="CARTOON" tvg-logo="https://iptv36.my.to/logo/cnhd.png?rev=5",Cartoon Network HD [NO HW+]
+http://livedoomovie.com/02_CartoonNetwork_720p/chunklist.m3u8
+
+#EXTINF:-1 tvg-chno="70" tvg-id="disneyxd.iptv36.my.to" group-title="CARTOON" tvg-logo="https://iptv36.my.to/logo/disneyxd.png?rev=5",Disney XD [NO HW+]
 http://livedoomovie.com/02_DisneyXD_720p/chunklist.m3u8
 
-#EXTINF:-1 tvg-chno="70" tvg-id="nickelodeon.iptv36.my.to" group-title="ENTERTAINMENT" tvg-logo="https://iptv36.my.to/logo/nick.png?rev=5",nickelodeon [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/kids/nickelodeon/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="71" tvg-id="truesparkplay.iptv36.my.to" group-title="CARTOON" tvg-logo="https://iptv36.my.to/logo/truesparkplay.png?rev=5",[เสีย] True Spark Play
+undefined
 
-#EXTINF:-1 tvg-chno="71" tvg-id="truesparkplay.iptv36.my.to" group-title="CARTOON" tvg-logo="https://iptv36.my.to/logo/truesparkplay.png?rev=5",True Spark Play [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/kids/truesparkplay/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
-
-#EXTINF:-1 tvg-chno="72" tvg-id="truesparkjump.iptv36.my.to" group-title="CARTOON" tvg-logo="https://iptv36.my.to/logo/truesparkjump.png?rev=5",True Spark Jump [NO HW+]
-https://r4-sn-w5nuxa-o53d.googlevideocdn.com/kids/sparkjump/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjcvMjAyMCAxMjoxNjozMyBQTSZoYXNoX3ZhbHVlPXl6bCtIZkFPWGNUckgzdnFXeVZ6N1E9PSZ2YWxpZG1pbnV0ZXM9MjA=
+#EXTINF:-1 tvg-chno="72" tvg-id="truesparkjump.iptv36.my.to" group-title="CARTOON" tvg-logo="https://iptv36.my.to/logo/truesparkjump.png?rev=5",[เสีย] True Spark Jump
+undefined
 

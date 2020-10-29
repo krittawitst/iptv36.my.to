@@ -25,7 +25,7 @@ const getEpgDataFromNbtc = async () => {
   // process data
   let epgData = [];
   for (let result of rawData.results) {
-    let tvgId = `th-dtv${result.channelNo}.iptv36.my.to`;
+    let channelKey = `th-dtv${result.channelNo}`;
     for (let program of result.programOfChannel) {
       let programStart = new Date(program.pgBeginTimeLong * 1000);
       let programEnd = new Date(program.pgEndTimeLong * 1000);
@@ -53,7 +53,7 @@ const getEpgDataFromNbtc = async () => {
       epgData.push({
         programStartStr,
         programEndStr,
-        tvgId,
+        channelKey,
         programTitle,
         programDescription,
       });
@@ -68,19 +68,20 @@ const getEpgDataFromAisPlay = async () => {
   console.log('Fetching epg data from AIS Play...');
 
   // mapping tvg id
-  let channelIdToTvgId = {
-    '5efdd162fbb0045345ef2b61': 'th-dtv04.iptv36.my.to',
-    '5ee1eb4d0f24872fd951d196': 'paramount.iptv36.my.to',
-    '597e004b7ed5a24e46f6725a': 'warnertv.iptv36.my.to',
-    '5e44faeeaae73158d325f8f9': 'hitsmovies.iptv36.my.to',
-    // '597bd2a07ed5a24e46f6724f': 'm.iptv36.my.to',
-    '596716e6bf6aee05dcdfc119': 'voice.iptv36.my.to',
-    '5e69984f609ced33cfa4e734': 'bein1.iptv36.my.to',
-    '5e699a69bf6aee30a499dc9b': 'bein2.iptv36.my.to',
-    '5a52f069aae731507f5387bb': 'cartoonnetwork.iptv36.my.to',
-    '5ee1ecafb544d498b9d1d2e8': 'nickelodeon.iptv36.my.to',
-    '597d21477ed5a24e46f67258': 'cartoonclub.iptv36.my.to',
-    '5e6215e6d817de33506cedf7': 'discoveryasia.iptv36.my.to',
+  let channelIdToChannelKey = {
+    '5efdd162fbb0045345ef2b61': 'th-dtv04',
+    '5ee1eb4d0f24872fd951d196': 'paramount',
+    '597e004b7ed5a24e46f6725a': 'warnertv',
+    '5e44faeeaae73158d325f8f9': 'hitsmovies',
+    '59ab204faae7311c5f0cc5ea': 'blueantent',
+    '597bd2a07ed5a24e46f6724f': 'm',
+    '596716e6bf6aee05dcdfc119': 'voice',
+    '5e69984f609ced33cfa4e734': 'bein1',
+    '5e699a69bf6aee30a499dc9b': 'bein2',
+    '5a52f069aae731507f5387bb': 'cartoonnetwork',
+    '5ee1ecafb544d498b9d1d2e8': 'nickelodeon',
+    '597d21477ed5a24e46f67258': 'cartoonclub',
+    '5e6215e6d817de33506cedf7': 'discoveryasia',
   };
 
   // build parameter
@@ -96,7 +97,7 @@ const getEpgDataFromAisPlay = async () => {
   let rawData = {};
   try {
     let epgUrl = `https://aisplay.ais.co.th/epg/?start_date=${startBkkDateStr}&end_date=${endBkkDateStr}&start_time=${startBkkTimeStr}&end_time=${endBkkTimeStr}&items=`;
-    epgUrl += Object.keys(channelIdToTvgId).join();
+    epgUrl += Object.keys(channelIdToChannelKey).join();
     const response = await axios.get(epgUrl);
     rawData = response.data;
   } catch (error) {
@@ -106,7 +107,7 @@ const getEpgDataFromAisPlay = async () => {
   // process data
   let epgData = [];
   for (let item of rawData.items) {
-    let tvgId = channelIdToTvgId[item.parent];
+    let channelKey = channelIdToChannelKey[item.parent];
     let programStartStr = `${item.date}${item.start}`.replace(/-|:|T/g, '') + ' +0700';
     let programEndStr = `${item.date_end}${item.end}`.replace(/-|:|T/g, '') + ' +0700';
     let programTitle = item.title ? item.title.trim() : 'No Program Name';
@@ -117,7 +118,7 @@ const getEpgDataFromAisPlay = async () => {
     epgData.push({
       programStartStr,
       programEndStr,
-      tvgId,
+      channelKey,
       programTitle,
       programDescription,
     });
@@ -147,38 +148,39 @@ const getEpgDataFromTrueVisions = async () => {
   let bkkDatePlus1DaysStr = currentDatetimePlus1Days7Hrs.toISOString().slice(0, 10);
 
   // mapping tvg id
-  let categoryToPageToTvgId = {
+  let categoryToPageToChannelKey = {
     mov: {
-      '#page3': 'foxmovies.iptv36.my.to',
-      '#page4': 'foxactionmovies.iptv36.my.to',
-      '#page5': 'foxfamilymovies.iptv36.my.to',
-      '#page16': 'foxthai.iptv36.my.to',
+      '#page1': 'truefilm',
+      '#page3': 'foxmovies',
+      '#page4': 'foxactionmovies',
+      '#page5': 'foxfamilymovies',
+      '#page16': 'foxthai',
     },
     ent: {
-      '#page2': 'axn.iptv36.my.to',
+      '#page2': 'axn',
     },
     sport: {
-      '#page1': 'premier1.iptv36.my.to',
-      '#page2': 'premier2.iptv36.my.to',
-      '#page3': 'truesporthd.iptv36.my.to',
-      '#page4': 'truesporthd2.iptv36.my.to',
-      '#page12': 'truesport2.iptv36.my.to',
+      '#page1': 'premier1',
+      '#page2': 'premier2',
+      '#page3': 'truesporthd',
+      '#page4': 'truesporthd2',
+      '#page12': 'truesport2',
     },
     know: {
-      '#page2': 'history.iptv36.my.to',
-      '#page3': 'history2.iptv36.my.to',
-      '#page4': 'natgeo.iptv36.my.to',
+      '#page2': 'history',
+      '#page3': 'history2',
+      '#page4': 'natgeo',
     },
     kids: {
-      '#page1': 'truesparkplay.iptv36.my.to',
-      '#page2': 'truesparkjump.iptv36.my.to',
-      '#page3': 'disneyxd.iptv36.my.to',
+      '#page1': 'truesparkplay',
+      '#page2': 'truesparkjump',
+      '#page3': 'disneyxd',
     },
   };
 
   let epgData = [];
 
-  for (let [category, pageToTvgId] of Object.entries(categoryToPageToTvgId)) {
+  for (let [category, pageToChannelKey] of Object.entries(categoryToPageToChannelKey)) {
     // send request
     const epgUrl = `http://tvsmagazine.com/schedule_th.php?category=${category}`;
     let rawData = '';
@@ -198,7 +200,7 @@ const getEpgDataFromTrueVisions = async () => {
       storageQuota: 10000000,
     });
 
-    for (let [pageDiv, tvgId] of Object.entries(pageToTvgId)) {
+    for (let [pageDiv, channelKey] of Object.entries(pageToChannelKey)) {
       let epgDataForThisChannel = [];
 
       for (let timeDiv of ['div.before-18h', 'div.after-18h']) {
@@ -223,7 +225,7 @@ const getEpgDataFromTrueVisions = async () => {
               epgDataForThisChannel.push({
                 programStartStr,
                 programEndStr: null,
-                tvgId,
+                channelKey,
                 programTitle,
                 programSubtitle: programSubtitle !== '::' ? programSubtitle : null,
                 programDescription,
@@ -231,7 +233,7 @@ const getEpgDataFromTrueVisions = async () => {
             }
           }
         } catch (error) {
-          console.error(`something went wrong when building epg for ${tvgId}`);
+          console.error(`something went wrong when building epg for ${channelKey}`);
           console.error(error);
         }
       }
@@ -282,9 +284,9 @@ const getEpgData = async () => {
 
   let mergedEpgData = [...epgDataFromNbtc, ...epgDataFromAisPlay, ...epgDataFromTrueVisions];
   mergedEpgData = mergedEpgData.sort((item1, item2) =>
-    item1.tvgId > item2.tvgId
+    item1.channelKey > item2.channelKey
       ? 1
-      : item1.tvgId < item2.tvgId
+      : item1.channelKey < item2.channelKey
       ? -1
       : 0 || item1.programStartStr > item2.programStartStr
       ? 1
