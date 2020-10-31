@@ -205,15 +205,6 @@
     <sub-title><![CDATA[2010 - MOVIE :: Horror, Thriller]]></sub-title>
     <desc><![CDATA[เรื่องราวของคนแปลกหน้าหกชีวิตที่ต้องมาติดอยู่ในลิฟต์ตัวเดียวกันและเผชิญหน้ากับปรากฏการณ์อาถรรพ์โดยต้องหาทางออกไปให้ได้ -- นำแสดงโดย โบยาน่า โนวาโกวิค และ โบคีม วูดไบน์]]></desc>
   </programme>
-  <programme start="20201031134500 +0700" stop="20201031153000 +0700" channel="bein1.iptv36.my.to">
-    <title><![CDATA[Ligue 1 2020/21 : Marseille vs Lens]]></title>
-  </programme>
-  <programme start="20201031153000 +0700" stop="20201031163000 +0700" channel="bein1.iptv36.my.to">
-    <title><![CDATA[LaLiga 2 Highlights 2020/21 : MD 9]]></title>
-  </programme>
-  <programme start="20201031163000 +0700" stop="20201031170000 +0700" channel="bein1.iptv36.my.to">
-    <title><![CDATA[Ligue 1 Show 2020/21 : MD 9]]></title>
-  </programme>
   <programme start="20201031170000 +0700" stop="20201031190000 +0700" channel="bein1.iptv36.my.to">
     <title><![CDATA[LaLiga 2020/21 : Eibar vs Cadiz]]></title>
   </programme>
@@ -289,17 +280,8 @@
   <programme start="20201102025500 +0700" stop="20201102050000 +0700" channel="bein1.iptv36.my.to">
     <title><![CDATA[LaLiga 2020/21 : Valencia vs Getafe (Live)]]></title>
   </programme>
-  <programme start="20201031140000 +0700" stop="20201031160000 +0700" channel="bein2.iptv36.my.to">
-    <title><![CDATA[Major League Soccer 2020 : San Jose vs Real Salt Lake]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20201031160000 +0700" stop="20201031163000 +0700" channel="bein2.iptv36.my.to">
-    <title><![CDATA[Ligue 1 Show 2020/21 : MD 9]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20201031163000 +0700" stop="20201031170000 +0700" channel="bein2.iptv36.my.to">
-    <title><![CDATA[Inside Serie A 2020/21 : MD 6]]></title>
-    <desc><![CDATA[<No description>]]></desc>
+  <programme start="20201102050000 +0700" stop="20201102063000 +0700" channel="bein1.iptv36.my.to">
+    <title><![CDATA[LaLiga Post Match 2020/21 : Valencia vs Getafe (Live)]]></title>
   </programme>
   <programme start="20201031170000 +0700" stop="20201031180000 +0700" channel="bein2.iptv36.my.to">
     <title><![CDATA[Formula Regional European Championship Race 2020 : Barcelona, Race 1 (Live)]]></title>
@@ -410,14 +392,8 @@
   <programme start="20201102023500 +0700" stop="20201102044500 +0700" channel="bein2.iptv36.my.to">
     <title><![CDATA[Serie A 2020/21 : Sampdoria vs Genoa (Live)]]></title>
   </programme>
-  <programme start="20201031143000 +0700" stop="20201031152500 +0700" channel="blueantent.iptv36.my.to">
-    <title><![CDATA[Charmed (2018) EP.4]]></title>
-  </programme>
-  <programme start="20201031152500 +0700" stop="20201031161500 +0700" channel="blueantent.iptv36.my.to">
-    <title><![CDATA[Charmed (2018) EP.5]]></title>
-  </programme>
-  <programme start="20201031161500 +0700" stop="20201031170500 +0700" channel="blueantent.iptv36.my.to">
-    <title><![CDATA[Charmed (2018) EP.6]]></title>
+  <programme start="20201102044500 +0700" stop="20201102063000 +0700" channel="bein2.iptv36.my.to">
+    <title><![CDATA[Serie A 2020/21 : Torino vs Lazio]]></title>
   </programme>
   <programme start="20201031170500 +0700" stop="20201031180000 +0700" channel="blueantent.iptv36.my.to">
     <title><![CDATA[Charmed (2018) EP.7]]></title>
@@ -527,20 +503,11 @@
   <programme start="20201102030000 +0700" stop="20201102040000 +0700" channel="blueantent.iptv36.my.to">
     <title><![CDATA[First Dates S7 EP.11]]></title>
   </programme>
-  <programme start="20201031150000 +0700" stop="20201031153000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[โพโรโระ + Astro boy]]></title>
+  <programme start="20201102040000 +0700" stop="20201102050000 +0700" channel="blueantent.iptv36.my.to">
+    <title><![CDATA[First Dates S7 EP.12]]></title>
   </programme>
-  <programme start="20201031153000 +0700" stop="20201031160000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[ก๊อง (ปี1)]]></title>
-  </programme>
-  <programme start="20201031160000 +0700" stop="20201031163000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[Dr.SLUMP กับหนูน้อยอาราเล่]]></title>
-  </programme>
-  <programme start="20201031163000 +0700" stop="20201031170000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[โบโบยบอย แก๊งจิ๋วซ่าพิทักษ์โลก]]></title>
-  </programme>
-  <programme start="20201031170000 +0700" stop="20201031173000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[ขบวนการโจรสลัด โกไคเจอร์]]></title>
+  <programme start="20201102050000 +0700" stop="20201102060000 +0700" channel="blueantent.iptv36.my.to">
+    <title><![CDATA[Late Night With Seth Meyers S8 EP.20]]></title>
   </programme>
   <programme start="20201031173000 +0700" stop="20201031180000 +0700" channel="cartoonclub.iptv36.my.to">
     <title><![CDATA[ชินจังจอมแก่น]]></title>
@@ -746,20 +713,20 @@
   <programme start="20201102030000 +0700" stop="20201102033000 +0700" channel="cartoonclub.iptv36.my.to">
     <title><![CDATA[ดาบพิฆาตอสูร ปีที่ 1]]></title>
   </programme>
-  <programme start="20201031150000 +0700" stop="20201031153000 +0700" channel="cartoonnetwork.iptv36.my.to">
-    <title><![CDATA[Monster Beach]]></title>
+  <programme start="20201102033000 +0700" stop="20201102040000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[ฟิวเจอร์การ์ด บัดดี้ไฟท์ 100]]></title>
   </programme>
-  <programme start="20201031153000 +0700" stop="20201031160000 +0700" channel="cartoonnetwork.iptv36.my.to">
-    <title><![CDATA[Ninjago]]></title>
+  <programme start="20201102040000 +0700" stop="20201102043000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[วันพีช เกาะโซว ปีที่ 15]]></title>
   </programme>
-  <programme start="20201031160000 +0700" stop="20201031163000 +0700" channel="cartoonnetwork.iptv36.my.to">
-    <title><![CDATA[Total Dramarama]]></title>
+  <programme start="20201102043000 +0700" stop="20201102050000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[โบโบยบอย แก๊งจิ๋วซ่าพิทักษ์โลก]]></title>
   </programme>
-  <programme start="20201031163000 +0700" stop="20201031170000 +0700" channel="cartoonnetwork.iptv36.my.to">
-    <title><![CDATA[Mao Mao Heroes Of Pure Heart]]></title>
+  <programme start="20201102050000 +0700" stop="20201102053000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[ขบวนการจ้าวสรรพสัตว์ จูโอเจอร์]]></title>
   </programme>
-  <programme start="20201031170000 +0700" stop="20201031173000 +0700" channel="cartoonnetwork.iptv36.my.to">
-    <title><![CDATA[Dc Super Hero Girls Series]]></title>
+  <programme start="20201102053000 +0700" stop="20201102060000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[บาคุกัน มอนสเตอร์บอลทะลุมิติ ปีที่ 5]]></title>
   </programme>
   <programme start="20201031173000 +0700" stop="20201031180000 +0700" channel="cartoonnetwork.iptv36.my.to">
     <title><![CDATA[Power Players]]></title>
@@ -926,14 +893,14 @@
   <programme start="20201102030000 +0700" stop="20201102040000 +0700" channel="cartoonnetwork.iptv36.my.to">
     <title><![CDATA[Adventure Time]]></title>
   </programme>
-  <programme start="20201031150000 +0700" stop="20201031155000 +0700" channel="discoveryasia.iptv36.my.to">
-    <title><![CDATA[Culinary Asia (S1)]]></title>
+  <programme start="20201102040000 +0700" stop="20201102050000 +0700" channel="cartoonnetwork.iptv36.my.to">
+    <title><![CDATA[Grizzy And The Lemmings]]></title>
   </programme>
-  <programme start="20201031155000 +0700" stop="20201031164000 +0700" channel="discoveryasia.iptv36.my.to">
-    <title><![CDATA[Islamic Art: Mirror Of The Invisible World (S1)]]></title>
+  <programme start="20201102050000 +0700" stop="20201102053000 +0700" channel="cartoonnetwork.iptv36.my.to">
+    <title><![CDATA[Oggy & The Cockroaches]]></title>
   </programme>
-  <programme start="20201031164000 +0700" stop="20201031173000 +0700" channel="discoveryasia.iptv36.my.to">
-    <title><![CDATA[A Glimpse of Paradise - Garden Culture in the Islamic World (S1)]]></title>
+  <programme start="20201102053000 +0700" stop="20201102063000 +0700" channel="cartoonnetwork.iptv36.my.to">
+    <title><![CDATA[Teen Titans Go!]]></title>
   </programme>
   <programme start="20201031173000 +0700" stop="20201031182000 +0700" channel="discoveryasia.iptv36.my.to">
     <title><![CDATA[Build It Bigger (S4)]]></title>
@@ -1060,6 +1027,18 @@
   </programme>
   <programme start="20201102024000 +0700" stop="20201102033000 +0700" channel="discoveryasia.iptv36.my.to">
     <title><![CDATA[China Wild (S1)]]></title>
+  </programme>
+  <programme start="20201102033000 +0700" stop="20201102043000 +0700" channel="discoveryasia.iptv36.my.to">
+    <title><![CDATA[Snake Master (S1)]]></title>
+  </programme>
+  <programme start="20201102043000 +0700" stop="20201102050000 +0700" channel="discoveryasia.iptv36.my.to">
+    <title><![CDATA[Duster Adventures: Kerala (S1)]]></title>
+  </programme>
+  <programme start="20201102050000 +0700" stop="20201102055000 +0700" channel="discoveryasia.iptv36.my.to">
+    <title><![CDATA[Build It Bigger (S4)]]></title>
+  </programme>
+  <programme start="20201102055000 +0700" stop="20201102064000 +0700" channel="discoveryasia.iptv36.my.to">
+    <title><![CDATA[Man Made Marvels China (S1)]]></title>
   </programme>
   <programme start="20201031000000 +0700" stop="20201031010000 +0700" channel="disneyxd.iptv36.my.to">
     <title><![CDATA[Freaktown]]></title>
@@ -1884,9 +1863,6 @@
     <sub-title><![CDATA[SR-ENT-KN :: Humanity]]></sub-title>
     <desc><![CDATA[รายการนำเสนอข้อมูลความรู้ที่เป็นประโยชน์ต่างๆซึ่งผู้ชมสามารถนำไปประยุกต์ใช้ในชีวิตประจำวัน]]></desc>
   </programme>
-  <programme start="20201031150000 +0700" stop="20201031170000 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[An American Werewolf In London]]></title>
-  </programme>
   <programme start="20201031170000 +0700" stop="20201031190000 +0700" channel="hitsmovies.iptv36.my.to">
     <title><![CDATA[Herbie Goes to Monte Carlo]]></title>
   </programme>
@@ -1940,6 +1916,9 @@
   </programme>
   <programme start="20201102030000 +0700" stop="20201102050000 +0700" channel="hitsmovies.iptv36.my.to">
     <title><![CDATA[The Naked Gun Halloween II]]></title>
+  </programme>
+  <programme start="20201102050000 +0700" stop="20201102070000 +0700" channel="hitsmovies.iptv36.my.to">
+    <title><![CDATA[Book of Shadow: The Blairwitch 2]]></title>
   </programme>
   <programme start="20201031000000 +0700" stop="20201031005500 +0700" channel="natgeo.iptv36.my.to">
     <title><![CDATA[Extreme Lands]]></title>
@@ -2086,12 +2065,6 @@
     <sub-title><![CDATA[SR-ENT-KN :: Disaster]]></sub-title>
     <desc><![CDATA[สารคดีนำเสนอการวิเคราะห์สืบสวนบรรดาเหตุการณ์เครื่องบินตกจากทั่วทุกมุมโลกโดยรวบรวมข้อมูลจากรายงานการกู้ซากเครื่องบินและบทสัมภาษณ์ผู้เชี่ยวชาญและผู้เห็นเหตุการณ์]]></desc>
   </programme>
-  <programme start="20201031133000 +0700" stop="20201031154500 +0700" channel="paramount.iptv36.my.to">
-    <title><![CDATA[Trading Places]]></title>
-  </programme>
-  <programme start="20201031154500 +0700" stop="20201031174000 +0700" channel="paramount.iptv36.my.to">
-    <title><![CDATA[Super 8]]></title>
-  </programme>
   <programme start="20201031174000 +0700" stop="20201031191500 +0700" channel="paramount.iptv36.my.to">
     <title><![CDATA[Happy Christmas]]></title>
   </programme>
@@ -2148,6 +2121,9 @@
   </programme>
   <programme start="20201102023000 +0700" stop="20201102041500 +0700" channel="paramount.iptv36.my.to">
     <title><![CDATA[April Fool's Day]]></title>
+  </programme>
+  <programme start="20201102041500 +0700" stop="20201102060000 +0700" channel="paramount.iptv36.my.to">
+    <title><![CDATA[Best Defense]]></title>
   </programme>
   <programme start="20201031000000 +0700" stop="20201031020000 +0700" channel="premier1.iptv36.my.to">
     <title><![CDATA[PL 2020/21: FULHAM VS CRYSTAL PALACE]]></title>
@@ -2876,22 +2852,6 @@
   <programme start="20201031221500 +0700" stop="20201031235959 +0700" channel="truesporthd2.iptv36.my.to">
     <title><![CDATA[Jupiler Pro League 2020/21]]></title>
   </programme>
-  <programme start="20201031150000 +0700" stop="20201031153000 +0700" channel="voice.iptv36.my.to">
-    <title><![CDATA[อโรคา Life]]></title>
-    <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
-  </programme>
-  <programme start="20201031153000 +0700" stop="20201031160000 +0700" channel="voice.iptv36.my.to">
-    <title><![CDATA[TV Direct 15:30 น.]]></title>
-    <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
-  </programme>
-  <programme start="20201031160000 +0700" stop="20201031170000 +0700" channel="voice.iptv36.my.to">
-    <title><![CDATA[SME Coaching]]></title>
-    <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
-  </programme>
-  <programme start="20201031170000 +0700" stop="20201031173000 +0700" channel="voice.iptv36.my.to">
-    <title><![CDATA[TV Direct 17:00]]></title>
-    <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
-  </programme>
   <programme start="20201031173000 +0700" stop="20201031180000 +0700" channel="voice.iptv36.my.to">
     <title><![CDATA[Journal Journey]]></title>
     <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
@@ -3056,9 +3016,6 @@
     <title><![CDATA[TV DIRECT PROGRAM]]></title>
     <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
   </programme>
-  <programme start="20201031135000 +0700" stop="20201031154500 +0700" channel="warnertv.iptv36.my.to">
-    <title><![CDATA[Geostorm]]></title>
-  </programme>
   <programme start="20201031154500 +0700" stop="20201031175500 +0700" channel="warnertv.iptv36.my.to">
     <title><![CDATA[Justice League (2017)]]></title>
   </programme>
@@ -3169,5 +3126,14 @@
   </programme>
   <programme start="20201102030000 +0700" stop="20201102040000 +0700" channel="warnertv.iptv36.my.to">
     <title><![CDATA[The Flash S5 EP.13]]></title>
+  </programme>
+  <programme start="20201102040000 +0700" stop="20201102050000 +0700" channel="warnertv.iptv36.my.to">
+    <title><![CDATA[The Flash S5 EP.14]]></title>
+  </programme>
+  <programme start="20201102050000 +0700" stop="20201102055000 +0700" channel="warnertv.iptv36.my.to">
+    <title><![CDATA[World's Dumbest S17 EP.9]]></title>
+  </programme>
+  <programme start="20201102055000 +0700" stop="20201102064000 +0700" channel="warnertv.iptv36.my.to">
+    <title><![CDATA[Supergirl S4 EP.13]]></title>
   </programme>
 </tv>

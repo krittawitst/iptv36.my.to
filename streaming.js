@@ -76,14 +76,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/new18.png',
     tvgId: 'th-dtv18.iptv36.my.to',
     urlList: [
-      [
-        'HD',
-        'https://stream-05.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL541UxO--Vpy8Ml-acZv1q2ec)/dm/3/x7kx5i7/s/live-3.m3u8#cell=lsg1&qos_vpart=1&qos_stail=1',
-      ], // 1080p
-      [
-        'HD',
-        'https://stream-01.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL541UxO--Vpy8Ml-acZv1q2ec)/dm/3/x7kx5i7/s/live-4.m3u8',
-      ], // 720p
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/newtv/index.m3u8'], // 720p upscale
     ],
     groupName: thDtvWithCurrentDate,
@@ -94,10 +86,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/nation.png',
     tvgId: 'th-dtv22.iptv36.my.to',
     urlList: [
-      [
-        'HD',
-        'https://stream-04.sg1.dailymotion.com/sec(ccIVIlWaGsSkNrAGI3_YSYd1OgOdrI_qPlB5fU0Jfa8)/dm/3/x6eoldf/d/live-3.m3u8',
-      ], // 720p
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chnation/index.m3u8'], // 720p upscale
     ],
     groupName: thDtvWithCurrentDate,
@@ -108,11 +96,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/workpoint.png',
     tvgId: 'th-dtv23.iptv36.my.to',
     urlList: [
-      [
-        'HD',
-        'https://stream-02.sg1.dailymotion.com/sec(MuIaQwZ7oLftuFXhsi7R8nSs7CGuzewffp95CvAfa9E)/dm/3/x6g9qjj/s/live-3.m3u8',
-      ], // 720p
-      // 'http://27.254.130.56/live01/ch7.m3u8', // 720p
+      'http://27.254.130.56/live01/ch7.m3u8', // 720p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -132,10 +116,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/gmm25.png',
     tvgId: 'th-dtv25.iptv36.my.to',
     urlList: [
-      [
-        'HD',
-        'https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_WtBpZYt9OOLB_NzOdrPK5k)/dm/3/x6rz4t7/s/live-3.m3u8',
-      ], // 720p
       'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8', // 720p upscale
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chgmm/index.m3u8'], // 720p upscale
       'http://183.182.100.184/live/mcothd/playlist.m3u8', // 360p
@@ -663,9 +643,69 @@ const streamingInfo = {
   },
 };
 
+const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
+  console.log('\nGetting dynamic streaming url from dailymotion...');
+
+  // config
+  let config = [
+    // [channelKey, channelNameSuffix, pageUrl, appendUrlToBottom=false]
+    ['workpoint', 'HD', 'https://www.dailymotion.com/embed/video/x6g9qjj'],
+    ['new18', 'HD', 'https://www.dailymotion.com/embed/video/x7kx5i7'],
+    ['nation', 'HD', 'https://www.dailymotion.com/embed/video/x6eoldf'],
+    ['gmm25', 'HD', 'https://www.dailymotion.com/embed/video/k7KnbDPalNddQqrJq1J'],
+  ];
+
+  let result = {};
+  await Promise.all(
+    config.map(async ([channelKey, channelNameSuffix, pageUrl, appendUrlToBottom = false]) => {
+      let rawPageHtml = '';
+      try {
+        const response = await axios.get(pageUrl);
+        rawPageHtml = response.data;
+      } catch (error) {
+        console.error(`Cannot extract playlist for channel ${channelKey}`);
+        console.error(error);
+      }
+
+      let regExpMatchArray = rawPageHtml.match(
+        /"(https:\\\/\\\/www\.dailymotion\.com\\\/cdn\\\/live\\\/video\\\/.*?\.m3u8\?sec=.*?)"/
+      );
+
+      let livePlayListUrl = '';
+      if (regExpMatchArray) {
+        livePlayListUrl = regExpMatchArray[1].replace(/\\\//g, '/');
+      }
+
+      if (livePlayListUrl) {
+        try {
+          const response = await axios.get(livePlayListUrl);
+          let rawPlayList = response.data;
+
+          let regExpMatchArray = rawPlayList.match(/https:\/\/.*?\/live-[3-4]\.m3u8/);
+
+          if (regExpMatchArray) {
+            if (!(channelKey in streamingInfo)) {
+              console.error(`Not recognize channel ${channelKey}`);
+              return;
+            }
+            console.log(regExpMatchArray[0]);
+            if (appendUrlToBottom) {
+              streamingInfo[channelKey].urlList.push([channelNameSuffix, regExpMatchArray[0]]);
+            } else {
+              streamingInfo[channelKey].urlList.unshift([channelNameSuffix, regExpMatchArray[0]]);
+            }
+          }
+        } catch (error) {
+          console.error(`Cannot extract playlist for channel ${channelKey}`);
+          console.error(error);
+        }
+      }
+    })
+  );
+};
+
 const dynamicallyAddStreamingUrlFromWePlay = async () => {
-  console.log('\nGetting dynamic streaming url...');
-  console.log('==> Done');
+  console.log('\nGetting dynamic streaming url from weplay...');
 
   // config
   let config = [
@@ -779,6 +819,10 @@ const testUrl = async (url) => {
         return true;
       }
 
+      if (process.env.NETLIFY && errorMsg === 403 && url.includes('googlevideocdn.com')) {
+        return true;
+      }
+
       errorMessageArray.push(errorMsg);
       await new Promise((resolve) => setTimeout(resolve, 300));
       attempt += 1;
@@ -860,5 +904,6 @@ const getStreamingInfo = async (channelKey, skip = 0) => {
 
 module.exports = {
   getStreamingInfo,
+  dynamicallyAddStreamingUrlFromDailyMotion,
   dynamicallyAddStreamingUrlFromWePlay,
 };
