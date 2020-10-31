@@ -13,7 +13,7 @@ const main = async () => {
   const epgDataPromise = getEpgData();
 
   // dynamically add streaming url
-  // await streaming.dynamicallyAddStreamingUrlFromWePlay();
+  await streaming.dynamicallyAddStreamingUrlFromWePlay();
 
   // remember all active channel key to build epg
   let allActiveChannelKey = [];
@@ -61,7 +61,7 @@ const main = async () => {
   }
 
   // generate XMLTV EPG file
-  allActiveChannelKey = [new Set(allActiveChannelKey)];
+  allActiveChannelKey = Array.from(new Set(allActiveChannelKey));
   const epgData = await epgDataPromise;
 
   let xmlHead = `<?xml version="1.0" encoding="UTF-8"?>
