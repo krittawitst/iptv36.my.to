@@ -6,6 +6,29 @@ const { JSDOM } = jsdom;
 const getEpgDataFromNbtc = async () => {
   console.log(`Fetching epg data from NBTC...`);
 
+  // mapping tvg id
+  let channelNoToChannelKey = {
+    '01': 'tv5',
+    '02': 'nbt',
+    '03': 'thaipbs',
+    10: 'tptv',
+    16: 'tnn16',
+    18: 'new18',
+    22: 'nation',
+    23: 'workpoint',
+    24: 'true4u',
+    25: 'gmm25',
+    27: 'ch8',
+    29: 'mono29',
+    30: 'mcot',
+    31: 'one',
+    32: 'thairath',
+    33: 'ch3',
+    34: 'amarin',
+    35: 'ch7',
+    36: 'pptv',
+  };
+
   // send request
   let rawData = {};
   try {
@@ -25,7 +48,11 @@ const getEpgDataFromNbtc = async () => {
   // process data
   let epgData = [];
   for (let result of rawData.results) {
-    let channelKey = `th-dtv${result.channelNo}`;
+    if (!result.channelNo in channelNoToChannelKey) {
+      continue;
+    }
+
+    let channelKey = channelNoToChannelKey[result.channelNo];
     for (let program of result.programOfChannel) {
       let programStart = new Date(program.pgBeginTimeLong * 1000);
       let programEnd = new Date(program.pgEndTimeLong * 1000);

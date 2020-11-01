@@ -14,7 +14,7 @@ const main = async () => {
 
   // dynamically add streaming url
   await streaming.dynamicallyAddStreamingUrlFromDailyMotion();
-  await streaming.dynamicallyAddStreamingUrlFromWePlay();
+  // await streaming.dynamicallyAddStreamingUrlFromWePlay();
 
   // remember all active channel key to build epg
   let allActiveChannelKey = [];
