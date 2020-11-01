@@ -69,6 +69,10 @@ const streamingInfo = {
     channelName: 'NEW 18',
     logo: 'https://iptv36.my.to/logo/new18.png',
     urlList: [
+      [
+        'HD',
+        'https://stream-02.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54xNQrQ6Zu5OMFfB3wpbEG94)/dm/3/x7kx5i7/s/live-4.m3u8',
+      ],
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/newtv/index.m3u8'], // 720p upscale
     ],
     groupName: thDtvWithCurrentDate,
@@ -105,6 +109,10 @@ const streamingInfo = {
     channelName: 'GMM25',
     logo: 'https://iptv36.my.to/logo/gmm25.png',
     urlList: [
+      [
+        'HD',
+        'https://stream-01.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_aD1stt9S_kao8W_jC38pyc)/dm/3/x6rz4t7/s/live-3.m3u8',
+      ],
       'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8', // 720p upscale
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chgmm/index.m3u8'], // 720p upscale
       'http://183.182.100.184/live/mcothd/playlist.m3u8', // 360p
@@ -595,9 +603,10 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
   let config = [
     // [channelKey, channelNameSuffix, pageUrl, appendUrlToBottom=false]
     ['workpoint', 'HD', 'https://www.dailymotion.com/embed/video/x6g9qjj'],
-    ['new18', 'HD', 'https://www.dailymotion.com/embed/video/x7kx5i7'],
     ['nation', 'HD', 'https://www.dailymotion.com/embed/video/x6eoldf'],
-    ['gmm25', 'HD', 'https://www.dailymotion.com/embed/video/k7KnbDPalNddQqrJq1J'],
+    // geo restricted
+    // ['new18', 'HD', 'https://www.dailymotion.com/embed/video/x7kx5i7'],
+    // ['gmm25', 'HD', 'https://www.dailymotion.com/embed/video/k7KnbDPalNddQqrJq1J'],
   ];
 
   let result = {};
@@ -633,11 +642,11 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
               console.error(`Not recognize channel ${channelKey}`);
               return;
             }
-            console.log(regExpMatchArray[0]);
+            let url = regExpMatchArray[0].replace('.nyc.', '.sg1.');
             if (appendUrlToBottom) {
-              streamingInfo[channelKey].urlList.push([channelNameSuffix, regExpMatchArray[0]]);
+              streamingInfo[channelKey].urlList.push([channelNameSuffix, url]);
             } else {
-              streamingInfo[channelKey].urlList.unshift([channelNameSuffix, regExpMatchArray[0]]);
+              streamingInfo[channelKey].urlList.unshift([channelNameSuffix, url]);
             }
           }
         } catch (error) {
