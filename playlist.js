@@ -55,21 +55,21 @@ const proPlaylist = {
 
     // 37-40
     ['foxmovies'],
-    ['foxactionmovies'],
-    ['foxfamilymovies'],
-    ['foxlife'],
+    ['foxthai'],
+    ['hitsmovies'],
+    ['axn'],
 
     // 41-50
-    ['foxthai'],
-    ['warnertv'],
-    ['paramount'],
-    ['hbo'],
-    ['axn'],
-    ['blueantent'],
-    ['natgeo'],
+    ['samrujlok'],
     ['history'],
     ['history2'],
     ['discoveryasia'],
+    ['cartoonnetwork'],
+    ['disney'],
+    ['bein1'],
+    ['bein2'],
+    ['bein1', 1],
+    ['bein2', 1],
 
     // 51-60
     ['premier1'],
@@ -77,27 +77,16 @@ const proPlaylist = {
     ['premier3'],
     ['premier4'],
     ['premier5'],
-    ['bein1'],
-    ['bein2'],
-    ['premier1', 2],
-    ['premier3', 2],
-    ['truesport2'],
-
-    // 61-70
     ['premier1', 1],
     ['premier2', 1],
     ['premier3', 1],
+    ['premier1', 2],
+    ['premier3', 2],
+
+    // 61-70
     ['truesporthd'],
     ['truesporthd2'],
-    ['bein1', 1],
-    ['bein2', 1],
-    ['hitsmovies'],
-    ['cartoonnetwork'],
-    ['disneyxd'],
-
-    // 71-72
-    ['truesparkplay'],
-    ['truesparkjump'],
+    ['truesport2'],
   ],
 };
 

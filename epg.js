@@ -96,7 +96,7 @@ const getEpgDataFromAisPlay = async () => {
 
   // mapping tvg id
   let channelIdToChannelKey = {
-    '5efdd162fbb0045345ef2b61': 'th-dtv04',
+    '5efdd162fbb0045345ef2b61': 'altv',
     '5ee1eb4d0f24872fd951d196': 'paramount',
     '597e004b7ed5a24e46f6725a': 'warnertv',
     '5e44faeeaae73158d325f8f9': 'hitsmovies',
@@ -202,6 +202,7 @@ const getEpgDataFromTrueVisions = async () => {
       '#page1': 'truesparkplay',
       '#page2': 'truesparkjump',
       '#page3': 'disneyxd',
+      '#page4': 'disney',
     },
   };
 

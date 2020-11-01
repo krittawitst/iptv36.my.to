@@ -92,6 +92,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/workpoint.png',
     urlList: [
       'http://27.254.130.56/live01/ch7.m3u8', // 720p
+      'http://live2.dootvde.com/live/50016_workpoint_tv.stream.smil/playist.m3u8', // 720p upscale
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -191,6 +192,7 @@ const streamingInfo = {
     channelName: 'CH3',
     logo: 'https://iptv36.my.to/logo/ch3.png',
     urlList: [
+      // ['HD', 'http://live2.dootvde.com/live/50001_ch3.stream.smil/playist.m3u8'], // 720p
       'http://119.59.125.74/stream/totnew.php?channel_id=a4485b656d764f308c63b14a8bf62326', // 480p
       ['[NO HW+]', 'http://livedoomovie.com/02_3HD_720p/chunklist.m3u8'], // 480p
       // 'http://27.254.130.56/live01/ch0.m3u8?p=st', // 720p hang
@@ -203,6 +205,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/amarin.png',
     urlList: [
       ['HD', 'http://119.59.125.74/stream/totnew.php?channel_id=78f57ebcf6064b308d75208a20756983'], // 720p
+      ['HD', 'http://live2.dootvde.com/live/50025_amarin_tv_hd.stream.smil/playist.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -221,7 +224,10 @@ const streamingInfo = {
   pptv: {
     channelName: 'PPTV',
     logo: 'https://iptv36.my.to/logo/pptv.png',
-    urlList: [['[NO HW+]', 'http://livedoomovie.com/02_PPTVHD_720p/chunklist.m3u8']],
+    urlList: [
+      ['HD', 'http://live2.dootvde.com/live/50026_pptv_hd.stream.smil/playist.m3u8'], // 720p
+      ['[NO HW+]', 'http://livedoomovie.com/02_PPTVHD_720p/chunklist.m3u8'],
+    ],
     groupName: thDtvWithCurrentDate,
   },
 
@@ -348,6 +354,13 @@ const streamingInfo = {
   disneyxd: {
     channelName: 'Disney XD',
     logo: 'https://iptv36.my.to/logo/disneyxd.png',
+    urlList: [],
+    groupName: 'CARTOON',
+  },
+
+  disney: {
+    channelName: 'Disney Channel',
+    logo: 'https://iptv36.my.to/logo/disney.png',
     urlList: [['[NO HW+]', 'http://livedoomovie.com/02_DisneyXD_720p/chunklist.m3u8']],
     groupName: 'CARTOON',
   },
@@ -524,6 +537,13 @@ const streamingInfo = {
   natgeo: {
     channelName: 'NAT GEO HD',
     logo: 'https://iptv36.my.to/logo/natgeo.png',
+    urlList: [],
+    groupName: 'NEWS & DOCS',
+  },
+
+  samrujlok: {
+    channelName: 'Samrujlok HD',
+    logo: 'https://iptv36.my.to/logo/samrujlok.png',
     urlList: [['[NO HW+]', 'http://livedoomovie.com/sumrujlok_goodtv/chunklist.m3u8']],
     groupName: 'NEWS & DOCS',
   },
