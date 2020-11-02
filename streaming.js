@@ -856,6 +856,10 @@ const testUrl = async (url) => {
         return true;
       }
 
+      if (process.env.NETLIFY && errorMsg === 'ECONNABORTED' && url.includes('fwstream.com')) {
+        return true;
+      }
+
       errorMessageArray.push(errorMsg);
       await new Promise((resolve) => setTimeout(resolve, 300));
       attempt += 1;
