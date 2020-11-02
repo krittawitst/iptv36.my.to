@@ -262,7 +262,7 @@ const getEpgDataFromTrueVisions = async () => {
           }
         } catch (error) {
           console.error(`something went wrong when building epg for ${channelKey}`);
-          console.error(error);
+          // console.error(error);
         }
       }
 

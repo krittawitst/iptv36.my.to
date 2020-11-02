@@ -13,6 +13,7 @@ const main = async () => {
   const epgDataPromise = getEpgData();
 
   // dynamically add streaming url
+  await streaming.dynamicallyAddStreamingUrlFromFwIptv();
   await streaming.dynamicallyAddStreamingUrlFromDailyMotion();
   // await streaming.dynamicallyAddStreamingUrlFromWePlay();
 

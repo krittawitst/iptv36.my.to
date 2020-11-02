@@ -127,7 +127,7 @@ const streamingInfo = {
     urlList: [
       ['HD', 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8'], // 720p
       // 'http://27.254.130.56/live01/ch15.m3u8?p=st', // 720p upscale hang
-      'http://stream.rs.co.th/ch8-hi/index.m3u8', // 360p loud
+      // 'http://stream.rs.co.th/ch8-hi/index.m3u8', // 360p too loud
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -617,7 +617,7 @@ const streamingInfo = {
 };
 
 const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
-  console.log('\nGetting dynamic streaming url from dailymotion...');
+  console.log('Getting dynamic streaming url from dailymotion...');
 
   // config
   let config = [
@@ -678,8 +678,63 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
   );
 };
 
+const dynamicallyAddStreamingUrlFromFwIptv = async () => {
+  console.log('Getting dynamic streaming url from fwiptv...');
+
+  // config
+  let config = [
+    // [channelKey, channelNameSuffix, pageUrl, appendUrlToBottom=false]
+    ['tnn16', '', 'https://www.fwiptv.cc/player_demo.php?channel=27179'],
+    ['new18', '', 'https://www.fwiptv.cc/player_demo.php?channel=27174', true],
+    ['ch8', '', 'https://www.fwiptv.cc/player_demo.php?channel=27147', true],
+    ['ch3', 'HD', 'https://www.fwiptv.cc/player_demo.php?channel=27137'],
+    ['amarin', 'HD', 'https://www.fwiptv.cc/player_demo.php?channel=27135'],
+    ['ch7', 'HD', 'https://www.fwiptv.cc/player_demo.php?channel=27132'],
+    ['pptv', 'HD', 'https://www.fwiptv.cc/player_demo.php?channel=27129'],
+    ['paramount', '', 'https://www.fwiptv.cc/player_demo.php?channel=841'],
+    // ['boomerang', '', 'https://www.fwiptv.cc/player_demo.php?channel=709'],
+    // ['fwmov', '', 'https://www.fwiptv.cc/player_demo.php?channel=89782'],
+    // ['fwsov', '', 'https://www.fwiptv.cc/player_demo.php?channel=89781'],
+    // ['fwtoon', '', 'https://www.fwiptv.cc/player_demo.php?channel=89780'],
+  ];
+
+  let result = {};
+  await Promise.all(
+    config.map(async ([channelKey, channelNameSuffix, pageUrl, appendUrlToBottom = false]) => {
+      let rawPageHtml = '';
+      try {
+        const response = await axios.get(pageUrl);
+        rawPageHtml = response.data;
+      } catch (error) {
+        console.error(`Cannot extract playlist for channel ${channelKey}`);
+        console.error(error);
+      }
+
+      let regExpMatchArray = rawPageHtml.match(/'(http.+?\.m3u8\?.+)'/);
+
+      let url = '';
+      if (regExpMatchArray) {
+        url = regExpMatchArray[1];
+      }
+
+      if (url) {
+        if (!(channelKey in streamingInfo)) {
+          console.error(`Not recognize channel ${channelKey}`);
+          return;
+        }
+
+        if (appendUrlToBottom) {
+          streamingInfo[channelKey].urlList.push([channelNameSuffix, url]);
+        } else {
+          streamingInfo[channelKey].urlList.unshift([channelNameSuffix, url]);
+        }
+      }
+    })
+  );
+};
+
 const dynamicallyAddStreamingUrlFromWePlay = async () => {
-  console.log('\nGetting dynamic streaming url from weplay...');
+  console.log('Getting dynamic streaming url from weplay...');
 
   // config
   let config = [
@@ -797,6 +852,10 @@ const testUrl = async (url) => {
         return true;
       }
 
+      if (errorMsg === 'UNABLE_TO_VERIFY_LEAF_SIGNATURE' && url.includes('fwstream.com')) {
+        return true;
+      }
+
       errorMessageArray.push(errorMsg);
       await new Promise((resolve) => setTimeout(resolve, 300));
       attempt += 1;
@@ -878,6 +937,7 @@ const getStreamingInfo = async (channelKey, skip = 0) => {
 
 module.exports = {
   getStreamingInfo,
+  dynamicallyAddStreamingUrlFromFwIptv,
   dynamicallyAddStreamingUrlFromDailyMotion,
   dynamicallyAddStreamingUrlFromWePlay,
 };
