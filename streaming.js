@@ -69,10 +69,7 @@ const streamingInfo = {
     channelName: 'NEW 18',
     logo: 'https://iptv36.my.to/logo/new18.png',
     urlList: [
-      [
-        'HD',
-        'https://stream-02.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL54xNQrQ6Zu5OMFfB3wpbEG94)/dm/3/x7kx5i7/s/live-4.m3u8',
-      ],
+      ['HD', 'https://raw.githubusercontent.com/exodiver/IPTV/master/M3U8/Token/NEW18.m3u8'], // 1080p
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/newtv/index.m3u8'], // 720p upscale
     ],
     groupName: thDtvWithCurrentDate,
@@ -82,6 +79,7 @@ const streamingInfo = {
     channelName: 'Nation TV',
     logo: 'https://iptv36.my.to/logo/nation.png',
     urlList: [
+      'https://raw.githubusercontent.com/exodiver/IPTV/master/M3U8/Token/N22.m3u8',
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chnation/index.m3u8'], // 720p upscale
     ],
     groupName: thDtvWithCurrentDate,
@@ -91,7 +89,8 @@ const streamingInfo = {
     channelName: 'Workpoint TV',
     logo: 'https://iptv36.my.to/logo/workpoint.png',
     urlList: [
-      'http://27.254.130.56/live01/ch7.m3u8', // 720p
+      'https://raw.githubusercontent.com/exodiver/IPTV/master/M3U8/Token/WPTV.m3u8', // 720p
+      'http://27.254.130.56/live01/ch7.m3u8', // 720p upscale
       'http://live2.dootvde.com/live/50016_workpoint_tv.stream.smil/playist.m3u8', // 720p upscale
     ],
     groupName: thDtvWithCurrentDate,
@@ -110,10 +109,7 @@ const streamingInfo = {
     channelName: 'GMM25',
     logo: 'https://iptv36.my.to/logo/gmm25.png',
     urlList: [
-      [
-        'HD',
-        'https://stream-01.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_aD1stt9S_kao8W_jC38pyc)/dm/3/x6rz4t7/s/live-3.m3u8',
-      ],
+      ['HD', 'https://raw.githubusercontent.com/exodiver/IPTV/master/M3U8/Thailand/GMM25.m3u8'],
       'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8', // 720p upscale
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chgmm/index.m3u8'], // 720p upscale
       'http://183.182.100.184/live/mcothd/playlist.m3u8', // 360p
@@ -127,7 +123,7 @@ const streamingInfo = {
     urlList: [
       ['HD', 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8'], // 720p
       // 'http://27.254.130.56/live01/ch15.m3u8?p=st', // 720p upscale hang
-      // 'http://stream.rs.co.th/ch8-hi/index.m3u8', // 360p too loud
+      'http://stream.rs.co.th/ch8-hi/index.m3u8', // 360p too loud
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -192,9 +188,12 @@ const streamingInfo = {
     channelName: 'CH3',
     logo: 'https://iptv36.my.to/logo/ch3.png',
     urlList: [
-      // ['HD', 'http://live2.dootvde.com/live/50001_ch3.stream.smil/playist.m3u8'], // 720p
+      [
+        'HD',
+        'http://live2.dootvde.com/live/50001_ch3.stream.smil/chunklist_w487022891_b4692000_slThai.m3u8',
+      ], // 720p
+      ['HD [NO HW+]', 'http://livedoomovie.com/02_3HD_720p/chunklist.m3u8'], // 480p
       'http://119.59.125.74/stream/totnew.php?channel_id=a4485b656d764f308c63b14a8bf62326', // 480p
-      ['[NO HW+]', 'http://livedoomovie.com/02_3HD_720p/chunklist.m3u8'], // 480p
       // 'http://27.254.130.56/live01/ch0.m3u8?p=st', // 720p hang
     ],
     groupName: thDtvWithCurrentDate,
@@ -226,7 +225,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/pptv.png',
     urlList: [
       ['HD', 'http://live2.dootvde.com/live/50026_pptv_hd.stream.smil/playist.m3u8'], // 720p
-      ['[NO HW+]', 'http://livedoomovie.com/02_PPTVHD_720p/chunklist.m3u8'],
+      ['HD [NO HW+]', 'http://livedoomovie.com/02_PPTVHD_720p/chunklist.m3u8'],
     ],
     groupName: thDtvWithCurrentDate,
   },
