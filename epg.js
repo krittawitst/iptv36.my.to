@@ -240,15 +240,17 @@ const getEpgDataFromTrueVisions = async () => {
               let programStartTime = programRowDiv.querySelector('div.p-time').innerHTML.trim();
               let programStartStr =
                 `${bkkDateStr}${programStartTime}00`.replace(/-|:|T/g, '') + ' +0700';
-              let programTitle = htmlEntityDecode(
-                programRowDiv.querySelector('span.p-title').innerHTML.trim()
-              );
-              let programSubtitle = htmlEntityDecode(
-                programRowDiv.querySelector('span.p-type-year-genre').innerHTML.trim()
-              );
-              let programDescription = htmlEntityDecode(
-                programRowDiv.querySelector('span.p-synopsis').innerHTML.trim()
-              );
+              let programTitle =
+                programRowDiv.querySelector('div.p-title') &&
+                htmlEntityDecode(programRowDiv.querySelector('div.p-title').innerHTML.trim());
+              let programSubtitle =
+                programRowDiv.querySelector('div.p-type-year-genre') &&
+                htmlEntityDecode(
+                  programRowDiv.querySelector('div.p-type-year-genre').innerHTML.trim()
+                );
+              let programDescription =
+                programRowDiv.querySelector('div.p-synopsis') &&
+                htmlEntityDecode(programRowDiv.querySelector('div.p-synopsis').innerHTML.trim());
 
               epgDataForThisChannel.push({
                 programStartStr,
@@ -262,7 +264,7 @@ const getEpgDataFromTrueVisions = async () => {
           }
         } catch (error) {
           console.error(`something went wrong when building epg for ${channelKey}`);
-          // console.error(error);
+          console.error(error);
         }
       }
 

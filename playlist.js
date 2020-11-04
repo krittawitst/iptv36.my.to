@@ -57,10 +57,10 @@ const proPlaylist = {
     ['foxmovies'],
     ['foxthai'],
     ['hitsmovies'],
-    ['axn'],
-
+    ['warnertv'],
     // 41-50
-    ['samrujlok'],
+    ['axn'],
+    ['bbcearth'],
     ['history'],
     ['history2'],
     ['discoveryasia'],
@@ -68,8 +68,7 @@ const proPlaylist = {
     ['disney'],
     ['bein1'],
     ['bein2'],
-    ['bein1', 1],
-    ['bein2', 1],
+    ['truesport2'],
 
     // 51-60
     ['premier1'],
@@ -82,11 +81,6 @@ const proPlaylist = {
     ['premier3', 1],
     ['premier1', 2],
     ['premier3', 2],
-
-    // 61-70
-    ['truesporthd'],
-    ['truesporthd2'],
-    ['truesport2'],
   ],
 };
 
