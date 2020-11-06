@@ -61,6 +61,7 @@ const proPlaylist = {
     // 41-50
     ['axn'],
     ['bbcearth'],
+    ['natgeo'],
     ['history'],
     ['history2'],
     ['discoveryasia'],
@@ -68,7 +69,6 @@ const proPlaylist = {
     ['disney'],
     ['bein1'],
     ['bein2'],
-    ['truesport2'],
 
     // 51-60
     ['premier1'],
@@ -77,10 +77,10 @@ const proPlaylist = {
     ['premier4'],
     ['premier5'],
     ['premier1', 1],
-    ['premier2', 1],
     ['premier3', 1],
     ['premier1', 2],
     ['premier3', 2],
+    ['truesport2'],
   ],
 };
 

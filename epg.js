@@ -197,6 +197,7 @@ const getEpgDataFromTrueVisions = async () => {
       '#page2': 'history',
       '#page3': 'history2',
       '#page4': 'natgeo',
+      '#page11': 'bbcearth',
     },
     kids: {
       '#page1': 'truesparkplay',
