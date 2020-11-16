@@ -2,10 +2,7 @@ const axios = require('axios');
 
 exports.handler = async (event, context, callback) => {
   console.log(event);
-  console.log('='.repeat(30));
-  console.log(context);
-  console.log('='.repeat(30));
-  console.log(callback);
+  console.log(event.queryStringParameters.channel);
 
   // config
   let config = {
@@ -15,7 +12,13 @@ exports.handler = async (event, context, callback) => {
       .substring(2, 12)}&session=${Math.random().toString(36).substring(2, 12)}`,
   };
 
-  let pageUrl = config.true4u;
+  let channel = event.queryStringParameters.channel;
+
+  if (!Object.keys(config).includes(channel)) {
+    return { statusCode: 404, body: 'Parameter "channel" is required.' };
+  }
+
+  let pageUrl = config[channel];
   let streamingUrl = '';
   let rawData = '';
 
@@ -23,12 +26,10 @@ exports.handler = async (event, context, callback) => {
     const response = await axios.get(pageUrl);
     rawData = response.data;
   } catch (error) {
-    console.error(`Cannot extract playlist for channel ${channelKey}`);
-    console.error(error);
+    return { statusCode: 404, body: `Cannot get data for channel "${channelKey}" at "${pageUrl}"` };
   }
 
   let regExpMatchArray = rawData.match(/https?:\/\/.+?\.m3u8(\?[^"]+)?/);
-
   if (regExpMatchArray) {
     streamingUrl = regExpMatchArray[0].replace('m_auto_tidl', 'w_auto_tidapp');
   }
@@ -38,6 +39,6 @@ exports.handler = async (event, context, callback) => {
     headers: {
       // location: 'https://www.google.co.th',
     },
-    body: `Hi ${streamingUrl}`,
+    body: `Go to ${streamingUrl}`,
   };
 };
