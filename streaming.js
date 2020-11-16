@@ -52,7 +52,7 @@ const streamingInfo = {
     channelName: 'TPTV',
     logo: 'https://iptv36.my.to/logo/tptv.png',
     urlList: [
-      ['[NO HW+]', 'http://livedoomovie.com/02_TPTV_480p/chunklist.m3u8'],
+      ['[NO HW+]', 'https://www.livedoomovie.com/02_TPTV_480p/chunklist.m3u8'],
       'http://49.231.66.85:1935/live/tptv/playlist.m3u8', // 240p
     ],
     groupName: thDtvWithCurrentDate,
@@ -72,7 +72,10 @@ const streamingInfo = {
     channelName: 'NEW 18',
     logo: 'https://iptv36.my.to/logo/new18.png',
     urlList: [
-      ['HD', 'https://raw.githubusercontent.com/exodiver/IPTV/master/M3U8/Token/NEW18.m3u8'], // 1080p
+      [
+        'HD',
+        'https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL547eTFNu_K9xhptkamIpP-U8)/dm/3/x7kx5i7/s/live-4.m3u8',
+      ], // 1080p
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/newtv/index.m3u8'], // 720p upscale
       ['[NO HW+]', 'https://www.livedoomovie.com/02_NEW_480p/chunklist.m3u8'], // 576p
     ],
@@ -83,7 +86,6 @@ const streamingInfo = {
     channelName: 'Nation TV',
     logo: 'https://iptv36.my.to/logo/nation.png',
     urlList: [
-      'https://raw.githubusercontent.com/exodiver/IPTV/master/M3U8/Token/N22.m3u8',
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chnation/index.m3u8'], // 720p upscale
       ['[NO HW+]', 'https://www.livedoomovie.com/02_NATION_480p/chunklist.m3u8'], // 576p
     ],
@@ -94,7 +96,6 @@ const streamingInfo = {
     channelName: 'Workpoint TV',
     logo: 'https://iptv36.my.to/logo/workpoint.png',
     urlList: [
-      'https://raw.githubusercontent.com/exodiver/IPTV/master/M3U8/Token/WPTV.m3u8', // 720p
       'http://27.254.130.56/live01/ch7.m3u8', // 720p upscale
       'http://live2.dootvde.com/live/50016_workpoint_tv.stream.smil/playist.m3u8', // 720p upscale
     ],
@@ -105,6 +106,9 @@ const streamingInfo = {
     channelName: 'True4U',
     logo: 'https://iptv36.my.to/logo/true4u.png',
     urlList: [
+      // Math.random().toString(36).substring(2, 12)
+      // https://api.ipify.org/
+      ['[HD]', 'https://true4u.com/live-api?ip=184.22.25.77&uid=ljwhe42hky&session=ljwhe42hky'],
       'https://www.livedoomovie.com/02_TRUE4U_480p/chunklist.m3u8', // 480p
       'http://183.182.100.184/live/true4u/chunklist.m3u8', // 360p
     ],
@@ -117,9 +121,8 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-01.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_eVBz7Fe17faoG_YQ7h_X-o)/dm/3/x6rz4t7/s/live-3.m3u8',
+        'https://stream-05.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_cWxBC_ssWthTqdAHCY_X9s)/dm/3/x6rz4t7/s/live-3.m3u8',
       ],
-      ['HD', 'https://raw.githubusercontent.com/exodiver/IPTV/master/M3U8/Thailand/GMM25.m3u8'],
       'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8', // 720p upscale
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chgmm/index.m3u8'], // 720p upscale
       'http://183.182.100.184/live/mcothd/playlist.m3u8', // 360p
@@ -205,7 +208,7 @@ const streamingInfo = {
         'HD',
         'http://live2.dootvde.com/live/50001_ch3.stream.smil/chunklist_w487022891_b4692000_slThai.m3u8',
       ], // 720p
-      ['HD [NO HW+]', 'http://livedoomovie.com/02_3HD_720p/chunklist.m3u8'], // 720p
+      ['HD [NO HW+]', 'https://www.livedoomovie.com/02_3HD_720p/chunklist.m3u8'], // 720p
       'http://119.59.125.74/stream/totnew.php?channel_id=a4485b656d764f308c63b14a8bf62326', // 480p
       // 'http://27.254.130.56/live01/ch0.m3u8?p=st', // 720p hang
     ],
@@ -240,7 +243,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/pptv.png',
     urlList: [
       ['HD', 'http://live2.dootvde.com/live/50026_pptv_hd.stream.smil/playist.m3u8'], // 720p
-      ['HD [NO HW+]', 'http://livedoomovie.com/02_PPTVHD_720p/chunklist.m3u8'], // 720p
+      ['HD [NO HW+]', 'https://www.livedoomovie.com/02_PPTVHD_720p/chunklist.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -250,7 +253,7 @@ const streamingInfo = {
     channelName: 'beIN Sports HD1',
     logo: 'https://iptv36.my.to/logo/bein1.png',
     urlList: [
-      ['[NO HW+]', 'http://livedoomovie.com/02_epl1_720p/chunklist.m3u8'], // 720p
+      ['[NO HW+]', 'https://www.livedoomovie.com/02_epl1_720p/chunklist.m3u8'], // 720p
       'http://103.208.24.234:1935/thaisport/epl-bein1.stream/playlist.m3u8', // 480p
     ],
     groupName: 'SPORT',
@@ -260,7 +263,7 @@ const streamingInfo = {
     channelName: 'beIN Sports HD2',
     logo: 'https://iptv36.my.to/logo/bein2.png',
     urlList: [
-      ['[NO HW+]', 'http://livedoomovie.com/02_epl2_720p/chunklist.m3u8'], // 720p
+      ['[NO HW+]', 'https://www.livedoomovie.com/02_epl2_720p/chunklist.m3u8'], // 720p
       'http://103.208.24.234:1935/thaisport/epl-bein2.stream/playlist.m3u8', // 480p
     ],
     groupName: 'SPORT',
@@ -272,7 +275,7 @@ const streamingInfo = {
     urlList: [
       'http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8', // 720p
       'http://160.119.77.116:8081/iptv/epl-1.stream/playlist.m3u8', // 720p
-      ['[NO HW+]', 'http://livedoomovie.com/02_PremierHD1_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD1_720p/chunklist.m3u8'],
     ],
     groupName: 'SPORT',
   },
@@ -283,7 +286,7 @@ const streamingInfo = {
     urlList: [
       'http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8', // 720p
       'http://160.119.77.116:8081/iptv/epl-2.stream/playlist.m3u8', // 720p
-      ['[NO HW+]', 'http://livedoomovie.com/02_PremierHD2_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD2_720p/chunklist.m3u8'],
     ],
     groupName: 'SPORT',
   },
@@ -294,7 +297,7 @@ const streamingInfo = {
     urlList: [
       'http://103.208.24.234:1935/thaisport/epl-3.stream/playlist.m3u8', // 720p
       'http://160.119.77.116:8081/iptv/epl-3.stream/playlist.m3u8', // 720p
-      ['[NO HW+]', 'http://livedoomovie.com/02_PremierHD3_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD3_720p/chunklist.m3u8'],
     ],
     groupName: 'SPORT',
   },
@@ -305,7 +308,7 @@ const streamingInfo = {
     urlList: [
       'http://103.208.24.234:1935/thaisport/epl-4.stream/playlist.m3u8', // 720p
       'http://160.119.77.116:8081/iptv/epl-4.stream/playlist.m3u8', // 720p
-      ['[NO HW+]', 'http://livedoomovie.com/02_PremierHD4_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD4_720p/chunklist.m3u8'],
     ],
     groupName: 'SPORT',
   },
@@ -316,7 +319,7 @@ const streamingInfo = {
     urlList: [
       'http://103.208.24.234:1935/thaisport/epl-5.stream/playlist.m3u8', // 720p
       'http://160.119.77.116:8081/iptv/epl-5.stream/playlist.m3u8', // 720p
-      ['[NO HW+]', 'http://livedoomovie.com/02_PremierHD5_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD5_720p/chunklist.m3u8'],
     ],
     groupName: 'SPORT',
   },
@@ -361,7 +364,7 @@ const streamingInfo = {
   cartoonnetwork: {
     channelName: 'Cartoon Network HD',
     logo: 'https://iptv36.my.to/logo/cnhd.png',
-    urlList: [['[NO HW+]', 'http://livedoomovie.com/02_CartoonNetwork_720p/chunklist.m3u8']],
+    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_CartoonNetwork_720p/chunklist.m3u8']],
     groupName: 'CARTOON',
   },
 
@@ -375,7 +378,7 @@ const streamingInfo = {
   disney: {
     channelName: 'Disney Channel',
     logo: 'https://iptv36.my.to/logo/disney.png',
-    urlList: [['[NO HW+]', 'http://livedoomovie.com/02_DisneyXD_720p/chunklist.m3u8']],
+    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_DisneyXD_720p/chunklist.m3u8']],
     groupName: 'CARTOON',
   },
 
@@ -415,7 +418,7 @@ const streamingInfo = {
     channelName: 'BBC Earth HD',
     logo: 'https://iptv36.my.to/logo/bbc_earth.jpg',
     urlList: [['[NO HW+]', 'https://www.livedoomovies.com/02_BBCEARTH_720p/chunklist.m3u8']],
-    groupName: 'PREMIUM',
+    groupName: 'NEWS & DOCS',
   },
 
   blueantent: {
@@ -445,7 +448,7 @@ const streamingInfo = {
   foxmovies: {
     channelName: 'FOX Movies HD',
     logo: 'https://iptv36.my.to/logo/foxmovies.png',
-    urlList: [['[NO HW+]', 'http://livedoomovie.com/02_FoxMoviesTH_720p/chunklist.m3u8']],
+    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_FoxMoviesTH_720p/chunklist.m3u8']],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -474,7 +477,7 @@ const streamingInfo = {
   foxthai: {
     channelName: 'FOX Thai HD',
     logo: 'https://iptv36.my.to/logo/foxthai.png',
-    urlList: [['[NO HW+]', 'http://livedoomovie.com/02_FoxThai_TH_720p/chunklist.m3u8']],
+    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_FoxThai_TH_720p/chunklist.m3u8']],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -483,7 +486,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/hbo.png',
     urlList: [
       'https://liveorigin01.hbogoasia.com:8443/origin/live/HBO/index.m3u8?HBO',
-      ['[NO HW+]', 'http://livedoomovie.com/02_HBOHD_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'https://www.livedoomovie.com/02_HBOHD_720p/chunklist.m3u8'],
     ],
     groupName: 'ENTERTAINMENT',
   },
@@ -491,21 +494,21 @@ const streamingInfo = {
   history: {
     channelName: 'History HD',
     logo: 'https://iptv36.my.to/logo/history.png',
-    urlList: [['[NO HW+]', 'http://livedoomovie.com/02_HISTORYHD_720p/chunklist.m3u8']],
+    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_HISTORYHD_720p/chunklist.m3u8']],
     groupName: 'ENTERTAINMENT',
   },
 
   history2: {
     channelName: 'History2 HD',
     logo: 'https://iptv36.my.to/logo/history2.png',
-    urlList: [['[NO HW+]', 'http://livedoomovie.com/02_H2HD_720p/chunklist.m3u8']],
+    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_H2HD_720p/chunklist.m3u8']],
     groupName: 'ENTERTAINMENT',
   },
 
   hitsmovies: {
     channelName: 'Hits Movies HD',
     logo: 'https://iptv36.my.to/logo/hitsmovies.png',
-    urlList: [['[NO HW+]', 'http://livedoomovie.com/02_HITSMOVIE_720p/chunklist.m3u8']],
+    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_HITSMOVIE_720p/chunklist.m3u8']],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -553,7 +556,7 @@ const streamingInfo = {
   },
 
   natgeo: {
-    channelName: 'NAT GEO HD',
+    channelName: 'NAT Wild HD',
     logo: 'https://iptv36.my.to/logo/natgeo.png',
     urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_NatGeoHD_TH_720p/chunklist.m3u8']],
     groupName: 'NEWS & DOCS',
@@ -562,7 +565,7 @@ const streamingInfo = {
   samrujlok: {
     channelName: 'Samrujlok HD',
     logo: 'https://iptv36.my.to/logo/samrujlok.png',
-    urlList: [['[NO HW+]', 'http://livedoomovie.com/sumrujlok_goodtv/chunklist.m3u8']],
+    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/sumrujlok_goodtv/chunklist.m3u8']],
     groupName: 'NEWS & DOCS',
   },
 
@@ -751,51 +754,13 @@ const dynamicallyAddStreamingUrlFromFwIptv = async () => {
   );
 };
 
-const dynamicallyAddStreamingUrlFromWePlay = async () => {
-  console.log('Getting dynamic streaming url from weplay...');
+const dynamicallyAddStreamingUrlByDetectM3U8Url = async () => {
+  console.log('Getting dynamic streaming url...');
 
   // config
   let config = [
     // [channelKey, channelNameSuffix, pageUrl, appendUrlToBottom=false]
-    ['workpoint', '[NO HW+]', 'https://www.we-play.tv/watching/tv/workpoint', true],
-    ['true4u', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true4u'],
-    ['mcot', '[NO HW+]', 'https://www.we-play.tv/watching/tv/mcot-hd'],
-    ['one', '[NO HW+]', 'https://www.we-play.tv/watching/tv/one-hd'],
-    ['thairath', '[NO HW+]', 'https://www.we-play.tv/watching/tv/thairath-tv'],
-    ['ch3', 'HD [NO HW+]', 'https://www.we-play.tv/watching/tv/ch3-hd'],
-    ['amarin', 'HD [NO HW+]', 'https://www.we-play.tv/watching/tv/amarin-tv'],
-    ['ch7', 'HD [NO HW+]', 'https://www.we-play.tv/watching/tv/ch7-hd'],
-    ['pptv', 'HD [NO HW+]', 'https://www.we-play.tv/watching/tv/pptv-hd'],
-    ['discoveryasia', '[NO HW+]', 'https://www.we-play.tv/watching/tv/discovery-asia'],
-    ['history', '[NO HW+]', 'https://www.we-play.tv/watching/tv/history-hd'],
-    ['history2', '[NO HW+]', 'https://www.we-play.tv/watching/tv/history-h2'],
-    ['natgeo', '[NO HW+]', 'https://www.we-play.tv/watching/tv/national-geographic'],
-    ['foxmovies', '[NO HW+]', 'https://www.we-play.tv/watching/tv/fox-movies'],
-    ['foxactionmovies', '[NO HW+]', 'https://www.we-play.tv/watching/tv/fox-action-movies'],
-    ['foxfamilymovies', '[NO HW+]', 'https://www.we-play.tv/watching/tv/fox-family-movies'],
-    ['foxlife', '[NO HW+]', 'https://www.we-play.tv/watching/tv/fox-life'],
-    ['foxthai', '[NO HW+]', 'https://www.we-play.tv/watching/tv/fox-thai'],
-    ['truefilm', 'HD [NO HW+]', 'https://www.we-play.tv/watching/tv/true-film-hd'],
-    ['hbo', 'HD [NO HW+]', 'https://www.we-play.tv/watching/tv/hbo-hd'],
-    ['hitsmovies', '[NO HW+]', 'https://www.we-play.tv/watching/tv/hits-movies'],
-    ['warnertv', '[NO HW+]', 'https://www.we-play.tv/watching/tv/warner-tv'],
-    ['paramount', '[NO HW+]', 'https://www.we-play.tv/watching/tv/paramount-channel'],
-    ['blueantent', '[NO HW+]', 'https://www.we-play.tv/watching/tv/blueant-entertainment'],
-    ['premier1', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-premier-football-hd-1'],
-    ['premier2', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-premier-football-hd-2'],
-    ['premier3', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-premier-football-hd-3'],
-    ['premier4', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-premier-football-hd-4'],
-    ['premier5', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-premier-football-hd-5'],
-    ['truesport2', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-sports-2'],
-    ['truesporthd2', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-sports-hd-2'],
-    ['truesporthd', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-sports-hd'],
-    ['bein1', '[NO HW+]', 'https://www.we-play.tv/watching/tv/bein-sports-1'],
-    ['bein2', '[NO HW+]', 'https://www.we-play.tv/watching/tv/bein-sports-2'],
-    ['cartoonclub', '[NO HW+]', 'https://www.we-play.tv/watching/tv/cartoon-club'],
-    ['cartoonnetwork', '[NO HW+]', 'https://www.we-play.tv/watching/tv/cartoon-network'],
-    ['nickelodeon', '[NO HW+]', 'https://www.we-play.tv/watching/tv/nickelodeon'],
-    ['truesparkplay', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-spark-play'],
-    ['truesparkjump', '[NO HW+]', 'https://www.we-play.tv/watching/tv/true-spark-jump'],
+    ['tnn16', '', 'https://www.tnnthailand.com/live'],
   ];
 
   let result = {};
@@ -867,6 +832,10 @@ const testUrl = async (url) => {
       }
 
       if (process.env.NETLIFY && errorMsg === 403 && url.includes('googlevideocdn.com')) {
+        return true;
+      }
+
+      if (errorMsg === 'ERR_TLS_CERT_ALTNAME_INVALID' && url.includes('livedoomovie.com')) {
         return true;
       }
 
@@ -961,5 +930,5 @@ module.exports = {
   getStreamingInfo,
   dynamicallyAddStreamingUrlFromFwIptv,
   dynamicallyAddStreamingUrlFromDailyMotion,
-  dynamicallyAddStreamingUrlFromWePlay,
+  dynamicallyAddStreamingUrlByDetectM3U8Url,
 };
