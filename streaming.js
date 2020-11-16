@@ -62,6 +62,7 @@ const streamingInfo = {
     channelName: 'TNN16',
     logo: 'https://iptv36.my.to/logo/tnn16.png',
     urlList: [
+      ['HD', 'https://iptv36.netlify.app/api/true?channel=tnn16'],
       // 'http://27.254.130.56/live01/chsd_TNN_5.m3u8?p=st', // 720p upscale hang
       'http://119.59.125.74/stream/totnew.php?channel_id=77774220bb8e40aa94e549e29ff3ed8a&.m3u8', // 240p
     ],
@@ -106,10 +107,7 @@ const streamingInfo = {
     channelName: 'True4U',
     logo: 'https://iptv36.my.to/logo/true4u.png',
     urlList: [
-      [
-        '[HD]',
-        'https://cdn024.stm.trueid.net/live2/207_th_w_auto_true4u.smil/playlist.m3u8?appid=true4u&visitor=web&uid=ljwhe42hky&did=bGp3aGU0MmhreQ&mpass=OvD8fzFZDLWyNv0nUtAADq5Ywg2Xp_kdU_IGWM-s25Xef-7sclQKzl2N6DRUVVwQdyZOYHJomZt3klWmFX60yDo6TPI0zYoBVp2LY4AFduf3EQ',
-      ],
+      ['HD', 'https://iptv36.netlify.app/api/true?channel=true4u'], // 720p
       'https://www.livedoomovie.com/02_TRUE4U_480p/chunklist.m3u8', // 480p
       'http://183.182.100.184/live/true4u/chunklist.m3u8', // 360p
     ],
@@ -761,7 +759,7 @@ const dynamicallyAddStreamingUrlByDetectM3U8Url = async () => {
   // config
   let config = [
     // [channelKey, channelNameSuffix, pageUrl, appendUrlToBottom=false]
-    ['tnn16', 'HD', 'https://www.tnnthailand.com/live'],
+    ['tnn16', 'HD', 'https://www.tnnthailand.com/live'], // 720p
     [
       'true4u',
       'HD',
