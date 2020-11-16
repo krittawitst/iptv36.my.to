@@ -55,18 +55,19 @@ const proPlaylist = {
 
     // 37-40
     ['foxmovies'],
+    ['foxactionmovies'],
+    ['foxfamilymovies'],
     ['foxthai'],
-    ['hitsmovies'],
-    ['warnertv'],
+
     // 41-50
+    ['hitsmovies'],
+    ['ctb'],
     ['axn'],
     ['bbcearth'],
     ['natgeo'],
     ['history'],
     ['history2'],
     ['discoveryasia'],
-    ['cartoonnetwork'],
-    ['disney'],
     ['bein1'],
     ['bein2'],
 
@@ -81,6 +82,10 @@ const proPlaylist = {
     ['premier1', 2],
     ['premier3', 2],
     ['truesport2'],
+
+    // 61-70
+    ['cartoonnetwork'],
+    ['disney'],
   ],
 };
 

@@ -97,8 +97,9 @@ const streamingInfo = {
     channelName: 'Workpoint TV',
     logo: 'https://iptv36.my.to/logo/workpoint.png',
     urlList: [
-      'http://27.254.130.56/live01/ch7.m3u8', // 720p upscale hang
-      'http://live2.dootvde.com/live/50016_workpoint_tv.stream.smil/playist.m3u8', // 720p upscale lost
+      ['[NO HW+]', 'https://www.livedoomovies.com/02_WORKPOINT_720p/chunklist.m3u8'], // 400p
+      // 'http://27.254.130.56/live01/ch7.m3u8', // 720p upscale hang
+      // 'http://live2.dootvde.com/live/50016_workpoint_tv.stream.smil/playist.m3u8', // 720p upscale lost
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -134,6 +135,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/ch8.png',
     urlList: [
       ['HD', 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8'], // 720p
+      ['[NO HW+]', 'https://www.livedoomovies.com/02_8HD_720p/chunklist.m3u8'], // 576p
       // 'http://27.254.130.56/live01/ch15.m3u8?p=st', // 720p upscale hang
       'http://stream.rs.co.th/ch8-hi/index.m3u8', // 360p too loud
     ],
@@ -254,6 +256,7 @@ const streamingInfo = {
     urlList: [
       ['[NO HW+]', 'https://www.livedoomovie.com/02_epl1_720p/chunklist.m3u8'], // 720p
       'http://103.208.24.234:1935/thaisport/epl-bein1.stream/playlist.m3u8', // 480p
+      'https://www.livedoomovies.com/02_epl1_720p/chunklist.m3u8',
     ],
     groupName: 'SPORT',
   },
@@ -428,9 +431,12 @@ const streamingInfo = {
   },
 
   ctb: {
-    channelName: 'CTB TV',
+    channelName: 'FW Movie',
     logo: 'https://iptv36.my.to/logo/ctb.png',
-    urlList: ['http://vip.login.in.th:1935/CTB/CTB/chunklist.m3u8'],
+    urlList: [
+      'https://iptv36.netlify.app/api/true?channel=fwmov',
+      'http://vip.login.in.th:1935/CTB/CTB/chunklist.m3u8',
+    ],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -454,14 +460,14 @@ const streamingInfo = {
   foxactionmovies: {
     channelName: 'Fox Action Movies HD',
     logo: 'https://iptv36.my.to/logo/foxactionmovies.png',
-    urlList: [],
+    urlList: [['[NO HW+]', 'https://www.livedoomovies.com/02_FoxActionHD_TH_720p/chunklist.m3u8']],
     groupName: 'ENTERTAINMENT',
   },
 
   foxfamilymovies: {
     channelName: 'Fox Family Movies HD',
     logo: 'https://iptv36.my.to/logo/foxfamilymovies.png',
-    urlList: [],
+    urlList: [['[NO HW+]', 'https://www.livedoomovies.com/02_FoxFamilyHD_TH_720p/chunklist.m3u8']],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -555,9 +561,12 @@ const streamingInfo = {
   },
 
   natgeo: {
-    channelName: 'NAT Wild HD',
+    channelName: 'NAT GEO HD',
     logo: 'https://iptv36.my.to/logo/natgeo.png',
-    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_NatGeoHD_TH_720p/chunklist.m3u8']],
+    urlList: [
+      ['[NO HW+]', 'https://www.livedoomovies.com/02_NatGeoWild_TH_720p/chunklist.m3u8'],
+      // ['[NO HW+]', 'https://www.livedoomovie.com/02_NatGeoHD_TH_720p/chunklist.m3u8'],
+    ],
     groupName: 'NEWS & DOCS',
   },
 
