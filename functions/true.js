@@ -1,9 +1,6 @@
 const axios = require('axios');
 
 exports.handler = async (event, context, callback) => {
-  console.log(event);
-  console.log(event.queryStringParameters.channel);
-
   // config
   let config = {
     tnn16: 'https://www.tnnthailand.com/live',
@@ -34,6 +31,9 @@ exports.handler = async (event, context, callback) => {
   if (regExpMatchArray) {
     streamingUrl = regExpMatchArray[0].replace('m_auto_tidl', 'w_auto_tidapp');
   }
+
+  console.log(`request ${event.queryStringParameters.channel}\nreturn ${streamingUrl}`);
+  console.log('='.repeat(20));
 
   return {
     statusCode: 302,
