@@ -30,10 +30,6 @@ exports.handler = async (event, context, callback) => {
   let regExpMatchArray = rawData.match(/https?:\/\/.+?\.m3u8(\?[^"]+)?/);
 
   if (regExpMatchArray) {
-    if (!(channelKey in streamingInfo)) {
-      console.error(`Not recognize channel ${channelKey}`);
-      return;
-    }
     streamingUrl = regExpMatchArray[0].replace('m_auto_tidl', 'w_auto_tidapp');
   }
 
