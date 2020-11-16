@@ -96,8 +96,8 @@ const streamingInfo = {
     channelName: 'Workpoint TV',
     logo: 'https://iptv36.my.to/logo/workpoint.png',
     urlList: [
-      'http://27.254.130.56/live01/ch7.m3u8', // 720p upscale
       'http://live2.dootvde.com/live/50016_workpoint_tv.stream.smil/playist.m3u8', // 720p upscale
+      'http://27.254.130.56/live01/ch7.m3u8', // 720p upscale hang
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -106,9 +106,10 @@ const streamingInfo = {
     channelName: 'True4U',
     logo: 'https://iptv36.my.to/logo/true4u.png',
     urlList: [
-      // Math.random().toString(36).substring(2, 12)
-      // https://api.ipify.org/
-      ['[HD]', 'https://true4u.com/live-api?ip=184.22.25.77&uid=ljwhe42hky&session=ljwhe42hky'],
+      [
+        '[HD]',
+        'https://cdn025.stm.trueid.net/live2/207_th_w_auto_true4u.smil/playlist.m3u8?appid=true4u&visitor=web&uid=ljwhe42hky&did=bGp3aGU0MmhreQ&mpass=HTe_IFWslek77t76HMXx7F--8dKX12SpWy49fa5wpmb1p46ijxNiUaJLw_-yySyPDd77tQ9ZOcC-PevfS8BGmDo6VAyQJjHh45CcJv_U002ccQ',
+      ],
       'https://www.livedoomovie.com/02_TRUE4U_480p/chunklist.m3u8', // 480p
       'http://183.182.100.184/live/true4u/chunklist.m3u8', // 360p
     ],
@@ -263,8 +264,8 @@ const streamingInfo = {
     channelName: 'beIN Sports HD2',
     logo: 'https://iptv36.my.to/logo/bein2.png',
     urlList: [
-      ['[NO HW+]', 'https://www.livedoomovie.com/02_epl2_720p/chunklist.m3u8'], // 720p
       'http://103.208.24.234:1935/thaisport/epl-bein2.stream/playlist.m3u8', // 480p
+      ['[NO HW+]', 'https://www.livedoomovie.com/02_epl2_720p/chunklist.m3u8'], // 720p
     ],
     groupName: 'SPORT',
   },
@@ -439,8 +440,8 @@ const streamingInfo = {
     channelName: 'Discovery Asia HD',
     logo: 'https://iptv36.my.to/logo/discoveryasia.png',
     urlList: [
-      'https://doofootball.livestream-cdn.com:443/iptv/hd-discovery.stream/chunks.m3u8',
       ['[NO HW+]', 'https://www.livedoomovies.com/02_DiscoveryHDWorld/chunklist.m3u8'],
+      'https://doofootball.livestream-cdn.com:443/iptv/hd-discovery.stream/chunks.m3u8',
     ],
     groupName: 'NEWS & DOCS',
   },
@@ -761,6 +762,13 @@ const dynamicallyAddStreamingUrlByDetectM3U8Url = async () => {
   let config = [
     // [channelKey, channelNameSuffix, pageUrl, appendUrlToBottom=false]
     ['tnn16', '', 'https://www.tnnthailand.com/live'],
+    [
+      'true4u',
+      'HD',
+      `https://true4u.com/live-api?ip=184.22.25.77&uid=${Math.random()
+        .toString(36)
+        .substring(2, 12)}&session=${Math.random().toString(36).substring(2, 12)}`,
+    ],
   ];
 
   let result = {};
