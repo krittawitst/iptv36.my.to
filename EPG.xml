@@ -115,15 +115,6 @@
   <channel id="workpoint.iptv36.my.to">
     <display-name>workpoint.iptv36.my.to</display-name>
   </channel>
-  <programme start="20201116110000 +0700" stop="20201116113000 +0700" channel="altv.iptv36.my.to">
-    <title><![CDATA[English Level Up เติมพลังอังกฤษ]]></title>
-  </programme>
-  <programme start="20201116113000 +0700" stop="20201116115800 +0700" channel="altv.iptv36.my.to">
-    <title><![CDATA[กลางเมือง (Rerun)]]></title>
-  </programme>
-  <programme start="20201116115800 +0700" stop="20201116120000 +0700" channel="altv.iptv36.my.to">
-    <title><![CDATA[คลิป ดูให้รู้]]></title>
-  </programme>
   <programme start="20201116120000 +0700" stop="20201116121000 +0700" channel="altv.iptv36.my.to">
     <title><![CDATA[Have A Newsday]]></title>
   </programme>
@@ -496,6 +487,12 @@
   <programme start="20201117153000 -0000" stop="20201117163000 -0000" channel="amarin.iptv36.my.to">
     <title><![CDATA[เกมกระชากล้าน ซีซั่น2]]></title>
   </programme>
+  <programme start="20201117163000 -0000" stop="20201117165959 -0000" channel="amarin.iptv36.my.to">
+    <title><![CDATA[TVD SHOP]]></title>
+  </programme>
+  <programme start="20201117170000 -0000" stop="20201117173000 -0000" channel="amarin.iptv36.my.to">
+    <title><![CDATA[TVD SHOP]]></title>
+  </programme>
   <programme start="20201116000000 +0700" stop="20201116005500 +0700" channel="axn.iptv36.my.to">
     <title><![CDATA[American Ninja Warrior   [ 10 ]]]></title>
     <sub-title><![CDATA[SR-ENT-KN :: Entertainment, Reality]]></sub-title>
@@ -771,10 +768,6 @@
     <sub-title><![CDATA[SR-ENT-KN :: Wildlife]]></sub-title>
     <desc><![CDATA[ผู้เชี่ยวชาญทางด้านสัตว์ป่า เดฟ ซัลโมนีจะ ออกผจญภัยไปสัมผัสกับธรรมชาติอันงดงามพร้อมสำรวจเรื่องราวน่าทึ่งของสัตว์ป่านักล่าชนิดต่างๆทั้งบนบกและในทะเล]]></desc>
   </programme>
-  <programme start="20201116095000 +0700" stop="20201116114000 +0700" channel="bein1.iptv36.my.to">
-    <title><![CDATA[The Emirates FA Cup 2020/21 : Harrogate vs Skelmersdale]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
   <programme start="20201116114000 +0700" stop="20201116133000 +0700" channel="bein1.iptv36.my.to">
     <title><![CDATA[LaLiga 2020/21 : Atletico vs Villarreal]]></title>
     <desc><![CDATA[<No description>]]></desc>
@@ -875,10 +868,6 @@
     <title><![CDATA[Total Africa Cup of Nations Qualifiers 2021 : Togo vs Egypt (Live)]]></title>
     <desc><![CDATA[<No description>]]></desc>
   </programme>
-  <programme start="20201116094000 +0700" stop="20201116113000 +0700" channel="bein2.iptv36.my.to">
-    <title><![CDATA[Major League Soccer 2020 : Episode Number 0]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
   <programme start="20201116113000 +0700" stop="20201116132000 +0700" channel="bein2.iptv36.my.to">
     <title><![CDATA[Serie A 2020/21 : Atalanta vs Cagliari]]></title>
     <desc><![CDATA[<No description>]]></desc>
@@ -975,11 +964,9 @@
     <title><![CDATA[LaLiga 2 Highlights 2020/21 : MD 12]]></title>
     <desc><![CDATA[<No description>]]></desc>
   </programme>
-  <programme start="20201116110000 +0700" stop="20201116113000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[ขบวนการจ้าวสรรพสัตว์ จูโอเจอร์]]></title>
-  </programme>
-  <programme start="20201116113000 +0700" stop="20201116120000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[Astro Boy เจ้าหนูพลังปรมาณู]]></title>
+  <programme start="20201118000000 +0700" stop="20201118015000 +0700" channel="bein2.iptv36.my.to">
+    <title><![CDATA[Serie A 2020/21 : Fiorentina vs Sampdoria]]></title>
+    <desc><![CDATA[<No description>]]></desc>
   </programme>
   <programme start="20201116120000 +0700" stop="20201116123000 +0700" channel="cartoonclub.iptv36.my.to">
     <title><![CDATA[ชินจังจอมแก่น]]></title>
@@ -1137,8 +1124,8 @@
   <programme start="20201117230000 +0700" stop="20201117233000 +0700" channel="cartoonclub.iptv36.my.to">
     <title><![CDATA[นารูโตะ นินจาจอมคาถา ปีที่ 1]]></title>
   </programme>
-  <programme start="20201116110000 +0700" stop="20201116120000 +0700" channel="cartoonnetwork.iptv36.my.to">
-    <title><![CDATA[The Powerpuff Girls S3 EP.210]]></title>
+  <programme start="20201117233000 +0700" stop="20201118000000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[นารูโตะ นินจาจอมคาถา ปีที่ 1]]></title>
   </programme>
   <programme start="20201116120000 +0700" stop="20201116130000 +0700" channel="cartoonnetwork.iptv36.my.to">
     <title><![CDATA[The Amazing World Of Gumball S2 EP.36A]]></title>
@@ -1284,9 +1271,8 @@
   <programme start="20201117230000 +0700" stop="20201118000000 +0700" channel="cartoonnetwork.iptv36.my.to">
     <title><![CDATA[Oggy & The Cockroaches S5 EP.502]]></title>
   </programme>
-  <programme start="20201116035500 -0000" stop="20201116042000 -0000" channel="ch3.iptv36.my.to">
-    <title><![CDATA[โกดัง มหาสนุก]]></title>
-    <desc><![CDATA[โกดังมหาสนุกแหล่งรวมความสนุกและเสียงหัวเราะ]]></desc>
+  <programme start="20201118000000 +0700" stop="20201118010000 +0700" channel="cartoonnetwork.iptv36.my.to">
+    <title><![CDATA[Uncle Grandpa S3 EP.112]]></title>
   </programme>
   <programme start="20201116042000 -0000" stop="20201116053500 -0000" channel="ch3.iptv36.my.to">
     <title><![CDATA[เที่ยงวันทันเหตุการณ์]]></title>
@@ -1487,8 +1473,9 @@
     <title><![CDATA[ภ.จีน คุณย่าย้อนวัย หัวใจวัยทีน /ของฝาก..]]></title>
     <desc><![CDATA["เซี่ยงต้าไห่" ผู้ที่ไม่เคยสนใจเรื่องครอบครัว จนเกิดเรื่องทำให้ "กุยย่าเหล่ย" เดือดร้อนใจจนต้องกินยานอนหลับ แต่ใครจะรู้ว่าหลังจากเธอตื่นมากลับกลายเป็นสาววัยสะพรั่งวัยยี่สิบ แล้วคนวัยเจ็ดสิบจะควบคุมชีวิตในวัยหนุ่มสาวอีกครั้งได้หรือไม่]]></desc>
   </programme>
-  <programme start="20201116023000 -0000" stop="20201116042000 -0000" channel="ch7.iptv36.my.to">
-    <title><![CDATA[คมพยาบาท (Rerun) (ตอนจบ)]]></title>
+  <programme start="20201117170000 -0000" stop="20201117172000 -0000" channel="ch3.iptv36.my.to">
+    <title><![CDATA[แชนแนลทรี.."คุณย่าย้อนวัย หัวใจวัยทีน" / ของฝาก..]]></title>
+    <desc><![CDATA["เซี่ยงต้าไห่" ผู้ที่ไม่เคยสนใจเรื่องครอบครัวจนเกิดเรื่องทำให้ "กุยย่าเหล่ย" เดือดร้อนใจจนต้องกินยานอนหลับ แต่ใครจะรู้ว่าหลังจากเธอตื่นมากลับกลายเป็นสาววัยสะพรั่งวัยยี่สิบ แล้วคนวัยเจ็ดสิบจะควบคุมชีวิตในวัยหนุ่มสาวอีกครั้งได้หรือไม่]]></desc>
   </programme>
   <programme start="20201116042000 -0000" stop="20201116060000 -0000" channel="ch7.iptv36.my.to">
     <title><![CDATA[ห้องข่าวภาคเที่ยง]]></title>
@@ -1607,9 +1594,8 @@
   <programme start="20201117161000 -0000" stop="20201117165959 -0000" channel="ch7.iptv36.my.to">
     <title><![CDATA[เชฟกระทะเหล็ก ประเทศไทย (IRON CHEF THAILAND) (Rerun)]]></title>
   </programme>
-  <programme start="20201116035000 -0000" stop="20201116043500 -0000" channel="ch8.iptv36.my.to">
-    <title><![CDATA[แซ่บ 108]]></title>
-    <desc><![CDATA[รายการข่าวที่ติดตามและอัพเดทข่าวสารในวงการบันเทิงล่าสุด]]></desc>
+  <programme start="20201117170000 -0000" stop="20201117172500 -0000" channel="ch7.iptv36.my.to">
+    <title><![CDATA[เชฟกระทะเหล็ก ประเทศไทย (IRON CHEF THAILAND) (Rerun)]]></title>
   </programme>
   <programme start="20201116043500 -0000" stop="20201116060500 -0000" channel="ch8.iptv36.my.to">
     <title><![CDATA[ข่าวเด่นช่อง 8]]></title>
@@ -1789,8 +1775,17 @@
     <title><![CDATA[เกาะติดข่าว 8]]></title>
     <desc><![CDATA[รายการข่าวที่นำเสนอข่าวสาร อัพเดทข่าวเด่นและเหตุการณ์ต่างๆทั้งในประเทศและต่างประเทศ]]></desc>
   </programme>
-  <programme start="20201116105000 +0700" stop="20201116114000 +0700" channel="discoveryasia.iptv36.my.to">
-    <title><![CDATA[Coded World (S1)]]></title>
+  <programme start="20201117162000 -0000" stop="20201117163000 -0000" channel="ch8.iptv36.my.to">
+    <title><![CDATA[ชีวิตดี สาระดี]]></title>
+    <desc><![CDATA[รายการแนะนำสินค้า]]></desc>
+  </programme>
+  <programme start="20201117163000 -0000" stop="20201117165959 -0000" channel="ch8.iptv36.my.to">
+    <title><![CDATA[ซีรี่ส์ THE ROYAL GUARDIAN]]></title>
+    <desc><![CDATA[นำแสดงโดย เทจัสวี ปรากาซ - โรหิต สุชานติ]]></desc>
+  </programme>
+  <programme start="20201117170000 -0000" stop="20201117175500 -0000" channel="ch8.iptv36.my.to">
+    <title><![CDATA[ซีรี่ส์ THE ROYAL GUARDIAN]]></title>
+    <desc><![CDATA[นำแสดงโดย เทจัสวี ปรากาซ - โรหิต สุชานติ]]></desc>
   </programme>
   <programme start="20201116114000 +0700" stop="20201116123000 +0700" channel="discoveryasia.iptv36.my.to">
     <title><![CDATA[Aftershock: Disaster In Nepal]]></title>
@@ -1923,6 +1918,9 @@
   </programme>
   <programme start="20201117223000 +0700" stop="20201117232000 +0700" channel="discoveryasia.iptv36.my.to">
     <title><![CDATA[Shaanxi: China's Great Gateway (S1)]]></title>
+  </programme>
+  <programme start="20201117232000 +0700" stop="20201118001000 +0700" channel="discoveryasia.iptv36.my.to">
+    <title><![CDATA[18 Wheels Across Vietnam (S1)]]></title>
   </programme>
   <programme start="20201116000000 +0700" stop="20201116010000 +0700" channel="disney.iptv36.my.to">
     <title><![CDATA[Star vs The Forces of Evil]]></title>
@@ -2360,10 +2358,6 @@
     <sub-title><![CDATA[SR-ENT-KN :: Horror Series, Sci-Fi]]></sub-title>
     <desc><![CDATA[ภาพยนตร์ชุดทางโทรทัศน์เกี่ยวกับกลุ่มผู้รอดชีวิตที่ต้องเผชิญหน้ากับโลกอันเต็มไปด้วยเหล่าผีดิบกระหายเลือดทั่วทุกหนแห่ง -- นำแสดงโดย แอนดรูว์ ลินคอล์น]]></desc>
   </programme>
-  <programme start="20201116041500 -0000" stop="20201116044500 -0000" channel="gmm25.iptv36.my.to">
-    <title><![CDATA[CLUBFRIDAY THE SERIES 12  ตอน รักในแรงแค้น (Rerun)]]></title>
-    <desc><![CDATA[รายการประเภท วาไรตี้]]></desc>
-  </programme>
   <programme start="20201116044500 -0000" stop="20201116070000 -0000" channel="gmm25.iptv36.my.to">
     <title><![CDATA[ข่าวเที่ยง25 (LIVE)]]></title>
     <desc><![CDATA[รายการประเภท ข่าวสาร สาระความรู้]]></desc>
@@ -2568,6 +2562,10 @@
   <programme start="20201117154500 -0000" stop="20201117165959 -0000" channel="gmm25.iptv36.my.to">
     <title><![CDATA[CLUFRIDAY S.10 รักร้าย]]></title>
     <desc><![CDATA[รายการประเภท ละคร]]></desc>
+  </programme>
+  <programme start="20201117170000 -0000" stop="20201117171000 -0000" channel="gmm25.iptv36.my.to">
+    <title><![CDATA[25 WOW SALE]]></title>
+    <desc><![CDATA[รายการประเภท ข่าวสาร สาระความรู้]]></desc>
   </programme>
   <programme start="20201116013000 +0700" stop="20201116023000 +0700" channel="history.iptv36.my.to">
     <title><![CDATA[Wuhan's Red Zone Warriors]]></title>
@@ -2825,19 +2823,22 @@
     <desc><![CDATA[สาารคดีที่จะพาไปพบกับเรื่องราวและรายละเอียดแบบเจาะลึกของเหล่าบุคคลที่ต้องเสี่ยงชีวิตเพื่อเอาชนะศัตรูในศึกสงคราม]]></desc>
   </programme>
   <programme start="20201116110000 +0700" stop="20201116130000 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[F/X]]></title>
+    <title><![CDATA[F/X 2]]></title>
   </programme>
-  <programme start="20201116130000 +0700" stop="20201116150000 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[The Golden Child]]></title>
+  <programme start="20201116130000 +0700" stop="20201116151500 +0700" channel="hitsmovies.iptv36.my.to">
+    <title><![CDATA[Saturday Night Fever]]></title>
   </programme>
-  <programme start="20201116150000 +0700" stop="20201116190000 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[The Fully Monty]]></title>
+  <programme start="20201116151500 +0700" stop="20201116171500 +0700" channel="hitsmovies.iptv36.my.to">
+    <title><![CDATA[Internal Affaire]]></title>
+  </programme>
+  <programme start="20201116171500 +0700" stop="20201116190000 +0700" channel="hitsmovies.iptv36.my.to">
+    <title><![CDATA[Midnight Cowboy]]></title>
   </programme>
   <programme start="20201116190000 +0700" stop="20201116210000 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[The Untouchables]]></title>
+    <title><![CDATA[Reservoir Dogs]]></title>
   </programme>
-  <programme start="20201116210000 +0700" stop="20201116231500 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[Working Girl]]></title>
+  <programme start="20201116210000 +0700" stop="20201116230000 +0700" channel="hitsmovies.iptv36.my.to">
+    <title><![CDATA[Eve's Bayou]]></title>
   </programme>
   <programme start="20201116231500 +0700" stop="20201117010000 +0700" channel="hitsmovies.iptv36.my.to">
     <title><![CDATA[The NeverEnding Story]]></title>
@@ -2877,9 +2878,6 @@
   </programme>
   <programme start="20201117230000 +0700" stop="20201118010000 +0700" channel="hitsmovies.iptv36.my.to">
     <title><![CDATA[Internal Affairs]]></title>
-  </programme>
-  <programme start="20201116040500 -0000" stop="20201116043000 -0000" channel="mcot.iptv36.my.to">
-    <title><![CDATA[ไนน์เอ็นเตอร์เทน]]></title>
   </programme>
   <programme start="20201116043000 -0000" stop="20201116053000 -0000" channel="mcot.iptv36.my.to">
     <title><![CDATA[ข่าวเที่ยง]]></title>
@@ -3094,6 +3092,15 @@
     <title><![CDATA[PREMIUM SERIES]]></title>
     <desc><![CDATA[ภาพยนตร์จีน ชุด แต่งงานไหม หากใจตรงกัน]]></desc>
   </programme>
+  <programme start="20201117165000 -0000" stop="20201117165959 -0000" channel="mcot.iptv36.my.to">
+    <title><![CDATA[Shop Mania]]></title>
+  </programme>
+  <programme start="20201117170000 -0000" stop="20201117170500 -0000" channel="mcot.iptv36.my.to">
+    <title><![CDATA[ข่าวต้นชั่วโมง]]></title>
+  </programme>
+  <programme start="20201117170500 -0000" stop="20201117173000 -0000" channel="mcot.iptv36.my.to">
+    <title><![CDATA[สปอร์ต โฟกัส]]></title>
+  </programme>
   <programme start="20201116034000 -0000" stop="20201116052500 -0000" channel="mono29.iptv36.my.to">
     <title><![CDATA[Hit Movies]]></title>
   </programme>
@@ -3198,6 +3205,12 @@
   </programme>
   <programme start="20201117155000 -0000" stop="20201117164500 -0000" channel="mono29.iptv36.my.to">
     <title><![CDATA[Seal Team (Season 3) : สุดยอดหน่วยซีล ปี 3 (ตอนแรก)]]></title>
+  </programme>
+  <programme start="20201117164500 -0000" stop="20201117165959 -0000" channel="mono29.iptv36.my.to">
+    <title><![CDATA[Midnight Cinema]]></title>
+  </programme>
+  <programme start="20201117170000 -0000" stop="20201117184000 -0000" channel="mono29.iptv36.my.to">
+    <title><![CDATA[Midnight Cinema]]></title>
   </programme>
   <programme start="20201116000000 +0700" stop="20201116005500 +0700" channel="natgeo.iptv36.my.to">
     <title><![CDATA[Wicked Tuna S9 Compilations]]></title>
@@ -3348,14 +3361,6 @@
     <title><![CDATA[Food Factory   [ 2 ]]]></title>
     <sub-title><![CDATA[SR-ENT-KN :: Technology]]></sub-title>
     <desc><![CDATA[สารคดีนำเสนอเรื่องราวเบื้องหลังอุตสาหกรรมการผลิตอาหารและเครื่องดื่มนานาชนิดที่ทุกคนชื่นชอบ]]></desc>
-  </programme>
-  <programme start="20201116035500 -0000" stop="20201116045000 -0000" channel="nation.iptv36.my.to">
-    <title><![CDATA[Newsroom ห้องข่าวเศรษฐกิจ  (L)]]></title>
-    <desc><![CDATA[รู้เรืองราวข่าวสาร เศรษฐกิจ หุ้น การค้า การลงทุน รอบด้าน รอบโลก]]></desc>
-  </programme>
-  <programme start="20201116045000 -0000" stop="20201116050000 -0000" channel="nation.iptv36.my.to">
-    <title><![CDATA[สุข Society]]></title>
-    <desc><![CDATA[รายการแนะนำสินค้า สุขภาพ ความงาม]]></desc>
   </programme>
   <programme start="20201116050000 -0000" stop="20201116065000 -0000" channel="nation.iptv36.my.to">
     <title><![CDATA[เนชั่น ทันข่าวเที่ยง (L)]]></title>
@@ -3611,13 +3616,9 @@
     <title><![CDATA[เนชั่นกรองข่าว]]></title>
     <desc><![CDATA[กรองข่าวในรอบวัน โดย ประชาไท ธนณรงค์]]></desc>
   </programme>
-  <programme start="20201116030000 -0000" stop="20201116043000 -0000" channel="nbt.iptv36.my.to">
-    <title><![CDATA[NBT รวมใจ คนไทยไม่ทิ้งกัน]]></title>
-    <desc><![CDATA[ประชาชนทั่วไป]]></desc>
-  </programme>
-  <programme start="20201116043000 -0000" stop="20201116050000 -0000" channel="nbt.iptv36.my.to">
-    <title><![CDATA[ถ่ายทอดสดการแถลงข่าวจาก ศบค.]]></title>
-    <desc><![CDATA[ประชาชนทั่วไป]]></desc>
+  <programme start="20201117162000 -0000" stop="20201117165959 -0000" channel="nation.iptv36.my.to">
+    <title><![CDATA[จุดวัดดวงข่าว  (L)]]></title>
+    <desc><![CDATA[วิเคราะห์สถานการณ์ เหตุการณ์ และบุคคลโดยใช้โหราศาสตร์จีน พร้อมให้คำแนะนำการดูแลชีวิตและสุขภาพอย่างสมดุลครบทุกด้าน]]></desc>
   </programme>
   <programme start="20201116050000 -0000" stop="20201116060000 -0000" channel="nbt.iptv36.my.to">
     <title><![CDATA[ข่าวเที่ยง NBT]]></title>
@@ -3676,12 +3677,6 @@
   <programme start="20201116163000 -0000" stop="20201116165959 -0000" channel="nbt.iptv36.my.to">
     <title><![CDATA[Newsline]]></title>
     <desc><![CDATA[ข่าว เหตุการณ์ประจำวัน]]></desc>
-  </programme>
-  <programme start="20201116040000 -0000" stop="20201116045000 -0000" channel="new18.iptv36.my.to">
-    <title><![CDATA[ข่าวเที่ยง]]></title>
-  </programme>
-  <programme start="20201116045000 -0000" stop="20201116050000 -0000" channel="new18.iptv36.my.to">
-    <title><![CDATA[เปิดจอรอเทรด]]></title>
   </programme>
   <programme start="20201116050000 -0000" stop="20201116053000 -0000" channel="new18.iptv36.my.to">
     <title><![CDATA[World 360]]></title>
@@ -3820,6 +3815,12 @@
   </programme>
   <programme start="20201117153000 -0000" stop="20201117163000 -0000" channel="new18.iptv36.my.to">
     <title><![CDATA[NEW Documentary สำรวจโลก : หายนะภัยทางอากาศ]]></title>
+  </programme>
+  <programme start="20201117163000 -0000" stop="20201117165959 -0000" channel="new18.iptv36.my.to">
+    <title><![CDATA[Global Connect]]></title>
+  </programme>
+  <programme start="20201117170000 -0000" stop="20201117230000 -0000" channel="new18.iptv36.my.to">
+    <title><![CDATA[TVD SHOP]]></title>
   </programme>
   <programme start="20201116034500 -0000" stop="20201116051500 -0000" channel="one.iptv36.my.to">
     <title><![CDATA[ข่าวเที่ยงช่องวัน]]></title>
@@ -3980,6 +3981,14 @@
   <programme start="20201117160000 -0000" stop="20201117162000 -0000" channel="one.iptv36.my.to">
     <title><![CDATA[เพลง HOT เพลงฮิต]]></title>
     <desc><![CDATA[เพลิดเพลินกับมิวสิควิดีโอเพลงของเหล่าศิลปินที่คุณชื่นชอบ]]></desc>
+  </programme>
+  <programme start="20201117162000 -0000" stop="20201117165959 -0000" channel="one.iptv36.my.to">
+    <title><![CDATA[4 ต่อ 4 FAMILY GAME รีรัน]]></title>
+    <desc><![CDATA[เกมโชว์เพื่อครอบครัวโดยผู้เข้าแข่งขันจำนวน 2 ทีม มาแข่งขันตอบคำถามในรูปแบบผลสำรวจ 100 คน]]></desc>
+  </programme>
+  <programme start="20201117170000 -0000" stop="20201117172000 -0000" channel="one.iptv36.my.to">
+    <title><![CDATA[4 ต่อ 4 FAMILY GAME รีรัน]]></title>
+    <desc><![CDATA[เกมโชว์เพื่อครอบครัวโดยผู้เข้าแข่งขันจำนวน 2 ทีม มาแข่งขันตอบคำถามในรูปแบบผลสำรวจ 100 คน]]></desc>
   </programme>
   <programme start="20201116040000 -0000" stop="20201116060000 -0000" channel="pptv.iptv36.my.to">
     <title><![CDATA[เที่ยงทันข่าว]]></title>
@@ -4154,6 +4163,14 @@
   <programme start="20201117153300 -0000" stop="20201117163000 -0000" channel="pptv.iptv36.my.to">
     <title><![CDATA[Highlights Premier League]]></title>
     <desc><![CDATA[รายการกีฬาฟุตบอลไฮไลต์พรีเมียร์ลีก]]></desc>
+  </programme>
+  <programme start="20201117163000 -0000" stop="20201117165959 -0000" channel="pptv.iptv36.my.to">
+    <title><![CDATA[Above and Beyond]]></title>
+    <desc><![CDATA[สารคดีวิทยาศาสตร์และอวกาศ]]></desc>
+  </programme>
+  <programme start="20201117170000 -0000" stop="20201117172000 -0000" channel="pptv.iptv36.my.to">
+    <title><![CDATA[True Shopping]]></title>
+    <desc><![CDATA[คัดสรรสินค้าและบริการต่างๆที่มีคุณภาพ นำเสนอต่อผู้ชมรายการทั่วประเทศเพื่อให้สามารถเลือกซื้อสินค้าด้วยความสะดวกสบาย]]></desc>
   </programme>
   <programme start="20201116000000 +0700" stop="20201116020000 +0700" channel="premier1.iptv36.my.to">
     <title><![CDATA[PL Classic: MAU VS TOT 2008/09]]></title>
@@ -4388,6 +4405,10 @@
     <title><![CDATA[โลกหลากมิติ]]></title>
     <desc><![CDATA[เพื่อให้ความรู้และสร้างความตระหนักในคุณค่า ของความแตกต่างหลากหลาย]]></desc>
   </programme>
+  <programme start="20201117170000 -0000" stop="20201117180000 -0000" channel="thaipbs.iptv36.my.to">
+    <title><![CDATA[พื้นที่ชีวิต]]></title>
+    <desc><![CDATA[เรื่องราวการเดินทางเชิงจริยธรรมและคุณธรรมแนวใหม่]]></desc>
+  </programme>
   <programme start="20201116040000 -0000" stop="20201116062300 -0000" channel="thairath.iptv36.my.to">
     <title><![CDATA[ข่าวเที่ยงไทยรัฐ]]></title>
   </programme>
@@ -4526,9 +4547,11 @@
   <programme start="20201117154000 -0000" stop="20201117162000 -0000" channel="thairath.iptv36.my.to">
     <title><![CDATA[ถามตรงๆกับจอมขวัญ (Rerun)]]></title>
   </programme>
-  <programme start="20201116040500 -0000" stop="20201116043000 -0000" channel="tnn16.iptv36.my.to">
-    <title><![CDATA[คนหลังข่าว]]></title>
-    <desc><![CDATA[สนทนาปัญหาเหตุการณ์ปัจจุบันที่เกิดขึ้นทั้งด้านเศรษฐกิจ การเมือง สังคม โดยมีพิธีกรนำเสนอทั้งการรายงานข่าว เล่าข่าว วิเคราะห์ข่าว]]></desc>
+  <programme start="20201117162000 -0000" stop="20201117165959 -0000" channel="thairath.iptv36.my.to">
+    <title><![CDATA[ไทยรัฐเจาะประเด็น]]></title>
+  </programme>
+  <programme start="20201117170000 -0000" stop="20201117171500 -0000" channel="thairath.iptv36.my.to">
+    <title><![CDATA[ไทยรัฐเจาะประเด็น]]></title>
   </programme>
   <programme start="20201116043000 -0000" stop="20201116060000 -0000" channel="tnn16.iptv36.my.to">
     <title><![CDATA[TNN ข่าวเที่ยง]]></title>
@@ -4740,6 +4763,10 @@
     <title><![CDATA[TNN ข่าวดึก]]></title>
     <desc><![CDATA[สรุปเหตุการณ์ข่าวตลอดทั้งวันที่มีความหลากหลายจากในและต่างประเทศพร้อมทั้งการรายงานสภาพอากาศจากทุกมุมโลก]]></desc>
   </programme>
+  <programme start="20201117170000 -0000" stop="20201117173000 -0000" channel="tnn16.iptv36.my.to">
+    <title><![CDATA[เศรษฐกิจอินไซต์]]></title>
+    <desc><![CDATA[นำเสนอความเคลื่อนไหวในแวดวงเศรษฐกิจ การเงิน ทั้งในและต่างประเทศ รวมไปถึงเทคโนโลยีและนวัตกรรมที่ส่งเสริมการพัฒนาเศรษฐกิจ Startup]]></desc>
+  </programme>
   <programme start="20201116030000 -0000" stop="20201116090000 -0000" channel="tptv.iptv36.my.to">
     <title><![CDATA[ถ่ายทอดสดการประชุมสภา]]></title>
     <desc><![CDATA[การประชุมวุฒิสภา ครั้งที่ 5 (สมัยสามัญประจำปีครั้งที่สอง)]]></desc>
@@ -4833,9 +4860,8 @@
   <programme start="20201117160500 -0000" stop="20201117165959 -0000" channel="tptv.iptv36.my.to">
     <title><![CDATA[สายด่วนรัฐสภา]]></title>
   </programme>
-  <programme start="20201116023000 -0000" stop="20201116043000 -0000" channel="true4u.iptv36.my.to">
-    <title><![CDATA[ภาพยนตร์ หน่วยรบพันธุ์สายฟ้า]]></title>
-    <desc><![CDATA[เรื่องราวของกลุ่มเด็กวัยรุ่นที่ร่วมมือกันกู้เมืองจากการรุกรานของกลุ่มทหารเกาหลีเหนือ -- นำแสดงโดย จอช ฮัทเชอร์สัน และ อิซาเบล ลูคัส]]></desc>
+  <programme start="20201117170000 -0000" stop="20201118010000 -0000" channel="tptv.iptv36.my.to">
+    <title><![CDATA[สาระความรู้คู่สภา]]></title>
   </programme>
   <programme start="20201116043000 -0000" stop="20201116053000 -0000" channel="true4u.iptv36.my.to">
     <title><![CDATA[TNN ข่าวเที่ยง]]></title>
@@ -4958,12 +4984,6 @@
   </programme>
   <programme start="20201116230000 +0700" stop="20201116235959 +0700" channel="truesport2.iptv36.my.to">
     <title><![CDATA[This is ฟุตบอลไทย 2020]]></title>
-  </programme>
-  <programme start="20201116040500 -0000" stop="20201116043000 -0000" channel="tv5.iptv36.my.to">
-    <title><![CDATA[ช่อง5วาไรตี้]]></title>
-  </programme>
-  <programme start="20201116043000 -0000" stop="20201116050000 -0000" channel="tv5.iptv36.my.to">
-    <title><![CDATA[กูรู ทีวี/รายการสารคดี]]></title>
   </programme>
   <programme start="20201116050000 -0000" stop="20201116060000 -0000" channel="tv5.iptv36.my.to">
     <title><![CDATA[ช่อง5ข่าวเที่ยง]]></title>
@@ -5205,13 +5225,14 @@
   <programme start="20201117154000 -0000" stop="20201117163000 -0000" channel="tv5.iptv36.my.to">
     <title><![CDATA[ช่อง 5HD ซีรี่ส์ดัง]]></title>
   </programme>
-  <programme start="20201116110000 +0700" stop="20201116113000 +0700" channel="voice.iptv36.my.to">
-    <title><![CDATA[TV Direct 11:00]]></title>
-    <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
+  <programme start="20201117163000 -0000" stop="20201117165959 -0000" channel="tv5.iptv36.my.to">
+    <title><![CDATA[ซีอีโอ ซี้ปึ๊ก]]></title>
   </programme>
-  <programme start="20201116113000 +0700" stop="20201116120000 +0700" channel="voice.iptv36.my.to">
-    <title><![CDATA[Voice GO]]></title>
-    <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
+  <programme start="20201117170000 -0000" stop="20201117170500 -0000" channel="tv5.iptv36.my.to">
+    <title><![CDATA[ช่อง5ข่าวดึก]]></title>
+  </programme>
+  <programme start="20201117170500 -0000" stop="20201117173000 -0000" channel="tv5.iptv36.my.to">
+    <title><![CDATA[มาจอยกันไลฟ์มิวสิค]]></title>
   </programme>
   <programme start="20201116120000 +0700" stop="20201116130000 +0700" channel="voice.iptv36.my.to">
     <title><![CDATA[Wake Up News]]></title>
@@ -5389,6 +5410,10 @@
     <title><![CDATA[Overview]]></title>
     <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
   </programme>
+  <programme start="20201117233000 +0700" stop="20201118000000 +0700" channel="voice.iptv36.my.to">
+    <title><![CDATA[TV Direct 23:30]]></title>
+    <desc><![CDATA[ออกอากาศทาง Voice TV ช่อง 21]]></desc>
+  </programme>
   <programme start="20201116105000 +0700" stop="20201116125500 +0700" channel="warnertv.iptv36.my.to">
     <title><![CDATA[Kong: Skull Island]]></title>
   </programme>
@@ -5553,13 +5578,6 @@
   </programme>
   <programme start="20201117205000 +0700" stop="20201118003000 +0700" channel="warnertv.iptv36.my.to">
     <title><![CDATA[The Lord Of The Rings: The Return Of The King]]></title>
-  </programme>
-  <programme start="20201116040000 -0000" stop="20201116045000 -0000" channel="workpoint.iptv36.my.to">
-    <title><![CDATA[ด่วน ข่าวเวิร์คพอยท์เที่ยง (Workpoint News)]]></title>
-    <desc><![CDATA[รายการข่าวที่ทันต่อเหตุการณ์ในช่วงเที่ยง]]></desc>
-  </programme>
-  <programme start="20201116045000 -0000" stop="20201116050000 -0000" channel="workpoint.iptv36.my.to">
-    <title><![CDATA[ไทยช่วยช้อปชุมชน]]></title>
   </programme>
   <programme start="20201116050000 -0000" stop="20201116051000 -0000" channel="workpoint.iptv36.my.to">
     <title><![CDATA[High Shopping]]></title>
@@ -5855,5 +5873,17 @@
   <programme start="20201117161000 -0000" stop="20201117163000 -0000" channel="workpoint.iptv36.my.to">
     <title><![CDATA[คุยให้จบข่าว]]></title>
     <desc><![CDATA[รายงานข่าว]]></desc>
+  </programme>
+  <programme start="20201117163000 -0000" stop="20201117164000 -0000" channel="workpoint.iptv36.my.to">
+    <title><![CDATA[High Shopping]]></title>
+    <desc><![CDATA[รายการแนะนำสินค้า]]></desc>
+  </programme>
+  <programme start="20201117164000 -0000" stop="20201117165959 -0000" channel="workpoint.iptv36.my.to">
+    <title><![CDATA[ลูกทุ่งไมค์ทองคำ]]></title>
+    <desc><![CDATA[รายการเพลงลูกทุ่ง]]></desc>
+  </programme>
+  <programme start="20201117170000 -0000" stop="20201117172500 -0000" channel="workpoint.iptv36.my.to">
+    <title><![CDATA[High Shopping]]></title>
+    <desc><![CDATA[รายการแนะนำสินค้า]]></desc>
   </programme>
 </tv>

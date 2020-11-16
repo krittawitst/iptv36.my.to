@@ -96,8 +96,8 @@ const streamingInfo = {
     channelName: 'Workpoint TV',
     logo: 'https://iptv36.my.to/logo/workpoint.png',
     urlList: [
-      'http://live2.dootvde.com/live/50016_workpoint_tv.stream.smil/playist.m3u8', // 720p upscale
       'http://27.254.130.56/live01/ch7.m3u8', // 720p upscale hang
+      'http://live2.dootvde.com/live/50016_workpoint_tv.stream.smil/playist.m3u8', // 720p upscale lost
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -108,7 +108,7 @@ const streamingInfo = {
     urlList: [
       [
         '[HD]',
-        'https://cdn025.stm.trueid.net/live2/207_th_w_auto_true4u.smil/playlist.m3u8?appid=true4u&visitor=web&uid=ljwhe42hky&did=bGp3aGU0MmhreQ&mpass=HTe_IFWslek77t76HMXx7F--8dKX12SpWy49fa5wpmb1p46ijxNiUaJLw_-yySyPDd77tQ9ZOcC-PevfS8BGmDo6VAyQJjHh45CcJv_U002ccQ',
+        'https://cdn024.stm.trueid.net/live2/207_th_w_auto_true4u.smil/playlist.m3u8?appid=true4u&visitor=web&uid=ljwhe42hky&did=bGp3aGU0MmhreQ&mpass=OvD8fzFZDLWyNv0nUtAADq5Ywg2Xp_kdU_IGWM-s25Xef-7sclQKzl2N6DRUVVwQdyZOYHJomZt3klWmFX60yDo6TPI0zYoBVp2LY4AFduf3EQ',
       ],
       'https://www.livedoomovie.com/02_TRUE4U_480p/chunklist.m3u8', // 480p
       'http://183.182.100.184/live/true4u/chunklist.m3u8', // 360p
@@ -765,7 +765,7 @@ const dynamicallyAddStreamingUrlByDetectM3U8Url = async () => {
     [
       'true4u',
       'HD',
-      `https://true4u.com/live-api?ip=184.22.25.77&uid=${Math.random()
+      `https://true4u.com/live-api?ip=127.0.0.1&uid=${Math.random()
         .toString(36)
         .substring(2, 12)}&session=${Math.random().toString(36).substring(2, 12)}`,
     ],
@@ -783,17 +783,18 @@ const dynamicallyAddStreamingUrlByDetectM3U8Url = async () => {
         console.error(error);
       }
 
-      let regExpMatchArray = rawPageHtml.match(/"(https:\/\/.+\.m3u8?.+)"/);
+      let regExpMatchArray = rawPageHtml.match(/https?:\/\/.+?\.m3u8(\?[^"]+)?/);
 
       if (regExpMatchArray) {
         if (!(channelKey in streamingInfo)) {
           console.error(`Not recognize channel ${channelKey}`);
           return;
         }
+        let url = regExpMatchArray[0].replace('m_auto_tidl', 'w_auto_tidapp');
         if (appendUrlToBottom) {
-          streamingInfo[channelKey].urlList.push([channelNameSuffix, regExpMatchArray[1]]);
+          streamingInfo[channelKey].urlList.push([channelNameSuffix, regExpMatchArray[0]]);
         } else {
-          streamingInfo[channelKey].urlList.unshift([channelNameSuffix, regExpMatchArray[1]]);
+          streamingInfo[channelKey].urlList.unshift([channelNameSuffix, regExpMatchArray[0]]);
         }
       }
     })
