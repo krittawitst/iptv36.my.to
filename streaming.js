@@ -547,11 +547,11 @@ const streamingInfo = {
   },
 
   monoplus: {
-    channelName: 'MONO PLUS HD',
+    channelName: 'MONO+ HD',
     logo: 'https://iptv36.my.to/logo/monoplus.png',
     urlList: [
       'https://edge4-bkk.3bb.co.th:9443/MonoPlus_LiveHLS/monoplusLive_HLS1080p.stream/chunklist.m3u8', // 1080p50
-      // 'http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/cloudiptv_monoplus_live1.stream/playlist.m3u8?username=mTRTvdvQbtd1DsswhsZTMoZUdI8MT4W6&password=Rp93AKS1peyuyYDApZw6sThMshGL1vvO', // 720p
+      'http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/cloudiptv_monoplus_live1.stream/playlist.m3u8?username=mTRTvdvQbtd1DsswhsZTMoZUdI8MT4W6&password=Rp93AKS1peyuyYDApZw6sThMshGL1vvO', // 720p
     ],
     groupName: 'ENTERTAINMENT',
   },
@@ -761,7 +761,7 @@ const dynamicallyAddStreamingUrlByDetectM3U8Url = async () => {
   // config
   let config = [
     // [channelKey, channelNameSuffix, pageUrl, appendUrlToBottom=false]
-    ['tnn16', '', 'https://www.tnnthailand.com/live'],
+    ['tnn16', 'HD', 'https://www.tnnthailand.com/live'],
     [
       'true4u',
       'HD',

@@ -15,7 +15,7 @@ const main = async () => {
   // dynamically add streaming url
   // await streaming.dynamicallyAddStreamingUrlFromFwIptv();
   await streaming.dynamicallyAddStreamingUrlFromDailyMotion();
-  await streaming.dynamicallyAddStreamingUrlByDetectM3U8Url();
+  // await streaming.dynamicallyAddStreamingUrlByDetectM3U8Url();
 
   // remember all active channel key to build epg
   let allActiveChannelKey = [];
