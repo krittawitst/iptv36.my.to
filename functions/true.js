@@ -35,9 +35,9 @@ exports.handler = async (event, context, callback) => {
   }
 
   return {
-    statusCode: 200,
+    statusCode: 302,
     headers: {
-      // location: 'https://www.google.co.th',
+      location: streamingUrl,
     },
     body: `Go to ${streamingUrl}`,
   };
