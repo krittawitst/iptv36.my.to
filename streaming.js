@@ -121,7 +121,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-05.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_cWxBC_ssWthTqdAHCY_X9s)/dm/3/x6rz4t7/s/live-3.m3u8',
+        'https://stream-04.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_fXYPXfKnkEqqB6tmgkSyg0)/dm/3/x6rz4t7/s/live-3.m3u8',
       ],
       'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8', // 720p upscale
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chgmm/index.m3u8'], // 720p upscale
@@ -173,6 +173,7 @@ const streamingInfo = {
     channelName: 'MCOT HD',
     logo: 'https://iptv36.my.to/logo/mcot.png',
     urlList: [
+      'https://doofootball.livestream-cdn.com/iptv/hd-mcot.stream/playlist.m3u8', // 720p
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chmcothd/index.m3u8'], // 720p
       ['[NO HW+]', 'https://www.livedoomovie.com/02_MCOTHD_720p/chunklist.m3u8'], // 720p
     ],
@@ -244,6 +245,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/pptv.png',
     urlList: [
       ['HD', 'http://live2.dootvde.com/live/50026_pptv_hd.stream.smil/playist.m3u8'], // 720p
+      ['HD [NO HW+]', 'https://cdn6.goprimetime.info/feed/chpptvhd/index.m3u8'], // 720p
       ['HD [NO HW+]', 'https://www.livedoomovie.com/02_PPTVHD_720p/chunklist.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
@@ -265,8 +267,8 @@ const streamingInfo = {
     channelName: 'beIN Sports HD2',
     logo: 'https://iptv36.my.to/logo/bein2.png',
     urlList: [
-      'http://103.208.24.234:1935/thaisport/epl-bein2.stream/playlist.m3u8', // 480p
       ['[NO HW+]', 'https://www.livedoomovie.com/02_epl2_720p/chunklist.m3u8'], // 720p
+      'http://103.208.24.234:1935/thaisport/epl-bein2.stream/playlist.m3u8', // 480p
     ],
     groupName: 'SPORT',
   },
@@ -277,6 +279,7 @@ const streamingInfo = {
     urlList: [
       'http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8', // 720p
       'http://160.119.77.116:8081/iptv/epl-1.stream/playlist.m3u8', // 720p
+      'https://doofootball.livestream-cdn.com/iptv/epl-1.stream/playlist.m3u8', // 720p
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD1_720p/chunklist.m3u8'],
     ],
     groupName: 'SPORT',
@@ -288,6 +291,7 @@ const streamingInfo = {
     urlList: [
       'http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8', // 720p
       'http://160.119.77.116:8081/iptv/epl-2.stream/playlist.m3u8', // 720p
+      'https://doofootball.livestream-cdn.com/iptv/epl-2.stream/playlist.m3u8', // 720p
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD2_720p/chunklist.m3u8'],
     ],
     groupName: 'SPORT',
@@ -299,6 +303,7 @@ const streamingInfo = {
     urlList: [
       'http://103.208.24.234:1935/thaisport/epl-3.stream/playlist.m3u8', // 720p
       'http://160.119.77.116:8081/iptv/epl-3.stream/playlist.m3u8', // 720p
+      'http://ip2121.com:8081/at1/ENG3/chunks.m3u8', // 720p
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD3_720p/chunklist.m3u8'],
     ],
     groupName: 'SPORT',
@@ -431,12 +436,9 @@ const streamingInfo = {
   },
 
   ctb: {
-    channelName: 'FW Movie',
+    channelName: 'CTB',
     logo: 'https://iptv36.my.to/logo/ctb.png',
-    urlList: [
-      'https://iptv36.netlify.app/api/true?channel=fwmov',
-      'http://vip.login.in.th:1935/CTB/CTB/chunklist.m3u8',
-    ],
+    urlList: ['http://vip.login.in.th:1935/CTB/CTB/chunklist.m3u8'],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -561,11 +563,11 @@ const streamingInfo = {
   },
 
   natgeo: {
-    channelName: 'NAT GEO HD',
+    channelName: 'NAT Wild HD',
     logo: 'https://iptv36.my.to/logo/natgeo.png',
     urlList: [
-      ['[NO HW+]', 'https://www.livedoomovies.com/02_NatGeoWild_TH_720p/chunklist.m3u8'],
-      // ['[NO HW+]', 'https://www.livedoomovie.com/02_NatGeoHD_TH_720p/chunklist.m3u8'],
+      // ['[NO HW+]', 'https://www.livedoomovies.com/02_NatGeoWild_TH_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'https://www.livedoomovie.com/02_NatGeoHD_TH_720p/chunklist.m3u8'],
     ],
     groupName: 'NEWS & DOCS',
   },
