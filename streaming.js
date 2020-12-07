@@ -75,7 +75,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL547eTFNu_K9xhptkamIpP-U8)/dm/3/x7kx5i7/s/live-4.m3u8',
+        'https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL540qJ-dd9Lt0hZuTeOUN6exc)/dm/3/x7kx5i7/s/live-3.m3u8',
       ], // 1080p
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/newtv/index.m3u8'], // 720p upscale
       ['[NO HW+]', 'https://www.livedoomovie.com/02_NEW_480p/chunklist.m3u8'], // 576p
@@ -121,7 +121,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-04.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_fXYPXfKnkEqqB6tmgkSyg0)/dm/3/x6rz4t7/s/live-3.m3u8',
+        'https://stream-01.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_WgFmhRuvk2Dbq5gCAexXX4)/dm/3/x6rz4t7/s/live-3.m3u8',
       ],
       'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8', // 720p upscale
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chgmm/index.m3u8'], // 720p upscale
@@ -368,6 +368,13 @@ const streamingInfo = {
     groupName: 'CARTOON',
   },
 
+  toonee: {
+    channelName: 'Toonee',
+    logo: 'https://cms.dmpcdn.com/livetv/2020/09/03/4c26a640-ede0-11ea-bbdd-775d9efe2958_320.png',
+    urlList: ['https://edge6a.v2h-cdn.com/m2i7/Toonee.stream_720p/playlist.m3u8'],
+    groupName: 'CARTOON',
+  },
+
   cartoonnetwork: {
     channelName: 'Cartoon Network HD',
     logo: 'https://iptv36.my.to/logo/cnhd.png',
@@ -557,7 +564,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/monoplus.png',
     urlList: [
       'https://edge4-bkk.3bb.co.th:9443/MonoPlus_LiveHLS/monoplusLive_HLS1080p.stream/chunklist.m3u8', // 1080p50
-      'http://edge1-bkk.3bb.co.th:1935/Edge_Cloudiptv_Authen/cloudiptv_monoplus_live1.stream/playlist.m3u8?username=mTRTvdvQbtd1DsswhsZTMoZUdI8MT4W6&password=Rp93AKS1peyuyYDApZw6sThMshGL1vvO', // 720p
     ],
     groupName: 'ENTERTAINMENT',
   },
@@ -642,7 +648,10 @@ const streamingInfo = {
   warnertv: {
     channelName: 'Warner TV HD',
     logo: 'https://iptv36.my.to/logo/warnertv.png',
-    urlList: [['[NO HW+]', 'https://www.livedoomovies.com/02_WarnerTVHD_720p/chunklist.m3u8']],
+    urlList: [
+      'http://203.154.177.124:8899/live/ch12/playlist.m3u8',
+      ['[NO HW+]', 'https://www.livedoomovies.com/02_WarnerTVHD_720p/chunklist.m3u8'],
+    ],
     groupName: 'ENTERTAINMENT',
   },
 };

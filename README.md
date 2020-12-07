@@ -59,7 +59,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 16          | TNN16 HD              |
 | 17          | PSI Saradee HD        |
 | 18          | NEW 18 HD             |
-| 19          | MONO29 Soundtrack HD  |
+| 19          | Toonee                |
 | 20          | Cartoon Club          |
 | 21          | Voice TV HD           |
 | 22          | Nation TV HD          |
@@ -68,7 +68,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 25          | GMM25 HD              |
 | 26          | TVB Thai              |
 | 27          | CH8 RS HD             |
-| 28          | MONO PLUS HD          |
+| 28          | MONO29 Soundtrack HD  |
 | 29          | MONO29 HD             |
 | 30          | MCOT HD               |
 | 31          | ONE HD                |

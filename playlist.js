@@ -22,7 +22,7 @@ const basicPlaylist = {
     ['tnn16'],
     ['psi'],
     ['new18'],
-    ['mono29soundtrack'],
+    ['toonee'],
     ['cartoonclub'],
 
     // 21-30
@@ -33,7 +33,7 @@ const basicPlaylist = {
     ['gmm25'],
     ['tvb'],
     ['ch8'],
-    ['monoplus'],
+    ['mono29soundtrack'],
     ['mono29'],
     ['mcot'],
 
@@ -61,10 +61,10 @@ const proPlaylist = {
 
     // 41-50
     ['hitsmovies'],
-    ['ctb'],
+    ['warnertv'],
     ['axn'],
     ['bbcearth'],
-    ['natgeo'],
+    ['natgeo'], //
     ['history'],
     ['history2'],
     ['discoveryasia'],
