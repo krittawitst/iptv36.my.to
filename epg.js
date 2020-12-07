@@ -106,6 +106,7 @@ const getEpgDataFromAisPlay = async () => {
     '5e69984f609ced33cfa4e734': 'bein1',
     '5e699a69bf6aee30a499dc9b': 'bein2',
     '5a52f069aae731507f5387bb': 'cartoonnetwork',
+    '5d424cdbaae73145f7f2b675': 'toonee',
     '5ee1ecafb544d498b9d1d2e8': 'nickelodeon',
     '597d21477ed5a24e46f67258': 'cartoonclub',
     '5e6215e6d817de33506cedf7': 'discoveryasia',

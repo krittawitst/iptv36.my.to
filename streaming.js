@@ -303,7 +303,6 @@ const streamingInfo = {
     urlList: [
       'http://103.208.24.234:1935/thaisport/epl-3.stream/playlist.m3u8', // 720p
       'http://160.119.77.116:8081/iptv/epl-3.stream/playlist.m3u8', // 720p
-      'http://ip2121.com:8081/at1/ENG3/chunks.m3u8', // 720p
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD3_720p/chunklist.m3u8'],
     ],
     groupName: 'SPORT',
@@ -866,11 +865,7 @@ const testUrl = async (url) => {
         return true;
       }
 
-      if (errorMsg === 'UNABLE_TO_VERIFY_LEAF_SIGNATURE' && url.includes('fwstream.com')) {
-        return true;
-      }
-
-      if (process.env.NETLIFY && errorMsg === 'ECONNABORTED' && url.includes('fwstream.com')) {
+      if (process.env.NETLIFY && errorMsg === 'ECONNABORTED' && url.includes('/api/true')) {
         return true;
       }
 

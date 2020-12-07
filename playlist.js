@@ -78,9 +78,9 @@ const proPlaylist = {
     ['premier4'],
     ['premier5'],
     ['premier1', 1],
+    ['premier2', 1],
     ['premier3', 1],
     ['premier1', 2],
-    ['premier3', 2],
     ['truesport2'],
 
     // 61-70
