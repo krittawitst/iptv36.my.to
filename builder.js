@@ -48,14 +48,18 @@ const main = async () => {
     // generate playlist file
     for (let i = 0; i < playlist.channelList.length; i++) {
       let [channelKey, skip = 0] = playlist.channelList[i];
+      let streamingInfo = await streaming.getStreamingInfo(channelKey, skip);
+      let channelName = playlist.removeNoHWPlusDecoderWarning
+        ? streamingInfo.channelName.replace(' [NO HW+]', '')
+        : streamingInfo.channelName;
       let tvgId =
         channelKey === 'mono29soundtrack' ? `mono29.iptv36.my.to` : `${channelKey}.iptv36.my.to`;
-      let streamingInfo = await streaming.getStreamingInfo(channelKey, skip);
+
       let channelStr = `#EXTINF:-1 tvg-chno="${i + 1}" tvg-id="${tvgId}" group-title="${
         streamingInfo.groupName
-      }" tvg-logo="${streamingInfo.logo}?rev=${channelLogoRevision}",${
-        streamingInfo.channelName
-      }\n${streamingInfo.url}\n\n`;
+      }" tvg-logo="${streamingInfo.logo}?rev=${channelLogoRevision}",${channelName}\n${
+        streamingInfo.url
+      }\n\n`;
       textStr = textStr + `${channelStr}`;
     }
 

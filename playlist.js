@@ -1,5 +1,6 @@
 const basicPlaylist = {
   filename: 'BASIC36.m3u',
+  removeNoHWPlusDecoderWarning: true,
   channelList: [
     // 1-10
     ['tv5'],
@@ -49,6 +50,7 @@ const basicPlaylist = {
 
 const proPlaylist = {
   filename: 'PRO36.m3u',
+  removeNoHWPlusDecoderWarning: false,
   channelList: [
     // 1-36
     ...basicPlaylist.channelList,
@@ -91,6 +93,7 @@ const proPlaylist = {
 
 const iptvPlaylist = {
   filename: 'IPTV36.m3u',
+  removeNoHWPlusDecoderWarning: true,
   channelList: [
     // 1-72
     ...proPlaylist.channelList,
