@@ -75,7 +75,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL540qJ-dd9Lt0hZuTeOUN6exc)/dm/3/x7kx5i7/s/live-3.m3u8',
+        'https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL544e44DWq8YEQSyWkzVDt0UM)/dm/3/x7kx5i7/s/live-4.m3u8',
       ], // 1080p
       ['[NO HW+]', 'https://www.livedoomovie.com/02_NEW_480p/chunklist.m3u8'], // 576p
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/newtv/index.m3u8'], // 720p upscale
@@ -121,7 +121,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-01.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_WgFmhRuvk2Dbq5gCAexXX4)/dm/3/x6rz4t7/s/live-3.m3u8',
+        'https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_elKPyj-0ORQGOP2lEfg-TA)/dm/3/x6rz4t7/s/live-3.m3u8',
       ],
       'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8', // 720p upscale
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chgmm/index.m3u8'], // 720p upscale
@@ -420,10 +420,7 @@ const streamingInfo = {
   axn: {
     channelName: 'AXN HD',
     logo: 'https://iptv36.my.to/logo/axn.png',
-    urlList: [
-      'http://ip2121.com:8081/live2/AXN_Y/playlist.m3u8',
-      ['[NO HW+]', 'https://www.livedoomovies.com/02_AXNHD_720p/chunklist.m3u8'],
-    ],
+    urlList: [['[NO HW+]', 'https://www.livedoomovies.com/02_AXNHD_720p/chunklist.m3u8']],
     groupName: 'ENTERTAINMENT',
   },
 
