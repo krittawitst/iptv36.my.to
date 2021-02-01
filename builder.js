@@ -45,6 +45,11 @@ const main = async () => {
       })
     );
 
+    // for (let i = 0; i < uniqueChannelKeyForThisPlaylist.length; i++) {
+    //   let channelKey = uniqueChannelKeyForThisPlaylist[i];
+    //   await streaming.getStreamingInfo(channelKey);
+    // }
+
     // generate playlist file
     for (let i = 0; i < playlist.channelList.length; i++) {
       let [channelKey, skip = 0] = playlist.channelList[i];

@@ -66,7 +66,7 @@ const proPlaylist = {
     ['warnertv'],
     ['axn'],
     ['bbcearth'],
-    ['natgeo'], //
+    ['natgeo'],
     ['history'],
     ['history2'],
     ['discoveryasia'],
@@ -110,6 +110,6 @@ const iptvPlaylist = {
   ],
 };
 
-const allPlaylist = [basicPlaylist, proPlaylist, iptvPlaylist];
+const allPlaylist = [basicPlaylist, proPlaylist];
 
 module.exports = allPlaylist;

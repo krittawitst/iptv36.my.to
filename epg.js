@@ -189,7 +189,7 @@ const getEpgDataFromTrueVisions = async () => {
     },
     sport: {
       '#page1': 'premier1',
-      '#page2': 'premier2',
+      // '#page2': 'premier2',
       '#page3': 'truesporthd',
       '#page4': 'truesporthd2',
       '#page12': 'truesport2',

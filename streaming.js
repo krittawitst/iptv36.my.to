@@ -75,7 +75,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL544e44DWq8YEQSyWkzVDt0UM)/dm/3/x7kx5i7/s/live-4.m3u8',
+        'https://stream-03.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL5453Kvx7sC3lqplykpP8DiQ0)/dm/3/x7kx5i7/s/live-4.m3u8',
       ], // 1080p
       ['[NO HW+]', 'https://www.livedoomovie.com/02_NEW_480p/chunklist.m3u8'], // 576p
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/newtv/index.m3u8'], // 720p upscale
@@ -110,7 +110,7 @@ const streamingInfo = {
     urlList: [
       ['HD', 'https://iptv36.netlify.app/api/true?channel=true4u'], // 720p
       'https://www.livedoomovie.com/02_TRUE4U_480p/chunklist.m3u8', // 480p
-      'http://183.182.100.184/live/true4u/chunklist.m3u8', // 360p
+      // 'http://183.182.100.184/live/true4u/chunklist.m3u8', // 360p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -121,11 +121,12 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_elKPyj-0ORQGOP2lEfg-TA)/dm/3/x6rz4t7/s/live-3.m3u8',
+        'https://stream-03.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_S1kWFDsaKiSwJ9BhwzbXsk)/dm/3/x6rz4t7/s/live-3.m3u8',
       ],
       'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8', // 720p upscale
+      'http://119.59.125.74/stream/totnew.php?channel_id=ab0b43ef8363438098a94101e93ca138', // 270p upscale
+      // 'http://183.182.100.184/live/mcothd/playlist.m3u8', // 360p
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chgmm/index.m3u8'], // 720p upscale
-      'http://183.182.100.184/live/mcothd/playlist.m3u8', // 360p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -149,6 +150,10 @@ const streamingInfo = {
       [
         'HD',
         'https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/playlist.m3u8',
+      ], // 1080p
+      [
+        'HD',
+        'https://59ffdfa4495c3.streamlock.net/MONO29_HLS_1080P/mono29hls_1080TH.stream/chunklist.m3u8',
       ], // 1080p
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chmono29/index.m3u8'], // 720p upscale
       [
@@ -185,6 +190,8 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/one.png',
     urlList: [
       'https://iptv36.my.to/one.m3u8', // 720p
+      'https://doofootball.livestream-cdn.com/iptv/hd-gmmone.stream/playlist.m3u8', // 720p
+      'http://live2.dootvde.com/live/50022_one_hd.stream.smil/playist.m3u8', // 720p
       ['[NO HW+]', 'https://www.livedoomovie.com/02_GMMONE_720p/chunklist.m3u8'], // 720p
       'https://one31-rlbwkq.cdn.byteark.com/live/playlist-hd.m3u8', // 240p auto
     ],
@@ -465,7 +472,10 @@ const streamingInfo = {
   foxactionmovies: {
     channelName: 'Fox Action Movies HD',
     logo: 'https://iptv36.my.to/logo/foxactionmovies.png',
-    urlList: [['[NO HW+]', 'https://www.livedoomovies.com/02_FoxActionHD_TH_720p/chunklist.m3u8']],
+    urlList: [
+      'https://doofootball.livestream-cdn.com/iptv/hd-foxaction.stream/playlist.m3u8',
+      ['[NO HW+]', 'https://www.livedoomovies.com/02_FoxActionHD_TH_720p/chunklist.m3u8'],
+    ],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -645,6 +655,7 @@ const streamingInfo = {
     channelName: 'Warner TV HD',
     logo: 'https://iptv36.my.to/logo/warnertv.png',
     urlList: [
+      'http://203.154.243.89:1205',
       'http://203.154.177.124:8899/live/ch12/playlist.m3u8',
       ['[NO HW+]', 'https://www.livedoomovies.com/02_WarnerTVHD_720p/chunklist.m3u8'],
     ],
@@ -817,7 +828,7 @@ const dynamicallyAddStreamingUrlByDetectM3U8Url = async () => {
 
 const testUrl = async (url) => {
   // list of url that we will always not check
-  if (url.includes('rtsp://')) {
+  if (url.includes('rtsp://') || url.includes('203.154.243.89')) {
     return true;
   }
 
@@ -854,7 +865,7 @@ const testUrl = async (url) => {
         return true;
       }
 
-      if (process.env.NETLIFY && errorMsg === 403 && url.includes('googlevideocdn.com')) {
+      if (process.env.NETLIFY && errorMsg === 403 && url.includes('v2h-cdn.com')) {
         return true;
       }
 
@@ -892,6 +903,22 @@ const generateValidUrl = async (streamingData) => {
       }
     })
   );
+
+  // for (let i = 0; i < streamingData.urlList.length; i++) {
+  //   let url = streamingData.urlList[i];
+  //   let urlForTest = url;
+  //   if (Array.isArray(url)) {
+  //     urlForTest = url[1];
+  //   }
+
+  //   let result = await testUrl(urlForTest);
+  //   if (result !== true) {
+  //     console.log(`  X ${streamingData.channelName} - ${result}\n    ${urlForTest}`);
+  //     invalidUrlList.push(urlForTest);
+  //   } else {
+  //     console.log(`  / ${streamingData.channelName} - ${result}\n    ${urlForTest}`);
+  //   }
+  // }
 
   // create validUrlList
   streamingData.validUrlList = [];
