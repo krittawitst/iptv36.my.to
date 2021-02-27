@@ -30,7 +30,7 @@ const basicPlaylist = {
     ['voice'],
     ['nation'],
     ['workpoint'],
-    ['true4u'],
+    ['true4uhd'],
     ['gmm25'],
     ['tvb'],
     ['ch8'],
@@ -86,8 +86,6 @@ const proPlaylist = {
     ['truesport2'],
 
     // 61-70
-    ['tnn16hd'],
-    ['true4uhd'],
   ],
 };
 

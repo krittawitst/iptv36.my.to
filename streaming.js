@@ -104,9 +104,10 @@ const streamingInfo = {
     channelName: 'Workpoint TV',
     logo: 'https://iptv36.my.to/logo/workpoint.png',
     urlList: [
-      ['[NO HW+]', 'https://www.livedoomovies.com/02_WORKPOINT_720p/chunklist.m3u8'], // 400p
+      // ['[NO HW+]', 'https://www.livedoomovies.com/02_WORKPOINT_720p/chunklist.m3u8'], // 400p
       // 'http://27.254.130.56/live01/ch7.m3u8', // 720p upscale hang
-      // 'http://live2.dootvde.com/live/50016_workpoint_tv.stream.smil/playist.m3u8', // 720p upscale lost
+      'http://live2.dootvde.com/live/50016_workpoint_tv.stream.smil/playist.m3u8', // 720p upscale lost
+      ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chworkpoint/index.m3u8'],
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -276,9 +277,8 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/bein1.png',
     urlList: [
       ['[NO HW+]', 'https://www.livedoomovie.com/02_epl1_720p/chunklist.m3u8'], // 720p
-      'http://103.208.24.234:1935/thaisport/epl-bein1.stream/playlist.m3u8', // 480p
       'http://160.119.77.116:8081/iptv/epl-bein1.stream/playlist.m3u8',
-      'https://www.livedoomovies.com/02_epl1_720p/chunklist.m3u8',
+      'http://103.208.24.234:1935/thaisport/epl-bein1.stream/playlist.m3u8', // 480p
     ],
     groupName: 'SPORT',
   },
@@ -298,10 +298,10 @@ const streamingInfo = {
     channelName: 'Premier HD1',
     logo: 'https://iptv36.my.to/logo/premier_hd1.png',
     urlList: [
-      'http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8', // 720p
       'http://160.119.77.116:8081/iptv/epl-1.stream/playlist.m3u8', // 720p
       'https://doofootball.livestream-cdn.com/iptv/epl-1.stream/playlist.m3u8', // 720p
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD1_720p/chunklist.m3u8'],
+      'http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8', // 720p
     ],
     groupName: 'SPORT',
   },
@@ -310,10 +310,10 @@ const streamingInfo = {
     channelName: 'Premier HD2',
     logo: 'https://iptv36.my.to/logo/premier_hd2.png',
     urlList: [
-      'http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8', // 720p
       'http://160.119.77.116:8081/iptv/epl-2.stream/playlist.m3u8', // 720p
       'https://doofootball.livestream-cdn.com/iptv/epl-2.stream/playlist.m3u8', // 720p
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD2_720p/chunklist.m3u8'],
+      'http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8', // 720p
     ],
     groupName: 'SPORT',
   },
@@ -322,9 +322,9 @@ const streamingInfo = {
     channelName: 'Premier HD3',
     logo: 'https://iptv36.my.to/logo/premier_hd3.png',
     urlList: [
-      'http://103.208.24.234:1935/thaisport/epl-3.stream/playlist.m3u8', // 720p
       'http://160.119.77.116:8081/iptv/epl-3.stream/playlist.m3u8', // 720p
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD3_720p/chunklist.m3u8'],
+      'http://103.208.24.234:1935/thaisport/epl-3.stream/playlist.m3u8', // 720p
     ],
     groupName: 'SPORT',
   },
@@ -333,9 +333,9 @@ const streamingInfo = {
     channelName: 'Premier HD4',
     logo: 'https://iptv36.my.to/logo/premier_hd4.png',
     urlList: [
-      'http://103.208.24.234:1935/thaisport/epl-4.stream/playlist.m3u8', // 720p
       'http://160.119.77.116:8081/iptv/epl-4.stream/playlist.m3u8', // 720p
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD4_720p/chunklist.m3u8'],
+      'http://103.208.24.234:1935/thaisport/epl-4.stream/playlist.m3u8', // 720p
     ],
     groupName: 'SPORT',
   },
@@ -344,9 +344,9 @@ const streamingInfo = {
     channelName: 'Premier HD5',
     logo: 'https://iptv36.my.to/logo/premier_hd5.png',
     urlList: [
-      'http://103.208.24.234:1935/thaisport/epl-5.stream/playlist.m3u8', // 720p
       'http://160.119.77.116:8081/iptv/epl-5.stream/playlist.m3u8', // 720p
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD5_720p/chunklist.m3u8'],
+      'http://103.208.24.234:1935/thaisport/epl-5.stream/playlist.m3u8', // 720p
     ],
     groupName: 'SPORT',
   },
@@ -373,7 +373,7 @@ const streamingInfo = {
     channelName: 'True Sports 2',
     logo: 'https://iptv36.my.to/logo/truesports2.png',
     urlList: [
-      'http://103.208.24.234:1935/thaisport/sd-tsport2.stream/chunklist.m3u8', // 576p
+      'http://160.119.77.116:8081/iptv/sd-tsport2.stream/playlist.m3u8', // 576p
     ],
     groupName: 'SPORT',
   },
@@ -456,8 +456,8 @@ const streamingInfo = {
   },
 
   bbclifestyle: {
-    channelName: 'BBC LifeStyle HD',
-    logo: 'https://pbs.twimg.com/profile_images/653546209488052224/iZA1Cnu-.png',
+    channelName: 'BBC Lifestyle HD',
+    logo: 'https://iptv36.my.to/logo/bbc_lifestyle.png',
     urlList: ['https://doofootball.livestream-cdn.com/iptv/sd-bbclifestyle.stream/chunks.m3u8'],
     groupName: 'NEWS & DOCS',
   },
@@ -550,9 +550,9 @@ const streamingInfo = {
     channelName: 'History2 HD',
     logo: 'https://iptv36.my.to/logo/history2.png',
     urlList: [
+      ['[NO HW+]', 'https://www.livedoomovie.com/02_H2HD_720p/chunklist.m3u8'],
       'http://160.119.77.116:8081/iptv/hd-history2.stream/playlist.m3u8',
       'https://doofootball.livestream-cdn.com/iptv/hd-history2.stream/chunks.m3u8',
-      ['[NO HW+]', 'https://www.livedoomovie.com/02_H2HD_720p/chunklist.m3u8'],
     ],
     groupName: 'ENTERTAINMENT',
   },
