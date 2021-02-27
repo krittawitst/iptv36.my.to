@@ -8,6 +8,18 @@ const currentEpochDatetime = new Date().getTime();
 const currentDatetimePlus7Hrs = new Date(currentEpochDatetime + 7 * 60 * 60 * 1000);
 const currentBkkDatetimeStr = currentDatetimePlus7Hrs.toISOString().slice(0, 16);
 
+const getTvgIdFromChannelKey = (channelKey) => {
+  if (channelKey === 'mono29soundtrack') {
+    return `mono29.iptv36.my.to`;
+  } else if (channelKey === 'tnn16hd') {
+    return `tnn16.iptv36.my.to`;
+  } else if (channelKey === 'true4uhd') {
+    return `true4u.iptv36.my.to`;
+  } else {
+    return `${channelKey}.iptv36.my.to`;
+  }
+};
+
 const main = async () => {
   // prefetch epg data
   const epgDataPromise = getEpgData();
@@ -57,9 +69,7 @@ const main = async () => {
       let channelName = playlist.removeNoHWPlusDecoderWarning
         ? streamingInfo.channelName.replace(' [NO HW+]', '')
         : streamingInfo.channelName;
-      let tvgId =
-        channelKey === 'mono29soundtrack' ? `mono29.iptv36.my.to` : `${channelKey}.iptv36.my.to`;
-
+      let tvgId = getTvgIdFromChannelKey(channelKey);
       let channelStr = `#EXTINF:-1 tvg-chno="${i + 1}" tvg-id="${tvgId}" group-title="${
         streamingInfo.groupName
       }" tvg-logo="${streamingInfo.logo}?rev=${channelLogoRevision}",${channelName}\n${

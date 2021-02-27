@@ -56,7 +56,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 13          | CH3 HD Backup         |
 | 14          | Amarin TV HD Backup   |
 | 15          | GMM25 Backup          |
-| 16          | TNN16 HD              |
+| 16          | TNN16                 |
 | 17          | PSI Saradee HD        |
 | 18          | NEW 18 HD             |
 | 19          | Toonee                |
@@ -64,7 +64,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 21          | Voice TV HD           |
 | 22          | Nation TV HD          |
 | 23          | Workpoint TV HD       |
-| 24          | True4U HD             |
+| 24          | True4U                |
 | 25          | GMM25 HD              |
 | 26          | TVB Thai              |
 | 27          | CH8 RS HD             |
