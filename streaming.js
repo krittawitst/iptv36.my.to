@@ -481,7 +481,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/discoveryasia.png',
     urlList: [
       'https://doofootball.livestream-cdn.com:443/iptv/hd-discovery.stream/chunks.m3u8',
-      [('[NO HW+]', 'https://www.livedoomovies.com/02_DiscoveryHDWorld/chunklist.m3u8')],
+      ['[NO HW+]', 'https://www.livedoomovies.com/02_DiscoveryHDWorld/chunklist.m3u8'],
     ],
     groupName: 'NEWS & DOCS',
   },
@@ -612,7 +612,7 @@ const streamingInfo = {
     urlList: [
       'http://160.119.77.116:8081/iptv/hd-natgeo.stream/playlist.m3u8',
       // ['[NO HW+]', 'https://www.livedoomovies.com/02_NatGeoWild_TH_720p/chunklist.m3u8'],
-      [('[NO HW+]', 'https://www.livedoomovie.com/02_NatGeoHD_TH_720p/chunklist.m3u8')],
+      ['[NO HW+]', 'https://www.livedoomovie.com/02_NatGeoHD_TH_720p/chunklist.m3u8'],
     ],
     groupName: 'NEWS & DOCS',
   },
