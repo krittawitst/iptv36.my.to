@@ -56,7 +56,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 13          | CH3 HD Backup         |
 | 14          | Amarin TV HD Backup   |
 | 15          | GMM25 Backup          |
-| 16          | TNN16                 |
+| 16          | TNN16 HD              |
 | 17          | PSI Saradee HD        |
 | 18          | NEW 18 HD             |
 | 19          | Toonee                |

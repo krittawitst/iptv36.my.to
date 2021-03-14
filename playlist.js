@@ -23,14 +23,14 @@ const basicPlaylist = {
     ['tnn16'],
     ['psi'],
     ['new18'],
-    ['toonee'],
+    // ['toonee'],
     ['cartoonclub'],
 
     // 21-30
     ['voice'],
     ['nation'],
     ['workpoint'],
-    ['true4uhd'],
+    ['true4u'],
     ['gmm25'],
     ['tvb'],
     ['ch8'],
@@ -57,35 +57,33 @@ const proPlaylist = {
 
     // 37-40
     ['foxmovies'],
-    ['foxactionmovies'],
+    ['hitsmovies'],
     ['foxthai'],
     ['ctb'],
 
     // 41-50
     ['warnertv'],
     ['axn'],
-    ['bbclifestyle'],
-    ['bbcearth'],
-    ['natgeo'],
     ['history'],
     ['history2'],
     ['discoveryasia'],
-    ['bein1'],
-    ['bein2'],
-
-    // 51-60
     ['premier1'],
     ['premier2'],
     ['premier3'],
     ['premier4'],
     ['premier5'],
+
+    // 51-60
     ['premier1', 1],
     ['premier2', 1],
     ['premier3', 1],
+    ['premier4', 1],
+    ['premier5', 1],
     ['premier1', 2],
-    ['truesport2'],
-
-    // 61-70
+    ['premier2', 2],
+    ['premier3', 2],
+    ['premier4', 2],
+    ['premier5', 2],
   ],
 };
 
