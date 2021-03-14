@@ -280,6 +280,9 @@
   <programme start="20210316064500 +0700" stop="20210316065500 +0700" channel="altv.iptv36.my.to">
     <title><![CDATA[ฉงน ฉงาย สองควายช่างสงสัย (Rerun)]]></title>
   </programme>
+  <programme start="20210316065500 +0700" stop="20210316070500 +0700" channel="altv.iptv36.my.to">
+    <title><![CDATA[คิดคลับส์]]></title>
+  </programme>
   <programme start="20210314110100 -0000" stop="20210314130000 -0000" channel="amarin.iptv36.my.to">
     <title><![CDATA[อมรินทร์ ซูเปอร์ไฟต์ ชุด ศึกช้างมวยไทยเกียรติเพชร]]></title>
   </programme>
@@ -769,6 +772,9 @@
   <programme start="20210316063000 +0700" stop="20210316070000 +0700" channel="cartoonclub.iptv36.my.to">
     <title><![CDATA[ชินบิ โกสต์บอลเอ็กซ์ ปีที่ 2]]></title>
   </programme>
+  <programme start="20210316070000 +0700" stop="20210316073000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[แบล็คโคลเวอร์]]></title>
+  </programme>
   <programme start="20210314112000 -0000" stop="20210314125000 -0000" channel="ch3.iptv36.my.to">
     <title><![CDATA[ไอดอล พาราไดซ์]]></title>
   </programme>
@@ -1086,10 +1092,6 @@
   <programme start="20210315230000 -0000" stop="20210316003000 -0000" channel="ch7.iptv36.my.to">
     <title><![CDATA[เช้านี้...ที่หมอชิต]]></title>
     <desc><![CDATA[วาไรตี้ข่าว และเหตุการณ์ปัจจุบันโดย สวิตต์  ศรีสุภางค์ และเหมือนฝัน]]></desc>
-  </programme>
-  <programme start="20210314110000 -0000" stop="20210314120000 -0000" channel="ch8.iptv36.my.to">
-    <title><![CDATA[THAI FIGHT SPIRIT]]></title>
-    <desc><![CDATA[รายการมวยไทยที่มันส์ที่สุด นำทีมโดยนักมวยแห่งสยามและเหล่าขุนพลTHAI FIGHT]]></desc>
   </programme>
   <programme start="20210314120000 -0000" stop="20210314130000 -0000" channel="ch8.iptv36.my.to">
     <title><![CDATA[มวยไทย Super Champ]]></title>
@@ -1722,10 +1724,6 @@
     <sub-title><![CDATA[ENTERTAIN :: Clipshow, Entertainment]]></sub-title>
     <desc><![CDATA[รายการรวบรวมบรรดาคลิปวิดีโอสุดหรรษาจากเว็ปไซด์ยูทูปซึ่งมีผู้ชมให้ความสนใจและติดตามเป็นจำนวนมากพร้อมกับจัดสิบอันดับชิ้นงานที่ตลกที่สุด]]></desc>
   </programme>
-  <programme start="20210314110000 -0000" stop="20210314120000 -0000" channel="gmm25.iptv36.my.to">
-    <title><![CDATA[เจาะข่าวค่ำ (สด)]]></title>
-    <desc><![CDATA[รายการประเภท ข่าวสาร สาระความรู้]]></desc>
-  </programme>
   <programme start="20210314120000 -0000" stop="20210314131500 -0000" channel="gmm25.iptv36.my.to">
     <title><![CDATA[ข่าวแหกโค้ง (สด)]]></title>
     <desc><![CDATA[รายการประเภท ข่าวสาร สาระความรู้]]></desc>
@@ -1909,6 +1907,10 @@
   <programme start="20210315224000 -0000" stop="20210316000000 -0000" channel="gmm25.iptv36.my.to">
     <title><![CDATA[ข่าวแหกโค้ง (Rerun)]]></title>
     <desc><![CDATA[รายการประเภท ข่าวสาร สาระความรู้]]></desc>
+  </programme>
+  <programme start="20210316000000 -0000" stop="20210316010000 -0000" channel="gmm25.iptv36.my.to">
+    <title><![CDATA[ไทยทึ่ง เรื่องเด็ดเกร็ดเมืองไทย (Rerun)]]></title>
+    <desc><![CDATA[รายการประเภท วาไรตี้]]></desc>
   </programme>
   <programme start="20210314003500 +0700" stop="20210314013000 +0700" channel="history.iptv36.my.to">
     <title><![CDATA[Alone   [ 6 ]]]></title>
@@ -2226,9 +2228,6 @@
   </programme>
   <programme start="20210316064000 +0700" stop="20210316082000 +0700" channel="m.iptv36.my.to">
     <title><![CDATA[Undeparted Body ศพบ้านเช่า]]></title>
-  </programme>
-  <programme start="20210314110100 -0000" stop="20210314120000 -0000" channel="mcot.iptv36.my.to">
-    <title><![CDATA[การแข่งขันฟุตบอลไทยลีก 2020]]></title>
   </programme>
   <programme start="20210314120000 -0000" stop="20210314133000 -0000" channel="mcot.iptv36.my.to">
     <title><![CDATA[ข่าวค่ำ]]></title>
@@ -2566,10 +2565,6 @@
   </programme>
   <programme start="20210315230000 -0000" stop="20210316005500 -0000" channel="mono29.iptv36.my.to">
     <title><![CDATA[ข่าวเช้า : Good Morning Thailand]]></title>
-  </programme>
-  <programme start="20210314113000 -0000" stop="20210314120000 -0000" channel="nation.iptv36.my.to">
-    <title><![CDATA[สืบสวนความจริง [R]]]></title>
-    <desc><![CDATA[ทุกเรื่องราว อาชญากรรม สังคม ที่ไปไม่ถึงต้นตอ เราจะสืบสวนความจริงมาให้รู้ชัดๆ]]></desc>
   </programme>
   <programme start="20210314120000 -0000" stop="20210314130000 -0000" channel="nation.iptv36.my.to">
     <title><![CDATA[เนชั่นสุดสัปดาห์]]></title>
@@ -3002,6 +2997,10 @@
   </programme>
   <programme start="20210316060000 +0700" stop="20210316070000 +0700" channel="new18.iptv36.my.to">
     <title><![CDATA[NEW Documentary สำรวจโลก : ความรักในป่าใหญ่]]></title>
+    <desc><![CDATA[<No description>]]></desc>
+  </programme>
+  <programme start="20210316070000 +0700" stop="20210316080000 +0700" channel="new18.iptv36.my.to">
+    <title><![CDATA[ข่าวอรุณสวัสดิ์]]></title>
     <desc><![CDATA[<No description>]]></desc>
   </programme>
   <programme start="20210314110000 -0000" stop="20210314125500 -0000" channel="one.iptv36.my.to">
@@ -3544,9 +3543,6 @@
     <title><![CDATA[วันใหม่ ไทยพีบีเอส]]></title>
     <desc><![CDATA[เปิดมุมมองข่าว อย่างรู้เท่าทัน รวมถึงมองไปข้างหน้ากับทิศทางข่าว ที่จะเกิดขึ้น]]></desc>
   </programme>
-  <programme start="20210314110000 -0000" stop="20210314120000 -0000" channel="thairath.iptv36.my.to">
-    <title><![CDATA[ร้องได้ให้ล้าน]]></title>
-  </programme>
   <programme start="20210314120000 -0000" stop="20210314130000 -0000" channel="thairath.iptv36.my.to">
     <title><![CDATA[เกมต่อชีวิต]]></title>
   </programme>
@@ -3849,9 +3845,6 @@
     <title><![CDATA[TNN ข่าวดึก]]></title>
     <desc><![CDATA[สรุปเหตุการณ์ข่าวตลอดทั้งวันที่มีความหลากหลายจากในและต่างประเทศพร้อมทั้งการรายงานสภาพอากาศจากทุกมุมโลก]]></desc>
   </programme>
-  <programme start="20210314113000 -0000" stop="20210314120000 -0000" channel="tptv.iptv36.my.to">
-    <title><![CDATA[Asean law]]></title>
-  </programme>
   <programme start="20210314120000 -0000" stop="20210314130000 -0000" channel="tptv.iptv36.my.to">
     <title><![CDATA[สรุปข่าวรัฐสภาในรอบสัปดาห์]]></title>
   </programme>
@@ -3969,6 +3962,9 @@
   <programme start="20210315170000 -0000" stop="20210316000000 -0000" channel="tptv.iptv36.my.to">
     <title><![CDATA[สาระความรู้คู่สภา]]></title>
   </programme>
+  <programme start="20210316000000 -0000" stop="20210316003000 -0000" channel="tptv.iptv36.my.to">
+    <title><![CDATA[สุขนคร]]></title>
+  </programme>
   <programme start="20210314113000 -0000" stop="20210314140200 -0000" channel="true4u.iptv36.my.to">
     <title><![CDATA[ภาพยนตร์ มนต์เพลงลูกทุ่งเอฟเอ็ม]]></title>
     <desc><![CDATA[เรื่องราวสนุกเริ่มต้นขึ้นเมื่อกลุ่มคนผู้มีความรักในเพลงลูกทุ่งได้มารวมตัวและเก็บตัวร่วมกันเพื่อสานฝันที่แตกต่างให้เป็นจริง]]></desc>
@@ -3980,12 +3976,6 @@
   <programme start="20210314160200 -0000" stop="20210314165959 -0000" channel="true4u.iptv36.my.to">
     <title><![CDATA[ภาพยนตร์ บริษัทกำจัดผี]]></title>
     <desc><![CDATA[เรื่องราวเกี่ยวกับกลุ่มหญิงสาวใจแกร่งที่รวมตัวกันเป็นมือปราบผีเมื่อเหล่าอสูรปีศาจสารพันรูปแบบได้ออกอาละวาดทั่วมหานครใหญ่]]></desc>
-  </programme>
-  <programme start="20210314112500 -0000" stop="20210314115500 -0000" channel="tv5.iptv36.my.to">
-    <title><![CDATA[ถ่ายทอดสดฟุตบอลไทยลีก 2020]]></title>
-  </programme>
-  <programme start="20210314115500 -0000" stop="20210314120000 -0000" channel="tv5.iptv36.my.to">
-    <title><![CDATA[ถ่ายทอดสดฟุตบอลไทยลีก 2020]]></title>
   </programme>
   <programme start="20210314120000 -0000" stop="20210314123000 -0000" channel="tv5.iptv36.my.to">
     <title><![CDATA[ถ่ายทอดสดฟุตบอลไทยลีก 2020]]></title>
@@ -4140,6 +4130,9 @@
   <programme start="20210315233000 -0000" stop="20210316000000 -0000" channel="tv5.iptv36.my.to">
     <title><![CDATA[วงจรกีฬา (สด)]]></title>
   </programme>
+  <programme start="20210316000000 -0000" stop="20210316010000 -0000" channel="tv5.iptv36.my.to">
+    <title><![CDATA[เช้านี้ประเทศไทย (สด)]]></title>
+  </programme>
   <programme start="20210314183000 +0700" stop="20210314200000 +0700" channel="voice.iptv36.my.to">
     <title><![CDATA[Talking THAILAND (Live)]]></title>
   </programme>
@@ -4280,6 +4273,9 @@
   </programme>
   <programme start="20210316063000 +0700" stop="20210316070000 +0700" channel="voice.iptv36.my.to">
     <title><![CDATA[OVERVIEW Rerun]]></title>
+  </programme>
+  <programme start="20210316070000 +0700" stop="20210316071000 +0700" channel="voice.iptv36.my.to">
+    <title><![CDATA[ปักหมุดสุขภาพ]]></title>
   </programme>
   <programme start="20210314180000 +0700" stop="20210314200000 +0700" channel="warnertv.iptv36.my.to">
     <title><![CDATA[The Meg]]></title>
