@@ -23,7 +23,7 @@ const basicPlaylist = {
     ['tnn16'],
     ['psi'],
     ['new18'],
-    // ['toonee'],
+    ['m'],
     ['cartoonclub'],
 
     // 21-30
@@ -57,7 +57,7 @@ const proPlaylist = {
 
     // 37-40
     ['foxmovies'],
-    ['hitsmovies'],
+    ['foxactionmovies'],
     ['foxthai'],
     ['ctb'],
 

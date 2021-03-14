@@ -25,6 +25,9 @@
   <channel id="discoveryasia.iptv36.my.to">
     <display-name>discoveryasia.iptv36.my.to</display-name>
   </channel>
+  <channel id="foxactionmovies.iptv36.my.to">
+    <display-name>foxactionmovies.iptv36.my.to</display-name>
+  </channel>
   <channel id="foxmovies.iptv36.my.to">
     <display-name>foxmovies.iptv36.my.to</display-name>
   </channel>
@@ -40,8 +43,8 @@
   <channel id="history2.iptv36.my.to">
     <display-name>history2.iptv36.my.to</display-name>
   </channel>
-  <channel id="hitsmovies.iptv36.my.to">
-    <display-name>hitsmovies.iptv36.my.to</display-name>
+  <channel id="m.iptv36.my.to">
+    <display-name>m.iptv36.my.to</display-name>
   </channel>
   <channel id="mcot.iptv36.my.to">
     <display-name>mcot.iptv36.my.to</display-name>
@@ -88,18 +91,6 @@
   <channel id="workpoint.iptv36.my.to">
     <display-name>workpoint.iptv36.my.to</display-name>
   </channel>
-  <programme start="20210314163000 +0700" stop="20210314170000 +0700" channel="altv.iptv36.my.to">
-    <title><![CDATA[The Camp ค่ายหรรษา]]></title>
-  </programme>
-  <programme start="20210314170000 +0700" stop="20210314172500 +0700" channel="altv.iptv36.my.to">
-    <title><![CDATA[สะเทือนไทย]]></title>
-  </programme>
-  <programme start="20210314172500 +0700" stop="20210314173000 +0700" channel="altv.iptv36.my.to">
-    <title><![CDATA[คลิป สะอาดบุรี 30 คลิป]]></title>
-  </programme>
-  <programme start="20210314173000 +0700" stop="20210314174000 +0700" channel="altv.iptv36.my.to">
-    <title><![CDATA[News Beeps by Thai PBS World]]></title>
-  </programme>
   <programme start="20210314174000 +0700" stop="20210314180000 +0700" channel="altv.iptv36.my.to">
     <title><![CDATA[Have A Newsday]]></title>
   </programme>
@@ -268,9 +259,6 @@
   <programme start="20210316000000 +0700" stop="20210316060000 +0700" channel="altv.iptv36.my.to">
     <title><![CDATA[See all]]></title>
   </programme>
-  <programme start="20210314093000 -0000" stop="20210314100000 -0000" channel="amarin.iptv36.my.to">
-    <title><![CDATA[สุดจัดปนัดดา]]></title>
-  </programme>
   <programme start="20210314100000 -0000" stop="20210314110000 -0000" channel="amarin.iptv36.my.to">
     <title><![CDATA[ความลับแห่งเอเชีย]]></title>
   </programme>
@@ -421,6 +409,9 @@
   <programme start="20210315213000 -0000" stop="20210315223000 -0000" channel="amarin.iptv36.my.to">
     <title><![CDATA[สุขทุกวัน 7 วัน 7 กูรู]]></title>
   </programme>
+  <programme start="20210315223000 -0000" stop="20210315231500 -0000" channel="amarin.iptv36.my.to">
+    <title><![CDATA[ข่าวอรุณอมรินทร์ ทั่วไทย]]></title>
+  </programme>
   <programme start="20210314010000 +0700" stop="20210314015500 +0700" channel="axn.iptv36.my.to">
     <title><![CDATA[MacGyver   [ 5 ]]]></title>
     <sub-title><![CDATA[SERIES :: Action Series]]></sub-title>
@@ -540,12 +531,6 @@
     <title><![CDATA[Seal Team   [ 4 ]]]></title>
     <sub-title><![CDATA[SERIES :: Drama Series]]></sub-title>
     <desc><![CDATA[เรื่องราวของเหล่าทหารหาญในหน่วยปฎิบัติการพิเศษของกองทัพเรือสหรัฐอเมริกาและภารกิจลับสุดอันตรายเพื่อชาติซึ่งล้วนเดิมพันด้วยชีวิต -- นำแสดงโดย เดวิด โบรีนาซ และ แม็กซ์ เธียเรียต]]></desc>
-  </programme>
-  <programme start="20210314163000 +0700" stop="20210314170000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[แบล็คโคลเวอร์]]></title>
-  </programme>
-  <programme start="20210314170000 +0700" stop="20210314173000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[ชิน บัดดี้ไฟท์]]></title>
   </programme>
   <programme start="20210314173000 +0700" stop="20210314180000 +0700" channel="cartoonclub.iptv36.my.to">
     <title><![CDATA[ชินจังจอมแก่น]]></title>
@@ -760,8 +745,11 @@
   <programme start="20210316043000 +0700" stop="20210316050000 +0700" channel="cartoonclub.iptv36.my.to">
     <title><![CDATA[โบโบยบอย แก๊งจิ๋วซ่าพิทักษ์โลก]]></title>
   </programme>
-  <programme start="20210314090000 -0000" stop="20210314100000 -0000" channel="ch3.iptv36.my.to">
-    <title><![CDATA[คู่ไหน...ใช่เลย?]]></title>
+  <programme start="20210316050000 +0700" stop="20210316053000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[ขบวนการจอมโจรลูแปงเรนเจอร์ vs ขบวนการมือปราบแพทเรนเจอร์]]></title>
+  </programme>
+  <programme start="20210316053000 +0700" stop="20210316060000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[บาคุกัน มอนสเตอร์บอลทะลุมิติ ปีที่ 5]]></title>
   </programme>
   <programme start="20210314100000 -0000" stop="20210314110000 -0000" channel="ch3.iptv36.my.to">
     <title><![CDATA[ไฮโซโบเยอะ ภารกิจติดโบ]]></title>
@@ -917,9 +905,8 @@
   <programme start="20210315213000 -0000" stop="20210315223000 -0000" channel="ch3.iptv36.my.to">
     <title><![CDATA[ข่าว 3 ยามเช้า]]></title>
   </programme>
-  <programme start="20210314093000 -0000" stop="20210314100200 -0000" channel="ch7.iptv36.my.to">
-    <title><![CDATA[เจาะประเด็นข่าว 7HD]]></title>
-    <desc><![CDATA[เจาะทุกประเด็นข่าวร้อน และเหตุการณ์ที่น่าสนใจตลอดทั้งวัน ทั้งในประเทศ และต่างประเทศ]]></desc>
+  <programme start="20210315223000 -0000" stop="20210315230000 -0000" channel="ch3.iptv36.my.to">
+    <title><![CDATA[เรื่องเล่าหน้าหนึ่ง]]></title>
   </programme>
   <programme start="20210314100200 -0000" stop="20210314110000 -0000" channel="ch7.iptv36.my.to">
     <title><![CDATA[วู้ดดี้ โชว์]]></title>
@@ -1295,8 +1282,17 @@
     <title><![CDATA[คุยข่าวเช้ารุ่งอรุณช่อง 8]]></title>
     <desc><![CDATA[รายการข่าวที่นำเสนอข่าวสาร อัพเดทข่าวเด่นและเหตุการณ์ต่างๆทั้งในประเทศและต่างประเทศ]]></desc>
   </programme>
-  <programme start="20210314164000 +0700" stop="20210314173000 +0700" channel="discoveryasia.iptv36.my.to">
-    <title><![CDATA[Mysteries Of The Mekong (S1) : Vietnam: The Journey's End]]></title>
+  <programme start="20210315220000 -0000" stop="20210315223000 -0000" channel="ch8.iptv36.my.to">
+    <title><![CDATA[คุยข่าวเช้ารุ่งอรุณช่อง 8]]></title>
+    <desc><![CDATA[รายการข่าวที่นำเสนอข่าวสาร อัพเดทข่าวเด่นและเหตุการณ์ต่างๆทั้งในประเทศและต่างประเทศ]]></desc>
+  </programme>
+  <programme start="20210315223000 -0000" stop="20210315224000 -0000" channel="ch8.iptv36.my.to">
+    <title><![CDATA[ชีวิตดี สาระดี]]></title>
+    <desc><![CDATA[รายการแนะนำสินค้า]]></desc>
+  </programme>
+  <programme start="20210315224000 -0000" stop="20210315230000 -0000" channel="ch8.iptv36.my.to">
+    <title><![CDATA[คุยข่าวเช้ารุ่งอรุณช่อง 8]]></title>
+    <desc><![CDATA[รายการข่าวที่นำเสนอข่าวสาร อัพเดทข่าวเด่นและเหตุการณ์ต่างๆทั้งในประเทศและต่างประเทศ]]></desc>
   </programme>
   <programme start="20210314173000 +0700" stop="20210314182100 +0700" channel="discoveryasia.iptv36.my.to">
     <title><![CDATA[Man, Woman and #MeToo : Man, Woman and #MeToo]]></title>
@@ -1438,6 +1434,79 @@
   </programme>
   <programme start="20210316043000 +0700" stop="20210316050000 +0700" channel="discoveryasia.iptv36.my.to">
     <title><![CDATA[Walk This Way (S1) : Philippines Coffin Valley]]></title>
+  </programme>
+  <programme start="20210316050000 +0700" stop="20210316055000 +0700" channel="discoveryasia.iptv36.my.to">
+    <title><![CDATA[Lands Of Women (S1) : Indonesia, The Minangkabau]]></title>
+  </programme>
+  <programme start="20210314004000 +0700" stop="20210314021500 +0700" channel="foxactionmovies.iptv36.my.to">
+    <title><![CDATA[Tank 432]]></title>
+    <sub-title><![CDATA[2015 - MOVIE :: Action, Horror, Thriller]]></sub-title>
+    <desc><![CDATA[เรื่องราวสุดระทึกขวัญของทหารรับจ้างที่ต่อสู้เพื่อหลบหนีจากสิ่งลึกลับอันเปรียบเสมือนศัตรูซึ่งมองไม่เห็น -- นำแสดงโดย รูเพิร์ต อิแวนส์, สตีฟ แกร์รี่, และ เดร์เดอร์ มัลลินส์]]></desc>
+  </programme>
+  <programme start="20210314021500 +0700" stop="20210314035000 +0700" channel="foxactionmovies.iptv36.my.to">
+    <title><![CDATA[Area 51]]></title>
+    <sub-title><![CDATA[2015 - MOVIE :: Thriller, Sci-Fi]]></sub-title>
+    <desc><![CDATA[บรรดากลุ่มวัยรุ่นแอบลักลอบเข้าไปใน 'แอเรีย 51' อันเป็นชื่อเรียกของฐานทัพทางตอนใต้ของรัฐเนวาดาที่ซึ่งพวกเขาได้ประสบกับความลับซ่อนเร้นเกินกว่าใครจะคาดเดา -- นำแสดงโดย เกล็น แคมพ์เบล]]></desc>
+  </programme>
+  <programme start="20210314035000 +0700" stop="20210314055000 +0700" channel="foxactionmovies.iptv36.my.to">
+    <title><![CDATA[Hell on the Border]]></title>
+    <sub-title><![CDATA[2019 - MOVIE :: Western]]></sub-title>
+    <desc><![CDATA[เรื่องราววีรกรรมอันกล้าหาญของรองนายอำเภอผิวสีคนแรกแห่งมิสซิสซิปปี -- นำแสดงโดย เดวิด จีอาซี่ และ รอน เพิร์ลแมน]]></desc>
+  </programme>
+  <programme start="20210314055000 +0700" stop="20210314071500 +0700" channel="foxactionmovies.iptv36.my.to">
+    <title><![CDATA[Altered Skin]]></title>
+    <sub-title><![CDATA[2018 - MOVIE :: Thriller]]></sub-title>
+    <desc><![CDATA[เรื่องราวสุดระทึกขวัญของวิศวกรหนุ่มชาวอเมริกันกับการใช้ชีวิตในปากีสถานในการดูแลภรรยาที่ป่วยแต่กลับบังเอิญต้องเผชิญแผนการบางอย่างซึ่งอันตรายถึงชีวิต --นำแสดงโดย โรบิน ดันน์]]></desc>
+  </programme>
+  <programme start="20210314071500 +0700" stop="20210314085500 +0700" channel="foxactionmovies.iptv36.my.to">
+    <title><![CDATA[Outlawed]]></title>
+    <sub-title><![CDATA[2018 - MOVIE :: Action]]></sub-title>
+    <desc><![CDATA[เรื่องราวเกี่ยวกับหนุ่มคอมมานโดเดนตายที่ต่อสู้ยิบตาเพื่อกู้ภัยหญิงผู้เป็นที่รักของเขา -- นำแสดงโดย อดัม คอลลินส์ และ เจสสิก้า นอร์ริส]]></desc>
+  </programme>
+  <programme start="20210314085500 +0700" stop="20210314103000 +0700" channel="foxactionmovies.iptv36.my.to">
+    <title><![CDATA[Don't Breathe]]></title>
+    <sub-title><![CDATA[2016 - MOVIE :: Horror]]></sub-title>
+    <desc><![CDATA[เรื่องราวเกี่ยวกับสามมิจฉาชีพที่ออกปล้นบ้านเพื่อหวังชิงทรัพย์โดยไม่รู้เลยว่าเป้าหมายจะนำความวิบัติสุดระทึกขวัญมาสู่พวกเขา -- นำแสดงโดย เจน เลวี่ และ สตีเฟ่น แลงจ์]]></desc>
+  </programme>
+  <programme start="20210314103000 +0700" stop="20210314120500 +0700" channel="foxactionmovies.iptv36.my.to">
+    <title><![CDATA[Ultraviolet]]></title>
+    <sub-title><![CDATA[2006 - MOVIE :: Action]]></sub-title>
+    <desc><![CDATA[เรื่องราวของสาวติดเชื้อแวมไพร์กับภารกิจปกป้องเด็กชายซึ่งเชื่อว่าเป็นพาหะของสารขจัดไวรัสอเวจีที่อาจส่งผลให้เผ่าพันธุ์ผีดูดเลือดสูญสิ้นลงอย่างไม่เหลือราก -- นำแสดงโดย มิล่า โจโววิช]]></desc>
+  </programme>
+  <programme start="20210314120500 +0700" stop="20210314133500 +0700" channel="foxactionmovies.iptv36.my.to">
+    <title><![CDATA[Trading Paint]]></title>
+    <sub-title><![CDATA[2019 - MOVIE :: Action]]></sub-title>
+    <desc><![CDATA[เรื่องราวของนักขับรถแข่งมากประสบการณ์และลูกชายที่เข้าร่วมแข่งขันรถไปพร้อมๆกับการเอาชนะปัญหาขัดแย้งภายในครอบครัว -- นำแสดงโดย จอห์น ทราโวลต้า และ ชาเนีย ทเวน]]></desc>
+  </programme>
+  <programme start="20210314133500 +0700" stop="20210314151000 +0700" channel="foxactionmovies.iptv36.my.to">
+    <title><![CDATA[Tank 432]]></title>
+    <sub-title><![CDATA[2015 - MOVIE :: Action, Horror, Thriller]]></sub-title>
+    <desc><![CDATA[เรื่องราวสุดระทึกขวัญของทหารรับจ้างที่ต่อสู้เพื่อหลบหนีจากสิ่งลึกลับอันเปรียบเสมือนศัตรูซึ่งมองไม่เห็น -- นำแสดงโดย รูเพิร์ต อิแวนส์, สตีฟ แกร์รี่, และ เดร์เดอร์ มัลลินส์]]></desc>
+  </programme>
+  <programme start="20210314151000 +0700" stop="20210314171000 +0700" channel="foxactionmovies.iptv36.my.to">
+    <title><![CDATA[Jack Reacher: Never Go Back]]></title>
+    <sub-title><![CDATA[2016 - MOVIE :: Action]]></sub-title>
+    <desc><![CDATA[ภาพยนตร์ภาคต่อซึ่งในคราวนี้อดีตผู้พันเดนตายได้ไปช่วยเหลือผู้พันหญิงให้รอดพ้นจากการถูกกล่าวหาจนทำให้เขาได้ค้นพบแผนสมรู้ร่วมคิดที่มีนายทหารใหญ่อยู่เบื้องหลัง -- นำแสดงโดย ทอม ครูซ]]></desc>
+  </programme>
+  <programme start="20210314171000 +0700" stop="20210314191500 +0700" channel="foxactionmovies.iptv36.my.to">
+    <title><![CDATA[Badland]]></title>
+    <sub-title><![CDATA[2019 - MOVIE :: Action]]></sub-title>
+    <desc><![CDATA[เรื่องราวของมือปืนที่ถูกจ้างวานให้ออกตามล่าอาชญากรสุดอันตรายในสงครามกลางเมืองเพื่อนำพวกเขามาสู่กระบวนการยุติธรรมให้ได้ -- นำแสดงโดย เควิน แมคเคลีย์, บรูซ  เดิร์น, และ เทรซ แอดคินส์]]></desc>
+  </programme>
+  <programme start="20210314191500 +0700" stop="20210314210000 +0700" channel="foxactionmovies.iptv36.my.to">
+    <title><![CDATA[Legacy]]></title>
+    <sub-title><![CDATA[2019 - MOVIE :: Action]]></sub-title>
+    <desc><![CDATA[เรื่องราวเกี่ยวกับนักสืบมือใหม่ที่ต้องทำงานภายใต้แรงกดดันครั้งสำคัญเพื่อกอบกู้ศักดิ์ศรีให้พ่อของเขา -- นำแสดงโดย จัสติน แช็ทวิน และ ปีเตอร์ สตอร์แมร์]]></desc>
+  </programme>
+  <programme start="20210314210000 +0700" stop="20210314225500 +0700" channel="foxactionmovies.iptv36.my.to">
+    <title><![CDATA[Captive State]]></title>
+    <sub-title><![CDATA[2019 - MOVIE :: Sci-Fi, Horror]]></sub-title>
+    <desc><![CDATA[เรื่องราวของกลุ่มปฏิวัติที่รวมตัวกันทวงเสรีภาพจากเผด็จการนอกพิภพเมื่อพวกมันได้บุกรุกเข้ามาเถลิงอำนาจปกครองโลกอีกทั้งยังถลุงทรัพยากรจนเกือบสูญสิ้น -- นำแสดงโดย แอชตัน แซนเดอร์ส]]></desc>
+  </programme>
+  <programme start="20210314225500 +0700" stop="20210314235959 +0700" channel="foxactionmovies.iptv36.my.to">
+    <title><![CDATA[Robocop 2]]></title>
+    <sub-title><![CDATA[1990 - MOVIE :: Sci-Fi]]></sub-title>
+    <desc><![CDATA[ภาคต่อของภาพยนตร์แนววิทยาศาสตร์เรื่อง 'โรโบค็อป' ในภาคนี้พระเอกของเรื่องต้องต่อกรกับจอมวายร้ายผู้มีแสนยานุภาพที่เหนือกว่าเขา]]></desc>
   </programme>
   <programme start="20210314012000 +0700" stop="20210314030000 +0700" channel="foxmovies.iptv36.my.to">
     <title><![CDATA[Cruel Peter]]></title>
@@ -1639,10 +1708,6 @@
     <sub-title><![CDATA[ENTERTAIN :: Clipshow, Entertainment]]></sub-title>
     <desc><![CDATA[รายการรวบรวมบรรดาคลิปวิดีโอสุดหรรษาจากเว็ปไซด์ยูทูปซึ่งมีผู้ชมให้ความสนใจและติดตามเป็นจำนวนมากพร้อมกับจัดสิบอันดับชิ้นงานที่ตลกที่สุด]]></desc>
   </programme>
-  <programme start="20210314093000 -0000" stop="20210314100000 -0000" channel="gmm25.iptv36.my.to">
-    <title><![CDATA[ไส้กิ่ว]]></title>
-    <desc><![CDATA[รายการประเภท วาไรตี้]]></desc>
-  </programme>
   <programme start="20210314100000 -0000" stop="20210314110000 -0000" channel="gmm25.iptv36.my.to">
     <title><![CDATA[ไทยทึ่ง เรื่องเด็ดเกร็ดเมืองไทย]]></title>
     <desc><![CDATA[รายการประเภท วาไรตี้]]></desc>
@@ -1822,6 +1887,18 @@
   <programme start="20210315215000 -0000" stop="20210315221000 -0000" channel="gmm25.iptv36.my.to">
     <title><![CDATA[O SHOPPING]]></title>
     <desc><![CDATA[รายการประเภท แนะนำสินค้า]]></desc>
+  </programme>
+  <programme start="20210315221000 -0000" stop="20210315222000 -0000" channel="gmm25.iptv36.my.to">
+    <title><![CDATA[MV]]></title>
+    <desc><![CDATA[รายการประเภท เพลง]]></desc>
+  </programme>
+  <programme start="20210315222000 -0000" stop="20210315224000 -0000" channel="gmm25.iptv36.my.to">
+    <title><![CDATA[TRUE SHOPPING]]></title>
+    <desc><![CDATA[รายการประเภท แนะนำสินค้า]]></desc>
+  </programme>
+  <programme start="20210315224000 -0000" stop="20210316000000 -0000" channel="gmm25.iptv36.my.to">
+    <title><![CDATA[ข่าวแหกโค้ง (Rerun)]]></title>
+    <desc><![CDATA[รายการประเภท ข่าวสาร สาระความรู้]]></desc>
   </programme>
   <programme start="20210314003500 +0700" stop="20210314013000 +0700" channel="history.iptv36.my.to">
     <title><![CDATA[Alone   [ 6 ]]]></title>
@@ -2068,62 +2145,80 @@
     <sub-title><![CDATA[KNOWLEDGE :: Earth]]></sub-title>
     <desc><![CDATA[ร่วมออกสำรวจวิวัฒนาการชีวิตบนโลกของเราและพูดคุยกับผู้เชี่ยวชาญไปพร้อมๆกับการหาวิธีในการที่จะดูแลเหล่าบรรดาสัตว์เลี้ยงและสัตว์ป่าต่างๆ]]></desc>
   </programme>
-  <programme start="20210314144500 +0700" stop="20210314190000 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[Saturday Night Fever]]></title>
+  <programme start="20210314164000 +0700" stop="20210314184500 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[Boogie Boy ลูกผู้ชายหัวใจเพชร]]></title>
   </programme>
-  <programme start="20210314190000 +0700" stop="20210314211500 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[Psycho]]></title>
+  <programme start="20210314184500 +0700" stop="20210314185000 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[M News]]></title>
   </programme>
-  <programme start="20210314211500 +0700" stop="20210314231500 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[Men In Black]]></title>
+  <programme start="20210314185000 +0700" stop="20210314190000 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[M Comedy]]></title>
   </programme>
-  <programme start="20210314231500 +0700" stop="20210315011500 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[Christmas With the Kranks]]></title>
+  <programme start="20210314190000 +0700" stop="20210314225000 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[A Good Man โคตรคนดีเดือด]]></title>
   </programme>
-  <programme start="20210315011500 +0700" stop="20210315033000 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[Saturday Night Fever]]></title>
+  <programme start="20210314225000 +0700" stop="20210314230000 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[วลีหนังเด็ด]]></title>
   </programme>
-  <programme start="20210315033000 +0700" stop="20210315054500 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[Raging Bull]]></title>
+  <programme start="20210314230000 +0700" stop="20210315000000 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[Echo Drive ย้อนกลหุ่นสังหาร]]></title>
   </programme>
-  <programme start="20210315054500 +0700" stop="20210315074500 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[Men In Black]]></title>
+  <programme start="20210315000000 +0700" stop="20210315011500 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[Absolute Killers โคตรนักฆ่า ล่าสังหาร]]></title>
   </programme>
-  <programme start="20210315074500 +0700" stop="20210315094500 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[Christmas With the Kranks]]></title>
+  <programme start="20210315011500 +0700" stop="20210315030500 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[Bleeding Hearts แผนพิศวาส ลวงมาเชือด]]></title>
   </programme>
-  <programme start="20210315094500 +0700" stop="20210315120000 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[Saturday Night Fever]]></title>
+  <programme start="20210315030500 +0700" stop="20210315050000 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[Aberrant บ่วงวิปริต มิตรภาพผวา]]></title>
   </programme>
-  <programme start="20210315120000 +0700" stop="20210315141500 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[Psycho]]></title>
+  <programme start="20210315050000 +0700" stop="20210315064000 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[House rules for bad girls บ้านสยอง ฝืนกฎตาย]]></title>
   </programme>
-  <programme start="20210315141500 +0700" stop="20210315161500 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[Men In Black]]></title>
+  <programme start="20210315064000 +0700" stop="20210315082000 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[Black Eagle สองอึด สองซีกโลก]]></title>
   </programme>
-  <programme start="20210315161500 +0700" stop="20210315190000 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[Funny Girl]]></title>
+  <programme start="20210315082000 +0700" stop="20210315103000 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[The Matador พยัคฆ์ร้ายกระสุนตัน]]></title>
   </programme>
-  <programme start="20210315190000 +0700" stop="20210315210000 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[Harry and the Hendersons]]></title>
+  <programme start="20210315103000 +0700" stop="20210315133500 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[Tracking Knights phantom part 1 กระบี่ชิงบัลลังก์เลือด]]></title>
   </programme>
-  <programme start="20210315210000 +0700" stop="20210315230000 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[Fletch]]></title>
+  <programme start="20210315133500 +0700" stop="20210315134500 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[M Comedy]]></title>
   </programme>
-  <programme start="20210315230000 +0700" stop="20210316000000 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[The Thomas Crown Affair]]></title>
+  <programme start="20210315134500 +0700" stop="20210315164000 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[Righteous Kill คู่มหากาฬล่าพล่านเมือง]]></title>
   </programme>
-  <programme start="20210316000000 +0700" stop="20210316011500 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[See all]]></title>
+  <programme start="20210315164000 +0700" stop="20210315184500 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[The love section เปลี่ยนเพลย์บอยเป็นนายน่ารัก]]></title>
   </programme>
-  <programme start="20210316011500 +0700" stop="20210316041500 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[Funny Girl]]></title>
+  <programme start="20210315184500 +0700" stop="20210315185000 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[M News]]></title>
   </programme>
-  <programme start="20210316041500 +0700" stop="20210316063000 +0700" channel="hitsmovies.iptv36.my.to">
-    <title><![CDATA[The Secret of My Success]]></title>
+  <programme start="20210315185000 +0700" stop="20210315190000 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[M Comedy]]></title>
   </programme>
-  <programme start="20210314095000 -0000" stop="20210314100000 -0000" channel="mcot.iptv36.my.to">
-    <title><![CDATA[Shop Mania]]></title>
+  <programme start="20210315190000 +0700" stop="20210315225000 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[Killers คู่โหด เชือดจริงผ่านจอ]]></title>
+  </programme>
+  <programme start="20210315225000 +0700" stop="20210315230000 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[วลีหนังเด็ด]]></title>
+  </programme>
+  <programme start="20210315230000 +0700" stop="20210316000000 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[Midnight Heat ปมปริศนาล่าความจำ]]></title>
+  </programme>
+  <programme start="20210316000000 +0700" stop="20210316011500 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[Midnight Heat ปมปริศนาล่าความจำ]]></title>
+  </programme>
+  <programme start="20210316011500 +0700" stop="20210316030500 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[Takien the haunted tree นางตะเคียน]]></title>
+  </programme>
+  <programme start="20210316030500 +0700" stop="20210316050000 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[The other side of the mirror มิติฝันแดนพิศวง]]></title>
+  </programme>
+  <programme start="20210316050000 +0700" stop="20210316064000 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[Without men หญิงแกร่ง แดนจลาจล]]></title>
   </programme>
   <programme start="20210314100000 -0000" stop="20210314110000 -0000" channel="mcot.iptv36.my.to">
     <title><![CDATA[การแข่งขันฟุตบอลไทยลีก 2020]]></title>
@@ -2348,6 +2443,9 @@
   <programme start="20210315213000 -0000" stop="20210315220000 -0000" channel="mcot.iptv36.my.to">
     <title><![CDATA[แสงธรรม]]></title>
   </programme>
+  <programme start="20210315220000 -0000" stop="20210315225000 -0000" channel="mcot.iptv36.my.to">
+    <title><![CDATA[TVD SHOP]]></title>
+  </programme>
   <programme start="20210314095500 -0000" stop="20210314105000 -0000" channel="mono29.iptv36.my.to">
     <title><![CDATA[The Blacklist (Season 6) : บัญชีดำ อาชญากรรมซ่อนเงื่อน ปี 6]]></title>
   </programme>
@@ -2465,9 +2563,8 @@
   <programme start="20210315214000 -0000" stop="20210315223000 -0000" channel="mono29.iptv36.my.to">
     <title><![CDATA[Life Below Zero : ชีวิตติดลบ (ตอน Thin Ice)]]></title>
   </programme>
-  <programme start="20210314095000 -0000" stop="20210314100000 -0000" channel="nation.iptv36.my.to">
-    <title><![CDATA[เนชั่นทันโลก  [R]]]></title>
-    <desc><![CDATA[ทันทุกเรื่องราว ข่าวเด่น กระแสโลก ไม่ตกขบวน]]></desc>
+  <programme start="20210315223000 -0000" stop="20210315230000 -0000" channel="mono29.iptv36.my.to">
+    <title><![CDATA[World Voyage]]></title>
   </programme>
   <programme start="20210314100000 -0000" stop="20210314112000 -0000" channel="nation.iptv36.my.to">
     <title><![CDATA[คิดต่างมุม (L)]]></title>
@@ -2647,13 +2744,13 @@
     <title><![CDATA[ข่าวข้นคนข่าว [R]]]></title>
     <desc><![CDATA[รายการ วิเคราะห์ข่าว กับ 3 คนข่าวเนชั่น]]></desc>
   </programme>
-  <programme start="20210314080000 -0000" stop="20210314100000 -0000" channel="nbt.iptv36.my.to">
-    <title><![CDATA[ถ่ายทอดสดการแข่งขันวอลเลย์บอลฯ]]></title>
-    <desc><![CDATA[ประชาชนทั่วไป]]></desc>
+  <programme start="20210315222500 -0000" stop="20210315223500 -0000" channel="nation.iptv36.my.to">
+    <title><![CDATA[เนชั่นทันโลก [R]]]></title>
+    <desc><![CDATA[ทันทุกเรื่องราว ข่าวเด่น กระแสโลก ไม่ตกขบวน]]></desc>
   </programme>
-  <programme start="20210314100000 -0000" stop="20210314103000 -0000" channel="nbt.iptv36.my.to">
-    <title><![CDATA[เป็นกันเอง]]></title>
-    <desc><![CDATA[ประชาชนทั่วไป]]></desc>
+  <programme start="20210315223500 -0000" stop="20210315230000 -0000" channel="nation.iptv36.my.to">
+    <title><![CDATA[Show Time]]></title>
+    <desc><![CDATA[รายการแนะนำสินค้า  สุขภาพ ความงาม]]></desc>
   </programme>
   <programme start="20210314103000 -0000" stop="20210314110000 -0000" channel="nbt.iptv36.my.to">
     <title><![CDATA[ข่าวค่ำ NBT]]></title>
@@ -2757,10 +2854,6 @@
   <programme start="20210315163000 -0000" stop="20210315165959 -0000" channel="nbt.iptv36.my.to">
     <title><![CDATA[Newsline]]></title>
     <desc><![CDATA[ข่าว เหตุการณ์ประจำวัน]]></desc>
-  </programme>
-  <programme start="20210314090000 -0000" stop="20210314100000 -0000" channel="one.iptv36.my.to">
-    <title><![CDATA[เก่งจริงชิงค่าเทอม]]></title>
-    <desc><![CDATA[พบกับการกลับมาทางหน้าจอทีวีสุดยิ่งใหญ่ของ ธงชัย ประสงค์สันติ กับรายการที่เป็นมากกว่าเกมโชว์!!]]></desc>
   </programme>
   <programme start="20210314100000 -0000" stop="20210314110000 -0000" channel="one.iptv36.my.to">
     <title><![CDATA[ข่าวเย็นช่องวัน]]></title>
@@ -2928,9 +3021,9 @@
     <title><![CDATA[ดวลเพลงชิงทุน]]></title>
     <desc><![CDATA[ศึกสังเวียนแห่งการฟาดฟันเสียงร้อง เพื่อชิงทุนการศึกษา]]></desc>
   </programme>
-  <programme start="20210314090000 -0000" stop="20210314103000 -0000" channel="pptv.iptv36.my.to">
-    <title><![CDATA[กิ๊กดู๋ สงครามเพลงเงินล้าน]]></title>
-    <desc><![CDATA[รายการวาไรตึ้แข่งขันร้องเพลงหาเงาเสียงของนักร้อง เปิดซีซั่นพิเศษชิงเงินล้านเพื่อสังคม ครั้งแรกของการปะทะกันระหว่างศิลปินอินดี้ทั้งสองคน ที่จะมาร้องเพลงนำเงินไปพัฒนาจังหวัด]]></desc>
+  <programme start="20210315223000 -0000" stop="20210315230000 -0000" channel="one.iptv36.my.to">
+    <title><![CDATA[ข่าวเช้าตรู่ช่องวัน]]></title>
+    <desc><![CDATA[รับเช้าวันใหม่ เปิดประเด็น ทิศทางข่าว ให้คุณทันโลก เกาะติดทุกสถานการณ์ ในข่าวเช้าตรู่ช่องวัน]]></desc>
   </programme>
   <programme start="20210314103000 -0000" stop="20210314110000 -0000" channel="pptv.iptv36.my.to">
     <title><![CDATA[Road to Tokyo]]></title>
@@ -3090,6 +3183,14 @@
     <title><![CDATA[คิดได้ไง ซีซั่น 2]]></title>
     <desc><![CDATA[สร้างแรบันดาลใจต่อยอดธุรกิจให้คนรุ่นใหม่แบบ 360 องศา]]></desc>
   </programme>
+  <programme start="20210315220000 -0000" stop="20210315223000 -0000" channel="pptv.iptv36.my.to">
+    <title><![CDATA[TV Direct]]></title>
+    <desc><![CDATA[รายการแนะนำสินค้าช้อปปิ้งโดยใช้นวัตกรรมที่หลากหลายตั้งแต่แบรด์สินค้าระดับโลกและของไทยในราคาสุดพิเศษ]]></desc>
+  </programme>
+  <programme start="20210315223000 -0000" stop="20210315230000 -0000" channel="pptv.iptv36.my.to">
+    <title><![CDATA[เที่ยวกินกับหมึกแดง]]></title>
+    <desc><![CDATA[เชฟหมึกแดงจะพาไปพบเจอสิ่งใหม่ๆ ที่มาเที่ยว ชิม กิน และทำอาหารแบบใหม่ในสไตล์เชฟหมึกแดง]]></desc>
+  </programme>
   <programme start="20210314000000 +0700" stop="20210314003000 +0700" channel="premier1.iptv36.my.to">
     <title><![CDATA[The Match Show Live 2020/21]]></title>
   </programme>
@@ -3146,18 +3247,6 @@
   </programme>
   <programme start="20210314233000 +0700" stop="20210314235959 +0700" channel="premier1.iptv36.my.to">
     <title><![CDATA[EPL]]></title>
-  </programme>
-  <programme start="20210314093000 -0000" stop="20210314100000 -0000" channel="thaipbs.iptv36.my.to">
-    <title><![CDATA[Spirit of Asia วิถีเอเชีย]]></title>
-    <desc><![CDATA[สร้างความรู้ความเข้าใจความแตกต่างหลากหลาย และการเชื่อมโยงกันในเอเชีย]]></desc>
-  </programme>
-  <programme start="20210314100000 -0000" stop="20210314100500 -0000" channel="thaipbs.iptv36.my.to">
-    <title><![CDATA[ทันข่าว 17.00 น.]]></title>
-    <desc><![CDATA[รายงานข่าวตามสถานการณ์ต้นชั่วโมง]]></desc>
-  </programme>
-  <programme start="20210314100500 -0000" stop="20210314103000 -0000" channel="thaipbs.iptv36.my.to">
-    <title><![CDATA[Foodwork]]></title>
-    <desc><![CDATA[สอนทำอาหารอย่างง่าย  ๆ  ผู้ชมสามารถเรียนรู้ไปได้พร้อม ๆ กันกับแขกรับเชิญ]]></desc>
   </programme>
   <programme start="20210314103000 -0000" stop="20210314110000 -0000" channel="thaipbs.iptv36.my.to">
     <title><![CDATA[ดูให้รู้]]></title>
@@ -3306,11 +3395,9 @@
     <title><![CDATA[สารพันลั่นทุ่ง (บางเขน)]]></title>
     <desc><![CDATA[นำเสนอเพลงไทยในแต่ละยุคที่ผ่านมา ให้ผู้ชมเห็นภาพสะท้อนของสังคมในแต่ละช่วงสมัย]]></desc>
   </programme>
-  <programme start="20210314090000 -0000" stop="20210314095800 -0000" channel="thairath.iptv36.my.to">
-    <title><![CDATA[คชาภาพาไปดู]]></title>
-  </programme>
-  <programme start="20210314095800 -0000" stop="20210314100000 -0000" channel="thairath.iptv36.my.to">
-    <title><![CDATA[Express News]]></title>
+  <programme start="20210315220000 -0000" stop="20210316010000 -0000" channel="thaipbs.iptv36.my.to">
+    <title><![CDATA[วันใหม่ ไทยพีบีเอส]]></title>
+    <desc><![CDATA[เปิดมุมมองข่าว อย่างรู้เท่าทัน รวมถึงมองไปข้างหน้ากับทิศทางข่าว ที่จะเกิดขึ้น]]></desc>
   </programme>
   <programme start="20210314100000 -0000" stop="20210314105800 -0000" channel="thairath.iptv36.my.to">
     <title><![CDATA[จัดจ้านย่านวิภา]]></title>
@@ -3456,9 +3543,11 @@
   <programme start="20210315213000 -0000" stop="20210315220000 -0000" channel="thairath.iptv36.my.to">
     <title><![CDATA[True Shopping]]></title>
   </programme>
-  <programme start="20210314083000 -0000" stop="20210314100000 -0000" channel="tnn16.iptv36.my.to">
-    <title><![CDATA[TNN ข่าวเย็น]]></title>
-    <desc><![CDATA[สรุปเหตุการณ์ข่าวตลอดทั้งวันที่มีความหลากหลายจากในและต่างประเทศพร้อมทั้งการรายงานสภาพอากาศจากทุกมุมโลก]]></desc>
+  <programme start="20210315220000 -0000" stop="20210315223000 -0000" channel="thairath.iptv36.my.to">
+    <title><![CDATA[TVD Shop]]></title>
+  </programme>
+  <programme start="20210315223000 -0000" stop="20210315233000 -0000" channel="thairath.iptv36.my.to">
+    <title><![CDATA[ห้องข่าว หัวเขียว]]></title>
   </programme>
   <programme start="20210314100000 -0000" stop="20210314110000 -0000" channel="tnn16.iptv36.my.to">
     <title><![CDATA[TNN สปอร์ต]]></title>
@@ -3622,12 +3711,6 @@
     <title><![CDATA[TNN ข่าวดึก]]></title>
     <desc><![CDATA[สรุปเหตุการณ์ข่าวตลอดทั้งวันที่มีความหลากหลายจากในและต่างประเทศพร้อมทั้งการรายงานสภาพอากาศจากทุกมุมโลก]]></desc>
   </programme>
-  <programme start="20210314090500 -0000" stop="20210314100000 -0000" channel="tptv.iptv36.my.to">
-    <title><![CDATA[รัฐสภาอาเซียน]]></title>
-  </programme>
-  <programme start="20210314100000 -0000" stop="20210314103000 -0000" channel="tptv.iptv36.my.to">
-    <title><![CDATA[ที่นี่บ้านเรา]]></title>
-  </programme>
   <programme start="20210314103000 -0000" stop="20210314104500 -0000" channel="tptv.iptv36.my.to">
     <title><![CDATA[Finding Naturalist]]></title>
   </programme>
@@ -3774,15 +3857,6 @@
   <programme start="20210314160200 -0000" stop="20210314165959 -0000" channel="true4u.iptv36.my.to">
     <title><![CDATA[ภาพยนตร์ บริษัทกำจัดผี]]></title>
     <desc><![CDATA[เรื่องราวเกี่ยวกับกลุ่มหญิงสาวใจแกร่งที่รวมตัวกันเป็นมือปราบผีเมื่อเหล่าอสูรปีศาจสารพันรูปแบบได้ออกอาละวาดทั่วมหานครใหญ่]]></desc>
-  </programme>
-  <programme start="20210314095500 -0000" stop="20210314100000 -0000" channel="tv5.iptv36.my.to">
-    <title><![CDATA[ช่อง 5 ทันข่าว 1655 - 1700]]></title>
-  </programme>
-  <programme start="20210314100000 -0000" stop="20210314102500 -0000" channel="tv5.iptv36.my.to">
-    <title><![CDATA[รายการสารคดี]]></title>
-  </programme>
-  <programme start="20210314102500 -0000" stop="20210314103000 -0000" channel="tv5.iptv36.my.to">
-    <title><![CDATA[ช่อง 5 ทันข่าว 1725 - 1730]]></title>
   </programme>
   <programme start="20210314103000 -0000" stop="20210314110000 -0000" channel="tv5.iptv36.my.to">
     <title><![CDATA[เพื่อประชาชน]]></title>
@@ -3942,6 +4016,9 @@
   </programme>
   <programme start="20210315215500 -0000" stop="20210315220000 -0000" channel="tv5.iptv36.my.to">
     <title><![CDATA[คั่นเวลา]]></title>
+  </programme>
+  <programme start="20210315220000 -0000" stop="20210315233000 -0000" channel="tv5.iptv36.my.to">
+    <title><![CDATA[ช่อง 5 ข่าวเช้า (สด)]]></title>
   </programme>
   <programme start="20210314153500 +0700" stop="20210314180000 +0700" channel="warnertv.iptv36.my.to">
     <title><![CDATA[Fantastic Beasts And Where To Find Them (2016)]]></title>
@@ -4108,9 +4185,11 @@
   <programme start="20210316043000 +0700" stop="20210316050000 +0700" channel="warnertv.iptv36.my.to">
     <title><![CDATA[Animals Unleashed S1 EP.50]]></title>
   </programme>
-  <programme start="20210314090000 -0000" stop="20210314100000 -0000" channel="workpoint.iptv36.my.to">
-    <title><![CDATA[ก็มาดิคร้าบ]]></title>
-    <desc><![CDATA[รายการ ก็มาดิคร้าบ]]></desc>
+  <programme start="20210316050000 +0700" stop="20210316052500 +0700" channel="warnertv.iptv36.my.to">
+    <title><![CDATA[Impractical Jokers S4 EP.12]]></title>
+  </programme>
+  <programme start="20210316052500 +0700" stop="20210316055000 +0700" channel="warnertv.iptv36.my.to">
+    <title><![CDATA[Impractical Jokers S4 EP.13]]></title>
   </programme>
   <programme start="20210314100000 -0000" stop="20210314110000 -0000" channel="workpoint.iptv36.my.to">
     <title><![CDATA[ซูเปอร์ 100]]></title>
@@ -4345,5 +4424,13 @@
   <programme start="20210315213000 -0000" stop="20210315220000 -0000" channel="workpoint.iptv36.my.to">
     <title><![CDATA[ลูกทุ่งไมค์ทองคำ รีรัน]]></title>
     <desc><![CDATA[รายการเพลงลูกทุ่ง]]></desc>
+  </programme>
+  <programme start="20210315220000 -0000" stop="20210315220300 -0000" channel="workpoint.iptv36.my.to">
+    <title><![CDATA[ธรรมสวัสดี]]></title>
+    <desc><![CDATA[รายการธรรมสวัสดี]]></desc>
+  </programme>
+  <programme start="20210315220300 -0000" stop="20210315225000 -0000" channel="workpoint.iptv36.my.to">
+    <title><![CDATA[ตลาดข่าวเวิร์คพอยท์]]></title>
+    <desc><![CDATA[รายงานข่าว]]></desc>
   </programme>
 </tv>

@@ -54,7 +54,7 @@ const streamingInfo = {
   },
 
   tnn16: {
-    channelName: 'TNN16',
+    channelName: 'TNN16 HD',
     logo: 'https://iptv36.my.to/logo/tnn16.png',
     urlList: [
       'https://iptv36.netlify.app/api/true?channel=tnn16hd', // 720p
@@ -79,7 +79,7 @@ const streamingInfo = {
     channelName: 'Nation TV',
     logo: 'https://iptv36.my.to/logo/nation.png',
     urlList: [
-      ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chnation/index.m3u8'], // 720p upscale
+      'http://live2.dootvde.com/live/50015_nation.stream.smil/playist.m3u8', // 720p upscale
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -97,7 +97,7 @@ const streamingInfo = {
   },
 
   true4u: {
-    channelName: 'True4U',
+    channelName: 'True4U HD',
     logo: 'https://iptv36.my.to/logo/true4u.png',
     urlList: [
       'https://iptv36.netlify.app/api/true?channel=true4uhd',
@@ -194,10 +194,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/ch3.png',
     urlList: [
       ['HD', 'http://live2.dootvde.com/live/50001_ch3.stream.smil/playist.m3u8'], // 720p
-      [
-        'HD',
-        'https://ch3-33-web.cdn.byteark.com/live/playlist.m3u8?x_ark_access_id=D78MkxZFEr5Zr9PE&x_ark_auth_type=ark-v2&x_ark_expires=1615744055&x_ark_max_resolution=720p&x_ark_path_prefix=%2Flive%2F&x_ark_signature=EEAdZcUOf9WJR2ahisKtTw',
-      ],
       ['HD [NO HW+]', 'https://www.livedoomovie.com/02_3HD_720p/chunklist.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
@@ -208,6 +204,10 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/amarin.png',
     urlList: [
       ['HD', 'http://live2.dootvde.com/live/50025_amarin_tv_hd.stream.smil/playist.m3u8'], // 720p
+      [
+        'HD',
+        'https://stream-05.sg1.dailymotion.com/sec(EWe07LaLICe6ZTgKrFaKW_17mdsVCIDxMKdglUV5uT8)/dm/3/x7z8zsu/s/live-4.m3u8',
+      ],
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -263,7 +263,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/premier_hd1.png',
     urlList: [
       // 'http://160.119.77.116:8081/iptv/epl-1.stream/playlist.m3u8', // 720p
-      'https://doofootball.livestream-cdn.com/iptv/epl-1.stream/playlist.m3u8', // 720p
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD1_720p/chunklist.m3u8'],
       'http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8', // 720p
     ],
@@ -275,7 +274,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/premier_hd2.png',
     urlList: [
       // 'http://160.119.77.116:8081/iptv/epl-2.stream/playlist.m3u8', // 720p
-      'https://doofootball.livestream-cdn.com/iptv/epl-2.stream/playlist.m3u8', // 720p
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD2_720p/chunklist.m3u8'],
       'http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8', // 720p
     ],
@@ -315,32 +313,32 @@ const streamingInfo = {
     groupName: 'SPORT',
   },
 
-  truesporthd: {
-    channelName: 'True Sports HD',
-    logo: 'https://iptv36.my.to/logo/true_sports_hd.png',
-    urlList: [
-      'http://103.208.24.234:1935/thaisport/hd-tsport1.stream/chunklist.m3u8', // 720p
-    ],
-    groupName: 'SPORT',
-  },
+  // truesporthd: {
+  //   channelName: 'True Sports HD',
+  //   logo: 'https://iptv36.my.to/logo/true_sports_hd.png',
+  //   urlList: [
+  //     'http://103.208.24.234:1935/thaisport/hd-tsport1.stream/chunklist.m3u8', // 720p
+  //   ],
+  //   groupName: 'SPORT',
+  // },
 
-  truesporthd2: {
-    channelName: 'True Sports HD2',
-    logo: 'https://iptv36.my.to/logo/true_sports_hd2.png',
-    urlList: [
-      'http://103.208.24.234:1935/thaisport/hd-tsport2.stream/chunklist.m3u8', // 720p
-    ],
-    groupName: 'SPORT',
-  },
+  // truesporthd2: {
+  //   channelName: 'True Sports HD2',
+  //   logo: 'https://iptv36.my.to/logo/true_sports_hd2.png',
+  //   urlList: [
+  //     'http://103.208.24.234:1935/thaisport/hd-tsport2.stream/chunklist.m3u8', // 720p
+  //   ],
+  //   groupName: 'SPORT',
+  // },
 
-  truesport2: {
-    channelName: 'True Sports 2',
-    logo: 'https://iptv36.my.to/logo/truesports2.png',
-    urlList: [
-      // 'http://160.119.77.116:8081/iptv/sd-tsport2.stream/playlist.m3u8', // 576p
-    ],
-    groupName: 'SPORT',
-  },
+  // truesport2: {
+  //   channelName: 'True Sports 2',
+  //   logo: 'https://iptv36.my.to/logo/truesports2.png',
+  //   urlList: [
+  //     // 'http://160.119.77.116:8081/iptv/sd-tsport2.stream/playlist.m3u8', // 576p
+  //   ],
+  //   groupName: 'SPORT',
+  // },
 
   /* CARTOON */
   cartoonclub: {
@@ -405,7 +403,7 @@ const streamingInfo = {
   axn: {
     channelName: 'AXN HD',
     logo: 'https://iptv36.my.to/logo/axn.png',
-    urlList: [['[NO HW+]', 'https://www.livedoomovies.com/02_AXNHD_720p/chunklist.m3u8']],
+    urlList: [['(Slow) [NO HW+]', 'https://www.livedoomovies.com/02_AXNHD_720p/chunklist.m3u8']],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -434,7 +432,7 @@ const streamingInfo = {
   },
 
   ctb: {
-    channelName: 'CTB',
+    channelName: 'CTB (NO IMAGE)',
     logo: 'https://iptv36.my.to/logo/ctb.png',
     urlList: ['http://vip.login.in.th:1935/CTB/CTB/chunklist.m3u8'],
     groupName: 'ENTERTAINMENT',
@@ -450,7 +448,9 @@ const streamingInfo = {
   foxmovies: {
     channelName: 'FOX Movies HD',
     logo: 'https://iptv36.my.to/logo/foxmovies.png',
-    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_FoxMoviesTH_720p/chunklist.m3u8']],
+    urlList: [
+      ['(Slow) [NO HW+]', 'https://www.livedoomovie.com/02_FoxMoviesTH_720p/chunklist.m3u8'],
+    ],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -458,9 +458,8 @@ const streamingInfo = {
     channelName: 'Fox Action Movies HD',
     logo: 'https://iptv36.my.to/logo/foxactionmovies.png',
     urlList: [
-      'https://doofootball.livestream-cdn.com/iptv/hd-foxaction.stream/playlist.m3u8',
-      ['[NO HW+]', 'https://www.livedoomovies.com/02_FoxActionHD_TH_720p/chunklist.m3u8'],
       'https://y5w8j4a9.ssl.hwcdn.net/andflixhd/tracks-v1a1/index.m3u8',
+      // ['[NO HW+]', 'https://www.livedoomovies.com/02_FoxActionHD_TH_720p/chunklist.m3u8'],
     ],
     groupName: 'ENTERTAINMENT',
   },
@@ -481,9 +480,11 @@ const streamingInfo = {
   },
 
   foxthai: {
-    channelName: 'FOX Thai HD (Slow)',
+    channelName: 'FOX Thai HD',
     logo: 'https://iptv36.my.to/logo/foxthai.png',
-    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_FoxThai_TH_720p/chunklist.m3u8']],
+    urlList: [
+      ['(Slow) [NO HW+]', 'https://www.livedoomovie.com/02_FoxThai_TH_720p/chunklist.m3u8'],
+    ],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -500,14 +501,14 @@ const streamingInfo = {
   history: {
     channelName: 'History HD',
     logo: 'https://iptv36.my.to/logo/history.png',
-    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_HISTORYHD_720p/chunklist.m3u8']],
+    urlList: [['(Slow) [NO HW+]', 'https://www.livedoomovie.com/02_HISTORYHD_720p/chunklist.m3u8']],
     groupName: 'ENTERTAINMENT',
   },
 
   history2: {
     channelName: 'History2 HD',
     logo: 'https://iptv36.my.to/logo/history2.png',
-    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_H2HD_720p/chunklist.m3u8']],
+    urlList: [['(Slow) [NO HW+]', 'https://www.livedoomovie.com/02_H2HD_720p/chunklist.m3u8']],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -659,6 +660,7 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
     ['workpoint', 'HD', 'https://www.dailymotion.com/embed/video/x6g9qjj'],
     ['nation', 'HD', 'https://www.dailymotion.com/embed/video/x6eoldf'],
     ['mcot', 'HD', 'https://www.dailymotion.com/embed/video/x74wlgj'],
+    ['amarin', 'HD', 'https://www.dailymotion.com/embed/video/x7z8zsu'],
     // geo restricted
     // ['new18', 'HD', 'https://www.dailymotion.com/embed/video/x7kx5i7'],
     // ['gmm25', 'HD', 'https://www.dailymotion.com/embed/video/k7KnbDPalNddQqrJq1J'],
@@ -690,18 +692,22 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
           const response = await axios.get(livePlayListUrl);
           let rawPlayList = response.data;
 
-          let regExpMatchArray = rawPlayList.match(/https:\/\/.*?\/live-[3-4]\.m3u8/);
+          for (let i = 4; i >= 2; i--) {
+            let regExp = new RegExp(`https:\/\/.*?\/live-[${i}]\.m3u8`);
+            let regExpMatchArray = rawPlayList.match(regExp);
 
-          if (regExpMatchArray) {
-            if (!(channelKey in streamingInfo)) {
-              console.error(`Not recognize channel ${channelKey}`);
-              return;
-            }
-            let url = regExpMatchArray[0].replace('.nyc.', '.sg1.');
-            if (appendUrlToBottom) {
-              streamingInfo[channelKey].urlList.push([channelNameSuffix, url]);
-            } else {
-              streamingInfo[channelKey].urlList.unshift([channelNameSuffix, url]);
+            if (regExpMatchArray) {
+              if (!(channelKey in streamingInfo)) {
+                console.error(`Not recognize channel ${channelKey}`);
+                return;
+              }
+              let url = regExpMatchArray[0].replace('.nyc.', '.sg1.');
+              if (appendUrlToBottom) {
+                streamingInfo[channelKey].urlList.push([channelNameSuffix, url]);
+              } else {
+                streamingInfo[channelKey].urlList.unshift([channelNameSuffix, url]);
+              }
+              break;
             }
           }
         } catch (error) {
@@ -779,9 +785,7 @@ const testUrl = async (url) => {
       if (
         process.env.NETLIFY &&
         errorMsg === 'ECONNABORTED' &&
-        (url.includes('3bb.co.th') ||
-          url.includes('doofootball.livestream-cdn.com') ||
-          url.includes('103.208.24.234'))
+        (url.includes('3bb.co.th') || url.includes('103.208.24.234'))
       ) {
         return true;
       }
@@ -798,11 +802,11 @@ const testUrl = async (url) => {
         return true;
       }
 
-      if (process.env.NETLIFY && errorMsg === 403 && url.includes('v2h-cdn.com')) {
-        return true;
-      }
-
-      if (errorMsg === 'ERR_TLS_CERT_ALTNAME_INVALID' && url.includes('livedoomovie.com')) {
+      if (
+        process.env.NETLIFY &&
+        errorMsg === 'ECONNABORTED' &&
+        url.includes('googleuservideo.com')
+      ) {
         return true;
       }
 
