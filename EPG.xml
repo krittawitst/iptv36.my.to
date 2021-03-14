@@ -25,9 +25,6 @@
   <channel id="discoveryasia.iptv36.my.to">
     <display-name>discoveryasia.iptv36.my.to</display-name>
   </channel>
-  <channel id="foxactionmovies.iptv36.my.to">
-    <display-name>foxactionmovies.iptv36.my.to</display-name>
-  </channel>
   <channel id="foxmovies.iptv36.my.to">
     <display-name>foxmovies.iptv36.my.to</display-name>
   </channel>
@@ -97,12 +94,6 @@
   <channel id="workpoint.iptv36.my.to">
     <display-name>workpoint.iptv36.my.to</display-name>
   </channel>
-  <programme start="20210314180200 +0700" stop="20210314190000 +0700" channel="altv.iptv36.my.to">
-    <title><![CDATA[บ้านพลังใจ]]></title>
-  </programme>
-  <programme start="20210314190000 +0700" stop="20210314190500 +0700" channel="altv.iptv36.my.to">
-    <title><![CDATA[คลิป The Active]]></title>
-  </programme>
   <programme start="20210314190500 +0700" stop="20210314200000 +0700" channel="altv.iptv36.my.to">
     <title><![CDATA[คนละดาว Family]]></title>
   </programme>
@@ -282,6 +273,9 @@
   </programme>
   <programme start="20210316065500 +0700" stop="20210316070500 +0700" channel="altv.iptv36.my.to">
     <title><![CDATA[คิดคลับส์]]></title>
+  </programme>
+  <programme start="20210316070500 +0700" stop="20210316072000 +0700" channel="altv.iptv36.my.to">
+    <title><![CDATA[ชวนคิด กับนักวิทย์น้อย]]></title>
   </programme>
   <programme start="20210314110100 -0000" stop="20210314130000 -0000" channel="amarin.iptv36.my.to">
     <title><![CDATA[อมรินทร์ ซูเปอร์ไฟต์ ชุด ศึกช้างมวยไทยเกียรติเพชร]]></title>
@@ -552,9 +546,6 @@
     <title><![CDATA[Seal Team   [ 4 ]]]></title>
     <sub-title><![CDATA[SERIES :: Drama Series]]></sub-title>
     <desc><![CDATA[เรื่องราวของเหล่าทหารหาญในหน่วยปฎิบัติการพิเศษของกองทัพเรือสหรัฐอเมริกาและภารกิจลับสุดอันตรายเพื่อชาติซึ่งล้วนเดิมพันด้วยชีวิต -- นำแสดงโดย เดวิด โบรีนาซ และ แม็กซ์ เธียเรียต]]></desc>
-  </programme>
-  <programme start="20210314183000 +0700" stop="20210314190000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[นารูโตะ นินจาจอมคาถา ปีที่ 2]]></title>
   </programme>
   <programme start="20210314190000 +0700" stop="20210314193000 +0700" channel="cartoonclub.iptv36.my.to">
     <title><![CDATA[วันพีช เกาะโซว ปีที่ 15]]></title>
@@ -1454,76 +1445,6 @@
   <programme start="20210316064000 +0700" stop="20210316073000 +0700" channel="discoveryasia.iptv36.my.to">
     <title><![CDATA[Road Less Travelled: India (S1) : The Quest For Maya]]></title>
   </programme>
-  <programme start="20210314004000 +0700" stop="20210314021500 +0700" channel="foxactionmovies.iptv36.my.to">
-    <title><![CDATA[Tank 432]]></title>
-    <sub-title><![CDATA[2015 - MOVIE :: Action, Horror, Thriller]]></sub-title>
-    <desc><![CDATA[เรื่องราวสุดระทึกขวัญของทหารรับจ้างที่ต่อสู้เพื่อหลบหนีจากสิ่งลึกลับอันเปรียบเสมือนศัตรูซึ่งมองไม่เห็น -- นำแสดงโดย รูเพิร์ต อิแวนส์, สตีฟ แกร์รี่, และ เดร์เดอร์ มัลลินส์]]></desc>
-  </programme>
-  <programme start="20210314021500 +0700" stop="20210314035000 +0700" channel="foxactionmovies.iptv36.my.to">
-    <title><![CDATA[Area 51]]></title>
-    <sub-title><![CDATA[2015 - MOVIE :: Thriller, Sci-Fi]]></sub-title>
-    <desc><![CDATA[บรรดากลุ่มวัยรุ่นแอบลักลอบเข้าไปใน 'แอเรีย 51' อันเป็นชื่อเรียกของฐานทัพทางตอนใต้ของรัฐเนวาดาที่ซึ่งพวกเขาได้ประสบกับความลับซ่อนเร้นเกินกว่าใครจะคาดเดา -- นำแสดงโดย เกล็น แคมพ์เบล]]></desc>
-  </programme>
-  <programme start="20210314035000 +0700" stop="20210314055000 +0700" channel="foxactionmovies.iptv36.my.to">
-    <title><![CDATA[Hell on the Border]]></title>
-    <sub-title><![CDATA[2019 - MOVIE :: Western]]></sub-title>
-    <desc><![CDATA[เรื่องราววีรกรรมอันกล้าหาญของรองนายอำเภอผิวสีคนแรกแห่งมิสซิสซิปปี -- นำแสดงโดย เดวิด จีอาซี่ และ รอน เพิร์ลแมน]]></desc>
-  </programme>
-  <programme start="20210314055000 +0700" stop="20210314071500 +0700" channel="foxactionmovies.iptv36.my.to">
-    <title><![CDATA[Altered Skin]]></title>
-    <sub-title><![CDATA[2018 - MOVIE :: Thriller]]></sub-title>
-    <desc><![CDATA[เรื่องราวสุดระทึกขวัญของวิศวกรหนุ่มชาวอเมริกันกับการใช้ชีวิตในปากีสถานในการดูแลภรรยาที่ป่วยแต่กลับบังเอิญต้องเผชิญแผนการบางอย่างซึ่งอันตรายถึงชีวิต --นำแสดงโดย โรบิน ดันน์]]></desc>
-  </programme>
-  <programme start="20210314071500 +0700" stop="20210314085500 +0700" channel="foxactionmovies.iptv36.my.to">
-    <title><![CDATA[Outlawed]]></title>
-    <sub-title><![CDATA[2018 - MOVIE :: Action]]></sub-title>
-    <desc><![CDATA[เรื่องราวเกี่ยวกับหนุ่มคอมมานโดเดนตายที่ต่อสู้ยิบตาเพื่อกู้ภัยหญิงผู้เป็นที่รักของเขา -- นำแสดงโดย อดัม คอลลินส์ และ เจสสิก้า นอร์ริส]]></desc>
-  </programme>
-  <programme start="20210314085500 +0700" stop="20210314103000 +0700" channel="foxactionmovies.iptv36.my.to">
-    <title><![CDATA[Don't Breathe]]></title>
-    <sub-title><![CDATA[2016 - MOVIE :: Horror]]></sub-title>
-    <desc><![CDATA[เรื่องราวเกี่ยวกับสามมิจฉาชีพที่ออกปล้นบ้านเพื่อหวังชิงทรัพย์โดยไม่รู้เลยว่าเป้าหมายจะนำความวิบัติสุดระทึกขวัญมาสู่พวกเขา -- นำแสดงโดย เจน เลวี่ และ สตีเฟ่น แลงจ์]]></desc>
-  </programme>
-  <programme start="20210314103000 +0700" stop="20210314120500 +0700" channel="foxactionmovies.iptv36.my.to">
-    <title><![CDATA[Ultraviolet]]></title>
-    <sub-title><![CDATA[2006 - MOVIE :: Action]]></sub-title>
-    <desc><![CDATA[เรื่องราวของสาวติดเชื้อแวมไพร์กับภารกิจปกป้องเด็กชายซึ่งเชื่อว่าเป็นพาหะของสารขจัดไวรัสอเวจีที่อาจส่งผลให้เผ่าพันธุ์ผีดูดเลือดสูญสิ้นลงอย่างไม่เหลือราก -- นำแสดงโดย มิล่า โจโววิช]]></desc>
-  </programme>
-  <programme start="20210314120500 +0700" stop="20210314133500 +0700" channel="foxactionmovies.iptv36.my.to">
-    <title><![CDATA[Trading Paint]]></title>
-    <sub-title><![CDATA[2019 - MOVIE :: Action]]></sub-title>
-    <desc><![CDATA[เรื่องราวของนักขับรถแข่งมากประสบการณ์และลูกชายที่เข้าร่วมแข่งขันรถไปพร้อมๆกับการเอาชนะปัญหาขัดแย้งภายในครอบครัว -- นำแสดงโดย จอห์น ทราโวลต้า และ ชาเนีย ทเวน]]></desc>
-  </programme>
-  <programme start="20210314133500 +0700" stop="20210314151000 +0700" channel="foxactionmovies.iptv36.my.to">
-    <title><![CDATA[Tank 432]]></title>
-    <sub-title><![CDATA[2015 - MOVIE :: Action, Horror, Thriller]]></sub-title>
-    <desc><![CDATA[เรื่องราวสุดระทึกขวัญของทหารรับจ้างที่ต่อสู้เพื่อหลบหนีจากสิ่งลึกลับอันเปรียบเสมือนศัตรูซึ่งมองไม่เห็น -- นำแสดงโดย รูเพิร์ต อิแวนส์, สตีฟ แกร์รี่, และ เดร์เดอร์ มัลลินส์]]></desc>
-  </programme>
-  <programme start="20210314151000 +0700" stop="20210314171000 +0700" channel="foxactionmovies.iptv36.my.to">
-    <title><![CDATA[Jack Reacher: Never Go Back]]></title>
-    <sub-title><![CDATA[2016 - MOVIE :: Action]]></sub-title>
-    <desc><![CDATA[ภาพยนตร์ภาคต่อซึ่งในคราวนี้อดีตผู้พันเดนตายได้ไปช่วยเหลือผู้พันหญิงให้รอดพ้นจากการถูกกล่าวหาจนทำให้เขาได้ค้นพบแผนสมรู้ร่วมคิดที่มีนายทหารใหญ่อยู่เบื้องหลัง -- นำแสดงโดย ทอม ครูซ]]></desc>
-  </programme>
-  <programme start="20210314171000 +0700" stop="20210314191500 +0700" channel="foxactionmovies.iptv36.my.to">
-    <title><![CDATA[Badland]]></title>
-    <sub-title><![CDATA[2019 - MOVIE :: Action]]></sub-title>
-    <desc><![CDATA[เรื่องราวของมือปืนที่ถูกจ้างวานให้ออกตามล่าอาชญากรสุดอันตรายในสงครามกลางเมืองเพื่อนำพวกเขามาสู่กระบวนการยุติธรรมให้ได้ -- นำแสดงโดย เควิน แมคเคลีย์, บรูซ  เดิร์น, และ เทรซ แอดคินส์]]></desc>
-  </programme>
-  <programme start="20210314191500 +0700" stop="20210314210000 +0700" channel="foxactionmovies.iptv36.my.to">
-    <title><![CDATA[Legacy]]></title>
-    <sub-title><![CDATA[2019 - MOVIE :: Action]]></sub-title>
-    <desc><![CDATA[เรื่องราวเกี่ยวกับนักสืบมือใหม่ที่ต้องทำงานภายใต้แรงกดดันครั้งสำคัญเพื่อกอบกู้ศักดิ์ศรีให้พ่อของเขา -- นำแสดงโดย จัสติน แช็ทวิน และ ปีเตอร์ สตอร์แมร์]]></desc>
-  </programme>
-  <programme start="20210314210000 +0700" stop="20210314225500 +0700" channel="foxactionmovies.iptv36.my.to">
-    <title><![CDATA[Captive State]]></title>
-    <sub-title><![CDATA[2019 - MOVIE :: Sci-Fi, Horror]]></sub-title>
-    <desc><![CDATA[เรื่องราวของกลุ่มปฏิวัติที่รวมตัวกันทวงเสรีภาพจากเผด็จการนอกพิภพเมื่อพวกมันได้บุกรุกเข้ามาเถลิงอำนาจปกครองโลกอีกทั้งยังถลุงทรัพยากรจนเกือบสูญสิ้น -- นำแสดงโดย แอชตัน แซนเดอร์ส]]></desc>
-  </programme>
-  <programme start="20210314225500 +0700" stop="20210314235959 +0700" channel="foxactionmovies.iptv36.my.to">
-    <title><![CDATA[Robocop 2]]></title>
-    <sub-title><![CDATA[1990 - MOVIE :: Sci-Fi]]></sub-title>
-    <desc><![CDATA[ภาคต่อของภาพยนตร์แนววิทยาศาสตร์เรื่อง 'โรโบค็อป' ในภาคนี้พระเอกของเรื่องต้องต่อกรกับจอมวายร้ายผู้มีแสนยานุภาพที่เหนือกว่าเขา]]></desc>
-  </programme>
   <programme start="20210314012000 +0700" stop="20210314030000 +0700" channel="foxmovies.iptv36.my.to">
     <title><![CDATA[Cruel Peter]]></title>
     <sub-title><![CDATA[2019 - MOVIE :: Horror]]></sub-title>
@@ -2156,9 +2077,6 @@
     <title><![CDATA[How Life Began]]></title>
     <sub-title><![CDATA[KNOWLEDGE :: Earth]]></sub-title>
     <desc><![CDATA[ร่วมออกสำรวจวิวัฒนาการชีวิตบนโลกของเราและพูดคุยกับผู้เชี่ยวชาญไปพร้อมๆกับการหาวิธีในการที่จะดูแลเหล่าบรรดาสัตว์เลี้ยงและสัตว์ป่าต่างๆ]]></desc>
-  </programme>
-  <programme start="20210314185000 +0700" stop="20210314190000 +0700" channel="m.iptv36.my.to">
-    <title><![CDATA[M Comedy]]></title>
   </programme>
   <programme start="20210314190000 +0700" stop="20210314225000 +0700" channel="m.iptv36.my.to">
     <title><![CDATA[A Good Man โคตรคนดีเดือด]]></title>
@@ -2842,10 +2760,6 @@
   <programme start="20210315163000 -0000" stop="20210315165959 -0000" channel="nbt.iptv36.my.to">
     <title><![CDATA[Newsline]]></title>
     <desc><![CDATA[ข่าว เหตุการณ์ประจำวัน]]></desc>
-  </programme>
-  <programme start="20210314180200 +0700" stop="20210314190000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : เจาะลึกชีวิตสัตว์ในครรภ]]></title>
-    <desc><![CDATA[<No description>]]></desc>
   </programme>
   <programme start="20210314190000 +0700" stop="20210314200000 +0700" channel="new18.iptv36.my.to">
     <title><![CDATA[NEW Documentary สำรวจโลก : ไขปริศนาดาวโลก - วันสิ้]]></title>
@@ -4450,6 +4364,9 @@
   </programme>
   <programme start="20210316064000 +0700" stop="20210316070500 +0700" channel="warnertv.iptv36.my.to">
     <title><![CDATA[Animals Unleashed S1 EP.51]]></title>
+  </programme>
+  <programme start="20210316070500 +0700" stop="20210316073000 +0700" channel="warnertv.iptv36.my.to">
+    <title><![CDATA[Animals Unleashed S1 EP.52]]></title>
   </programme>
   <programme start="20210314110100 -0000" stop="20210314130000 -0000" channel="workpoint.iptv36.my.to">
     <title><![CDATA[เพชรตัดเพชร ซีซั่น 2]]></title>

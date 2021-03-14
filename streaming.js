@@ -460,12 +460,16 @@ const streamingInfo = {
   },
 
   foxactionmovies: {
-    channelName: 'Fox Action Movies HD',
+    channelName: 'FOX Action Movies HD',
     logo: 'https://iptv36.my.to/logo/foxactionmovies.png',
-    urlList: [
-      // 'https://y5w8j4a9.ssl.hwcdn.net/andflixhd/tracks-v1a1/index.m3u8',
-      ['[NO HW+]', 'https://www.livedoomovies.com/02_FoxActionHD_TH_720p/chunklist.m3u8'],
-    ],
+    urlList: [['[NO HW+]', 'https://www.livedoomovies.com/02_FoxActionHD_TH_720p/chunklist.m3u8']],
+    groupName: 'ENTERTAINMENT',
+  },
+
+  andflix: {
+    channelName: '&Flix HD',
+    logo: 'https://alltimetrends.com/wp-content/uploads/2020/07/and-flix-hd.jpg',
+    urlList: ['https://y5w8j4a9.ssl.hwcdn.net/andflixhd/tracks-v1a1/index.m3u8'],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -807,11 +811,7 @@ const testUrl = async (url) => {
         return true;
       }
 
-      if (
-        process.env.NETLIFY &&
-        errorMsg === 'ECONNABORTED' &&
-        url.includes('googleuservideo.com')
-      ) {
+      if (process.env.NETLIFY && url.includes('dailymotion.com')) {
         return true;
       }
 
