@@ -82,8 +82,6 @@ const proPlaylist = {
     ['premier1', 2],
     ['premier2', 2],
     ['premier3', 2],
-    ['premier4', 2],
-    ['premier5', 2],
   ],
 };
 

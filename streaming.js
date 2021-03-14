@@ -143,7 +143,6 @@ const streamingInfo = {
         'HD',
         'https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_720P/mono29hls_720TH.stream/playlist.m3u8',
       ], // 720p
-      ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/chmono29/index.m3u8'], // 720p upscale
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -161,9 +160,7 @@ const streamingInfo = {
   mcot: {
     channelName: 'MCOT HD',
     logo: 'https://iptv36.my.to/logo/mcot.png',
-    urlList: [
-      'https://stream-05.sg1.dailymotion.com/sec(86G48EQSWKUUFPhHXEV5xvkDTvleKRAEglC8SJXvy_c)/dm/3/x74wlgj/s/live-4.m3u8',
-    ],
+    urlList: ['https://cdn6.goprimetime.info/feed/chmcothd/index.m3u8'],
     groupName: thDtvWithCurrentDate,
   },
 
@@ -194,7 +191,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/ch3.png',
     urlList: [
       ['HD', 'http://live2.dootvde.com/live/50001_ch3.stream.smil/playist.m3u8'], // 720p
-      ['HD [NO HW+]', 'https://www.livedoomovie.com/02_3HD_720p/chunklist.m3u8'], // 720p
+      // ['HD [NO HW+]', 'https://www.livedoomovie.com/02_3HD_720p/chunklist.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -204,10 +201,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/amarin.png',
     urlList: [
       ['HD', 'http://live2.dootvde.com/live/50025_amarin_tv_hd.stream.smil/playist.m3u8'], // 720p
-      [
-        'HD',
-        'https://stream-05.sg1.dailymotion.com/sec(EWe07LaLICe6ZTgKrFaKW_17mdsVCIDxMKdglUV5uT8)/dm/3/x7z8zsu/s/live-4.m3u8',
-      ],
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -229,8 +222,8 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/pptv.png',
     urlList: [
       ['HD', 'http://live2.dootvde.com/live/50026_pptv_hd.stream.smil/playist.m3u8'], // 720p
-      ['HD [NO HW+]', 'https://www.livedoomovie.com/02_PPTVHD_720p/chunklist.m3u8'], // 720p
       ['HD [NO HW+]', 'https://cdn6.goprimetime.info/feed/chpptvhd/index.m3u8'], // 720p
+      ['HD [NO HW+]', 'https://www.livedoomovie.com/02_PPTVHD_720p/chunklist.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -240,6 +233,7 @@ const streamingInfo = {
     channelName: 'beIN Sports HD1',
     logo: 'https://iptv36.my.to/logo/bein1.png',
     urlList: [
+      'https://laos-tech-live.b-cdn.net/uk-btsport1hd_720/index.m3u8',
       ['[NO HW+]', 'https://www.livedoomovie.com/02_epl1_720p/chunklist.m3u8'], // 720p
       // 'http://160.119.77.116:8081/iptv/epl-bein1.stream/playlist.m3u8',
       'http://103.208.24.234:1935/thaisport/epl-bein1.stream/playlist.m3u8', // 480p
@@ -251,6 +245,7 @@ const streamingInfo = {
     channelName: 'beIN Sports HD2',
     logo: 'https://iptv36.my.to/logo/bein2.png',
     urlList: [
+      'http://160.119.77.116:8081/iptv/epl-bein2.stream/playlist.m3u8',
       ['[NO HW+]', 'https://www.livedoomovie.com/02_epl2_720p/chunklist.m3u8'], // 720p
       // 'http://160.119.77.116:8081/iptv/epl-bein2.stream/playlist.m3u8',
       'http://103.208.24.234:1935/thaisport/epl-bein2.stream/playlist.m3u8', // 480p
@@ -263,6 +258,8 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/premier_hd1.png',
     urlList: [
       // 'http://160.119.77.116:8081/iptv/epl-1.stream/playlist.m3u8', // 720p
+      'http://160.119.77.117/iptv/epl-1.stream/chunks.m3u8',
+      'http://77.83.117.60:8888/02_PremierHD1_720p/chunklist.m3u8',
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD1_720p/chunklist.m3u8'],
       'http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8', // 720p
     ],
@@ -274,6 +271,8 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/premier_hd2.png',
     urlList: [
       // 'http://160.119.77.116:8081/iptv/epl-2.stream/playlist.m3u8', // 720p
+      'http://160.119.77.117/iptv/epl-2.stream/chunks.m3u8',
+      'http://77.83.117.60:8888/02_PremierHD2_720p/chunklist.m3u8',
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD2_720p/chunklist.m3u8'],
       'http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8', // 720p
     ],
@@ -285,6 +284,8 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/premier_hd3.png',
     urlList: [
       //  'http://160.119.77.116:8081/iptv/epl-3.stream/playlist.m3u8', // 720p
+      'http://160.119.77.117/iptv/epl-3.stream/chunks.m3u8',
+      'http://77.83.117.60:8888/02_PremierHD3_720p/chunklist.m3u8',
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD3_720p/chunklist.m3u8'],
       'http://103.208.24.234:1935/thaisport/epl-3.stream/playlist.m3u8', // 720p
     ],
@@ -296,6 +297,8 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/premier_hd4.png',
     urlList: [
       // 'http://160.119.77.116:8081/iptv/epl-4.stream/playlist.m3u8', // 720p
+      'http://160.119.77.117/iptv/epl-4.stream/chunks.m3u8',
+      'http://77.83.117.60:8888/02_PremierHD4_720p/chunklist.m3u8',
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD4_720p/chunklist.m3u8'],
       'http://103.208.24.234:1935/thaisport/epl-4.stream/playlist.m3u8', // 720p
     ],
@@ -307,6 +310,8 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/premier_hd5.png',
     urlList: [
       // 'http://160.119.77.116:8081/iptv/epl-5.stream/playlist.m3u8', // 720p
+      'http://160.119.77.117/iptv/epl-5.stream/chunks.m3u8',
+      'http://77.83.117.60:8888/02_PremierHD5_720p/chunklist.m3u8',
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD5_720p/chunklist.m3u8'],
       'http://103.208.24.234:1935/thaisport/epl-5.stream/playlist.m3u8', // 720p
     ],
@@ -659,7 +664,7 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
     // [channelKey, channelNameSuffix, pageUrl, appendUrlToBottom=false]
     ['workpoint', 'HD', 'https://www.dailymotion.com/embed/video/x6g9qjj'],
     ['nation', 'HD', 'https://www.dailymotion.com/embed/video/x6eoldf'],
-    ['mcot', 'HD', 'https://www.dailymotion.com/embed/video/x74wlgj'],
+    ['mcot', '', 'https://www.dailymotion.com/embed/video/x74wlgj'],
     ['amarin', 'HD', 'https://www.dailymotion.com/embed/video/x7z8zsu'],
     // geo restricted
     // ['new18', 'HD', 'https://www.dailymotion.com/embed/video/x7kx5i7'],
