@@ -811,11 +811,12 @@ const testUrl = async (url) => {
         return true;
       }
 
-      if (process.env.NETLIFY && url.includes('dailymotion.com')) {
-        return true;
-      }
-
-      if (url.includes('iptv36.netlify.app/api/true')) {
+      if (
+        process.env.NETLIFY &&
+        (url.includes('dailymotion.com') ||
+          url.includes('googleuservideo.com') ||
+          url.includes('iptv36.netlify.app/api/true'))
+      ) {
         return true;
       }
 
