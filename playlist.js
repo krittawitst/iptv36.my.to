@@ -1,6 +1,6 @@
 const basicPlaylist = {
   filename: 'BASIC36.m3u',
-  removeNoHWPlusDecoderWarning: true,
+  removeNoHWPlusDecoderWarning: false,
   channelList: [
     // 1-10
     ['tv5'],
@@ -69,8 +69,9 @@ const proPlaylist = {
     ['history'],
     ['history2'],
     ['discoveryasia'],
-    ['bbcearth'],
+
     ['natgeo'],
+    ['truesparkjump'],
     ['disney'],
 
     // 51-60
@@ -91,21 +92,20 @@ const iptvPlaylist = {
   filename: 'IPTV36.m3u',
   removeNoHWPlusDecoderWarning: true,
   channelList: [
-    // 1-72
+    // 1-60
     ...proPlaylist.channelList,
 
-    // 73-80
-    ['ipcam'],
-    ['ipcam', 1],
-    ['ipcam', 2],
-    ['ipcam', 3],
-    ['ipcam', 4],
-    ['ipcam', 5],
-    ['ipcam', 6],
-    ['ipcam', 7],
+    // ['ipcam'],
+    // ['ipcam', 1],
+    // ['ipcam', 2],
+    // ['ipcam', 3],
+    // ['ipcam', 4],
+    // ['ipcam', 5],
+    // ['ipcam', 6],
+    // ['ipcam', 7],
   ],
 };
 
-const allPlaylist = [basicPlaylist, proPlaylist];
+const allPlaylist = [basicPlaylist, proPlaylist, iptvPlaylist];
 
 module.exports = allPlaylist;

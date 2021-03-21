@@ -371,7 +371,7 @@ const streamingInfo = {
   cartoonnetwork: {
     channelName: 'Cartoon Network HD',
     logo: 'https://iptv36.my.to/logo/cnhd.png',
-    urlList: [['[NO HW+]', 'http://160.119.77.117/iptv/sd-sparkjump.stream/chunks.m3u8']],
+    urlList: [['[NO HW+]', 'http://160.119.77.117/iptv/sd-cartoonnetwork.stream/chunks.m3u8']],
     groupName: 'CARTOON',
   },
 
