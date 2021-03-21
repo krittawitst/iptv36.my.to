@@ -63,7 +63,7 @@ const main = async () => {
       let [channelKey, skip = 0] = playlist.channelList[i];
       let streamingInfo = await streaming.getStreamingInfo(channelKey, skip);
       let channelName = playlist.removeNoHWPlusDecoderWarning
-        ? streamingInfo.channelName.replace(' [NO HW+]', '')
+        ? streamingInfo.channelName.replace(' [NO HW+]', '*')
         : streamingInfo.channelName;
       let tvgId = getTvgIdFromChannelKey(channelKey);
       let channelStr = `#EXTINF:-1 tvg-chno="${i + 1}" tvg-id="${tvgId}" group-title="${

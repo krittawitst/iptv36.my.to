@@ -50,40 +50,40 @@ const basicPlaylist = {
 
 const proPlaylist = {
   filename: 'PRO36.m3u',
-  removeNoHWPlusDecoderWarning: false,
+  removeNoHWPlusDecoderWarning: true,
   channelList: [
     // 1-36
     ...basicPlaylist.channelList,
 
     // 37-40
     ['foxmovies'],
+    ['foxactionmovies'],
     ['foxthai'],
-    ['andflix'],
-    ['ctb'],
+    ['truefilm'],
 
     // 41-50
+    ['andflix'],
+    ['moviehits'],
+    ['ctb'],
     ['warnertv'],
     ['axn'],
     ['history'],
     ['history2'],
     ['discoveryasia'],
-    ['premier1'],
-    ['premier1', 1],
-    ['premier1', 2],
-    ['premier2'],
-    ['premier2', 1],
+    ['disney'],
+    ['disneyxd'],
 
     // 51-60
-    ['premier2', 2],
+    ['premier1'],
+    ['premier1', 1],
+    ['premier2'],
+    ['premier2', 1],
     ['premier3'],
     ['premier3', 1],
-    ['premier3', 2],
     ['premier4'],
     ['premier4', 1],
-    ['premier4', 2],
     ['premier5'],
     ['premier5', 1],
-    ['premier5', 2],
   ],
 };
 
