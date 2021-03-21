@@ -63,15 +63,15 @@ const proPlaylist = {
 
     // 41-50
     ['andflix'],
-    ['moviehits'],
     ['ctb'],
     ['warnertv'],
     ['axn'],
     ['history'],
     ['history2'],
     ['discoveryasia'],
+    ['bbcearth'],
+    ['natgeo'],
     ['disney'],
-    ['disneyxd'],
 
     // 51-60
     ['premier1'],
