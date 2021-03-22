@@ -62,21 +62,20 @@ const proPlaylist = {
     ['truefilm'],
 
     // 41-50
-    ['andflix'],
     ['ctb'],
     ['warnertv'],
     ['axn'],
     ['history'],
     ['history2'],
     ['discoveryasia'],
-
     ['natgeo'],
-    ['truesparkjump'],
+    ['trueplookpanya'],
     ['disney'],
+    ['premier1'],
 
     // 51-60
-    ['premier1'],
     ['premier1', 1],
+    ['premier1', 2],
     ['premier2'],
     ['premier2', 1],
     ['premier3'],
