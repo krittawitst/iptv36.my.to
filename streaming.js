@@ -267,9 +267,9 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/premier_hd1.png',
     urlList: [
       // 'http://160.119.77.116:8081/iptv/epl-1.stream/playlist.m3u8', // 720p
-      ['[NO HW+]', 'http://160.119.77.117/iptv/epl-1.stream/chunks.m3u8'],
       'http://77.83.117.60:8888/02_PremierHD1_720p/chunklist.m3u8',
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD1_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'http://160.119.77.117/iptv/epl-1.stream/chunks.m3u8'],
       'http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8', // 720p
     ],
     groupName: 'SPORT',
@@ -280,9 +280,9 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/premier_hd2.png',
     urlList: [
       // 'http://160.119.77.116:8081/iptv/epl-2.stream/playlist.m3u8', // 720p
-      // 'http://160.119.77.117/iptv/epl-2.stream/chunks.m3u8',
       'http://77.83.117.60:8888/02_PremierHD2_720p/chunklist.m3u8',
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD2_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'http://160.119.77.117/iptv/epl-2.stream/chunks.m3u8'],
       'http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8', // 720p
     ],
     groupName: 'SPORT',
@@ -293,9 +293,9 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/premier_hd3.png',
     urlList: [
       //  'http://160.119.77.116:8081/iptv/epl-3.stream/playlist.m3u8', // 720p
-      // 'http://160.119.77.117/iptv/epl-3.stream/chunks.m3u8',
       'http://77.83.117.60:8888/02_PremierHD3_720p/chunklist.m3u8',
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD3_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'http://160.119.77.117/iptv/epl-3.stream/chunks.m3u8'],
       'http://103.208.24.234:1935/thaisport/epl-3.stream/playlist.m3u8', // 720p
     ],
     groupName: 'SPORT',
@@ -306,9 +306,9 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/premier_hd4.png',
     urlList: [
       // 'http://160.119.77.116:8081/iptv/epl-4.stream/playlist.m3u8', // 720p
-      // 'http://160.119.77.117/iptv/epl-4.stream/chunks.m3u8',
       'http://77.83.117.60:8888/02_PremierHD4_720p/chunklist.m3u8',
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD4_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'http://160.119.77.117/iptv/epl-4.stream/chunks.m3u8'],
       'http://103.208.24.234:1935/thaisport/epl-4.stream/playlist.m3u8', // 720p
     ],
     groupName: 'SPORT',
@@ -319,9 +319,9 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/premier_hd5.png',
     urlList: [
       // 'http://160.119.77.116:8081/iptv/epl-5.stream/playlist.m3u8', // 720p
-      // 'http://160.119.77.117/iptv/epl-5.stream/chunks.m3u8',
       'http://77.83.117.60:8888/02_PremierHD5_720p/chunklist.m3u8',
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD5_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'http://160.119.77.117/iptv/epl-5.stream/chunks.m3u8'],
       'http://103.208.24.234:1935/thaisport/epl-5.stream/playlist.m3u8', // 720p
     ],
     groupName: 'SPORT',
@@ -634,13 +634,13 @@ const streamingInfo = {
     channelName: 'True Film HD',
     logo: 'https://iptv36.my.to/logo/truefilm.png',
     urlList: [['[NO HW+]', 'http://160.119.77.117/iptv/hd-tfilm.stream/chunks.m3u8']],
-    groupName: 'PREMIUM',
+    groupName: 'ENTERTAINMENT',
   },
 
   trueplookpanya: {
     channelName: 'True Plook Panya',
     logo: 'https://iptv36.my.to/logo/trueplookpanya.png',
-    urlList: [],
+    urlList: [['[NO HW+]', 'http://160.119.77.117/iptv/sd-tppy.stream/chunks.m3u8']],
     groupName: 'NEWS & DOCS',
   },
 
@@ -820,7 +820,7 @@ const testUrl = async (url) => {
       if (
         process.env.NETLIFY &&
         errorMsg === 'ECONNABORTED' &&
-        (url.includes('3bb.co.th') || url.includes('103.208.24.234'))
+        url.includes('3bb.co.th') // || url.includes('103.208.24.234'))
       ) {
         return true;
       }
