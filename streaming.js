@@ -28,6 +28,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/thaipbs.png',
     urlList: [
       'https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8', //1080p
+      ['[NO HW+]', 'http://160.119.77.117/iptv/hd-tpbs.stream/chunks.m3u8'],
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -69,7 +70,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-04.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL549JgEPGIVXt0hT22tgQHEvo)/dm/3/x7kx5i7/s/live-4.m3u8',
+        'https://stream-04.sg1.dailymotion.com/sec(SCEOt4M5U0fVbrIPRLL549JgEPGIVXt0hT22tgQHEvo)/dm/3/x7kx5i7/s/live-3.m3u8',
       ], // 1080p
       ['[NO HW+]', 'http://160.119.77.117/iptv/sd-new.stream/chunks.m3u8'],
       ['[NO HW+]', 'https://cdn6.goprimetime.info/feed/newtv/index.m3u8'],
@@ -129,7 +130,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/ch8.png',
     urlList: [
       ['HD', 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8'], // 720p
-      ['HD?', 'http://stream.rs.co.th/ch8-hi/index.m3u8'], // 360p too loud
+      // ['HD?', 'http://stream.rs.co.th/ch8-hi/index.m3u8'], // 360p too loud
       ['[NO HW+]', 'http://160.119.77.117/iptv/hd-ch8.stream/chunks.m3u8'],
     ],
     groupName: thDtvWithCurrentDate,
@@ -275,7 +276,7 @@ const streamingInfo = {
       ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD1_720p/chunklist.m3u8'],
       ['[NO HW+]', 'http://160.119.77.117/iptv/epl-1.stream/chunks.m3u8'],
       'http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8', // 720p
-      'https://dootvthai-hd.com/cmd/ThaiDreambox/hbo/hbohd/playlist.m3u8',
+      ['[NO HW+]', 'http://160.119.77.117/iptv/hd-foxsports1.stream/chunks.m3u8'],
     ],
     groupName: 'SPORT',
   },
@@ -517,10 +518,7 @@ const streamingInfo = {
   foxthai: {
     channelName: 'FOX Thai HD',
     logo: 'https://iptv36.my.to/logo/foxthai.png',
-    urlList: [
-      ['[NO HW+]', 'http://160.119.77.117/iptv/sd-fox.stream/playlist.m3u8'],
-      ['[NO HW+]', 'https://www.livedoomovie.com/02_FoxThai_TH_720p/chunklist.m3u8'],
-    ],
+    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_FoxThai_TH_720p/chunklist.m3u8']],
     groupName: 'ENTERTAINMENT',
   },
 
