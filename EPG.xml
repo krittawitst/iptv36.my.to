@@ -55,9 +55,6 @@
   <channel id="nbt.iptv36.my.to">
     <display-name>nbt.iptv36.my.to</display-name>
   </channel>
-  <channel id="new18.iptv36.my.to">
-    <display-name>new18.iptv36.my.to</display-name>
-  </channel>
   <channel id="one.iptv36.my.to">
     <display-name>one.iptv36.my.to</display-name>
   </channel>
@@ -79,6 +76,9 @@
   <channel id="tptv.iptv36.my.to">
     <display-name>tptv.iptv36.my.to</display-name>
   </channel>
+  <channel id="true4u.iptv36.my.to">
+    <display-name>true4u.iptv36.my.to</display-name>
+  </channel>
   <channel id="tv5.iptv36.my.to">
     <display-name>tv5.iptv36.my.to</display-name>
   </channel>
@@ -91,18 +91,6 @@
   <channel id="workpoint.iptv36.my.to">
     <display-name>workpoint.iptv36.my.to</display-name>
   </channel>
-  <programme start="20210417133500 +0700" stop="20210417140000 +0700" channel="altv.iptv36.my.to">
-    <title><![CDATA[กระจิดริด สนามเด็กคิด]]></title>
-  </programme>
-  <programme start="20210417140000 +0700" stop="20210417143000 +0700" channel="altv.iptv36.my.to">
-    <title><![CDATA[Kids พิชิต Code]]></title>
-  </programme>
-  <programme start="20210417143000 +0700" stop="20210417143500 +0700" channel="altv.iptv36.my.to">
-    <title><![CDATA[คลิป สวัสดีชาวโซเซียล 35 คลิป / ความรู้รอบตัว]]></title>
-  </programme>
-  <programme start="20210417143500 +0700" stop="20210417150500 +0700" channel="altv.iptv36.my.to">
-    <title><![CDATA[Game Caster เล่นให้เด็กมันส์ดู]]></title>
-  </programme>
   <programme start="20210417150500 +0700" stop="20210417153500 +0700" channel="altv.iptv36.my.to">
     <title><![CDATA[Class One ทางฉันฝันเธอ]]></title>
   </programme>
@@ -267,15 +255,6 @@
   </programme>
   <programme start="20210418210000 +0700" stop="20210419060000 +0700" channel="altv.iptv36.my.to">
     <title><![CDATA[ปิดสถานี]]></title>
-  </programme>
-  <programme start="20210417064000 -0000" stop="20210417071000 -0000" channel="amarin.iptv36.my.to">
-    <title><![CDATA[Follow Me เที่ยวไหนไปกัน]]></title>
-  </programme>
-  <programme start="20210417071000 -0000" stop="20210417072000 -0000" channel="amarin.iptv36.my.to">
-    <title><![CDATA[ชีวิตดีมีสุข]]></title>
-  </programme>
-  <programme start="20210417072000 -0000" stop="20210417075000 -0000" channel="amarin.iptv36.my.to">
-    <title><![CDATA[เพชรรามา]]></title>
   </programme>
   <programme start="20210417075000 -0000" stop="20210417082000 -0000" channel="amarin.iptv36.my.to">
     <title><![CDATA[ว้าว! แหวน แหวน]]></title>
@@ -442,6 +421,12 @@
   <programme start="20210418183000 -0000" stop="20210418190000 -0000" channel="amarin.iptv36.my.to">
     <title><![CDATA[แปลก!ฅน]]></title>
   </programme>
+  <programme start="20210418190000 -0000" stop="20210418200000 -0000" channel="amarin.iptv36.my.to">
+    <title><![CDATA[ชีวิต...เหลือเชื่อ]]></title>
+  </programme>
+  <programme start="20210418200000 -0000" stop="20210418213000 -0000" channel="amarin.iptv36.my.to">
+    <title><![CDATA[TVD SHOP]]></title>
+  </programme>
   <programme start="20210417002500 +0700" stop="20210417012000 +0700" channel="axn.iptv36.my.to">
     <title><![CDATA[Bulletproof]]></title>
     <sub-title><![CDATA[SERIES :: Crime Series]]></sub-title>
@@ -566,15 +551,6 @@
     <title><![CDATA[Horsemen]]></title>
     <sub-title><![CDATA[2009 - MOVIE :: Drama, Crime]]></sub-title>
     <desc><![CDATA[เรื่องราวของตำรวจมากประสบการณ์ที่ออกสืบสวนคดีฆาตกรรมสุดวิปริตซึ่งฆาตกรได้รับแรงบันดาลใจมาจากคำทำนายเกี่ยวกับสี่อัศวินแห่งวันโลกาวินาศในพระคัมภีร์ไบเบิล -- นำแสดงโดย เดนนิส เควด]]></desc>
-  </programme>
-  <programme start="20210417133000 +0700" stop="20210417140000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[โบโบยบอย แก๊งจิ๋วซ่าพิทักษ์โลก]]></title>
-  </programme>
-  <programme start="20210417140000 +0700" stop="20210417143000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[ชินจังจอมแก่น]]></title>
-  </programme>
-  <programme start="20210417143000 +0700" stop="20210417150000 +0700" channel="cartoonclub.iptv36.my.to">
-    <title><![CDATA[นารูโตะ นินจาจอมคาถา ปีที่ 2]]></title>
   </programme>
   <programme start="20210417150000 +0700" stop="20210417153000 +0700" channel="cartoonclub.iptv36.my.to">
     <title><![CDATA[นารูโตะ นินจาจอมคาถา ปีที่ 2]]></title>
@@ -786,11 +762,14 @@
   <programme start="20210419013000 +0700" stop="20210419020000 +0700" channel="cartoonclub.iptv36.my.to">
     <title><![CDATA[โบโบยบอย แก๊งจิ๋วซ่าพิทักษ์โลก]]></title>
   </programme>
-  <programme start="20210417051500 -0000" stop="20210417070000 -0000" channel="ch3.iptv36.my.to">
-    <title><![CDATA[ศึกจ้าวมวยไทย / แฟลช นิวส์]]></title>
+  <programme start="20210419020000 +0700" stop="20210419023000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[บาคุกัน มอนสเตอร์บอลทะลุมิติ ปีที่ 5]]></title>
   </programme>
-  <programme start="20210417070000 -0000" stop="20210417080000 -0000" channel="ch3.iptv36.my.to">
-    <title><![CDATA[เทค มี เอาท์ ไทยแลนด์ / แฟลช นิวส์]]></title>
+  <programme start="20210419023000 +0700" stop="20210419030000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[ชินบิ โกสต์บอลเอ็กซ์ ปีที่ 2]]></title>
+  </programme>
+  <programme start="20210419030000 +0700" stop="20210419033000 +0700" channel="cartoonclub.iptv36.my.to">
+    <title><![CDATA[ดาบพิฆาตอสูร ปีที่ 1]]></title>
   </programme>
   <programme start="20210417080000 -0000" stop="20210417090000 -0000" channel="ch3.iptv36.my.to">
     <title><![CDATA[ตีสิบเดย์ / แฟลช นิวส์]]></title>
@@ -934,13 +913,11 @@
   <programme start="20210418180000 -0000" stop="20210418190000 -0000" channel="ch3.iptv36.my.to">
     <title><![CDATA[ครอบครัวดนตรี]]></title>
   </programme>
-  <programme start="20210417062200 -0000" stop="20210417073200 -0000" channel="ch7.iptv36.my.to">
-    <title><![CDATA[คดีเด็ด]]></title>
-    <desc><![CDATA[คดีเด็ดๆ เรียกเสียงฮาจากทั่วประเทศมาให้ผู้ชมได้รับชมกันในวันสบายๆ บ่ายวันเสาร์]]></desc>
+  <programme start="20210418190000 -0000" stop="20210418200000 -0000" channel="ch3.iptv36.my.to">
+    <title><![CDATA[(AD/CC) สารคดี ประสบการณ์โลก]]></title>
   </programme>
-  <programme start="20210417073200 -0000" stop="20210417073300 -0000" channel="ch7.iptv36.my.to">
-    <title><![CDATA[ทางเลือก ทางหลวง]]></title>
-    <desc><![CDATA[รายการที่ให้ความรู้เกี่ยวกับเส้นทางหลวงในประเทศไทย]]></desc>
+  <programme start="20210418200000 -0000" stop="20210418212700 -0000" channel="ch3.iptv36.my.to">
+    <title><![CDATA[ภ.จีน เปาบุ้นจิ้น หัวใจคุณธรรม]]></title>
   </programme>
   <programme start="20210417073300 -0000" stop="20210417083000 -0000" channel="ch7.iptv36.my.to">
     <title><![CDATA[ฟ้ามีตา]]></title>
@@ -1130,18 +1107,6 @@
     <title><![CDATA[เปรต อาบัติ (KARMA DIRECTOR CUT)]]></title>
     <desc><![CDATA[เรื่องราวของเณรซัน ที่ต้องเข้าไปพัวพันกับเหตุการณ์ลึกลับชวนขนหัวลุกที่ถูกปกปิดไว้ภายในวัด]]></desc>
   </programme>
-  <programme start="20210417065000 -0000" stop="20210417070000 -0000" channel="ch8.iptv36.my.to">
-    <title><![CDATA[ชีวิตดี สาระดี]]></title>
-    <desc><![CDATA[รายการแนะนำสินค้า]]></desc>
-  </programme>
-  <programme start="20210417070000 -0000" stop="20210417070200 -0000" channel="ch8.iptv36.my.to">
-    <title><![CDATA[ข่าว 8 BREAKING NEWS]]></title>
-    <desc><![CDATA[รายการที่นำเสนอข่าวด่วน ข่าวล่าสุด ทันเหตุการณ์ทุกแง่มุม]]></desc>
-  </programme>
-  <programme start="20210417070200 -0000" stop="20210417080000 -0000" channel="ch8.iptv36.my.to">
-    <title><![CDATA[ราคาพารวย THE PRICE IS RIGHT]]></title>
-    <desc><![CDATA[รายการเกมโชว์ที่แจกหนักแจกจริง พร้อมของรางวัลที่นำมาทายราคาแบบจัดเต็ม]]></desc>
-  </programme>
   <programme start="20210417080000 -0000" stop="20210417084000 -0000" channel="ch8.iptv36.my.to">
     <title><![CDATA[ข่าวใหญ่ช่อง 8]]></title>
     <desc><![CDATA[รายการที่นำเสนอข่าวสำคัญประเด็นดัง ทั้งในประเทศและต่างประเทศ]]></desc>
@@ -1328,14 +1293,13 @@
     <title><![CDATA[ซีรี่ส์อินเดีย กรรณะ]]></title>
     <desc><![CDATA[นำแสดงโดย เกาทัม โรด -  นาวี พังกู -  ซอรับห์ แพนดีย์]]></desc>
   </programme>
-  <programme start="20210417132000 +0700" stop="20210417141000 +0700" channel="discoveryasia.iptv36.my.to">
-    <title><![CDATA[Monty Don's Japanese Garden (S1) : Episode 2]]></title>
+  <programme start="20210418195500 -0000" stop="20210418200500 -0000" channel="ch8.iptv36.my.to">
+    <title><![CDATA[ชีวิตดี สาระดี]]></title>
+    <desc><![CDATA[รายการแนะนำสินค้า]]></desc>
   </programme>
-  <programme start="20210417141000 +0700" stop="20210417143500 +0700" channel="discoveryasia.iptv36.my.to">
-    <title><![CDATA[City In A Garden (S1) : A Green Oasis]]></title>
-  </programme>
-  <programme start="20210417143500 +0700" stop="20210417150000 +0700" channel="discoveryasia.iptv36.my.to">
-    <title><![CDATA[City In A Garden (S1) : Where Research Abounds]]></title>
+  <programme start="20210418200500 -0000" stop="20210418210500 -0000" channel="ch8.iptv36.my.to">
+    <title><![CDATA[เรื่องว้าวเล่าโลก (ADCC)]]></title>
+    <desc><![CDATA[รายการสารคดีที่จะพาไปดูเรื่องราวต่างๆจากทั่วทุกมุมโลก (ADCC)]]></desc>
   </programme>
   <programme start="20210417150000 +0700" stop="20210417152500 +0700" channel="discoveryasia.iptv36.my.to">
     <title><![CDATA[Garden In The Sky (S1) : The Legacy]]></title>
@@ -1474,6 +1438,9 @@
   </programme>
   <programme start="20210419015000 +0700" stop="20210419024000 +0700" channel="discoveryasia.iptv36.my.to">
     <title><![CDATA[Cobra Gypsies : Cobra Gypsies]]></title>
+  </programme>
+  <programme start="20210419024000 +0700" stop="20210419033000 +0700" channel="discoveryasia.iptv36.my.to">
+    <title><![CDATA[Road Less Travelled: India (S1) : Special]]></title>
   </programme>
   <programme start="20210417013500 +0700" stop="20210417031500 +0700" channel="foxmovies.iptv36.my.to">
     <title><![CDATA[Feedback]]></title>
@@ -1680,10 +1647,6 @@
     <sub-title><![CDATA[SERIES :: Horror Series, Sci-Fi]]></sub-title>
     <desc><![CDATA[ภาพยนตร์ชุดทางโทรทัศน์เกี่ยวกับกลุ่มผู้รอดชีวิตที่ต้องเผชิญหน้ากับโลกอันเต็มไปด้วยเหล่าผีดิบกระหายเลือดทั่วทุกหนแห่ง -- นำแสดงโดย แอนดรูว์ ลินคอล์น]]></desc>
   </programme>
-  <programme start="20210417063000 -0000" stop="20210417070000 -0000" channel="gmm25.iptv36.my.to">
-    <title><![CDATA[FIN'S KITCHEN อาหารจานหล่อ]]></title>
-    <desc><![CDATA[รายการประเภท วาไรตี้]]></desc>
-  </programme>
   <programme start="20210417070000 -0000" stop="20210417093000 -0000" channel="gmm25.iptv36.my.to">
     <title><![CDATA[ซีรีส์ นาบี ฉันจะไม่รักเธอ]]></title>
     <desc><![CDATA[รายการประเภท ละคร]]></desc>
@@ -1867,6 +1830,18 @@
   <programme start="20210418184000 -0000" stop="20210418190000 -0000" channel="gmm25.iptv36.my.to">
     <title><![CDATA[O SHOPPING]]></title>
     <desc><![CDATA[รายการประเภท แนะนำสินค้า]]></desc>
+  </programme>
+  <programme start="20210418190000 -0000" stop="20210418192000 -0000" channel="gmm25.iptv36.my.to">
+    <title><![CDATA[MV]]></title>
+    <desc><![CDATA[รายการประเภท เพลง]]></desc>
+  </programme>
+  <programme start="20210418192000 -0000" stop="20210418194000 -0000" channel="gmm25.iptv36.my.to">
+    <title><![CDATA[O SHOPPING]]></title>
+    <desc><![CDATA[รายการประเภท แนะนำสินค้า]]></desc>
+  </programme>
+  <programme start="20210418194000 -0000" stop="20210418203000 -0000" channel="gmm25.iptv36.my.to">
+    <title><![CDATA[MV]]></title>
+    <desc><![CDATA[รายการประเภท เพลง]]></desc>
   </programme>
   <programme start="20210417003500 +0700" stop="20210417013000 +0700" channel="history.iptv36.my.to">
     <title><![CDATA[The Pickers   [ 16 ]]]></title>
@@ -2190,18 +2165,8 @@
   <programme start="20210419011500 +0700" stop="20210419030500 +0700" channel="m.iptv36.my.to">
     <title><![CDATA[Bleeding Hearts แผนพิศวาส ลวงมาเชือด]]></title>
   </programme>
-  <programme start="20210417060000 -0000" stop="20210417070000 -0000" channel="mcot.iptv36.my.to">
-    <title><![CDATA[ศักดิ์สิทธิ์คงกระพัน]]></title>
-  </programme>
-  <programme start="20210417070000 -0000" stop="20210417070500 -0000" channel="mcot.iptv36.my.to">
-    <title><![CDATA[ข่าวต้นชั่วโมง]]></title>
-  </programme>
-  <programme start="20210417070500 -0000" stop="20210417080000 -0000" channel="mcot.iptv36.my.to">
-    <title><![CDATA[9 SERIES]]></title>
-    <desc><![CDATA[ภาพยนตร์จีน ชุด ตำนานเทพกระบี่จ้าวพิภพ]]></desc>
-  </programme>
-  <programme start="20210417080000 -0000" stop="20210417080500 -0000" channel="mcot.iptv36.my.to">
-    <title><![CDATA[ข่าวต้นชั่วโมง]]></title>
+  <programme start="20210419030500 +0700" stop="20210419050000 +0700" channel="m.iptv36.my.to">
+    <title><![CDATA[Aberrant บ่วงวิปริต มิตรภาพผวา]]></title>
   </programme>
   <programme start="20210417080500 -0000" stop="20210417090000 -0000" channel="mcot.iptv36.my.to">
     <title><![CDATA[9 SERIES (ต่อ)]]></title>
@@ -2410,8 +2375,8 @@
   <programme start="20210418173500 -0000" stop="20210418200000 -0000" channel="mcot.iptv36.my.to">
     <title><![CDATA[TVD SHOP]]></title>
   </programme>
-  <programme start="20210417061000 -0000" stop="20210417071000 -0000" channel="mono29.iptv36.my.to">
-    <title><![CDATA[Shadowhunters (Season 1) : นักล่าเงา ปี 1]]></title>
+  <programme start="20210418200000 -0000" stop="20210418203000 -0000" channel="mcot.iptv36.my.to">
+    <title><![CDATA[ชีวิตสัตว์มหัศจรรย์ The Wonderful Animals]]></title>
   </programme>
   <programme start="20210417071000 -0000" stop="20210417095500 -0000" channel="mono29.iptv36.my.to">
     <title><![CDATA[Premium Blockbuster]]></title>
@@ -2515,17 +2480,11 @@
   <programme start="20210418171000 -0000" stop="20210418190000 -0000" channel="mono29.iptv36.my.to">
     <title><![CDATA[Midnight Cinema]]></title>
   </programme>
-  <programme start="20210417063000 -0000" stop="20210417070000 -0000" channel="nation.iptv36.my.to">
-    <title><![CDATA[กฤษนะทัวร์ยกล้อ]]></title>
-    <desc><![CDATA[ทัวย์อารยสถาปัตย์กับ กฤษนะ ละไล]]></desc>
+  <programme start="20210418190000 -0000" stop="20210418195500 -0000" channel="mono29.iptv36.my.to">
+    <title><![CDATA[Dogs : An Amazing Animal Family : สำรวจถิ่นเจ้าเพื่อนยาก (ตอน Man's Best Friend)]]></title>
   </programme>
-  <programme start="20210417070000 -0000" stop="20210417073000 -0000" channel="nation.iptv36.my.to">
-    <title><![CDATA[คนดีต้องแชร์]]></title>
-    <desc><![CDATA[การทำความดีของผู้คน พลเมืองดีในสังคม ที่ควรแชร์ ควรบอกต่อ]]></desc>
-  </programme>
-  <programme start="20210417073000 -0000" stop="20210417080000 -0000" channel="nation.iptv36.my.to">
-    <title><![CDATA[คนรักบ้าน]]></title>
-    <desc><![CDATA[รอบรู้เรื่องบ้านกับ อ.เชี่ยว ชอบช่วย]]></desc>
+  <programme start="20210418195500 -0000" stop="20210418204000 -0000" channel="mono29.iptv36.my.to">
+    <title><![CDATA[Deep Sea : ผจญภัยใต้ท้องทะเลลึก]]></title>
   </programme>
   <programme start="20210417080000 -0000" stop="20210417083000 -0000" channel="nation.iptv36.my.to">
     <title><![CDATA[คมชัดลึก Weekend]]></title>
@@ -2745,17 +2704,9 @@
     <title><![CDATA[คิดต่างมุม  [R]]]></title>
     <desc><![CDATA[คิดต่างมุม กับ นักข่าวรุ่นเก๋า ในประเด็นเด็ดรอบสัปดาห์]]></desc>
   </programme>
-  <programme start="20210417063000 -0000" stop="20210417070000 -0000" channel="nbt.iptv36.my.to">
-    <title><![CDATA[คิดเป็น เห็นความจริง]]></title>
-    <desc><![CDATA[ประชาชนทั่วไป]]></desc>
-  </programme>
-  <programme start="20210417070000 -0000" stop="20210417073000 -0000" channel="nbt.iptv36.my.to">
-    <title><![CDATA[รพ.สมเด็จพระยุพราชฯ]]></title>
-    <desc><![CDATA[ประชาชนทั่วไป]]></desc>
-  </programme>
-  <programme start="20210417073000 -0000" stop="20210417080000 -0000" channel="nbt.iptv36.my.to">
-    <title><![CDATA[มหัศจรรย์แห่งปัญญา]]></title>
-    <desc><![CDATA[ประชาชนทั่วไป]]></desc>
+  <programme start="20210418193000 -0000" stop="20210418202000 -0000" channel="nation.iptv36.my.to">
+    <title><![CDATA[เนชั่น สุดสัปดาห์ [R]]]></title>
+    <desc><![CDATA[คุยประเด็นเด็ดรอบสัปดาห์ กับ คนข่าวเนชั่น]]></desc>
   </programme>
   <programme start="20210417080000 -0000" stop="20210417083000 -0000" channel="nbt.iptv36.my.to">
     <title><![CDATA[เส้นทางกีฬา]]></title>
@@ -2902,182 +2853,6 @@
   </programme>
   <programme start="20210418170000 -0000" stop="20210418210000 -0000" channel="nbt.iptv36.my.to">
     <title><![CDATA[ปิดสถานี]]></title>
-  </programme>
-  <programme start="20210417133000 +0700" stop="20210417140000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[True Shopping]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210417140000 +0700" stop="20210417145000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : โอเรียนท์ เอ็กซ์เพรส รถ]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210417145000 +0700" stop="20210417150000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[TVD SHOP]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210417150000 +0700" stop="20210417155000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : หมึกยักษ์ภูเขาไฟ]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210417155000 +0700" stop="20210417160000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[S channel]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210417160000 +0700" stop="20210417170000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : ไขความลับแมลงนำโรค]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210417170000 +0700" stop="20210417180000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : น่ารักเกินไปแล้ว]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210417180000 +0700" stop="20210417180200 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[เคารพธงชาติ]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210417180200 +0700" stop="20210417190000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : เจาะลึกชีวิตสัตว์ในครรภ]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210417190000 +0700" stop="20210417200000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : ผลลัพธ์จากหายนะ - ดวงอา]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210417200000 +0700" stop="20210417201000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[ข่าวในพระราชสำนัก]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210417201000 +0700" stop="20210417210000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : กำเนิดชีวิตกลางป่าใหญ่]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210417210000 +0700" stop="20210417220000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : ค้นหาอสุรกายใต้ทะเล - ส]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210417220000 +0700" stop="20210417230000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : ไขปริศนาดาวโลก - น้ำบนด]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210417230000 +0700" stop="20210417233000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[True Shopping]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210417233000 +0700" stop="20210418000000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : 7 สิ่งมหัศจรรย์ประเทศจี]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418000000 +0700" stop="20210418060000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[TVD SHOP]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418060000 +0700" stop="20210418070000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : หน่วยกู้ชีพแห่งท้องทะเล]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418070000 +0700" stop="20210418080000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : สัตว์เพชฌฆาต - สิงโต-หม]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418080000 +0700" stop="20210418080200 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[เคารพธงชาติ]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418080200 +0700" stop="20210418090000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : น่ารักเกินไปแล้ว]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418090000 +0700" stop="20210418100000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : สรวงสวรรค์ของสัตว์เลี้ย]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418100000 +0700" stop="20210418110000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : ออสเตรเลีย ดินแดนอันตรา]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418110000 +0700" stop="20210418113000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[ที่นี่...ชายแดนใต้]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418113000 +0700" stop="20210418123000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : ไขปริศนาดาวโลก - กำเนิด]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418123000 +0700" stop="20210418133000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : การเดินทางแห่งชีวิต]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418133000 +0700" stop="20210418140000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[True Shopping]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418140000 +0700" stop="20210418150000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[ถ่ายทอดสด AUTO SPICY TV.รถเด็ด LIVE]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418150000 +0700" stop="20210418151000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[TVD SHOP]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418151000 +0700" stop="20210418155000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : สวนอีเดนใต้ท้องทะเล]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418155000 +0700" stop="20210418160000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[S channel]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418160000 +0700" stop="20210418170000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : ภารกิจกระสวยอวกาศ]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418170000 +0700" stop="20210418180000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : อาณาจักรวาฬสีน้ำเงิน]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418180000 +0700" stop="20210418180200 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[เคารพธงชาติ]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418180200 +0700" stop="20210418190000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : เจาะลึกชีวิตสัตว์ในครรภ]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418190000 +0700" stop="20210418200000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : ไขปริศนาดาวโลก - วันสิ้]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418200000 +0700" stop="20210418201000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[ข่าวในพระราชสำนัก]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418201000 +0700" stop="20210418210000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : โลกของสัตว์อันตราย ตอน]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418210000 +0700" stop="20210418220000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : ออสเตรเลีย ดินแดนอันตรา]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418220000 +0700" stop="20210418230000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : เส้นทางสู่ยูโรปา]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418230000 +0700" stop="20210418233000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[True Shopping]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210418233000 +0700" stop="20210419000000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[NEW Documentary สำรวจโลก : 7 สิ่งมหัศจรรย์ประเทศจี]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210419000000 +0700" stop="20210419060000 +0700" channel="new18.iptv36.my.to">
-    <title><![CDATA[TVD SHOP]]></title>
-    <desc><![CDATA[<No description>]]></desc>
-  </programme>
-  <programme start="20210417053000 -0000" stop="20210417080000 -0000" channel="one.iptv36.my.to">
-    <title><![CDATA[ชิงชัง]]></title>
-    <desc><![CDATA[ทุกคนหวังจะมีชีวิตที่ดีแต่ความรัก โลภ โกรธ หลงมีอำนาจเหนือทุกสิ่ง นี่คือจุดเริ่มต้นของการจองเวร]]></desc>
   </programme>
   <programme start="20210417080000 -0000" stop="20210417090000 -0000" channel="one.iptv36.my.to">
     <title><![CDATA[4 ต่อ 4 Family Game]]></title>
@@ -3236,6 +3011,22 @@
   <programme start="20210418170000 -0000" stop="20210418190000 -0000" channel="one.iptv36.my.to">
     <title><![CDATA[สงครามนักปั้น 2]]></title>
     <desc><![CDATA[2 นักปั้นตัวแม่ แอลและเพียว ทวีความรุนแรงขึ้นจนกลายเป็นทอล์คออฟเดอะทาวน์เรื่องราวจะลงเอยอย่างไร]]></desc>
+  </programme>
+  <programme start="20210418190000 -0000" stop="20210418191000 -0000" channel="one.iptv36.my.to">
+    <title><![CDATA[O SHOPPING]]></title>
+    <desc><![CDATA[วาไรตี้แนะนำสินค้า]]></desc>
+  </programme>
+  <programme start="20210418191000 -0000" stop="20210418192500 -0000" channel="one.iptv36.my.to">
+    <title><![CDATA[MV]]></title>
+    <desc><![CDATA[เพลิดเพลินกับมิวสิควิดีโอเพลงของเหล่าศิลปินที่คุณชื่นชอบ]]></desc>
+  </programme>
+  <programme start="20210418192500 -0000" stop="20210418200000 -0000" channel="one.iptv36.my.to">
+    <title><![CDATA[เพราะมีเธอ]]></title>
+    <desc><![CDATA[เบียร์ และ ข้าว อดีตคู่รักที่ต้องกลายเป็นคู่ร้าว งานนี้ชีวิตทั้งคู่จะ Go on ต่อไป หรือว่าจะ Go Out]]></desc>
+  </programme>
+  <programme start="20210418200000 -0000" stop="20210418210000 -0000" channel="one.iptv36.my.to">
+    <title><![CDATA[วันนี้มีธรรม ss2]]></title>
+    <desc><![CDATA[รับบุญ ฟังเทศน์ ฟังธรรมนำคำสอนทางพระพุทธศาสนาไปใช้ในชีวิตประจำวันให้มีความสุขในรายการ วันนี้..มีธรรม]]></desc>
   </programme>
   <programme start="20210417064800 -0000" stop="20210417090500 -0000" channel="pptv.iptv36.my.to">
     <title><![CDATA[Cinema Hits]]></title>
@@ -3447,18 +3238,6 @@
   <programme start="20210417233000 +0700" stop="20210417235959 +0700" channel="premier1.iptv36.my.to">
     <title><![CDATA[The Big Match Preview 2020/21]]></title>
   </programme>
-  <programme start="20210417064500 -0000" stop="20210417070000 -0000" channel="thaipbs.iptv36.my.to">
-    <title><![CDATA[เปิดบ้าน ThaiPBS]]></title>
-    <desc><![CDATA[เนื้อหาคุณค่าของรายการ ที่ส่งเสริมความเข้าใจ บทบาท ภารกิจของสื่อสาธารณะจากมุมมองของผู้ชม]]></desc>
-  </programme>
-  <programme start="20210417070000 -0000" stop="20210417070500 -0000" channel="thaipbs.iptv36.my.to">
-    <title><![CDATA[ทันข่าว 14.00 น.]]></title>
-    <desc><![CDATA[รายงานข่าวตามสถานการณ์ต้นชั่วโมง]]></desc>
-  </programme>
-  <programme start="20210417070500 -0000" stop="20210417080000 -0000" channel="thaipbs.iptv36.my.to">
-    <title><![CDATA[ชีวิตจริงยิ่งกว่าละคร]]></title>
-    <desc><![CDATA[ส่งเสริมคุณภาพชีวิตและเรียนรู้ประสบการณ์จากชีวิตจริงของบุคคลในสังคม]]></desc>
-  </programme>
   <programme start="20210417080000 -0000" stop="20210417090000 -0000" channel="thaipbs.iptv36.my.to">
     <title><![CDATA[สารพันลั่นทุ่ง (บางเขน)]]></title>
     <desc><![CDATA[นำเสนอเพลงไทยในแต่ละยุคที่ผ่านมา ให้ผู้ชมเห็นภาพสะท้อนของสังคมในแต่ละช่วงสมัย]]></desc>
@@ -3666,12 +3445,6 @@
   <programme start="20210418180000 -0000" stop="20210418213000 -0000" channel="thaipbs.iptv36.my.to">
     <title><![CDATA[ปิดสถานี]]></title>
   </programme>
-  <programme start="20210417063000 -0000" stop="20210417072800 -0000" channel="thairath.iptv36.my.to">
-    <title><![CDATA[สมุดโคจร]]></title>
-  </programme>
-  <programme start="20210417072800 -0000" stop="20210417073000 -0000" channel="thairath.iptv36.my.to">
-    <title><![CDATA[Express News]]></title>
-  </programme>
   <programme start="20210417073000 -0000" stop="20210417083000 -0000" channel="thairath.iptv36.my.to">
     <title><![CDATA[ไทยรัฐทันข่าว]]></title>
   </programme>
@@ -3837,17 +3610,8 @@
   <programme start="20210418183000 -0000" stop="20210418193000 -0000" channel="thairath.iptv36.my.to">
     <title><![CDATA[มูไนท์ (Rerun)]]></title>
   </programme>
-  <programme start="20210417063200 -0000" stop="20210417070000 -0000" channel="tnn16.iptv36.my.to">
-    <title><![CDATA[ฮวงจุ้ยเบญจทรัพย์]]></title>
-    <desc><![CDATA[ปรับทิศทางร้านค้า สำนักงาน อาคารธุรกิจ ตามหลักฮวงจุ้ย อิงหลักวิทยาศาสตร์ เสริมสร้างความมั่นใจในการ ทำธุรกิจ เสริมเทคนิคการตลาดและ การสร้างธุรกิจสู่ความสาเร็จ]]></desc>
-  </programme>
-  <programme start="20210417070000 -0000" stop="20210417073000 -0000" channel="tnn16.iptv36.my.to">
-    <title><![CDATA[Food Diary]]></title>
-    <desc><![CDATA[รายการที่เสนอเรื่องกิน เรื่องเที่ยว ศิลปะ วัฒนธรรม อาหารท้องถิ่น รวมถึงสถานที่และอาหารที่อยู่ในกระแสนิยม]]></desc>
-  </programme>
-  <programme start="20210417073000 -0000" stop="20210417080000 -0000" channel="tnn16.iptv36.my.to">
-    <title><![CDATA[TNN Start Up]]></title>
-    <desc><![CDATA[ถ่ายทอดแนวคิดการดำเนินธุรกิจ Start Up ที่ประสบความสำเร็จ และแนะนำช่องทางเข้าถึงแหล่งเงิน นำเสนอนวัตกรรมที่พัฒนาโดย Start Up ในและต่างประเทศ]]></desc>
+  <programme start="20210418193000 -0000" stop="20210418203000 -0000" channel="thairath.iptv36.my.to">
+    <title><![CDATA[คลีนิคสัตว์เลี้ยงแสนรัก AD CC]]></title>
   </programme>
   <programme start="20210417080000 -0000" stop="20210417083000 -0000" channel="tnn16.iptv36.my.to">
     <title><![CDATA[True BUFC TV]]></title>
@@ -4023,15 +3787,6 @@
     <title><![CDATA[TNN ข่าวดึก]]></title>
     <desc><![CDATA[สรุปเหตุการณ์ข่าวตลอดทั้งวันที่มีความหลากหลายจากในและต่างประเทศพร้อมทั้งการรายงานสภาพอากาศจากทุกมุมโลก]]></desc>
   </programme>
-  <programme start="20210417060000 -0000" stop="20210417070000 -0000" channel="tptv.iptv36.my.to">
-    <title><![CDATA[กรรมาธิการพบประชาชน]]></title>
-  </programme>
-  <programme start="20210417070000 -0000" stop="20210417080000 -0000" channel="tptv.iptv36.my.to">
-    <title><![CDATA[สายด่วนรัฐสภา]]></title>
-  </programme>
-  <programme start="20210417080000 -0000" stop="20210417080500 -0000" channel="tptv.iptv36.my.to">
-    <title><![CDATA[ข่าวรัฐสภาต้นชั่วโมง]]></title>
-  </programme>
   <programme start="20210417080500 -0000" stop="20210417090000 -0000" channel="tptv.iptv36.my.to">
     <title><![CDATA[ย้อนรอย(การ)เมืองไทย]]></title>
   </programme>
@@ -4185,11 +3940,125 @@
   <programme start="20210418170000 -0000" stop="20210419000000 -0000" channel="tptv.iptv36.my.to">
     <title><![CDATA[สาระความรู้คู่สภา]]></title>
   </programme>
-  <programme start="20210417063500 -0000" stop="20210417070000 -0000" channel="tv5.iptv36.my.to">
-    <title><![CDATA[ร้อยอาชีพพลิกฝัน]]></title>
+  <programme start="20210417145500 +0700" stop="20210417165000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ภาพยนตร์ ต้องปล้น]]></title>
+    <desc><![CDATA[เรื่องราวของเด็กหนุ่มสามคนที่วางแผนปล้นธนาคารแต่แผนกลับล่มจนถูกตำรวจตามล่าและประสบชะตากรรมในท้ายสุด]]></desc>
   </programme>
-  <programme start="20210417070000 -0000" stop="20210417070500 -0000" channel="tv5.iptv36.my.to">
-    <title><![CDATA[สารคดี ราชการ]]></title>
+  <programme start="20210417165000 +0700" stop="20210417183900 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ภ.เฉินเจิน ตำนานนักสู้อหังการ]]></title>
+    <desc><![CDATA[เรื่องราวเกี่ยวกับนักกังฟูผู้หวนกลับไปยังกรุงเซี่ยงไฮ้และได้ตระหนักว่าอาจารย์ของเขาถูกสังหารจึงปฏิญา]]></desc>
+  </programme>
+  <programme start="20210417183900 +0700" stop="20210417210000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ภาพยนตร์ เกิดมาลุย]]></title>
+    <desc><![CDATA[ภาพยนตร์แนวบู๊เกี่ยวกับเรื่องราวของชายหนุ่มผู้ต่อสู้กับกลุ่มกองโจรค้ายาเสพติดข้ามชาติโดยมีเดิมพันเป็]]></desc>
+  </programme>
+  <programme start="20210417210000 +0700" stop="20210417230000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ภาพยนตร์ คนป่วนสายฟ้า]]></title>
+    <desc><![CDATA[เรื่องราวของสองหนุ่มผู้ถูกชะตากำหนดให้กำเนิดวันเวลาเดียวกันแต่คนหนึ่งได้รับการเลี้ยงดูด้วยความรักในข]]></desc>
+  </programme>
+  <programme start="20210417230000 +0700" stop="20210418000000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ภาพยนตร์ คู่ล่าฝ่าพรมแดนเดือด]]></title>
+    <desc><![CDATA[เรื่องราวของซีไอเอใกล้เกษียณกับการพยายามหาทางกู้ภัยคู่หูเก่าซึ่งกำลังจะถูกประหารชีวิตในต่างแดนภายในร]]></desc>
+  </programme>
+  <programme start="20210418000000 +0700" stop="20210418010000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ภาพยนตร์ คู่ล่าฝ่าพรมแดนเดือด]]></title>
+    <desc><![CDATA[เรื่องราวของซีไอเอใกล้เกษียณกับการพยายามหาทางกู้ภัยคู่หูเก่าซึ่งกำลังจะถูกประหารชีวิตในต่างแดนภายในร]]></desc>
+  </programme>
+  <programme start="20210418010000 +0700" stop="20210418013000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อ]]></desc>
+  </programme>
+  <programme start="20210418013000 +0700" stop="20210418020000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[อาชีพนอกกระแส]]></title>
+    <desc><![CDATA[รายการนำเสนออาชีพต่างๆที่น่าสนใจแต่ไม่ได้อยู่ในกระแสสังคมโดยมุ่งเน้นเพื่อจุดประกายแนวทางเลือกสายอาชี]]></desc>
+  </programme>
+  <programme start="20210418020000 +0700" stop="20210418040000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[TNN ข่าวค่ำ]]></title>
+    <desc><![CDATA[สรุปเหตุการณ์ข่าวตลอดทั้งวันที่มีความหลากหลายจากในและต่างประเทศพร้อมทั้งการรายงานสภาพอากาศจากทุกมุมโ]]></desc>
+  </programme>
+  <programme start="20210418040000 +0700" stop="20210418050000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[สามเณรปลูกปัญญาธรรม]]></title>
+    <desc><![CDATA[รายการธรรมะที่มุ่งเผยแพร่ความรู้ คุณธรรม และจริยธรรม ตามแนวทางพระพุทธศาสนาเพื่อส่งต่อให้เยาวชนคนรุ่น]]></desc>
+  </programme>
+  <programme start="20210418050000 +0700" stop="20210418052700 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[เชฟข้างถนน]]></title>
+    <desc><![CDATA[รายการที่จะพาไปสัมผัสลิ้มรสอาหารริมทางแสนอร่อยและเหล่านักปรุงอาหารมือฉมังผู้ล้วนสร้างแรงบัลดาลใจให้ก]]></desc>
+  </programme>
+  <programme start="20210418052700 +0700" stop="20210418060000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[รอยธรรม]]></title>
+    <desc><![CDATA[รายการธรรมะที่นำเสนอพุทธประวัติและชาดกพร้อมกับรับฟังธรรมเทศนา]]></desc>
+  </programme>
+  <programme start="20210418060000 +0700" stop="20210418063000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ชินจังจอมแก่น]]></title>
+    <desc><![CDATA[เรื่องราวอลเวงของเด็กอนุบาลวัยห้าขวบ โนะฮาร่า ชินโนะสุเกะ และผองเพื่อน]]></desc>
+  </programme>
+  <programme start="20210418063000 +0700" stop="20210418070000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ชินจังจอมแก่น]]></title>
+    <desc><![CDATA[เรื่องราวอลเวงของเด็กอนุบาลวัยห้าขวบ โนะฮาร่า ชินโนะสุเกะ และผองเพื่อน]]></desc>
+  </programme>
+  <programme start="20210418070000 +0700" stop="20210418080000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ภาพยนตร์สารคดี สำรวจดาวอังคาร]]></title>
+    <desc><![CDATA[พบกับเบื้องหลังการเตรียมความพร้อมเพื่อสำรวจดาวอังคารของเหล่านักบินอวกาศที่ต้องผ่านขั้นตอนฝึกซึ่งถูกพ]]></desc>
+  </programme>
+  <programme start="20210418080000 +0700" stop="20210418085700 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ภาพยนตร์สารคดี สำรวจดาวอังคาร]]></title>
+    <desc><![CDATA[พบกับเบื้องหลังการเตรียมความพร้อมเพื่อสำรวจดาวอังคารของเหล่านักบินอวกาศที่ต้องผ่านขั้นตอนฝึกซึ่งถูกพ]]></desc>
+  </programme>
+  <programme start="20210418085700 +0700" stop="20210418110000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ภาพยนตร์ อินทรีแดง]]></title>
+    <desc><![CDATA[เรื่องราวของวีรบุรุษลึกลับที่ออกกวาดล้างบรรดาคนชั่วในยุคสังคมเสื่อมทรามโดยทิ้งร่องรอยไว้เพียงนามบัตร]]></desc>
+  </programme>
+  <programme start="20210418110000 +0700" stop="20210418113000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[เซลลูลอยด์]]></title>
+    <desc><![CDATA[พบกับรายการที่จะพาคุณผู้ชมไปเจาะลึกทุกมิติของโลกภาพยนตร์และบันเทิง]]></desc>
+  </programme>
+  <programme start="20210418113000 +0700" stop="20210418123000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[TNN ข่าวเที่ยง]]></title>
+    <desc><![CDATA[สรุปเหตุการณ์ข่าวตลอดทั้งวันที่มีความหลากหลายจากในและต่างประเทศพร้อมทั้งการรายงานสภาพอากาศจากทุกมุมโ]]></desc>
+  </programme>
+  <programme start="20210418123000 +0700" stop="20210418142500 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ภ.หักแผนจารกรรม สะท้านโลก]]></title>
+    <desc><![CDATA[<No description>]]></desc>
+  </programme>
+  <programme start="20210418142500 +0700" stop="20210418145500 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อ]]></desc>
+  </programme>
+  <programme start="20210418145500 +0700" stop="20210418165000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ภาพยนตร์ อั้งยี่]]></title>
+    <desc><![CDATA[เรื่องราวของสองกลุ่มอั้งยี่เปี่ยมอิทธิพลซึ่งต่างก็มีเรื่องทะเลาะวิวาทกันเป็นประจำจนกลายเป็นศัตรูกันใ]]></desc>
+  </programme>
+  <programme start="20210418165000 +0700" stop="20210418184000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ภ.หักเหลี่ยมโหดตำรวจโคตรระห่ำ]]></title>
+    <desc><![CDATA[เรื่องราวของตำรวจทุจริตคนหนึ่ง ที่ตัดสินใจผิดพลาดเพียงเพื่อต้องการจะปกปิดการกระทำผิดของเขา]]></desc>
+  </programme>
+  <programme start="20210418184000 +0700" stop="20210418210000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ภาพยนตร์ คนไฟบิน]]></title>
+    <desc><![CDATA[ภาพยนตร์แนวบู๊เกี่ยวกับโจรบั้งไฟที่ออกปล้นคนรวยเพื่อช่วยเหลือคนจน -- นำแสดงโดย ชูพงษ์ ช่างปรุง และ ญ]]></desc>
+  </programme>
+  <programme start="20210418210000 +0700" stop="20210418230000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ภาพยนตรื อำมหิต...พิศวาส]]></title>
+    <desc><![CDATA[แพรว สาวสวยหลงเข้ามาอยู่ในเงื้อมมือของ ชัย นักธุรกิจเจ้าเล่ห์ที่มีโรงภาพยนตร์มัลติเพล็กซ์บังหน้า เขา]]></desc>
+  </programme>
+  <programme start="20210418230000 +0700" stop="20210419000000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ภ.หักแผนจารกรรม สะท้านโลก]]></title>
+    <desc><![CDATA[<No description>]]></desc>
+  </programme>
+  <programme start="20210419000000 +0700" stop="20210419010000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ภ.หักแผนจารกรรม สะท้านโลก]]></title>
+    <desc><![CDATA[<No description>]]></desc>
+  </programme>
+  <programme start="20210419010000 +0700" stop="20210419013000 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[ทรูช้อปปิ้ง]]></title>
+    <desc><![CDATA[พบกับมิติใหม่แห่งการสั่งซื้อสินค้าผ่านจอโทรทัศน์ตลอดยี่สิบสี่ชั่วโมงเพื่อเอาใจคนรุ่นใหม่ที่รักการช้อ]]></desc>
+  </programme>
+  <programme start="20210419013000 +0700" stop="20210419020800 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[อาชีพนอกกระแส]]></title>
+    <desc><![CDATA[รายการนำเสนออาชีพต่างๆที่น่าสนใจแต่ไม่ได้อยู่ในกระแสสังคมโดยมุ่งเน้นเพื่อจุดประกายแนวทางเลือกสายอาชี]]></desc>
+  </programme>
+  <programme start="20210419020800 +0700" stop="20210419040500 +0700" channel="true4u.iptv36.my.to">
+    <title><![CDATA[TNN ข่าวค่ำ]]></title>
+    <desc><![CDATA[สรุปเหตุการณ์ข่าวตลอดทั้งวันที่มีความหลากหลายจากในและต่างประเทศพร้อมทั้งการรายงานสภาพอากาศจากทุกมุมโ]]></desc>
   </programme>
   <programme start="20210417070500 -0000" stop="20210417085500 -0000" channel="tv5.iptv36.my.to">
     <title><![CDATA[มวย]]></title>
@@ -4386,11 +4255,11 @@
   <programme start="20210418180000 -0000" stop="20210418190000 -0000" channel="tv5.iptv36.my.to">
     <title><![CDATA[CC ภาพยนต์จีน]]></title>
   </programme>
-  <programme start="20210417134000 +0700" stop="20210417143000 +0700" channel="voice.iptv36.my.to">
-    <title><![CDATA[WOW Shopping]]></title>
+  <programme start="20210418190000 -0000" stop="20210418200000 -0000" channel="tv5.iptv36.my.to">
+    <title><![CDATA[AD สร้างฝันเพื่อสันติสุข]]></title>
   </programme>
-  <programme start="20210417143000 +0700" stop="20210417150000 +0700" channel="voice.iptv36.my.to">
-    <title><![CDATA[The Breakdown - Talk ชัดเวอร์ สไตล์อดัม]]></title>
+  <programme start="20210418200000 -0000" stop="20210418203000 -0000" channel="tv5.iptv36.my.to">
+    <title><![CDATA[รอมฎอนอันทรงเกียรติ]]></title>
   </programme>
   <programme start="20210417150000 +0700" stop="20210417153000 +0700" channel="voice.iptv36.my.to">
     <title><![CDATA[WOW Shopping]]></title>
@@ -4650,13 +4519,8 @@
   <programme start="20210419015500 +0700" stop="20210419024000 +0700" channel="warnertv.iptv36.my.to">
     <title><![CDATA[World's Dumbest S17 EP.4]]></title>
   </programme>
-  <programme start="20210417063000 -0000" stop="20210417073000 -0000" channel="workpoint.iptv36.my.to">
-    <title><![CDATA[Who Is My Chef โต๊ะนี้มีจอง รีรัน]]></title>
-    <desc><![CDATA[มิติใหม่ของรายการทำอาหาร ที่บรรดานักชิมต้องทานอาหารจากฝีมือคนแปลกหน้า โดยที่ไม่รู้ว่าเขาทำอาหารเป็นหรือไม่]]></desc>
-  </programme>
-  <programme start="20210417073000 -0000" stop="20210417080000 -0000" channel="workpoint.iptv36.my.to">
-    <title><![CDATA[The Big Kitchen]]></title>
-    <desc><![CDATA[รายการสอนทำอาหาร]]></desc>
+  <programme start="20210419024000 +0700" stop="20210419032500 +0700" channel="warnertv.iptv36.my.to">
+    <title><![CDATA[World's Dumbest S17 EP.5]]></title>
   </programme>
   <programme start="20210417080000 -0000" stop="20210417090000 -0000" channel="workpoint.iptv36.my.to">
     <title><![CDATA[ชงข่าววันเสาร์]]></title>
@@ -4840,6 +4704,14 @@
     <desc><![CDATA[ซีรีส์ต่างประเทศ]]></desc>
   </programme>
   <programme start="20210418183500 -0000" stop="20210418190000 -0000" channel="workpoint.iptv36.my.to">
+    <title><![CDATA[Wellness Shop]]></title>
+    <desc><![CDATA[รายการแนะนำสินค้า]]></desc>
+  </programme>
+  <programme start="20210418190000 -0000" stop="20210418200000 -0000" channel="workpoint.iptv36.my.to">
+    <title><![CDATA[เถิดเทิงม่วนคักฮักหลาย รีรัน]]></title>
+    <desc><![CDATA[ซีรีส์ฉบับไทบ้าน ม่วนคักฮักหลาย กระจายทุกหย่อมหญ้า]]></desc>
+  </programme>
+  <programme start="20210418200000 -0000" stop="20210418202500 -0000" channel="workpoint.iptv36.my.to">
     <title><![CDATA[Wellness Shop]]></title>
     <desc><![CDATA[รายการแนะนำสินค้า]]></desc>
   </programme>
