@@ -21,9 +21,9 @@ const basicPlaylist = {
     ['amarin', 1],
     ['gmm25', 1],
     ['tnn16'],
-    ['psi'],
+    ['topnews'],
     ['new18'],
-    ['m'],
+    ['psi'],
     ['cartoonclub'],
 
     // 21-30
@@ -59,7 +59,7 @@ const proPlaylist = {
     ['foxmovies'],
     ['foxthai'],
     ['andflix'],
-    ['ctb'],
+    ['hbo'],
 
     // 41-50
     ['warnertv'],

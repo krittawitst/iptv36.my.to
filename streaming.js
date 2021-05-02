@@ -20,7 +20,7 @@ const streamingInfo = {
     channelName: 'NBT',
     logo: 'https://iptv36.my.to/logo/nbt.png',
     urlList: [
-      'http://live2.dootvde.com/live/50005_nbt.stream.smil/playist.m3u8', // 360p
+      ['HD', 'http://live2.dootvde.com/live/50005_nbt.stream.smil/playist.m3u8'], // 360p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -111,10 +111,9 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-05.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_VlExLS3Rgu8QYCz0WDL1Bo)/dm/3/x6rz4t7/s/live-4.m3u8',
+        'https://stream-04.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_SLPK_opTAQnkVTmYsJXB1I)/dm/3/x6rz4t7/s/live-4.m3u8',
       ],
       'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8', // 720p upscale
-      'https://r3-sn-5fo-c37ed56.googleuservideo.com/doofootball_r2/gmm25_480p/playlist.m3u8', // 480p upscale
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -177,7 +176,7 @@ const streamingInfo = {
     channelName: 'Thairath TV HD',
     logo: 'https://iptv36.my.to/logo/thairath.png',
     urlList: [
-      'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8', // 720p
+      'https://live.thairath.co.th/trtv2/thairath_tv_output_group_720p.m3u8', // 720p
       ['[NO HW+]', 'https://www.livedoomovie.com/02_THAIRATH_720p/chunklist.m3u8'], // 720p
       'https://live.thairath.co.th/trtv2/playlist.m3u8', // 720p auto
     ],
@@ -206,8 +205,8 @@ const streamingInfo = {
     channelName: 'CH7',
     logo: 'https://iptv36.my.to/logo/ch7.png',
     urlList: [
-      // ['HD [NO HW+]', 'https://www.livedoomovie.com/02_7HD_720p/chunklist.m3u8'], // 720p
-      ['HD [NO HW+]', 'https://cdn6.goprimetime.info/feed/ch7hd/index.m3u8'], // 720p
+      ['HD [NO HW+]', 'https://www.livedoomovie.com/02_7HD_720p/chunklist.m3u8'], // 720p
+      // ['HD [NO HW+]', 'https://cdn6.goprimetime.info/feed/ch7hd/index.m3u8'], // 720p
       'http://edge160.bugaboo.tv/liveedgech7_partner/smil:auto.smil/chunklist_b1210000_sleng.m3u8', // 480p
       // 'http://119.59.125.74/stream/totnew.php?channel_id=ddfa47e726444446864b14e0e819fdde&.m3u', // 480p
     ],
@@ -218,9 +217,9 @@ const streamingInfo = {
     channelName: 'PPTV',
     logo: 'https://iptv36.my.to/logo/pptv.png',
     urlList: [
-      // ['HD', 'http://live2.dootvde.com/live/50026_pptv_hd.stream.smil/playist.m3u8'], // 720p
-      ['HD [NO HW+]', 'https://cdn6.goprimetime.info/feed/chpptvhd/index.m3u8'], // 720p
+      // ['HD [NO HW+]', 'https://cdn6.goprimetime.info/feed/chpptvhd/index.m3u8'], // 720p
       ['HD [NO HW+]', 'https://www.livedoomovie.com/02_PPTVHD_720p/chunklist.m3u8'], // 720p
+      ['HD', 'http://live2.dootvde.com/live/50026_pptv_hd.stream.smil/playist.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -435,7 +434,10 @@ const streamingInfo = {
   foxmovies: {
     channelName: 'FOX Movies HD',
     logo: 'https://iptv36.my.to/logo/foxmovies.png',
-    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_FoxMoviesTH_720p/chunklist.m3u8']],
+    urlList: [
+      ['[NO HW+]', 'https://www.livedoomovie.com/02_FoxMoviesTH_720p/chunklist.m3u8'],
+      'http://dootvthai-hd.com/cmd/api/hbo/maxhd/playlist.m3u8',
+    ],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -478,14 +480,17 @@ const streamingInfo = {
   foxthai: {
     channelName: 'FOX Thai HD',
     logo: 'https://iptv36.my.to/logo/foxthai.png',
-    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_FoxThai_TH_720p/chunklist.m3u8']],
+    urlList: [
+      ['[NO HW+]', 'https://www.livedoomovie.com/02_FoxThai_TH_720p/chunklist.m3u8'],
+      'http://dootvthai-hd.com/cmd/api/hbo/hitshd/playlist.m3u8',
+    ],
     groupName: 'ENTERTAINMENT',
   },
 
   hbo: {
     channelName: 'HBO',
     logo: 'https://iptv36.my.to/logo/hbo.png',
-    urlList: ['http://dootvthai-hd.com/cmd/api/hbo/hbohd/playlist.m3u8'],
+    urlList: ['https://dootvthai-hd.com/cmd/ThaiDreambox/hbo/hbohd/playlist.m3u8'],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -622,7 +627,14 @@ const streamingInfo = {
   voice: {
     channelName: 'Voice TV HD',
     logo: 'https://iptv36.my.to/logo/voice.png',
-    urlList: ['https://edge6a.v2h-cdn.com/appt3/WOWSH.stream_720p/chunklist_w142679599.m3u8'],
+    urlList: ['https://edge6a.v2h-cdn.com/appt3/WOWSH.stream_720p/playlist.m3u8'],
+    groupName: 'NEWS & DOCS',
+  },
+
+  topnews: {
+    channelName: 'Top News HD',
+    logo: 'https://il.mahidol.ac.th/upload/img/2021-02-01-084935.jpg',
+    urlList: ['https://live.topnews.co.th/hls/topnews.m3u8'],
     groupName: 'NEWS & DOCS',
   },
 

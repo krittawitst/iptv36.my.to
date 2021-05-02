@@ -13,10 +13,10 @@ const getEpgDataFromNbtc = async () => {
     '03': 'thaipbs',
     10: 'tptv',
     16: 'tnn16',
-    // 18: 'new18',
+    18: 'new18',
     22: 'nation',
     23: 'workpoint',
-    // 24: 'true4u',
+    24: 'true4u',
     25: 'gmm25',
     27: 'ch8',
     29: 'mono29',
@@ -97,8 +97,8 @@ const getEpgDataFromAisPlay = async () => {
   // mapping tvg id
   let channelIdToChannelKey = {
     '5efdd162fbb0045345ef2b61': 'altv',
-    '597b8e8c7ed5a24e46f6724b': 'new18',
-    '5959246bd817de1df1747475': 'true4u',
+    // '597b8e8c7ed5a24e46f6724b': 'new18',
+    // '5959246bd817de1df1747475': 'true4u',
     '5fdb33c120ccacf849c813ef': 'voice',
     '5ee1eb4d0f24872fd951d196': 'paramount',
     '597e004b7ed5a24e46f6725a': 'warnertv',
