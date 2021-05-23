@@ -22,7 +22,7 @@ const basicPlaylist = {
     ['gmm25', 1],
     ['tnn16'],
     ['topnews'],
-    ['new18'],
+    ['m'],
     ['psi'],
     ['cartoonclub'],
 
@@ -58,27 +58,20 @@ const proPlaylist = {
     // 37-40
     ['foxmovies'],
     ['foxthai'],
-    ['andflix'],
-    ['hbo'],
+    ['warnertv'],
+    ['history'],
 
     // 41-50
-    ['warnertv'],
-    ['axn'],
-    ['history'],
     ['history2'],
-    ['discoveryasia'],
-
-    // 51-60
     ['premier1'],
     ['premier1', 1],
+    ['premier1', 2],
     ['premier2'],
     ['premier2', 1],
     ['premier3'],
     ['premier3', 1],
     ['premier4'],
-    ['premier4', 1],
     ['premier5'],
-    ['premier5', 1],
   ],
 };
 
