@@ -11,7 +11,7 @@ const streamingInfo = {
     channelName: 'TV5 HD',
     logo: 'https://iptv36.my.to/logo/tv5.png',
     urlList: [
-      'http://110.170.117.27:1935/apptv5hd1live/vdo-tv5hd1/playlist.m3u8', // 720p
+      'https://freelive.inwstream.com:1936/freelive-edge/5hd/playlist.m3u8', // 720p
       ['[NO HW+]', 'http://77.83.117.60:8888/02_5HD_720p/chunklist.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
@@ -57,16 +57,21 @@ const streamingInfo = {
     channelName: 'TNN16 HD',
     logo: 'https://iptv36.my.to/logo/tnn16.png',
     urlList: [
+      'https://tnnthailand-8zdgwf.cdn.byteark.com/live/pl_720p/index.m3u8',
       'https://iptv36.netlify.app/api/true?channel=tnn16hd', // 720p
       'http://27.254.130.56/live01/chsd_TNN_5.m3u8?p=st', // 720p upscale hang/slow
     ],
     groupName: thDtvWithCurrentDate,
   },
 
-  new18: {
-    channelName: 'NEW 18',
-    logo: 'https://iptv36.my.to/logo/new18.png',
-    urlList: [],
+  jkn18: {
+    channelName: 'JKN 18',
+    logo: 'https://iptv36.my.to/logo/jkn18.jpg',
+    urlList: [
+      'https://cdnlive.goprimetime.info/feed/newtv/index.m3u8',
+      'http://live2.dootvde.com/live/50011_news_tv.stream.smil/playist.m3u8',
+      'http://916309128f3e.sn.mynetname.net:1935/aslive/newtv/chunklist.m3u8',
+    ],
     groupName: thDtvWithCurrentDate,
   },
 
@@ -83,6 +88,7 @@ const streamingInfo = {
     channelName: 'Workpoint TV',
     logo: 'https://iptv36.my.to/logo/workpoint.png',
     urlList: [
+      'https://freelive.inwstream.com:1936/freelive-edge/workpointtv/playlist.m3u8',
       'http://live2.dootvde.com/live/50016_workpoint_tv.stream.smil/playist.m3u8', // 720p upscale lost
     ],
     groupName: thDtvWithCurrentDate,
@@ -93,6 +99,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/true4u.png',
     urlList: [
       'https://iptv36.netlify.app/api/true?channel=true4uhd',
+      'https://freelive.inwstream.com:1936/freelive-edge/true4u/playlist.m3u8',
       'https://www.livedoomovie.com/02_TRUE4U_480p/chunklist.m3u8', // 480p
     ],
     groupName: thDtvWithCurrentDate,
@@ -104,9 +111,10 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_ewkLx0bn4ntHxNlRvjSU2s)/dm/3/x6rz4t7/s/live-4.m3u8',
+        'https://stream-05.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_b7-EPUnP7sfEPbCHxsi_qU)/dm/3/x6rz4t7/s/live-4.m3u8',
       ],
       'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8', // 720p upscale
+      'http://host4.dynns.com/stream/ab0b43ef8363438098a94101e93ca138.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -116,6 +124,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/ch8.png',
     urlList: [
       ['HD', 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8'], // 720p
+      'https://freelive.inwstream.com:1936/freelive-edge/ch8/playlist.m3u8', // 720p
       // ['HD?', 'http://stream.rs.co.th/ch8-hi/index.m3u8'], // 360p too loud
     ],
     groupName: thDtvWithCurrentDate,
@@ -129,6 +138,7 @@ const streamingInfo = {
         'HD',
         'https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/playlist.m3u8',
       ], // 1080p
+      'https://freelive.inwstream.com:1936/freelive-edge/mono29/playlist.m3u8',
       [
         'HD',
         'https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_720P/mono29hls_720TH.stream/playlist.m3u8',
@@ -170,6 +180,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/thairath.png',
     urlList: [
       'https://live.thairath.co.th/trtv2/thairath_tv_output_group_720p.m3u8', // 720p
+      'http://916309128f3e.sn.mynetname.net:1935/aslive/thairath/chunklist.m3u8',
       ['[NO HW+]', 'https://www.livedoomovie.com/02_THAIRATH_720p/chunklist.m3u8'], // 720p
       'https://live.thairath.co.th/trtv2/playlist.m3u8', // 720p auto
     ],
@@ -181,6 +192,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/ch3.png',
     urlList: [
       ['HD', 'http://live2.dootvde.com/live/50001_ch3.stream.smil/playist.m3u8'], // 720p
+      ['HD', 'http://host4.dynns.com/stream/a4485b656d764f308c63b14a8bf62326.m3u8'], // 720p
       ['[NO HW+]', 'http://77.83.117.60:8888/02_3HD_720p/chunklist.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
@@ -190,6 +202,7 @@ const streamingInfo = {
     channelName: 'Amarin TV',
     logo: 'https://iptv36.my.to/logo/amarin.png',
     urlList: [
+      ['HD', 'https://freelive.inwstream.com:1936/freelive-edge/amarinhd/playlist.m3u8'], // 720p
       ['HD', 'http://live2.dootvde.com/live/50025_amarin_tv_hd.stream.smil/playist.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
@@ -331,12 +344,12 @@ const streamingInfo = {
     groupName: 'CARTOON',
   },
 
-  // toonee: {
-  //   channelName: 'Toonee',
-  //   logo: 'https://cms.dmpcdn.com/livetv/2020/09/03/4c26a640-ede0-11ea-bbdd-775d9efe2958_320.png',
-  //   urlList: ['https://edge6a.v2h-cdn.com/m2i7/Toonee.stream_720p/playlist.m3u8'],
-  //   groupName: 'CARTOON',
-  // },
+  toonee: {
+    channelName: 'Toonee',
+    logo: 'https://cms.dmpcdn.com/livetv/2020/09/03/4c26a640-ede0-11ea-bbdd-775d9efe2958_320.png',
+    urlList: ['http://916309128f3e.sn.mynetname.net:1935/aslive/toonee/chunklist.m3u8'],
+    groupName: 'CARTOON',
+  },
 
   cartoonnetwork: {
     channelName: 'Cartoon Network HD',
@@ -419,7 +432,7 @@ const streamingInfo = {
   discoveryasia: {
     channelName: 'Discovery Asia HD',
     logo: 'https://iptv36.my.to/logo/discoveryasia.png',
-    urlList: [],
+    urlList: ['http://77.83.117.60:8888/02_DiscoveryHDWorld/chunklist.m3u8'],
     groupName: 'NEWS & DOCS',
   },
 
@@ -559,7 +572,7 @@ const streamingInfo = {
   samrujlok: {
     channelName: 'Samrujlok HD',
     logo: 'https://iptv36.my.to/logo/samrujlok.png',
-    urlList: [],
+    urlList: ['https://cdnlive.goprimetime.info/feed/LC8/playlist.m3u8'],
     groupName: 'NEWS & DOCS',
   },
 
@@ -773,10 +786,13 @@ const testUrl = async (url) => {
     } catch (error) {
       let errorMsg = error.code || error.response.status;
 
+      if (process.env.NETLIFY && (url.includes('3bb.co.th') || url.includes('prsmedia'))) {
+        return true;
+      }
+
       if (
-        process.env.NETLIFY &&
-        errorMsg === 'ECONNABORTED' &&
-        url.includes('3bb.co.th') // || url.includes('103.208.24.234'))
+        errorMsg === 'UNABLE_TO_VERIFY_LEAF_SIGNATURE' &&
+        url.includes('freelive.inwstream.com')
       ) {
         return true;
       }
@@ -790,10 +806,6 @@ const testUrl = async (url) => {
       }
 
       if (process.env.NETLIFY && errorMsg === 451 && url.includes('byteark.com')) {
-        return true;
-      }
-
-      if (process.env.NETLIFY && url.includes('googleuservideo.com')) {
         return true;
       }
 
