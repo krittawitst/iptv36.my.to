@@ -726,7 +726,7 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
           const response = await axios.get(livePlayListUrl);
           let rawPlayList = response.data;
 
-          for (let i = 4; i >= 2; i--) {
+          for (let i = 4; i >= 1; i--) {
             let regExp = new RegExp(`https:\/\/.*?\/live-[${i}]\.m3u8`);
             let regExpMatchArray = rawPlayList.match(regExp);
 
@@ -804,7 +804,8 @@ const testUrl = async (url) => {
   if (
     url.includes('rtsp://') ||
     url.includes('203.154.243.89') || // warner
-    url.includes('27.254.142.207') // m channel
+    url.includes('27.254.142.207') || // m channel
+    url.includes('streamlock.net') // jkn
   ) {
     return true;
   }
@@ -839,10 +840,6 @@ const testUrl = async (url) => {
         errorMsg === 'ECONNRESET' &&
         (url.includes('stream.rs.co.th') || url.includes('bugaboo.tv'))
       ) {
-        return true;
-      }
-
-      if (process.env.NETLIFY && errorMsg === 'ECONNREFUSED' && url.includes('streamlock.net')) {
         return true;
       }
 
