@@ -58,7 +58,7 @@ const proPlaylist = {
     // 37-40
     ['ctb'],
     ['fwmov'],
-    ['andflix'],
+    ['foxmovies'],
     ['warnertv'],
 
     // 41-50

@@ -112,6 +112,7 @@ const getEpgDataFromAisPlay = async () => {
     '5ee1ecafb544d498b9d1d2e8': 'nickelodeon',
     '597d21477ed5a24e46f67258': 'cartoonclub',
     '5e6215e6d817de33506cedf7': 'discoveryasia',
+    '597dfea47ed5a24e46f67259': 'boomerang',
   };
 
   // build parameter

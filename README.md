@@ -47,7 +47,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 4           | ALTV HD               |
 | 5           | Workpoint TV Backup   |
 | 6           | PPTV HD Backup        |
-| 7           | CH7 Backup            |
+| 7           | CH7 HD Backup         |
 | 8           | CH8 Backup            |
 | 9           | MONO29 Backup         |
 | 10          | TPTV                  |
@@ -59,7 +59,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 16          | TNN16 HD              |
 | 17          | PSI Saradee HD        |
 | 18          | NEW 18 HD             |
-| 19          | M Channel             |
+| 19          | PSI Saradee HD        |
 | 20          | Cartoon Club          |
 | 21          | Voice TV HD           |
 | 22          | Nation TV HD          |

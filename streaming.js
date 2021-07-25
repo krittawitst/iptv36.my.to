@@ -71,7 +71,6 @@ const streamingInfo = {
     urlList: [
       ['HD', 'https://5f27aa1f6ef91.streamlock.net/jkncnbc/myStream/playlist.m3u8'],
       'http://freelive2.inwstream.com:1935/freelive-edge/newstv/playlist.m3u8',
-      'https://cdnlive.goprimetime.info/feed/newtv/index.m3u8',
       'http://live2.dootvde.com/live/50011_news_tv.stream.smil/playist.m3u8',
       'http://916309128f3e.sn.mynetname.net:1935/aslive/newtv/chunklist.m3u8',
     ],
@@ -202,8 +201,8 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/ch3.png',
     urlList: [
       ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/3hd/playlist.m3u8'],
-      ['HD', 'http://live2.dootvde.com/live/50001_ch3.stream.smil/playist.m3u8'], // 720p
       ['HD', 'http://host4.dynns.com/stream/a4485b656d764f308c63b14a8bf62326.m3u8'], // 720p
+      ['HD', 'http://live2.dootvde.com/live/50001_ch3.stream.smil/playist.m3u8'], // 720p
       ['[NO HW+]', 'http://77.83.117.60:8888/02_3HD_720p/chunklist.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
@@ -224,8 +223,8 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/ch7.png',
     urlList: [
       ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/7hd/playlist.m3u8'],
-      ['HD [NO HW+]', 'https://www.livedoomovie.com/02_7HD_720p/chunklist.m3u8'], // 720p
       ['HD [NO HW+]', 'http://77.83.117.60:8888/02_7HD_720p/chunklist.m3u8'], // 720p
+      ['HD [NO HW+]', 'https://www.livedoomovie.com/02_7HD_720p/chunklist.m3u8'], // 720p
       'http://edge160.bugaboo.tv/liveedgech7_partner/smil:auto.smil/chunklist_b1210000_sleng.m3u8', // 480p
       // 'http://119.59.125.74/stream/totnew.php?channel_id=ddfa47e726444446864b14e0e819fdde&.m3u', // 480p
     ],
@@ -360,7 +359,10 @@ const streamingInfo = {
   toonee: {
     channelName: 'Toonee',
     logo: 'https://cms.dmpcdn.com/livetv/2020/09/03/4c26a640-ede0-11ea-bbdd-775d9efe2958_320.png',
-    urlList: ['http://916309128f3e.sn.mynetname.net:1935/aslive/toonee/chunklist.m3u8'],
+    urlList: [
+      'http://freelive2.inwstream.com:1935/freelive-edge/toonee/playlist.m3u8',
+      'http://916309128f3e.sn.mynetname.net:1935/aslive/toonee/chunklist.m3u8',
+    ],
     groupName: 'CARTOON',
   },
 
@@ -837,6 +839,10 @@ const testUrl = async (url) => {
         errorMsg === 'ECONNRESET' &&
         (url.includes('stream.rs.co.th') || url.includes('bugaboo.tv'))
       ) {
+        return true;
+      }
+
+      if (process.env.NETLIFY && errorMsg === 'ECONNREFUSED' && url.includes('streamlock.net')) {
         return true;
       }
 
