@@ -459,14 +459,14 @@ const streamingInfo = {
     urlList: [
       'http://freelive.inwstream.com:1935/freelive-edge/fwtoon_fw-iptv.stream/playlist.m3u8',
     ],
-    groupName: 'ENTERTAINMENT',
+    groupName: 'CARTOON',
   },
 
   boomerang: {
     channelName: 'Boomerang',
     logo: 'https://images.squarespace-cdn.com/content/v1/51326bd6e4b060819b0f6458/1364592995062-4AA4OXDSNPEFX2KISVBP/Boomerang_Logo.jpg?format=1500w',
     urlList: ['http://freelive2.inwstream.com:1935/freelive-edge/boomerang/playlist.m3u8'],
-    groupName: 'ENTERTAINMENT',
+    groupName: 'CARTOON',
   },
 
   discoveryasia: {
@@ -537,14 +537,14 @@ const streamingInfo = {
     channelName: 'History HD',
     logo: 'https://iptv36.my.to/logo/history.png',
     urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_HISTORYHD_720p/chunklist.m3u8']],
-    groupName: 'ENTERTAINMENT',
+    groupName: 'NEWS & DOCS',
   },
 
   history2: {
     channelName: 'History2 HD',
     logo: 'https://iptv36.my.to/logo/history2.png',
     urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_H2HD_720p/chunklist.m3u8']],
-    groupName: 'ENTERTAINMENT',
+    groupName: 'NEWS & DOCS',
   },
 
   hitsmovies: {
