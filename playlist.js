@@ -58,15 +58,13 @@ const proPlaylist = {
     // 37-40
     ['ctb'],
     ['fwmov'],
-    ['foxmovies'],
+    ['fwsov'],
     ['warnertv'],
 
     // 41-50
     ['fwtoon'],
     ['toonee'],
     ['boomerang'],
-    ['history'],
-    ['history2'],
   ],
 };
 
