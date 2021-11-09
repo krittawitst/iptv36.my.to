@@ -6,12 +6,12 @@ exports.handler = async (event, context, callback) => {
   let body = '';
 
   try {
-    const response = await axios.get(pageUrl, {
+    const response = await axios.get(streamingUrl, {
       headers: { Referer: 'https://www.livestream88.com/' },
     });
     body = response.data;
   } catch (error) {
-    return { statusCode: 404, body: `Cannot get data for channel "${channelKey}" at "${pageUrl}"` };
+    return { statusCode: 404, body: `Cannot get data for "${pageUrl}"` };
   }
 
   return {
