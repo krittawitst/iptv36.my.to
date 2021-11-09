@@ -9,9 +9,11 @@ exports.handler = async (event, context, callback) => {
     const response = await axios.get(streamingUrl, {
       headers: { Referer: 'https://www.livestream88.com/' },
     });
+    console.log(response);
+    console.log(response.data);
     body = response.data;
   } catch (error) {
-    return { statusCode: 404, body: `Cannot get data for "${pageUrl}"` };
+    return { statusCode: 404, body: `Cannot get data for "${streamingUrl}"` };
   }
 
   return {
