@@ -13,6 +13,7 @@ exports.handler = async (event, context, callback) => {
     console.log(response.data);
     body = response.data;
   } catch (error) {
+    console.log(error);
     return { statusCode: 404, body: `Cannot get data for "${streamingUrl}"` };
   }
 
