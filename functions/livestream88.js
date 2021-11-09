@@ -7,7 +7,7 @@ exports.handler = async (event, context, callback) => {
 
   try {
     const response = await axios.get(streamingUrl, {
-      headers: { Referer: 'https://www.livestream88.com/' },
+      headers: { Connection: 'keep-alive', Referer: 'https://www.livestream88.com/' },
     });
     console.log(response);
     console.log(response.data);
