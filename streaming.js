@@ -12,7 +12,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/tv5.png',
     urlList: [
       'http://freelive.inwstream.com:1935/freelive-edge/5hd/playlist.m3u8', // 720p
-      ['[NO HW+]', 'http://77.83.117.60:8888/02_5HD_720p/chunklist.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -96,9 +95,9 @@ const streamingInfo = {
     channelName: 'True4U HD',
     logo: 'https://iptv36.my.to/logo/true4u.png',
     urlList: [
+      'https://tnnthailand-msqo7x.cdn.byteark.com/live/pl_720p/index.m3u8',
       'https://iptv36.netlify.app/api/true?channel=true4uhd',
       'http://freelive.inwstream.com:1935/freelive-edge/true4u/playlist.m3u8',
-      'https://www.livedoomovie.com/02_TRUE4U_480p/chunklist.m3u8', // 480p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -122,8 +121,8 @@ const streamingInfo = {
     channelName: 'CH8',
     logo: 'https://iptv36.my.to/logo/ch8.png',
     urlList: [
-      ['HD', 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8'], // 720p
       'http://freelive.inwstream.com:1935/freelive-edge/ch8/playlist.m3u8', // 720p
+      ['HD', 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8'], // 720p
       // ['HD?', 'http://stream.rs.co.th/ch8-hi/index.m3u8'], // 360p too loud
     ],
     groupName: thDtvWithCurrentDate,
@@ -137,17 +136,14 @@ const streamingInfo = {
       //   'HD',
       //   'https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/playlist.m3u8',
       // ], // 1080p
-      [
-        'HD',
-        'https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_720P/mono29hls_720TH.stream/playlist.m3u8',
-      ], // 720p
+      'https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_720P/mono29hls_720TH.stream/playlist.m3u8',
       'http://freelive.inwstream.com:1935/freelive-edge/mono29/playlist.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
   },
 
   mono29soundtrack: {
-    channelName: 'MONO29 HD Soundtrack',
+    channelName: 'MONO29 Soundtrack',
     logo: 'https://iptv36.my.to/logo/mono29.png',
     urlList: [
       // 'https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080EN.stream/playlist.m3u8', // 1080p
@@ -159,10 +155,7 @@ const streamingInfo = {
   mcot: {
     channelName: 'MCOT HD',
     logo: 'https://iptv36.my.to/logo/mcot.png',
-    urlList: [
-      'http://freelive2.inwstream.com:1935/freelive-edge/mcothd/playlist.m3u8',
-      ['[NO HW+]', 'http://77.83.117.60:8888/02_MCOTHD_720p/chunklist.m3u8'],
-    ],
+    urlList: ['http://freelive2.inwstream.com:1935/freelive-edge/mcothd/playlist.m3u8'],
     groupName: thDtvWithCurrentDate,
   },
 
@@ -182,11 +175,9 @@ const streamingInfo = {
     channelName: 'Thairath TV HD',
     logo: 'https://iptv36.my.to/logo/thairath.png',
     urlList: [
-      'https://live.thairath.co.th/trtv2/thairath_tv_output_group_720p.m3u8', // 720p
       'https://thairathtv.cdn.byteark.com/fleetstream/live1/720p/index.m3u8',
       'http://freelive2.inwstream.com:1935/freelive-edge/thairahttvhd/playlist.m3u8',
-      ['[NO HW+]', 'https://www.livedoomovie.com/02_THAIRATH_720p/chunklist.m3u8'], // 720p
-      'https://live.thairath.co.th/trtv2/playlist.m3u8', // 720p auto
+      'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -198,7 +189,6 @@ const streamingInfo = {
       ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/3hd/playlist.m3u8'],
       ['HD', 'http://host4.dynns.com/stream/a4485b656d764f308c63b14a8bf62326.m3u8'], // 720p
       ['HD', 'http://live2.dootvde.com/live/50001_ch3.stream.smil/playist.m3u8'], // 720p
-      ['[NO HW+]', 'http://77.83.117.60:8888/02_3HD_720p/chunklist.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -216,13 +206,7 @@ const streamingInfo = {
   ch7: {
     channelName: 'CH7',
     logo: 'https://iptv36.my.to/logo/ch7.png',
-    urlList: [
-      ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/7hd/playlist.m3u8'],
-      ['HD [NO HW+]', 'http://77.83.117.60:8888/02_7HD_720p/chunklist.m3u8'], // 720p
-      ['HD [NO HW+]', 'https://www.livedoomovie.com/02_7HD_720p/chunklist.m3u8'], // 720p
-      'http://edge160.bugaboo.tv/liveedgech7_partner/smil:auto.smil/chunklist_b1210000_sleng.m3u8', // 480p
-      // 'http://119.59.125.74/stream/totnew.php?channel_id=ddfa47e726444446864b14e0e819fdde&.m3u', // 480p
-    ],
+    urlList: [['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/7hd/playlist.m3u8']],
     groupName: thDtvWithCurrentDate,
   },
 
@@ -232,7 +216,6 @@ const streamingInfo = {
     urlList: [
       ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/pptvhd/playlist.m3u8'],
       ['HD', 'http://live2.dootvde.com/live/50026_pptv_hd.stream.smil/playist.m3u8'], // 720p
-      ['HD [NO HW+]', 'https://www.livedoomovie.com/02_PPTVHD_720p/chunklist.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -675,7 +658,10 @@ const streamingInfo = {
   topnews: {
     channelName: 'Top News HD',
     logo: 'https://images.topnews.co.th/2021/04/cropped-topnews-logo.png',
-    urlList: ['https://live.topnews.co.th/hls/topnews.m3u8'], //['https://live.topnews.co.th/hls/topnews_a_1080.m3u8'],
+    urlList: [
+      'https://live.topnews.co.th/hls/topnews_b_720.m3u8',
+      'https://live.topnews.co.th/hls/topnews_a_1080.m3u8',
+    ],
     groupName: 'NEWS & DOCS',
   },
 
@@ -697,6 +683,7 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
     ['nation', 'HD', 'https://www.dailymotion.com/embed/video/x6eoldf'],
     ['mcot', '', 'https://www.dailymotion.com/embed/video/x74wlgj'],
     ['amarin', 'HD', 'https://www.dailymotion.com/embed/video/x7z8zsu'],
+    ['ch8', 'HD', 'https://www.dailymotion.com/embed/video/x84ukk7'],
     // geo restricted
     // ['gmm25', 'HD', 'https://www.dailymotion.com/embed/video/k7KnbDPalNddQqrJq1J'],
   ];
