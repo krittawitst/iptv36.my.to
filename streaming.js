@@ -109,7 +109,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-05.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_Z6TuuKR3KtCFd5rksEIBkU)/dm/3/x6rz4t7/s/live-2.m3u8',
+        'https://stream-05.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_aKbMbUQiLF_ZPkIJ_vqg-M)/dm/3/x6rz4t7/s/live-2.m3u8',
       ],
       'http://freelive2.inwstream.com:1935/freelive-edge/gmmchannel/playlist.m3u8',
       'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8', // 720p upscale
@@ -314,14 +314,12 @@ const streamingInfo = {
     groupName: 'SPORT',
   },
 
-  // truesporthd: {
-  //   channelName: 'True Sports HD',
-  //   logo: 'https://iptv36.my.to/logo/true_sports_hd.png',
-  //   urlList: [
-  //     'http://103.208.24.234:1935/thaisport/hd-tsport1.stream/chunklist.m3u8', // 720p
-  //   ],
-  //   groupName: 'SPORT',
-  // },
+  truesporthd: {
+    channelName: 'True Sports HD',
+    logo: 'https://iptv36.my.to/logo/true_sports_hd.png',
+    urlList: ['https://iptv36.netlify.app/api/livestream88'],
+    groupName: 'SPORT',
+  },
 
   // truesporthd2: {
   //   channelName: 'True Sports HD2',
@@ -677,7 +675,7 @@ const streamingInfo = {
   topnews: {
     channelName: 'Top News HD',
     logo: 'https://images.topnews.co.th/2021/04/cropped-topnews-logo.png',
-    urlList: ['https://live.topnews.co.th/hls/topnews_a_1080.m3u8'],
+    urlList: ['https://live.topnews.co.th/hls/topnews.m3u8'], //['https://live.topnews.co.th/hls/topnews_a_1080.m3u8'],
     groupName: 'NEWS & DOCS',
   },
 
@@ -756,51 +754,51 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
   );
 };
 
-const dynamicallyAddStreamingUrlByDetectM3U8Url = async () => {
-  console.log('Getting dynamic streaming url...');
+// const dynamicallyAddStreamingUrlByDetectM3U8Url = async () => {
+//   console.log('Getting dynamic streaming url...');
 
-  // config
-  let config = [
-    // [channelKey, channelNameSuffix, pageUrl, appendUrlToBottom=false]
-    ['tnn16', 'HD', 'https://www.tnnthailand.com/live'], // 720p
-    [
-      'true4u',
-      'HD',
-      `https://true4u.com/live-api?ip=127.0.0.1&uid=${Math.random()
-        .toString(36)
-        .substring(2, 12)}&session=${Math.random().toString(36).substring(2, 12)}`,
-    ],
-  ];
+//   // config
+//   let config = [
+//     // [channelKey, channelNameSuffix, pageUrl, appendUrlToBottom=false]
+//     ['tnn16', 'HD', 'https://www.tnnthailand.com/live'], // 720p
+//     [
+//       'true4u',
+//       'HD',
+//       `https://true4u.com/live-api?ip=127.0.0.1&uid=${Math.random()
+//         .toString(36)
+//         .substring(2, 12)}&session=${Math.random().toString(36).substring(2, 12)}`,
+//     ],
+//   ];
 
-  let result = {};
-  await Promise.all(
-    config.map(async ([channelKey, channelNameSuffix, pageUrl, appendUrlToBottom = false]) => {
-      let rawPageHtml = '';
-      try {
-        const response = await axios.get(pageUrl);
-        rawPageHtml = response.data;
-      } catch (error) {
-        console.error(`Cannot extract playlist for channel ${channelKey}`);
-        console.error(error);
-      }
+//   let result = {};
+//   await Promise.all(
+//     config.map(async ([channelKey, channelNameSuffix, pageUrl, appendUrlToBottom = false]) => {
+//       let rawPageHtml = '';
+//       try {
+//         const response = await axios.get(pageUrl);
+//         rawPageHtml = response.data;
+//       } catch (error) {
+//         console.error(`Cannot extract playlist for channel ${channelKey}`);
+//         console.error(error);
+//       }
 
-      let regExpMatchArray = rawPageHtml.match(/https?:\/\/.+?\.m3u8(\?[^"]+)?/);
+//       let regExpMatchArray = rawPageHtml.match(/https?:\/\/.+?\.m3u8(\?[^"]+)?/);
 
-      if (regExpMatchArray) {
-        if (!(channelKey in streamingInfo)) {
-          console.error(`Not recognize channel ${channelKey}`);
-          return;
-        }
-        let url = regExpMatchArray[0].replace('m_auto_tidl', 'w_auto_tidapp');
-        if (appendUrlToBottom) {
-          streamingInfo[channelKey].urlList.push([channelNameSuffix, regExpMatchArray[0]]);
-        } else {
-          streamingInfo[channelKey].urlList.unshift([channelNameSuffix, regExpMatchArray[0]]);
-        }
-      }
-    })
-  );
-};
+//       if (regExpMatchArray) {
+//         if (!(channelKey in streamingInfo)) {
+//           console.error(`Not recognize channel ${channelKey}`);
+//           return;
+//         }
+//         let url = regExpMatchArray[0].replace('m_auto_tidl', 'w_auto_tidapp');
+//         if (appendUrlToBottom) {
+//           streamingInfo[channelKey].urlList.push([channelNameSuffix, regExpMatchArray[0]]);
+//         } else {
+//           streamingInfo[channelKey].urlList.unshift([channelNameSuffix, regExpMatchArray[0]]);
+//         }
+//       }
+//     })
+//   );
+// };
 
 const testUrl = async (url) => {
   // list of url that we will always not check
@@ -956,5 +954,5 @@ const getStreamingInfo = async (channelKey, skip = 0) => {
 module.exports = {
   getStreamingInfo,
   dynamicallyAddStreamingUrlFromDailyMotion,
-  dynamicallyAddStreamingUrlByDetectM3U8Url,
+  // dynamicallyAddStreamingUrlByDetectM3U8Url,
 };

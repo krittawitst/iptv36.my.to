@@ -3,11 +3,11 @@ const basicPlaylist = {
   removeNoHWPlusDecoderWarning: false,
   channelList: [
     // 1-10
-    ['tv5'],
+    ['workpoint', 1],
     ['nbt'],
     ['thaipbs'],
     ['altv'],
-    ['workpoint', 1],
+    ['tv5'],
     ['pptv', 1],
     ['ch7', 1],
     ['ch8', 1],
@@ -65,6 +65,7 @@ const proPlaylist = {
     ['fwtoon'],
     ['toonee'],
     ['boomerang'],
+    ['truesporthd'],
   ],
 };
 
