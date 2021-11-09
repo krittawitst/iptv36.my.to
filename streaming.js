@@ -304,14 +304,14 @@ const streamingInfo = {
     groupName: 'SPORT',
   },
 
-  // truesporthd2: {
-  //   channelName: 'True Sports HD2',
-  //   logo: 'https://iptv36.my.to/logo/true_sports_hd2.png',
-  //   urlList: [
-  //     'http://103.208.24.234:1935/thaisport/hd-tsport2.stream/chunklist.m3u8', // 720p
-  //   ],
-  //   groupName: 'SPORT',
-  // },
+  truesporthd2: {
+    channelName: 'True Sports HD2',
+    logo: 'https://iptv36.my.to/logo/true_sports_hd2.png',
+    urlList: [
+      'https://nj2yx-gbi9-cdf5.googlecdncontent.com/livestream88_sport/tpf1/playlist.m3u8', // 720p
+    ],
+    groupName: 'SPORT',
+  },
 
   // truesport2: {
   //   channelName: 'True Sports 2',
