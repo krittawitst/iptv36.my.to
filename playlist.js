@@ -65,8 +65,6 @@ const proPlaylist = {
     ['fwtoon'],
     ['toonee'],
     ['boomerang'],
-    ['truesporthd'],
-    ['truesporthd2'],
   ],
 };
 

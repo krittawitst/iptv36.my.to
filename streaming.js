@@ -11,6 +11,7 @@ const streamingInfo = {
     channelName: 'TV5 HD',
     logo: 'https://iptv36.my.to/logo/tv5.png',
     urlList: [
+      'http://110.170.117.27:1935/apptv5hd1live/vdo-tv5hd1/playlist.m3u8',
       'http://freelive.inwstream.com:1935/freelive-edge/5hd/playlist.m3u8', // 720p
     ],
     groupName: thDtvWithCurrentDate,
@@ -95,9 +96,9 @@ const streamingInfo = {
     channelName: 'True4U HD',
     logo: 'https://iptv36.my.to/logo/true4u.png',
     urlList: [
-      'https://tnnthailand-msqo7x.cdn.byteark.com/live/pl_720p/index.m3u8',
       'https://iptv36.netlify.app/api/true?channel=true4uhd',
       'http://freelive.inwstream.com:1935/freelive-edge/true4u/playlist.m3u8',
+      'https://tnnthailand-msqo7x.cdn.byteark.com/live/pl_720p/index.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -108,7 +109,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-05.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_aKbMbUQiLF_ZPkIJ_vqg-M)/dm/3/x6rz4t7/s/live-2.m3u8',
+        'https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_YFDLW9vEYiKGYfnJTPhzwA)/dm/3/x6rz4t7/s/live-2.m3u8',
       ],
       'http://freelive2.inwstream.com:1935/freelive-edge/gmmchannel/playlist.m3u8',
       'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8', // 720p upscale
