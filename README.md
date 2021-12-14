@@ -41,11 +41,11 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 
 | หมายเลขช่อง | ชื่อช่อง              |
 | ----------- | --------------------- |
-| 1           | TV5 HD                |
+| 1           | Workpoint TV Backup   |
 | 2           | NBT HD                |
 | 3           | Thai PBS HD           |
 | 4           | ALTV HD               |
-| 5           | Workpoint TV Backup   |
+| 5           | TV5 HD                |
 | 6           | PPTV HD Backup        |
 | 7           | CH7 HD Backup         |
 | 8           | CH8 Backup            |
@@ -57,8 +57,8 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 14          | Amarin TV HD Backup   |
 | 15          | GMM25 Backup          |
 | 16          | TNN16 HD              |
-| 17          | PSI Saradee HD        |
-| 18          | NEW 18 HD             |
+| 17          | TNN16 Backup          |
+| 18          | JKN 18 HD             |
 | 19          | PSI Saradee HD        |
 | 20          | Cartoon Club          |
 | 21          | Voice TV HD           |
@@ -67,7 +67,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 24          | True4U HD             |
 | 25          | GMM25 HD              |
 | 26          | TVB Thai              |
-| 27          | CH8 RS HD             |
+| 27          | CH8 HD                |
 | 28          | MONO29 Soundtrack HD  |
 | 29          | MONO29 HD             |
 | 30          | MCOT HD               |

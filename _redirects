@@ -4,4 +4,6 @@
 /pro                          /PRO36.m3u                        200!
 /me                           /IPTV36.m3u                       200!
 /epg                          /EPG.xml                          200!
+/altv.m3u8                    /altv.m3u8                        200!
+/one.m3u8                     /one.m3u8                         200!
 /*                            https://iptv36.my.to/             301!

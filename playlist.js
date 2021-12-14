@@ -21,7 +21,7 @@ const basicPlaylist = {
     ['amarin', 1],
     ['gmm25', 1],
     ['tnn16'],
-    ['topnews'],
+    ['tnn16', 1],
     ['jkn18'],
     ['psi'],
     ['cartoonclub'],
@@ -63,8 +63,6 @@ const proPlaylist = {
 
     // 41-50
     ['fwtoon'],
-    ['toonee'],
-    ['boomerang'],
   ],
 };
 

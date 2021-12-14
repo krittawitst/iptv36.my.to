@@ -40,7 +40,7 @@ const streamingInfo = {
     channelName: 'ALTV HD',
     logo: 'https://iptv36.my.to/logo/altv.png',
     urlList: [
-      'https://iptv36.my.to/altv.m3u8', // 720p
+      'https://iptv36.netlify.app/altv.m3u8', // 720p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -49,18 +49,18 @@ const streamingInfo = {
     channelName: 'TPTV',
     logo: 'https://iptv36.my.to/logo/tptv.png',
     urlList: [
+      'http://freelive2.inwstream.com:1935/freelive-edge/tptv/playlist.m3u8',
       'https://cdn-edge.i-iptv.com/live3/91b1-ff25-f5ee-c27f-283a/playlist.m3u8',
-      'http://live.parliament.go.th/livestream/tvparliament/playlist.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
   },
 
   tnn16: {
-    channelName: 'TNN16 HD',
+    channelName: 'TNN16',
     logo: 'https://iptv36.my.to/logo/tnn16.png',
     urlList: [
-      'https://iptv36.netlify.app/api/true?channel=tnn16hd', // 720p
-      'https://tnnthailand-8zdgwf.cdn.byteark.com/live/pl_720p/index.m3u8',
+      ['HD', 'https://iptv36.netlify.app/api/true?channel=tnn16hd'], // 720p
+      'http://freelive2.inwstream.com:1935/freelive-edge/tnn24/playlist.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -93,12 +93,12 @@ const streamingInfo = {
   },
 
   true4u: {
-    channelName: 'True4U HD',
+    channelName: 'True4U',
     logo: 'https://iptv36.my.to/logo/true4u.png',
     urlList: [
-      'https://iptv36.netlify.app/api/true?channel=true4uhd',
+      // 'https://iptv36.netlify.app/api/true?channel=true4uhd',
       'http://freelive.inwstream.com:1935/freelive-edge/true4u/playlist.m3u8',
-      'https://tnnthailand-msqo7x.cdn.byteark.com/live/pl_720p/index.m3u8',
+      // 'https://tnnthailand-msqo7x.cdn.byteark.com/live/pl_720p/index.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -109,7 +109,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_YFDLW9vEYiKGYfnJTPhzwA)/dm/3/x6rz4t7/s/live-2.m3u8',
+        'https://stream-01.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_Us_ZwHyqUAsTQ2bmRdfW9A)/dm/3/x6rz4t7/s/live-2.m3u8',
       ],
       'http://freelive2.inwstream.com:1935/freelive-edge/gmmchannel/playlist.m3u8',
       'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8', // 720p upscale
@@ -122,8 +122,8 @@ const streamingInfo = {
     channelName: 'CH8',
     logo: 'https://iptv36.my.to/logo/ch8.png',
     urlList: [
-      'http://freelive.inwstream.com:1935/freelive-edge/ch8/playlist.m3u8', // 720p
       ['HD', 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8'], // 720p
+      'http://freelive.inwstream.com:1935/freelive-edge/ch8/playlist.m3u8', // 720p
       // ['HD?', 'http://stream.rs.co.th/ch8-hi/index.m3u8'], // 360p too loud
     ],
     groupName: thDtvWithCurrentDate,
@@ -164,7 +164,7 @@ const streamingInfo = {
     channelName: 'ONE HD',
     logo: 'https://iptv36.my.to/logo/one.png',
     urlList: [
-      'https://iptv36.my.to/one.m3u8', // 720p
+      'https://iptv36.netlify.app/one.m3u8', // 720p
       'http://freelive2.inwstream.com:1935/freelive-edge/onehd/playlist.m3u8',
       'http://live2.dootvde.com/live/50022_one_hd.stream.smil/playist.m3u8', // 720p
       'https://one31-rlbwkq.cdn.byteark.com/live/playlist-hd.m3u8', // 240p auto
@@ -207,7 +207,14 @@ const streamingInfo = {
   ch7: {
     channelName: 'CH7',
     logo: 'https://iptv36.my.to/logo/ch7.png',
-    urlList: [['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/7hd/playlist.m3u8']],
+    urlList: [
+      ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/7hd/playlist.m3u8'],
+      [
+        'HD',
+        'https://bbtvalive-hw-aes.bugaboo.tv/liveedgech7/auto.smil/chunklist_b4540800_sleng.m3u8',
+      ],
+      ['HD', 'https://bbtvalive-hw-aes.bugaboo.tv/liveedgech7/auto.smil/playlist.m3u8'],
+    ],
     groupName: thDtvWithCurrentDate,
   },
 
@@ -680,35 +687,28 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
   // config
   let config = [
     // [channelKey, channelNameSuffix, pageUrl, appendUrlToBottom=false]
-    ['workpoint', 'HD', 'https://www.dailymotion.com/embed/video/x6g9qjj'],
-    ['nation', 'HD', 'https://www.dailymotion.com/embed/video/x6eoldf'],
-    ['mcot', '', 'https://www.dailymotion.com/embed/video/x74wlgj'],
-    ['amarin', 'HD', 'https://www.dailymotion.com/embed/video/x7z8zsu'],
-    ['ch8', 'HD', 'https://www.dailymotion.com/embed/video/x84ukk7'],
+    ['workpoint', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6g9qjj'],
+    ['nation', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
+    ['mcot', '', 'https://www.dailymotion.com/player/metadata/video/x74wlgj'],
+    ['amarin', 'HD', 'https://www.dailymotion.com/player/metadata/video/x7z8zsu'],
+    ['ch8', 'HD', 'https://www.dailymotion.com/player/metadata/video/x84ukk7'],
     // geo restricted
-    // ['gmm25', 'HD', 'https://www.dailymotion.com/embed/video/k7KnbDPalNddQqrJq1J'],
+    ['gmm25', 'HD', 'https://www.dailymotion.com/player/metadata/video/k7KnbDPalNddQqrJq1J'],
   ];
 
   let result = {};
   await Promise.all(
     config.map(async ([channelKey, channelNameSuffix, pageUrl, appendUrlToBottom = false]) => {
-      let rawPageHtml = '';
+      let videoMetaData = {};
       try {
         const response = await axios.get(pageUrl);
-        rawPageHtml = response.data;
+        videoMetaData = response.data;
       } catch (error) {
         console.error(`Cannot extract playlist for channel ${channelKey}`);
         console.error(error);
       }
 
-      let regExpMatchArray = rawPageHtml.match(
-        /"(https:\\\/\\\/www\.dailymotion\.com\\\/cdn\\\/live\\\/video\\\/.*?\.m3u8\?sec=.*?)"/
-      );
-
-      let livePlayListUrl = '';
-      if (regExpMatchArray) {
-        livePlayListUrl = regExpMatchArray[1].replace(/\\\//g, '/');
-      }
+      let livePlayListUrl = videoMetaData.qualities.auto[0].url || '';
 
       if (livePlayListUrl) {
         try {
@@ -741,52 +741,6 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
     })
   );
 };
-
-// const dynamicallyAddStreamingUrlByDetectM3U8Url = async () => {
-//   console.log('Getting dynamic streaming url...');
-
-//   // config
-//   let config = [
-//     // [channelKey, channelNameSuffix, pageUrl, appendUrlToBottom=false]
-//     ['tnn16', 'HD', 'https://www.tnnthailand.com/live'], // 720p
-//     [
-//       'true4u',
-//       'HD',
-//       `https://true4u.com/live-api?ip=127.0.0.1&uid=${Math.random()
-//         .toString(36)
-//         .substring(2, 12)}&session=${Math.random().toString(36).substring(2, 12)}`,
-//     ],
-//   ];
-
-//   let result = {};
-//   await Promise.all(
-//     config.map(async ([channelKey, channelNameSuffix, pageUrl, appendUrlToBottom = false]) => {
-//       let rawPageHtml = '';
-//       try {
-//         const response = await axios.get(pageUrl);
-//         rawPageHtml = response.data;
-//       } catch (error) {
-//         console.error(`Cannot extract playlist for channel ${channelKey}`);
-//         console.error(error);
-//       }
-
-//       let regExpMatchArray = rawPageHtml.match(/https?:\/\/.+?\.m3u8(\?[^"]+)?/);
-
-//       if (regExpMatchArray) {
-//         if (!(channelKey in streamingInfo)) {
-//           console.error(`Not recognize channel ${channelKey}`);
-//           return;
-//         }
-//         let url = regExpMatchArray[0].replace('m_auto_tidl', 'w_auto_tidapp');
-//         if (appendUrlToBottom) {
-//           streamingInfo[channelKey].urlList.push([channelNameSuffix, regExpMatchArray[0]]);
-//         } else {
-//           streamingInfo[channelKey].urlList.unshift([channelNameSuffix, regExpMatchArray[0]]);
-//         }
-//       }
-//     })
-//   );
-// };
 
 const testUrl = async (url) => {
   // list of url that we will always not check
