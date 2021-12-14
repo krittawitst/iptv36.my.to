@@ -58,7 +58,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 15          | GMM25 Backup          |
 | 16          | TNN16 HD              |
 | 17          | TNN16 Backup          |
-| 18          | JKN 18 HD             |
+| 18          | JKN18 HD              |
 | 19          | PSI Saradee HD        |
 | 20          | Cartoon Club          |
 | 21          | Voice TV HD           |

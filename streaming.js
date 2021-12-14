@@ -66,7 +66,7 @@ const streamingInfo = {
   },
 
   jkn18: {
-    channelName: 'JKN 18',
+    channelName: 'JKN18',
     logo: 'https://iptv36.my.to/logo/jkn18.jpg',
     urlList: [['HD', 'https://5f27aa1f6ef91.streamlock.net/jkncnbc/myStream/playlist.m3u8']],
     groupName: thDtvWithCurrentDate,
@@ -691,9 +691,9 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
     ['nation', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
     ['mcot', '', 'https://www.dailymotion.com/player/metadata/video/x74wlgj'],
     ['amarin', 'HD', 'https://www.dailymotion.com/player/metadata/video/x7z8zsu'],
-    ['ch8', 'HD', 'https://www.dailymotion.com/player/metadata/video/x84ukk7'],
+    // ['ch8', 'HD', 'https://www.dailymotion.com/player/metadata/video/x84ukk7'],
     // geo restricted
-    ['gmm25', 'HD', 'https://www.dailymotion.com/player/metadata/video/k7KnbDPalNddQqrJq1J'],
+    // ['gmm25', 'HD', 'https://www.dailymotion.com/player/metadata/video/k7KnbDPalNddQqrJq1J'],
   ];
 
   let result = {};
@@ -754,7 +754,8 @@ const testUrl = async (url) => {
     url.includes('rtsp://') ||
     url.includes('203.154.243.89') || // warner
     url.includes('27.254.142.207') || // m channel
-    url.includes('streamlock.net') // jkn
+    url.includes('streamlock.net') || // jkn
+    url.includes('bbtvalive-hw-aes.bugaboo.tv') // ch7
   ) {
     return true;
   }
