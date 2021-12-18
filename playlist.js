@@ -59,10 +59,10 @@ const proPlaylist = {
     ['ctb'],
     ['fwmov'],
     ['fwsov'],
-    ['warnertv'],
+    ['fwtoon'],
 
     // 41-50
-    ['fwtoon'],
+    ['warnertv'],
   ],
 };
 

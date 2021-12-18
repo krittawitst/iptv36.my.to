@@ -209,11 +209,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/ch7.png',
     urlList: [
       ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/7hd/playlist.m3u8'],
-      [
-        'HD',
-        'https://bbtvalive-hw-aes.bugaboo.tv/liveedgech7/auto.smil/chunklist_b4540800_sleng.m3u8',
-      ],
-      ['HD', 'https://bbtvalive-hw-aes.bugaboo.tv/liveedgech7/auto.smil/playlist.m3u8'],
+      ['HD', 'https://bbtvalive-hw-aes.bugaboo.tv/liveedgech7/auto.smil/playlist.m3u8'], // auto
     ],
     groupName: thDtvWithCurrentDate,
   },
