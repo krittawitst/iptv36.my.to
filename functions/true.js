@@ -22,23 +22,29 @@ exports.handler = async (event, context, callback) => {
   try {
     const response = await axios.get(pageUrl);
     rawData = response.data;
-  } catch (error) {
-    return { statusCode: 404, body: `Cannot get data for channel "${channel}" at "${pageUrl}"` };
-  }
 
-  if (channel === 'tnn16hd') {
-    let regExpMatchArray = rawData.match(/https:\/\/.[^"']+?\.m3u8(\?[^"']+)?/);
-    if (regExpMatchArray) {
-      streamingUrl = regExpMatchArray[0]
-        .replace('%3D%3D', '')
-        .replace('m_auto_tidl', 'w_auto_tidapp');
+    if (channel === 'tnn16hd') {
+      let regExpMatchArray = rawData.match(/https:\/\/.[^"']+?\.m3u8(\?[^"']+)?/);
+      if (regExpMatchArray) {
+        streamingUrl = regExpMatchArray[0]
+          .replace('%3D%3D', '')
+          .replace('m_auto_tidl', 'w_auto_tidapp');
+      }
+    } else if (channel === 'true4uhd') {
+      streamingUrl = rawData.replace('playlist.m3u8', 'pl_720p/index.m3u8');
     }
-  } else if (channel === 'true4uhd') {
-    streamingUrl = rawData.replace('playlist.m3u8', 'pl_720p/index.m3u8');
-  }
 
-  console.log(`request ${event.queryStringParameters.channel}\nreturn ${streamingUrl}`);
-  console.log('='.repeat(20));
+    console.log(`request ${event.queryStringParameters.channel}\nreturn ${streamingUrl}`);
+    console.log('='.repeat(20));
+  } catch (error) {
+    if (channel === 'tnn16hd') {
+      streamingUrl = 'http://freelive2.inwstream.com:1935/freelive-edge/tnn24/playlist.m3u8';
+    } else if (channel === 'true4uhd') {
+      streamingUrl = 'http://freelive.inwstream.com:1935/freelive-edge/true4u/playlist.m3u8';
+    }
+    console.error(`request ${event.queryStringParameters.channel}\nreturn ${error}`);
+    console.error('='.repeat(20));
+  }
 
   return {
     statusCode: 302,
