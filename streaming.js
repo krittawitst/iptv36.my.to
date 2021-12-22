@@ -96,9 +96,8 @@ const streamingInfo = {
     channelName: 'True4U',
     logo: 'https://iptv36.my.to/logo/true4u.png',
     urlList: [
-      'https://iptv36.netlify.app/api/true?channel=true4uhd',
+      ['HD', 'https://iptv36.netlify.app/api/true?channel=true4uhd'],
       'http://freelive.inwstream.com:1935/freelive-edge/true4u/playlist.m3u8',
-      // 'https://tnnthailand-msqo7x.cdn.byteark.com/live/pl_720p/index.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -777,7 +776,11 @@ const testUrl = async (url) => {
 
       if (
         process.env.NETLIFY &&
-        (url.includes('3bb.co.th') || url.includes('prsmedia') || url.includes('login.in.th'))
+        (url.includes('3bb.co.th') ||
+          url.includes('prsmedia') ||
+          url.includes('login.in.th') ||
+          url.includes('r4-sn-w5nuxa-o53d.googlevideocdn.com') ||
+          url.includes('/api/true?channel=true4uhd'))
       ) {
         return true;
       }
