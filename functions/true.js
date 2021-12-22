@@ -6,9 +6,7 @@ exports.handler = async (event, context, callback) => {
     tnn16hd: `https://www.tnnthailand.com/live-api/?ip=127.0.0.1&uid=${Math.random()
       .toString(36)
       .substring(2, 12)}&session=${Math.random().toString(36).substring(2, 12)}`,
-    true4uhd: `https://true4u.com/live-api?ip=127.0.0.1&uid=${Math.random()
-      .toString(36)
-      .substring(2, 12)}&session=${Math.random().toString(36).substring(2, 12)}`,
+    true4uhd: `https://true4u.com/live-api/signer-url?prefix=/live`,
   };
 
   let channel = event.queryStringParameters.channel;
@@ -25,14 +23,18 @@ exports.handler = async (event, context, callback) => {
     const response = await axios.get(pageUrl);
     rawData = response.data;
   } catch (error) {
-    return { statusCode: 404, body: `Cannot get data for channel "${channelKey}" at "${pageUrl}"` };
+    return { statusCode: 404, body: `Cannot get data for channel "${channel}" at "${pageUrl}"` };
   }
 
-  let regExpMatchArray = rawData.match(/https:\/\/.[^"']+?\.m3u8(\?[^"']+)?/);
-  if (regExpMatchArray) {
-    streamingUrl = regExpMatchArray[0]
-      .replace('%3D%3D', '')
-      .replace('m_auto_tidl', 'w_auto_tidapp');
+  if (channel === 'tnn16hd') {
+    let regExpMatchArray = rawData.match(/https:\/\/.[^"']+?\.m3u8(\?[^"']+)?/);
+    if (regExpMatchArray) {
+      streamingUrl = regExpMatchArray[0]
+        .replace('%3D%3D', '')
+        .replace('m_auto_tidl', 'w_auto_tidapp');
+    }
+  } else if (channel === 'true4uhd') {
+    streamingUrl = rawData.replace('playlist.m3u8', 'pl_720p/index.m3u8');
   }
 
   console.log(`request ${event.queryStringParameters.channel}\nreturn ${streamingUrl}`);
