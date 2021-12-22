@@ -62,7 +62,9 @@ const proPlaylist = {
     ['fwtoon'],
 
     // 41-50
+    ['cartoonnetwork'],
     ['warnertv'],
+    ['truethaifilm'],
   ],
 };
 

@@ -96,7 +96,7 @@ const streamingInfo = {
     channelName: 'True4U',
     logo: 'https://iptv36.my.to/logo/true4u.png',
     urlList: [
-      // 'https://iptv36.netlify.app/api/true?channel=true4uhd',
+      'https://iptv36.netlify.app/api/true?channel=true4uhd',
       'http://freelive.inwstream.com:1935/freelive-edge/true4u/playlist.m3u8',
       // 'https://tnnthailand-msqo7x.cdn.byteark.com/live/pl_720p/index.m3u8',
     ],
@@ -109,11 +109,10 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-01.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_Us_ZwHyqUAsTQ2bmRdfW9A)/dm/3/x6rz4t7/s/live-2.m3u8',
+        'https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_Y0MLq85WHoFm6sm2pR3SQw)/dm/3/x6rz4t7/s/live-2.m3u8',
       ],
       'http://freelive2.inwstream.com:1935/freelive-edge/gmmchannel/playlist.m3u8',
       'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8', // 720p upscale
-      'http://host4.dynns.com/stream/ab0b43ef8363438098a94101e93ca138.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -188,8 +187,8 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/ch3.png',
     urlList: [
       ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/3hd/playlist.m3u8'],
-      ['HD', 'http://host4.dynns.com/stream/a4485b656d764f308c63b14a8bf62326.m3u8'], // 720p
       ['HD', 'http://live2.dootvde.com/live/50001_ch3.stream.smil/playist.m3u8'], // 720p
+      ['HD', 'https://r4-sn-w5nuxa-o53d.googlevideocdn.com/digitaltv/ch3hd/playlist.m3u8'],
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -349,7 +348,7 @@ const streamingInfo = {
   cartoonnetwork: {
     channelName: 'Cartoon Network HD',
     logo: 'https://iptv36.my.to/logo/cnhd.png',
-    urlList: [],
+    urlList: ['https://r4-sn-w5nuxa-o53d.googlevideocdn.com/kids/cnhd/playlist.m3u8'],
     groupName: 'CARTOON',
   },
 
@@ -624,6 +623,15 @@ const streamingInfo = {
     channelName: 'True Film HD',
     logo: 'https://iptv36.my.to/logo/truefilm.png',
     urlList: [],
+    groupName: 'ENTERTAINMENT',
+  },
+
+  truethaifilm: {
+    channelName: 'True Thai Film HD',
+    logo: 'https://cmsimgservices.dmpcdn.com/v1/resize?url=https%3A%2F%2Fcms.dmpcdn.com%2Flivetv%2F2018%2F12%2F17%2F6422ad5a-27f3-4d0e-b0d0-d811c1e652e0.png&w=100&h=75',
+    urlList: [
+      'https://r4-sn-w5nuxa-o53d.googlevideocdn.com/entertainment/truethaifilm/playlist.m3u8',
+    ],
     groupName: 'ENTERTAINMENT',
   },
 

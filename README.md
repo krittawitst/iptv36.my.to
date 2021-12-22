@@ -68,8 +68,8 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 25          | GMM25 HD              |
 | 26          | TVB Thai              |
 | 27          | CH8 HD                |
-| 28          | MONO29 Soundtrack HD  |
-| 29          | MONO29 HD             |
+| 28          | MONO29 Soundtrack     |
+| 29          | MONO29                |
 | 30          | MCOT HD               |
 | 31          | ONE HD                |
 | 32          | Thairath TV HD        |
