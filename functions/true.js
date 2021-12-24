@@ -30,9 +30,10 @@ exports.handler = async (event, context, callback) => {
           .replace('%3D%3D', '')
           .replace('m_auto_tidl', 'w_auto_tidapp');
       }
-    } else if (channel === 'true4uhd') {
-      streamingUrl = rawData.replace('playlist.m3u8', 'pl_720p/index.m3u8');
     }
+    // else if (channel === 'true4uhd') {
+    //   streamingUrl = rawData.replace('playlist.m3u8', 'pl_720p/index.m3u8');
+    // }
 
     console.log(`request ${event.queryStringParameters.channel}\nreturn ${streamingUrl}`);
     console.log('='.repeat(20));
