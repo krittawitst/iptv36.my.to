@@ -96,23 +96,40 @@ const getEpgDataFromAisPlay = async () => {
 
   // mapping tvg id
   let channelIdToChannelKey = {
+    '596703d8bf6aee05dcdfc118': 'nbt',
     '5efdd162fbb0045345ef2b61': 'altv',
-    // '597b8e8c7ed5a24e46f6724b': 'new18',
-    // '5959246bd817de1df1747475': 'true4u',
+    '597b93a97ed5a24e45c3ab13': 'thaipbs',
+    '597b89f07ed5a24e46f6724a': 'tv5',
+    '597be02d7ed5a24e46f67254': 'tptv',
+    '59671d1cd817de1df19711a6': 'tnn16',
+    '597b8e8c7ed5a24e46f6724b': 'jkn18',
+    '59670ee5aae73105f56e3400': 'nation',
+    '59590b6ed817de1df1747472': 'workpoint',
+    '5959246bd817de1df1747475': 'true4u',
+    '59592d98aae7312bfffb2c8a': 'gmm25',
+    '597b85fd7ed5a24e45c3ab10': 'ch8',
+    '60811938fa3813c616f38b63': 'mono29',
+    '5efec3f10f6d9dc4b26c6e77': 'mcot',
+    '5959255eaae7312bfffb2c86': 'one',
+    '60bd9c7b497960d3f9a3e222': 'thairath',
+    '59592e08bf6aee4e3ecce051': 'ch3',
+    '596377e4aae7317871d1b632': 'amarin',
+    '5abdd28daae73161cb8ef446': 'ch7',
+    '5d4bebb6aae7315312049035': 'pptv',
     '5fdb33c120ccacf849c813ef': 'voice',
-    '5ee1eb4d0f24872fd951d196': 'paramount',
-    '597e004b7ed5a24e46f6725a': 'warnertv',
-    '5e44faeeaae73158d325f8f9': 'hitsmovies',
-    '59ab204faae7311c5f0cc5ea': 'blueantent',
-    '597bd2a07ed5a24e46f6724f': 'm',
-    '5e69984f609ced33cfa4e734': 'bein1',
-    '5e699a69bf6aee30a499dc9b': 'bein2',
-    '5a52f069aae731507f5387bb': 'cartoonnetwork',
-    '5d424cdbaae73145f7f2b675': 'toonee',
-    '5ee1ecafb544d498b9d1d2e8': 'nickelodeon',
-    '597d21477ed5a24e46f67258': 'cartoonclub',
-    '5e6215e6d817de33506cedf7': 'discoveryasia',
-    '597dfea47ed5a24e46f67259': 'boomerang',
+    // '5ee1eb4d0f24872fd951d196': 'paramount',
+    // '597e004b7ed5a24e46f6725a': 'warnertv',
+    // '5e44faeeaae73158d325f8f9': 'hitsmovies',
+    // '59ab204faae7311c5f0cc5ea': 'blueantent',
+    // '597bd2a07ed5a24e46f6724f': 'm',
+    // '5e69984f609ced33cfa4e734': 'bein1',
+    // '5e699a69bf6aee30a499dc9b': 'bein2',
+    // '5a52f069aae731507f5387bb': 'cartoonnetwork',
+    // '5d424cdbaae73145f7f2b675': 'toonee',
+    // '5ee1ecafb544d498b9d1d2e8': 'nickelodeon',
+    // '597d21477ed5a24e46f67258': 'cartoonclub',
+    // '5e6215e6d817de33506cedf7': 'discoveryasia',
+    // '597dfea47ed5a24e46f67259': 'boomerang',
   };
 
   // build parameter
@@ -307,9 +324,9 @@ const getEpgDataFromTrueVisions = async () => {
 
 const getEpgData = async () => {
   // EPG
-  let epgDataFromNbtcPromise = getEpgDataFromNbtc();
+  let epgDataFromNbtcPromise = []; // getEpgDataFromNbtc();
   let epgDataFromAisPlayPromise = getEpgDataFromAisPlay();
-  let epgDataFromTrueVisionsPromise = getEpgDataFromTrueVisions();
+  let epgDataFromTrueVisionsPromise = []; // getEpgDataFromTrueVisions();
 
   const [epgDataFromNbtc, epgDataFromAisPlay, epgDataFromTrueVisions] = await Promise.all([
     epgDataFromNbtcPromise,
