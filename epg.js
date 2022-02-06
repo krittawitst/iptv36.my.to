@@ -8,9 +8,9 @@ const getEpgDataFromNbtc = async () => {
 
   // mapping tvg id
   let channelNoToChannelKey = {
-    '01': 'tv5',
     '02': 'nbt',
     '03': 'thaipbs',
+    '05': 'tv5',
     10: 'tptv',
     16: 'tnn16',
     18: 'new18',
@@ -48,7 +48,7 @@ const getEpgDataFromNbtc = async () => {
   // process data
   let epgData = [];
   for (let result of rawData.results) {
-    if (!result.channelNo in channelNoToChannelKey) {
+    if (!(result.channelNo in channelNoToChannelKey)) {
       continue;
     }
 

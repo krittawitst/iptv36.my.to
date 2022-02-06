@@ -60,11 +60,6 @@ const proPlaylist = {
     ['fwmov'],
     ['fwsov'],
     ['fwtoon'],
-
-    // 41-50
-    ['cartoonnetwork'],
-    ['warnertv'],
-    ['truethaifilm'],
   ],
 };
 

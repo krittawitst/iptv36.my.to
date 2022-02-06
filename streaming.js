@@ -96,7 +96,7 @@ const streamingInfo = {
     channelName: 'True4U',
     logo: 'https://iptv36.my.to/logo/true4u.png',
     urlList: [
-      ['HD', 'https://iptv36.netlify.app/api/true?channel=true4uhd'],
+      // ['HD', 'https://iptv36.netlify.app/api/true?channel=true4uhd'],
       'http://freelive.inwstream.com:1935/freelive-edge/true4u/playlist.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
@@ -108,7 +108,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_Y0MLq85WHoFm6sm2pR3SQw)/dm/3/x6rz4t7/s/live-2.m3u8',
+        'https://stream-05.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_eQybyTrrrARLQCa17FO-70)/dm/3/x6rz4t7/s/live-2.m3u8',
       ],
       'http://freelive2.inwstream.com:1935/freelive-edge/gmmchannel/playlist.m3u8',
       'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8', // 720p upscale
@@ -162,10 +162,9 @@ const streamingInfo = {
     channelName: 'ONE HD',
     logo: 'https://iptv36.my.to/logo/one.png',
     urlList: [
-      'https://iptv36.netlify.app/one.m3u8', // 720p
       'http://freelive2.inwstream.com:1935/freelive-edge/onehd/playlist.m3u8',
+      'https://stream-01.sg1.dailymotion.com/sec(-0fhsFhycCtfi6ARUwilaBwvNhz-Zw4HAQPhgj_OXAU)/dm/3/x6824x8/s/live-3.m3u8',
       'http://live2.dootvde.com/live/50022_one_hd.stream.smil/playist.m3u8', // 720p
-      'https://one31-rlbwkq.cdn.byteark.com/live/playlist-hd.m3u8', // 240p auto
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -174,9 +173,8 @@ const streamingInfo = {
     channelName: 'Thairath TV HD',
     logo: 'https://iptv36.my.to/logo/thairath.png',
     urlList: [
-      'https://thairathtv.cdn.byteark.com/fleetstream/live1/720p/index.m3u8',
+      'https://thairathtv.cdn.byteark.com/fleetstream/live2/720p/index.m3u8',
       'http://freelive2.inwstream.com:1935/freelive-edge/thairahttvhd/playlist.m3u8',
-      'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -187,7 +185,6 @@ const streamingInfo = {
     urlList: [
       ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/3hd/playlist.m3u8'],
       ['HD', 'http://live2.dootvde.com/live/50001_ch3.stream.smil/playist.m3u8'], // 720p
-      ['HD', 'https://r4-sn-w5nuxa-o53d.googlevideocdn.com/digitaltv/ch3hd/playlist.m3u8'],
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -207,7 +204,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/ch7.png',
     urlList: [
       ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/7hd/playlist.m3u8'],
-      ['HD', 'https://bbtvalive-hw-aes.bugaboo.tv/liveedgech7/auto.smil/playlist.m3u8'], // auto
+      'https://bcovlive-a.akamaihd.net/efdfa4b2dfc54cb38fdb120d52973e95/ap-southeast-1/5282994675001/profile_3/chunklist.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -694,9 +691,6 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
     ['nation', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
     ['mcot', '', 'https://www.dailymotion.com/player/metadata/video/x74wlgj'],
     ['amarin', 'HD', 'https://www.dailymotion.com/player/metadata/video/x7z8zsu'],
-    // ['ch8', 'HD', 'https://www.dailymotion.com/player/metadata/video/x84ukk7'],
-    // geo restricted
-    // ['gmm25', 'HD', 'https://www.dailymotion.com/player/metadata/video/k7KnbDPalNddQqrJq1J'],
   ];
 
   let result = {};
@@ -758,7 +752,7 @@ const testUrl = async (url) => {
     url.includes('203.154.243.89') || // warner
     url.includes('27.254.142.207') || // m channel
     url.includes('streamlock.net') || // jkn
-    url.includes('bbtvalive-hw-aes.bugaboo.tv') // ch7
+    url.includes('/api/true?channel=tnn16hd') // tnn
   ) {
     return true;
   }
@@ -779,8 +773,7 @@ const testUrl = async (url) => {
         (url.includes('3bb.co.th') ||
           url.includes('prsmedia') ||
           url.includes('login.in.th') ||
-          url.includes('r4-sn-w5nuxa-o53d.googlevideocdn.com') ||
-          url.includes('/api/true?channel=true4uhd'))
+          url.includes('r4-sn-w5nuxa-o53d.googlevideocdn.com'))
       ) {
         return true;
       }
