@@ -31,7 +31,7 @@ exports.handler = async (event, context, callback) => {
           .replace('m_auto_tidl', 'w_auto_tidapp');
       }
     } else if (channel === 'true4uhd') {
-      streamingUrl = 'http://freelive2.inwstream.com:1935/freelive-edge/true4u/playlist.m3u8'; // rawData.replace('playlist.m3u8', 'pl_720p/index.m3u8');
+      streamingUrl = rawData;
     }
 
     console.log(`request ${event.queryStringParameters.channel}\nreturn ${streamingUrl}`);
