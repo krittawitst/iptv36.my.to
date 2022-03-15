@@ -11,7 +11,6 @@ const streamingInfo = {
     channelName: 'TV5 HD',
     logo: 'https://iptv36.my.to/logo/tv5.png',
     urlList: [
-      'http://110.170.117.27:1935/apptv5hd1live/vdo-tv5hd1/playlist.m3u8',
       'http://freelive.inwstream.com:1935/freelive-edge/5hd/playlist.m3u8', // 720p
     ],
     groupName: thDtvWithCurrentDate,
@@ -20,10 +19,7 @@ const streamingInfo = {
   nbt: {
     channelName: 'NBT',
     logo: 'https://iptv36.my.to/logo/nbt.png',
-    urlList: [
-      ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/nbt/playlist.m3u8'],
-      ['HD', 'http://live2.dootvde.com/live/50005_nbt.stream.smil/playist.m3u8'],
-    ],
+    urlList: [['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/nbt/playlist.m3u8']],
     groupName: thDtvWithCurrentDate,
   },
 
@@ -75,20 +71,14 @@ const streamingInfo = {
   nation: {
     channelName: 'Nation TV',
     logo: 'https://iptv36.my.to/logo/nation.png',
-    urlList: [
-      'http://freelive2.inwstream.com:1935/freelive-edge/nation/playlist.m3u8',
-      'http://live2.dootvde.com/live/50015_nation.stream.smil/playist.m3u8', // 720p upscale
-    ],
+    urlList: ['http://freelive2.inwstream.com:1935/freelive-edge/nation/playlist.m3u8'],
     groupName: thDtvWithCurrentDate,
   },
 
   workpoint: {
     channelName: 'Workpoint TV',
     logo: 'https://iptv36.my.to/logo/workpoint.png',
-    urlList: [
-      'http://freelive.inwstream.com:1935/freelive-edge/workpointtv/playlist.m3u8',
-      'http://live2.dootvde.com/live/50016_workpoint_tv.stream.smil/playist.m3u8', // 720p upscale lost
-    ],
+    urlList: ['http://freelive.inwstream.com:1935/freelive-edge/workpointtv/playlist.m3u8'],
     groupName: thDtvWithCurrentDate,
   },
 
@@ -108,10 +98,9 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-05.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_eQybyTrrrARLQCa17FO-70)/dm/3/x6rz4t7/s/live-2.m3u8',
+        'https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_dI9tiORCOAu6bZdfDkjtMo)/dm/3/x6rz4t7/s/live-4.m3u8',
       ],
       'http://freelive2.inwstream.com:1935/freelive-edge/gmmchannel/playlist.m3u8',
-      'http://live2.dootvde.com/live/50018_gmm.stream.smil/playist.m3u8', // 720p upscale
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -161,11 +150,7 @@ const streamingInfo = {
   one: {
     channelName: 'ONE HD',
     logo: 'https://iptv36.my.to/logo/one.png',
-    urlList: [
-      'http://freelive2.inwstream.com:1935/freelive-edge/onehd/playlist.m3u8',
-      'https://stream-01.sg1.dailymotion.com/sec(-0fhsFhycCtfi6ARUwilaBwvNhz-Zw4HAQPhgj_OXAU)/dm/3/x6824x8/s/live-3.m3u8',
-      'http://live2.dootvde.com/live/50022_one_hd.stream.smil/playist.m3u8', // 720p
-    ],
+    urlList: ['http://freelive2.inwstream.com:1935/freelive-edge/onehd/playlist.m3u8'],
     groupName: thDtvWithCurrentDate,
   },
 
@@ -173,7 +158,7 @@ const streamingInfo = {
     channelName: 'Thairath TV HD',
     logo: 'https://iptv36.my.to/logo/thairath.png',
     urlList: [
-      'https://thairathtv.cdn.byteark.com/fleetstream/live2/720p/index.m3u8',
+      'hhttps://live.thairath.co.th/trtv2/playlist_720p/index.m3u8',
       'http://freelive2.inwstream.com:1935/freelive-edge/thairahttvhd/playlist.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
@@ -182,10 +167,7 @@ const streamingInfo = {
   ch3: {
     channelName: 'CH3',
     logo: 'https://iptv36.my.to/logo/ch3.png',
-    urlList: [
-      ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/3hd/playlist.m3u8'],
-      ['HD', 'http://live2.dootvde.com/live/50001_ch3.stream.smil/playist.m3u8'], // 720p
-    ],
+    urlList: [['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/3hd/playlist.m3u8']],
     groupName: thDtvWithCurrentDate,
   },
 
@@ -194,7 +176,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/amarin.png',
     urlList: [
       ['HD', 'http://freelive.inwstream.com:1935/freelive-edge/amarinhd/playlist.m3u8'], // 720p
-      ['HD', 'http://live2.dootvde.com/live/50025_amarin_tv_hd.stream.smil/playist.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -204,7 +185,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/ch7.png',
     urlList: [
       ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/7hd/playlist.m3u8'],
-      'https://bcovlive-a.akamaihd.net/efdfa4b2dfc54cb38fdb120d52973e95/ap-southeast-1/5282994675001/profile_3/chunklist.m3u8',
+      ['HD', 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com'],
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -214,7 +195,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/pptv.png',
     urlList: [
       ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/pptvhd/playlist.m3u8'],
-      ['HD', 'http://live2.dootvde.com/live/50026_pptv_hd.stream.smil/playist.m3u8'], // 720p
+      ['HD', 'https://freelive.inwstream.com:1936/freelive-edge/pptvhd/playlist.m3u8'],
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -691,6 +672,11 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
     ['nation', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
     ['mcot', '', 'https://www.dailymotion.com/player/metadata/video/x74wlgj'],
     ['amarin', 'HD', 'https://www.dailymotion.com/player/metadata/video/x7z8zsu'],
+    [
+      'one',
+      'HD',
+      'https://www.dailymotion.com/player/metadata/video/k3zVMFmXlPiFlqpt3A0?embedder=https://www.one31.net/',
+    ],
   ];
 
   let result = {};
@@ -718,7 +704,7 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
           const response = await axios.get(livePlayListUrl);
           let rawPlayList = response.data;
 
-          for (let i = 4; i >= 1; i--) {
+          for (let i = 4; i >= 0; i--) {
             let regExp = new RegExp(`https:\/\/.*?\/live-[${i}]\.m3u8`);
             let regExpMatchArray = rawPlayList.match(regExp);
 
@@ -790,10 +776,6 @@ const testUrl = async (url) => {
         errorMsg === 'ECONNRESET' &&
         (url.includes('stream.rs.co.th') || url.includes('bugaboo.tv'))
       ) {
-        return true;
-      }
-
-      if (process.env.NETLIFY && errorMsg === 'ECONNABORTED' && url.includes('live2.dootvde.com')) {
         return true;
       }
 

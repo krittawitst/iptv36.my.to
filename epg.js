@@ -154,6 +154,11 @@ const getEpgDataFromAisPlay = async () => {
 
   // process data
   let epgData = [];
+
+  if (rawData.items == undefined) {
+    return [];
+  }
+
   for (let item of rawData.items) {
     let channelKey = channelIdToChannelKey[item.parent];
     let programStartStr = `${item.date}${item.start}`.replace(/-|:|T/g, '') + ' +0700';
@@ -324,8 +329,8 @@ const getEpgDataFromTrueVisions = async () => {
 
 const getEpgData = async () => {
   // EPG
-  let epgDataFromNbtcPromise = []; // getEpgDataFromNbtc();
-  let epgDataFromAisPlayPromise = getEpgDataFromAisPlay();
+  let epgDataFromNbtcPromise = getEpgDataFromNbtc();
+  let epgDataFromAisPlayPromise = []; // getEpgDataFromAisPlay();
   let epgDataFromTrueVisionsPromise = []; // getEpgDataFromTrueVisions();
 
   const [epgDataFromNbtc, epgDataFromAisPlay, epgDataFromTrueVisions] = await Promise.all([
