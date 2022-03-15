@@ -86,7 +86,7 @@ const streamingInfo = {
     channelName: 'True4U',
     logo: 'https://iptv36.my.to/logo/true4u.png',
     urlList: [
-      // ['HD', 'https://iptv36.netlify.app/api/true?channel=true4uhd'],
+      ['HD', 'https://iptv36.netlify.app/api/true?channel=true4uhd'],
       'http://freelive.inwstream.com:1935/freelive-edge/true4u/playlist.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
@@ -98,7 +98,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_dI9tiORCOAu6bZdfDkjtMo)/dm/3/x6rz4t7/s/live-4.m3u8',
+        'https://stream-05.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_dI9tiORCOAu6bZdfDkjtMo)/dm/3/x6rz4t7/s/live-4.m3u8',
       ],
       'http://freelive2.inwstream.com:1935/freelive-edge/gmmchannel/playlist.m3u8',
     ],
@@ -158,7 +158,7 @@ const streamingInfo = {
     channelName: 'Thairath TV HD',
     logo: 'https://iptv36.my.to/logo/thairath.png',
     urlList: [
-      'hhttps://live.thairath.co.th/trtv2/playlist_720p/index.m3u8',
+      'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8',
       'http://freelive2.inwstream.com:1935/freelive-edge/thairahttvhd/playlist.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
@@ -738,7 +738,7 @@ const testUrl = async (url) => {
     url.includes('203.154.243.89') || // warner
     url.includes('27.254.142.207') || // m channel
     url.includes('streamlock.net') || // jkn
-    url.includes('/api/true?channel=tnn16hd') // tnn
+    url.includes('/api/true') // tnn
   ) {
     return true;
   }

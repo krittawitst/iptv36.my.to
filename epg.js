@@ -41,9 +41,9 @@ const getEpgDataFromNbtc = async () => {
     return [];
   }
 
-  // get program start now + 1.5 days
+  // get program start now + 4 days
   let currentDatetime = new Date();
-  let currentDatetimePlus36Hrs = new Date(currentDatetime.getTime() + 36 * 3600 * 1000);
+  let currentDatetimePlus96Hrs = new Date(currentDatetime.getTime() + 96 * 3600 * 1000);
 
   // process data
   let epgData = [];
@@ -56,7 +56,7 @@ const getEpgDataFromNbtc = async () => {
     for (let program of result.programOfChannel) {
       let programStart = new Date(program.pgBeginTimeLong * 1000);
       let programEnd = new Date(program.pgEndTimeLong * 1000);
-      if (programEnd < currentDatetime || programStart > currentDatetimePlus36Hrs) {
+      if (programEnd < currentDatetime || programStart > currentDatetimePlus96Hrs) {
         continue;
       }
       let programStartStr = `${programStart

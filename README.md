@@ -64,7 +64,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 21          | Voice TV HD           |
 | 22          | Nation TV HD          |
 | 23          | Workpoint TV HD       |
-| 24          | True4U                |
+| 24          | True4U HD             |
 | 25          | GMM25 HD              |
 | 26          | TVB Thai              |
 | 27          | CH8 HD                |
