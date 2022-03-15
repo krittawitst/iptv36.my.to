@@ -697,6 +697,7 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
       } catch (error) {
         console.error(`Cannot get live playlist url for channel ${channelKey}`);
         console.error(error);
+        console.error(videoMetaData);
       }
 
       if (livePlayListUrl) {
