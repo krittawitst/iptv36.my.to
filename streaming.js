@@ -12,6 +12,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/tv5.png',
     urlList: [
       'http://freelive.inwstream.com:1935/freelive-edge/5hd/playlist.m3u8', // 720p
+      'http://110.170.117.27:1935/apptv5hd1live/vdo-tv5hd1/playlist.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -98,7 +99,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-05.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_dI9tiORCOAu6bZdfDkjtMo)/dm/3/x6rz4t7/s/live-4.m3u8',
+        'https://stream-03.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_SFjcaTLOtBOlPAqdlPdV_U)/dm/3/x6rz4t7/s/live-4.m3u8',
       ],
       'http://freelive2.inwstream.com:1935/freelive-edge/gmmchannel/playlist.m3u8',
     ],
@@ -195,7 +196,12 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/pptv.png',
     urlList: [
       ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/pptvhd/playlist.m3u8'],
-      ['HD', 'https://freelive.inwstream.com:1936/freelive-edge/pptvhd/playlist.m3u8'],
+      [
+        'HD',
+        'https://nj2yx-gbi9-cdf5.googlecdncontent.com/livestream88_digitaltv/pptv/playlist.m3u8',
+        { 'http-referrer': 'https://www.livestream88.com/' },
+      ],
+      ['HD [NO HW+]', 'https://www.livedoomovies.com:4431/02_PPTVHD_720p/chunklist.m3u8'],
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -229,9 +235,7 @@ const streamingInfo = {
     channelName: 'Premier HD1',
     logo: 'https://iptv36.my.to/logo/premier_hd1.png',
     urlList: [
-      ['[NO HW+]', 'http://77.83.117.60:8888/02_PremierHD1_720p/chunklist.m3u8'],
-      ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD1_720p/chunklist.m3u8'],
-      ['[NO HW+]', 'https://sport.livedoomovie.com/02_PremierHD1_720p/chunklist.m3u8'],
+      ['[NO HW+]', 'https://sport.livedoomovies.com:4431/02_PremierHD1_720p/chunklist.m3u8'],
     ],
     groupName: 'SPORT',
   },
@@ -672,11 +676,11 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
     ['nation', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
     ['mcot', '', 'https://www.dailymotion.com/player/metadata/video/x74wlgj'],
     ['amarin', 'HD', 'https://www.dailymotion.com/player/metadata/video/x7z8zsu'],
-    [
-      'one',
-      'HD',
-      'https://www.dailymotion.com/player/metadata/video/k3zVMFmXlPiFlqpt3A0?embedder=https://www.one31.net/',
-    ],
+    // [
+    //   'one',
+    //   'HD',
+    //   'https://www.dailymotion.com/player/metadata/video/k3zVMFmXlPiFlqpt3A0?embedder=https://www.one31.net/',
+    // ],
   ];
 
   let result = {};

@@ -60,6 +60,9 @@ const proPlaylist = {
     ['fwmov'],
     ['fwsov'],
     ['fwtoon'],
+
+    // 41
+    ['premier1'],
   ],
 };
 

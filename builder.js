@@ -9,10 +9,13 @@ const currentDatetimePlus7Hrs = new Date(currentEpochDatetime + 7 * 60 * 60 * 10
 const currentBkkDatetimeStr = currentDatetimePlus7Hrs.toISOString().slice(0, 16);
 
 const getTvgIdFromChannelKey = (channelKey) => {
-  if (channelKey === 'mono29soundtrack') {
-    return `mono29.iptv36.my.to`;
-  } else {
-    return `${channelKey}.iptv36.my.to`;
+  switch (channelKey) {
+    case 'thairath':
+      return 'ThairathTV32.th';
+    case 'mono29soundtrack':
+      return 'mono29.iptv36.my.to';
+    default:
+      return `${channelKey}.iptv36.my.to`;
   }
 };
 
@@ -30,7 +33,8 @@ const main = async () => {
 
   // generate M3U PLAYLIST file
   for (let playlist of allPlaylist) {
-    let textStr = `#EXTM3U : Thai IPTV Playlist from https://iptv36.my.to/ - Last Update ${currentBkkDatetimeStr}\n\n`;
+    let textStr = `#EXTM3U : Thai IPTV Playlist from https://iptv36.my.to/ - Last Update ${currentBkkDatetimeStr}\n`;
+    textStr += `#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml"\n\n`;
 
     // test all streaming simultaneously
     console.log(`\nChecking streaming url for playlist '${playlist.filename}'...`);
