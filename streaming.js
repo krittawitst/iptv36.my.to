@@ -87,7 +87,7 @@ const streamingInfo = {
     channelName: 'True4U',
     logo: 'https://iptv36.my.to/logo/true4u.png',
     urlList: [
-      ['HD', 'https://iptv36.netlify.app/api/true?channel=true4uhd'],
+      // ['HD', 'https://iptv36.netlify.app/api/true?channel=true4uhd'],
       'http://freelive.inwstream.com:1935/freelive-edge/true4u/playlist.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
@@ -111,8 +111,11 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/ch8.png',
     urlList: [
       ['HD', 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8'], // 720p
+      [
+        'HD',
+        'https://stream-02.sg1.dailymotion.com/sec(p5KA4QqcEoMI-Au0U41kOuTprnQVnUAUHXkBZCHZnkc)/dm/3/x84ukk7/s/live-2.m3u8',
+      ],
       'http://freelive.inwstream.com:1935/freelive-edge/ch8/playlist.m3u8', // 720p
-      // ['HD?', 'http://stream.rs.co.th/ch8-hi/index.m3u8'], // 360p too loud
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -675,7 +678,8 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
     ['workpoint', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6g9qjj'],
     ['nation', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
     ['mcot', '', 'https://www.dailymotion.com/player/metadata/video/x74wlgj'],
-    ['amarin', 'HD', 'https://www.dailymotion.com/player/metadata/video/x7z8zsu'],
+    ['amarin', 'HD', 'https://www.dailymotion.com/player/metadata/video/x7z8zsu', true],
+    ['ch8', 'HD', 'https://www.dailymotion.com/player/metadata/video/x84ukk7'],
     // [
     //   'one',
     //   'HD',
