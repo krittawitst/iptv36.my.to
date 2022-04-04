@@ -34,7 +34,7 @@ const main = async () => {
   // generate M3U PLAYLIST file
   for (let playlist of allPlaylist) {
     let textStr = `#EXTM3U : Thai IPTV Playlist from https://iptv36.my.to/ - Last Update ${currentBkkDatetimeStr}\n`;
-    textStr += `#EXTM3U x-tvg-url="ttps://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml"\n\n`;
+    textStr += `#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml"\n\n`;
     // #EXTM3U  url-tvg="https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml"
 
     // test all streaming simultaneously
@@ -73,11 +73,13 @@ const main = async () => {
       let tvgId = getTvgIdFromChannelKey(channelKey);
       let channelStr = `#EXTINF:-1 tvg-chno="${i + 1}" tvg-id="${tvgId}" group-title="${
         streamingInfo.groupName
-      }" tvg-logo="${streamingInfo.logo}?rev=${channelLogoRevision}",${channelName}\n${
-        streamingInfo.url
-      }`;
+      }" tvg-logo="${streamingInfo.logo}?rev=${channelLogoRevision}",${channelName}`;
 
-      channelStr += `\n\n`;
+      if (streamingInfo.EXTVLCOPT) {
+        channelStr += `\n${streamingInfo.EXTVLCOPT}`;
+      }
+
+      channelStr += `\n${streamingInfo.url}\n\n`;
 
       textStr = textStr + `${channelStr}`;
     }

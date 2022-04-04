@@ -23,7 +23,7 @@ const basicPlaylist = {
     ['tnn16'],
     ['tnn16', 1],
     ['jkn18'],
-    ['psi'],
+    ['topnews'],
     ['cartoonclub'],
 
     // 21-30
@@ -60,9 +60,6 @@ const proPlaylist = {
     ['fwmov'],
     ['fwsov'],
     ['fwtoon'],
-
-    // 41
-    ['premier1'],
   ],
 };
 

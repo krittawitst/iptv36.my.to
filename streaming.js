@@ -11,8 +11,8 @@ const streamingInfo = {
     channelName: 'TV5 HD',
     logo: 'https://iptv36.my.to/logo/tv5.png',
     urlList: [
-      'http://freelive.inwstream.com:1935/freelive-edge/5hd/playlist.m3u8', // 720p
       'http://110.170.117.27:1935/apptv5hd1live/vdo-tv5hd1/playlist.m3u8',
+      'http://freelive.inwstream.com:1935/freelive-edge/5hd/playlist.m3u8', // 720p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -99,7 +99,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-03.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_SFjcaTLOtBOlPAqdlPdV_U)/dm/3/x6rz4t7/s/live-4.m3u8',
+        'https://stream-05.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_TEspF1-YmIXGVktrtw9EjI)/dm/3/x6rz4t7/s/live-4.m3u8',
       ],
       'http://freelive2.inwstream.com:1935/freelive-edge/gmmchannel/playlist.m3u8',
     ],
@@ -204,7 +204,7 @@ const streamingInfo = {
         'https://nj2yx-gbi9-cdf5.googlecdncontent.com/livestream88_digitaltv/pptv/playlist.m3u8',
         { 'http-referrer': 'https://www.livestream88.com/' },
       ],
-      ['HD [NO HW+]', 'https://www.livedoomovies.com:4431/02_PPTVHD_720p/chunklist.m3u8'],
+      // ['HD [NO HW+]', 'https://www.livedoomovies.com:4431/02_PPTVHD_720p/chunklist.m3u8'],
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -655,8 +655,8 @@ const streamingInfo = {
     channelName: 'Top News HD',
     logo: 'https://images.topnews.co.th/2021/04/cropped-topnews-logo.png',
     urlList: [
-      'https://live.topnews.co.th/hls/topnews_b_720.m3u8',
       'https://live.topnews.co.th/hls/topnews_a_1080.m3u8',
+      'https://live.topnews.co.th/hls/topnews_b_720.m3u8',
     ],
     groupName: 'NEWS & DOCS',
   },
@@ -677,7 +677,7 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
     // [channelKey, channelNameSuffix, pageUrl, appendUrlToBottom=false]
     ['workpoint', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6g9qjj'],
     ['nation', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
-    ['mcot', '', 'https://www.dailymotion.com/player/metadata/video/x74wlgj'],
+    // ['mcot', '', 'https://www.dailymotion.com/player/metadata/video/x74wlgj'],
     ['amarin', 'HD', 'https://www.dailymotion.com/player/metadata/video/x7z8zsu', true],
     ['ch8', 'HD', 'https://www.dailymotion.com/player/metadata/video/x84ukk7'],
     // [
@@ -747,6 +747,7 @@ const testUrl = async (url) => {
     url.includes('203.154.243.89') || // warner
     url.includes('27.254.142.207') || // m channel
     url.includes('streamlock.net') || // jkn
+    url.includes('googlecdncontent.com') ||
     url.includes('/api/true') // tnn
   ) {
     return true;
@@ -870,6 +871,7 @@ const getStreamingInfo = async (channelKey, skip = 0) => {
   let urlList = streamingData.validUrlList || [];
 
   let url = '';
+  let EXTVLCOPT = '';
   if (urlList.length > 0) {
     url = skip < urlList.length ? urlList[skip] : urlList[0];
   } else {
@@ -879,6 +881,10 @@ const getStreamingInfo = async (channelKey, skip = 0) => {
   }
 
   if (Array.isArray(url)) {
+    if (url.length === 3) {
+      let option = url[2];
+      EXTVLCOPT = `#EXTVLCOPT:http-referrer=${option['http-referrer']}`;
+    }
     channelNameComponent.push(url[0]);
     url = url[1];
   }
@@ -888,7 +894,7 @@ const getStreamingInfo = async (channelKey, skip = 0) => {
   }
   let channelName = channelNameComponent.join(' ');
 
-  return { channelName, logo, groupName, tvgId, url };
+  return { channelName, logo, groupName, tvgId, url, EXTVLCOPT };
 };
 
 module.exports = {

@@ -59,12 +59,12 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 16          | TNN16 HD              |
 | 17          | TNN16 Backup          |
 | 18          | JKN18 HD              |
-| 19          | PSI Saradee HD        |
+| 19          | Top News HD           |
 | 20          | Cartoon Club          |
 | 21          | Voice TV HD           |
 | 22          | Nation TV HD          |
 | 23          | Workpoint TV HD       |
-| 24          | True4U HD             |
+| 24          | True4U                |
 | 25          | GMM25 HD              |
 | 26          | TVB Thai              |
 | 27          | CH8 HD                |
