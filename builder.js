@@ -33,7 +33,8 @@ const main = async () => {
 
   // generate M3U PLAYLIST file
   for (let playlist of allPlaylist) {
-    let textStr = `#EXTM3U : Thai IPTV Playlist from https://iptv36.my.to/ - Last Update ${currentBkkDatetimeStr}\n`;
+    // let textStr = `#EXTM3U : Thai IPTV Playlist from https://iptv36.my.to/ - Last Update ${currentBkkDatetimeStr}\n`;
+    let textStr = ``;
     textStr += `#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml"\n\n`;
     // #EXTM3U  url-tvg="https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml"
 
@@ -77,6 +78,7 @@ const main = async () => {
 
       if (streamingInfo.EXTVLCOPT) {
         channelStr += `\n${streamingInfo.EXTVLCOPT}`;
+        channelStr += `\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74`;
       }
 
       channelStr += `\n${streamingInfo.url}\n\n`;

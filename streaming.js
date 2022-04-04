@@ -678,8 +678,8 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
     ['workpoint', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6g9qjj'],
     ['nation', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
     // ['mcot', '', 'https://www.dailymotion.com/player/metadata/video/x74wlgj'],
-    ['amarin', 'HD', 'https://www.dailymotion.com/player/metadata/video/x7z8zsu', true],
-    ['ch8', 'HD', 'https://www.dailymotion.com/player/metadata/video/x84ukk7'],
+    ['amarin', '', 'https://www.dailymotion.com/player/metadata/video/x7z8zsu', true],
+    // ['ch8', 'HD', 'https://www.dailymotion.com/player/metadata/video/x84ukk7'],
     // [
     //   'one',
     //   'HD',
