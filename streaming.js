@@ -99,7 +99,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-05.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_TEspF1-YmIXGVktrtw9EjI)/dm/3/x6rz4t7/s/live-4.m3u8',
+        'https://stream-04.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_VVT1Mf4wu4tppwZ-m1FLAw)/dm/3/x6rz4t7/s/live-3.m3u8',
       ],
       'http://freelive2.inwstream.com:1935/freelive-edge/gmmchannel/playlist.m3u8',
     ],
@@ -113,7 +113,7 @@ const streamingInfo = {
       ['HD', 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8'], // 720p
       [
         'HD',
-        'https://stream-02.sg1.dailymotion.com/sec(p5KA4QqcEoMI-Au0U41kOuTprnQVnUAUHXkBZCHZnkc)/dm/3/x84ukk7/s/live-2.m3u8',
+        'https://stream-04.sg1.dailymotion.com/sec(p5KA4QqcEoMI-Au0U41kOglvBjZDIr6SYf61jwKQ2PE)/dm/3/x84ukk7/s/live-2.m3u8',
       ],
       'http://freelive.inwstream.com:1935/freelive-edge/ch8/playlist.m3u8', // 720p
     ],
@@ -201,8 +201,7 @@ const streamingInfo = {
       ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/pptvhd/playlist.m3u8'],
       [
         'HD',
-        'https://nj2yx-gbi9-cdf5.googlecdncontent.com/livestream88_digitaltv/pptv/playlist.m3u8',
-        { 'http-referrer': 'https://www.livestream88.com/' },
+        'https://pptv36-1tsjfj.cdn.byteark.com/live/playlist.m3u8?x_ark_access_id=fleet-963&x_ark_auth_type=ark-v2&x_ark_expires=1649689801&x_ark_path_prefix=%2Flive%2F&x_ark_signature=sLDPE98vBvKSNlY7emEgTw',
       ],
       // ['HD [NO HW+]', 'https://www.livedoomovies.com:4431/02_PPTVHD_720p/chunklist.m3u8'],
     ],

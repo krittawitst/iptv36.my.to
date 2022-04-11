@@ -35,8 +35,7 @@ const main = async () => {
   for (let playlist of allPlaylist) {
     // let textStr = `#EXTM3U : Thai IPTV Playlist from https://iptv36.my.to/ - Last Update ${currentBkkDatetimeStr}\n`;
     let textStr = ``;
-    textStr += `#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml"\n\n`;
-    // #EXTM3U  url-tvg="https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml"
+    textStr += `#EXTM3U  url-tvg="https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml\n\n`;
 
     // test all streaming simultaneously
     console.log(`\nChecking streaming url for playlist '${playlist.filename}'...`);
