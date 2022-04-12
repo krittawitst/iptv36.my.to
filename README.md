@@ -24,8 +24,14 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 เราจะเปลี่ยนแหล่งที่มาของ Stream ซึ่งคุณจำเป็นต้องทำการอัพเดต Playlist ใหม่ จึงจะสามารถรับชมได้อีกครั้ง)
 
 ทั้งนี้ คุณยังสามารถนำ IPTV Playlist นี้ ไปใช้กับ Android Smartphone หรือ ระบบอื่นใดก็ได้ที่รองรับ
-โดย Android Application ที่เราใช้และแนะนำ คือ **Application ที่ชื่อว่า IPTV** (ไอคอนสีน้ำเงิน บน Google Play Store)
-หรือเข้าไปที่ URL นี้ `https://play.google.com/store/apps/details?id=ru.iptvremote.android.iptv`
+โดย Android Application ที่เราใช้และแนะนำ คือ
+
+- IPTV Core (ของ Alexander Sofronov)  
+  `https://play.google.com/store/apps/details?id=ru.iptvremote.android.iptv.core`
+- IPTV Core Launcher (ของ Alexander Sofronov)  
+  `https://play.google.com/store/apps/details?id=ru.iptvremote.android.iptv.core.launcher`
+
+(ต้องติดตั้งทั้งสองแอพ)
 
 ## จุดเด่น
 
@@ -59,7 +65,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 16          | TNN16 HD              |
 | 17          | TNN16 Backup          |
 | 18          | JKN18 HD              |
-| 19          | Top News HD           |
+| 19          | True4U HD Backup      |
 | 20          | Cartoon Club          |
 | 21          | Voice TV HD           |
 | 22          | Nation TV HD          |
