@@ -8,16 +8,16 @@ const currentEpochDatetime = new Date().getTime();
 const currentDatetimePlus7Hrs = new Date(currentEpochDatetime + 7 * 60 * 60 * 1000);
 const currentBkkDatetimeStr = currentDatetimePlus7Hrs.toISOString().slice(0, 16);
 
-const getTvgIdFromChannelKey = (channelKey) => {
-  switch (channelKey) {
-    case 'thairath':
-      return 'ThairathTV32.th';
-    case 'mono29soundtrack':
-      return 'mono29.iptv36.my.to';
-    default:
-      return `${channelKey}.iptv36.my.to`;
-  }
-};
+// const getTvgIdFromChannelKey = (channelKey) => {
+//   switch (channelKey) {
+//     case 'thairath':
+//       return 'ThairathTV32.th';
+//     case 'mono29soundtrack':
+//       return 'mono29.iptv36.my.to';
+//     default:
+//       return `${channelKey}.iptv36.my.to`;
+//   }
+// };
 
 const main = async () => {
   // prefetch epg data
@@ -33,8 +33,7 @@ const main = async () => {
 
   // generate M3U PLAYLIST file
   for (let playlist of allPlaylist) {
-    // let textStr = `#EXTM3U : Thai IPTV Playlist from https://iptv36.my.to/ - Last Update ${currentBkkDatetimeStr}\n`;
-    let textStr = ``;
+    let textStr = `#EXTM3U : Thai IPTV Playlist from https://iptv36.my.to/ - Last Update ${currentBkkDatetimeStr}\n`;
     textStr += `#EXTM3U  url-tvg="https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml\n\n`;
 
     // test all streaming simultaneously
@@ -70,15 +69,15 @@ const main = async () => {
       let channelName = playlist.removeNoHWPlusDecoderWarning
         ? streamingInfo.channelName.replace(' [NO HW+]', '*')
         : streamingInfo.channelName;
-      let tvgId = getTvgIdFromChannelKey(channelKey);
+      let tvgId = streamingInfo.tvgId || '';
       let channelStr = `#EXTINF:-1 tvg-chno="${i + 1}" tvg-id="${tvgId}" group-title="${
         streamingInfo.groupName
       }" tvg-logo="${streamingInfo.logo}?rev=${channelLogoRevision}",${channelName}`;
 
-      if (streamingInfo.EXTVLCOPT) {
-        channelStr += `\n${streamingInfo.EXTVLCOPT}`;
-        channelStr += `\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74`;
-      }
+      // if (streamingInfo.EXTVLCOPT) {
+      //   channelStr += `\n${streamingInfo.EXTVLCOPT}`;
+      //   channelStr += `\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74`;
+      // }
 
       channelStr += `\n${streamingInfo.url}\n\n`;
 

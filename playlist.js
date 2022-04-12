@@ -23,7 +23,7 @@ const basicPlaylist = {
     ['tnn16'],
     ['tnn16', 1],
     ['jkn18'],
-    ['topnews'],
+    ['true4u', 1],
     ['cartoonclub'],
 
     // 21-30

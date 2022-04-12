@@ -7,19 +7,10 @@ const thDtvWithCurrentDate = `THAI DTV`;
 
 const streamingInfo = {
   /* TH DTV */
-  tv5: {
-    channelName: 'TV5 HD',
-    logo: 'https://iptv36.my.to/logo/tv5.png',
-    urlList: [
-      'http://110.170.117.27:1935/apptv5hd1live/vdo-tv5hd1/playlist.m3u8',
-      'http://freelive.inwstream.com:1935/freelive-edge/5hd/playlist.m3u8', // 720p
-    ],
-    groupName: thDtvWithCurrentDate,
-  },
-
   nbt: {
     channelName: 'NBT',
     logo: 'https://iptv36.my.to/logo/nbt.png',
+    tvgId: 'NBT2.th',
     urlList: [['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/nbt/playlist.m3u8']],
     groupName: thDtvWithCurrentDate,
   },
@@ -27,6 +18,7 @@ const streamingInfo = {
   thaipbs: {
     channelName: 'Thai PBS HD',
     logo: 'https://iptv36.my.to/logo/thaipbs.png',
+    tvgId: 'ThaiPBS3.th',
     urlList: [
       'https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8', //1080p
     ],
@@ -36,6 +28,7 @@ const streamingInfo = {
   altv: {
     channelName: 'ALTV HD',
     logo: 'https://iptv36.my.to/logo/altv.png',
+    // tvgId: 'ThaiTV5HD1.th',
     urlList: [
       'https://iptv36.netlify.app/altv.m3u8', // 720p
     ],
@@ -45,6 +38,7 @@ const streamingInfo = {
   tptv: {
     channelName: 'TPTV',
     logo: 'https://iptv36.my.to/logo/tptv.png',
+    // tvgId: 'ThaiTV5HD1.th',
     urlList: [
       'http://freelive2.inwstream.com:1935/freelive-edge/tptv/playlist.m3u8',
       'https://cdn-edge.i-iptv.com/live3/91b1-ff25-f5ee-c27f-283a/playlist.m3u8',
@@ -52,9 +46,21 @@ const streamingInfo = {
     groupName: thDtvWithCurrentDate,
   },
 
+  tv5: {
+    channelName: 'TV5 HD',
+    logo: 'https://iptv36.my.to/logo/tv5.png',
+    tvgId: 'ThaiTV5HD1.th',
+    urlList: [
+      'http://110.170.117.27:1935/apptv5hd1live/vdo-tv5hd1/playlist.m3u8',
+      'http://freelive.inwstream.com:1935/freelive-edge/5hd/playlist.m3u8', // 720p
+    ],
+    groupName: thDtvWithCurrentDate,
+  },
+
   tnn16: {
     channelName: 'TNN16',
     logo: 'https://iptv36.my.to/logo/tnn16.png',
+    tvgId: 'TNN16.th',
     urlList: [
       ['HD', 'https://iptv36.netlify.app/api/true?channel=tnn16hd'], // 720p
       'http://freelive2.inwstream.com:1935/freelive-edge/tnn24/playlist.m3u8',
@@ -65,6 +71,7 @@ const streamingInfo = {
   jkn18: {
     channelName: 'JKN18',
     logo: 'https://iptv36.my.to/logo/jkn18.jpg',
+    tvgId: 'JKN18.th',
     urlList: [['HD', 'https://5f27aa1f6ef91.streamlock.net/jkncnbc/myStream/playlist.m3u8']],
     groupName: thDtvWithCurrentDate,
   },
@@ -72,6 +79,7 @@ const streamingInfo = {
   nation: {
     channelName: 'Nation TV',
     logo: 'https://iptv36.my.to/logo/nation.png',
+    tvgId: 'NationTV.th',
     urlList: ['http://freelive2.inwstream.com:1935/freelive-edge/nation/playlist.m3u8'],
     groupName: thDtvWithCurrentDate,
   },
@@ -79,6 +87,7 @@ const streamingInfo = {
   workpoint: {
     channelName: 'Workpoint TV',
     logo: 'https://iptv36.my.to/logo/workpoint.png',
+    tvgId: 'Workpoint23.th',
     urlList: ['http://freelive.inwstream.com:1935/freelive-edge/workpointtv/playlist.m3u8'],
     groupName: thDtvWithCurrentDate,
   },
@@ -86,9 +95,10 @@ const streamingInfo = {
   true4u: {
     channelName: 'True4U',
     logo: 'https://iptv36.my.to/logo/true4u.png',
+    tvgId: 'True4U.th',
     urlList: [
-      // ['HD', 'https://iptv36.netlify.app/api/true?channel=true4uhd'],
       'http://freelive.inwstream.com:1935/freelive-edge/true4u/playlist.m3u8',
+      ['HD (MX)', 'https://iptv36.netlify.app/api/true?channel=true4uhd'],
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -96,6 +106,7 @@ const streamingInfo = {
   gmm25: {
     channelName: 'GMM25',
     logo: 'https://iptv36.my.to/logo/gmm25.png',
+    tvgId: 'GMM25.th',
     urlList: [
       [
         'HD',
@@ -109,11 +120,12 @@ const streamingInfo = {
   ch8: {
     channelName: 'CH8',
     logo: 'https://iptv36.my.to/logo/ch8.png',
+    tvgId: 'ThaiChannel8.th',
     urlList: [
       ['HD', 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8'], // 720p
       [
         'HD',
-        'https://stream-04.sg1.dailymotion.com/sec(p5KA4QqcEoMI-Au0U41kOglvBjZDIr6SYf61jwKQ2PE)/dm/3/x84ukk7/s/live-2.m3u8',
+        'https://stream-01.sg1.dailymotion.com/sec(p5KA4QqcEoMI-Au0U41kOuhrOzKW7xsud-WAbPux5Fw)/dm/3/x84ukk7/s/live-2.m3u8',
       ],
       'http://freelive.inwstream.com:1935/freelive-edge/ch8/playlist.m3u8', // 720p
     ],
@@ -123,6 +135,7 @@ const streamingInfo = {
   mono29: {
     channelName: 'MONO29',
     logo: 'https://iptv36.my.to/logo/mono29.png',
+    tvgId: 'Mono29.th',
     urlList: [
       // [
       //   'HD',
@@ -137,6 +150,7 @@ const streamingInfo = {
   mono29soundtrack: {
     channelName: 'MONO29 Soundtrack',
     logo: 'https://iptv36.my.to/logo/mono29.png',
+    tvgId: 'Mono29.th',
     urlList: [
       // 'https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080EN.stream/playlist.m3u8', // 1080p
       'https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_720P/mono29hls_720EN.stream/playlist.m3u8', // 720p
@@ -147,6 +161,7 @@ const streamingInfo = {
   mcot: {
     channelName: 'MCOT HD',
     logo: 'https://iptv36.my.to/logo/mcot.png',
+    tvgId: 'MCOTHD.th',
     urlList: ['http://freelive2.inwstream.com:1935/freelive-edge/mcothd/playlist.m3u8'],
     groupName: thDtvWithCurrentDate,
   },
@@ -154,6 +169,7 @@ const streamingInfo = {
   one: {
     channelName: 'ONE HD',
     logo: 'https://iptv36.my.to/logo/one.png',
+    tvgId: 'One31.th',
     urlList: ['http://freelive2.inwstream.com:1935/freelive-edge/onehd/playlist.m3u8'],
     groupName: thDtvWithCurrentDate,
   },
@@ -161,6 +177,7 @@ const streamingInfo = {
   thairath: {
     channelName: 'Thairath TV HD',
     logo: 'https://iptv36.my.to/logo/thairath.png',
+    tvgId: 'ThairathTV32.th',
     urlList: [
       'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8',
       'http://freelive2.inwstream.com:1935/freelive-edge/thairahttvhd/playlist.m3u8',
@@ -171,6 +188,7 @@ const streamingInfo = {
   ch3: {
     channelName: 'CH3',
     logo: 'https://iptv36.my.to/logo/ch3.png',
+    tvgId: 'Channel3.th',
     urlList: [['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/3hd/playlist.m3u8']],
     groupName: thDtvWithCurrentDate,
   },
@@ -178,6 +196,7 @@ const streamingInfo = {
   amarin: {
     channelName: 'Amarin TV',
     logo: 'https://iptv36.my.to/logo/amarin.png',
+    tvgId: 'Amarin34HD.th',
     urlList: [
       ['HD', 'http://freelive.inwstream.com:1935/freelive-edge/amarinhd/playlist.m3u8'], // 720p
     ],
@@ -187,6 +206,7 @@ const streamingInfo = {
   ch7: {
     channelName: 'CH7',
     logo: 'https://iptv36.my.to/logo/ch7.png',
+    tvgId: 'BBTVChannel7.th',
     urlList: [
       ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/7hd/playlist.m3u8'],
       ['HD', 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com'],
@@ -197,6 +217,7 @@ const streamingInfo = {
   pptv: {
     channelName: 'PPTV',
     logo: 'https://iptv36.my.to/logo/pptv.png',
+    tvgId: 'PPTVHD36.th',
     urlList: [
       ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/pptvhd/playlist.m3u8'],
       [
@@ -880,10 +901,10 @@ const getStreamingInfo = async (channelKey, skip = 0) => {
   }
 
   if (Array.isArray(url)) {
-    if (url.length === 3) {
-      let option = url[2];
-      EXTVLCOPT = `#EXTVLCOPT:http-referrer=${option['http-referrer']}`;
-    }
+    // if (url.length === 3) {
+    //   let option = url[2];
+    //   EXTVLCOPT = `#EXTVLCOPT:http-referrer=${option['http-referrer']}`;
+    // }
     channelNameComponent.push(url[0]);
     url = url[1];
   }
