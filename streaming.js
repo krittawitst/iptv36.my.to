@@ -125,7 +125,7 @@ const streamingInfo = {
       ['HD', 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8'], // 720p
       [
         'HD',
-        'https://stream-01.sg1.dailymotion.com/sec(p5KA4QqcEoMI-Au0U41kOuhrOzKW7xsud-WAbPux5Fw)/dm/3/x84ukk7/s/live-2.m3u8',
+        'https://stream-03.sg1.dailymotion.com/sec(p5KA4QqcEoMI-Au0U41kOvc8IvPZ7_s2eY5WrASnis0Zm5s4ZNNIPbGY6x6VDWj0)/dm/3/x84ukk7/s/live-2.m3u8',
       ],
       'http://freelive.inwstream.com:1935/freelive-edge/ch8/playlist.m3u8', // 720p
     ],
