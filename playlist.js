@@ -11,7 +11,7 @@ const basicPlaylist = {
     ['pptv', 1],
     ['ch7', 1],
     ['ch8', 1],
-    ['mono29', 1],
+    ['cartoonclub'],
     ['tptv'],
 
     // 11-20
@@ -23,8 +23,8 @@ const basicPlaylist = {
     ['tnn16'],
     ['tnn16', 1],
     ['jkn18'],
-    ['true4u', 1],
-    ['cartoonclub'],
+    ['topnews'],
+    ['news1'],
 
     // 21-30
     ['voice'],

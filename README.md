@@ -55,7 +55,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 6           | PPTV HD Backup        |
 | 7           | CH7 HD Backup         |
 | 8           | CH8 Backup            |
-| 9           | MONO29 Backup         |
+| 9           | Cartoon Club          |
 | 10          | TPTV                  |
 | 11          | ONE HD Backup         |
 | 12          | Thairath TV HD Backup |
@@ -65,8 +65,8 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 16          | TNN16 HD              |
 | 17          | TNN16 Backup          |
 | 18          | JKN18 HD              |
-| 19          | True4U HD Backup      |
-| 20          | Cartoon Club          |
+| 19          | Top News HD           |
+| 20          | News 1 HD             |
 | 21          | Voice TV HD           |
 | 22          | Nation TV HD          |
 | 23          | Workpoint TV HD       |

@@ -110,7 +110,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-04.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_VVT1Mf4wu4tppwZ-m1FLAw)/dm/3/x6rz4t7/s/live-3.m3u8',
+        'https://stream-03.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_Zp_Tfg2op-_pz-aR_znrBfFS5MhiFQNSvo7EOeCbDt0)/dm/3/x6rz4t7/s/live-4.m3u8',
       ],
       'http://freelive2.inwstream.com:1935/freelive-edge/gmmchannel/playlist.m3u8',
     ],
@@ -125,7 +125,7 @@ const streamingInfo = {
       ['HD', 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8'], // 720p
       [
         'HD',
-        'https://stream-03.sg1.dailymotion.com/sec(p5KA4QqcEoMI-Au0U41kOvc8IvPZ7_s2eY5WrASnis0Zm5s4ZNNIPbGY6x6VDWj0)/dm/3/x84ukk7/s/live-2.m3u8',
+        'https://stream-05.sg1.dailymotion.com/sec(p5KA4QqcEoMI-Au0U41kOjJxEaaTX5eYw9vVaZgk4uRSPWhTUZQQFzjJ0nHPherU)/dm/3/x84ukk7/s/live-2.m3u8',
       ],
       'http://freelive.inwstream.com:1935/freelive-edge/ch8/playlist.m3u8', // 720p
     ],
@@ -170,7 +170,10 @@ const streamingInfo = {
     channelName: 'ONE HD',
     logo: 'https://iptv36.my.to/logo/one.png',
     tvgId: 'One31.th',
-    urlList: ['http://freelive2.inwstream.com:1935/freelive-edge/onehd/playlist.m3u8'],
+    urlList: [
+      'https://stream-02.sg1.dailymotion.com/sec(-0fhsFhycCtfi6ARUwilaOPplxTedF09nIinkjGsKg74Y4FIdZ0KqZr3c5P_GDZe)/dm/3/x6824x8/s/live-3.m3u8',
+      'http://freelive2.inwstream.com:1935/freelive-edge/onehd/playlist.m3u8',
+    ],
     groupName: thDtvWithCurrentDate,
   },
 
@@ -209,7 +212,7 @@ const streamingInfo = {
     tvgId: 'BBTVChannel7.th',
     urlList: [
       ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/7hd/playlist.m3u8'],
-      ['HD', 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com'],
+      // ['HD', 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com'],
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -334,7 +337,7 @@ const streamingInfo = {
     channelName: 'Cartoon Club',
     logo: 'https://iptv36.my.to/logo/cartoonclub.png',
     urlList: [
-      'http://edge4-bkk.3bb.co.th:1935/CartoonClub_Livestream/cartoonclub_480P.stream/playlist.m3u8',
+      'https://edge1-bkk.3bb.co.th:9443/cartoonLiveApp/cartoonLiveApp.stream/chunklist_w859044783.m3u8',
     ],
     groupName: 'CARTOON',
   },
@@ -605,7 +608,7 @@ const streamingInfo = {
   news1: {
     channelName: 'NEWS1',
     logo: 'https://iptv36.my.to/logo/news1.png',
-    urlList: ['http://news1.live14.com/stream/news1_hi.m3u8'],
+    urlList: ['https://server1.streamssl.com/stream/news1_hi.m3u8'],
     groupName: 'NEWS & DOCS',
   },
 
@@ -658,8 +661,8 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/tvb.png',
     urlList: [
       'https://edge6a.v2h-cdn.com/RE_HD/smil:TVB_HD_ABR.smil/playlist.m3u8', // 1080p
-      'https://edge6a.v2h-cdn.com:443/appt7/TDramaTV.stream_720p/iptv-ton.m3u8', // 720p
-      'https://edge6a.v2h-cdn.com/m2a7/TDramaTV.stream_720p/playlist.m3u8', // 720p
+      // 'https://edge6a.v2h-cdn.com:443/appt7/TDramaTV.stream_720p/iptv-ton.m3u8', // 720p
+      // 'https://edge6a.v2h-cdn.com/m2a7/TDramaTV.stream_720p/playlist.m3u8', // 720p
     ],
     groupName: 'ENTERTAINMENT',
   },
@@ -700,11 +703,16 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
     // ['mcot', '', 'https://www.dailymotion.com/player/metadata/video/x74wlgj'],
     ['amarin', '', 'https://www.dailymotion.com/player/metadata/video/x7z8zsu', true],
     // ['ch8', 'HD', 'https://www.dailymotion.com/player/metadata/video/x84ukk7'],
-    // [
-    //   'one',
-    //   'HD',
-    //   'https://www.dailymotion.com/player/metadata/video/k3zVMFmXlPiFlqpt3A0?embedder=https://www.one31.net/',
-    // ],
+    [
+      'one',
+      '',
+      'https://www.dailymotion.com/player/metadata/video/k6Tftg8IUD513hpt3A0?embedder=https://www.oned.net/',
+    ],
+    [
+      'gmm25',
+      'HD',
+      'https://www.dailymotion.com/player/metadata/video/k4jJqAW0V5pVYnrJq1J?embedder=https://www.oned.net/',
+    ],
   ];
 
   let result = {};
