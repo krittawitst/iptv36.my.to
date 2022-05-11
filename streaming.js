@@ -608,7 +608,7 @@ const streamingInfo = {
   news1: {
     channelName: 'NEWS1',
     logo: 'https://iptv36.my.to/logo/news1.png',
-    urlList: ['https://server1.streamssl.com/stream/news1_hi.m3u8'],
+    urlList: ['http://server1.streamssl.com/stream/news1_hi.m3u8'],
     groupName: 'NEWS & DOCS',
   },
 
@@ -703,16 +703,16 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
     // ['mcot', '', 'https://www.dailymotion.com/player/metadata/video/x74wlgj'],
     ['amarin', '', 'https://www.dailymotion.com/player/metadata/video/x7z8zsu', true],
     // ['ch8', 'HD', 'https://www.dailymotion.com/player/metadata/video/x84ukk7'],
-    [
-      'one',
-      '',
-      'https://www.dailymotion.com/player/metadata/video/k6Tftg8IUD513hpt3A0?embedder=https://www.oned.net/',
-    ],
-    [
-      'gmm25',
-      'HD',
-      'https://www.dailymotion.com/player/metadata/video/k4jJqAW0V5pVYnrJq1J?embedder=https://www.oned.net/',
-    ],
+    // [
+    //   'one',
+    //   '',
+    //   'https://www.dailymotion.com/player/metadata/video/k6Tftg8IUD513hpt3A0?embedder=https://www.oned.net/',
+    // ],
+    // [
+    //   'gmm25',
+    //   'HD',
+    //   'https://www.dailymotion.com/player/metadata/video/k4jJqAW0V5pVYnrJq1J?embedder=https://www.oned.net/',
+    // ],
   ];
 
   let result = {};
