@@ -53,7 +53,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 4           | ALTV HD               |
 | 5           | TV5 HD                |
 | 6           | PPTV HD Backup        |
-| 7           | CH7 HD Backup         |
+| 7           | T Sports              |
 | 8           | CH8 Backup            |
 | 9           | Cartoon Club          |
 | 10          | TPTV                  |
@@ -61,18 +61,18 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 12          | Thairath TV HD Backup |
 | 13          | CH3 HD Backup         |
 | 14          | Amarin TV HD Backup   |
-| 15          | GMM25 Backup          |
+| 15          | CH7 HD Backup         |
 | 16          | TNN16 HD              |
 | 17          | TNN16 Backup          |
 | 18          | JKN18 HD              |
-| 19          | Top News HD           |
+| 19          | TVB Thai              |
 | 20          | News 1 HD             |
 | 21          | Voice TV HD           |
 | 22          | Nation TV HD          |
 | 23          | Workpoint TV HD       |
 | 24          | True4U                |
 | 25          | GMM25 HD              |
-| 26          | TVB Thai              |
+| 26          | GMM25 Backup          |
 | 27          | CH8 HD                |
 | 28          | MONO29 Soundtrack     |
 | 29          | MONO29                |

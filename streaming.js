@@ -28,10 +28,16 @@ const streamingInfo = {
   altv: {
     channelName: 'ALTV HD',
     logo: 'https://iptv36.my.to/logo/altv.png',
-    // tvgId: 'ThaiTV5HD1.th',
     urlList: [
       'https://iptv36.netlify.app/altv.m3u8', // 720p
     ],
+    groupName: thDtvWithCurrentDate,
+  },
+
+  tsports: {
+    channelName: 'T Sports',
+    logo: 'http://www.tsportschannel.com/Images/logo-t-sport.png',
+    urlList: [['[NO HW+]', 'https://www.livedoomovies.com:4431/02_T_Sports_480p/chunklist.m3u8']],
     groupName: thDtvWithCurrentDate,
   },
 
@@ -110,7 +116,7 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-03.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_Zp_Tfg2op-_pz-aR_znrBfFS5MhiFQNSvo7EOeCbDt0)/dm/3/x6rz4t7/s/live-4.m3u8',
+        'https://stream-03.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_VxgekGoeZ1F1SCR8DaB1qnYegSDHra6pUMv4X6k5dDO)/dm/3/x6rz4t7/s/live-4.m3u8',
       ],
       'http://freelive2.inwstream.com:1935/freelive-edge/gmmchannel/playlist.m3u8',
     ],
@@ -125,7 +131,7 @@ const streamingInfo = {
       ['HD', 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8'], // 720p
       [
         'HD',
-        'https://stream-05.sg1.dailymotion.com/sec(p5KA4QqcEoMI-Au0U41kOjJxEaaTX5eYw9vVaZgk4uRSPWhTUZQQFzjJ0nHPherU)/dm/3/x84ukk7/s/live-2.m3u8',
+        'https://stream-01.sg1.dailymotion.com/sec(p5KA4QqcEoMI-Au0U41kOoVqWp_uuUgqpC0edXjctv3SN-VKWOCoL151fuuHyIHV)/dm/3/x84ukk7/s/live-2.m3u8',
       ],
       'http://freelive.inwstream.com:1935/freelive-edge/ch8/playlist.m3u8', // 720p
     ],
@@ -171,7 +177,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/one.png',
     tvgId: 'One31.th',
     urlList: [
-      'https://stream-02.sg1.dailymotion.com/sec(-0fhsFhycCtfi6ARUwilaOPplxTedF09nIinkjGsKg74Y4FIdZ0KqZr3c5P_GDZe)/dm/3/x6824x8/s/live-3.m3u8',
+      'https://stream-05.sg1.dailymotion.com/sec(-0fhsFhycCtfi6ARUwilaMJy1dUkPMXqOB6QotVoKIhI-RH-5xiSEAbukv_lTVYp)/dm/3/x6824x8/s/live-4.m3u8',
       'http://freelive2.inwstream.com:1935/freelive-edge/onehd/playlist.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
@@ -212,7 +218,7 @@ const streamingInfo = {
     tvgId: 'BBTVChannel7.th',
     urlList: [
       ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/7hd/playlist.m3u8'],
-      // ['HD', 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com'],
+      ['HD', 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com'],
     ],
     groupName: thDtvWithCurrentDate,
   },
