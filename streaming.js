@@ -781,7 +781,7 @@ const testUrl = async (url) => {
     url.includes('203.154.243.89') || // warner
     url.includes('27.254.142.207') || // m channel
     url.includes('streamlock.net') || // jkn
-    url.includes('googlecdncontent.com') ||
+    url.includes('live-cdn-hwc.ch7.com') ||
     url.includes('/api/true') // tnn
   ) {
     return true;
