@@ -59,7 +59,7 @@ const proPlaylist = {
     ['ctb'],
     ['fwmov'],
     ['fwsov'],
-    ['fwtoon'],
+    ['cartoonnetwork'],
 
     // 41-50
     ['premier1'],
@@ -69,13 +69,21 @@ const proPlaylist = {
     ['premier5'],
     ['bein1'],
     ['bein2'],
-    ['foxthai'],
     ['truefilm'],
-    ['warnertv'],
+    ['idstation'],
+    ['truethaifilm'],
 
-    // 51
+    // 51-60
+    ['history'],
+    ['history2'],
+    ['natgeo'],
     ['axn'],
-    ['toonee'],
+    ['hbo'],
+    ['warnertv'],
+    ['foxactionmovies'],
+    ['foxfamilymovies'],
+    ['foxlife'],
+    ['foxthai'],
   ],
 };
 

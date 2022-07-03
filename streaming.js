@@ -104,6 +104,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/true4u.png',
     tvgId: 'True4U.th',
     urlList: [
+      'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115301',
       'http://freelive.inwstream.com:1935/freelive-edge/true4u/playlist.m3u8',
       ['HD (MX)', 'https://iptv36.netlify.app/api/true?channel=true4uhd'],
     ],
@@ -286,6 +287,7 @@ const streamingInfo = {
     channelName: 'Premier HD3',
     logo: 'https://iptv36.my.to/logo/premier_hd3.png',
     urlList: [
+      'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115522',
       'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115510',
       'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115512',
     ],
@@ -296,6 +298,7 @@ const streamingInfo = {
     channelName: 'Premier HD4',
     logo: 'https://iptv36.my.to/logo/premier_hd4.png',
     urlList: [
+      'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115524',
       'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115513',
       'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115768',
     ],
@@ -305,7 +308,10 @@ const streamingInfo = {
   premier5: {
     channelName: 'Premier HD5',
     logo: 'https://iptv36.my.to/logo/premier_hd5.png',
-    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115515'],
+    urlList: [
+      'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115525',
+      'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115515',
+    ],
     groupName: 'SPORT',
   },
 
@@ -354,7 +360,7 @@ const streamingInfo = {
   cartoonnetwork: {
     channelName: 'Cartoon Network HD',
     logo: 'https://iptv36.my.to/logo/cnhd.png',
-    urlList: ['https://r4-sn-w5nuxa-o53d.googlevideocdn.com/kids/cnhd/playlist.m3u8'],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115819'],
     groupName: 'CARTOON',
   },
 
@@ -480,7 +486,7 @@ const streamingInfo = {
   foxactionmovies: {
     channelName: 'FOX Action Movies HD',
     logo: 'https://iptv36.my.to/logo/foxactionmovies.png',
-    urlList: [],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115673'],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -501,15 +507,14 @@ const streamingInfo = {
   foxfamilymovies: {
     channelName: 'Fox Family Movies HD',
     logo: 'https://iptv36.my.to/logo/foxfamilymovies.png',
-    urlList: [['[NO HW+]', 'https://www.livedoomovies.com/02_FoxFamilyHD_TH_720p/chunklist.m3u8']],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115422'],
     groupName: 'ENTERTAINMENT',
   },
 
   foxlife: {
     channelName: 'Fox Life HD',
     logo: 'https://iptv36.my.to/logo/foxlife.png',
-    // tvgId: 'foxlife.iptv36.my.to',
-    urlList: [],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115679'],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -523,21 +528,21 @@ const streamingInfo = {
   hbo: {
     channelName: 'HBO',
     logo: 'https://iptv36.my.to/logo/hbo.png',
-    urlList: ['https://dootvthai-hd.com/cmd/ThaiDreambox/hbo/hbohd/playlist.m3u8'],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115833'],
     groupName: 'ENTERTAINMENT',
   },
 
   history: {
     channelName: 'History HD',
     logo: 'https://iptv36.my.to/logo/history.png',
-    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_HISTORYHD_720p/chunklist.m3u8']],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115715'],
     groupName: 'NEWS & DOCS',
   },
 
   history2: {
     channelName: 'History2 HD',
     logo: 'https://iptv36.my.to/logo/history2.png',
-    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_H2HD_720p/chunklist.m3u8']],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115711'],
     groupName: 'NEWS & DOCS',
   },
 
@@ -551,7 +556,7 @@ const streamingInfo = {
   idstation: {
     channelName: 'ID Station',
     logo: 'https://iptv36.my.to/logo/idstation.png',
-    urlList: [],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115415'],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -593,7 +598,7 @@ const streamingInfo = {
   natgeo: {
     channelName: 'NAT Geo HD',
     logo: 'https://iptv36.my.to/logo/natgeo.png',
-    urlList: [],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115733'],
     groupName: 'NEWS & DOCS',
   },
 
@@ -638,9 +643,7 @@ const streamingInfo = {
   truethaifilm: {
     channelName: 'True Thai Film HD',
     logo: 'https://cmsimgservices.dmpcdn.com/v1/resize?url=https%3A%2F%2Fcms.dmpcdn.com%2Flivetv%2F2018%2F12%2F17%2F6422ad5a-27f3-4d0e-b0d0-d811c1e652e0.png&w=100&h=75',
-    urlList: [
-      'https://r4-sn-w5nuxa-o53d.googlevideocdn.com/entertainment/truethaifilm/playlist.m3u8',
-    ],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115416'],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -774,7 +777,7 @@ const testUrl = async (url) => {
   // list of url that we will always not check
   if (
     url.includes('rtsp://') ||
-    url.includes('203.154.243.89') || // warner
+    url.includes('ultratv.one') ||
     url.includes('27.254.142.207') || // m channel
     url.includes('streamlock.net') || // jkn
     url.includes('live-cdn-hwc.ch7.com') ||
