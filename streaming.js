@@ -104,7 +104,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/true4u.png',
     tvgId: 'True4U.th',
     urlList: [
-      'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115301',
       'http://freelive.inwstream.com:1935/freelive-edge/true4u/playlist.m3u8',
       ['HD (MX)', 'https://iptv36.netlify.app/api/true?channel=true4uhd'],
     ],
@@ -410,7 +409,10 @@ const streamingInfo = {
   bbcearth: {
     channelName: 'BBC Earth HD',
     logo: 'https://iptv36.my.to/logo/bbc_earth.jpg',
-    urlList: [],
+    urlList: [
+      'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115624',
+      'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115621',
+    ],
     groupName: 'NEWS & DOCS',
   },
 
@@ -424,7 +426,7 @@ const streamingInfo = {
   blueantent: {
     channelName: 'Blue Ant ENT HD',
     logo: 'https://iptv36.my.to/logo/blueantent.png',
-    urlList: [],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115629'],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -465,7 +467,7 @@ const streamingInfo = {
   boomerang: {
     channelName: 'Boomerang HD',
     logo: 'https://images.squarespace-cdn.com/content/v1/51326bd6e4b060819b0f6458/1364592995062-4AA4OXDSNPEFX2KISVBP/Boomerang_Logo.jpg?format=1500w',
-    urlList: ['http://freelive2.inwstream.com:1935/freelive-edge/boomerang/playlist.m3u8'],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115637'],
     groupName: 'CARTOON',
   },
 
@@ -486,7 +488,7 @@ const streamingInfo = {
   foxactionmovies: {
     channelName: 'FOX Action Movies HD',
     logo: 'https://iptv36.my.to/logo/foxactionmovies.png',
-    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115673'],
+    urlList: [],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -507,21 +509,23 @@ const streamingInfo = {
   foxfamilymovies: {
     channelName: 'Fox Family Movies HD',
     logo: 'https://iptv36.my.to/logo/foxfamilymovies.png',
-    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115422'],
+    urlList: [],
     groupName: 'ENTERTAINMENT',
   },
 
   foxlife: {
     channelName: 'Fox Life HD',
     logo: 'https://iptv36.my.to/logo/foxlife.png',
-    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115679'],
+    urlList: [],
     groupName: 'ENTERTAINMENT',
   },
 
   foxthai: {
     channelName: 'FOX Thai HD',
     logo: 'https://iptv36.my.to/logo/foxthai.png',
-    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115691'],
+    urlList: [
+      // Dreamwork Animation 'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115691'
+    ],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -542,21 +546,21 @@ const streamingInfo = {
   history2: {
     channelName: 'History2 HD',
     logo: 'https://iptv36.my.to/logo/history2.png',
-    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115711'],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115713'],
     groupName: 'NEWS & DOCS',
   },
 
   hitsmovies: {
     channelName: 'Hits Movies HD',
     logo: 'https://iptv36.my.to/logo/hitsmovies.png',
-    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_HITSMOVIE_720p/chunklist.m3u8']],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115679'],
     groupName: 'ENTERTAINMENT',
   },
 
   idstation: {
     channelName: 'ID Station',
     logo: 'https://iptv36.my.to/logo/idstation.png',
-    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115415'],
+    urlList: [],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -643,7 +647,7 @@ const streamingInfo = {
   truethaifilm: {
     channelName: 'True Thai Film HD',
     logo: 'https://cmsimgservices.dmpcdn.com/v1/resize?url=https%3A%2F%2Fcms.dmpcdn.com%2Flivetv%2F2018%2F12%2F17%2F6422ad5a-27f3-4d0e-b0d0-d811c1e652e0.png&w=100&h=75',
-    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115416'],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115415'],
     groupName: 'ENTERTAINMENT',
   },
 

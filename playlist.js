@@ -69,21 +69,21 @@ const proPlaylist = {
     ['premier5'],
     ['bein1'],
     ['bein2'],
+    ['hitsmovies'],
     ['truefilm'],
-    ['idstation'],
     ['truethaifilm'],
 
     // 51-60
     ['history'],
     ['history2'],
     ['natgeo'],
+    ['bbcearth'],
     ['axn'],
+    ['blueantent'],
     ['hbo'],
     ['warnertv'],
-    ['foxactionmovies'],
-    ['foxfamilymovies'],
-    ['foxlife'],
     ['foxthai'],
+    ['boomerang'],
   ],
 };
 
