@@ -29,6 +29,7 @@ const streamingInfo = {
     channelName: 'ALTV HD',
     logo: 'https://iptv36.my.to/logo/altv.png',
     urlList: [
+      'https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8',
       'https://iptv36.netlify.app/altv.m3u8', // 720p
     ],
     groupName: thDtvWithCurrentDate,
@@ -198,7 +199,10 @@ const streamingInfo = {
     channelName: 'CH3',
     logo: 'https://iptv36.my.to/logo/ch3.png',
     tvgId: 'Channel3.th',
-    urlList: [['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/3hd/playlist.m3u8']],
+    urlList: [
+      ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/3hd/playlist.m3u8'],
+      ['HD', 'https://freelive.inwstream.com:1936/freelive-edge/3hd/playlist.m3u8'],
+    ],
     groupName: thDtvWithCurrentDate,
   },
 
@@ -207,6 +211,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/amarin.png',
     tvgId: 'Amarin34HD.th',
     urlList: [
+      ['HD', 'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115608'],
       ['HD', 'http://freelive.inwstream.com:1935/freelive-edge/amarinhd/playlist.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
@@ -219,6 +224,10 @@ const streamingInfo = {
     urlList: [
       ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/7hd/playlist.m3u8'],
       ['HD', 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com'],
+      [
+        'HD',
+        'https://edge161.bugaboo.tv/liveedgech7_partner/smil:auto.smil/chunklist_b8192000_sleng.m3u8',
+      ],
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -242,24 +251,14 @@ const streamingInfo = {
   bein1: {
     channelName: 'beIN Sports HD1',
     logo: 'https://iptv36.my.to/logo/bein1.png',
-    urlList: [
-      'https://laos-tech-live.b-cdn.net/uk-btsport1hd_720/index.m3u8',
-      ['[NO HW+]', 'https://www.livedoomovie.com/02_epl1_720p/chunklist.m3u8'], // 720p
-      // 'http://160.119.77.116:8081/iptv/epl-bein1.stream/playlist.m3u8',
-      'http://103.208.24.234:1935/thaisport/epl-bein1.stream/playlist.m3u8', // 480p
-    ],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115807'],
     groupName: 'SPORT',
   },
 
   bein2: {
     channelName: 'beIN Sports HD2',
     logo: 'https://iptv36.my.to/logo/bein2.png',
-    urlList: [
-      'http://160.119.77.116:8081/iptv/epl-bein2.stream/playlist.m3u8',
-      ['[NO HW+]', 'https://www.livedoomovie.com/02_epl2_720p/chunklist.m3u8'], // 720p
-      // 'http://160.119.77.116:8081/iptv/epl-bein2.stream/playlist.m3u8',
-      'http://103.208.24.234:1935/thaisport/epl-bein2.stream/playlist.m3u8', // 480p
-    ],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115809'],
     groupName: 'SPORT',
   },
 
@@ -267,7 +266,8 @@ const streamingInfo = {
     channelName: 'Premier HD1',
     logo: 'https://iptv36.my.to/logo/premier_hd1.png',
     urlList: [
-      ['[NO HW+]', 'https://sport.livedoomovies.com:4431/02_PremierHD1_720p/chunklist.m3u8'],
+      'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115760',
+      'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115759',
     ],
     groupName: 'SPORT',
   },
@@ -276,9 +276,8 @@ const streamingInfo = {
     channelName: 'Premier HD2',
     logo: 'https://iptv36.my.to/logo/premier_hd2.png',
     urlList: [
-      ['[NO HW+]', 'http://77.83.117.60:8888/02_PremierHD2_720p/chunklist.m3u8'],
-      ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD2_720p/chunklist.m3u8'],
-      ['[NO HW+]', 'https://sport.livedoomovie.com/02_PremierHD1_720p/chunklist.m3u8'],
+      'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115509',
+      'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115508',
     ],
     groupName: 'SPORT',
   },
@@ -287,8 +286,8 @@ const streamingInfo = {
     channelName: 'Premier HD3',
     logo: 'https://iptv36.my.to/logo/premier_hd3.png',
     urlList: [
-      ['[NO HW+]', 'http://77.83.117.60:8888/02_PremierHD3_720p/chunklist.m3u8'],
-      ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD3_720p/chunklist.m3u8'],
+      'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115510',
+      'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115512',
     ],
     groupName: 'SPORT',
   },
@@ -297,8 +296,8 @@ const streamingInfo = {
     channelName: 'Premier HD4',
     logo: 'https://iptv36.my.to/logo/premier_hd4.png',
     urlList: [
-      ['[NO HW+]', 'http://77.83.117.60:8888/02_PremierHD4_720p/chunklist.m3u8'],
-      ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD4_720p/chunklist.m3u8'],
+      'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115513',
+      'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115768',
     ],
     groupName: 'SPORT',
   },
@@ -306,10 +305,7 @@ const streamingInfo = {
   premier5: {
     channelName: 'Premier HD5',
     logo: 'https://iptv36.my.to/logo/premier_hd5.png',
-    urlList: [
-      ['[NO HW+]', 'http://77.83.117.60:8888/02_PremierHD5_720p/chunklist.m3u8'],
-      ['[NO HW+]', 'https://www.livedoomovie.com/02_PremierHD5_720p/chunklist.m3u8'],
-    ],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115515'],
     groupName: 'SPORT',
   },
 
@@ -351,10 +347,7 @@ const streamingInfo = {
   toonee: {
     channelName: 'Toonee',
     logo: 'https://cms.dmpcdn.com/livetv/2020/09/03/4c26a640-ede0-11ea-bbdd-775d9efe2958_320.png',
-    urlList: [
-      'http://freelive2.inwstream.com:1935/freelive-edge/toonee/playlist.m3u8',
-      'http://916309128f3e.sn.mynetname.net:1935/aslive/toonee/chunklist.m3u8',
-    ],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115819'],
     groupName: 'CARTOON',
   },
 
@@ -404,7 +397,7 @@ const streamingInfo = {
   axn: {
     channelName: 'AXN HD',
     logo: 'https://iptv36.my.to/logo/axn.png',
-    urlList: [],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115619'],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -458,7 +451,7 @@ const streamingInfo = {
     channelName: 'FW Toon',
     logo: 'https://www.inwiptv.com/postor/20200512162950fw%20teletoon(1).jpg',
     urlList: [
-      'http://freelive.inwstream.com:1935/freelive-edge/fwtoon_fw-iptv.stream/playlist.m3u8',
+      'https://freelive.inwstream.com:1936/freelive-edge/fwtoon_fw-iptv.stream/playlist.m3u8',
     ],
     groupName: 'CARTOON',
   },
@@ -523,7 +516,7 @@ const streamingInfo = {
   foxthai: {
     channelName: 'FOX Thai HD',
     logo: 'https://iptv36.my.to/logo/foxthai.png',
-    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_FoxThai_TH_720p/chunklist.m3u8']],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115691'],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -614,7 +607,10 @@ const streamingInfo = {
   news1: {
     channelName: 'NEWS1',
     logo: 'https://iptv36.my.to/logo/news1.png',
-    urlList: ['http://server1.streamssl.com/stream/news1_hi.m3u8'],
+    urlList: [
+      'http://server1.streamssl.com/stream/news1_hi.m3u8',
+      'http://news1.live14.com/stream/news1_hi.m3u8',
+    ],
     groupName: 'NEWS & DOCS',
   },
 
@@ -635,7 +631,7 @@ const streamingInfo = {
   truefilm: {
     channelName: 'True Film HD',
     logo: 'https://iptv36.my.to/logo/truefilm.png',
-    urlList: [],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115667'],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -693,7 +689,7 @@ const streamingInfo = {
   warnertv: {
     channelName: 'Warner TV HD',
     logo: 'https://iptv36.my.to/logo/warnertv.png',
-    urlList: ['http://203.154.243.89:1205', 'http://203.154.177.124:8899/live/ch12/playlist.m3u8'],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115823'],
     groupName: 'ENTERTAINMENT',
   },
 };

@@ -60,6 +60,22 @@ const proPlaylist = {
     ['fwmov'],
     ['fwsov'],
     ['fwtoon'],
+
+    // 41-50
+    ['premier1'],
+    ['premier2'],
+    ['premier3'],
+    ['premier4'],
+    ['premier5'],
+    ['bein1'],
+    ['bein2'],
+    ['foxthai'],
+    ['truefilm'],
+    ['warnertv'],
+
+    // 51
+    ['axn'],
+    ['toonee'],
   ],
 };
 
