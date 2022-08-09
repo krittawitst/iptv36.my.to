@@ -38,7 +38,9 @@ const streamingInfo = {
   tsports: {
     channelName: 'T Sports',
     logo: 'http://www.tsportschannel.com/Images/logo-t-sport.png',
-    urlList: [['[NO HW+]', 'https://www.livedoomovies.com:4431/02_T_Sports_480p/chunklist.m3u8']],
+    urlList: [
+      'https://r3-sn-5fo-c37ed56.googleuservideo.com/doofootball_r2/tsports_480p/chunks.m3u8',
+    ],
     groupName: thDtvWithCurrentDate,
   },
 
@@ -117,7 +119,11 @@ const streamingInfo = {
     urlList: [
       [
         'HD',
-        'https://stream-03.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_VxgekGoeZ1F1SCR8DaB1qnYegSDHra6pUMv4X6k5dDO)/dm/3/x6rz4t7/s/live-4.m3u8',
+        'https://www.dailymotion.com/cdn/live/video/x6rz4t7.m3u8?sec=nNitpFpQT3ZsGjdUQuj6idK0vKt7hVPxm34fu854RZVB7xeQADaSlCOhFUE3AqauyFCMvxnN5lSlMp8imlJ2EQ&dmTs=592812&dmV1st=541934AD5E2E5DDC1DAA4B2A1E6A9A37',
+      ],
+      [
+        'HD',
+        'https://stream-02.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_dUjAl7Ce2N-IS63EaHAdsocPQSs3DnoSpcxFUhP5j9F)/dm/3/x6rz4t7/s/live-4.m3u8',
       ],
       'http://freelive2.inwstream.com:1935/freelive-edge/gmmchannel/playlist.m3u8',
     ],
@@ -132,7 +138,7 @@ const streamingInfo = {
       ['HD', 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8'], // 720p
       [
         'HD',
-        'https://stream-01.sg1.dailymotion.com/sec(p5KA4QqcEoMI-Au0U41kOoVqWp_uuUgqpC0edXjctv3SN-VKWOCoL151fuuHyIHV)/dm/3/x84ukk7/s/live-2.m3u8',
+        'https://stream-02.sg1.dailymotion.com/sec(p5KA4QqcEoMI-Au0U41kOiGm7r3-ZQ8jtKlyGN25gs8aczPnX_kmNwte4xvrKGa5)/dm/3/x84ukk7/s/live-2.m3u8',
       ],
       'http://freelive.inwstream.com:1935/freelive-edge/ch8/playlist.m3u8', // 720p
     ],
@@ -148,7 +154,7 @@ const streamingInfo = {
       //   'HD',
       //   'https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/playlist.m3u8',
       // ], // 1080p
-      'https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_720P/mono29hls_720TH.stream/playlist.m3u8',
+      'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080TH.stream/playlist.m3u8',
       'http://freelive.inwstream.com:1935/freelive-edge/mono29/playlist.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
@@ -160,7 +166,7 @@ const streamingInfo = {
     tvgId: 'Mono29.th',
     urlList: [
       // 'https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080EN.stream/playlist.m3u8', // 1080p
-      'https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_720P/mono29hls_720EN.stream/playlist.m3u8', // 720p
+      'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080EN.stream/playlist.m3u8', // 720p
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -178,8 +184,9 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/one.png',
     tvgId: 'One31.th',
     urlList: [
-      'https://stream-05.sg1.dailymotion.com/sec(-0fhsFhycCtfi6ARUwilaMJy1dUkPMXqOB6QotVoKIhI-RH-5xiSEAbukv_lTVYp)/dm/3/x6824x8/s/live-4.m3u8',
+      'https://stream-03.sg1.dailymotion.com/sec(-0fhsFhycCtfi6ARUwilaJjDXEfQHZihUzWx8wOKcggHmHUdie9dYRsggPMlvsA0)/dm/3/x6824x8/s/live-4.m3u8',
       'http://freelive2.inwstream.com:1935/freelive-edge/onehd/playlist.m3u8',
+      'https://freelive.inwstream.com:1936/freelive-edge/onehd/playlist.m3u8',
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -211,7 +218,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/amarin.png',
     tvgId: 'Amarin34HD.th',
     urlList: [
-      ['HD', 'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115608'],
       ['HD', 'http://freelive.inwstream.com:1935/freelive-edge/amarinhd/playlist.m3u8'], // 720p
     ],
     groupName: thDtvWithCurrentDate,
@@ -224,10 +230,6 @@ const streamingInfo = {
     urlList: [
       ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/7hd/playlist.m3u8'],
       ['HD', 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com'],
-      [
-        'HD',
-        'https://edge161.bugaboo.tv/liveedgech7_partner/smil:auto.smil/chunklist_b8192000_sleng.m3u8',
-      ],
     ],
     groupName: thDtvWithCurrentDate,
   },
@@ -409,10 +411,7 @@ const streamingInfo = {
   bbcearth: {
     channelName: 'BBC Earth HD',
     logo: 'https://iptv36.my.to/logo/bbc_earth.jpg',
-    urlList: [
-      'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115624',
-      'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115621',
-    ],
+    urlList: [],
     groupName: 'NEWS & DOCS',
   },
 
@@ -426,7 +425,7 @@ const streamingInfo = {
   blueantent: {
     channelName: 'Blue Ant ENT HD',
     logo: 'https://iptv36.my.to/logo/blueantent.png',
-    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115629'],
+    urlList: [],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -467,7 +466,7 @@ const streamingInfo = {
   boomerang: {
     channelName: 'Boomerang HD',
     logo: 'https://images.squarespace-cdn.com/content/v1/51326bd6e4b060819b0f6458/1364592995062-4AA4OXDSNPEFX2KISVBP/Boomerang_Logo.jpg?format=1500w',
-    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115637'],
+    urlList: ['http://freelive2.inwstream.com:1935/freelive-edge/boomerang/playlist.m3u8'],
     groupName: 'CARTOON',
   },
 
@@ -488,7 +487,7 @@ const streamingInfo = {
   foxactionmovies: {
     channelName: 'FOX Action Movies HD',
     logo: 'https://iptv36.my.to/logo/foxactionmovies.png',
-    urlList: [],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115673'],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -509,23 +508,21 @@ const streamingInfo = {
   foxfamilymovies: {
     channelName: 'Fox Family Movies HD',
     logo: 'https://iptv36.my.to/logo/foxfamilymovies.png',
-    urlList: [],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115422'],
     groupName: 'ENTERTAINMENT',
   },
 
   foxlife: {
     channelName: 'Fox Life HD',
     logo: 'https://iptv36.my.to/logo/foxlife.png',
-    urlList: [],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115679'],
     groupName: 'ENTERTAINMENT',
   },
 
   foxthai: {
     channelName: 'FOX Thai HD',
     logo: 'https://iptv36.my.to/logo/foxthai.png',
-    urlList: [
-      // Dreamwork Animation 'http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115691'
-    ],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115691'],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -546,21 +543,21 @@ const streamingInfo = {
   history2: {
     channelName: 'History2 HD',
     logo: 'https://iptv36.my.to/logo/history2.png',
-    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115713'],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115711'],
     groupName: 'NEWS & DOCS',
   },
 
   hitsmovies: {
     channelName: 'Hits Movies HD',
     logo: 'https://iptv36.my.to/logo/hitsmovies.png',
-    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115679'],
+    urlList: [['[NO HW+]', 'https://www.livedoomovie.com/02_HITSMOVIE_720p/chunklist.m3u8']],
     groupName: 'ENTERTAINMENT',
   },
 
   idstation: {
     channelName: 'ID Station',
     logo: 'https://iptv36.my.to/logo/idstation.png',
-    urlList: [],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115415'],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -568,14 +565,16 @@ const streamingInfo = {
     channelName: 'CAM',
     logo: 'https://iptv36.my.to/logo/cctv.png',
     urlList: [
-      ['1 | Park-164', 'rtsp://admin@192.168.1.211:554/mpeg4/ch1/main/av_stream'],
-      ['2 | Park-163', 'rtsp://admin@192.168.1.212:554/mpeg4/ch1/main/av_stream'],
+      ['1 | Park-164', 'rtsp://admin@192.168.1.201:554/mpeg4/ch1/main/av_stream'],
+      ['2 | Park-163', 'rtsp://admin@192.168.1.202:554/mpeg4/ch1/main/av_stream'],
       ['3 | Toilet-163', 'rtsp://admin@192.168.1.203:554/mpeg4/ch1/main/av_stream'],
       ['4 | Door-163', 'rtsp://admin@192.168.1.204:554/mpeg4/ch1/main/av_stream'],
-      ['5 | Kitchen', 'rtsp://admin@192.168.1.205:554/mpeg4/ch1/main/av_stream'],
-      ['6 | Floor-2', 'rtsp://admin@192.168.1.206:554/mpeg4/ch1/main/av_stream'],
-      ['7 | Com-TV', 'rtsp://admin@192.168.1.207:554/mpeg4/ch1/main/av_stream'],
-      ['8 | Com-Ying', 'rtsp://admin@192.168.1.208:554/mpeg4/ch1/main/av_stream'],
+      ['6 | Kitchen', 'rtsp://admin@192.168.1.206:554/mpeg4/ch1/main/av_stream'],
+      ['7 | Cats', 'rtsp://admin@192.168.1.207:554/mpeg4/ch1/main/av_stream'],
+      ['8 | Electricity', 'rtsp://admin@192.168.1.208:554/mpeg4/ch1/main/av_stream'],
+      ['9 | Floor-2', 'rtsp://admin@192.168.1.209:554/mpeg4/ch1/main/av_stream'],
+      ['10 | Com-Ying', 'rtsp://admin@192.168.1.210:554/mpeg4/ch1/main/av_stream'],
+      ['11 | Com-TV', 'rtsp://admin@192.168.1.211:554/mpeg4/ch1/main/av_stream'],
     ],
     groupName: 'IP CAM',
   },
@@ -647,7 +646,7 @@ const streamingInfo = {
   truethaifilm: {
     channelName: 'True Thai Film HD',
     logo: 'https://cmsimgservices.dmpcdn.com/v1/resize?url=https%3A%2F%2Fcms.dmpcdn.com%2Flivetv%2F2018%2F12%2F17%2F6422ad5a-27f3-4d0e-b0d0-d811c1e652e0.png&w=100&h=75',
-    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115415'],
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115416'],
     groupName: 'ENTERTAINMENT',
   },
 
@@ -669,9 +668,7 @@ const streamingInfo = {
     channelName: 'TVB Thai HD',
     logo: 'https://iptv36.my.to/logo/tvb.png',
     urlList: [
-      'https://edge6a.v2h-cdn.com/RE_HD/smil:TVB_HD_ABR.smil/playlist.m3u8', // 1080p
-      // 'https://edge6a.v2h-cdn.com:443/appt7/TDramaTV.stream_720p/iptv-ton.m3u8', // 720p
-      // 'https://edge6a.v2h-cdn.com/m2a7/TDramaTV.stream_720p/playlist.m3u8', // 720p
+      'https://edge2z.v2h-cdn.com/tvb_thai/tvb_thai.stream/playlist.m3u8', // 1080p
     ],
     groupName: 'ENTERTAINMENT',
   },
@@ -679,7 +676,9 @@ const streamingInfo = {
   voice: {
     channelName: 'Voice TV HD',
     logo: 'https://iptv36.my.to/logo/voice.png',
-    urlList: ['https://edge6a.v2h-cdn.com/appt3/WOWSH.stream_720p/playlist.m3u8'],
+    urlList: [
+      'https://usher.ttvnw.net/api/channel/hls/voicetv.m3u8?allow_source=true&fast_bread=true&p=737483&play_session_id=8d242406bceaacc9a3a768c78a60c21d&player_backend=mediaplayer&playlist_include_framerate=true&reassignments_supported=true&sig=dd92193d7df9fdb808db2f0d17ffd255ed631d60&supported_codecs=avc1&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22voicetv%22%2C%22channel_id%22%3A209787946%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3A%22twitch-web-wall-mason%22%2C%22expires%22%3A1660039694%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%22184.22.213.170%22%2C%22version%22%3A2%7D&cdm=wv&player_version=1.12.0',
+    ],
     groupName: 'NEWS & DOCS',
   },
 
