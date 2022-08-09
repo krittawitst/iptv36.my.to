@@ -36,7 +36,7 @@ const streamingInfo = {
   },
 
   tsports: {
-    channelName: 'T Sports',
+    channelName: 'T-Sports',
     logo: 'http://www.tsportschannel.com/Images/logo-t-sport.png',
     urlList: [
       'https://r3-sn-5fo-c37ed56.googleuservideo.com/doofootball_r2/tsports_480p/chunks.m3u8',
@@ -565,16 +565,16 @@ const streamingInfo = {
     channelName: 'CAM',
     logo: 'https://iptv36.my.to/logo/cctv.png',
     urlList: [
-      ['1 | Park-164', 'rtsp://admin@192.168.1.201:554/mpeg4/ch1/main/av_stream'],
-      ['2 | Park-163', 'rtsp://admin@192.168.1.202:554/mpeg4/ch1/main/av_stream'],
-      ['3 | Toilet-163', 'rtsp://admin@192.168.1.203:554/mpeg4/ch1/main/av_stream'],
-      ['4 | Door-163', 'rtsp://admin@192.168.1.204:554/mpeg4/ch1/main/av_stream'],
-      ['6 | Kitchen', 'rtsp://admin@192.168.1.206:554/mpeg4/ch1/main/av_stream'],
-      ['7 | Cats', 'rtsp://admin@192.168.1.207:554/mpeg4/ch1/main/av_stream'],
-      ['8 | Electricity', 'rtsp://admin@192.168.1.208:554/mpeg4/ch1/main/av_stream'],
-      ['9 | Floor-2', 'rtsp://admin@192.168.1.209:554/mpeg4/ch1/main/av_stream'],
-      ['10 | Com-Ying', 'rtsp://admin@192.168.1.210:554/mpeg4/ch1/main/av_stream'],
-      ['11 | Com-TV', 'rtsp://admin@192.168.1.211:554/mpeg4/ch1/main/av_stream'],
+      ['1 | Park-164', 'rtsp://admin@192.168.1.201:554/h264/ch1/sub/av_stream'],
+      ['2 | Park-163', 'rtsp://admin@192.168.1.202:554/h264/ch1/sub/av_stream'],
+      ['3 | Toilet-163', 'rtsp://admin@192.168.1.203:554/h264/ch1/sub/av_stream'],
+      ['4 | Door-163', 'rtsp://admin@192.168.1.204:554/h264/ch1/sub/av_stream'],
+      ['6 | Kitchen', 'rtsp://admin@192.168.1.206:554/h264/ch1/sub/av_stream'],
+      ['7 | Cats', 'rtsp://admin@192.168.1.207:554/h264/ch1/sub/av_stream'],
+      ['8 | Electricity', 'rtsp://admin@192.168.1.208:554/h264/ch1/sub/av_stream'],
+      ['9 | Floor-2', 'rtsp://admin@192.168.1.209:554/h264/ch1/sub/av_stream'],
+      ['10 | Com-Ying', 'rtsp://admin@192.168.1.210:554/h264/ch1/sub/av_stream'],
+      ['11 | Com-TV', 'rtsp://admin@192.168.1.211:554/h264/ch1/sub/av_stream'],
     ],
     groupName: 'IP CAM',
   },
@@ -805,7 +805,7 @@ const testUrl = async (url) => {
         (url.includes('3bb.co.th') ||
           url.includes('prsmedia') ||
           url.includes('login.in.th') ||
-          url.includes('r4-sn-w5nuxa-o53d.googlevideocdn.com'))
+          url.includes('googleuservideo.com'))
       ) {
         return true;
       }

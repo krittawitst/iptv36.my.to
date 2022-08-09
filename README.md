@@ -53,7 +53,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 4           | ALTV HD               |
 | 5           | TV5 HD                |
 | 6           | PPTV HD Backup        |
-| 7           | T Sports              |
+| 7           | T-Sports              |
 | 8           | CH8 Backup            |
 | 9           | Cartoon Club          |
 | 10          | TPTV                  |
@@ -67,7 +67,7 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 | 18          | JKN18 HD              |
 | 19          | TVB Thai              |
 | 20          | News 1 HD             |
-| 21          | Voice TV HD           |
+| 21          | Top News HD           |
 | 22          | Nation TV HD          |
 | 23          | Workpoint TV HD       |
 | 24          | True4U                |

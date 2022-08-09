@@ -27,7 +27,7 @@ const basicPlaylist = {
     ['news1'],
 
     // 21-30
-    ['voice'],
+    ['topnews'],
     ['nation'],
     ['workpoint'],
     ['true4u'],
