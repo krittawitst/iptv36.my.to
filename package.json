@@ -8,7 +8,7 @@
     "build": "node builder"
   },
   "prettier": {
-    "printWidth": 100,
+    "printWidth": 120,
     "singleQuote": true
   },
   "dependencies": {

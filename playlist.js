@@ -60,30 +60,6 @@ const proPlaylist = {
     ['fwmov'],
     ['fwsov'],
     ['fwtoon'],
-
-    // // 41-50
-    // ['premier1'],
-    // ['premier2'],
-    // ['premier3'],
-    // ['premier4'],
-    // ['premier5'],
-    // ['bein1'],
-    // ['bein2'],
-    // ['truefilm'],
-    // ['idstation'],
-    // ['truethaifilm'],
-
-    // // 51-60
-    // ['history'],
-    // ['history2'],
-    // ['natgeo'],
-    // ['axn'],
-    // ['hbo'],
-    // ['warnertv'],
-    // ['foxactionmovies'],
-    // ['foxfamilymovies'],
-    // ['foxlife'],
-    // ['foxthai'],
   ],
 };
 

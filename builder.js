@@ -3,21 +3,10 @@ const streaming = require('./streaming.js');
 const getEpgData = require('./epg.js');
 const allPlaylist = require('./playlist.js');
 
-const channelLogoRevision = 8;
+const channelLogoVersion = 1;
 const currentEpochDatetime = new Date().getTime();
 const currentDatetimePlus7Hrs = new Date(currentEpochDatetime + 7 * 60 * 60 * 1000);
 const currentBkkDatetimeStr = currentDatetimePlus7Hrs.toISOString().slice(0, 16);
-
-// const getTvgIdFromChannelKey = (channelKey) => {
-//   switch (channelKey) {
-//     case 'thairath':
-//       return 'ThairathTV32.th';
-//     case 'mono29soundtrack':
-//       return 'mono29.iptv36.my.to';
-//     default:
-//       return `${channelKey}.iptv36.my.to`;
-//   }
-// };
 
 const main = async () => {
   // prefetch epg data
@@ -76,12 +65,11 @@ const main = async () => {
       let tvgId = streamingInfo.tvgId || `${channelKey}.iptv36.my.to`;
       let channelStr = `#EXTINF:-1 tvg-chno="${i + 1}" tvg-id="${tvgId}" group-title="${
         streamingInfo.groupName
-      }" tvg-logo="${streamingInfo.logo}?rev=${channelLogoRevision}",${channelName}`;
+      }" tvg-logo="${streamingInfo.logo}?v=${channelLogoVersion}",${channelName}`;
 
-      // if (streamingInfo.EXTVLCOPT) {
-      //   channelStr += `\n${streamingInfo.EXTVLCOPT}`;
-      //   channelStr += `\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74`;
-      // }
+      if (streamingInfo.options) {
+        channelStr += `\n${streamingInfo.options}`;
+      }
 
       channelStr += `\n${streamingInfo.url}\n\n`;
 
