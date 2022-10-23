@@ -45,7 +45,9 @@ const streamingInfo = {
   tsports: {
     channelName: 'T-Sports',
     logo: 'https://iptv36.my.to/logo/tsports.png',
-    sources: [{ url: 'https://cdn6.goprimetime.info/feed/202205171929/chtsport/index.m3u8', options: defaultOptions }],
+    sources: [
+      { url: 'https://cdn6.goprimetime.info/feed/202205171929/chtsport/index.m3u8' /* options: defaultOptions */ },
+    ],
   },
 
   tptv: {
@@ -240,17 +242,17 @@ const streamingInfo = {
 
   ipcam: {
     channelName: 'CAM',
-    logo: 'https://iptv36.my.to/logo/cctv.png',
+    logo: 'https://iptv36.my.to/logo/ipcam.png',
     sources: [
-      ['CAM-01 Park-164', 'rtsp://admin@192.168.1.211:554/mpeg4/ch1/main/av_stream'],
-      ['CAM-02 Park-163', 'rtsp://admin@192.168.1.212:554/mpeg4/ch1/main/av_stream'],
-      ['CAM-03 Toilet-163', 'rtsp://admin@192.168.1.203:554/mpeg4/ch1/main/av_stream'],
-      ['CAM-04 Door-163', 'rtsp://admin@192.168.1.204:554/mpeg4/ch1/main/av_stream'],
-      ['CAM-06 Kitchen', 'rtsp://admin@192.168.1.206:554/mpeg4/ch1/main/av_stream'],
-      ['CAM-07 Floor-2', 'rtsp://admin@192.168.1.207:554/mpeg4/ch1/main/av_stream'],
-      ['CAM-09 Com-TV', 'rtsp://admin@192.168.1.209:554/mpeg4/ch1/main/av_stream'],
-      ['CAM-10 Com-Ying', 'rtsp://admin@192.168.1.210:554/mpeg4/ch1/main/av_stream'],
-      ['CAM-11 Bed-1', 'rtsp://admin@192.168.1.210:554/mpeg4/ch1/main/av_stream'],
+      ['01 Park-164', 'rtsp://admin@192.168.1.201:554/mpeg4/ch1/main/av_stream'],
+      ['02 Park-163', 'rtsp://admin@192.168.1.202:554/mpeg4/ch1/main/av_stream'],
+      ['03 Toilet-163', 'rtsp://admin@192.168.1.203:554/mpeg4/ch1/main/av_stream'],
+      ['04 Door-163', 'rtsp://admin@192.168.1.204:554/mpeg4/ch1/main/av_stream'],
+      ['06 Kitchen', 'rtsp://admin@192.168.1.206:554/mpeg4/ch1/main/av_stream'],
+      ['07 Floor-2', 'rtsp://admin@192.168.1.207:554/mpeg4/ch1/main/av_stream'],
+      ['09 Com-TV', 'rtsp://admin@192.168.1.209:554/mpeg4/ch1/main/av_stream'],
+      ['10 Com-Ying', 'rtsp://admin@192.168.1.210:554/mpeg4/ch1/main/av_stream'],
+      ['11 Bed-1', 'rtsp://admin@192.168.1.211:554/mpeg4/ch1/main/av_stream'],
     ],
     groupName: 'IP CAM',
   },
