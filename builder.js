@@ -27,20 +27,17 @@ const main = async () => {
   // generate M3U PLAYLIST file
   for (let playlist of allPlaylist) {
     let textStr = `#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml" refresh="3600"\n`;
-    textStr += `#       homepage="https://iptv36.my.to/" last-update="${currentBkkDatetimeStr}"\n\n`;
+    textStr += `#\n#       Homepage https://iptv36.my.to/   Last Update: ${currentBkkDatetimeStr} ICT\n\n`;
 
     // test all streaming simultaneously
     console.log(`\nChecking streaming url for playlist '${playlist.filename}'...`);
 
-    let uniqueChannelKeyForThisPlaylist = playlist.channelList.reduce(
-      (channelList, [channelKey, skip = 0]) => {
-        if (!channelList.includes(channelKey)) {
-          channelList.push(channelKey);
-        }
-        return channelList;
-      },
-      []
-    );
+    let uniqueChannelKeyForThisPlaylist = playlist.channelList.reduce((channelList, [channelKey, skip = 0]) => {
+      if (!channelList.includes(channelKey)) {
+        channelList.push(channelKey);
+      }
+      return channelList;
+    }, []);
 
     allActiveChannelKey = [...allActiveChannelKey, ...uniqueChannelKeyForThisPlaylist];
 
@@ -49,11 +46,6 @@ const main = async () => {
         await streaming.getStreamingInfo(channelKey);
       })
     );
-
-    // for (let i = 0; i < uniqueChannelKeyForThisPlaylist.length; i++) {
-    //   let channelKey = uniqueChannelKeyForThisPlaylist[i];
-    //   await streaming.getStreamingInfo(channelKey);
-    // }
 
     // generate playlist file
     for (let i = 0; i < playlist.channelList.length; i++) {
@@ -75,6 +67,11 @@ const main = async () => {
 
       textStr = textStr + `${channelStr}`;
     }
+
+    let versionInfo = `#EXTINF:-1 tvg-chno="${
+      playlist.channelList.length + 1
+    }" group-title="Main" tvg-logo="https://iptv36.my.to/logo/info.png",Updated at ${currentBkkDatetimeStr}\nhttps://iptv36.my.to/logo/info.png`;
+    textStr = textStr + `${channelStr}`;
 
     fs.writeFileSync(`${playlist.filename}`, textStr, 'utf8');
 

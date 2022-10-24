@@ -290,13 +290,19 @@ const streamingInfo = {
   boomerang: {
     channelName: 'Boomerang HD',
     logo: 'https://iptv36.my.to/logo/boomerang.png',
-    urlList: ['http://freelive2.inwstream.com:1935/freelive-edge/boomerang/playlist.m3u8'],
+    sources: [
+      'http://freelive2.inwstream.com:1935/freelive-edge/boomerang/playlist.m3u8',
+      'https://freelive.inwstream.com:1936/freelive-edge/boomerang/playlist.m3u8',
+    ],
   },
 
   toonee: {
     channelName: 'Toonee',
     logo: 'https://iptv36.my.to/logo/toonee.png',
-    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115819'],
+    sources: [
+      'https://freelive.inwstream.com:1936/freelive-edge/toonee/playlist.m3u8',
+      'http://freelive2.inwstream.com:1935/freelive-edge/toonee/playlist.m3u8',
+    ],
   },
 
   ipcam: {
