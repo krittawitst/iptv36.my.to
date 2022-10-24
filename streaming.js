@@ -145,6 +145,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/mono29.png',
     tvgId: 'Mono29.th',
     sources: [
+      { url: 'https://live-3.monomax.me/tv/mono29_1440p.m3u8', suffix: 'HD' },
       { url: 'https://cdn6.goprimetime.info/feed/202205171929/chmono29/index.m3u8', options: defaultOptions },
       'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080TH.stream/playlist.m3u8',
       'http://freelive.inwstream.com:1935/freelive-edge/mono29/playlist.m3u8',
@@ -194,13 +195,13 @@ const streamingInfo = {
   },
 
   ch3: {
-    channelName: 'CH3',
+    channelName: 'CH3 HD',
     logo: 'https://iptv36.my.to/logo/ch3.png',
     tvgId: 'Channel3.th',
     sources: [
-      ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/3hd/playlist.m3u8'],
+      'http://freelive2.inwstream.com:1935/freelive-edge/3hd/playlist.m3u8',
       { url: 'https://cdn6.goprimetime.info/feed/202205171929/ch3hd/index.m3u8', options: defaultOptions },
-      ['HD', 'https://freelive.inwstream.com:1936/freelive-edge/3hd/playlist.m3u8'],
+      'https://freelive.inwstream.com:1936/freelive-edge/3hd/playlist.m3u8',
     ],
   },
 
@@ -216,12 +217,12 @@ const streamingInfo = {
   },
 
   ch7: {
-    channelName: 'CH7',
+    channelName: 'CH7 HD',
     logo: 'https://iptv36.my.to/logo/ch7.png',
     tvgId: 'BBTVChannel7.th',
     sources: [
-      ['HD', 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com'], // 1080p
-      ['HD', 'http://freelive2.inwstream.com:1935/freelive-edge/7hd/playlist.m3u8'], // 720p
+      'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com', // 1080p
+      'http://freelive2.inwstream.com:1935/freelive-edge/7hd/playlist.m3u8', // 720p
       { url: 'https://cdn6.goprimetime.info/feed/202205171929/ch7hd/index.m3u8', options: defaultOptions },
     ],
   },
@@ -309,18 +310,18 @@ const streamingInfo = {
     channelName: 'CAM',
     logo: 'https://iptv36.my.to/logo/ipcam.png',
     sources: [
-      ['01 Park-164', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=1&stream=1.sdp?'],
-      ['02 Park-163', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=2&stream=1.sdp?'],
-      ['03 Toilet-163', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=3&stream=1.sdp?'],
-      ['04 Door-163', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=4&stream=1.sdp?'],
-      ['05 Cat', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=5&stream=1.sdp?'],
-      ['06 Kitchen', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=6&stream=1.sdp?'],
-      ['07 Floor-2', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=7&stream=1.sdp?'],
-      ['08 Electricity', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=8&stream=1.sdp?'],
-      ['09 Com-TV', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=9&stream=1.sdp?'],
-      ['10 Com-Ying', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=10&stream=1.sdp?'],
-      ['11 Bed-1', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=11&stream=1.sdp?'],
-      ['12 Bed-2', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=12&stream=1.sdp?'],
+      { url: 'rtsp://admin@192.168.1.200/user=admin&password=&channel=1&stream=0.sdp?', suffix: '01 Park-164' },
+      { url: 'rtsp://admin@192.168.1.200/user=admin&password=&channel=2&stream=0.sdp?', suffix: '02 Park-163' },
+      { url: 'rtsp://admin@192.168.1.200/user=admin&password=&channel=3&stream=0.sdp?', suffix: '03 Toilet-163' },
+      { url: 'rtsp://admin@192.168.1.200/user=admin&password=&channel=4&stream=0.sdp?', suffix: '04 Door-163' },
+      { url: 'rtsp://admin@192.168.1.200/user=admin&password=&channel=5&stream=0.sdp?', suffix: '05 Cat' },
+      { url: 'rtsp://admin@192.168.1.200/user=admin&password=&channel=6&stream=0.sdp?', suffix: '06 Kitchen' },
+      { url: 'rtsp://admin@192.168.1.200/user=admin&password=&channel=7&stream=0.sdp?', suffix: '07 Floor-2' },
+      { url: 'rtsp://admin@192.168.1.200/user=admin&password=&channel=8&stream=0.sdp?', suffix: '08 Electricity' },
+      { url: 'rtsp://admin@192.168.1.200/user=admin&password=&channel=9&stream=0.sdp?', suffix: '09 Com-TV' },
+      { url: 'rtsp://admin@192.168.1.200/user=admin&password=&channel=10&stream=0.sdp?', suffix: '10 Com-Ying' },
+      { url: 'rtsp://admin@192.168.1.200/user=admin&password=&channel=11&stream=0.sdp?', suffix: '11 Bed-1' },
+      { url: 'rtsp://admin@192.168.1.200/user=admin&password=&channel=12&stream=0.sdp?', suffix: '12 Bed-2' },
     ],
   },
 };
@@ -330,7 +331,7 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
 
   // config
   let config = [
-    // [channelKey, channelNameSuffix, pageUrl, appendUrlToBottom=false]
+    // [channelKey, channelNameSuffix, metaUrl]
     ['workpoint', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6g9qjj'],
     ['nation', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
     ['topnews', '', 'https://www.dailymotion.com/player/metadata/video/x8aopdx'],
@@ -338,14 +339,13 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
 
   let result = {};
   await Promise.all(
-    config.map(async ([channelKey, channelNameSuffix, pageUrl, appendUrlToBottom = false]) => {
+    config.map(async ([channelKey, channelNameSuffix, metaUrl]) => {
       let videoMetaData = {};
       try {
-        const response = await axios.get(pageUrl);
+        const response = await axios.get(metaUrl);
         videoMetaData = response.data;
       } catch (error) {
-        console.error(`Cannot extract playlist for channel ${channelKey}`);
-        console.error(error);
+        console.error(`Cannot extract videoMetaData for channel ${channelKey}`);
       }
 
       let livePlayListUrl = '';
@@ -353,8 +353,6 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
         livePlayListUrl = videoMetaData.qualities.auto[0].url;
       } catch (error) {
         console.error(`Cannot get live playlist url for channel ${channelKey}`);
-        console.error(error);
-        console.error(videoMetaData);
       }
 
       if (livePlayListUrl) {
@@ -372,11 +370,8 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
                 return;
               }
               let url = regExpMatchArray[0].replace('.nyc.', '.sg1.');
-              if (appendUrlToBottom) {
-                streamingInfo[channelKey].sources.push([channelNameSuffix, url]);
-              } else {
-                streamingInfo[channelKey].sources.unshift([channelNameSuffix, url]);
-              }
+              streamingInfo[channelKey].sources.unshift({ url, suffix: channelNameSuffix });
+              console.log(`  / added ${channelKey}`);
               break;
             }
           }
@@ -418,15 +413,7 @@ const testUrl = async (url) => {
         return true;
       }
 
-      if (errorMsg === 'UNABLE_TO_VERIFY_LEAF_SIGNATURE' && url.includes('freelive.inwstream.com')) {
-        return true;
-      }
-
-      if (
-        process.env.NETLIFY &&
-        errorMsg === 'ECONNRESET' &&
-        (url.includes('stream.rs.co.th') || url.includes('bugaboo.tv'))
-      ) {
+      if (errorMsg === 'UNABLE_TO_VERIFY_LEAF_SIGNATURE' && url.includes('inwstream.com')) {
         return true;
       }
 
@@ -451,6 +438,7 @@ const generateValidUrl = async (streamingData) => {
       let urlForTest = url;
       if (Array.isArray(url)) {
         urlForTest = url[1];
+        console.log(urlForTest);
       } else if (typeof url === 'object') {
         urlForTest = url.url;
       }
@@ -494,7 +482,7 @@ const getStreamingInfo = async (channelKey, skip = 0) => {
   }
 
   let channelNameComponent = [streamingData.channelName];
-  let logo = streamingData.logo || 'https://iptv36.my.to/logo/blank.png';
+  let logo = streamingData.logo;
   let groupName = 'Main';
   let tvgId = streamingData.tvgId || '';
   let sources = streamingData.validUrlList || [];
@@ -533,5 +521,4 @@ const getStreamingInfo = async (channelKey, skip = 0) => {
 module.exports = {
   getStreamingInfo,
   dynamicallyAddStreamingUrlFromDailyMotion,
-  // dynamicallyAddStreamingUrlByDetectM3U8Url,
 };

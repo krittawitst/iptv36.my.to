@@ -17,9 +17,7 @@ const main = async () => {
   }
 
   // dynamically add streaming url
-  // await streaming.dynamicallyAddStreamingUrlFromFwIptv();
   await streaming.dynamicallyAddStreamingUrlFromDailyMotion();
-  // await streaming.dynamicallyAddStreamingUrlByDetectM3U8Url();
 
   // remember all active channel key to build epg
   let allActiveChannelKey = [];
@@ -79,7 +77,7 @@ const main = async () => {
   }
 
   // generate XMLTV EPG file
-  if (!process.env.NETLIFY) {
+  if (false && !process.env.NETLIFY) {
     allActiveChannelKey = Array.from(new Set(allActiveChannelKey));
     const epgData = await epgDataPromise;
 
