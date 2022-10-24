@@ -60,6 +60,8 @@ const proPlaylist = {
     ['fwmov'],
     ['fwsov'],
     ['fwtoon'],
+    ['boomerang'],
+    ['toonee'],
   ],
 };
 
@@ -80,6 +82,8 @@ const iptvPlaylist = {
     ['ipcam', 7],
     ['ipcam', 8],
     ['ipcam', 9],
+    ['ipcam', 10],
+    ['ipcam', 11],
   ],
 };
 

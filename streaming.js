@@ -24,7 +24,7 @@ const streamingInfo = {
     sources: [
       'https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8', // 1080p
       { url: 'https://cdn6.goprimetime.info/feed/202205171929/chthaipbs3/index.m3u8', options: defaultOptions },
-      'https://freelive2.inwstream.com:1936/freelive-edge/thaipbs/playlist.m3u8',
+      'https://freelive.inwstream.com:1936/freelive-edge/thaipbs/playlist.m3u8',
     ],
   },
 
@@ -77,7 +77,7 @@ const streamingInfo = {
 
   jkn18: {
     channelName: 'JKN18',
-    logo: 'https://iptv36.my.to/logo/jkn18.jpg',
+    logo: 'https://iptv36.my.to/logo/jkn18.png',
     tvgId: 'JKN18.th',
     sources: [
       { url: 'https://5f27aa1f6ef91.streamlock.net/jkncnbc/myStream/playlist.m3u8', suffix: 'HD' },
@@ -243,6 +243,26 @@ const streamingInfo = {
     sources: ['https://edge1-bkk.3bb.co.th:9443/cartoonLiveApp/cartoonLiveApp.stream/chunklist_w859044783.m3u8'],
   },
 
+  tvb: {
+    channelName: 'TVB Thai HD',
+    logo: 'https://iptv36.my.to/logo/tvb.png',
+    sources: [
+      'https://edge2z.v2h-cdn.com/tvb_thai/tvb_thai.stream/playlist.m3u8', // 1080p
+    ],
+  },
+
+  news1: {
+    channelName: 'NEWS1',
+    logo: 'https://iptv36.my.to/logo/news1.png',
+    sources: ['http://news1.live14.com/stream/news1_hi.m3u8', 'http://server1.streamssl.com/stream/news1_hi.m3u8'],
+  },
+
+  topnews: {
+    channelName: 'Top News HD',
+    logo: 'https://images.topnews.co.th/2021/04/cropped-topnews-logo.png',
+    sources: ['https://live.topnews.co.th/hls/topnews_b_720.m3u8'],
+  },
+
   ctb: {
     channelName: 'CTB',
     logo: 'https://iptv36.my.to/logo/ctb.png',
@@ -257,51 +277,45 @@ const streamingInfo = {
 
   fwsov: {
     channelName: 'FW Sov',
-    logo: 'https://img.inwiptv.com/postor/20200512165346fwsov.jpg',
+    logo: 'https://img.inwiptv.net/postor/20200512165346fwsov.jpg',
     sources: ['http://freelive.inwstream.com:1935/freelive-edge/fwsov_fw-iptv.stream/playlist.m3u8'],
   },
 
   fwtoon: {
     channelName: 'FW Toon',
-    logo: 'https://img.inwiptv.com/postor/20200512162950fw%20teletoon(1).jpg',
+    logo: 'https://img.inwiptv.net/postor/20200512162950fw%20teletoon(1).jpg',
     sources: ['https://freelive.inwstream.com:1936/freelive-edge/fwtoon_fw-iptv.stream/playlist.m3u8'],
+  },
+
+  boomerang: {
+    channelName: 'Boomerang HD',
+    logo: 'https://iptv36.my.to/logo/boomerang.png',
+    urlList: ['http://freelive2.inwstream.com:1935/freelive-edge/boomerang/playlist.m3u8'],
+  },
+
+  toonee: {
+    channelName: 'Toonee',
+    logo: 'https://iptv36.my.to/logo/toonee.png',
+    urlList: ['http://ultratv.one:2095/b6oxQeKNTb/x0zne3Wp/115819'],
   },
 
   ipcam: {
     channelName: 'CAM',
     logo: 'https://iptv36.my.to/logo/ipcam.png',
     sources: [
-      ['01 Park-164', 'rtsp://admin@192.168.1.201:554/mpeg4/ch1/main/av_stream'],
-      ['02 Park-163', 'rtsp://admin@192.168.1.202:554/mpeg4/ch1/main/av_stream'],
-      ['03 Toilet-163', 'rtsp://admin@192.168.1.203:554/mpeg4/ch1/main/av_stream'],
-      ['04 Door-163', 'rtsp://admin@192.168.1.204:554/mpeg4/ch1/main/av_stream'],
-      ['06 Kitchen', 'rtsp://admin@192.168.1.206:554/mpeg4/ch1/main/av_stream'],
-      ['07 Floor-2', 'rtsp://admin@192.168.1.207:554/mpeg4/ch1/main/av_stream'],
-      ['09 Com-TV', 'rtsp://admin@192.168.1.209:554/mpeg4/ch1/main/av_stream'],
-      ['10 Com-Ying', 'rtsp://admin@192.168.1.210:554/mpeg4/ch1/main/av_stream'],
-      ['11 Bed-1', 'rtsp://admin@192.168.1.211:554/mpeg4/ch1/main/av_stream'],
+      ['01 Park-164', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=1&stream=1.sdp?'],
+      ['02 Park-163', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=2&stream=1.sdp?'],
+      ['03 Toilet-163', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=3&stream=1.sdp?'],
+      ['04 Door-163', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=4&stream=1.sdp?'],
+      ['05 Cat', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=5&stream=1.sdp?'],
+      ['06 Kitchen', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=6&stream=1.sdp?'],
+      ['07 Floor-2', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=7&stream=1.sdp?'],
+      ['08 Electricity', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=8&stream=1.sdp?'],
+      ['09 Com-TV', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=9&stream=1.sdp?'],
+      ['10 Com-Ying', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=10&stream=1.sdp?'],
+      ['11 Bed-1', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=11&stream=1.sdp?'],
+      ['12 Bed-2', 'rtsp://admin@192.168.1.200/user=admin&password=&channel=12&stream=1.sdp?'],
     ],
-    groupName: 'IP CAM',
-  },
-
-  news1: {
-    channelName: 'NEWS1',
-    logo: 'https://iptv36.my.to/logo/news1.png',
-    sources: ['http://server1.streamssl.com/stream/news1_hi.m3u8', 'http://news1.live14.com/stream/news1_hi.m3u8'],
-  },
-
-  tvb: {
-    channelName: 'TVB Thai HD',
-    logo: 'https://iptv36.my.to/logo/tvb.png',
-    sources: [
-      'https://edge2z.v2h-cdn.com/tvb_thai/tvb_thai.stream/playlist.m3u8', // 1080p
-    ],
-  },
-
-  topnews: {
-    channelName: 'Top News HD',
-    logo: 'https://images.topnews.co.th/2021/04/cropped-topnews-logo.png',
-    sources: ['https://live.topnews.co.th/hls/topnews_b_720.m3u8'],
   },
 };
 
@@ -373,10 +387,8 @@ const testUrl = async (url) => {
   // list of url that we will always not check
   if (
     url.includes('rtsp://') ||
-    url.includes('ultratv.one') ||
-    url.includes('27.254.142.207') || // m channel
     url.includes('streamlock.net') || // jkn
-    url.includes('live-cdn-hwc.ch7.com') ||
+    url.includes('live-cdn-hwc.ch7.com') || // ch7
     url.includes('/api/true') // tnn
   ) {
     return true;
@@ -395,10 +407,7 @@ const testUrl = async (url) => {
 
       if (
         process.env.NETLIFY &&
-        (url.includes('3bb.co.th') ||
-          url.includes('prsmedia') ||
-          url.includes('login.in.th') ||
-          url.includes('googleuservideo.com'))
+        (url.includes('3bb.co.th') || url.includes('prsmedia') || url.includes('login.in.th'))
       ) {
         return true;
       }
