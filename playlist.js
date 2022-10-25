@@ -48,6 +48,57 @@ const basicPlaylist = {
   ],
 };
 
+const playlistV2 = {
+  filename: 'playlist-v2.m3u',
+  removeNoHWPlusDecoderWarning: true,
+  channelList: [
+    // 1-10
+    ['nbt'],
+    ['thaipbs'],
+    ['altv'],
+    ['tv5'],
+    ['tsports'],
+    ['tptv'],
+    ['tnn16'],
+    ['tnn16', 1],
+    ['jkn18'],
+    ['nation'],
+
+    // 11-20
+    ['nation', 1],
+    ['workpoint'],
+    ['workpoint', 1],
+    ['true4u'],
+    ['true4u', 1],
+    ['gmm25'],
+    ['gmm25', 1],
+    ['ch8'],
+    ['ch8', 1],
+    ['mono29soundtrack'],
+
+    // 21-30
+
+    ['mono29'],
+    ['mono29', 1],
+    ['mcot'],
+    ['mcot', 1],
+    ['one'],
+    ['one', 1],
+    ['thairath'],
+    ['thairath', 1],
+    ['ch3'],
+    ['ch3', 1],
+
+    // 31-36
+    ['amarin'],
+    ['amarin', 1],
+    ['ch7'],
+    ['ch7', 1],
+    ['pptv'],
+    ['pptv', 1],
+  ],
+};
+
 const proPlaylist = {
   filename: 'PRO36.m3u',
   removeNoHWPlusDecoderWarning: true,
@@ -60,8 +111,22 @@ const proPlaylist = {
     ['fwmov'],
     ['fwsov'],
     ['fwtoon'],
+
+    // 41-50
     ['boomerang'],
     ['toonee'],
+    ['premier1'],
+    ['premier1', 1],
+    ['premier2'],
+    ['premier2', 1],
+    ['premier3'],
+    ['premier3', 1],
+    ['premier4'],
+    ['premier4', 1],
+
+    // 51-60
+    ['premier5'],
+    ['premier5', 1],
   ],
 };
 
@@ -87,6 +152,6 @@ const iptvPlaylist = {
   ],
 };
 
-const allPlaylist = [basicPlaylist, proPlaylist, iptvPlaylist];
+const allPlaylist = [basicPlaylist, playlistV2, proPlaylist, iptvPlaylist];
 
 module.exports = allPlaylist;

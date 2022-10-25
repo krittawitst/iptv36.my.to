@@ -1,10 +1,7 @@
-/api/*                        /.netlify/functions/:splat                        200!
-/playlist                     /BASIC36.m3u                                      200!
-/free                         /BASIC36.m3u                                      200!
-/pro                          /PRO36.m3u                                        200!
-/me                           /IPTV36.m3u                                       200!
-/epg                          https://akkradet.github.io/IPTV-THAI/guide.xml    200!                      200!
-/playlist-v1                  /BASIC36.m3u                                      200!
-/playlist-v2                  /BASIC36.m3u                                      200!
-/playlist-v3                  /BASIC36.m3u                                      200!
-/*                            https://iptv36.my.to/                             301!
+/api/*          /.netlify/functions/:splat                        200!
+/playlist       /BASIC36.m3u                                      302!
+/free           /BASIC36.m3u                                      302!
+/pro            /PRO36.m3u                                        302!
+/me             /IPTV36.m3u                                       302!
+/epg            https://akkradet.github.io/IPTV-THAI/guide.xml    302!
+/*              https://iptv36.my.to/                             301!

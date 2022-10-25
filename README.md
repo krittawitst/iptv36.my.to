@@ -45,49 +45,41 @@ IPTV Playlist โดยทั่วไปจะอยู่ในลักษณ
 
 ## ช่องรายการ
 
-| หมายเลขช่อง | ชื่อช่อง              |
-| ----------- | --------------------- |
-| 1           | Workpoint TV Backup   |
-| 2           | NBT HD                |
-| 3           | Thai PBS HD           |
-| 4           | ALTV HD               |
-| 5           | TV5 HD                |
-| 6           | PPTV HD Backup        |
-| 7           | T-Sports              |
-| 8           | CH8 Backup            |
-| 9           | Cartoon Club          |
-| 10          | TPTV                  |
-| 11          | ONE HD Backup         |
-| 12          | Thairath TV HD Backup |
-| 13          | CH3 HD Backup         |
-| 14          | Amarin TV HD Backup   |
-| 15          | CH7 HD Backup         |
-| 16          | TNN16 HD              |
-| 17          | TNN16 Backup          |
-| 18          | JKN18 HD              |
-| 19          | TVB Thai              |
-| 20          | News 1 HD             |
-| 21          | Top News HD           |
-| 22          | Nation TV HD          |
-| 23          | Workpoint TV HD       |
-| 24          | True4U                |
-| 25          | GMM25 HD              |
-| 26          | GMM25 Backup          |
-| 27          | CH8 HD                |
-| 28          | MONO29 Soundtrack     |
-| 29          | MONO29                |
-| 30          | MCOT HD               |
-| 31          | ONE HD                |
-| 32          | Thairath TV HD        |
-| 33          | CH3 HD                |
-| 34          | Amarin TV HD          |
-| 35          | CH7 HD                |
-| 36          | PPTV HD               |
-
-## คำถามที่พบบ่อย
-
-- **ดูบางช่องไม่ได้ ขึ้นว่า Error Playing Channel**
-
-มีความเป็นไปได้ 2 อย่าง ที่ทำให้ไม่สามารถเล่นช่องรายการที่เลือกได้ อย่างแรกคือ Server ที่ส่งข้อมูลมามีปัญหา ซึ่งแก้ไขอะไรไม่ได้ ต้องรอให้ทางเจ้าของ Server แก้ไข กับอย่างที่สองคือ การถอดรหัสสัญญาณมีปัญหา
-
-กรณีหลัง คุณสามารถแก้ไขปัญหาเองได้ โดยลองเปลี่ยนวิธีการถอดรหัสจาก HW+ เป็น HW หรือกลับกัน เนื่องจากบางช่องนั้น ทำมารองรับ HW+ อย่างเดียว หรือ HW อย่างเดียว เท่านั้น เมื่อตั้งค่าการถอดรหัสสัญญาณไม่ตรง จึงทำให้มีปัญหาการรับชม
+| เลขช่อง | Playlist V1           | Playlist V2 (Coming Soon) |
+| ------- | --------------------- | ------------------------- |
+| 1       | Workpoint TV Backup   | NBT HD                    |
+| 2       | NBT HD                | Thai PBS HD               |
+| 3       | Thai PBS HD           | ALTV HD                   |
+| 4       | ALTV HD               | TV5 HD                    |
+| 5       | TV5 HD                | T-Sports                  |
+| 6       | PPTV HD Backup        | TPTV                      |
+| 7       | T-Sports              | TNN16 HD                  |
+| 8       | CH8 Backup            | TNN16 Backup              |
+| 9       | Cartoon Club          | JKN18                     |
+| 10      | TPTV                  | Nation TV HD              |
+| 11      | ONE HD Backup         | Nation TV Backup          |
+| 12      | Thairath TV HD Backup | Workpoint TV HD           |
+| 13      | CH3 HD Backup         | Workpoint TV Backup       |
+| 14      | Amarin TV HD Backup   | True4U                    |
+| 15      | CH7 HD Backup         | True4U Backup             |
+| 16      | TNN16 HD              | GMM25                     |
+| 17      | TNN16 Backup          | GMM25 Backup              |
+| 18      | JKN18                 | CH8 HD                    |
+| 19      | TVB Thai              | CH8 Backup                |
+| 20      | News 1 HD             | MONO29 Soundtrack         |
+| 21      | Top News HD           | MONO29 QHD                |
+| 22      | Nation TV HD          | MONO29 HD Backup          |
+| 23      | Workpoint TV HD       | MCOT HD                   |
+| 24      | True4U                | MCOT HD Backup            |
+| 25      | GMM25                 | ONE HD                    |
+| 26      | GMM25 Backup          | ONE HD Backup             |
+| 27      | CH8 HD                | Thairath TV HD            |
+| 28      | MONO29 Soundtrack     | Thairath TV HD Backup     |
+| 29      | MONO29 QHD            | CH3 HD                    |
+| 30      | MCOT HD               | CH3 HD Backup             |
+| 31      | ONE HD                | Amarin TV HD              |
+| 32      | Thairath TV HD        | Amarin TV HD Backup       |
+| 33      | CH3 HD                | CH7 HD                    |
+| 34      | Amarin TV HD          | CH7 HD Backup             |
+| 35      | CH7 HD                | PPTV HD                   |
+| 36      | PPTV HD               | PPTV HD Backup            |

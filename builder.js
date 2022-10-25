@@ -24,8 +24,9 @@ const main = async () => {
 
   // generate M3U PLAYLIST file
   for (let playlist of allPlaylist) {
-    let textStr = `#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml" refresh="3600"\n`;
-    textStr += `#\n#       Homepage https://iptv36.my.to/   Last Update: ${currentBkkDatetimeStr} ICT\n\n`;
+    let textStr = `#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml" refresh="3600"\n#\n#`;
+    textStr += `#       Homepage: https://iptv36.my.to/ (Find more information and difrent version of playlist here)\n`;
+    textStr += `#       Latest Update: ${currentBkkDatetimeStr} ICT\n\n`;
 
     // test all streaming simultaneously
     console.log(`\nChecking streaming url for playlist '${playlist.filename}'...`);
@@ -52,13 +53,19 @@ const main = async () => {
       let channelName = playlist.removeNoHWPlusDecoderWarning
         ? streamingInfo.channelName.replace(' [NO HW+]', '*')
         : streamingInfo.channelName;
-      let tvgId = streamingInfo.tvgId || `${channelKey}.iptv36.my.to`;
+      let tvgId = streamingInfo.tvgId || 'TBA';
       let channelStr = `#EXTINF:-1 tvg-chno="${i + 1}" tvg-id="${tvgId}" group-title="${
         streamingInfo.groupName
       }" tvg-logo="${streamingInfo.logo}?v=${channelLogoVersion}",${channelName}`;
 
+      // added option #EXTVLCOPT
       if (streamingInfo.options) {
-        channelStr += `\n${streamingInfo.options}`;
+        if (streamingInfo.options.referer) {
+          channelStr += `\n#EXTVLCOPT:http-referrer=${streamingInfo.options.referer}`;
+        }
+        if (streamingInfo.options.userAgent) {
+          channelStr += `\n#EXTVLCOPT:http-user-agent=${streamingInfo.options.userAgent}`;
+        }
       }
 
       channelStr += `\n${streamingInfo.url}\n\n`;
@@ -68,7 +75,7 @@ const main = async () => {
 
     let versionInfo = `#EXTINF:-1 tvg-chno="${
       playlist.channelList.length + 1
-    }" group-title="Main" tvg-logo="https://iptv36.my.to/logo/info.png",Updated at ${currentBkkDatetimeStr}\nhttps://iptv36.my.to/logo/info.png\n\n`;
+    }" group-title="Main" tvg-logo="https://iptv36.my.to/logo/info.png",v${currentBkkDatetimeStr}\nhttps://iptv36.my.to/logo/info.png\n\n`;
     textStr = textStr + `${versionInfo}`;
 
     fs.writeFileSync(`${playlist.filename}`, textStr, 'utf8');
