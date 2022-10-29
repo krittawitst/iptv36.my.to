@@ -2,46 +2,53 @@
 
 เพียงนำ IPTV Playlist URL ของเรา ด้านล่างนี้ ไปใส่ในโปรแกรมที่รองรับ M3U file
 
-# https://iptv36.netlify.app/free
+Playlist เหล่านี้ สามารถแก้ไขช่องที่เสียด้วยตัวเองโดยอัตโนมัติทุก ๆ 2 ชม. และมีคุณภาพความคมชัดระดับ HD เกือบทุกช่อง
+
+### Version 1 => Original M3U
+__URL:__ `https://iptv36.netlify.app/free`
+- หมายเลขช่องตรงตามระบบทีวีดิจิตอลไทย เหมาะกับการใช้คู่กับรีโมทที่มีปุ่มกดตัวเลข 0-9
+- คงไว้เพียง 36 ช่องเท่านั้น ไม่รกเกินไป มั่นใจดูได้ทุกช่อง
+
+__Recommended App:__
+- Android TV
+  - Tivimate (Premium Version) `https://play.google.com/store/apps/details?id=ar.tvplayer.tv`
+
+---
+
+### Version 2 => New M3U
+__URL:__ Coming soon
+- เรียงลำดับก่อนหลังตามระบบทีวีดิจิตอลไทย พร้อมช่องสำรองอยู่ใกล้เคียงกัน เพื่อความสะดวกในการเปลี่ยนไปใช้ช่องสำรอง
+- เหมาะกับการใช้คู่กับรีโมทที่มีเพียงปุ่มขึ้นลงซ้ายขวา และหน้าจอทัชสกรีนบน Smart Phone
+
+__Recommended App:__
+- Android TV & Android Smart Phone
+  - Televizo `https://play.google.com/store/apps/details?id=com.ottplay.ottplay`
+- Android Smart Phone
+  - Dimplay `https://play.google.com/store/apps/details?id=com.iptv3u`
+- Windows
+  - Media Player Classic `https://www.majorgeeks.com/files/details/k_lite_codec_pack_full.html`
+
+---
+
+### Version 3 => W3U
+__URL:__ Coming soon
+- สำหรับ App ยอดนิยมตัวใหม่ Wiseplay เท่านั้น
+- โหลดเพื่อเริ่มเล่นได้ช้ากว่า แต่มีช่อง HD ครบมากกว่า
+- ไม่สนีบสนุน EPG
+
+__Recommended App:__
+- Android TV & Android Smart Phone
+  - Wiseplay `https://play.google.com/store/apps/details?id=com.wiseplay`
+
+---
 
 ## XMLTV EPG
 
 นอกจากนี้ เรายังมี Electronic programming guides (EPG) ในรูปแบบ XMLTV ให้คุณนำไปใช้ด้วย
 
-# https://iptv36.netlify.app/epg
+`https://iptv36.netlify.app/epg`
 
-## นี่คืออะไร
-
-นี่คือ **IPTV Playlist** ที่ออกแบบมาเพื่อใช้กับ **Android TV** หรือ **Android Box** ที่มาพร้อมกับรีโมทที่มีปุ่มกดตัวเลข 0-9 โดยเฉพาะ
-
-**IPTV ทำให้คุณสามารถรับชมทีวีสดได้ โดยใช้เพียงสัญญาณอินเตอร์เน็ตเท่านั้น** ไม่จำเป็นต้องใช้เสาอากาศ หรือกล่องทีวีดิจิตอลใด ๆ เพิ่มเติม
-และด้วยการใช้ควบคู่กับ IPTV Playlist นี้ คุณจะได้รับประสบการณ์การใช้งานเสมือนการใช้ทีวีดิจิตอลปกติ **สามารถใช้ปุ่มกดตัวเลขบนรีโมททีวีเพื่อเปลี่ยนช่องได้เลย**
-
-IPTV Playlist โดยทั่วไปจะอยู่ในลักษณะของรูปแบบ URL เช่น `https://hostname.site/playlist-name.m3u`
-เมื่อนำไปใช้กับโปรแกรมที่รองรับ **จะปรากฎช่องรายการสดต่าง ๆ ขึ้นมาให้เลือกรับชม**
-ซึ่งคุณสามารถตั้งค่าให้โปรแกรมคอยอัพเดตช่องรายการต่าง ๆ แบบอัตโนมัติ โดยใช้ IPTV Playlist URL เดิมได้
-(เราเป็นเพียงผู้รวบรวมสัญญาณ Streaming จากแหล่งต่าง ๆ เท่านั้น ซึ่งเมื่อเกิดปัญหาไม่สามารถรับชมได้
-เราจะเปลี่ยนแหล่งที่มาของ Stream ซึ่งคุณจำเป็นต้องทำการอัพเดต Playlist ใหม่ จึงจะสามารถรับชมได้อีกครั้ง)
-
-ทั้งนี้ คุณยังสามารถนำ IPTV Playlist นี้ ไปใช้กับ Android Smartphone หรือ ระบบอื่นใดก็ได้ที่รองรับ
-โดย Android Application ที่เราใช้และแนะนำ คือ
-
-- IPTV Core (ของ Alexander Sofronov)  
-  `https://play.google.com/store/apps/details?id=ru.iptvremote.android.iptv.core`
-- IPTV Core Launcher (ของ Alexander Sofronov)  
-  `https://play.google.com/store/apps/details?id=ru.iptvremote.android.iptv.core.launcher`
-
-(ต้องติดตั้งทั้งสองแอพ)
-
-## จุดเด่น
-
-- **หมายเลขช่องตรงตามระบบทีวีดิจิตอลไทย** เช่น กดหมายเลข 3 ต้องได้รับชมช่อง ThaiPBS
-  และ กดหมายเลข 36 ต้องได้รับชมช่อง PPTV เป็นต้น ด้วยการจัดเรียงช่องรูปแบบนี้ จะลดความสับสน ทำให้ผู้สูงอายุและเด็กก็สามารถใช้งานได้
-- **คงไว้เพียง 36 ช่องเท่านั้น มั่นใจดูได้ทุกช่อง** ใช่ว่ามีช่องเยอะแล้วจะดี หากกดไปแล้วไม่มีสัญญาณ หรือ ดูไม่ได้ จะเสียอารมณ์เปล่า ๆ
-  โดยเราได้นำช่องดาวเทียมบางช่อง และช่องสำรองของทีวีดิจิตอลที่ได้รับความนิยม ไปเติมเต็มไว้ในหมายเลขช่องที่ไม่มีในระบบทีวีดิจิตอลไทยแทน
-- **คุณภาพคมชัดระดับ HD** เกือบทุกช่องใน Playlist ของเรา มีความละเอียด HD ขึ้นไป
-  **(รวมถึงช่องที่แพร่ภาพในระบบทีวีดิจิตอลด้วยความละเอียด SD ปกติ)** ซึ่งต้องใช้สัญณาณอินเตอร์เน็ตที่เร็วพอสมควร
-  เราคาดว่า Android TV ของคุณ จะเชื่อมต่อสัญญาณอินเตอร์เน็ตจากเน็ตบ้านไฟเบอร์ ที่มีความเร็วเพียงพอ
+---
 
 ## ช่องรายการ
 
