@@ -67,9 +67,17 @@ header {
       margin-top: 0;
     }
   }
+  
+  h3 {
+    &::before {
+      padding-right: 0.5em;
+    }
+    margin-top: 0;
+    font-size: 22px;
+  }
 
   table {
-    max-width: 360px;
+    max-width: 450px;
 
     th {
       font-weight: 700;
@@ -84,10 +92,6 @@ header {
 }
 
 @media only screen and (max-width: 767px) {
-  #main-content h1 {
-    font-size: 1.6em;
-  }
-
   header h2 {
     font-size: 1.25em;
   }
