@@ -24,9 +24,9 @@ const main = async () => {
 
   // generate M3U PLAYLIST file
   for (let playlist of allPlaylist) {
-    let textStr = `#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml" refresh="3600"\n#\n#`;
-    textStr += `#       Homepage: https://iptv36.my.to/ (Find more information and difrent version of playlist here)\n`;
-    textStr += `#       Latest Update: ${currentBkkDatetimeStr} ICT\n\n`;
+    let textStr = `#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml" refresh="3600"\n#\n`;
+    textStr += `#       Homepage: https://iptv36.my.to/ (Find another version of IPTV playlists here)\n`;
+    textStr += `#       Automatically update at: ${currentBkkDatetimeStr} ICT\n\n`;
 
     // test all streaming simultaneously
     console.log(`\nChecking streaming url for playlist '${playlist.filename}'...`);
@@ -55,7 +55,7 @@ const main = async () => {
         : streamingInfo.channelName;
       let tvgId = streamingInfo.tvgId || 'TBA';
       let channelStr = `#EXTINF:-1 tvg-chno="${i + 1}" tvg-id="${tvgId}" group-title="${
-        streamingInfo.groupName
+        'Thai Free TV' /*streamingInfo.groupName*/
       }" tvg-logo="${streamingInfo.logo}?v=${channelLogoVersion}",${channelName}`;
 
       // added option #EXTVLCOPT
@@ -73,9 +73,8 @@ const main = async () => {
       textStr = textStr + `${channelStr}`;
     }
 
-    let versionInfo = `#EXTINF:-1 tvg-chno="${
-      playlist.channelList.length + 1
-    }" group-title="Main" tvg-logo="https://iptv36.my.to/logo/info.png",v${currentBkkDatetimeStr}\nhttps://iptv36.my.to/logo/info.png\n\n`;
+    let versionInfo = `#EXTINF:-1 tvg-chno="${playlist.channelList.length + 1}" group-title="Thai Free TV" `;
+    versionInfo += `tvg-logo="https://iptv36.my.to/logo/info.png",${currentBkkDatetimeStr}\nhttps://iptv36.my.to/logo/info.png\n\n`;
     textStr = textStr + `${versionInfo}`;
 
     fs.writeFileSync(`${playlist.filename}`, textStr, 'utf8');
@@ -84,7 +83,7 @@ const main = async () => {
   }
 
   // generate XMLTV EPG file
-  if (false && !process.env.NETLIFY) {
+  if (true /* !process.env.NETLIFY */) {
     allActiveChannelKey = Array.from(new Set(allActiveChannelKey));
     const epgData = await epgDataPromise;
 
@@ -120,10 +119,9 @@ const main = async () => {
 
     let xmlChannelBody = '';
     for (let tvgId of new Set(availableTvgId)) {
-      xmlChannelBody += `  <channel id="${tvgId}">
-        <display-name>${tvgId}</display-name>
-      </channel>
-    `;
+      xmlChannelBody += `  <channel id="${tvgId}">\n`;
+      xmlChannelBody += `    <display-name>${tvgId}</display-name>\n`;
+      xmlChannelBody += `  </channel>\n`;
     }
 
     fs.writeFileSync('EPG.xml', xmlHead + xmlChannelBody + xmlProgramBody + xmlTail, 'utf8');

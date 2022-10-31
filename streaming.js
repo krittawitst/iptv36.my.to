@@ -186,11 +186,11 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/mono29.png',
     tvgId: 'Mono29.th',
     sources: [
-      { url: 'https://live-3.monomax.me/tv/mono29_1440p.m3u8', suffix: 'QHD' },
-      { url: 'https://live-3.monomax.me/tv/mono29_1080p.m3u8', suffix: 'FHD' },
+      { url: 'https://live-3.monomax.me/tv/mono29_1080p.m3u8', suffix: 'FHD MAX' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chmono29/index.m3u8',
         options: { userAgent: defaultUserAgent },
+        suffix: 'SD GPT',
       },
       'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080TH.stream/playlist.m3u8',
       'http://freelive.inwstream.com:1935/freelive-edge/mono29/playlist.m3u8',
@@ -235,16 +235,17 @@ const streamingInfo = {
   },
 
   thairath: {
-    channelName: 'Thairath TV HD',
+    channelName: 'Thairath TV',
     logo: 'https://iptv36.my.to/logo/thairath.png',
     tvgId: 'ThairathTV32.th',
     sources: [
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chthairath/index.m3u8',
         options: { userAgent: defaultUserAgent },
+        suffix: 'HD GPT',
       },
-      'http://freelive2.inwstream.com:1935/freelive-edge/thairahttvhd/playlist.m3u8', // 720p
-      'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8', // 720p low-bitrate
+      { url: 'http://freelive2.inwstream.com:1935/freelive-edge/thairahttvhd/playlist.m3u8', suffix: 'HD LNW' },
+      { url: 'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8', suffix: 'HD THR' },
     ],
   },
 
@@ -651,10 +652,10 @@ const getStreamingInfo = async (channelKey, skip = 0) => {
     url = url.url;
   }
 
-  if (channelKey !== 'ipcam' && skip > 0) {
-    channelNameComponent.push(`Backup${skip > 1 ? skip : ''}`);
-    groupName = 'Backup';
-  }
+  // if (channelKey !== 'ipcam' && skip > 0) {
+  //   channelNameComponent.push(`Backup${skip > 1 ? skip : ''}`);
+  //   groupName = 'Backup';
+  // }
   let channelName = channelNameComponent.join(' ');
 
   return { channelName, logo, groupName, tvgId, url, options };

@@ -32,9 +32,10 @@ const getEpgDataFromNbtc = async () => {
   // send request
   let rawData = {};
   try {
-    const epgUrl =
-      'http://dtvguide.nbtc.go.th/NbtcMobileWebService/nbtc.mobile.service/epgservice/getAllChannelTemp';
-    const response = await axios.post(epgUrl);
+    const epgUrl = 'https://dttguide.nbtc.go.th/BcsEpgDataServices/BcsEpgDataController/getProgramDataWeb';
+    const response = await axios.post(epgUrl, {
+      channelType: '1',
+    });
     rawData = response.data;
   } catch (error) {
     console.log(error);
@@ -47,44 +48,38 @@ const getEpgDataFromNbtc = async () => {
 
   // process data
   let epgData = [];
-  for (let result of rawData.results) {
-    if (!(result.channelNo in channelNoToChannelKey)) {
+  for (let program of rawData.results) {
+    if (!(program.channelNo in channelNoToChannelKey)) {
       continue;
     }
 
-    let channelKey = channelNoToChannelKey[result.channelNo];
-    for (let program of result.programOfChannel) {
-      let programStart = new Date(program.pgBeginTimeLong * 1000);
-      let programEnd = new Date(program.pgEndTimeLong * 1000);
-      if (programEnd < currentDatetime || programStart > currentDatetimePlus96Hrs) {
-        continue;
-      }
-      let programStartStr = `${programStart
-        .toISOString()
-        .replace(/-|:|T/g, '')
-        .replace('.000Z', '')} -0000`;
-      let programEndStr = `${programEnd
-        .toISOString()
-        .replace(/-|:|T/g, '')
-        .replace('.000Z', '')} -0000`;
-      let programTitle = program.pgTitle ? program.pgTitle.trim() : 'No Program Name';
-      let programDescription = undefined;
-      if (
-        program.pgDesc &&
-        program.pgDesc.trim() &&
-        program.pgDesc.trim() !== programTitle &&
-        !['01', '29'].includes(result.channelNo) // tv5 and mono29 have useless programDescription
-      ) {
-        programDescription = program.pgDesc.trim();
-      }
-      epgData.push({
-        programStartStr,
-        programEndStr,
-        channelKey,
-        programTitle,
-        programDescription,
-      });
+    let channelKey = channelNoToChannelKey[program.channelNo];
+
+    const [day, month, year] = program.pgDate.split('-');
+    let programStart = new Date(`20${year}-${month}-${day}T${program.pgBeginTime}+07:00`);
+    let programEnd = new Date(`20${year}-${month}-${day}T${program.pgEndTime}+07:00`);
+    if (programEnd < currentDatetime || programStart > currentDatetimePlus96Hrs) {
+      continue;
     }
+    let programStartStr = `20${year}${month}${day}${program.pgBeginTime.replace(/:/g, '')} +0700`;
+    let programEndStr = `20${year}${month}${day}${program.pgEndTime.replace(/:/g, '')} +0700`;
+    let programTitle = program.pgTitle ? program.pgTitle.trim() : 'No Program Name';
+    let programDescription = undefined;
+    if (
+      program.pgDesc &&
+      program.pgDesc.trim() &&
+      program.pgDesc.trim() !== programTitle &&
+      !['05', '29'].includes(program.channelNo) // tv5 and mono29 have useless programDescription
+    ) {
+      programDescription = program.pgDesc.trim();
+    }
+    epgData.push({
+      programStartStr,
+      programEndStr,
+      channelKey,
+      programTitle,
+      programDescription,
+    });
   }
 
   // console.log(`  / Fetched epg data from NBTC...`);
@@ -265,16 +260,13 @@ const getEpgDataFromTrueVisions = async () => {
           for (let programRowDiv of parentOfProgramRowDiv.children) {
             if (programRowDiv.querySelector('div.p-time')) {
               let programStartTime = programRowDiv.querySelector('div.p-time').innerHTML.trim();
-              let programStartStr =
-                `${bkkDateStr}${programStartTime}00`.replace(/-|:|T/g, '') + ' +0700';
+              let programStartStr = `${bkkDateStr}${programStartTime}00`.replace(/-|:|T/g, '') + ' +0700';
               let programTitle =
                 programRowDiv.querySelector('div.p-title') &&
                 htmlEntityDecode(programRowDiv.querySelector('div.p-title').innerHTML.trim());
               let programSubtitle =
                 programRowDiv.querySelector('div.p-type-year-genre') &&
-                htmlEntityDecode(
-                  programRowDiv.querySelector('div.p-type-year-genre').innerHTML.trim()
-                );
+                htmlEntityDecode(programRowDiv.querySelector('div.p-type-year-genre').innerHTML.trim());
               let programDescription =
                 programRowDiv.querySelector('div.p-synopsis') &&
                 htmlEntityDecode(programRowDiv.querySelector('div.p-synopsis').innerHTML.trim());
@@ -297,25 +289,18 @@ const getEpgDataFromTrueVisions = async () => {
 
       // sort program and fill current programEndStr with next programStartStr
       let sortedEpgDataForThisChannel = epgDataForThisChannel.sort((item1, item2) =>
-        item1.programStartStr > item2.programStartStr
-          ? 1
-          : item1.programStartStr < item2.programStartStr
-          ? -1
-          : 0
+        item1.programStartStr > item2.programStartStr ? 1 : item1.programStartStr < item2.programStartStr ? -1 : 0
       );
 
       for (let i = 0; i < sortedEpgDataForThisChannel.length; i++) {
         currentProgram = sortedEpgDataForThisChannel[i];
-        nextProgram =
-          i + 1 < sortedEpgDataForThisChannel.length ? sortedEpgDataForThisChannel[i + 1] : null;
+        nextProgram = i + 1 < sortedEpgDataForThisChannel.length ? sortedEpgDataForThisChannel[i + 1] : null;
 
         if (nextProgram) {
           currentProgram.programEndStr = nextProgram.programStartStr;
         } else {
           currentProgram.programEndStr =
-            currentProgram.programStartStr.slice(0, 8) +
-            '235959' +
-            currentProgram.programStartStr.slice(14);
+            currentProgram.programStartStr.slice(0, 8) + '235959' + currentProgram.programStartStr.slice(14);
         }
 
         epgData.push(currentProgram);

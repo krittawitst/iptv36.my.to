@@ -4,53 +4,46 @@
 
 Playlist เหล่านี้ สามารถแก้ไขช่องที่เสียด้วยตัวเองโดยอัตโนมัติทุก ๆ 2 ชม. และมีคุณภาพความคมชัดระดับ HD เกือบทุกช่อง
 
+_**Recommended App:**_
+
+- Android
+  - [Televizo](https://play.google.com/store/apps/details?id=com.ottplay.ottplay)
+  - [Dimplay](https://play.google.com/store/apps/details?id=com.iptv3u)
+  - [Tivimate (Premium Version)](https://play.google.com/store/apps/details?id=ar.tvplayer.tv)
+  - [Wiseplay](https://play.google.com/store/apps/details?id=com.wiseplay)
+- Windows
+  - [Media Player Classic](https://www.majorgeeks.com/files/details/k_lite_codec_pack_full.html)
+
 ---
 
-### Version 1 => Original M3U
+### Version 1 (Classic M3U)
 
-**URL:** https://iptv36.netlify.app/free
+# https://iptv36.netlify.app/free
 
 - หมายเลขช่องตรงตามระบบทีวีดิจิตอลไทย เหมาะกับการใช้คู่กับรีโมทที่มีปุ่มกดตัวเลข 0-9
 - คงไว้เพียง 36 ช่องเท่านั้น ไม่รกเกินไป มั่นใจดูได้ทุกช่อง
 
-**Recommended App:**
-
-- Android TV
-  - [Tivimate (Premium Version)](https://play.google.com/store/apps/details?id=ar.tvplayer.tv)
-
 ---
 
-### Version 2 => New M3U
+### Version 2 (New M3U)
 
-**URL:** Coming soon
+# Coming soon
 
 - เรียงลำดับก่อนหลังตามระบบทีวีดิจิตอลไทย พร้อมช่องสำรองอยู่ใกล้เคียงกัน เพื่อความสะดวกในการเปลี่ยนไปใช้ช่องสำรอง
 - เหมาะกับการใช้คู่กับรีโมทที่มีเพียงปุ่มขึ้นลงซ้ายขวา และหน้าจอทัชสกรีนบน Smart Phone
 
 **Recommended App:**
 
-- Android TV & Android Smart Phone
-  - [Televizo](https://play.google.com/store/apps/details?id=com.ottplay.ottplay)
-- Android Smart Phone
-  - [Dimplay](https://play.google.com/store/apps/details?id=com.iptv3u)
-- Windows
-  - [Media Player Classic](https://www.majorgeeks.com/files/details/k_lite_codec_pack_full.html)
-
 ---
 
-### Version 3 => W3U
+### Version 2 (W3U)
 
-**URL:** Coming soon
+# Coming soon
 
 - สำหรับ App ยอดนิยมตัวใหม่ Wiseplay เท่านั้น
 - มีช่อง HD ครบมากกว่า
 - โหลดเพื่อเริ่มเล่นได้ช้ากว่ามาก แต่โอกาสเจอช่องเสียน้อยกว่า
 - ไม่รองรับ EPG
-
-**Recommended App:**
-
-- Android TV & Android Smart Phone
-  - [Wiseplay](https://play.google.com/store/apps/details?id=com.wiseplay)
 
 ---
 
@@ -58,7 +51,7 @@ Playlist เหล่านี้ สามารถแก้ไขช่อง�
 
 นอกจากนี้ เรายังมี Electronic programming guides (EPG) ในรูปแบบ XMLTV ให้คุณนำไปใช้ด้วย
 
-`https://iptv36.netlify.app/epg`
+# https://iptv36.netlify.app/epg`
 
 ---
 

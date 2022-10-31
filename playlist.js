@@ -77,7 +77,6 @@ const playlistV2 = {
     ['mono29soundtrack'],
 
     // 21-30
-
     ['mono29'],
     ['mono29', 1],
     ['mcot'],
@@ -96,6 +95,10 @@ const playlistV2 = {
     ['ch7', 1],
     ['pptv'],
     ['pptv', 1],
+    ['cartoonclub'],
+    ['tvb'],
+    ['news1'],
+    ['topnews'],
   ],
 };
 
@@ -103,18 +106,17 @@ const proPlaylist = {
   filename: 'PRO36.m3u',
   removeNoHWPlusDecoderWarning: true,
   channelList: [
-    // 1-36
-    ...basicPlaylist.channelList,
+    // 1-40
+    ...playlistV2.channelList,
 
-    // 37-40
+    // 41-46
     ['ctb'],
     ['fwmov'],
     ['fwsov'],
     ['fwtoon'],
-
-    // 41-50
     ['boomerang'],
     ['toonee'],
+
     ['premier1'],
     ['premier1', 1],
     ['premier2'],
