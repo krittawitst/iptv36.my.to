@@ -92,6 +92,10 @@ header {
 }
 
 @media only screen and (max-width: 767px) {
+  #main-content h1 {
+    font-size: 1.6em;
+  }
+  
   header h2 {
     font-size: 1.25em;
   }
