@@ -11,13 +11,13 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/nbt.png',
     tvgId: 'NBT2.th',
     sources: [
+      { url: 'https://freelive.inwstream.com:1936/freelive-edge/nbt/playlist.m3u8', suffix: 'HD LNW' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chnbt3/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD GPT',
       },
       { url: 'http://freelive2.inwstream.com:1935/freelive-edge/nbt/playlist.m3u8', suffix: 'HD LNW2' },
-      { url: 'https://freelive.inwstream.com:1936/freelive-edge/nbt/playlist.m3u8', suffix: 'HD LNW' },
     ],
   },
 
@@ -26,7 +26,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/thaipbs.png',
     tvgId: 'ThaiPBS3.th',
     sources: [
-      { url: 'https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8', suffix: 'FHD BA' },
+      { url: 'https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8', suffix: 'FHD' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chthaipbs3/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -40,11 +40,11 @@ const streamingInfo = {
     channelName: 'ALTV',
     logo: 'https://iptv36.my.to/logo/altv.png',
     sources: [
-      { url: 'https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8', suffix: 'FHD BA' },
+      { url: 'https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8', suffix: 'FHD' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/ALTV/index.m3u8',
         options: { userAgent: defaultUserAgent },
-        suffix: 'GPT',
+        suffix: 'SD GPT',
       },
     ],
   },
@@ -54,13 +54,13 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/tv5.png',
     tvgId: 'ThaiTV5HD1.th',
     sources: [
-      { url: 'http://110.170.117.27:1935/apptv5hd1live/vdo-tv5hd1/playlist.m3u8', suffix: 'FHD BA' },
+      { url: 'http://110.170.117.27:1935/apptv5hd1live/vdo-tv5hd1/playlist.m3u8', suffix: 'FHD' },
+      { url: 'https://freelive.inwstream.com:1936/freelive-edge/5hd/playlist.m3u8', suffix: 'HD LNW' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/ch5hd/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD GPT',
       },
-      { url: 'https://freelive.inwstream.com:1936/freelive-edge/5hd/playlist.m3u8', suffix: 'HD LNW' },
     ],
   },
 
@@ -71,7 +71,6 @@ const streamingInfo = {
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chtsport/index.m3u8',
         options: { userAgent: defaultUserAgent },
-        suffix: 'GPT',
       },
     ],
   },
@@ -80,13 +79,12 @@ const streamingInfo = {
     channelName: 'TPTV',
     logo: 'https://iptv36.my.to/logo/tptv.png',
     sources: [
-      { url: 'http://freelive2.inwstream.com:1935/freelive-edge/tptv/playlist.m3u8', suffix: 'LNW2' },
+      { url: 'http://freelive2.inwstream.com:1935/freelive-edge/tptv/playlist.m3u8' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/TPTV/index.m3u8',
         options: { userAgent: defaultUserAgent },
-        suffix: 'GPT',
       },
-      { url: 'https://freelive.inwstream.com:1936/freelive-edge/tptv/playlist.m3u8', suffix: 'LNW' },
+      { url: 'https://freelive.inwstream.com:1936/freelive-edge/tptv/playlist.m3u8' },
     ],
   },
 
@@ -95,12 +93,12 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/tnn16.png',
     tvgId: 'TNN16.th',
     sources: [
-      { url: 'https://iptv36.netlify.app/api/true?channel=tnn16hd', suffix: 'HD TID' }, // 720p
-      { url: 'http://freelive2.inwstream.com:1935/freelive-edge/tnn24/playlist.m3u8', suffix: 'GPT' },
+      { url: 'https://iptv36.netlify.app/api/true?channel=tnn16hd', suffix: 'HD' },
+      { url: 'http://freelive2.inwstream.com:1935/freelive-edge/tnn24/playlist.m3u8', suffix: 'SD LNW2' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chtnn/index.m3u8',
         options: { userAgent: defaultUserAgent },
-        suffix: 'GPT',
+        suffix: 'SD GPT',
       },
     ],
   },
@@ -110,10 +108,11 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/jkn18.png',
     tvgId: 'JKN18.th',
     sources: [
-      // { url: 'https://5f27aa1f6ef91.streamlock.net/jkncnbc/myStream/playlist.m3u8', suffix: 'HD' },
+      { url: 'https://5f27aa1f6ef91.streamlock.net/jkncnbc/myStream/playlist.m3u8', suffix: 'HD' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/newtv/index.m3u8',
         options: { userAgent: defaultUserAgent },
+        suffix: 'SD GPT',
       },
     ],
   },
@@ -123,12 +122,12 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/nation.png',
     tvgId: 'NationTV.th',
     sources: [
-      'http://freelive2.inwstream.com:1935/freelive-edge/nation/playlist.m3u8',
+      { url: 'http://freelive2.inwstream.com:1935/freelive-edge/nation/playlist.m3u8', suffix: 'SD LNW' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chnation/index.m3u8',
         options: { userAgent: defaultUserAgent },
+        suffix: 'SD GPT',
       },
-      'https://freelive.inwstream.com:1936/freelive-edge/nation/playlist.m3u8',
     ],
   },
 
@@ -142,7 +141,6 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chworkpoint/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      'http://freelive2.inwstream.com:1935/freelive-edge/workpointtv/playlist.m3u8',
     ],
   },
 
@@ -151,8 +149,8 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/true4u.png',
     tvgId: 'True4U.th',
     sources: [
-      { url: 'https://iptv36.netlify.app/api/true?channel=true4uhd', suffix: 'HD BA' },
-      { url: 'http://freelive.inwstream.com:1935/freelive-edge/true4u/playlist.m3u8', suffix: 'LNW' },
+      { url: 'https://iptv36.netlify.app/api/true?channel=true4uhd', suffix: 'HD' },
+      { url: 'http://freelive.inwstream.com:1935/freelive-edge/true4u/playlist.m3u8' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chtrue4u3/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -180,12 +178,12 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/ch8.png',
     tvgId: 'ThaiChannel8.th',
     sources: [
-      { url: 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8', suffix: 'HD BA' },
-      { url: 'http://freelive.inwstream.com:1935/freelive-edge/ch8/playlist.m3u8', suffix: 'LNW' },
+      { url: 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8', suffix: 'HD' },
+      { url: 'http://freelive.inwstream.com:1935/freelive-edge/ch8/playlist.m3u8', suffix: 'SD' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/ch8/index.m3u8',
         options: { userAgent: defaultUserAgent },
-        suffix: 'GPT',
+        suffix: 'SD',
       },
     ],
   },
@@ -195,11 +193,12 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/mono29.png',
     tvgId: 'Mono29.th',
     sources: [
-      { url: 'https://live-3.monomax.me/tv/mono29_1080p.m3u8', suffix: 'FHD MAX' },
+      { url: 'https://live-3.monomax.me/tv/mono29_1080p.m3u8', suffix: 'FHD' },
+      { url: 'https://live-3.monomax.me/tv/mono29_720p.m3u8', suffix: 'HD' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chmono29/index.m3u8',
         options: { userAgent: defaultUserAgent },
-        suffix: 'SD GPT',
+        suffix: 'SD',
       },
       'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080TH.stream/playlist.m3u8',
       'http://freelive.inwstream.com:1935/freelive-edge/mono29/playlist.m3u8',
@@ -207,7 +206,7 @@ const streamingInfo = {
   },
 
   mono29soundtrack: {
-    channelName: 'MONO29 Soundtrack',
+    channelName: 'MONO29 Soundtrack SD',
     logo: 'https://iptv36.my.to/logo/mono29.png',
     tvgId: 'Mono29.th',
     sources: [
@@ -508,6 +507,7 @@ const streamingInfo = {
   ipcam: {
     channelName: 'CAM',
     logo: 'https://iptv36.my.to/logo/ipcam.png',
+    groupName: 'IPCAM',
     sources: [
       { url: 'rtsp://admin@192.168.1.200/user=admin&password=&channel=1&stream=1.sdp?', suffix: '01 Park-164' },
       { url: 'rtsp://admin@192.168.1.200/user=admin&password=&channel=2&stream=1.sdp?', suffix: '02 Park-163' },
@@ -683,7 +683,7 @@ const getStreamingInfo = async (channelKey, skip = 0) => {
 
   let channelNameComponent = [streamingData.channelName];
   let logo = streamingData.logo;
-  let groupName = 'Thai Free TV';
+  let groupName = streamingData.groupName || 'Thai Free TV';
   let tvgId = streamingData.tvgId || '';
   let sources = streamingData.validUrlList || [];
 

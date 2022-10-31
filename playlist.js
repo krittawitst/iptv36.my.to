@@ -55,51 +55,54 @@ const playlistV2 = {
     // 1-10
     ['nbt'],
     ['nbt', 1],
-    ['nbt', 2],
     ['thaipbs'],
+    ['thaipbs', 2],
     ['altv'],
+    ['altv', 2],
     ['tv5'],
+    ['tv5', 2],
     ['tsports'],
     ['tptv'],
+
+    // 11-20
     ['tnn16'],
     ['tnn16', 1],
     ['jkn18'],
+    ['jkn18', 1],
     ['nation'],
-
-    // 11-20
     ['nation', 1],
     ['workpoint'],
     ['workpoint', 1],
     ['true4u'],
     ['true4u', 1],
-    ['true4u', 2],
+
+    // 21-30
     ['gmm25'],
     ['gmm25', 1],
     ['ch8'],
     ['ch8', 1],
     ['mono29soundtrack'],
-
-    // 21-30
     ['mono29'],
     ['mono29', 1],
+    ['mono29', 2],
     ['mcot'],
     ['mcot', 1],
+
+    // 31-40
     ['one'],
     ['one', 1],
     ['thairath'],
     ['thairath', 1],
-    ['thairath', 2],
     ['ch3'],
     ['ch3', 1],
-
-    // 31-36
     ['amarin'],
     ['amarin', 1],
     ['ch7'],
     ['ch7', 1],
+
+    // 41-45
     ['pptv'],
     ['pptv', 1],
-    ['cartoonclub'],
     ['tvb'],
     ['news1'],
     ['topnews'],
@@ -110,10 +113,10 @@ const proPlaylist = {
   filename: 'PRO36.m3u',
   removeNoHWPlusDecoderWarning: true,
   channelList: [
-    // 1-40
+    // 1-45
     ...playlistV2.channelList,
 
-    // 41-46
+    // 46-4
     ['ctb'],
     ['fwmov'],
     ['fwsov'],

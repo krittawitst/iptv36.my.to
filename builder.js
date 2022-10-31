@@ -12,7 +12,7 @@ const main = async () => {
   // prefetch epg data
   let epgDataPromise;
 
-  if (!process.env.NETLIFY) {
+  if (true /*!process.env.NETLIFY*/) {
     epgDataPromise = getEpgData();
   }
 
@@ -25,8 +25,8 @@ const main = async () => {
   // generate M3U PLAYLIST file
   for (let playlist of allPlaylist) {
     let textStr = `#EXTM3U url-tvg="https://iptv36.my.to/EPG.xml" refresh="3600"\n#\n`;
-    textStr += `#       Homepage: https://iptv36.my.to/ (Find another version of IPTV playlists here)\n`;
-    textStr += `#       Automatically update at: ${currentBkkDatetimeStr} ICT\n\n`;
+    textStr += `#   Homepage: https://iptv36.my.to/ (Find another version of IPTV playlists here)\n`;
+    textStr += `#   Automatically update at: ${currentBkkDatetimeStr} ICT\n\n`;
 
     // test all streaming simultaneously
     console.log(`\nChecking streaming url for playlist '${playlist.filename}'...`);
