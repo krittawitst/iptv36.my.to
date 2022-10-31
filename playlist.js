@@ -54,6 +54,8 @@ const playlistV2 = {
   channelList: [
     // 1-10
     ['nbt'],
+    ['nbt', 1],
+    ['nbt', 2],
     ['thaipbs'],
     ['altv'],
     ['tv5'],
@@ -70,6 +72,7 @@ const playlistV2 = {
     ['workpoint', 1],
     ['true4u'],
     ['true4u', 1],
+    ['true4u', 2],
     ['gmm25'],
     ['gmm25', 1],
     ['ch8'],
@@ -85,6 +88,7 @@ const playlistV2 = {
     ['one', 1],
     ['thairath'],
     ['thairath', 1],
+    ['thairath', 2],
     ['ch3'],
     ['ch3', 1],
 
@@ -116,6 +120,10 @@ const proPlaylist = {
     ['fwtoon'],
     ['boomerang'],
     ['toonee'],
+    ['bein1'],
+    ['bein1', 1],
+    ['bein2'],
+    ['bein2', 1],
 
     ['premier1'],
     ['premier1', 1],

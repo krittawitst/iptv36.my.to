@@ -24,7 +24,7 @@ const main = async () => {
 
   // generate M3U PLAYLIST file
   for (let playlist of allPlaylist) {
-    let textStr = `#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml" refresh="3600"\n#\n`;
+    let textStr = `#EXTM3U url-tvg="https://iptv36.my.to/EPG.xml" refresh="3600"\n#\n`;
     textStr += `#       Homepage: https://iptv36.my.to/ (Find another version of IPTV playlists here)\n`;
     textStr += `#       Automatically update at: ${currentBkkDatetimeStr} ICT\n\n`;
 
@@ -53,9 +53,9 @@ const main = async () => {
       let channelName = playlist.removeNoHWPlusDecoderWarning
         ? streamingInfo.channelName.replace(' [NO HW+]', '*')
         : streamingInfo.channelName;
-      let tvgId = streamingInfo.tvgId || 'TBA';
+      let tvgId = `${channelKey}.iptv36.my.to`; // streamingInfo.tvgId || 'TBA';
       let channelStr = `#EXTINF:-1 tvg-chno="${i + 1}" tvg-id="${tvgId}" group-title="${
-        'Thai Free TV' /*streamingInfo.groupName*/
+        streamingInfo.groupName
       }" tvg-logo="${streamingInfo.logo}?v=${channelLogoVersion}",${channelName}`;
 
       // added option #EXTVLCOPT
