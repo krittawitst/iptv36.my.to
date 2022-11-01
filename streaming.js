@@ -41,6 +41,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/altv.png',
     sources: [
       { url: 'https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8', suffix: 'FHD' },
+      { url: 'https://thaipbs-ujxrch.cdn.byteark.com/live/playlist_720p/index.m3u8', suffix: 'HD' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/ALTV/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -112,6 +113,7 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/newtv/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
+      { url: 'https://iptv36.netlify.app/api/trueid' },
     ],
   },
 
@@ -195,7 +197,6 @@ const streamingInfo = {
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chmono29/index.m3u8',
         options: { userAgent: defaultUserAgent },
-        suffix: 'SD',
       },
       'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080TH.stream/playlist.m3u8',
       'http://freelive.inwstream.com:1935/freelive-edge/mono29/playlist.m3u8',
@@ -218,16 +219,16 @@ const streamingInfo = {
     sources: [
       {
         url: 'https://freelive.inwstream.com:1936/freelive-edge/mcothd/playlist.m3u8',
-        suffix: 'HD LNW',
+        suffix: 'HD',
       },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chmcothd/index.m3u8',
         options: { userAgent: defaultUserAgent },
-        suffix: 'HD GPT',
+        suffix: 'HD',
       },
       {
         url: 'http://freelive2.inwstream.com:1935/freelive-edge/mcothd/playlist.m3u8',
-        suffix: 'HD LNW2',
+        suffix: 'HD',
       },
     ],
   },
@@ -254,10 +255,10 @@ const streamingInfo = {
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chthairath/index.m3u8',
         options: { userAgent: defaultUserAgent },
-        suffix: 'HD GPT',
+        suffix: 'HD',
       },
-      { url: 'http://freelive2.inwstream.com:1935/freelive-edge/thairahttvhd/playlist.m3u8', suffix: 'HD LNW' },
-      { url: 'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8', suffix: 'HD THR' },
+      { url: 'http://freelive2.inwstream.com:1935/freelive-edge/thairahttvhd/playlist.m3u8', suffix: 'HD' },
+      { url: 'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8', suffix: 'HD' },
     ],
   },
 
@@ -324,7 +325,7 @@ const streamingInfo = {
   },
 
   tvb: {
-    channelName: 'TVB Thai HD',
+    channelName: 'TVB Thai HFD',
     logo: 'https://iptv36.my.to/logo/tvb.png',
     sources: [
       'https://edge2z.v2h-cdn.com/tvb_thai/tvb_thai.stream/playlist.m3u8', // 1080p
@@ -332,37 +333,37 @@ const streamingInfo = {
   },
 
   news1: {
-    channelName: 'NEWS1',
+    channelName: 'NEWS1 FHD',
     logo: 'https://iptv36.my.to/logo/news1.png',
     sources: ['http://news1.live14.com/stream/news1_hi.m3u8', 'http://server1.streamssl.com/stream/news1_hi.m3u8'],
   },
 
   topnews: {
-    channelName: 'Top News HD',
+    channelName: 'Top News FHD',
     logo: 'https://images.topnews.co.th/2021/04/cropped-topnews-logo.png',
     sources: ['https://live.topnews.co.th/hls/topnews_b_720.m3u8'],
   },
 
   ctb: {
-    channelName: 'CTB',
+    channelName: 'CTB FHD',
     logo: 'https://iptv36.my.to/logo/ctb.png',
     sources: ['http://vip.login.in.th:1935/CTB/CTB/chunklist.m3u8'],
   },
 
   fwmov: {
-    channelName: 'FW Movie',
+    channelName: 'FW Movie HD',
     logo: 'https://img.inwiptv.net/postor/20200512164154fwmov.jpg',
     sources: ['http://freelive.inwstream.com:1935/freelive-edge/fwmov_fw-iptv.stream/playlist.m3u8'],
   },
 
   fwsov: {
-    channelName: 'FW Sov',
+    channelName: 'FW Sov HD',
     logo: 'https://img.inwiptv.net/postor/20200512165346fwsov.jpg',
     sources: ['http://freelive.inwstream.com:1935/freelive-edge/fwsov_fw-iptv.stream/playlist.m3u8'],
   },
 
   fwtoon: {
-    channelName: 'FW Toon',
+    channelName: 'FW Toon HD',
     logo: 'https://img.inwiptv.net/postor/20200512162950fw%20teletoon(1).jpg',
     sources: ['https://freelive.inwstream.com:1936/freelive-edge/fwtoon_fw-iptv.stream/playlist.m3u8'],
   },
@@ -386,7 +387,7 @@ const streamingInfo = {
   },
 
   bein1: {
-    channelName: 'beIN Sport 1',
+    channelName: 'beIN Sports 1',
     logo: 'https://iptv36.my.to/logo/bein1.png',
     groupName: 'Sport',
     sources: [
@@ -404,7 +405,7 @@ const streamingInfo = {
   },
 
   bein2: {
-    channelName: 'beIN Sport 2',
+    channelName: 'beIN Sports 2',
     logo: 'https://iptv36.my.to/logo/bein2.png',
     groupName: 'Sport',
     sources: [
@@ -528,8 +529,8 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
   // config
   let config = [
     // [channelKey, channelNameSuffix, metaUrl]
-    ['workpoint', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6g9qjj'],
-    ['nation', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
+    ['workpoint', 'FHD', 'https://www.dailymotion.com/player/metadata/video/x6g9qjj'],
+    ['nation', 'FHD', 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
     ['topnews', '', 'https://www.dailymotion.com/player/metadata/video/x8aopdx'],
   ];
 
@@ -585,10 +586,10 @@ const testUrl = async (url) => {
   if (
     url.includes('rtsp://') ||
     url.includes('livedoomovies.com') ||
-    url.includes('streamlock.net') || // jkn
     url.includes('live-cdn-hwc.ch7.com') || // ch7
     url.includes('/api/true') || // tnn
-    url.includes('huaweicdncloud.com') // temporary
+    url.includes('huaweicdncloud.com') || // temporary
+    url.includes('googleuservideo.com')
   ) {
     return true;
   }

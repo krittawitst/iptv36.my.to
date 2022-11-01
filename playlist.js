@@ -56,17 +56,17 @@ const playlistV2 = {
     ['nbt'],
     ['nbt', 1],
     ['thaipbs'],
-    ['thaipbs', 2],
+    ['thaipbs', 1],
     ['altv'],
-    ['altv', 2],
+    ['altv', 1],
     ['tv5'],
-    ['tv5', 2],
+    ['tv5', 1],
     ['tsports'],
-    ['tsports', 2],
+    ['tsports', 1],
 
     // 11-20
     ['tptv'],
-    ['tptv', 2],
+    ['tptv', 1],
     ['tnn16'],
     ['tnn16', 1],
     ['jkn18'],
@@ -100,7 +100,9 @@ const playlistV2 = {
     ['amarin'],
     ['amarin', 1],
 
-    // 41-45
+    // 41-47
+    ['ch7'],
+    ['ch7', 1],
     ['pptv'],
     ['pptv', 1],
     ['tvb'],
@@ -121,8 +123,8 @@ const proPlaylist = {
     ['fwmov'],
     ['fwsov'],
     ['fwtoon'],
-    ['boomerang'],
     ['toonee'],
+
     ['bein1'],
     ['bein1', 1],
     ['bein2'],
