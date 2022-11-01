@@ -28,7 +28,7 @@ exports.handler = async (event, context, callback) => {
   return {
     statusCode: 302,
     headers: {
-      location: strereamingUrl,
+      location: streamingUrl,
     },
     body: `Go to ${streamingUrl}`,
   };
