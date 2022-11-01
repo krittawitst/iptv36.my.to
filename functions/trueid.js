@@ -1,6 +1,8 @@
 const axios = require('axios');
 
 exports.handler = async (event, context, callback) => {
+  let streamingUrl = '';
+
   try {
     const response = await axios.post(
       'https://tv.trueid.net/apis/player',
@@ -16,7 +18,8 @@ exports.handler = async (event, context, callback) => {
       }
     );
 
-    const streamingUrl = response.stream.result;
+    console.log(response);
+    streamingUrl = response.stream.result;
   } catch (error) {
     console.error(`request ${event.queryStringParameters.channel}\nreturn ${error}`);
     console.error('='.repeat(20));
