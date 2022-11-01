@@ -162,6 +162,10 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/gmm25.png',
     tvgId: 'GMM25.th',
     sources: [
+      {
+        url: 'https://stream-01.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_YoaNL1MfayYXHyeysO1Q5uCVC98PeOyiqAHVmcGIz3k)/dm/3/x6rz4t7/s/live-4.m3u8',
+        suffix: 'FHD',
+      },
       'https://freelive.inwstream.com:1936/freelive-edge/gmmchannel/playlist.m3u8',
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chgmm3/index.m3u8',
@@ -529,6 +533,11 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
   // config
   let config = [
     // [channelKey, channelNameSuffix, metaUrl]
+    [
+      'gmm25',
+      'FHD',
+      'https://www.dailymotion.com/player/metadata/video/k4jJqAW0V5pVYnrJq1J?embedder=https%3A%2F%2Fwww.oned.net%2F&geo=1&player-id=x8c5c&locale=th&dmV1st=541934AD5E2E5DDC1DAA4B2A1E6A9A37&dmTs=592812&is_native_app=0',
+    ],
     ['workpoint', 'FHD', 'https://www.dailymotion.com/player/metadata/video/x6g9qjj'],
     ['nation', 'FHD', 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
     ['topnews', '', 'https://www.dailymotion.com/player/metadata/video/x8aopdx'],
