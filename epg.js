@@ -82,9 +82,7 @@ const getEpgDataFromNbtc = async () => {
     });
   }
 
-  console.log(`  / Fetched epg data from NBTC...`);
-  console.log(epgData.length);
-  console.log(epgData[0]);
+  // console.log(`  / Fetched epg data from NBTC...`);
   return epgData;
 };
 

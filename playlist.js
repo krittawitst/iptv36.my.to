@@ -1,5 +1,5 @@
-const basicPlaylist = {
-  filename: 'BASIC36.m3u',
+const playlistV1 = {
+  filename: 'playlist-v1.m3u',
   removeNoHWPlusDecoderWarning: false,
   channelList: [
     // 1-10
@@ -62,33 +62,35 @@ const playlistV2 = {
     ['tv5'],
     ['tv5', 2],
     ['tsports'],
-    ['tptv'],
+    ['tsports', 2],
 
     // 11-20
+    ['tptv'],
+    ['tptv', 2],
     ['tnn16'],
     ['tnn16', 1],
     ['jkn18'],
-    ['jkn18', 1],
+    ['jkn18'],
     ['nation'],
     ['nation', 1],
     ['workpoint'],
     ['workpoint', 1],
-    ['true4u'],
-    ['true4u', 1],
 
     // 21-30
+    ['true4u'],
+    ['true4u', 1],
     ['gmm25'],
     ['gmm25', 1],
     ['ch8'],
     ['ch8', 1],
-    ['mono29soundtrack'],
     ['mono29'],
     ['mono29', 1],
     ['mono29', 2],
-    ['mcot'],
-    ['mcot', 1],
+    ['mono29soundtrack'],
 
     // 31-40
+    ['mcot'],
+    ['mcot', 1],
     ['one'],
     ['one', 1],
     ['thairath'],
@@ -97,8 +99,6 @@ const playlistV2 = {
     ['ch3', 1],
     ['amarin'],
     ['amarin', 1],
-    ['ch7'],
-    ['ch7', 1],
 
     // 41-45
     ['pptv'],
@@ -165,6 +165,6 @@ const iptvPlaylist = {
   ],
 };
 
-const allPlaylist = [basicPlaylist, playlistV2, proPlaylist, iptvPlaylist];
+const allPlaylist = [playlistV1, playlistV2, proPlaylist, iptvPlaylist];
 
 module.exports = allPlaylist;

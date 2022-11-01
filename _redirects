@@ -1,7 +1,7 @@
-/api/*          /.netlify/functions/:splat                        200!
-/playlist       /BASIC36.m3u                                      302!
-/free           /BASIC36.m3u                                      302!
-/pro            /PRO36.m3u                                        302!
-/me             /IPTV36.m3u                                       302!
-/epg            https://akkradet.github.io/IPTV-THAI/guide.xml    302!
-/               https://iptv36.my.to/                             301!
+/api/*          /.netlify/functions/:splat       200!
+/playlist       /playlist-v1.m3u                 302!
+/free           /playlist-v1.m3u                 302!
+/pro            /PRO36.m3u                       302!
+/me             /IPTV36.m3u                      302!
+/epg            /EPG.xml                         302!
+/               https://iptv36.my.to/            301!
