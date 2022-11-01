@@ -70,7 +70,7 @@ const playlistV2 = {
     ['tnn16'],
     ['tnn16', 1],
     ['jkn18'],
-    ['jkn18'],
+    ['jkn18', 1],
     ['nation'],
     ['nation', 1],
     ['workpoint'],

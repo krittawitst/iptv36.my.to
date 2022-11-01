@@ -41,7 +41,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/altv.png',
     sources: [
       { url: 'https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8', suffix: 'FHD' },
-      { url: 'https://thaipbs-ujxrch.cdn.byteark.com/live/playlist_720p/index.m3u8', suffix: 'HD' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/ALTV/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -291,15 +290,16 @@ const streamingInfo = {
   },
 
   ch7: {
-    channelName: 'CH7 HD',
+    channelName: 'CH7',
     logo: 'https://iptv36.my.to/logo/ch7.png',
     tvgId: 'BBTVChannel7.th',
     sources: [
-      'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com', // 1080p
-      'http://freelive2.inwstream.com:1935/freelive-edge/7hd/playlist.m3u8', // 720p
+      { url: 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com', suffix: 'FHD' },
+      { url: 'http://freelive2.inwstream.com:1935/freelive-edge/7hd/playlist.m3u8', suffix: 'HD' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/ch7hd/index.m3u8',
         options: { userAgent: defaultUserAgent },
+        suffix: 'HD',
       },
     ],
   },
@@ -394,12 +394,12 @@ const streamingInfo = {
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/bein1/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
-        suffix: 'DB2U',
+        suffix: 'HD',
       },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/bein1/playlist.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
-        suffix: 'L88',
+        suffix: 'HD',
       },
     ],
   },
@@ -412,12 +412,12 @@ const streamingInfo = {
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/bein2/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
-        suffix: 'DB2U',
+        suffix: 'HD',
       },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/bein2/playlist.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
-        suffix: 'L88',
+        suffix: 'HD',
       },
     ],
   },
