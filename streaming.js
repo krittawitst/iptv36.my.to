@@ -329,11 +329,9 @@ const streamingInfo = {
   },
 
   tvb: {
-    channelName: 'TVB Thai HFD',
+    channelName: 'TVB Thai FHD',
     logo: 'https://iptv36.my.to/logo/tvb.png',
-    sources: [
-      'https://edge2z.v2h-cdn.com/tvb_thai/tvb_thai.stream/playlist.m3u8', // 1080p
-    ],
+    sources: ['https://edge2z.v2h-cdn.com/tvb_thai/tvb_thai.stream/playlist.m3u8'],
   },
 
   news1: {

@@ -111,20 +111,19 @@ const playlistV2 = {
   ],
 };
 
-const proPlaylist = {
-  filename: 'PRO36.m3u',
+const playlistV3 = {
+  filename: 'playlist-v3.m3u',
   removeNoHWPlusDecoderWarning: true,
   channelList: [
-    // 1-45
+    // 1-47
     ...playlistV2.channelList,
 
-    // 46-4
+    // 48-50
     ['ctb'],
     ['fwmov'],
-    ['fwsov'],
     ['fwtoon'],
-    ['toonee'],
 
+    // 51
     ['bein1'],
     ['bein1', 1],
     ['bein2'],
@@ -138,35 +137,11 @@ const proPlaylist = {
     ['premier3', 1],
     ['premier4'],
     ['premier4', 1],
-
-    // 51-60
     ['premier5'],
     ['premier5', 1],
   ],
 };
 
-const iptvPlaylist = {
-  filename: 'IPTV36.m3u',
-  removeNoHWPlusDecoderWarning: true,
-  channelList: [
-    // 1-60
-    ...proPlaylist.channelList,
-
-    ['ipcam'],
-    ['ipcam', 1],
-    ['ipcam', 2],
-    ['ipcam', 3],
-    ['ipcam', 4],
-    ['ipcam', 5],
-    ['ipcam', 6],
-    ['ipcam', 7],
-    ['ipcam', 8],
-    ['ipcam', 9],
-    ['ipcam', 10],
-    ['ipcam', 11],
-  ],
-};
-
-const allPlaylist = [playlistV1, playlistV2, proPlaylist, iptvPlaylist];
+const allPlaylist = [playlistV1, playlistV2, playlistV3];
 
 module.exports = allPlaylist;
