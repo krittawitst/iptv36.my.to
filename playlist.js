@@ -1,6 +1,5 @@
 const playlistV1 = {
   filename: 'playlist-v1.m3u',
-  removeNoHWPlusDecoderWarning: false,
   channelList: [
     // 1-10
     ['workpoint', 1],
@@ -50,7 +49,6 @@ const playlistV1 = {
 
 const playlistV2 = {
   filename: 'playlist-v2.m3u',
-  removeNoHWPlusDecoderWarning: true,
   channelList: [
     // 1-10
     ['nbt'],
@@ -113,7 +111,6 @@ const playlistV2 = {
 
 const playlistV3 = {
   filename: 'playlist-v3.m3u',
-  removeNoHWPlusDecoderWarning: true,
   channelList: [
     // 1-47
     ...playlistV2.channelList,
@@ -139,6 +136,8 @@ const playlistV3 = {
     ['premier4', 1],
     ['premier5'],
     ['premier5', 1],
+    ['truesportshd1'],
+    ['truesportshd2'],
   ],
 };
 

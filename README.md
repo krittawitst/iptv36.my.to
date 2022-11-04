@@ -26,9 +26,7 @@
 
 นอกจากนี้ เรายังมี Electronic programming guides (EPG) ในรูปแบบ XMLTV ให้คุณนำไปใช้ด้วย
 
-# https://iptv36.netlify.app/epg
-
----
+# https://iptv36.netlify.app/epg.xml
 
 ## Recommended App
 

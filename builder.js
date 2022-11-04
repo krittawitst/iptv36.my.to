@@ -24,7 +24,7 @@ const main = async () => {
 
   // generate M3U PLAYLIST file
   for (let playlist of allPlaylist) {
-    let textStr = `#EXTM3U url-tvg="https://iptv36.netlify.app/epg" refresh="3600"\n#\n`;
+    let textStr = `#EXTM3U url-tvg="https://iptv36.netlify.app/epg.xml" refresh="3600"\n#\n`;
     textStr += `#   Homepage: https://iptv36.my.to/ (Find another version of IPTV playlists here)\n`;
     textStr += `#   Automatically update at: ${currentBkkDatetimeStr} ICT\n\n`;
 
@@ -50,9 +50,7 @@ const main = async () => {
     for (let i = 0; i < playlist.channelList.length; i++) {
       let [channelKey, skip = 0] = playlist.channelList[i];
       let streamingInfo = await streaming.getStreamingInfo(channelKey, skip);
-      let channelName = playlist.removeNoHWPlusDecoderWarning
-        ? streamingInfo.channelName.replace(' [NO HW+]', '*')
-        : streamingInfo.channelName;
+      let channelName = streamingInfo.channelName;
       let tvgId = channelKey === 'mono29soundtrack' ? `mono29.iptv36.my.to` : `${channelKey}.iptv36.my.to`; // streamingInfo.tvgId;
       let channelStr = `#EXTINF:-1 tvg-chno="${i + 1}" tvg-id="${tvgId}" group-title="${
         streamingInfo.groupName
@@ -124,8 +122,8 @@ const main = async () => {
       xmlChannelBody += `  </channel>\n`;
     }
 
-    fs.writeFileSync('EPG.xml', xmlHead + xmlChannelBody + xmlProgramBody + xmlTail, 'utf8');
-    console.log(`\n==> Created EPG 'EPG.xml'`);
+    fs.writeFileSync('epg.xml', xmlHead + xmlChannelBody + xmlProgramBody + xmlTail, 'utf8');
+    console.log(`\n==> Created EPG 'epg.xml'`);
   }
 };
 

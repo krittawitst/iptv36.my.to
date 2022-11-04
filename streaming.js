@@ -71,7 +71,10 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chtsport/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      'https://rr5---sn-w5nuxa-c33lk-34.googleuservideo.com/doofootball_r2/tsports_480p/playlist.m3u8',
+      {
+        url: 'https://rr5---sn-w5nuxa-c33lk-36.googleuservideo.com/doofootball_r2/tsports_480p/chunks.m3u8',
+        options: { userAgent: defaultUserAgent },
+      },
     ],
   },
 
@@ -94,11 +97,10 @@ const streamingInfo = {
     tvgId: 'TNN16.th',
     sources: [
       { url: 'https://iptv36.netlify.app/api/true?channel=tnn16hd', suffix: 'HD' },
-      { url: 'http://freelive2.inwstream.com:1935/freelive-edge/tnn24/playlist.m3u8', suffix: 'SD' },
+      'http://freelive2.inwstream.com:1935/freelive-edge/tnn24/playlist.m3u8',
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chtnn/index.m3u8',
         options: { userAgent: defaultUserAgent },
-        suffix: 'SD',
       },
     ],
   },
@@ -504,6 +506,30 @@ const streamingInfo = {
     ],
   },
 
+  truesportshd1: {
+    channelName: 'true sports 1',
+    ogo: 'https://iptv36.my.to/logo/premier_hd5.png',
+    groupName: 'Sport',
+    sources: [
+      {
+        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/truesporthd1/playlist.m3u8',
+        options: { referer: 'https://www.livestream88.com/' },
+      },
+    ],
+  },
+
+  truesportshd2: {
+    channelName: 'true sports 2',
+    ogo: 'https://iptv36.my.to/logo/premier_hd5.png',
+    groupName: 'Sport',
+    sources: [
+      {
+        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/truesporthd2/playlist.m3u8',
+        options: { referer: 'https://www.livestream88.com/' },
+      },
+    ],
+  },
+
   ipcam: {
     channelName: 'CAM',
     logo: 'https://iptv36.my.to/logo/ipcam.png',
@@ -531,13 +557,8 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
   // config
   let config = [
     // [channelKey, channelNameSuffix, metaUrl]
-    [
-      'gmm25',
-      'FHD',
-      'https://www.dailymotion.com/player/metadata/video/k4jJqAW0V5pVYnrJq1J?embedder=https%3A%2F%2Fwww.oned.net%2F&geo=1&player-id=x8c5c&locale=th&dmV1st=541934AD5E2E5DDC1DAA4B2A1E6A9A37&dmTs=592812&is_native_app=0',
-    ],
     ['workpoint', 'FHD', 'https://www.dailymotion.com/player/metadata/video/x6g9qjj'],
-    ['nation', 'FHD', 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
+    ['nation', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
     ['topnews', '', 'https://www.dailymotion.com/player/metadata/video/x8aopdx'],
   ];
 
