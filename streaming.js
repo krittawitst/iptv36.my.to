@@ -165,7 +165,7 @@ const streamingInfo = {
     tvgId: 'GMM25.th',
     sources: [
       {
-        url: 'https://stream-01.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_YoaNL1MfayYXHyeysO1Q5uCVC98PeOyiqAHVmcGIz3k)/dm/3/x6rz4t7/s/live-4.m3u8',
+        url: 'https://stream-03.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_QYqcOJqGEr7dZirUE-lRnAO3RoJkKpfCPl9bGv16rAl)/dm/3/x6rz4t7/s/live-4.m3u8',
         suffix: 'FHD',
       },
       'https://freelive.inwstream.com:1936/freelive-edge/gmmchannel/playlist.m3u8',
