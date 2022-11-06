@@ -137,6 +137,10 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/workpoint.png',
     tvgId: 'Workpoint23.th',
     sources: [
+      {
+        url: 'https://demo-aps1.cdn.vustreams.com/live/7775048b-efaa-4b18-91ec-edca2a530b03/live.isml/live-video=6499968.m3u8',
+        suffix: 'NHD',
+      },
       'https://freelive.inwstream.com:1936/freelive-edge/workpointtv/playlist.m3u8',
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chworkpoint/index.m3u8',

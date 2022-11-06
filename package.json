@@ -1,7 +1,7 @@
 {
   "name": "iptv36.my.to",
   "version": "1.0.0",
-  "description": "Thai IPTV M3U Playlist & XMLTV EPG",
+  "description": "Thai IPTV Playlist & XMLTV EPG",
   "repository": "https://github.com/krittawitst/iptv36.my.to.git",
   "license": "MIT",
   "scripts": {

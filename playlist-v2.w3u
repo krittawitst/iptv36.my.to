@@ -7,23 +7,6 @@
   "info": "Sample list for w3u tutorial using publicly available links",
   "groups": [
     {
-      "name": "Movies",
-      "image": "https://i.imgur.com/ExU2ep3.png",
-      "stations": [
-        {
-          "name": "Tears of Steel",
-          "image": "https://i.imgur.com/zHW0cSVl.jpg",
-          "url": "https://ftp.nluug.nl/pub/graphics/blender/demo/movies/ToS/ToS-4k-1920.mov",
-          "subtitle": "https://pastebin.com/JDfuRkZe"
-        },
-        {
-          "name": "Sintel",
-          "image": "https://i.imgur.com/s2Xd81sl.jpg",
-          "url": "https://ftp.nluug.nl/pub/graphics/blender/demo/movies/Sintel.2010.720p.mkv"
-        }
-      ]
-    },
-    {
       "name": "Live",
       "image": "https://i.imgur.com/WP7j2dX.png",
       "stations": [
@@ -32,11 +15,6 @@
           "image": "https://i.imgur.com/aCj27P5.png",
           "url": "https://nasa-i.akamaihd.net/hls/live/253565/NASA-NTV1-Public/master.m3u8"
         },
-        {
-          "name": "NASA ISS",
-          "image": "https://i.imgur.com/aCj27P5.png",
-          "url": "https://iphone-streaming.ustream.tv/uhls/9408562/streams/live/iphone/playlist.m3u8"
-        }
       ]
     }
   ],
@@ -61,28 +39,24 @@
       "embed": true
     },
     {
-      "name": "GMM25 HD Nat",
-      "image": "https://iptv36.my.to/logo/gmm25.png",
-      "url": "https://www.oned.net/live?channel=17263",
-      "playInNatPlayer": "true"
-    },
-    {
       "name": "GMM25 HD Direct",
       "image": "https://iptv36.my.to/logo/gmm25.png",
       "url": "https://stream-03.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_QYqcOJqGEr7dZirUE-lRnAO3RoJkKpfCPl9bGv16rAl)/dm/3/x6rz4t7/s/live-3.m3u8"
     },
     {
-      "name": "GMM25 HD desktop",
-      "image": "https://iptv36.my.to/logo/gmm25.png",
-      "url": "https://www.oned.net/live?channel=17263",
-      "desktop": "true"
+      "name": "Workpoint JW",
+      "image": "https://iptv36.my.to/logo/workpoint.png",
+      "url": "https://cdn.jwplayer.com/players/oEutxSOJ-2CjMTVy1.html"
     },
     {
-      "name": "GMM25 HD desktop+ua",
-      "image": "https://iptv36.my.to/logo/gmm25.png",
-      "url": "https://www.oned.net/live?channel=17263",
-      "desktop": "true",
-      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
+      "name": "Workpoint DM",
+      "image": "https://iptv36.my.to/logo/workpoint.png",
+      "url": "https://www.dailymotion.com/video/x6g9qjj"
+    },
+    {
+      "name": "Workpoint DM Embed",
+      "image": "https://iptv36.my.to/logo/workpoint.png",
+      "url": "https://www.dailymotion.com/embed/video/x6g9qjj?autoplay=1"
     }
   ]
 }
