@@ -1,0 +1,69 @@
+{
+  "name": "w3u list",
+  "author": "w3u author",
+  "url": "https://iptv36.my.to/playlist-v2.w3u",
+  "image": "https://i.imgur.com/5rjqSPj.png",
+  "contact": "w3u@testmail.com",
+  "info": "Sample list for w3u tutorial using publicly available links",
+  "groups": [
+    {
+      "name": "Movies",
+      "image": "https://i.imgur.com/ExU2ep3.png",
+      "stations": [
+        {
+          "name": "Tears of Steel",
+          "image": "https://i.imgur.com/zHW0cSVl.jpg",
+          "url": "https://ftp.nluug.nl/pub/graphics/blender/demo/movies/ToS/ToS-4k-1920.mov",
+          "subtitle": "https://pastebin.com/JDfuRkZe"
+        },
+        {
+          "name": "Sintel",
+          "image": "https://i.imgur.com/s2Xd81sl.jpg",
+          "url": "https://ftp.nluug.nl/pub/graphics/blender/demo/movies/Sintel.2010.720p.mkv"
+        }
+      ]
+    },
+    {
+      "name": "Live",
+      "image": "https://i.imgur.com/WP7j2dX.png",
+      "stations": [
+        {
+          "name": "NASA",
+          "image": "https://i.imgur.com/aCj27P5.png",
+          "url": "https://nasa-i.akamaihd.net/hls/live/253565/NASA-NTV1-Public/master.m3u8"
+        },
+        {
+          "name": "NASA ISS",
+          "image": "https://i.imgur.com/aCj27P5.png",
+          "url": "https://iphone-streaming.ustream.tv/uhls/9408562/streams/live/iphone/playlist.m3u8"
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "name": "Timelapse Paris",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Timelapse_Tour_Eiffel_%C3%A0_Paris.webm/800px--Timelapse_Tour_Eiffel_%C3%A0_Paris.webm.jpg",
+      "imageScale": "centerCrop",
+      "url": "https://commons.wikimedia.org/wiki/File:Timelapse_Tour_Eiffel_%C3%A0_Paris.webm",
+      "isHost": true
+    },
+    {
+      "name": "HTML5 Video",
+      "image": "https://i.imgur.com/sjrn6Ii.png",
+      "url": "http://clappr.io/demo/",
+      "embed": true
+    },
+    {
+      "name": "Me at the zoo",
+      "image": "https://img.youtube.com/vi/jNQXAC9IVRw/0.jpg",
+      "imageScale": "centerCrop",
+      "url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+    },
+    {
+      "name": "GMM25 HD",
+      "image": "https://iptv36.my.to/logo/gmm25.png",
+      "url": "https://www.oned.net/live?channel=17263"
+    }
+  ]
+}

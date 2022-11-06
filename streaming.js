@@ -114,7 +114,7 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/newtv/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      { url: 'https://iptv36.netlify.app/api/trueid' },
+      { url: 'https://rr5---sn-w5nuxa-c33lk-37.googleuservideo.com/doofootball_r7/true-filmhd2/playlist.m3u8' },
     ],
   },
 
