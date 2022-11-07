@@ -138,8 +138,8 @@ const streamingInfo = {
     tvgId: 'Workpoint23.th',
     sources: [
       {
-        url: 'https://demo-aps1.cdn.vustreams.com/live/7775048b-efaa-4b18-91ec-edca2a530b03/live.isml/live-video=6499968.m3u8',
-        suffix: 'NHD',
+        url: 'https://demo-aps1.cdn.vustreams.com/live/7775048b-efaa-4b18-91ec-edca2a530b03/live.isml/.m3u8',
+        suffix: 'FHD',
       },
       'https://freelive.inwstream.com:1936/freelive-edge/workpointtv/playlist.m3u8',
       {
@@ -169,7 +169,7 @@ const streamingInfo = {
     tvgId: 'GMM25.th',
     sources: [
       {
-        url: 'https://stream-03.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_QYqcOJqGEr7dZirUE-lRnAO3RoJkKpfCPl9bGv16rAl)/dm/3/x6rz4t7/s/live-4.m3u8',
+        url: 'https://stream-03.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_Y16KL6faMaU-Gt91DzZHm_63qDSZbMt8f8RaKZHpITu)/dm/3/x6rz4t7/s/live-4.m3u8',
         suffix: 'FHD',
       },
       'https://freelive.inwstream.com:1936/freelive-edge/gmmchannel/playlist.m3u8',
@@ -337,7 +337,7 @@ const streamingInfo = {
   tvb: {
     channelName: 'TVB Thai FHD',
     logo: 'https://iptv36.my.to/logo/tvb.png',
-    sources: ['https://edge2z.v2h-cdn.com/tvb_thai/tvb_thai.stream/playlist.m3u8'],
+    sources: ['https://edge6a.v2h-cdn.com/tvb_thai/tvb_thai.stream/playlist.m3u8'],
   },
 
   news1: {
