@@ -395,37 +395,33 @@ const streamingInfo = {
   },
 
   bein1: {
-    channelName: 'beIN Sports 1',
+    channelName: 'beIN Sports HD1',
     logo: 'https://iptv36.my.to/logo/bein1.png',
     groupName: 'Sport',
     sources: [
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/bein1/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
-        suffix: 'HD',
       },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/bein1/playlist.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
-        suffix: 'HD',
       },
     ],
   },
 
   bein2: {
-    channelName: 'beIN Sports 2',
+    channelName: 'beIN Sports HD2',
     logo: 'https://iptv36.my.to/logo/bein2.png',
     groupName: 'Sport',
     sources: [
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/bein2/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
-        suffix: 'HD',
       },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/bein2/playlist.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
-        suffix: 'HD',
       },
     ],
   },
@@ -512,7 +508,7 @@ const streamingInfo = {
 
   truesportshd1: {
     channelName: 'true sports 1',
-    ogo: 'https://iptv36.my.to/logo/premier_hd5.png',
+    ogo: 'https://iptv36.my.to/logo/true_sports_hd.png',
     groupName: 'Sport',
     sources: [
       {
@@ -524,7 +520,7 @@ const streamingInfo = {
 
   truesportshd2: {
     channelName: 'true sports 2',
-    ogo: 'https://iptv36.my.to/logo/premier_hd5.png',
+    ogo: 'https://iptv36.my.to/logo/true_sports_hd2.png',
     groupName: 'Sport',
     sources: [
       {
