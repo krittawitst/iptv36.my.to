@@ -261,11 +261,11 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/thairath.png',
     tvgId: 'ThairathTV32.th',
     sources: [
-      {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/chthairath/index.m3u8',
-        options: { userAgent: defaultUserAgent },
-        suffix: 'HD',
-      },
+      // {
+      //   url: 'https://cdn6.goprimetime.info/feed/202205171929/chthairath/index.m3u8',
+      //   options: { userAgent: defaultUserAgent },
+      //   suffix: 'HD',
+      // },
       { url: 'http://freelive2.inwstream.com:1935/freelive-edge/thairahttvhd/playlist.m3u8', suffix: 'HD' },
       { url: 'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8', suffix: 'HD' },
     ],
@@ -508,7 +508,7 @@ const streamingInfo = {
 
   truesportshd1: {
     channelName: 'true sports 1',
-    ogo: 'https://iptv36.my.to/logo/true_sports_hd.png',
+    logo: 'https://iptv36.my.to/logo/true_sports_hd.png',
     groupName: 'Sport',
     sources: [
       {
@@ -520,7 +520,7 @@ const streamingInfo = {
 
   truesportshd2: {
     channelName: 'true sports 2',
-    ogo: 'https://iptv36.my.to/logo/true_sports_hd2.png',
+    logo: 'https://iptv36.my.to/logo/true_sports_hd2.png',
     groupName: 'Sport',
     sources: [
       {
