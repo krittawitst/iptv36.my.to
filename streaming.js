@@ -291,11 +291,22 @@ const streamingInfo = {
     tvgId: 'Amarin34HD.th',
     sources: [
       {
+        url: 'https://amarin-ks7jcc.cdn.byteark.com/fleetstream/amarin-live/index.m3u8?x_ark_access_id=fleet-868&x_ark_auth_type=ark-v2&x_ark_expires=1668241172&x_ark_path_prefix=/fleetstream/amarin-live/&x_ark_signature=Qzug4xDBwHCMHEIO8AkLSQ',
+        suffix: 'FHD',
+      },
+      {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chamarin/index.m3u8',
         options: { userAgent: defaultUserAgent },
+        suffix: 'HD',
       },
-      'http://freelive2.inwstream.com:1935/freelive-edge/amarinhd/playlist.m3u8', // 720p
-      'https://freelive.inwstream.com:1936/freelive-edge/amarinhd/playlist.m3u8', // 720p
+      {
+        url: 'http://freelive2.inwstream.com:1935/freelive-edge/amarinhd/playlist.m3u8',
+        suffix: 'HD',
+      },
+      {
+        url: 'https://freelive.inwstream.com:1936/freelive-edge/amarinhd/playlist.m3u8',
+        suffix: 'HD',
+      },
     ],
   },
 
