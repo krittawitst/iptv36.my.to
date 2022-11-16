@@ -33,7 +33,7 @@ const playlistV1 = {
     ['gmm25'],
     ['gmm25', 1],
     ['ch8'],
-    ['mono29soundtrack'],
+    ['mono29, 1'],
     ['mono29'],
     ['mcot'],
 
@@ -83,12 +83,10 @@ const playlistV2 = {
     ['ch8', 1],
     ['mono29'],
     ['mono29', 1],
-    ['mono29', 2],
-    ['mono29soundtrack'],
-
-    // 31-40
     ['mcot'],
     ['mcot', 1],
+
+    // 31-40
     ['one'],
     ['one', 1],
     ['thairath'],
@@ -97,10 +95,10 @@ const playlistV2 = {
     ['ch3', 1],
     ['amarin'],
     ['amarin', 1],
-
-    // 41-47
     ['ch7'],
     ['ch7', 1],
+
+    // 41-45
     ['pptv'],
     ['pptv', 1],
     ['tvb'],
@@ -131,11 +129,8 @@ const playlistV3 = {
     ['premier2'],
     ['premier2', 1],
     ['premier3'],
-    ['premier3', 1],
     ['premier4'],
-    ['premier4', 1],
     ['premier5'],
-    ['premier5', 1],
     ['truesportshd1'],
     ['truesportshd2'],
   ],
