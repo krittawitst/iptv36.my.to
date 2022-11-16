@@ -11,13 +11,16 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/nbt.png',
     tvgId: 'NBT2.th',
     sources: [
-      { url: 'https://freelive.inwstream.com:1936/freelive-edge/nbt/playlist.m3u8', suffix: 'HD' },
+      {
+        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/nbt/playlist.m3u8',
+        options: { referer: 'https://www.livestream88.com/' },
+        suffix: 'HD',
+      },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chnbt3/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
-      { url: 'http://freelive2.inwstream.com:1935/freelive-edge/nbt/playlist.m3u8', suffix: 'HD' },
     ],
   },
 
@@ -32,7 +35,6 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
-      { url: 'https://freelive.inwstream.com:1936/freelive-edge/thaipbs/playlist.m3u8', suffix: 'HD' },
     ],
   },
 
@@ -59,7 +61,6 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
-      { url: 'https://freelive.inwstream.com:1936/freelive-edge/5hd/playlist.m3u8', suffix: 'HD' },
     ],
   },
 
@@ -90,8 +91,6 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/TPTV/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      { url: 'https://freelive.inwstream.com:1936/freelive-edge/tptv/playlist.m3u8' },
-      { url: 'http://freelive2.inwstream.com:1935/freelive-edge/tptv/playlist.m3u8' },
     ],
   },
 
@@ -105,7 +104,6 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chtnn/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      'http://freelive2.inwstream.com:1935/freelive-edge/tnn24/playlist.m3u8',
     ],
   },
 
@@ -131,10 +129,13 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/nation.png',
     tvgId: 'NationTV.th',
     sources: [
-      { url: 'http://freelive2.inwstream.com:1935/freelive-edge/nation/playlist.m3u8' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chnation/index.m3u8',
         options: { userAgent: defaultUserAgent },
+      },
+      {
+        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/nation/playlist.m3u8',
+        options: { referer: 'https://www.livestream88.com/' },
       },
     ],
   },
@@ -148,7 +149,6 @@ const streamingInfo = {
         url: 'https://demo-aps1.cdn.vustreams.com/live/7775048b-efaa-4b18-91ec-edca2a530b03/live.isml/.m3u8',
         suffix: 'FHD',
       },
-      'https://freelive.inwstream.com:1936/freelive-edge/workpointtv/playlist.m3u8',
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chworkpoint/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -166,7 +166,6 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chtrue4u3/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      { url: 'http://freelive.inwstream.com:1935/freelive-edge/true4u/playlist.m3u8' },
     ],
   },
 
@@ -176,11 +175,13 @@ const streamingInfo = {
     tvgId: 'GMM25.th',
     sources: [
       {
+        url: 'https://stream-04.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_a52OPsYNLnD1K7kaTOJcxpyMo9LkEOrIdVq_Aca8bX1)/dm/3/x6rz4t7/s/live-3.m3u8',
+        suffix: 'FHD',
+      },
+      {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chgmm3/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      'http://freelive2.inwstream.com:1935/freelive-edge/gmmchannel/playlist.m3u8',
-      'https://freelive.inwstream.com:1936/freelive-edge/gmmchannel/playlist.m3u8',
     ],
   },
 
@@ -194,7 +195,6 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/ch8/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      { url: 'http://freelive.inwstream.com:1935/freelive-edge/ch8/playlist.m3u8' },
     ],
   },
 
@@ -208,13 +208,15 @@ const streamingInfo = {
         url: 'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080EN.stream/playlist.m3u8',
         suffix: 'Soundtrack FHD',
       },
+      {
+        url: 'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080TH.stream/playlist.m3u8',
+        suffix: 'FHD',
+      },
       { url: 'https://live-3.monomax.me/tv/mono29_720p.m3u8', suffix: 'HD' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chmono29/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080TH.stream/playlist.m3u8',
-      'http://freelive.inwstream.com:1935/freelive-edge/mono29/playlist.m3u8',
     ],
   },
 
@@ -241,14 +243,6 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
-      {
-        url: 'https://freelive.inwstream.com:1936/freelive-edge/mcothd/playlist.m3u8',
-        suffix: 'HD',
-      },
-      {
-        url: 'http://freelive2.inwstream.com:1935/freelive-edge/mcothd/playlist.m3u8',
-        suffix: 'HD',
-      },
     ],
   },
 
@@ -265,8 +259,6 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chonehd/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      'http://freelive2.inwstream.com:1935/freelive-edge/onehd/playlist.m3u8',
-      'https://freelive.inwstream.com:1936/freelive-edge/onehd/playlist.m3u8',
     ],
   },
 
@@ -285,7 +277,7 @@ const streamingInfo = {
         options: { referer: 'https://www.livestream88.com/' },
         suffix: 'HD',
       },
-      { url: 'http://freelive2.inwstream.com:1935/freelive-edge/thairahttvhd/playlist.m3u8', suffix: 'HD' },
+
       { url: 'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8', suffix: 'HD' },
     ],
   },
@@ -303,8 +295,6 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/ch3hd/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      'https://freelive2.inwstream.com:1936/freelive-edge/3hd/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTYvMjAyMiA0OjI1OjE4IEFNJmhhc2hfdmFsdWU9R0tHN1RMb1lGRkNqU3J5eFkvWURkUT09JnZhbGlkbWludXRlcz0y',
-      'https://freelive.inwstream.com:1936/freelive-edge/3hd/playlist.m3u8',
     ],
   },
 
@@ -323,14 +313,6 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
-      {
-        url: 'http://freelive2.inwstream.com:1935/freelive-edge/amarinhd/playlist.m3u8',
-        suffix: 'HD',
-      },
-      {
-        url: 'https://freelive.inwstream.com:1936/freelive-edge/amarinhd/playlist.m3u8',
-        suffix: 'HD',
-      },
     ],
   },
 
@@ -345,7 +327,6 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
-      { url: 'http://freelive2.inwstream.com:1935/freelive-edge/7hd/playlist.m3u8', suffix: 'HD' },
     ],
   },
 
@@ -362,8 +343,6 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chpptvhd3/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      'http://freelive2.inwstream.com:1935/freelive-edge/pptvhd/playlist.m3u8',
-      'https://freelive.inwstream.com:1936/freelive-edge/pptvhd/playlist.m3u8',
     ],
   },
 
@@ -395,42 +374,6 @@ const streamingInfo = {
     channelName: 'CTB FHD',
     logo: 'https://iptv36.my.to/logo/ctb.png',
     sources: ['http://vip.login.in.th:1935/CTB/CTB/chunklist.m3u8'],
-  },
-
-  fwmov: {
-    channelName: 'FW Movie HD',
-    logo: 'https://img.inwiptv.net/postor/20200512164154fwmov.jpg',
-    sources: ['https://freelive.inwstream.com:1936/freelive-edge/fwmov_fw-iptv.stream/playlist.m3u8'],
-  },
-
-  fwsov: {
-    channelName: 'FW Sov HD',
-    logo: 'https://img.inwiptv.net/postor/20200512165346fwsov.jpg',
-    sources: ['http://freelive.inwstream.com:1935/freelive-edge/fwsov_fw-iptv.stream/playlist.m3u8'],
-  },
-
-  fwtoon: {
-    channelName: 'FW Toon HD',
-    logo: 'https://img.inwiptv.net/postor/20200512162950fw%20teletoon(1).jpg',
-    sources: ['https://freelive.inwstream.com:1936/freelive-edge/fwtoon_fw-iptv.stream/playlist.m3u8'],
-  },
-
-  boomerang: {
-    channelName: 'Boomerang HD',
-    logo: 'https://iptv36.my.to/logo/boomerang.png',
-    sources: [
-      'http://freelive2.inwstream.com:1935/freelive-edge/boomerang/playlist.m3u8',
-      'https://freelive.inwstream.com:1936/freelive-edge/boomerang/playlist.m3u8',
-    ],
-  },
-
-  toonee: {
-    channelName: 'Toonee',
-    logo: 'https://iptv36.my.to/logo/toonee.png',
-    sources: [
-      'https://freelive.inwstream.com:1936/freelive-edge/toonee/playlist.m3u8',
-      'http://freelive2.inwstream.com:1935/freelive-edge/toonee/playlist.m3u8',
-    ],
   },
 
   bein1: {
