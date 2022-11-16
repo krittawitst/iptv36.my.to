@@ -33,7 +33,7 @@ const playlistV1 = {
     ['gmm25'],
     ['gmm25', 1],
     ['ch8'],
-    ['mono29, 1'],
+    ['mono29', 1],
     ['mono29'],
     ['mcot'],
 
@@ -110,20 +110,17 @@ const playlistV2 = {
 const playlistV3 = {
   filename: 'playlist-v3.m3u',
   channelList: [
-    // 1-47
+    // 1-45
     ...playlistV2.channelList,
 
-    // 48-50
+    // 46-50
     ['ctb'],
-    ['fwmov'],
-    ['fwtoon'],
-
-    // 51
     ['bein1'],
     ['bein1', 1],
     ['bein2'],
     ['bein2', 1],
 
+    // 51-XX
     ['premier1'],
     ['premier1', 1],
     ['premier2'],
