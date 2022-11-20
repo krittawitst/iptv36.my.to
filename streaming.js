@@ -146,10 +146,6 @@ const streamingInfo = {
     tvgId: 'Workpoint23.th',
     sources: [
       {
-        url: 'https://demo-aps1.cdn.vustreams.com/live/7775048b-efaa-4b18-91ec-edca2a530b03/live.isml/.m3u8',
-        suffix: 'FHD',
-      },
-      {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chworkpoint/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
@@ -175,7 +171,7 @@ const streamingInfo = {
     tvgId: 'GMM25.th',
     sources: [
       {
-        url: 'https://stream-04.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_a52OPsYNLnD1K7kaTOJcxpyMo9LkEOrIdVq_Aca8bX1)/dm/3/x6rz4t7/s/live-3.m3u8',
+        url: 'https://stream-01.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_XsLs5a1oez3_9j1ytYcuf3vextp8GuqqsleINvW2Iro)/dm/3/x6rz4t7/s/live-4.m3u8',
         suffix: 'FHD',
       },
       {
@@ -237,6 +233,7 @@ const streamingInfo = {
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/mcothd/digitaltv/mcothd/chunks.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
+        suffix: 'HD',
       },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chmcothd/index.m3u8',
@@ -453,6 +450,10 @@ const streamingInfo = {
         url: 'https://sport.livedoomovies.com:4431/02_PremierHD3_720p/chunklist.m3u8',
         options: { referer: 'https://www.doomovie-hd.com' },
       },
+      {
+        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/tpf3/playlist.m3u8',
+        options: { referer: 'https://dooball2you.com/' },
+      },
     ],
   },
 
@@ -531,7 +532,7 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
   // config
   let config = [
     // [channelKey, channelNameSuffix, metaUrl]
-    ['mcot', 'FHD', 'https://www.dailymotion.com/player/metadata/video/x74wlgj'],
+    ['mcot', 'HD', 'https://www.dailymotion.com/player/metadata/video/x74wlgj'],
     ['workpoint', 'FHD', 'https://www.dailymotion.com/player/metadata/video/x6g9qjj'],
     ['nation', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
     ['topnews', '', 'https://www.dailymotion.com/player/metadata/video/x8aopdx'],
