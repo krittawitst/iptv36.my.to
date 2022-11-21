@@ -113,14 +113,14 @@ const playlistV3 = {
     // 1-45
     ...playlistV2.channelList,
 
-    // 46-50
+    // 46-XX
     ['ctb'],
+    ['truefilm1'],
+    ['truefilm2'],
     ['bein1'],
     ['bein1', 1],
     ['bein2'],
     ['bein2', 1],
-
-    // 51-XX
     ['premier1'],
     ['premier1', 1],
     ['premier2'],
@@ -130,6 +130,9 @@ const playlistV3 = {
     ['premier5'],
     ['truesportshd1'],
     ['truesportshd2'],
+    ['truesportshd2', 1],
+    ['truesportshd2', 2],
+    ['truesportshd2', 3],
   ],
 };
 

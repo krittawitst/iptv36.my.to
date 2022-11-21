@@ -24,7 +24,7 @@ const main = async () => {
 
   // generate M3U PLAYLIST file
   for (let playlist of allPlaylist) {
-    let textStr = `#EXTM3U url-tvg="https://iptv36.netlify.app/epg.xml" refresh="3600"\n#\n`;
+    let textStr = `#EXTM3U url-tvg="https://iptv36.netlify.app/epg.xml,https://iptv-org.github.io/epg/guides/th.xml" refresh="3600"\n#\n`;
     textStr += `#   Homepage: https://iptv36.my.to/ (Find another version of IPTV playlists here)\n`;
     textStr += `#   Automatically update at: ${currentBkkDatetimeStr} ICT\n\n`;
 
@@ -51,7 +51,7 @@ const main = async () => {
       let [channelKey, skip = 0] = playlist.channelList[i];
       let streamingInfo = await streaming.getStreamingInfo(channelKey, skip);
       let channelName = streamingInfo.channelName;
-      let tvgId = channelKey === 'mono29soundtrack' ? `mono29.iptv36.my.to` : `${channelKey}.iptv36.my.to`; // streamingInfo.tvgId;
+      let tvgId = streamingInfo.tvgId ? streamingInfo.tvgId : `${channelKey}.iptv36.my.to`;
       let channelStr = `#EXTINF:-1 tvg-chno="${i + 1}" tvg-id="${tvgId}" group-title="${
         streamingInfo.groupName
       }" tvg-logo="${streamingInfo.logo}?v=${channelLogoVersion}",${channelName}`;

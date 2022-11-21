@@ -96,6 +96,7 @@ const getEpgDataFromAisPlay = async () => {
     '5efdd162fbb0045345ef2b61': 'altv',
     // '597b93a97ed5a24e45c3ab13': 'thaipbs',
     // '597b89f07ed5a24e46f6724a': 'tv5',
+    '627a27b26dbfe345cfc8a27f': 'tsports',
     // '597be02d7ed5a24e46f67254': 'tptv',
     // '59671d1cd817de1df19711a6': 'tnn16',
     // '597b8e8c7ed5a24e46f6724b': 'jkn18',

@@ -9,7 +9,7 @@ const streamingInfo = {
   nbt: {
     channelName: 'NBT',
     logo: 'https://iptv36.my.to/logo/nbt.png',
-    tvgId: 'NBT2.th',
+    // tvgId: 'NBT2.th',
     sources: [
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/nbt/playlist.m3u8',
@@ -27,7 +27,7 @@ const streamingInfo = {
   thaipbs: {
     channelName: 'Thai PBS',
     logo: 'https://iptv36.my.to/logo/thaipbs.png',
-    tvgId: 'ThaiPBS3.th',
+    // tvgId: 'ThaiPBS3.th',
     sources: [
       { url: 'https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8', suffix: 'FHD' },
       {
@@ -53,7 +53,7 @@ const streamingInfo = {
   tv5: {
     channelName: 'TV5',
     logo: 'https://iptv36.my.to/logo/tv5.png',
-    tvgId: 'ThaiTV5HD1.th',
+    // tvgId: 'ThaiTV5HD1.th',
     sources: [
       { url: 'http://110.170.117.27:1935/apptv5hd1live/vdo-tv5hd1/playlist.m3u8', suffix: 'FHD' },
       {
@@ -97,7 +97,7 @@ const streamingInfo = {
   tnn16: {
     channelName: 'TNN16',
     logo: 'https://iptv36.my.to/logo/tnn16.png',
-    tvgId: 'TNN16.th',
+    // tvgId: 'TNN16.th',
     sources: [
       { url: 'https://iptv36.netlify.app/api/true?channel=tnn16hd', suffix: 'HD' },
       {
@@ -110,7 +110,7 @@ const streamingInfo = {
   jkn18: {
     channelName: 'JKN18',
     logo: 'https://iptv36.my.to/logo/jkn18.png',
-    tvgId: 'JKN18.th',
+    // tvgId: 'JKN18.th',
     sources: [
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/newtv/index.m3u8',
@@ -120,14 +120,13 @@ const streamingInfo = {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/jkn18/playlist.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
       },
-      { url: 'https://rr5---sn-w5nuxa-c33lk-37.googleuservideo.com/doofootball_r7/true-filmhd2/playlist.m3u8' },
     ],
   },
 
   nation: {
     channelName: 'Nation TV',
     logo: 'https://iptv36.my.to/logo/nation.png',
-    tvgId: 'NationTV.th',
+    // tvgId: 'NationTV.th',
     sources: [
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chnation/index.m3u8',
@@ -143,7 +142,7 @@ const streamingInfo = {
   workpoint: {
     channelName: 'Workpoint TV',
     logo: 'https://iptv36.my.to/logo/workpoint.png',
-    tvgId: 'Workpoint23.th',
+    // tvgId: 'Workpoint23.th',
     sources: [
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chworkpoint/index.m3u8',
@@ -155,7 +154,7 @@ const streamingInfo = {
   true4u: {
     channelName: 'True4U',
     logo: 'https://iptv36.my.to/logo/true4u.png',
-    tvgId: 'True4U.th',
+    // tvgId: 'True4U.th',
     sources: [
       { url: 'https://iptv36.netlify.app/api/true?channel=true4uhd', suffix: 'HD' },
       {
@@ -168,15 +167,15 @@ const streamingInfo = {
   gmm25: {
     channelName: 'GMM25',
     logo: 'https://iptv36.my.to/logo/gmm25.png',
-    tvgId: 'GMM25.th',
+    // tvgId: 'GMM25.th',
     sources: [
-      {
-        url: 'https://stream-01.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_XsLs5a1oez3_9j1ytYcuf3vextp8GuqqsleINvW2Iro)/dm/3/x6rz4t7/s/live-4.m3u8',
-        suffix: 'FHD',
-      },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chgmm3/index.m3u8',
         options: { userAgent: defaultUserAgent },
+      },
+      {
+        url: 'https://streaming.livescorethai.net/iptv/hd-tsport2.stream/playlist.m3u8',
+        options: { referer: 'https://freetvdd.com/' },
       },
     ],
   },
@@ -184,7 +183,7 @@ const streamingInfo = {
   ch8: {
     channelName: 'CH8',
     logo: 'https://iptv36.my.to/logo/ch8.png',
-    tvgId: 'ThaiChannel8.th',
+    // tvgId: 'ThaiChannel8.th',
     sources: [
       { url: 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8', suffix: 'HD' },
       {
@@ -197,7 +196,7 @@ const streamingInfo = {
   mono29: {
     channelName: 'MONO29',
     logo: 'https://iptv36.my.to/logo/mono29.png',
-    tvgId: 'Mono29.th',
+    // tvgId: 'Mono29.th',
     sources: [
       { url: 'https://live-3.monomax.me/tv/mono29_1080p.m3u8', suffix: 'FHD' },
       {
@@ -219,7 +218,7 @@ const streamingInfo = {
   mono29soundtrack: {
     channelName: 'MONO29 Soundtrack FHD',
     logo: 'https://iptv36.my.to/logo/mono29.png',
-    tvgId: 'Mono29.th',
+    // tvgId: 'Mono29.th',
     sources: [
       'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080EN.stream/playlist.m3u8', // 720p
     ],
@@ -228,7 +227,7 @@ const streamingInfo = {
   mcot: {
     channelName: 'MCOT',
     logo: 'https://iptv36.my.to/logo/mcot.png',
-    tvgId: 'MCOTHD.th',
+    // tvgId: 'MCOTHD.th',
     sources: [
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/mcothd/digitaltv/mcothd/chunks.m3u8',
@@ -246,7 +245,7 @@ const streamingInfo = {
   one: {
     channelName: 'ONE HD',
     logo: 'https://iptv36.my.to/logo/one.png',
-    tvgId: 'One31.th',
+    // tvgId: 'One31.th',
     sources: [
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/one31/playlist.m3u8',
@@ -262,7 +261,7 @@ const streamingInfo = {
   thairath: {
     channelName: 'Thairath TV',
     logo: 'https://iptv36.my.to/logo/thairath.png',
-    tvgId: 'ThairathTV32.th',
+    // tvgId: 'ThairathTV32.th',
     sources: [
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chthairath/index.m3u8',
@@ -282,7 +281,7 @@ const streamingInfo = {
   ch3: {
     channelName: 'CH3 HD',
     logo: 'https://iptv36.my.to/logo/ch3.png',
-    tvgId: 'Channel3.th',
+    // tvgId: 'Channel3.th',
     sources: [
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/3hd/digitaltv/3hd/chunks.m3u8',
@@ -298,7 +297,7 @@ const streamingInfo = {
   amarin: {
     channelName: 'Amarin TV',
     logo: 'https://iptv36.my.to/logo/amarin.png',
-    tvgId: 'Amarin34HD.th',
+    // tvgId: 'Amarin34HD.th',
     sources: [
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/amarin/digitaltv/amarin/chunks.m3u8',
@@ -316,7 +315,7 @@ const streamingInfo = {
   ch7: {
     channelName: 'CH7',
     logo: 'https://iptv36.my.to/logo/ch7.png',
-    tvgId: 'BBTVChannel7.th',
+    // tvgId: 'BBTVChannel7.th',
     sources: [
       { url: 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com', suffix: 'FHD' },
       {
@@ -330,7 +329,7 @@ const streamingInfo = {
   pptv: {
     channelName: 'PPTV HD',
     logo: 'https://iptv36.my.to/logo/pptv.png',
-    tvgId: 'PPTVHD36.th',
+    // tvgId: 'PPTVHD36.th',
     sources: [
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/pptv/digitaltv/pptv/chunks.m3u8',
@@ -369,13 +368,33 @@ const streamingInfo = {
 
   ctb: {
     channelName: 'CTB FHD',
-    logo: 'https://iptv36.my.to/logo/ctb.png',
+    logo: 'https://sv1.picz.in.th/images/2022/10/11/pHGfHP.png',
+    groupName: 'Movie',
     sources: ['http://vip.login.in.th:1935/CTB/CTB/chunklist.m3u8'],
+  },
+
+  truefilm1: {
+    channelName: 'True Film 1',
+    logo: 'https://cms.dmpcdn.com/livetv/2022/01/12/26308f80-7374-11ec-91d2-797a50c5a656_webp_320.png',
+    tvgId: 'TrueFilm1.th',
+    groupName: 'Movie',
+    sources: [{ url: 'https://rr5---sn-w5nuxa-c33lk-37.googleuservideo.com/doofootball_r7/true-filmhd/playlist.m3u8' }],
+  },
+
+  truefilm2: {
+    channelName: 'True Film 2',
+    logo: 'https://cms.dmpcdn.com/livetv/2022/01/12/26725370-7374-11ec-91d2-797a50c5a656_webp_320.png',
+    tvgId: 'TrueFilm2.th',
+    groupName: 'Movie',
+    sources: [
+      { url: 'https://rr5---sn-w5nuxa-c33lk-37.googleuservideo.com/doofootball_r7/true-filmhd2/playlist.m3u8' },
+    ],
   },
 
   bein1: {
     channelName: 'beIN Sports HD1',
     logo: 'https://iptv36.my.to/logo/bein1.png',
+    tvgId: 'beINSports1Thailand.th',
     groupName: 'Sport',
     sources: [
       {
@@ -392,6 +411,7 @@ const streamingInfo = {
   bein2: {
     channelName: 'beIN Sports HD2',
     logo: 'https://iptv36.my.to/logo/bein2.png',
+    tvgId: 'beINSports2Thailand.th',
     groupName: 'Sport',
     sources: [
       {
@@ -408,6 +428,7 @@ const streamingInfo = {
   premier1: {
     channelName: 'Premier HD1',
     logo: 'https://iptv36.my.to/logo/premier_hd1.png',
+    tvgId: 'TruePremierFootball1.th',
     groupName: 'Sport',
     sources: [
       {
@@ -428,6 +449,7 @@ const streamingInfo = {
   premier2: {
     channelName: 'Premier HD2',
     logo: 'https://iptv36.my.to/logo/premier_hd1.png',
+    tvgId: 'TruePremierFootball2.th',
     groupName: 'Sport',
     sources: [
       {
@@ -444,6 +466,7 @@ const streamingInfo = {
   premier3: {
     channelName: 'Premier HD3',
     logo: 'https://iptv36.my.to/logo/premier_hd3.png',
+    tvgId: 'TruePremierFootball3.th',
     groupName: 'Sport',
     sources: [
       {
@@ -460,6 +483,7 @@ const streamingInfo = {
   premier4: {
     channelName: 'Premier HD4',
     logo: 'https://iptv36.my.to/logo/premier_hd4.png',
+    tvgId: 'TruePremierFootball4.th',
     groupName: 'Sport',
     sources: [
       {
@@ -472,6 +496,7 @@ const streamingInfo = {
   premier5: {
     channelName: 'Premier HD5',
     logo: 'https://iptv36.my.to/logo/premier_hd5.png',
+    tvgId: 'TruePremierFootball5.th',
     groupName: 'Sport',
     sources: [
       {
@@ -484,6 +509,7 @@ const streamingInfo = {
   truesportshd1: {
     channelName: 'True Sports 1',
     logo: 'https://iptv36.my.to/logo/true_sports_hd.png',
+    tvgId: 'TrueSports1.th',
     groupName: 'Sport',
     sources: [
       {
@@ -496,11 +522,24 @@ const streamingInfo = {
   truesportshd2: {
     channelName: 'True Sports 2',
     logo: 'https://iptv36.my.to/logo/true_sports_hd2.png',
+    tvgId: 'TrueSports2.th',
     groupName: 'Sport',
     sources: [
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/truesporthd2/playlist.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
+      },
+      {
+        url: 'https://streaming.livescorethai.net/iptv/hd-tsport2.stream/playlist.m3u8',
+        options: { referer: 'https://freetvdd.com/' },
+      },
+      {
+        url: 'https://sport.livedoomovie.com:4431/02_2sporthd2_720p/chunklist.m3u8',
+        options: { referer: 'https://www.siammovie-hd.com/' },
+      },
+      {
+        url: 'https://live.vip-streaming.com:30443/cloudstreaming/true-sport-2/playlist.m3u8',
+        options: { referer: 'https://ufabetcompany.com' },
       },
     ],
   },
@@ -589,7 +628,9 @@ const testUrl = async (url) => {
   // list of url that we will always not check
   if (
     url.includes('rtsp://') ||
-    url.includes('livedoomovies.com') ||
+    url.includes('livedoomovie') ||
+    url.includes('livescorethai.net') ||
+    url.includes('vip-streaming.com') ||
     url.includes('live-cdn-hwc.ch7.com') || // ch7
     url.includes('/api/true') || // tnn
     url.includes('huaweicdncloud.com') || // temporary
