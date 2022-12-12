@@ -52,7 +52,7 @@ const playlistV2 = {
   channelList: [
     // 1-10
     ['nbt'],
-    ['nbt', 1],
+    // ['nbt', 1],
     ['thaipbs'],
     ['thaipbs', 1],
     ['altv'],
@@ -60,7 +60,7 @@ const playlistV2 = {
     ['tv5'],
     ['tv5', 1],
     ['tsports'],
-    ['tsports', 1],
+    // ['tsports', 1],
 
     // 11-20
     ['tptv'],
@@ -68,7 +68,7 @@ const playlistV2 = {
     ['tnn16'],
     ['tnn16', 1],
     ['jkn18'],
-    ['jkn18', 1],
+    // ['jkn18', 1],
     ['nation'],
     ['nation', 1],
     ['workpoint'],
@@ -88,11 +88,11 @@ const playlistV2 = {
 
     // 31-40
     ['one'],
-    ['one', 1],
+    // ['one', 1],
     ['thairath'],
     ['thairath', 1],
     ['ch3'],
-    ['ch3', 1],
+    // ['ch3', 1],
     ['amarin'],
     ['amarin', 1],
     ['ch7'],
@@ -100,7 +100,7 @@ const playlistV2 = {
 
     // 41-45
     ['pptv'],
-    ['pptv', 1],
+    // ['pptv', 1],
     ['tvb'],
     ['news1'],
     ['topnews'],
@@ -115,24 +115,23 @@ const playlistV3 = {
 
     // 46-XX
     ['ctb'],
-    ['truefilm1'],
-    ['truefilm2'],
-    ['bein1'],
-    ['bein1', 1],
-    ['bein2'],
-    ['bein2', 1],
+    // ['truefilm1'],
+    // ['truefilm2'],
+    // ['bein1'],
+    // ['bein1', 1],
+    // ['bein2'],
+    // ['bein2', 1],
     ['premier1'],
     ['premier1', 1],
     ['premier2'],
-    ['premier2', 1],
+    // ['premier2', 1],
     ['premier3'],
     ['premier4'],
     ['premier5'],
-    ['truesportshd1'],
+    // ['truesportshd1'],
     ['truesportshd2'],
     ['truesportshd2', 1],
     ['truesportshd2', 2],
-    ['truesportshd2', 3],
   ],
 };
 

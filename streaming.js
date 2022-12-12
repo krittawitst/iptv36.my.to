@@ -16,15 +16,20 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
-      {
-        url: 'https://streaming.livescorethai.net/iptv/sd-nbt.stream/playlist.m3u8',
-        options: { referer: 'https://freetvdd.com/' },
-      },
-      {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/nbt/playlist.m3u8',
-        options: { referer: 'https://www.livestream88.com/' },
-        suffix: 'HD',
-      },
+      // {
+      //   url: 'https://rr5---sn-w5nuxa-c33lk-37.googleuservideo.com/doofootball_r2/2nbt_480p/playlist.m3u8',
+      //   options: { userAgent: defaultUserAgent },
+      //   suffix: 'HD',
+      // },
+      // {
+      //   url: 'https://streaming.livescorethai.net/iptv/sd-nbt.stream/playlist.m3u8',
+      //   options: { referer: 'https://freetvdd.com/' },
+      // },
+      // {
+      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/nbt/playlist.m3u8',
+      //   options: { referer: 'https://www.livestream88.com/' },
+      //   suffix: 'HD',
+      // },
     ],
   },
 
@@ -76,10 +81,10 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chtsport/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      {
-        url: 'https://rr5---sn-w5nuxa-c33lk-36.googleuservideo.com/doofootball_r2/tsports_480p/chunks.m3u8',
-        options: { userAgent: defaultUserAgent },
-      },
+      // {
+      //   url: 'https://rr5---sn-w5nuxa-c33lk-36.googleuservideo.com/doofootball_r2/tsports_480p/chunks.m3u8',
+      //   options: { userAgent: defaultUserAgent },
+      // },
     ],
   },
 
@@ -561,12 +566,12 @@ const streamingInfo = {
         url: 'https://live.vip-streaming.com:30443/cloudstreaming/true-sport-2/playlist.m3u8',
         options: { referer: 'https://ufabetcompany.com' },
       },
+      // {
+      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/truesporthd2/playlist.m3u8',
+      //   options: { referer: 'https://www.livestream88.com/' },
+      // },
       {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/truesporthd2/playlist.m3u8',
-        options: { referer: 'https://www.livestream88.com/' },
-      },
-      {
-        url: 'https://sport.livedoomovie.com:4431/02_2sporthd2_720p/chunklist.m3u8',
+        url: 'http://sport.livedoomovie.com:4431/02_2sporthd2_720p/chunklist.m3u8',
         options: { referer: 'https://www.siammovie-hd.com/' },
       },
     ],
