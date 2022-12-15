@@ -16,20 +16,15 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
-      // {
-      //   url: 'https://rr5---sn-w5nuxa-c33lk-37.googleuservideo.com/doofootball_r2/2nbt_480p/playlist.m3u8',
-      //   options: { userAgent: defaultUserAgent },
-      //   suffix: 'HD',
-      // },
-      // {
-      //   url: 'https://streaming.livescorethai.net/iptv/sd-nbt.stream/playlist.m3u8',
-      //   options: { referer: 'https://freetvdd.com/' },
-      // },
-      // {
-      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/nbt/playlist.m3u8',
-      //   options: { referer: 'https://www.livestream88.com/' },
-      //   suffix: 'HD',
-      // },
+      {
+        url: 'https://streaming.livescorethai.net/iptv/sd-nbt.stream/chunks.m3u8',
+        options: { referer: 'https://freetvdd.com/' },
+      },
+      {
+        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/nbt/playlist.m3u8',
+        options: { referer: 'https://www.livestream88.com/' },
+        suffix: 'HD',
+      },
     ],
   },
 
@@ -81,10 +76,10 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chtsport/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      // {
-      //   url: 'https://rr5---sn-w5nuxa-c33lk-36.googleuservideo.com/doofootball_r2/tsports_480p/chunks.m3u8',
-      //   options: { userAgent: defaultUserAgent },
-      // },
+      {
+        url: 'https://www.livedoomovies.com:4431/02_T_Sports_480p/chunklist.m3u8',
+        options: { referer: 'https://www.doomovie-hd.com/' },
+      },
     ],
   },
 
@@ -126,13 +121,9 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
       },
       {
-        url: 'https://rr5---sn-w5nuxa-c33lk-21.googleuservideo.com/doofootball_r2/tvdigital_newtv_480p/playlist.m3u8',
-        options: { userAgent: defaultUserAgent },
+        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/jkn18/playlist.m3u8',
+        options: { referer: 'https://www.livestream88.com/' },
       },
-      // {
-      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/jkn18/playlist.m3u8',
-      //   options: { referer: 'https://www.livestream88.com/' },
-      // },
     ],
   },
 
@@ -265,13 +256,9 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
       },
       {
-        url: 'https://rr5---sn-w5nuxa-c33lk-21.googleuservideo.com/doofootball_r2/tvdigital_one_480p/playlist.m3u8',
-        options: { userAgent: defaultUserAgent },
+        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/one31/playlist.m3u8',
+        options: { referer: 'https://www.livestream88.com/' },
       },
-      // {
-      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/one31/playlist.m3u8',
-      //   options: { referer: 'https://www.livestream88.com/' },
-      // },
     ],
   },
 
@@ -306,6 +293,10 @@ const streamingInfo = {
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/ch3hd/index.m3u8',
         options: { userAgent: defaultUserAgent },
+      },
+      {
+        url: 'https://www.livedoomovies.com:4431/02_3HD_720p/chunklist.m3u8',
+        options: { referer: 'https://www.doomovie-hd.com/' },
       },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/3hd/digitaltv/3hd/chunks.m3u8',
