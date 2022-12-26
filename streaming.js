@@ -280,10 +280,6 @@ const streamingInfo = {
     // tvgId: 'ThairathTV32.th',
     sources: [
       {
-        url: 'https://thairathtv2.cdn.byteark.com/fleetstream/live1/720p/index.m3u8',
-        suffix: 'HD',
-      },
-      {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chthairath/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
@@ -291,6 +287,10 @@ const streamingInfo = {
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/thairathtv/digitaltv/thairath/chunks.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
+        suffix: 'HD',
+      },
+      {
+        url: 'https://thairathtv2.cdn.byteark.com/fleetstream/live1/720p/index.m3u8',
         suffix: 'HD',
       },
       { url: 'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8', suffix: 'HD' },
@@ -561,18 +561,18 @@ const streamingInfo = {
     tvgId: 'TrueSports2.th',
     groupName: 'Sport',
     sources: [
-      {
-        url: 'https://streaming.livescorethai.net/iptv/hd-tsport2.stream/playlist.m3u8',
-        options: { referer: 'https://freetvdd.com/' },
-      },
+      // {
+      //   url: 'https://streaming.livescorethai.net/iptv/hd-tsport2.stream/playlist.m3u8',
+      //   options: { referer: 'https://freetvdd.com/' },
+      // },
       {
         url: 'https://live.vip-streaming.com:30443/cloudstreaming/true-sport-2/playlist.m3u8',
         options: { referer: 'https://ufabetcompany.com' },
       },
-      {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/truesporthd2/playlist.m3u8',
-        options: { referer: 'https://www.livestream88.com/' },
-      },
+      // {
+      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/truesporthd2/playlist.m3u8',
+      //   options: { referer: 'https://www.livestream88.com/' },
+      // },
     ],
   },
 

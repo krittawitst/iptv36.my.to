@@ -102,7 +102,6 @@ const playlistV2 = {
     ['pptv'],
     ['pptv', 1],
     ['tvb'],
-    ['news1'],
     ['topnews'],
   ],
 };
@@ -130,8 +129,8 @@ const playlistV3 = {
     ['premier5'],
     ['truesportshd1'],
     ['truesportshd2'],
-    ['truesportshd2', 1],
-    ['truesportshd2', 2],
+    // ['truesportshd2', 1],
+    // ['truesportshd2', 2],
   ],
 };
 
