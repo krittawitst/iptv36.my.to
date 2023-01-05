@@ -329,6 +329,11 @@ const streamingInfo = {
         suffix: 'HD',
       },
       {
+        url: 'https://www.livedoomovies.com:4431/02_AMARINHD_720p/chunklist.m3u8',
+        options: { referer: 'https://www.doomovie-hd.com/' },
+        suffix: 'HD',
+      },
+      {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/amarin/digitaltv/amarin/chunks.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
         suffix: 'HD',
