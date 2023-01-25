@@ -19,6 +19,7 @@ const streamingInfo = {
       {
         url: 'https://streaming.livescorethai.net/iptv/sd-nbt.stream/chunks.m3u8',
         options: { referer: 'https://freetvdd.com/' },
+        suffix: 'HD',
       },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/nbt/playlist.m3u8',
@@ -182,7 +183,11 @@ const streamingInfo = {
     // tvgId: 'GMM25.th',
     sources: [
       {
-        url: 'https://stream-04.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_ecZqgBhCPmDTk3xMsWkmTYYL9JTRpnH9K5tthZ42Ai_)/dm/3/x6rz4t7/s/live-4.m3u8',
+        url: 'https://www.dailymotion.com/cdn/live/video/x6rz4t7.m3u8?sec=nNitpFpQT3ZsGjdUQuj6iQ8-5t5WhJGKtcGcOrFTt1-_00UsbmEg_SytNLdqmRbk2-HrG3mpebaYLylyNnRp5g&dmTs=592812&dmV1st=541934AD5E2E5DDC1DAA4B2A1E6A9A37',
+        suffix: 'HD',
+      },
+      {
+        url: 'https://stream-05.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_bWsoldcVqN3bV6WLtSm5lVGzQoEKkKnDd83Vi_ppJoS)/dm/3/x6rz4t7/s/live-4.m3u8',
         suffix: 'HD',
       },
       {
