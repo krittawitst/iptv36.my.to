@@ -83,8 +83,8 @@ const playlistV2 = {
     ['ch8', 1],
     ['mono29'],
     ['mono29', 1],
-    ['mcot'],
     ['mcot', 1],
+    ['mcot'],
 
     // 31-40
     ['one'],

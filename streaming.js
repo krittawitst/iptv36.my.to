@@ -41,8 +41,8 @@ const streamingInfo = {
     sources: [
       { url: 'https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8', suffix: 'FHD' },
       {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/nbt/playlist.m3u8',
-        options: { referer: 'https://www.livestream88.com/' },
+        url: 'https://49-231-37-37-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0014/HLS/B0014.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=6a7a7dafd526af9f36f9c07353dce5ee&chunkHttps=true&tmid=B0010&tpbk=inx8RCWzOEIOM8kt&rrt=1674566367&tmod=rfk&rsid=835cb455-19d3-41fd-a355-5a6b162e39e6&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1674652747',
+        options: { referer: 'https://ais-vidnt.com/' },
         suffix: 'FHD',
       },
       {
@@ -128,6 +128,10 @@ const streamingInfo = {
     // tvgId: 'TNN16.th',
     sources: [
       { url: 'https://iptv36.netlify.app/api/true?channel=tnn16hd', suffix: 'HD' },
+      {
+        url: 'https://49-231-37-37-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/V0053/HLS/V0053.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=6a7a7dafd526af9f36f9c07353dce5ee&chunkHttps=true&tmid=B0010&tpbk=inx8RCWzOEIOM8kt&rrt=1674566367&tmod=rfk&rsid=835cb455-19d3-41fd-a355-5a6b162e39e6&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1674652747',
+        options: { referer: 'https://ais-vidnt.com/' },
+      },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chtnn/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -319,11 +323,11 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/thairath.png',
     // tvgId: 'ThairathTV32.th',
     sources: [
-      // {
-      //   url: 'https://49-231-37-37-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0013/HLS/B0013.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=6a7a7dafd526af9f36f9c07353dce5ee&chunkHttps=true&tmid=B0010&tpbk=inx8RCWzOEIOM8kt&rrt=1674566367&tmod=rfk&rsid=835cb455-19d3-41fd-a355-5a6b162e39e6&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1674652747',
-      //   suffix: 'FHD',
-      //   options: { referer: 'https://ais-vidnt.com/' },
-      // },
+      {
+        url: 'https://49-231-37-37-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0013/HLS/B0013.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=6a7a7dafd526af9f36f9c07353dce5ee&chunkHttps=true&tmid=B0010&tpbk=inx8RCWzOEIOM8kt&rrt=1674566367&tmod=rfk&rsid=835cb455-19d3-41fd-a355-5a6b162e39e6&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1674652747',
+        suffix: 'FHD',
+        options: { referer: 'https://ais-vidnt.com/' },
+      },
       {
         url: 'https://58-64-56-84-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0013/HLS/B0013.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=441ba5573f17a3f26778e5479a448d04&chunkHttps=true&tmid=B0013&tpbk=XJL3ZN6gu894HPA7&rrt=1675057270&tmod=rfk&rsid=281f4d26-718e-448a-bacd-c596314bddb1&tuid=4a133ea5ca&cdn=redfox-https&tdid=227a4a3bd9e9e282b5aeaaad1b60dc00&origin=anevia&tfa=f0-fc&tttl=1675143665',
         suffix: 'FHD',
@@ -423,21 +427,24 @@ const streamingInfo = {
   },
 
   pptv: {
-    channelName: 'PPTV HD',
+    channelName: 'PPTV',
     logo: 'https://iptv36.my.to/logo/pptv.png',
     // tvgId: 'PPTVHD36.th',
     sources: [
       {
         url: 'https://49-231-37-37-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0022/HLS/B0022.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=6a7a7dafd526af9f36f9c07353dce5ee&chunkHttps=true&tmid=B0010&tpbk=inx8RCWzOEIOM8kt&rrt=1674566367&tmod=rfk&rsid=835cb455-19d3-41fd-a355-5a6b162e39e6&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1674652747',
         options: { referer: 'https://ais-vidnt.com/' },
+        suffix: 'FHD',
       },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chpptvhd3/index.m3u8',
         options: { userAgent: defaultUserAgent },
+        suffix: 'HD',
       },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/pptv/digitaltv/pptv/chunks.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
+        suffix: 'HD',
       },
     ],
   },
