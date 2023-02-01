@@ -329,9 +329,9 @@ const streamingInfo = {
         options: { referer: 'https://ais-vidnt.com/' },
       },
       {
-        url: 'https://58-64-56-84-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0013/HLS/B0013.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=441ba5573f17a3f26778e5479a448d04&chunkHttps=true&tmid=B0013&tpbk=XJL3ZN6gu894HPA7&rrt=1675057270&tmod=rfk&rsid=281f4d26-718e-448a-bacd-c596314bddb1&tuid=4a133ea5ca&cdn=redfox-https&tdid=227a4a3bd9e9e282b5aeaaad1b60dc00&origin=anevia&tfa=f0-fc&tttl=1675143665',
-        suffix: 'FHD',
-        options: { referer: 'https://web-player.ais-vidnt.com/' },
+        url: 'https://49-231-37-37-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0012/HLS/B0012.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=6a7a7dafd526af9f36f9c07353dce5ee&chunkHttps=true&tmid=B0010&tpbk=inx8RCWzOEIOM8kt&rrt=1674566367&tmod=rfk&rsid=835cb455-19d3-41fd-a355-5a6b162e39e6&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1674652747',
+        suffix: 'HD',
+        options: { referer: 'https://ais-vidnt.com/' },
       },
       { url: 'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8', suffix: 'HD' },
       {
@@ -412,12 +412,12 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/ch7.png',
     // tvgId: 'BBTVChannel7.th',
     sources: [
-      { url: 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com', suffix: 'FHD' },
       {
         url: 'https://49-231-37-37-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0018/HLS/B0018.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=6a7a7dafd526af9f36f9c07353dce5ee&chunkHttps=true&tmid=B0010&tpbk=inx8RCWzOEIOM8kt&rrt=1674566367&tmod=rfk&rsid=835cb455-19d3-41fd-a355-5a6b162e39e6&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1674652747',
         options: { referer: 'https://ais-vidnt.com/' },
         suffix: 'FHD',
       },
+      { url: 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com', suffix: 'FHD' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/ch7hd/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -468,7 +468,7 @@ const streamingInfo = {
   },
 
   topnews: {
-    channelName: 'Top News FHD',
+    channelName: 'Top News HD',
     logo: 'https://images.topnews.co.th/2021/04/cropped-topnews-logo.png',
     sources: ['https://live.topnews.co.th/hls/topnews_b_720.m3u8'],
   },
