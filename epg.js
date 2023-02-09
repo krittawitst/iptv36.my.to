@@ -199,7 +199,6 @@ const getEpgDataFromTrueVisions = async () => {
   let currentDatetimePlus7Hrs = new Date(currentDatetime.getTime() + 7 * 60 * 60 * 1000);
   let currentDatetimePlus1Days7Hrs = new Date(currentDatetimePlus7Hrs.getTime() + 86400 * 1000);
   let bkkDateStr = currentDatetimePlus7Hrs.toISOString().slice(0, 10);
-  let bkkDatePlus1DaysStr = currentDatetimePlus1Days7Hrs.toISOString().slice(0, 10);
 
   // mapping tvg id
   let categoryToPageToChannelKey = {

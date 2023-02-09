@@ -245,29 +245,19 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/mono29.png',
     // tvgId: 'Mono29.th',
     sources: [
-      { url: 'https://live-3.monomax.me/tv/mono29_1080p.m3u8', suffix: 'FHD' },
+      { url: 'https://live-3.monomax.me/tv/mono29_1440p.m3u8', suffix: 'QHD' },
+      {
+        url: 'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080TH.stream/playlist.m3u8',
+        suffix: 'FHD',
+      },
       {
         url: 'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080EN.stream/playlist.m3u8',
         suffix: 'Soundtrack FHD',
       },
       {
-        url: 'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080TH.stream/playlist.m3u8',
-        suffix: 'FHD',
-      },
-      { url: 'https://live-3.monomax.me/tv/mono29_720p.m3u8', suffix: 'HD' },
-      {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chmono29/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-    ],
-  },
-
-  mono29soundtrack: {
-    channelName: 'MONO29 Soundtrack FHD',
-    logo: 'https://iptv36.my.to/logo/mono29.png',
-    // tvgId: 'Mono29.th',
-    sources: [
-      'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080EN.stream/playlist.m3u8', // 720p
     ],
   },
 
@@ -425,11 +415,11 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/pptv.png',
     // tvgId: 'PPTVHD36.th',
     sources: [
-      {
-        url: 'https://58-64-48-79-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0022/HLS/B0022.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=7c25d4fc35ff46e5b0398215453724dd&chunkHttps=true&tmid=V0053&tpbk=nBXAbeyK9cqCZxCS&rrt=1675813147&tmod=rfk&rsid=de6efba9-82df-40b3-89e1-879b57764007&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1675899530',
-        options: { referer: 'https://ais-vidnt.com/' },
-        suffix: 'FHD',
-      },
+      // {
+      //   url: 'https://58-64-48-79-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0022/HLS/B0022.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=7c25d4fc35ff46e5b0398215453724dd&chunkHttps=true&tmid=V0053&tpbk=nBXAbeyK9cqCZxCS&rrt=1675813147&tmod=rfk&rsid=de6efba9-82df-40b3-89e1-879b57764007&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1675899530',
+      //   options: { referer: 'https://ais-vidnt.com/' },
+      //   suffix: 'FHD',
+      // },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chpptvhd3/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -446,32 +436,54 @@ const streamingInfo = {
   cartoonclub: {
     channelName: 'Cartoon Club',
     logo: 'https://iptv36.my.to/logo/cartoonclub.png',
-    sources: ['https://edge1-bkk.3bb.co.th:9443/cartoonLiveApp/cartoonLiveApp.stream/chunklist_w859044783.m3u8'],
+    sources: [
+      {
+        url: 'https://edge1-bkk.3bb.co.th:9443/cartoonLiveApp/cartoonLiveApp.stream/chunklist_w859044783.m3u8',
+      },
+    ],
   },
 
   tvb: {
     channelName: 'TVB Thai FHD',
     logo: 'https://iptv36.my.to/logo/tvb.png',
-    sources: ['https://edge6a.v2h-cdn.com/tvb_thai/tvb_thai.stream/playlist.m3u8'],
+    sources: [
+      {
+        url: 'https://edge6a.v2h-cdn.com/tvb_thai/tvb_thai.stream/playlist.m3u8',
+      },
+    ],
   },
 
   news1: {
     channelName: 'NEWS1 FHD',
     logo: 'https://iptv36.my.to/logo/news1.png',
-    sources: ['http://news1.live14.com/stream/news1_hi.m3u8', 'http://server1.streamssl.com/stream/news1_hi.m3u8'],
+    sources: [
+      {
+        url: 'http://news1.live14.com/stream/news1_hi.m3u8',
+      },
+      { url: 'http://server1.streamssl.com/stream/news1_hi.m3u8' },
+    ],
   },
 
   topnews: {
-    channelName: 'Top News HD',
+    channelName: 'Top News',
     logo: 'https://images.topnews.co.th/2021/04/cropped-topnews-logo.png',
-    sources: ['https://live.topnews.co.th/hls/topnews_b_720.m3u8'],
+    sources: [
+      {
+        url: 'https://live.topnews.co.th/hls/topnews_b_720.m3u8',
+        suffix: 'HD',
+      },
+    ],
   },
 
   ctb: {
     channelName: 'CTB FHD',
     logo: 'https://sv1.picz.in.th/images/2022/10/11/pHGfHP.png',
     groupName: 'Movie',
-    sources: ['http://vip.login.in.th:1935/CTB/CTB/chunklist.m3u8'],
+    sources: [
+      {
+        url: 'http://vip.login.in.th:1935/CTB/CTB/chunklist.m3u8',
+      },
+    ],
   },
 
   truefilm1: {
@@ -553,16 +565,12 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://sport.livedoomovies.com:4431/02_PremierHD1_720p/chunklist.m3u8',
-        options: { referer: 'https://www.doomovie-hd.com' },
-      },
-      {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/tpf1/playlist.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
       },
       {
         url: 'https://219.livedoomovies.com:4431/02_PremierHD1_720p/chunklist.m3u8',
-        options: { referer: 'https://www.doomovie-hd.com' },
+        options: { referer: 'https://www.doomovie-hd.com/' },
       },
     ],
   },
@@ -574,8 +582,8 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://sport.livedoomovies.com:4431/02_PremierHD2_720p/chunklist.m3u8',
-        options: { referer: 'https://www.doomovie-hd.com' },
+        url: 'https://sport.livedoomovies.com:4432/02_PremierHD2_720p/chunklist.m3u8',
+        options: { referer: 'https://www.doomovie-hd.com/' },
       },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/tpf2/playlist.m3u8',
@@ -591,8 +599,8 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://sport.livedoomovies.com:4431/02_PremierHD3_720p/chunklist.m3u8',
-        options: { referer: 'https://www.doomovie-hd.com' },
+        url: 'https://sport.livedoomovies.com:4432/02_PremierHD3_720p/chunklist.m3u8',
+        options: { referer: 'https://www.doomovie-hd.com/' },
       },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/tpf3/playlist.m3u8',
@@ -608,8 +616,8 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://sport.livedoomovies.com:4431/02_PremierHD4_720p/chunklist.m3u8',
-        options: { referer: 'https://www.doomovie-hd.com' },
+        url: 'https://sport.livedoomovies.com:4432/02_PremierHD4_720p/chunklist.m3u8',
+        options: { referer: 'https://www.doomovie-hd.com/' },
       },
     ],
   },
@@ -621,8 +629,8 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://sport.livedoomovies.com:4431/02_PremierHD5_720p/chunklist.m3u8',
-        options: { referer: 'https://www.doomovie-hd.com' },
+        url: 'https://sport.livedoomovies.com:4432/02_PremierHD5_720p/chunklist.m3u8',
+        options: { referer: 'https://www.doomovie-hd.com/' },
       },
     ],
   },
@@ -683,11 +691,11 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
 
   // config
   let config = [
-    // [channelKey, channelNameSuffix, metaUrl]
+    // [channelKey, channelNameSuffix, priority, metaUrl]
     ['mcot', 'HD', 'https://www.dailymotion.com/player/metadata/video/x74wlgj'],
     ['workpoint', 'FHD', 'https://www.dailymotion.com/player/metadata/video/x6g9qjj'],
     ['nation', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
-    ['topnews', '', 'https://www.dailymotion.com/player/metadata/video/x8g9ikn'],
+    ['topnews', 'FHD', 'https://www.dailymotion.com/player/metadata/video/x8g9ikn'],
   ];
 
   await Promise.all(
@@ -736,18 +744,18 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
   );
 };
 
-const testUrl = async (url) => {
+const testUrl = async (url, options = {}) => {
   // list of url that we will always not check
   if (
-    url.includes('rtsp://') ||
-    url.includes('livedoomovie') ||
-    url.includes('livescorethai.net') ||
-    url.includes('vip-streaming.com') ||
-    url.includes('live-cdn-hwc.ch7.com') || // ch7
-    url.includes('/api/true') || // tnn
-    url.includes('huaweicdncloud.com') || // temporary
-    url.includes('ais-vidnt.com') ||
-    url.includes('googleuservideo.com')
+    url.includes('rtsp://') // ||
+    // url.includes('livedoomovie') ||
+    // url.includes('livescorethai.net') ||
+    // url.includes('vip-streaming.com') ||
+    // url.includes('live-cdn-hwc.ch7.com') || // ch7
+    // url.includes('/api/true') || // tnn
+    // url.includes('huaweicdncloud.com') || // temporary
+    // url.includes('ais-vidnt.com') ||
+    // url.includes('googleuservideo.com')
   ) {
     return true;
   }
@@ -757,8 +765,16 @@ const testUrl = async (url) => {
   let errorMessageArray = [];
 
   while (attempt < maximumRetry) {
+    let response;
     try {
-      const response = await axios.get(url, { timeout: 5000 });
+      const headers = {};
+      if (options.referer) headers.Referer = options.referer;
+      if (options.userAgent) headers['User-Agent'] = options.userAgent;
+      response = await axios.get(url, {
+        timeout: 5000,
+        headers,
+      });
+
       return true;
     } catch (error) {
       let errorMsg = error.code || error.response.status;
@@ -767,14 +783,6 @@ const testUrl = async (url) => {
         process.env.NETLIFY &&
         (url.includes('3bb.co.th') || url.includes('prsmedia') || url.includes('login.in.th'))
       ) {
-        return true;
-      }
-
-      // if (errorMsg === 'UNABLE_TO_VERIFY_LEAF_SIGNATURE' && url.includes('inwstream.com')) {
-      //   return true;
-      // }
-
-      if (process.env.NETLIFY && errorMsg === 451 && url.includes('byteark.com')) {
         return true;
       }
 
@@ -791,23 +799,11 @@ const generateValidUrl = async (streamingData) => {
   // find invalidUrlList
   let invalidUrlList = [];
   await Promise.all(
-    streamingData.sources.map(async (url) => {
-      let urlForTest = url;
-      if (Array.isArray(url)) {
-        urlForTest = url[1];
-        console.log(urlForTest);
-      } else if (typeof url === 'object') {
-        urlForTest = url.url;
-      }
-
-      if (urlForTest === undefined) {
-        console.log(url);
-      }
-
-      let result = await testUrl(urlForTest);
+    streamingData.sources.map(async (source) => {
+      let result = await testUrl(source.url, source.options);
       if (result !== true) {
-        console.log(`  X ${streamingData.channelName} - ${result}\n    ${urlForTest}`);
-        invalidUrlList.push(urlForTest);
+        console.log(`  X ${streamingData.channelName} - ${result}\n    ${source.url}`);
+        invalidUrlList.push(source.url);
       }
     })
   );

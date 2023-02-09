@@ -33,7 +33,7 @@ const playlistV1 = {
     ['gmm25'],
     ['gmm25', 1],
     ['ch8'],
-    ['mono29', 1],
+    ['mono29', 2],
     ['mono29'],
     ['mcot'],
 
@@ -82,7 +82,8 @@ const playlistV2 = {
     ['ch8'],
     ['ch8', 1],
     ['mono29'],
-    ['mono29', 1],
+    ['mono29', 2],
+
     ['mcot', 1],
     ['mcot'],
 
@@ -134,6 +135,12 @@ const playlistV3 = {
   ],
 };
 
+const playlistV4 = {
+  filename: 'playlist-v4.m3u',
+  channelList: [['pptv']],
+};
+
 const allPlaylist = [playlistV1, playlistV2, playlistV3];
+// const allPlaylist = [playlistV4];
 
 module.exports = allPlaylist;
