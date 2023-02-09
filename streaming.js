@@ -746,16 +746,14 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
 
 const testUrl = async (url, options = {}) => {
   // list of url that we will always not check
+  if (url.includes('rtsp://')) {
+    return true;
+  }
+
+  // geo restrict (cannot check)
   if (
-    url.includes('rtsp://') // ||
-    // url.includes('livedoomovie') ||
-    // url.includes('livescorethai.net') ||
-    // url.includes('vip-streaming.com') ||
-    // url.includes('live-cdn-hwc.ch7.com') || // ch7
-    // url.includes('/api/true') || // tnn
-    // url.includes('huaweicdncloud.com') || // temporary
-    // url.includes('ais-vidnt.com') ||
-    // url.includes('googleuservideo.com')
+    process.env.NETLIFY &&
+    (url.includes('huaweicdncloud.com') || url.includes('ch7.com') || url.includes('livescorethai.net'))
   ) {
     return true;
   }
