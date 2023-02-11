@@ -3,7 +3,6 @@ const streaming = require('./streaming.js');
 const getEpgData = require('./epg.js');
 const allPlaylist = require('./playlist.js');
 
-const channelLogoVersion = 1;
 const currentEpochDatetime = new Date().getTime();
 const currentDatetimePlus7Hrs = new Date(currentEpochDatetime + 7 * 60 * 60 * 1000);
 const currentBkkDatetimeStr = currentDatetimePlus7Hrs.toISOString().slice(0, 16);
@@ -55,7 +54,7 @@ const main = async () => {
       let tvgId = streamingInfo.tvgId ? streamingInfo.tvgId : `${channelKey}.iptv36.my.to`;
       let channelStr = `#EXTINF:-1 tvg-chno="${i + 1}" tvg-id="${tvgId}" group-title="${
         streamingInfo.groupName
-      }" tvg-logo="${streamingInfo.logo}?v=${channelLogoVersion}",${channelName}`;
+      }" tvg-logo="${streamingInfo.logo}",${channelName}`;
 
       // added option #EXTVLCOPT
       if (streamingInfo.options) {

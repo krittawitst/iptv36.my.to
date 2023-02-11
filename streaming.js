@@ -28,7 +28,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/thaipbs.png',
     // tvgId: 'ThaiPBS3.th',
     sources: [
-      { url: 'https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8', suffix: 'FHD' },
+      { url: 'https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8', suffix: 'FHD', priority: 35 },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chthaipbs3/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -275,6 +275,7 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chthairath/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
+        priority: 25,
       },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/thairathtv/digitaltv/thairath/chunks.m3u8',
@@ -335,7 +336,11 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/ch7.png',
     // tvgId: 'BBTVChannel7.th',
     sources: [
-      { url: 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com', suffix: 'FHD' },
+      {
+        url: 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com',
+        suffix: 'FHD',
+        priority: 25,
+      },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/ch7hd/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -443,7 +448,7 @@ const streamingInfo = {
 
   bein1: {
     channelName: 'beIN Sports HD1',
-    logo: 'https://iptv36.my.to/logo/bein1.png',
+    logo: 'https://i.imgur.com/Vtk2cGI.png',
     tvgId: 'beINSports1Thailand.th',
     groupName: 'Sport',
     sources: [
@@ -460,7 +465,7 @@ const streamingInfo = {
 
   bein2: {
     channelName: 'beIN Sports HD2',
-    logo: 'https://iptv36.my.to/logo/bein2.png',
+    logo: 'https://i.imgur.com/vUJZSvs.png',
     tvgId: 'beINSports2Thailand.th',
     groupName: 'Sport',
     sources: [],
@@ -607,30 +612,40 @@ const streamingInfo = {
   },
 };
 
+const generateAutoPriorityByFullChannelName = (channelName) => {
+  if (channelName.endsWith('FHD')) {
+    return 30;
+  } else if (channelName.endsWith('HD')) {
+    return 20;
+  } else {
+    return 10;
+  }
+};
+
 const dynamicallyAddStreamingUrlFromAisPlay = async () => {
   console.log('Getting dynamic streaming url from AIS PLAY...');
 
   // config
   let config = [
     // [channelKey, channelNameSuffix, priority, code ]
-    ['nbt', 'A', 30, 'B0001'],
-    ['thaipbs', 'A', 30, 'B0014'],
-    ['tv5', 'A', 30, 'B0007'],
-    ['tsports', 'A', 30, 'B0129'],
-    ['tnn16', 'A', 30, 'V0053'],
-    ['jkn18', 'A', 30, 'B0010'],
-    ['nation', 'A', 30, 'B0021'],
-    ['gmm25', 'A', 30, 'B0019'],
-    ['mcot', 'A', 30, 'B0008'],
-    ['one', 'A', 30, 'B0012'],
-    ['thairath', 'A', 30, 'B0013'],
-    ['ch3', 'A', 30, 'B0003'],
-    ['amarin', 'A', 30, 'B0017'],
-    ['ch7', 'A', 30, 'B0018'],
-    ['pptv', 'A', 30, 'B0022'],
-    ['bein1', 'A', 30, 'S0001'],
-    ['bein2', 'A', 30, 'S0002'],
-    ['bein3', 'A', 30, 'S0003'],
+    ['nbt', 'FHD', undefined, 'B0001'],
+    ['thaipbs', 'FHD', undefined, 'B0014'],
+    ['tv5', 'FHD', undefined, 'B0007'],
+    ['tsports', '', undefined, 'B0129'],
+    ['tnn16', '', undefined, 'V0053'],
+    ['jkn18', '', undefined, 'B0010'],
+    ['nation', '', undefined, 'B0021'],
+    ['gmm25', '', undefined, 'B0019'],
+    ['mcot', 'FHD', undefined, 'B0008'],
+    ['one', 'FHD', undefined, 'B0012'],
+    ['thairath', 'FHD', undefined, 'B0013'],
+    ['ch3', 'FHD', undefined, 'B0003'],
+    ['amarin', 'FHD', undefined, 'B0017'],
+    ['ch7', 'FHD', undefined, 'B0018'],
+    ['pptv', 'FHD', undefined, 'B0022'],
+    ['bein1', 'FHD', undefined, 'S0001'],
+    ['bein2', 'FHD', undefined, 'S0002'],
+    ['bein3', 'FHD', undefined, 'S0003'],
   ];
 
   let kokowatvData;
@@ -664,16 +679,24 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
   console.log('Getting dynamic streaming url from dailymotion...');
 
   // config
-  let config = [
-    // [channelKey, channelNameSuffix, priority, metaUrl]
-    ['mcot', 'HD', 'https://www.dailymotion.com/player/metadata/video/x74wlgj'],
-    ['workpoint', 'FHD', 'https://www.dailymotion.com/player/metadata/video/x6g9qjj'],
-    ['nation', 'HD', 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
-    ['topnews', 'FHD', 'https://www.dailymotion.com/player/metadata/video/x8g9ikn'],
+  const config = [
+    // [channelKey, priority, metaUrl]
+    ['mcot', undefined, 'https://www.dailymotion.com/player/metadata/video/x74wlgj'],
+    ['workpoint', undefined, 'https://www.dailymotion.com/player/metadata/video/x6g9qjj'],
+    ['nation', undefined, 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
+    ['topnews', undefined, 'https://www.dailymotion.com/player/metadata/video/x8g9ikn'],
   ];
 
+  const suffixMapping = {
+    4: 'FHD',
+    3: 'HD',
+    2: '',
+    1: '',
+    0: '',
+  };
+
   await Promise.all(
-    config.map(async ([channelKey, channelNameSuffix, metaUrl]) => {
+    config.map(async ([channelKey, priority, metaUrl]) => {
       let videoMetaData = {};
       try {
         const response = await axios.get(metaUrl);
@@ -704,7 +727,7 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
                 return;
               }
               let url = regExpMatchArray[0].replace('.nyc.', '.sg1.');
-              streamingInfo[channelKey].sources.unshift({ url, suffix: channelNameSuffix });
+              streamingInfo[channelKey].sources.unshift({ url, suffix: suffixMapping[i] });
               console.log(`  / added ${channelKey}`);
               break;
             }
@@ -769,80 +792,66 @@ const testUrl = async (url, options = {}) => {
   return Array.from(new Set(errorMessageArray)).join(' / ');
 };
 
-const generateValidUrl = async (streamingData) => {
-  // find invalidUrlList
-  let invalidUrlList = [];
+const generateValidSources = async (streamingData) => {
+  streamingData.validSources = [];
+
   await Promise.all(
     streamingData.sources.map(async (source) => {
       let result = await testUrl(source.url, source.options);
       if (result !== true) {
+        // broken stream
         console.log(`  X ${streamingData.channelName} - ${result}\n    ${source.url}`);
-        invalidUrlList.push(source.url);
+      } else {
+        if (source.priority == undefined) {
+          // generate auto priority
+          const channelNameComponent = [streamingData.channelName];
+          if (source.suffix) {
+            channelNameComponent.push(source.suffix);
+          }
+          const fullChannelName = channelNameComponent.join(' ');
+          source.priority = generateAutoPriorityByFullChannelName(fullChannelName);
+        }
+        streamingData.validSources.push(source);
       }
     })
   );
 
-  // create validUrlList
-  streamingData.validUrlList = [];
-  for (let i = 0; i < streamingData.sources.length; i++) {
-    let url = streamingData.sources[i];
-    let urlForTest = url;
-    if (Array.isArray(url)) {
-      urlForTest = url[1];
-    } else if (typeof url === 'object') {
-      urlForTest = url.url;
-    }
-
-    if (invalidUrlList.includes(urlForTest)) {
-      continue;
-    }
-    streamingData.validUrlList.push(url);
-  }
+  // sort by priority
+  streamingData.validSources.sort((sourceA, sourceB) => sourceB.priority - sourceA.priority);
 };
 
 const getStreamingInfo = async (channelKey, skip = 0) => {
   let streamingData = streamingInfo[channelKey] || {};
 
-  // check validUrlList available or not
-  if (streamingData.validUrlList === undefined) {
-    await generateValidUrl(streamingData);
+  // check validSources available or not
+  if (streamingData.validSources === undefined) {
+    await generateValidSources(streamingData);
+    // console.log(streamingData.validSources);
   }
 
   let channelNameComponent = [streamingData.channelName];
-  let logo = streamingData.logo;
-  let groupName = streamingData.groupName || 'Thai Free TV';
-  let tvgId = streamingData.tvgId || '';
-  let sources = streamingData.validUrlList || [];
+  let sources = streamingData.validSources || [];
 
-  let url = '';
-  let options = '';
+  let source;
   if (sources.length > 0) {
-    url = skip < sources.length ? sources[skip] : sources[0];
+    source = skip < sources.length ? sources[skip] : sources[0];
   } else {
     channelNameComponent.unshift('[เสีย]');
-    url = skip < streamingData.sources.length ? streamingData.sources[skip] : streamingData.sources[0];
+    source = skip < streamingData.sources.length ? streamingData.sources[skip] : streamingData.sources[0];
   }
 
-  if (Array.isArray(url)) {
-    channelNameComponent.push(url[0]);
-    url = url[1];
-  } else if (typeof url === 'object') {
-    if (url.options) {
-      options = url.options;
-    }
-    if (url.suffix) {
-      channelNameComponent.push(url.suffix);
-    }
-    url = url.url;
+  if (source.suffix) {
+    channelNameComponent.push(source.suffix);
   }
 
-  // if (channelKey !== 'ipcam' && skip > 0) {
-  //   channelNameComponent.push(`Backup${skip > 1 ? skip : ''}`);
-  //   groupName = 'Backup';
-  // }
-  let channelName = channelNameComponent.join(' ');
-
-  return { channelName, logo, groupName, tvgId, url, options };
+  return {
+    channelName: channelNameComponent.join(' '),
+    logo: streamingData.logo,
+    groupName: streamingData.groupName || 'Thai Free TV',
+    tvgId: streamingData.tvgId || '',
+    url: source.url,
+    options: source.options,
+  };
 };
 
 module.exports = {
