@@ -762,10 +762,13 @@ const testUrl = async (url, options = {}) => {
     return true;
   }
 
-  // geo restrict (cannot check)
+  // list of url that always not check on Netlify
   if (
     process.env.NETLIFY &&
-    (url.includes('huaweicdncloud.com') || url.includes('ch7.com') || url.includes('livescorethai.net'))
+    (url.includes('huaweicdncloud.com') || // Geo Restrict
+      url.includes('ch7.com') || // Geo Restrict
+      url.includes('livescorethai.net') || // Geo Restrict
+      url.includes('rewriter.ais-vidnt.com')) // X-Base-Request-Check-Status: INCORRECT
   ) {
     return true;
   }
