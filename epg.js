@@ -319,7 +319,7 @@ const getEpgDataFromTrueVisions = async () => {
 
 const getEpgData = async () => {
   // EPG
-  let epgDataFromNbtcPromise = getEpgDataFromNbtc();
+  let epgDataFromNbtcPromise = []; // getEpgDataFromNbtc();
   let epgDataFromAisPlayPromise = getEpgDataFromAisPlay();
   let epgDataFromTrueVisionsPromise = []; // getEpgDataFromTrueVisions();
 
