@@ -16,11 +16,6 @@ const streamingInfo = {
         suffix: 'HD',
       },
       {
-        url: 'https://streaming.livescorethai.net/iptv/sd-nbt.stream/chunks.m3u8',
-        options: { referer: 'https://freetvdd.com/' },
-        suffix: 'HD',
-      },
-      {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/nbt/playlist.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
         suffix: 'HD',
@@ -145,10 +140,6 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
       },
       {
-        url: 'https://58-64-48-79-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0021/HLS/B0021.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=7c25d4fc35ff46e5b0398215453724dd&chunkHttps=true&tmid=V0053&tpbk=nBXAbeyK9cqCZxCS&rrt=1675813147&tmod=rfk&rsid=de6efba9-82df-40b3-89e1-879b57764007&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1675899530',
-        options: { referer: 'https://ais-vidnt.com/' },
-      },
-      {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/nation/playlist.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
       },
@@ -190,10 +181,6 @@ const streamingInfo = {
     // tvgId: 'GMM25.th',
     sources: [
       {
-        url: 'https://58-64-48-79-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0019/HLS/B0019.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=7c25d4fc35ff46e5b0398215453724dd&chunkHttps=true&tmid=V0053&tpbk=nBXAbeyK9cqCZxCS&rrt=1675813147&tmod=rfk&rsid=de6efba9-82df-40b3-89e1-879b57764007&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1675899530',
-        options: { referer: 'https://ais-vidnt.com/' },
-      },
-      {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chgmm3/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
@@ -222,7 +209,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/mono29.png',
     // tvgId: 'Mono29.th',
     sources: [
-      { url: 'https://live-3.monomax.me/tv/mono29_1440p.m3u8', suffix: 'QHD' },
+      { url: 'https://live-3.monomax.me/tv/mono29_1440p.m3u8', suffix: 'FHD' },
       {
         url: 'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080TH.stream/playlist.m3u8',
         suffix: 'FHD',
@@ -244,11 +231,6 @@ const streamingInfo = {
     // tvgId: 'MCOTHD.th',
     sources: [
       {
-        url: 'https://58-64-48-79-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0008/HLS/B0008.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=7c25d4fc35ff46e5b0398215453724dd&chunkHttps=true&tmid=V0053&tpbk=nBXAbeyK9cqCZxCS&rrt=1675813147&tmod=rfk&rsid=de6efba9-82df-40b3-89e1-879b57764007&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1675899530',
-        options: { referer: 'https://ais-vidnt.com/' },
-        suffix: 'FHD',
-      },
-      {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chmcothd/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
@@ -267,11 +249,6 @@ const streamingInfo = {
     // tvgId: 'One31.th',
     sources: [
       {
-        url: 'https://58-64-48-79-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0012/HLS/B0012.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=7c25d4fc35ff46e5b0398215453724dd&chunkHttps=true&tmid=V0053&tpbk=nBXAbeyK9cqCZxCS&rrt=1675813147&tmod=rfk&rsid=de6efba9-82df-40b3-89e1-879b57764007&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1675899530',
-        options: { referer: 'https://ais-vidnt.com/' },
-        suffix: 'FHD',
-      },
-      {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chonehd/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
@@ -289,11 +266,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/thairath.png',
     // tvgId: 'ThairathTV32.th',
     sources: [
-      {
-        url: 'https://58-64-48-79-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0013/HLS/B0013.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=7c25d4fc35ff46e5b0398215453724dd&chunkHttps=true&tmid=V0053&tpbk=nBXAbeyK9cqCZxCS&rrt=1675813147&tmod=rfk&rsid=de6efba9-82df-40b3-89e1-879b57764007&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1675899530',
-        suffix: 'FHD',
-        options: { referer: 'https://ais-vidnt.com/' },
-      },
       {
         url: 'https://thairathtv2.cdn.byteark.com/fleetstream/live1/720p/index.m3u8',
         suffix: 'HD',
@@ -318,11 +290,6 @@ const streamingInfo = {
     // tvgId: 'Channel3.th',
     sources: [
       {
-        url: 'https://58-64-48-79-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0003/HLS/B0003.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=7c25d4fc35ff46e5b0398215453724dd&chunkHttps=true&tmid=V0053&tpbk=nBXAbeyK9cqCZxCS&rrt=1675813147&tmod=rfk&rsid=de6efba9-82df-40b3-89e1-879b57764007&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1675899530',
-        options: { referer: 'https://ais-vidnt.com/' },
-        suffix: 'FHD',
-      },
-      {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/ch3hd/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
@@ -346,11 +313,6 @@ const streamingInfo = {
     // tvgId: 'Amarin34HD.th',
     sources: [
       {
-        url: 'https://58-64-48-79-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0017/HLS/B0017.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=7c25d4fc35ff46e5b0398215453724dd&chunkHttps=true&tmid=V0053&tpbk=nBXAbeyK9cqCZxCS&rrt=1675813147&tmod=rfk&rsid=de6efba9-82df-40b3-89e1-879b57764007&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1675899530',
-        options: { referer: 'https://ais-vidnt.com/' },
-        suffix: 'FHD',
-      },
-      {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chamarin/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
@@ -373,11 +335,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/ch7.png',
     // tvgId: 'BBTVChannel7.th',
     sources: [
-      {
-        url: 'https://58-64-48-79-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0018/HLS/B0018.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=7c25d4fc35ff46e5b0398215453724dd&chunkHttps=true&tmid=V0053&tpbk=nBXAbeyK9cqCZxCS&rrt=1675813147&tmod=rfk&rsid=de6efba9-82df-40b3-89e1-879b57764007&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1675899530',
-        options: { referer: 'https://ais-vidnt.com/' },
-        suffix: 'FHD',
-      },
       { url: 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com', suffix: 'FHD' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/ch7hd/index.m3u8',
@@ -392,11 +349,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/pptv.png',
     // tvgId: 'PPTVHD36.th',
     sources: [
-      // {
-      //   url: 'https://58-64-48-79-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0022/HLS/B0022.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=7c25d4fc35ff46e5b0398215453724dd&chunkHttps=true&tmid=V0053&tpbk=nBXAbeyK9cqCZxCS&rrt=1675813147&tmod=rfk&rsid=de6efba9-82df-40b3-89e1-879b57764007&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1675899530',
-      //   options: { referer: 'https://ais-vidnt.com/' },
-      //   suffix: 'FHD',
-      // },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chpptvhd3/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -496,10 +448,6 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://58-64-48-79-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/S0001/HLS/S0001.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=7c25d4fc35ff46e5b0398215453724dd&chunkHttps=true&tmid=V0053&tpbk=nBXAbeyK9cqCZxCS&rrt=1675813147&tmod=rfk&rsid=de6efba9-82df-40b3-89e1-879b57764007&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1675899530',
-        options: { referer: 'https://ais-vidnt.com/' },
-      },
-      {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/bein1/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
       },
@@ -515,15 +463,15 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/bein2.png',
     tvgId: 'beINSports2Thailand.th',
     groupName: 'Sport',
+    sources: [],
+  },
+
+  bein3: {
+    channelName: 'beIN Sports HD3',
+    logo: 'https://i.imgur.com/UYSMao3.png',
+    tvgId: 'beINSports3Thailand.th',
+    groupName: 'Sport',
     sources: [
-      {
-        url: 'https://58-64-48-79-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/S0002/HLS/S0002.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=7c25d4fc35ff46e5b0398215453724dd&chunkHttps=true&tmid=V0053&tpbk=nBXAbeyK9cqCZxCS&rrt=1675813147&tmod=rfk&rsid=de6efba9-82df-40b3-89e1-879b57764007&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1675899530',
-        options: { referer: 'https://ais-vidnt.com/' },
-      },
-      {
-        url: 'https://58-64-48-79-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/S0003/HLS/S0003.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=7c25d4fc35ff46e5b0398215453724dd&chunkHttps=true&tmid=V0053&tpbk=nBXAbeyK9cqCZxCS&rrt=1675813147&tmod=rfk&rsid=de6efba9-82df-40b3-89e1-879b57764007&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1675899530',
-        options: { referer: 'https://ais-vidnt.com/' },
-      },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/bein2/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
@@ -635,10 +583,6 @@ const streamingInfo = {
         url: 'https://live.vip-streaming.com:30443/cloudstreaming/true-sport-2/playlist.m3u8',
         options: { referer: 'https://ufabetcompany.com' },
       },
-      // {
-      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/truesporthd2/playlist.m3u8',o
-      //   options: { referer: 'https://www.livestream88.com/' },
-      // },
     ],
   },
 
@@ -666,14 +610,28 @@ const streamingInfo = {
 const dynamicallyAddStreamingUrlFromAisPlay = async () => {
   console.log('Getting dynamic streaming url from AIS PLAY...');
 
-  // {
-  //   url: 'https://58-64-48-79-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0001/HLS/B0001.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=7c25d4fc35ff46e5b0398215453724dd&chunkHttps=true&tmid=V0053&tpbk=nBXAbeyK9cqCZxCS&rrt=1675813147&tmod=rfk&rsid=de6efba9-82df-40b3-89e1-879b57764007&tuid=dcac687791&cdn=redfox-https&tdid=197786cacd9c215af858b6b81a1f987d&origin=anevia&tfa=f0-fc&tttl=1675899530',
-  //   options: { referer: 'https://ais-vidnt.com/' },
-  //   suffix: 'FHD',
-  // }
-
   // config
-  let config = { nbt: 'B0001', thaipbs: 'B0014', tv5: 'B0007', tsports: 'B0129', tnn16: 'V0053', jkn18: 'B0010' };
+  let config = [
+    // [channelKey, channelNameSuffix, priority, code ]
+    ['nbt', 'A', 30, 'B0001'],
+    ['thaipbs', 'A', 30, 'B0014'],
+    ['tv5', 'A', 30, 'B0007'],
+    ['tsports', 'A', 30, 'B0129'],
+    ['tnn16', 'A', 30, 'V0053'],
+    ['jkn18', 'A', 30, 'B0010'],
+    ['nation', 'A', 30, 'B0021'],
+    ['gmm25', 'A', 30, 'B0019'],
+    ['mcot', 'A', 30, 'B0008'],
+    ['one', 'A', 30, 'B0012'],
+    ['thairath', 'A', 30, 'B0013'],
+    ['ch3', 'A', 30, 'B0003'],
+    ['amarin', 'A', 30, 'B0017'],
+    ['ch7', 'A', 30, 'B0018'],
+    ['pptv', 'A', 30, 'B0022'],
+    ['bein1', 'A', 30, 'S0001'],
+    ['bein2', 'A', 30, 'S0002'],
+    ['bein3', 'A', 30, 'S0003'],
+  ];
 
   let kokowatvData;
   try {
@@ -687,9 +645,13 @@ const dynamicallyAddStreamingUrlFromAisPlay = async () => {
       throw new Error('regExpExecArray is null');
     }
 
-    for (const [channelKey, code] of Object.entries(config)) {
+    for (const [channelKey, channelNameSuffix, priority, code] of config) {
       const url = `https://${regExpExecArray.groups.ip}-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/${code}/HLS/${code}.m3u8?${regExpExecArray.groups.params}`;
-      streamingInfo[channelKey].sources.unshift({ url, suffix: 'FHD', options: { referer: 'https://ais-vidnt.com/' } });
+      streamingInfo[channelKey].sources.unshift({
+        url,
+        suffix: channelNameSuffix,
+        options: { referer: 'https://ais-vidnt.com/' },
+      });
       console.log(`  / added ${channelKey}`);
     }
   } catch (error) {
@@ -767,7 +729,6 @@ const testUrl = async (url, options = {}) => {
     process.env.NETLIFY &&
     (url.includes('huaweicdncloud.com') || // Geo Restrict
       url.includes('ch7.com') || // Geo Restrict
-      url.includes('livescorethai.net') || // Geo Restrict
       url.includes('rewriter.ais-vidnt.com')) // X-Base-Request-Check-Status: INCORRECT
   ) {
     return true;
