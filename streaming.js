@@ -211,14 +211,28 @@ const streamingInfo = {
         suffix: 'FHD',
       },
       {
-        url: 'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080EN.stream/playlist.m3u8',
-        suffix: 'Soundtrack FHD',
-      },
-      {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chmono29/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
+  },
+
+  mono29soundtrack: {
+    channelName: 'MONO29 Soundtrack',
+    logo: 'https://iptv36.my.to/logo/mono29.png',
+    tvgId: 'mono29.iptv36.my.to`',
+    sources: [
+      {
+        url: 'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080EN.stream/playlist.m3u8',
+        suffix: 'FHD',
+      },
+    ],
+  },
+
+  mono29plus: {
+    channelName: 'MONO29 PLUS',
+    logo: 'https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/Mono29Plus_new.png',
+    sources: [],
   },
 
   mcot: {
@@ -405,6 +419,13 @@ const streamingInfo = {
     ],
   },
 
+  hitsmovies: {
+    channelName: 'HITS Movies',
+    logo: 'https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/HitsMovie.png',
+    groupName: 'Movie',
+    sources: [],
+  },
+
   truefilm1: {
     channelName: 'True Film 1',
     logo: 'https://cms.dmpcdn.com/livetv/2022/01/12/26308f80-7374-11ec-91d2-797a50c5a656_webp_320.png',
@@ -432,7 +453,7 @@ const streamingInfo = {
   },
 
   bein1: {
-    channelName: 'beIN Sports HD1',
+    channelName: 'beIN Sports 1',
     logo: 'https://i.imgur.com/Vtk2cGI.png',
     // tvgId: 'beINSports1Thailand.th',
     groupName: 'Sport',
@@ -440,16 +461,18 @@ const streamingInfo = {
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/bein1/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
+        suffix: 'HD',
       },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/bein1/playlist.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
+        suffix: 'HD',
       },
     ],
   },
 
   bein2: {
-    channelName: 'beIN Sports HD2',
+    channelName: 'beIN Sports 2',
     logo: 'https://i.imgur.com/vUJZSvs.png',
     // tvgId: 'beINSports2Thailand.th',
     groupName: 'Sport',
@@ -457,7 +480,7 @@ const streamingInfo = {
   },
 
   bein3: {
-    channelName: 'beIN Sports HD3',
+    channelName: 'beIN Sports 3',
     logo: 'https://i.imgur.com/UYSMao3.png',
     // tvgId: 'beINSports3Thailand.th',
     groupName: 'Sport',
@@ -465,10 +488,12 @@ const streamingInfo = {
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/bein2/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
+        suffix: 'HD',
       },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/bein2/playlist.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
+        suffix: 'HD',
       },
     ],
   },
@@ -628,6 +653,9 @@ const dynamicallyAddStreamingUrlFromAisPlay = async () => {
     ['amarin', 'FHD', undefined, 'B0017'],
     ['ch7', 'FHD', undefined, 'B0018'],
     ['pptv', 'FHD', undefined, 'B0022'],
+    ['hitsmovies', 'FHD', undefined, 'V0138'],
+    ['mono29plus', 'FHD', undefined, 'V0192'],
+    ['topnews', 'FHD', undefined, 'V0033'],
     ['bein1', 'FHD', undefined, 'S0001'],
     ['bein2', 'FHD', undefined, 'S0002'],
     ['bein3', 'FHD', undefined, 'S0003'],
