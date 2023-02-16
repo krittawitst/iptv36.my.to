@@ -75,10 +75,6 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chtsport/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      {
-        url: 'https://www.livedoomovies.com:4431/02_T_Sports_480p/chunklist.m3u8',
-        options: { referer: 'https://www.doomovie-hd.com/' },
-      },
     ],
   },
 
@@ -300,11 +296,6 @@ const streamingInfo = {
         options: { referer: 'https://www.livestream88.com/' },
         suffix: 'HD',
       },
-      {
-        url: 'https://www.livedoomovies.com:4431/02_3HD_720p/chunklist.m3u8',
-        options: { referer: 'https://www.doomovie-hd.com/' },
-        suffix: 'HD',
-      },
     ],
   },
 
@@ -316,11 +307,6 @@ const streamingInfo = {
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chamarin/index.m3u8',
         options: { userAgent: defaultUserAgent },
-        suffix: 'HD',
-      },
-      {
-        url: 'https://www.livedoomovies.com:4431/02_AMARINHD_720p/chunklist.m3u8',
-        options: { referer: 'https://www.doomovie-hd.com/' },
         suffix: 'HD',
       },
       {
@@ -362,7 +348,6 @@ const streamingInfo = {
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/pptv/digitaltv/pptv/chunks.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
-        suffix: 'HD',
       },
     ],
   },
@@ -449,7 +434,7 @@ const streamingInfo = {
   bein1: {
     channelName: 'beIN Sports HD1',
     logo: 'https://i.imgur.com/Vtk2cGI.png',
-    tvgId: 'beINSports1Thailand.th',
+    // tvgId: 'beINSports1Thailand.th',
     groupName: 'Sport',
     sources: [
       {
@@ -466,7 +451,7 @@ const streamingInfo = {
   bein2: {
     channelName: 'beIN Sports HD2',
     logo: 'https://i.imgur.com/vUJZSvs.png',
-    tvgId: 'beINSports2Thailand.th',
+    // tvgId: 'beINSports2Thailand.th',
     groupName: 'Sport',
     sources: [],
   },
@@ -474,7 +459,7 @@ const streamingInfo = {
   bein3: {
     channelName: 'beIN Sports HD3',
     logo: 'https://i.imgur.com/UYSMao3.png',
-    tvgId: 'beINSports3Thailand.th',
+    // tvgId: 'beINSports3Thailand.th',
     groupName: 'Sport',
     sources: [
       {
@@ -666,6 +651,7 @@ const dynamicallyAddStreamingUrlFromAisPlay = async () => {
         url,
         suffix: channelNameSuffix,
         options: { referer: 'https://ais-vidnt.com/' },
+        priority,
       });
       console.log(`  / added ${channelKey}`);
     }
@@ -727,7 +713,7 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
                 return;
               }
               let url = regExpMatchArray[0].replace('.nyc.', '.sg1.');
-              streamingInfo[channelKey].sources.unshift({ url, suffix: suffixMapping[i] });
+              streamingInfo[channelKey].sources.unshift({ url, suffix: suffixMapping[i], priority });
               console.log(`  / added ${channelKey}`);
               break;
             }
@@ -802,7 +788,7 @@ const generateValidSources = async (streamingData) => {
         // broken stream
         console.log(`  X ${streamingData.channelName} - ${result}\n    ${source.url}`);
       } else {
-        if (source.priority == undefined) {
+        if (source.priority === undefined) {
           // generate auto priority
           const channelNameComponent = [streamingData.channelName];
           if (source.suffix) {
