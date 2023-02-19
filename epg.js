@@ -11,7 +11,9 @@ const getEpgDataFromNbtc = async () => {
   let channelNoToChannelKey = {
     '02': 'nbt',
     '03': 'thaipbs',
+    '04': 'altv',
     '05': 'tv5',
+    '07': 'tsport',
     10: 'tptv',
     16: 'tnn16',
     18: 'jkn18',
@@ -43,9 +45,9 @@ const getEpgDataFromNbtc = async () => {
     return [];
   }
 
-  // get program start now + 4 days
+  // get program start now + 2 days
   let currentDatetime = new Date();
-  let currentDatetimePlus96Hrs = new Date(currentDatetime.getTime() + 96 * 3600 * 1000);
+  let currentDatetimePlus48Hrs = new Date(currentDatetime.getTime() + 48 * 3600 * 1000);
 
   // process data
   let epgData = [];
@@ -59,7 +61,7 @@ const getEpgDataFromNbtc = async () => {
     const [day, month, year] = program.pgDate.split('-');
     let programStart = new Date(`20${year}-${month}-${day}T${program.pgBeginTime}+07:00`);
     let programEnd = new Date(`20${year}-${month}-${day}T${program.pgEndTime}+07:00`);
-    if (programEnd < currentDatetime || programStart > currentDatetimePlus96Hrs) {
+    if (programEnd < currentDatetime || programStart > currentDatetimePlus48Hrs) {
       continue;
     }
     let programStartStr = `20${year}${month}${day}${program.pgBeginTime.replace(/:/g, '')} +0700`;
@@ -93,10 +95,10 @@ const getEpgDataFromAisPlay = async () => {
   // mapping tvg id
   let channelIdToChannelKey = {
     // '596703d8bf6aee05dcdfc118': 'nbt',
-    '5efdd162fbb0045345ef2b61': 'altv',
+    // '5efdd162fbb0045345ef2b61': 'altv',
     // '597b93a97ed5a24e45c3ab13': 'thaipbs',
     // '597b89f07ed5a24e46f6724a': 'tv5',
-    '627a27b26dbfe345cfc8a27f': 'tsports',
+    // '627a27b26dbfe345cfc8a27f': 'tsports',
     // '597be02d7ed5a24e46f67254': 'tptv',
     // '59671d1cd817de1df19711a6': 'tnn16',
     // '597b8e8c7ed5a24e46f6724b': 'jkn18',
@@ -134,11 +136,11 @@ const getEpgDataFromAisPlay = async () => {
   // build parameter
   let currentDatetime = new Date();
   let currentDatetimePlus7Hrs = new Date(currentDatetime.getTime() + 7 * 3600 * 1000);
-  let currentDatetimePlus43Hrs = new Date(currentDatetime.getTime() + 43 * 3600 * 1000);
+  let currentDatetimePlus55Hrs = new Date(currentDatetime.getTime() + 55 * 3600 * 1000);
   let startBkkDateStr = currentDatetimePlus7Hrs.toISOString().slice(0, 10);
   let startBkkTimeStr = currentDatetimePlus7Hrs.toISOString().slice(11, 16) + ':00';
-  let endBkkDateStr = currentDatetimePlus43Hrs.toISOString().slice(0, 10);
-  let endBkkTimeStr = currentDatetimePlus43Hrs.toISOString().slice(11, 16) + ':00';
+  let endBkkDateStr = currentDatetimePlus55Hrs.toISOString().slice(0, 10);
+  let endBkkTimeStr = currentDatetimePlus55Hrs.toISOString().slice(11, 16) + ':00';
 
   // send request
   let rawData = {};
@@ -158,7 +160,7 @@ const getEpgDataFromAisPlay = async () => {
   // process data
   let epgData = [];
 
-  if (rawData.items == undefined) {
+  if (rawData.items === undefined) {
     return [];
   }
 
@@ -181,6 +183,92 @@ const getEpgDataFromAisPlay = async () => {
   }
 
   // console.log(`  / Fetched epg data from AIS Play...`);
+  return epgData;
+};
+
+const getEpgDataFromTrueId = async () => {
+  console.log('Fetching epg data from trueID...');
+
+  // mapping tvg id
+  const channelCodeToChannelKey = {
+    ht111: 'premier1',
+    ht112: 'premier2',
+    ht113: 'premier3',
+    ht114: 'premier4',
+    ht115: 'premier5',
+    '097': 'truesportshd1',
+    ht116: 'truesportshd2', // ht118
+  };
+
+  // build parameter
+  const currentDatetime = new Date();
+  const currentDatetimePlus7Hrs = new Date(currentDatetime.getTime() + 7 * 3600 * 1000);
+  const currentDatetimePlus31Hrs = new Date(currentDatetime.getTime() + 31 * 3600 * 1000);
+  const currentDatetimePlus55Hrs = new Date(currentDatetime.getTime() + 55 * 3600 * 1000);
+  const firstBkkDateStr = currentDatetimePlus7Hrs.toISOString().slice(0, 10);
+  const secondBkkDateStr = currentDatetimePlus31Hrs.toISOString().slice(0, 10);
+  const thirdBkkDateStr = currentDatetimePlus55Hrs.toISOString().slice(0, 10);
+
+  // send request
+  const rawDataArray = await Promise.all(
+    [firstBkkDateStr, secondBkkDateStr, thirdBkkDateStr].map(async (dateStr) => {
+      try {
+        const epgUrl = `https://tv.trueid.net/apis/tvguide/getEpg`;
+        const response = await axios.post(
+          epgUrl,
+          {
+            lang: 'th',
+            category_name: 'sports',
+            date: dateStr,
+          },
+          {
+            headers: {
+              Authorization:
+                'Basic MjkwMzMyY2ZmMDcyYWFmMWY5YjQ2NGMzNTMxNzYwYmI0YjdiODM5ZDo3MmFhZjFmOWI0NjRjMzUzMTc2MGJiNGI3YjgzOWQ=',
+            },
+          }
+        );
+        if (response.status === 200) return response.data.data;
+        return [];
+      } catch (error) {
+        console.log(error);
+      }
+    })
+  );
+  const rawData = rawDataArray.flat();
+
+  // process data
+  const epgData = [];
+
+  for (const channel of rawData) {
+    if (!(channel.channelCode in channelCodeToChannelKey)) continue;
+
+    const channelKey = channelCodeToChannelKey[channel.channelCode];
+    for (const program of channel.programList) {
+      if (program.status === false) {
+        continue;
+      }
+      const programEnd = new Date(program.detail.end_date);
+      if (programEnd < currentDatetime) {
+        continue;
+      }
+      const programStartStr = `${program.detail.start_date.slice(0, 19).replace(/-|:|T/g, '')} +0000`;
+      const programEndStr = `${program.detail.end_date.slice(0, 19).replace(/-|:|T/g, '')} +0000`;
+      const programTitle = program.title ? program.title.trim() : 'No Program Name';
+      let programDescription = undefined;
+      if (program.detail.ep_name && program.detail.ep_name.trim()) {
+        programDescription = program.detail.ep_name.trim();
+      }
+      epgData.push({
+        programStartStr,
+        programEndStr,
+        channelKey,
+        programTitle,
+        programDescription,
+      });
+    }
+  }
+
   return epgData;
 };
 
@@ -324,14 +412,16 @@ const getEpgData = async () => {
   let epgDataFromNbtcPromise = getEpgDataFromNbtc();
   let epgDataFromAisPlayPromise = getEpgDataFromAisPlay();
   let epgDataFromTrueVisionsPromise = []; // getEpgDataFromTrueVisions();
+  let epgDataFromTrueIdPromise = getEpgDataFromTrueId();
 
-  const [epgDataFromNbtc, epgDataFromAisPlay, epgDataFromTrueVisions] = await Promise.all([
+  const [epgDataFromNbtc, epgDataFromAisPlay, epgDataFromTrueVisions, epgDataFromTrueId] = await Promise.all([
     epgDataFromNbtcPromise,
     epgDataFromAisPlayPromise,
     epgDataFromTrueVisionsPromise,
+    epgDataFromTrueIdPromise,
   ]);
 
-  let mergedEpgData = [...epgDataFromNbtc, ...epgDataFromAisPlay, ...epgDataFromTrueVisions];
+  let mergedEpgData = [...epgDataFromNbtc, ...epgDataFromAisPlay, ...epgDataFromTrueVisions, ...epgDataFromTrueId];
   mergedEpgData = mergedEpgData.sort((item1, item2) =>
     item1.channelKey > item2.channelKey
       ? 1

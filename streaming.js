@@ -220,7 +220,7 @@ const streamingInfo = {
   mono29soundtrack: {
     channelName: 'MONO29 Soundtrack',
     logo: 'https://iptv36.my.to/logo/mono29.png',
-    tvgId: 'mono29.iptv36.my.to`',
+    tvgId: 'mono29.iptv36.my.to',
     sources: [
       {
         url: 'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080EN.stream/playlist.m3u8',
@@ -501,7 +501,7 @@ const streamingInfo = {
   premier1: {
     channelName: 'Premier HD1',
     logo: 'https://iptv36.my.to/logo/premier_hd1.png',
-    tvgId: 'TruePremierFootball1.th',
+    // tvgId: 'TruePremierFootball1.th',
     groupName: 'Sport',
     sources: [
       {
@@ -518,7 +518,7 @@ const streamingInfo = {
   premier2: {
     channelName: 'Premier HD2',
     logo: 'https://iptv36.my.to/logo/premier_hd1.png',
-    tvgId: 'TruePremierFootball2.th',
+    // tvgId: 'TruePremierFootball2.th',
     groupName: 'Sport',
     sources: [
       {
@@ -535,7 +535,7 @@ const streamingInfo = {
   premier3: {
     channelName: 'Premier HD3',
     logo: 'https://iptv36.my.to/logo/premier_hd3.png',
-    tvgId: 'TruePremierFootball3.th',
+    // tvgId: 'TruePremierFootball3.th',
     groupName: 'Sport',
     sources: [
       {
@@ -552,7 +552,7 @@ const streamingInfo = {
   premier4: {
     channelName: 'Premier HD4',
     logo: 'https://iptv36.my.to/logo/premier_hd4.png',
-    tvgId: 'TruePremierFootball4.th',
+    // tvgId: 'TruePremierFootball4.th',
     groupName: 'Sport',
     sources: [
       {
@@ -565,7 +565,7 @@ const streamingInfo = {
   premier5: {
     channelName: 'Premier HD5',
     logo: 'https://iptv36.my.to/logo/premier_hd5.png',
-    tvgId: 'TruePremierFootball5.th',
+    // tvgId: 'TruePremierFootball5.th',
     groupName: 'Sport',
     sources: [
       {
@@ -578,7 +578,7 @@ const streamingInfo = {
   truesportshd1: {
     channelName: 'True Sports 1',
     logo: 'https://iptv36.my.to/logo/true_sports_hd.png',
-    tvgId: 'TrueSports1.th',
+    // tvgId: 'TrueSports1.th',
     groupName: 'Sport',
     sources: [
       {
@@ -591,7 +591,7 @@ const streamingInfo = {
   truesportshd2: {
     channelName: 'True Sports 2',
     logo: 'https://iptv36.my.to/logo/true_sports_hd2.png',
-    tvgId: 'TrueSports2.th',
+    // tvgId: 'TrueSports2.th',
     groupName: 'Sport',
     sources: [
       {
