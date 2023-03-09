@@ -13,7 +13,7 @@ const getEpgDataFromNbtc = async () => {
     '03': 'thaipbs',
     '04': 'altv',
     '05': 'tv5',
-    '07': 'tsport',
+    '07': 'tsports',
     10: 'tptv',
     16: 'tnn16',
     18: 'jkn18',
@@ -224,14 +224,26 @@ const getEpgDataFromTrueId = async () => {
           {
             headers: {
               Authorization:
-                'Basic MjkwMzMyY2ZmMDcyYWFmMWY5YjQ2NGMzNTMxNzYwYmI0YjdiODM5ZDo3MmFhZjFmOWI0NjRjMzUzMTc2MGJiNGI3YjgzOWQ=',
+                'Basic ZGQ4YjAyMjI1ZWYwMzViZjhlMGZjYzA0N2U2ZTE3YTRhZTZjOGI4MTpmMDM1YmY4ZTBmY2MwNDdlNmUxN2E0YWU2YzhiODE=',
             },
           }
         );
         if (response.status === 200) return response.data.data;
         return [];
       } catch (error) {
-        console.log(error);
+        if (error.response) {
+          // The request was made and the server responded with a status code
+          // that falls out of the range of 2xx
+          console.log(`trueid_epg response error => ${error.response.status}: ${error.response.data}`);
+        } else if (error.request) {
+          // The request was made but no response was received
+          // `error.request` is an instance of XMLHttpRequest in the browser and an instance of
+          // http.ClientRequest in node.js
+          console.log(error.request);
+        } else {
+          // Something happened in setting up the request that triggered an Error
+          console.log('Error', error.message);
+        }
       }
     })
   );
@@ -241,6 +253,7 @@ const getEpgDataFromTrueId = async () => {
   const epgData = [];
 
   for (const channel of rawData) {
+    if (channel === undefined) continue;
     if (!(channel.channelCode in channelCodeToChannelKey)) continue;
 
     const channelKey = channelCodeToChannelKey[channel.channelCode];
