@@ -426,6 +426,20 @@ const streamingInfo = {
     sources: [],
   },
 
+  warner: {
+    channelName: 'Warner',
+    logo: 'https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/0105.png',
+    groupName: 'Movie',
+    sources: [],
+  },
+
+  paramount: {
+    channelName: 'Paramount',
+    logo: 'https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon//ParamountNetwork.png',
+    groupName: 'Movie',
+    sources: [],
+  },
+
   truefilm1: {
     channelName: 'True Film 1',
     logo: 'https://cms.dmpcdn.com/livetv/2022/01/12/26308f80-7374-11ec-91d2-797a50c5a656_webp_320.png',
@@ -654,6 +668,8 @@ const dynamicallyAddStreamingUrlFromAisPlay = async () => {
     ['ch7', 'FHD', undefined, 'B0018'],
     ['pptv', 'FHD', undefined, 'B0022'],
     ['hitsmovies', 'FHD', undefined, 'V0138'],
+    ['warner', 'FHD', undefined, 'X105'],
+    ['paramount', 'FHD', undefined, 'V0185'],
     ['mono29plus', 'FHD', undefined, 'V0192'],
     ['topnews', 'FHD', undefined, 'V0033'],
     ['bein1', 'FHD', undefined, 'S0001'],

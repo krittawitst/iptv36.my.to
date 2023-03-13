@@ -115,8 +115,8 @@ const playlistV3 = {
     ...playlistV2.channelList,
     ['ctb'],
     ['hitsmovies'],
-    // ['truefilm1'],
-    // ['truefilm2'],
+    ['warner'],
+    ['paramount'],
     ['bein1'],
     ['bein1', 1],
     ['bein2'],
@@ -131,8 +131,6 @@ const playlistV3 = {
     ['premier5'],
     ['truesportshd1'],
     ['truesportshd2'],
-    // ['truesportshd2', 1],
-    // ['truesportshd2', 2],
   ],
 };
 

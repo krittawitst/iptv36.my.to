@@ -1,8 +1,6 @@
 const axios = require('axios');
 const https = require('https');
-const FormData = require('form-data');
-const jsdom = require('jsdom');
-const { JSDOM } = jsdom;
+const cheerio = require('cheerio');
 
 const getEpgDataFromNbtc = async () => {
   console.log(`Fetching epg data from NBTC...`);
@@ -190,14 +188,14 @@ const getEpgDataFromTrueId = async () => {
   console.log('Fetching epg data from trueID...');
 
   // mapping tvg id
-  const channelCodeToChannelKey = {
-    ht111: 'premier1',
-    ht112: 'premier2',
-    ht113: 'premier3',
-    ht114: 'premier4',
-    ht115: 'premier5',
-    '097': 'truesportshd1',
-    ht116: 'truesportshd2', // ht118
+  const channelSlugToChannelKey = {
+    truepremierfootballhd1: 'premier1',
+    truepremierfootballhd2: 'premier2',
+    truepremierfootballhd3: 'premier3',
+    truepremierfootballhd4: 'premier4',
+    truepremierfootballhd5: 'premier5',
+    'hybrid-truesport-hd': 'truesportshd1',
+    'truesport-hd-2': 'truesportshd2',
   };
 
   // build parameter
@@ -213,23 +211,26 @@ const getEpgDataFromTrueId = async () => {
   const rawDataArray = await Promise.all(
     [firstBkkDateStr, secondBkkDateStr, thirdBkkDateStr].map(async (dateStr) => {
       try {
-        const epgUrl = `https://tv.trueid.net/apis/tvguide/getEpg`;
-        const response = await axios.post(
-          epgUrl,
-          {
-            lang: 'th',
-            category_name: 'sports',
-            date: dateStr,
-          },
-          {
-            headers: {
-              Authorization:
-                'Basic ZGQ4YjAyMjI1ZWYwMzViZjhlMGZjYzA0N2U2ZTE3YTRhZTZjOGI4MTpmMDM1YmY4ZTBmY2MwNDdlNmUxN2E0YWU2YzhiODE=',
-            },
+        const epgUrl = `https://tv.trueid.net/tvguide/trueidtv-sport/${dateStr}`;
+        const response = await axios.get(epgUrl);
+        if (response.status === 200) {
+          const $ = cheerio.load(response.data);
+          const nextData = $('#__NEXT_DATA__').html();
+          const data = JSON.parse(nextData);
+          if (
+            !data ||
+            !data.props ||
+            !data.props.pageProps ||
+            !data.props.pageProps.listEPG ||
+            !Array.isArray(data.props.pageProps.listEPG.data)
+          ) {
+            return null;
           }
-        );
-        if (response.status === 200) return response.data.data;
-        return [];
+          return data.props.pageProps.listEPG.data.filter((ch) =>
+            Object.keys(channelSlugToChannelKey).includes(ch.slug)
+          );
+        }
+        return null;
       } catch (error) {
         if (error.response) {
           // The request was made and the server responded with a status code
@@ -253,10 +254,7 @@ const getEpgDataFromTrueId = async () => {
   const epgData = [];
 
   for (const channel of rawData) {
-    if (channel === undefined) continue;
-    if (!(channel.channelCode in channelCodeToChannelKey)) continue;
-
-    const channelKey = channelCodeToChannelKey[channel.channelCode];
+    const channelKey = channelSlugToChannelKey[channel.slug];
     for (const program of channel.programList) {
       if (program.status === false) {
         continue;
@@ -285,156 +283,19 @@ const getEpgDataFromTrueId = async () => {
   return epgData;
 };
 
-const htmlEntityDecode = (textStr) => {
-  return textStr
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#x27;/g, "'")
-    .replace(/&#x60;/g, '`');
-};
-
-const getEpgDataFromTrueVisions = async () => {
-  console.log('Fetching epg data from TrueVisions...');
-
-  let currentDatetime = new Date();
-  let currentDatetimePlus7Hrs = new Date(currentDatetime.getTime() + 7 * 60 * 60 * 1000);
-  let currentDatetimePlus1Days7Hrs = new Date(currentDatetimePlus7Hrs.getTime() + 86400 * 1000);
-  let bkkDateStr = currentDatetimePlus7Hrs.toISOString().slice(0, 10);
-
-  // mapping tvg id
-  let categoryToPageToChannelKey = {
-    mov: {
-      '#page1': 'truefilm',
-      '#page3': 'foxmovies',
-      '#page4': 'foxactionmovies',
-      '#page5': 'foxfamilymovies',
-      '#page16': 'foxthai',
-    },
-    ent: {
-      '#page2': 'axn',
-    },
-    sport: {
-      '#page1': 'premier1',
-      // '#page2': 'premier2',
-      '#page3': 'truesporthd',
-      '#page4': 'truesporthd2',
-      '#page12': 'truesport2',
-    },
-    know: {
-      '#page2': 'history',
-      '#page3': 'history2',
-      '#page4': 'natgeo',
-      '#page11': 'bbcearth',
-    },
-    kids: {
-      '#page1': 'truesparkplay',
-      '#page2': 'truesparkjump',
-      '#page3': 'disneyxd',
-      '#page4': 'disney',
-    },
-  };
-
-  let epgData = [];
-
-  for (let [category, pageToChannelKey] of Object.entries(categoryToPageToChannelKey)) {
-    // send request
-    const epgUrl = `http://tvsmagazine.com/schedule_th.php?category=${category}`;
-    let rawData = '';
-    try {
-      const response = await axios.post(epgUrl);
-      rawData = response.data;
-    } catch (error) {
-      console.log(error);
-      return [];
-    }
-
-    // process data
-    const dom = new JSDOM(rawData, {
-      url: epgUrl,
-      contentType: 'text/html',
-      includeNodeLocations: true,
-      storageQuota: 10000000,
-    });
-
-    for (let [pageDiv, channelKey] of Object.entries(pageToChannelKey)) {
-      let epgDataForThisChannel = [];
-
-      for (let timeDiv of ['div.before-18h', 'div.after-18h']) {
-        let parentOfProgramRowDiv = dom.window.document.body.querySelector(`${pageDiv} ${timeDiv}`);
-
-        try {
-          for (let programRowDiv of parentOfProgramRowDiv.children) {
-            if (programRowDiv.querySelector('div.p-time')) {
-              let programStartTime = programRowDiv.querySelector('div.p-time').innerHTML.trim();
-              let programStartStr = `${bkkDateStr}${programStartTime}00`.replace(/-|:|T/g, '') + ' +0700';
-              let programTitle =
-                programRowDiv.querySelector('div.p-title') &&
-                htmlEntityDecode(programRowDiv.querySelector('div.p-title').innerHTML.trim());
-              let programSubtitle =
-                programRowDiv.querySelector('div.p-type-year-genre') &&
-                htmlEntityDecode(programRowDiv.querySelector('div.p-type-year-genre').innerHTML.trim());
-              let programDescription =
-                programRowDiv.querySelector('div.p-synopsis') &&
-                htmlEntityDecode(programRowDiv.querySelector('div.p-synopsis').innerHTML.trim());
-
-              epgDataForThisChannel.push({
-                programStartStr,
-                programEndStr: null,
-                channelKey,
-                programTitle,
-                programSubtitle: programSubtitle !== '::' ? programSubtitle : null,
-                programDescription,
-              });
-            }
-          }
-        } catch (error) {
-          console.error(`something went wrong when building epg for ${channelKey}`);
-          console.error(error);
-        }
-      }
-
-      // sort program and fill current programEndStr with next programStartStr
-      let sortedEpgDataForThisChannel = epgDataForThisChannel.sort((item1, item2) =>
-        item1.programStartStr > item2.programStartStr ? 1 : item1.programStartStr < item2.programStartStr ? -1 : 0
-      );
-
-      for (let i = 0; i < sortedEpgDataForThisChannel.length; i++) {
-        currentProgram = sortedEpgDataForThisChannel[i];
-        nextProgram = i + 1 < sortedEpgDataForThisChannel.length ? sortedEpgDataForThisChannel[i + 1] : null;
-
-        if (nextProgram) {
-          currentProgram.programEndStr = nextProgram.programStartStr;
-        } else {
-          currentProgram.programEndStr =
-            currentProgram.programStartStr.slice(0, 8) + '235959' + currentProgram.programStartStr.slice(14);
-        }
-
-        epgData.push(currentProgram);
-      }
-    }
-  }
-
-  // console.log(`  / Fetched epg data from TrueVisions...`);
-  return epgData;
-};
-
 const getEpgData = async () => {
   // EPG
   let epgDataFromNbtcPromise = getEpgDataFromNbtc();
   let epgDataFromAisPlayPromise = getEpgDataFromAisPlay();
-  let epgDataFromTrueVisionsPromise = []; // getEpgDataFromTrueVisions();
   let epgDataFromTrueIdPromise = getEpgDataFromTrueId();
 
-  const [epgDataFromNbtc, epgDataFromAisPlay, epgDataFromTrueVisions, epgDataFromTrueId] = await Promise.all([
+  const [epgDataFromNbtc, epgDataFromAisPlay, epgDataFromTrueId] = await Promise.all([
     epgDataFromNbtcPromise,
     epgDataFromAisPlayPromise,
-    epgDataFromTrueVisionsPromise,
     epgDataFromTrueIdPromise,
   ]);
 
-  let mergedEpgData = [...epgDataFromNbtc, ...epgDataFromAisPlay, ...epgDataFromTrueVisions, ...epgDataFromTrueId];
+  let mergedEpgData = [...epgDataFromNbtc, ...epgDataFromAisPlay, ...epgDataFromTrueId];
   mergedEpgData = mergedEpgData.sort((item1, item2) =>
     item1.channelKey > item2.channelKey
       ? 1
