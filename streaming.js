@@ -102,7 +102,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/tnn16.png',
     // tvgId: 'TNN16.th',
     sources: [
-      { url: 'https://iptv36.netlify.app/api/true?channel=tnn16hd', suffix: 'HD' },
+      // { url: 'https://iptv36.netlify.app/api/true?channel=tnn16hd', suffix: 'HD' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chtnn/index.m3u8',
         options: { userAgent: defaultUserAgent },
