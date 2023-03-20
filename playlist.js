@@ -82,13 +82,12 @@ const playlistV2 = {
     ['ch8'],
     ['ch8', 1],
     ['mono29'],
-    ['mono29', 1],
     ['mono29soundtrack'],
-    ['mono29plus'],
-
-    // 31-40
     ['mcot'],
     ['mcot', 1],
+
+    // 31-40
+
     ['one'],
     ['one', 1],
     ['thairath'],
@@ -97,10 +96,10 @@ const playlistV2 = {
     ['ch3', 1],
     ['amarin'],
     ['amarin', 1],
-
-    // 41-47
     ['ch7'],
     ['ch7', 1],
+
+    // 41-45
     ['pptv'],
     ['pptv', 1],
     ['tvb'],
@@ -113,10 +112,14 @@ const playlistV3 = {
   filename: 'playlist-v3.m3u',
   channelList: [
     ...playlistV2.channelList,
+    // 46-50
     ['ctb'],
-    ['hitsmovies'],
-    ['warner'],
+    ['mono29plus'],
+    ['warnertv'],
     ['paramount'],
+    ['hitsmovies'],
+
+    // 51-60
     ['bein1'],
     ['bein1', 1],
     ['bein2'],
@@ -127,6 +130,8 @@ const playlistV3 = {
     ['premier2'],
     ['premier2', 1],
     ['premier3'],
+
+    // 61-64
     ['premier4'],
     ['premier5'],
     ['truesportshd1'],

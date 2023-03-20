@@ -426,8 +426,8 @@ const streamingInfo = {
     sources: [],
   },
 
-  warner: {
-    channelName: 'Warner',
+  warnertv: {
+    channelName: 'Warner TV',
     logo: 'https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/0105.png',
     groupName: 'Movie',
     sources: [],
@@ -668,7 +668,7 @@ const dynamicallyAddStreamingUrlFromAisPlay = async () => {
     ['ch7', 'FHD', undefined, 'B0018'],
     ['pptv', 'FHD', undefined, 'B0022'],
     ['hitsmovies', 'FHD', undefined, 'V0138'],
-    ['warner', 'FHD', undefined, 'X105'],
+    ['warnertv', 'FHD', undefined, 'X105'],
     ['paramount', 'FHD', undefined, 'V0185'],
     ['mono29plus', 'FHD', undefined, 'V0192'],
     ['topnews', 'FHD', undefined, 'V0033'],
@@ -782,7 +782,8 @@ const testUrl = async (url, options = {}) => {
     process.env.NETLIFY &&
     (url.includes('huaweicdncloud.com') || // Geo Restrict
       url.includes('ch7.com') || // Geo Restrict
-      url.includes('rewriter.ais-vidnt.com')) // X-Base-Request-Check-Status: INCORRECT
+      url.includes('rewriter.ais-vidnt.com') || // X-Base-Request-Check-Status: INCORRECT
+      url.includes('vip-streaming.com')) // ECONNABORTED
   ) {
     return true;
   }
