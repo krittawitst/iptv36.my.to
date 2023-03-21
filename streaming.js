@@ -241,6 +241,10 @@ const streamingInfo = {
     // tvgId: 'MCOTHD.th',
     sources: [
       {
+        url: 'https://iptv36.netlify.app/api/aisplay/mcot',
+        suffix: 'FHD',
+      },
+      {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chmcothd/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
@@ -773,7 +777,7 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
 
 const testUrl = async (url, options = {}) => {
   // list of url that we will always not check
-  if (url.includes('rtsp://') || url.includes('sport.livedoomovies.com')) {
+  if (url.includes('rtsp://') || url.includes('sport.livedoomovies.com') || url.includes('/api/aisplay')) {
     return true;
   }
 
