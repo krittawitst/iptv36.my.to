@@ -15,8 +15,7 @@ async function handler(event) {
   }
 
   const { channelKey } = regExpMatchArray.groups;
-  console.log(event);
-  console.log({ channelKey });
+  console.log({ channelKey, msg: 'new request is coming' });
 
   const channelKeyToCode = {
     nbt: 'B0001',
@@ -71,7 +70,7 @@ async function handler(event) {
       statusCode: 307,
       headers: {
         location: url,
-        referer: 'https://ais-vidnt.com/',
+        // referer: 'https://ais-vidnt.com/',
       },
       ttl: 600,
     };
