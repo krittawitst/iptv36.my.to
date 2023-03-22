@@ -1,7 +1,7 @@
 const { builder } = require('@netlify/functions');
 const axios = require('axios');
 
-async function handler(event, context) {
+async function handler(event) {
   const eventPathRegExp = /\/aisplay\/(?<channelKey>[^/]+)$/;
   const regExpMatchArray = event.path.match(eventPathRegExp);
 
@@ -15,7 +15,8 @@ async function handler(event, context) {
   }
 
   const { channelKey } = regExpMatchArray.groups;
-  console.log({ date: new Date().toISOString(), channelKey });
+  console.log(event);
+  console.log({ channelKey });
 
   const channelKeyToCode = {
     nbt: 'B0001',
@@ -67,12 +68,11 @@ async function handler(event, context) {
     console.log({ channelKey, url });
 
     return {
-      statusCode: 200,
+      statusCode: 307,
       headers: {
         location: url,
         referer: 'https://ais-vidnt.com/',
       },
-      body: `Go to ${url}`,
       ttl: 600,
     };
   } catch (e) {
