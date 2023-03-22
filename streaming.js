@@ -242,6 +242,7 @@ const streamingInfo = {
     sources: [
       {
         url: 'https://iptv36.netlify.app/api/aisplay/mcot',
+        options: { referer: 'https://ais-vidnt.com/' },
         suffix: 'FHD',
       },
       {
