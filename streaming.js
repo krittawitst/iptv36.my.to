@@ -240,11 +240,11 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/mcot.png',
     // tvgId: 'MCOTHD.th',
     sources: [
-      {
-        url: 'https://iptv36.netlify.app/api/aisplay/mcot',
-        options: { referer: 'https://ais-vidnt.com/' },
-        suffix: 'FHD',
-      },
+      // {
+      //   url: 'https://iptv36.netlify.app/api/aisplay/mcot',
+      //   options: { referer: 'https://ais-vidnt.com/' },
+      //   suffix: 'FHD',
+      // },
       {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chmcothd/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -684,18 +684,19 @@ const dynamicallyAddStreamingUrlFromAisPlay = async () => {
 
   let kokowatvData;
   try {
-    const response = await axios.get('https://m.kokowatv.com/t.m3u', { headers: { 'User-Agent': 'Televizo' } });
-    kokowatvData = response.data;
+    // const response = await axios.get('https://m.kokowatv.com/t.m3u', { headers: { 'User-Agent': 'Televizo' } });
+    // kokowatvData = response.data;
 
-    const regExp = /^https:\/\/(?<ip>.+?)-rewriter.ais-vidnt.+\.m3u8\?(?<params>.+?)$/m;
-    const regExpExecArray = regExp.exec(kokowatvData);
+    // const regExp = /^https:\/\/(?<ip>.+?)-rewriter.ais-vidnt.+\.m3u8\?(?<params>.+?)$/m;
+    // const regExpExecArray = regExp.exec(kokowatvData);
 
-    if (regExpExecArray === null) {
-      throw new Error('regExpExecArray is null');
-    }
+    // if (regExpExecArray === null) {
+    //   throw new Error('regExpExecArray is null');
+    // }
 
     for (const [channelKey, channelNameSuffix, priority, code] of config) {
-      const url = `https://${regExpExecArray.groups.ip}-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/${code}/HLS/${code}.m3u8?${regExpExecArray.groups.params}`;
+      // const url = `https://${regExpExecArray.groups.ip}-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/${code}/HLS/${code}.m3u8?${regExpExecArray.groups.params}`;
+      const url = `https://iptv36.netlify.app/api/aisplay/${channelKey}`;
       streamingInfo[channelKey].sources.unshift({
         url,
         suffix: channelNameSuffix,
