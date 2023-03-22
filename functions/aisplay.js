@@ -64,11 +64,13 @@ async function handler(event, context) {
     }
 
     const url = `https://${regExpExecArray.groups.ip}-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/${code}/HLS/${code}.m3u8?${regExpExecArray.groups.params}`;
+    console.log({ channelKey, url });
 
     return {
-      statusCode: 302,
+      statusCode: 200,
       headers: {
         location: url,
+        referer: 'https://ais-vidnt.com/',
       },
       body: `Go to ${url}`,
       ttl: 600,
