@@ -177,6 +177,11 @@ const streamingInfo = {
     // tvgId: 'GMM25.th',
     sources: [
       {
+        url: 'https://bcovlive-a.akamaihd.net/fb7ac9cc4e1140238e3077ffd29337fe/ap-southeast-1/6415628290001/profile_0/chunklist.m3u8',
+        suffix: 'HD',
+        options: { userAgent: defaultUserAgent },
+      },
+      {
         url: 'https://cdn6.goprimetime.info/feed/202205171929/chgmm3/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },

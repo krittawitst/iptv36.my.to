@@ -102,9 +102,9 @@ const playlistV2 = {
     // 41-45
     ['pptv'],
     ['pptv', 1],
-    ['tvb'],
     ['topnews'],
     ['news1'],
+    ['tvb'],
   ],
 };
 
