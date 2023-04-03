@@ -386,6 +386,12 @@ const streamingInfo = {
     ],
   },
 
+  boomerang: {
+    channelName: 'Boomerang',
+    logo: 'https://iptv36.my.to/logo/boomerang.png',
+    sources: [],
+  },
+
   tvb: {
     channelName: 'TVB Thai FHD',
     logo: 'https://iptv36.my.to/logo/tvb.png',
@@ -436,12 +442,12 @@ const streamingInfo = {
     sources: [],
   },
 
-  warnertv: {
-    channelName: 'Warner TV',
-    logo: 'https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/0105.png',
-    groupName: 'Movie',
-    sources: [],
-  },
+  // warnertv: {
+  //   channelName: 'Warner TV',
+  //   logo: 'https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/0105.png',
+  //   groupName: 'Movie',
+  //   sources: [],
+  // },
 
   paramount: {
     channelName: 'Paramount',
@@ -677,8 +683,8 @@ const dynamicallyAddStreamingUrlFromAisPlay = async () => {
     ['amarin', 'FHD', undefined, 'B0017'],
     ['ch7', 'FHD', undefined, 'B0018'],
     ['pptv', 'FHD', undefined, 'B0022'],
+    ['boomerang', 'FHD', undefined, 'V0104'],
     ['hitsmovies', 'FHD', undefined, 'V0138'],
-    ['warnertv', 'FHD', undefined, 'X105'],
     ['paramount', 'FHD', undefined, 'V0185'],
     ['mono29plus', 'FHD', undefined, 'V0192'],
     ['topnews', 'FHD', undefined, 'V0033'],

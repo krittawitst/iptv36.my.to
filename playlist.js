@@ -113,9 +113,9 @@ const playlistV3 = {
   channelList: [
     ...playlistV2.channelList,
     // 46-50
+    ['boomerang'],
     ['ctb'],
     ['mono29plus'],
-    ['warnertv'],
     ['paramount'],
     ['hitsmovies'],
 
