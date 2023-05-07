@@ -33,14 +33,8 @@ async function handler(event) {
     amarin: 'B0017',
     ch7: 'B0018',
     pptv: 'B0022',
-    hitsmovies: 'V0138',
-    warnertv: 'X105',
-    paramount: 'V0185',
-    mono29plus: 'V0192',
     topnews: 'V0033',
-    bein1: 'S0001',
-    bein2: 'S0002',
-    bein3: 'S0003',
+    boomerang: 'V0104',
   };
 
   try {
