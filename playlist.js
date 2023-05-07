@@ -99,12 +99,17 @@ const playlistV2 = {
     ['ch7'],
     ['ch7', 1],
 
-    // 41-45
+    // 41-50
     ['pptv'],
     ['pptv', 1],
     ['topnews'],
     ['news1'],
     ['tvb'],
+    ['mangkorn'],
+    ['ctb'],
+    ['boomerang'],
+    ['cartoonclub'],
+    ['toonee'],
   ],
 };
 
@@ -112,17 +117,10 @@ const playlistV3 = {
   filename: 'playlist-v3.m3u',
   channelList: [
     ...playlistV2.channelList,
-    // 46-50
-    ['boomerang'],
-    ['ctb'],
-    ['mono29plus'],
-    ['paramount'],
-    ['hitsmovies'],
 
     // 51-60
     ['bein1'],
     ['bein1', 1],
-    ['bein2'],
     ['bein3'],
     ['bein3', 1],
     ['premier1'],
@@ -130,9 +128,9 @@ const playlistV3 = {
     ['premier2'],
     ['premier2', 1],
     ['premier3'],
-
-    // 61-64
     ['premier4'],
+
+    // 61-63
     ['premier5'],
     ['truesportshd1'],
     ['truesportshd2'],

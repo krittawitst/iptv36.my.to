@@ -392,6 +392,18 @@ const streamingInfo = {
     sources: [],
   },
 
+  toonee: {
+    channelName: 'Boomerang',
+    logo: 'https://iptv36.my.to/logo/toonee.png',
+    sources: [],
+  },
+
+  mangkorn: {
+    channelName: 'Mangkorn',
+    logo: 'https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/0159.png',
+    sources: [],
+  },
+
   tvb: {
     channelName: 'TVB Thai FHD',
     logo: 'https://iptv36.my.to/logo/tvb.png',
@@ -683,14 +695,11 @@ const dynamicallyAddStreamingUrlFromAisPlay = async () => {
     ['amarin', 'FHD', undefined, 'B0017'],
     ['ch7', 'FHD', undefined, 'B0018'],
     ['pptv', 'FHD', undefined, 'B0022'],
-    ['boomerang', 'FHD', undefined, 'V0104'],
-    ['hitsmovies', 'FHD', undefined, 'V0138'],
-    ['paramount', 'FHD', undefined, 'V0185'],
-    ['mono29plus', 'FHD', undefined, 'V0192'],
     ['topnews', 'FHD', undefined, 'V0033'],
-    ['bein1', 'FHD', undefined, 'S0001'],
-    ['bein2', 'FHD', undefined, 'S0002'],
-    ['bein3', 'FHD', undefined, 'S0003'],
+    ['boomerang', 'FHD', undefined, 'V0104'],
+    ['toonee', 'FHD', undefined, 'V0176'],
+    ['cartoonclub', '', undefined, 'V0100'],
+    ['mangkorn', 'FHD', undefined, 'V0159'],
   ];
 
   let kokowatvData;
