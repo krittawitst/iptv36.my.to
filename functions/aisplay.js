@@ -35,6 +35,9 @@ async function handler(event) {
     pptv: 'B0022',
     topnews: 'V0033',
     boomerang: 'V0104',
+    toonee: 'V0176',
+    cartoonclub: 'V0100',
+    mangkorn: 'V0159',
   };
 
   try {
