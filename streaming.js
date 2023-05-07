@@ -328,11 +328,11 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/amarin.png',
     // tvgId: 'Amarin34HD.th',
     sources: [
-      {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/chamarin/index.m3u8',
-        options: { userAgent: defaultUserAgent },
-        suffix: 'HD',
-      },
+      // {
+      //   url: 'https://cdn6.goprimetime.info/feed/202205171929/chamarin/index.m3u8',
+      //   options: { userAgent: defaultUserAgent },
+      //   suffix: 'HD',
+      // },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/amarin/digitaltv/amarin/chunks.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
@@ -393,7 +393,7 @@ const streamingInfo = {
   },
 
   toonee: {
-    channelName: 'Boomerang',
+    channelName: 'Toonee',
     logo: 'https://iptv36.my.to/logo/toonee.png',
     sources: [],
   },
