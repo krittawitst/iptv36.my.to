@@ -16,7 +16,9 @@ const main = async () => {
   }
 
   // dynamically add streaming url
-  // await streaming.dynamicallyAddStreamingUrlFromAisPlay();
+  const current = new Date().valueOf();
+  const isActive = current < (1687071626 - 3 * 60 * 60) * 1000;
+  if (isActive) await streaming.dynamicallyAddStreamingUrlFromAisPlay();
   await streaming.dynamicallyAddStreamingUrlFromDailyMotion();
 
   // remember all active channel key to build epg
