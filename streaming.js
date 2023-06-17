@@ -55,6 +55,10 @@ const streamingInfo = {
     // tvgId: 'ThaiTV5HD1.th',
     sources: [
       {
+        url: 'https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8',
+        suffix: 'FHD',
+      },
+      {
         url: 'https://cdn6.goprimetime.info/feed/202306140918/ch5hd/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
@@ -72,6 +76,9 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/tsports.png',
     sources: [
       {
+        url: 'https://tcdn-live.nexbetter.com/videohls/flivech/8tnDynk2aF2xlpZxYWu2PQ/1687005760/tsports-0/playlist.m3u8',
+      },
+      {
         url: 'https://cdn6.goprimetime.info/feed/202306140918/chtsport/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
@@ -86,14 +93,14 @@ const streamingInfo = {
         url: 'https://cdn-live.tpchannel.org/v1/0180e10a4a7809df73070d7d8760/0180e10adac40b8ed59433d5f3ce/TV_1080p.m3u8',
         suffix: 'FHD',
       },
-      {
-        url: 'https://cdn-live.tpchannel.org/v1/0180e10a4a7809df73070d7d8760/0180e10adac40b8ed59433d5f3ce/TV_720p.m3u8',
-        suffix: 'HD',
-      },
       // {
-      //   url: 'https://cdn6.goprimetime.info/feed/202306140918/TPTV/index.m3u8',
-      //   options: { userAgent: defaultUserAgent },
+      //   url: 'https://cdn-live.tpchannel.org/v1/0180e10a4a7809df73070d7d8760/0180e10adac40b8ed59433d5f3ce/TV_720p.m3u8',
+      //   suffix: 'HD',
       // },
+      {
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/TPTV/index.m3u8',
+        options: { userAgent: defaultUserAgent },
+      },
     ],
   },
 
@@ -106,6 +113,10 @@ const streamingInfo = {
       {
         url: 'https://cdn6.goprimetime.info/feed/202306140918/chtnn/index.m3u8',
         options: { userAgent: defaultUserAgent },
+      },
+      {
+        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/tnn16/playlist.m3u8',
+        options: { referer: 'https://www.livestream88.com/' },
       },
     ],
   },
@@ -245,11 +256,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/mcot.png',
     // tvgId: 'MCOTHD.th',
     sources: [
-      // {
-      //   url: 'https://iptv36.netlify.app/api/aisplay/mcot',
-      //   options: { referer: 'https://ais-vidnt.com/' },
-      //   suffix: 'FHD',
-      // },
       {
         url: 'https://cdn6.goprimetime.info/feed/202306140918/chmcothd/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -287,11 +293,6 @@ const streamingInfo = {
     // tvgId: 'ThairathTV32.th',
     sources: [
       {
-        url: 'https://thairathtv2.cdn.byteark.com/fleetstream/live1/720p/index.m3u8',
-        suffix: 'HD',
-      },
-      { url: 'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8', suffix: 'HD' },
-      {
         url: 'https://cdn6.goprimetime.info/feed/202306140918/chthairath/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
@@ -302,6 +303,11 @@ const streamingInfo = {
         options: { referer: 'https://www.livestream88.com/' },
         suffix: 'HD',
       },
+      {
+        url: 'https://thairathtv2.cdn.byteark.com/fleetstream/live1/720p/index.m3u8',
+        suffix: 'HD',
+      },
+      { url: 'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8', suffix: 'HD' },
     ],
   },
 
@@ -328,11 +334,16 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/amarin.png',
     // tvgId: 'Amarin34HD.th',
     sources: [
-      // {
-      //   url: 'https://cdn6.goprimetime.info/feed/202306140918/chamarin/index.m3u8',
-      //   options: { userAgent: defaultUserAgent },
-      //   suffix: 'HD',
-      // },
+      {
+        url: 'https://iptv36.netlify.app/api/aisplay/amarin',
+        options: { referer: 'https://ais-vidnt.com/' },
+        suffix: 'FHD',
+      },
+      {
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/chamarin/index.m3u8',
+        options: { userAgent: defaultUserAgent },
+        suffix: 'HD',
+      },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/amarin/digitaltv/amarin/chunks.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
@@ -547,12 +558,12 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/tpf1/playlist.m3u8',
-        options: { referer: 'https://www.livestream88.com/' },
-      },
-      {
         url: 'https://219.livedoomovies.com:4431/02_PremierHD1_720p/chunklist.m3u8',
         options: { referer: 'https://www.doomovie-hd.com/' },
+      },
+      {
+        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/tpf1/playlist.m3u8',
+        options: { referer: 'https://www.livestream88.com/' },
       },
     ],
   },
