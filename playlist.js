@@ -105,11 +105,11 @@ const playlistV2 = {
     ['topnews'],
     ['news1'],
     ['tvb'],
-    ['mangkorn'],
+    // ['mangkorn'],
     ['ctb'],
-    ['boomerang'],
+    // ['boomerang'],
     ['cartoonclub'],
-    ['toonee'],
+    // ['toonee'],
   ],
 };
 
