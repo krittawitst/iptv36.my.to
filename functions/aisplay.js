@@ -50,8 +50,10 @@ async function handler(event) {
       throw new Error(`No code for channelKey ${channelKey}`);
     }
 
-    const response = await axios.get('https://m.kokowatv.com/t.m3u', { headers: { 'User-Agent': 'Televizo' } });
-    kokowatvData = response.data;
+    // const response = await axios.get('https://m.kokowatv.com/t.m3u', { headers: { 'User-Agent': 'Televizo' } });
+    // kokowatvData = response.data;
+    kokowatvData =
+      'https://58-64-56-92-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0007/HLS/B0007.m3u8?playbackUrlPrefix=https://tr.play-rbcdn.ais.co.th:8438/&originBasicUrl=http://pl-origin.ais-vidnt.com/ais/play/anevia&tt=1263cbd0bf6d870a688c2d5db229121c&chunkHttps=true&tmid=B0007&tpbk=yncwYtolDCzNYIpm&rrt=1686985226&tmod=rfk&rsid=388f8dd2-0e10-4a96-9481-469beb90b92d&tuid=87c79d7234&cdn=redfox-https&tdid=8832ce170d28cbdbac99e3040cc9ea42&origin=anevia&tfa=f0-fc&tttl=1687071626';
 
     const regExp = /^https:\/\/(?<ip>.+?)-rewriter.ais-vidnt.+\.m3u8\?(?<params>.+?)$/m;
     const regExpExecArray = regExp.exec(kokowatvData);
