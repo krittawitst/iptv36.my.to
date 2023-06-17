@@ -11,7 +11,7 @@ const streamingInfo = {
     // tvgId: 'NBT2.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/chnbt3/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/chnbt3/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
@@ -30,7 +30,7 @@ const streamingInfo = {
     sources: [
       { url: 'https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8', suffix: 'FHD', priority: 35 },
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/chthaipbs3/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/chthaipbs3/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
@@ -43,7 +43,7 @@ const streamingInfo = {
     sources: [
       { url: 'https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8', suffix: 'FHD' },
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/ALTV/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/ALTV/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -55,7 +55,7 @@ const streamingInfo = {
     // tvgId: 'ThaiTV5HD1.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/ch5hd/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/ch5hd/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
@@ -72,7 +72,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/tsports.png',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/chtsport/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/chtsport/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -91,7 +91,7 @@ const streamingInfo = {
         suffix: 'HD',
       },
       // {
-      //   url: 'https://cdn6.goprimetime.info/feed/202205171929/TPTV/index.m3u8',
+      //   url: 'https://cdn6.goprimetime.info/feed/202306140918/TPTV/index.m3u8',
       //   options: { userAgent: defaultUserAgent },
       // },
     ],
@@ -104,7 +104,7 @@ const streamingInfo = {
     sources: [
       // { url: 'https://iptv36.netlify.app/api/true?channel=tnn16hd', suffix: 'HD' },
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/chtnn/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/chtnn/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -116,7 +116,7 @@ const streamingInfo = {
     // tvgId: 'JKN18.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/newtv/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/newtv/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
       // {
@@ -132,7 +132,7 @@ const streamingInfo = {
     // tvgId: 'NationTV.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/chnation/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/chnation/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
       {
@@ -148,7 +148,7 @@ const streamingInfo = {
     // tvgId: 'Workpoint23.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/chworkpoint/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/chworkpoint/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
       {
@@ -165,7 +165,7 @@ const streamingInfo = {
     sources: [
       { url: 'https://iptv36.netlify.app/api/true?channel=true4uhd', suffix: 'HD' },
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/chtrue4u3/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/chtrue4u3/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -182,7 +182,7 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
       },
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/chgmm3/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/chgmm3/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -195,7 +195,7 @@ const streamingInfo = {
     sources: [
       { url: 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8', suffix: 'HD' },
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/ch8/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/ch8/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
       {
@@ -216,7 +216,7 @@ const streamingInfo = {
         suffix: 'FHD',
       },
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/chmono29/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/chmono29/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -251,7 +251,7 @@ const streamingInfo = {
       //   suffix: 'FHD',
       // },
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/chmcothd/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/chmcothd/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
@@ -269,7 +269,7 @@ const streamingInfo = {
     // tvgId: 'One31.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/chonehd/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/chonehd/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
@@ -292,7 +292,7 @@ const streamingInfo = {
       },
       { url: 'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8', suffix: 'HD' },
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/chthairath/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/chthairath/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
         priority: 25,
@@ -311,7 +311,7 @@ const streamingInfo = {
     // tvgId: 'Channel3.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/ch3hd/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/ch3hd/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
@@ -329,7 +329,7 @@ const streamingInfo = {
     // tvgId: 'Amarin34HD.th',
     sources: [
       // {
-      //   url: 'https://cdn6.goprimetime.info/feed/202205171929/chamarin/index.m3u8',
+      //   url: 'https://cdn6.goprimetime.info/feed/202306140918/chamarin/index.m3u8',
       //   options: { userAgent: defaultUserAgent },
       //   suffix: 'HD',
       // },
@@ -352,7 +352,7 @@ const streamingInfo = {
         priority: 25,
       },
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/ch7hd/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/ch7hd/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
@@ -365,7 +365,7 @@ const streamingInfo = {
     // tvgId: 'PPTVHD36.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/202205171929/chpptvhd3/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/chpptvhd3/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
