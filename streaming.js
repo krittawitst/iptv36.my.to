@@ -897,6 +897,10 @@ const getStreamingInfo = async (channelKey, skip = 0) => {
     source = skip < streamingData.sources.length ? streamingData.sources[skip] : streamingData.sources[0];
   }
 
+  if (source === undefined) {
+    console.log({ msg: 'error when getStreamingInfo', channelKey, skip, streamingData });
+  }
+
   if (source.suffix) {
     channelNameComponent.push(source.suffix);
   }
