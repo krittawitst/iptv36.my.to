@@ -53,8 +53,7 @@ async function handler(event) {
     // const response = await axios.get('https://m.kokowatv.com/t.m3u', { headers: { 'User-Agent': 'Televizo' } });
     // kokowatvData = response.data;
     kokowatvData =
-      'https://58-64-56-92-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0007/HLS/B0007.m3u8?playbackUrlPrefix=https://tr.play-rbcdn.ais.co.th:8438/&originBasicUrl=http://pl-origin.ais-vidnt.com/ais/play/anevia&tt=1263cbd0bf6d870a688c2d5db229121c&chunkHttps=true&tmid=B0007&tpbk=yncwYtolDCzNYIpm&rrt=1686985226&tmod=rfk&rsid=388f8dd2-0e10-4a96-9481-469beb90b92d&tuid=87c79d7234&cdn=redfox-https&tdid=8832ce170d28cbdbac99e3040cc9ea42&origin=anevia&tfa=f0-fc&tttl=1687071626';
-
+      'https://58-64-56-86-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/V0159/HLS/V0159.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=1ff204f66194a8774303b5400cd419a3&chunkHttps=true&tmid=V0159&tpbk=cjZHdbi3cy7YxMn1&rrt=1687092446&tmod=rfk&rsid=9e7425c0-e80c-4b60-80c0-97cbedb016f6&tuid=e6WxiC8YDe7PkTrtBfSKbUpuhjqGkDl10S2u%2F1fFGdQ1fWWquqTOEjxUKRcs75UeZ3QTLYxWNqIVgz3ZzybbJRYwQ%2FiVzJm2f7dUvjEhtqXQg%3D&cdn=redfox-https&tdid=baff895ffaa3eb4bfade39e0f2a8b218&origin=anevia&tfa=f0-fc&tttl=1687178845';
     const regExp = /^https:\/\/(?<ip>.+?)-rewriter.ais-vidnt.+\.m3u8\?(?<params>.+?)$/m;
     const regExpExecArray = regExp.exec(kokowatvData);
 
