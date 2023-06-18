@@ -76,9 +76,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/tsports.png',
     sources: [
       {
-        url: 'https://tcdn-live.nexbetter.com/videohls/flivech/8tnDynk2aF2xlpZxYWu2PQ/1687005760/tsports-0/playlist.m3u8',
-      },
-      {
         url: 'https://cdn6.goprimetime.info/feed/202306140918/chtsport/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
@@ -334,11 +331,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/amarin.png',
     // tvgId: 'Amarin34HD.th',
     sources: [
-      {
-        url: 'https://iptv36.netlify.app/api/aisplay/amarin',
-        options: { referer: 'https://ais-vidnt.com/' },
-        suffix: 'FHD',
-      },
       {
         url: 'https://cdn6.goprimetime.info/feed/202306140918/chamarin/index.m3u8',
         options: { userAgent: defaultUserAgent },

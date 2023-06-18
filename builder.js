@@ -17,7 +17,7 @@ const main = async () => {
 
   // dynamically add streaming url
   const current = new Date().valueOf();
-  const isActive = current < (1687071626 - 3 * 60 * 60) * 1000;
+  const isActive = current < (1687178845 - 3 * 60 * 60) * 1000;
   if (isActive) await streaming.dynamicallyAddStreamingUrlFromAisPlay();
   await streaming.dynamicallyAddStreamingUrlFromDailyMotion();
 
