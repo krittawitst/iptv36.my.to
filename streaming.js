@@ -301,7 +301,7 @@ const streamingInfo = {
         suffix: 'HD',
       },
       {
-        url: 'https://thairathtv2.cdn.byteark.com/fleetstream/live1/720p/index.m3u8',
+        url: 'https://streaming-web.thairath.co.th/hls/playlist_hi.m3u8',
         suffix: 'HD',
       },
       { url: 'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8', suffix: 'HD' },
