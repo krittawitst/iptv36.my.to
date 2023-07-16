@@ -743,10 +743,8 @@ const dynamicallyAddStreamingUrlFromAisPlay = async () => {
 const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
   console.log('Getting dynamic streaming url from DailyMotion...');
 
-  // config
   const config = [
     // [channelKey, priority, metaUrl]
-    ['workpoint', undefined, 'https://www.dailymotion.com/player/metadata/video/x6g9qjj'],
     ['nation', undefined, 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
   ];
 
@@ -773,8 +771,6 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
         livePlayListUrl = videoMetaData.qualities.auto[0].url;
       } catch (error) {
         console.error(`Cannot get live playlist url for channel ${channelKey}`);
-        console.error(error);
-        console.error(videoMetaData);
       }
 
       if (livePlayListUrl) {
@@ -806,26 +802,40 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
   );
 };
 
-const dynamicallyAddStreamingUrlFromAmarin = async () => {
-  console.log('Getting dynamic streaming url from Amarin...');
+const dynamicallyAddStreamingUrlFromByteArkNextData = async () => {
+  console.log('Getting dynamic streaming url from ByteArk NextData...');
 
-  let pageHtml = '';
-  try {
-    const response = await axios.get('https://www.amarintv.com/live');
-    pageHtml = response.data;
-  } catch (error) {
-    console.error(`Cannot extract pageHtml from Amarin`);
-    console.error(error);
-  }
+  const config = [
+    // [channelKey, suffix, pageUrl, regExp]
+    [
+      'amarin',
+      'FHD',
+      'https://www.amarintv.com/live',
+      /https:\/\/amarin-ks7jcc\.cdn\.byteark\.com\/fleetstream\/amarin-live\/index\.m3u8[^"]+/,
+    ],
+  ];
 
-  let regExp = /https:\/\/amarin-ks7jcc\.cdn\.byteark\.com\/fleetstream\/amarin-live\/index\.m3u8[^"]+/;
-  let regExpMatchArray = pageHtml.match(regExp);
+  await Promise.all(
+    config.map(async ([channelKey, suffix, pageUrl, regExp]) => {
+      let pageHtml = '';
+      try {
+        const response = await axios.get(pageUrl);
+        pageHtml = response.data;
+      } catch (error) {
+        console.error(`Cannot extract pageHtml from ${channelKey}`);
+        console.error(error);
+      }
 
-  if (regExpMatchArray) {
-    let url = regExpMatchArray[0].replace(/\\u0026/g, '&');
-    streamingInfo.amarin.sources.unshift({ url, suffix: 'FHD' });
-    console.log(`  / added Amarin`);
-  }
+      let regExpMatchArray = pageHtml.match(regExp);
+      if (regExpMatchArray) {
+        let url = regExpMatchArray[0].replace(/\\u0026/g, '&');
+        streamingInfo[channelKey].sources.unshift({ url, suffix });
+        console.log(`  / added ${channelKey}`);
+      } else {
+        console.log(pageHtml);
+      }
+    })
+  );
 };
 
 const dynamicallyAddStreamingUrlFromPPTV = async () => {
@@ -863,7 +873,8 @@ const testUrl = async (url, options = {}) => {
       url.includes('ch7.com') || // Geo Restrict
       url.includes('rewriter.ais-vidnt.com') || // X-Base-Request-Check-Status: INCORRECT
       url.includes('vip-streaming.com') || // ECONNABORTED
-      url.includes('cdn.mcot.net')) // Geo Restrict
+      url.includes('cdn.mcot.net') || // Geo Restrict
+      url.includes('pptv36-1tsjfj.cdn.byteark.com')) // Geo Restrict
   ) {
     return true;
   }
@@ -974,5 +985,5 @@ module.exports = {
   dynamicallyAddStreamingUrlFromAisPlay,
   dynamicallyAddStreamingUrlFromDailyMotion,
   dynamicallyAddStreamingUrlFromPPTV,
-  dynamicallyAddStreamingUrlFromAmarin,
+  dynamicallyAddStreamingUrlFromByteArkNextData,
 };
