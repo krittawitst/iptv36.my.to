@@ -21,6 +21,7 @@ const main = async () => {
   if (isActive) await streaming.dynamicallyAddStreamingUrlFromAisPlay();
   await streaming.dynamicallyAddStreamingUrlFromDailyMotion();
   await streaming.dynamicallyAddStreamingUrlFromPPTV();
+  await streaming.dynamicallyAddStreamingUrlFromAmarin();
 
   // remember all active channel key to build epg
   let allActiveChannelKey = [];

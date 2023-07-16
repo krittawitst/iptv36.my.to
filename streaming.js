@@ -590,7 +590,7 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://219.livedoomovies.com:4431/02_PremierHD3_720p/chunklist.m3u8',
+        url: 'https://sport.livedoomovies.com:4431/02_PremierHD3_720p/chunklist.m3u8',
         options: { referer: 'https://www.doomovie-hd.com/' },
       },
       {
@@ -607,7 +607,7 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://219.livedoomovies.com:4431/02_PremierHD4_720p/chunklist.m3u8',
+        url: 'https://sport.livedoomovies.com:4431/02_PremierHD4_720p/chunklist.m3u8',
         options: { referer: 'https://www.doomovie-hd.com/' },
       },
     ],
@@ -620,7 +620,7 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://219.livedoomovies.com:4431/02_PremierHD5_720p/chunklist.m3u8',
+        url: 'https://sport.livedoomovies.com:4431/02_PremierHD5_720p/chunklist.m3u8',
         options: { referer: 'https://www.doomovie-hd.com/' },
       },
     ],
@@ -805,6 +805,30 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
   );
 };
 
+const dynamicallyAddStreamingUrlFromAmarin = async () => {
+  console.log('Getting dynamic streaming url from Amarin...');
+
+  let pageHtml = '';
+  try {
+    const response = await axios.get('https://www.amarintv.com/live');
+    pageHtml = response.data;
+  } catch (error) {
+    console.error(`Cannot extract pageHtml from Amarin`);
+    console.error(error);
+  }
+
+  let regExp = /https:\/\/amarin-ks7jcc\.cdn\.byteark\.com\/fleetstream\/amarin-live\/index\.m3u8[^"]+/;
+  let regExpMatchArray = pageHtml.match(regExp);
+
+  if (regExpMatchArray) {
+    let url = regExpMatchArray[0].replace(/\\u0026/g, '&');
+    streamingInfo.amarin.sources.unshift({ url, suffix: 'FHD' });
+    console.log(`  / added Amarin`);
+  }
+
+  console.log(streamingInfo.amarin);
+};
+
 const dynamicallyAddStreamingUrlFromPPTV = async () => {
   console.log('Getting dynamic streaming url from PPTV...');
 
@@ -816,12 +840,22 @@ const dynamicallyAddStreamingUrlFromPPTV = async () => {
     console.error(`Cannot extract pageHtml from PPTV`);
     console.error(error);
   }
-  console.log(pageHtml);
+
+  let regExp = /https:\/\/pptv36-1tsjfj\.cdn\.byteark\.com\/live\/playlist\.m3u8[^']+/;
+  let regExpMatchArray = pageHtml.match(regExp);
+
+  if (regExpMatchArray) {
+    let url = regExpMatchArray[0];
+    streamingInfo.pptv.sources.unshift({ url, suffix: 'FHD' });
+    console.log(`  / added PPTV`);
+  }
+
+  console.log(streamingInfo.pptv);
 };
 
 const testUrl = async (url, options = {}) => {
   // list of url that we will always not check
-  if (url.includes('rtsp://') || url.includes('sport.livedoomovies.com') || url.includes('/api/aisplay')) {
+  if (url.includes('rtsp://') || url.includes('livedoomovies.com') || url.includes('/api/aisplay')) {
     return true;
   }
 
@@ -831,7 +865,8 @@ const testUrl = async (url, options = {}) => {
     (url.includes('huaweicdncloud.com') || // Geo Restrict
       url.includes('ch7.com') || // Geo Restrict
       url.includes('rewriter.ais-vidnt.com') || // X-Base-Request-Check-Status: INCORRECT
-      url.includes('vip-streaming.com')) // ECONNABORTED
+      url.includes('vip-streaming.com') || // ECONNABORTED
+      cdn.mcot.net('cdn.mcot.net')) // Geo Restrict
   ) {
     return true;
   }
@@ -942,4 +977,5 @@ module.exports = {
   dynamicallyAddStreamingUrlFromAisPlay,
   dynamicallyAddStreamingUrlFromDailyMotion,
   dynamicallyAddStreamingUrlFromPPTV,
+  dynamicallyAddStreamingUrlFromAmarin,
 };
