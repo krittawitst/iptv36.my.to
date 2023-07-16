@@ -748,7 +748,6 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
     // [channelKey, priority, metaUrl]
     ['workpoint', undefined, 'https://www.dailymotion.com/player/metadata/video/x6g9qjj'],
     ['nation', undefined, 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
-    ['topnews', undefined, 'https://www.dailymotion.com/player/metadata/video/x8g9ikn'],
   ];
 
   const suffixMapping = {
@@ -774,6 +773,8 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
         livePlayListUrl = videoMetaData.qualities.auto[0].url;
       } catch (error) {
         console.error(`Cannot get live playlist url for channel ${channelKey}`);
+        console.error(error);
+        console.error(videoMetaData);
       }
 
       if (livePlayListUrl) {
@@ -825,8 +826,6 @@ const dynamicallyAddStreamingUrlFromAmarin = async () => {
     streamingInfo.amarin.sources.unshift({ url, suffix: 'FHD' });
     console.log(`  / added Amarin`);
   }
-
-  console.log(streamingInfo.amarin);
 };
 
 const dynamicallyAddStreamingUrlFromPPTV = async () => {
@@ -849,8 +848,6 @@ const dynamicallyAddStreamingUrlFromPPTV = async () => {
     streamingInfo.pptv.sources.unshift({ url, suffix: 'FHD' });
     console.log(`  / added PPTV`);
   }
-
-  console.log(streamingInfo.pptv);
 };
 
 const testUrl = async (url, options = {}) => {
@@ -866,7 +863,7 @@ const testUrl = async (url, options = {}) => {
       url.includes('ch7.com') || // Geo Restrict
       url.includes('rewriter.ais-vidnt.com') || // X-Base-Request-Check-Status: INCORRECT
       url.includes('vip-streaming.com') || // ECONNABORTED
-      cdn.mcot.net('cdn.mcot.net')) // Geo Restrict
+      url.includes('cdn.mcot.net')) // Geo Restrict
   ) {
     return true;
   }
