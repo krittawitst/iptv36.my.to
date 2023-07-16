@@ -79,6 +79,9 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202306140918/chtsport/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
+      {
+        url: 'https://tcdn.nexbetter.com/videohls/flivech/3Yd7nI0LSpa5W0nqGt_cRQ/1689498892/tsports-0/playlist.m3u8',
+      },
     ],
   },
 
@@ -254,6 +257,10 @@ const streamingInfo = {
     // tvgId: 'MCOTHD.th',
     sources: [
       {
+        url: 'https://live-org-01-cdn.mcot.net/mcothd1080p_edge/smil:mcothd1080p.smil/playlist.m3u8',
+        suffix: 'FHD',
+      },
+      {
         url: 'https://cdn6.goprimetime.info/feed/202306140918/chmcothd/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
@@ -296,15 +303,14 @@ const streamingInfo = {
         priority: 25,
       },
       {
+        url: 'https://streaming-web.thairath.co.th/hls/playlist_hi.m3u8',
+        suffix: 'HD',
+      },
+      {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/thairathtv/digitaltv/thairath/chunks.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
         suffix: 'HD',
       },
-      {
-        url: 'https://streaming-web.thairath.co.th/hls/playlist_hi.m3u8',
-        suffix: 'HD',
-      },
-      { url: 'https://live.thairath.co.th/trtv2/playlist_720p/index.m3u8', suffix: 'HD' },
     ],
   },
 
@@ -567,7 +573,7 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://sport.livedoomovies.com:4431/02_PremierHD2_720p/chunklist.m3u8',
+        url: 'https://219.livedoomovies.com:4431/02_PremierHD2_720p/chunklist.m3u8',
         options: { referer: 'https://www.doomovie-hd.com/' },
       },
       {
@@ -584,7 +590,7 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://sport.livedoomovies.com:4431/02_PremierHD3_720p/chunklist.m3u8',
+        url: 'https://219.livedoomovies.com:4431/02_PremierHD3_720p/chunklist.m3u8',
         options: { referer: 'https://www.doomovie-hd.com/' },
       },
       {
@@ -601,7 +607,7 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://sport.livedoomovies.com:4431/02_PremierHD4_720p/chunklist.m3u8',
+        url: 'https://219.livedoomovies.com:4431/02_PremierHD4_720p/chunklist.m3u8',
         options: { referer: 'https://www.doomovie-hd.com/' },
       },
     ],
@@ -614,7 +620,7 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://sport.livedoomovies.com:4431/02_PremierHD5_720p/chunklist.m3u8',
+        url: 'https://219.livedoomovies.com:4431/02_PremierHD5_720p/chunklist.m3u8',
         options: { referer: 'https://www.doomovie-hd.com/' },
       },
     ],
@@ -735,12 +741,11 @@ const dynamicallyAddStreamingUrlFromAisPlay = async () => {
 };
 
 const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
-  console.log('Getting dynamic streaming url from dailymotion...');
+  console.log('Getting dynamic streaming url from DailyMotion...');
 
   // config
   const config = [
     // [channelKey, priority, metaUrl]
-    ['mcot', undefined, 'https://www.dailymotion.com/player/metadata/video/x74wlgj'],
     ['workpoint', undefined, 'https://www.dailymotion.com/player/metadata/video/x6g9qjj'],
     ['nation', undefined, 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
     ['topnews', undefined, 'https://www.dailymotion.com/player/metadata/video/x8g9ikn'],
@@ -798,6 +803,20 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
       }
     })
   );
+};
+
+const dynamicallyAddStreamingUrlFromPPTV = async () => {
+  console.log('Getting dynamic streaming url from PPTV...');
+
+  let pageHtml = '';
+  try {
+    const response = await axios.get('https://www-live.pptvhd36.com/api/live_player/program/1');
+    pageHtml = response.data;
+  } catch (error) {
+    console.error(`Cannot extract pageHtml from PPTV`);
+    console.error(error);
+  }
+  console.log(pageHtml);
 };
 
 const testUrl = async (url, options = {}) => {
@@ -922,4 +941,5 @@ module.exports = {
   getStreamingInfo,
   dynamicallyAddStreamingUrlFromAisPlay,
   dynamicallyAddStreamingUrlFromDailyMotion,
+  dynamicallyAddStreamingUrlFromPPTV,
 };

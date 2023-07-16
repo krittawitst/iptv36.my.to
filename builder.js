@@ -20,6 +20,7 @@ const main = async () => {
   const isActive = current < (1687178845 - 3 * 60 * 60) * 1000;
   if (isActive) await streaming.dynamicallyAddStreamingUrlFromAisPlay();
   await streaming.dynamicallyAddStreamingUrlFromDailyMotion();
+  await streaming.dynamicallyAddStreamingUrlFromPPTV();
 
   // remember all active channel key to build epg
   let allActiveChannelKey = [];
