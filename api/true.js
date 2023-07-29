@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-exports.handler = async (event, context, callback) => {
+export default async function handler(request, response) {
   // config
   let config = {
     // tnn16hd: `https://www.tnnthailand.com/live-api/?ip=127.0.0.1&uid=${Math.random()
@@ -43,11 +43,5 @@ exports.handler = async (event, context, callback) => {
     console.error('='.repeat(20));
   }
 
-  return {
-    statusCode: 302,
-    headers: {
-      location: streamingUrl,
-    },
-    body: `Go to ${streamingUrl}`,
-  };
-};
+  response.redirect(302, streamingUrl);
+}
