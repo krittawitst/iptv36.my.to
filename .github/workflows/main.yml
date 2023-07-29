@@ -12,6 +12,6 @@ jobs:
         with:
           timezone: Asia/Bangkok
       - name: Curl request
-        run: curl -X POST -d {} https://api.netlify.com/build_hooks/5f82a598d1e6201d4ec0cb7a
+        run: curl -X POST -d {} https://api.vercel.com/v1/integrations/deploy/prj_A9mg2AcUEKPD3aBAB28OssxMBvxj/vCikvwdI4g
       - name: Show current date
         run: date
