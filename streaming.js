@@ -79,9 +79,6 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202306140918/chtsport/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      {
-        url: 'https://tcdn.nexbetter.com/videohls/flivech/3Yd7nI0LSpa5W0nqGt_cRQ/1689498892/tsports-0/playlist.m3u8',
-      },
     ],
   },
 
@@ -866,15 +863,18 @@ const testUrl = async (url, options = {}) => {
     return true;
   }
 
-  // list of url that always not check on Netlify
+  // list of url that always not check on Vercel
   if (
-    process.env.NETLIFY &&
+    process.env.VERCEL &&
     (url.includes('huaweicdncloud.com') || // Geo Restrict
       url.includes('ch7.com') || // Geo Restrict
       url.includes('rewriter.ais-vidnt.com') || // X-Base-Request-Check-Status: INCORRECT
       url.includes('vip-streaming.com') || // ECONNABORTED
       url.includes('cdn.mcot.net') || // Geo Restrict
-      url.includes('pptv36-1tsjfj.cdn.byteark.com')) // Geo Restrict
+      url.includes('pptv36-1tsjfj.cdn.byteark.com') || // Geo Restrict
+      url.includes('3bb.co.th') ||
+      url.includes('prsmedia') ||
+      url.includes('login.in.th'))
   ) {
     return true;
   }
@@ -897,14 +897,6 @@ const testUrl = async (url, options = {}) => {
       return true;
     } catch (error) {
       let errorMsg = error.code || error.response.status;
-
-      if (
-        process.env.NETLIFY &&
-        (url.includes('3bb.co.th') || url.includes('prsmedia') || url.includes('login.in.th'))
-      ) {
-        return true;
-      }
-
       errorMessageArray.push(errorMsg);
       await new Promise((resolve) => setTimeout(resolve, 300));
       attempt += 1;
