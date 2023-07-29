@@ -874,7 +874,7 @@ const testUrl = async (url, options = {}) => {
       url.includes('pptv36-1tsjfj.cdn.byteark.com') || // Geo Restrict
       url.includes('3bb.co.th') ||
       url.includes('prsmedia') ||
-      url.includes('login.in.th'))
+      url.includes('dailymotion.com'))
   ) {
     return true;
   }
