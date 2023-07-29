@@ -10,10 +10,11 @@ export default async function handler(request, response) {
     true4uhd: `https://true4u.com/live-api/signer-url?prefix=/live`,
   };
 
-  let channel = event.queryStringParameters.channel;
+  let channel = request.query.channel;
 
-  if (!Object.keys(config).includes(channel)) {
-    return { statusCode: 404, body: 'Parameter "channel" is required and it must be valid value.' };
+  if (!channel || !Object.keys(config).includes(channel)) {
+    response.status('404').send('Parameter "channel" is required and it must be valid value.');
+    return;
   }
 
   let pageUrl = config[channel];
@@ -21,8 +22,8 @@ export default async function handler(request, response) {
   let rawData = '';
 
   try {
-    const response = await axios.get(pageUrl);
-    rawData = response.data;
+    const fetchedResponse = await axios.get(pageUrl);
+    rawData = fetchedResponse.data;
 
     if (channel === 'tnn16hd') {
       // let regExpMatchArray = rawData.match(/https:\/\/.[^"']+?\.m3u8(\?[^"']+)?/);
@@ -36,10 +37,10 @@ export default async function handler(request, response) {
       streamingUrl = rawData.replace('playlist.m3u8', 'pl_720p/index.m3u8');
     }
 
-    console.log(`request ${event.queryStringParameters.channel}\nreturn ${streamingUrl}`);
+    console.log(`request ${request.query.channel}\nreturn ${streamingUrl}`);
     console.log('='.repeat(20));
   } catch (error) {
-    console.error(`request ${event.queryStringParameters.channel}\nreturn ${error}`);
+    console.error(`request ${request.query.channel}\nreturn ${error}`);
     console.error('='.repeat(20));
   }
 
