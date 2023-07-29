@@ -106,7 +106,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/tnn16.png',
     // tvgId: 'TNN16.th',
     sources: [
-      // { url: 'https://iptv36.netlify.app/api/true?channel=tnn16hd', suffix: 'HD' },
+      // { url: 'https://iptv36.vercel.app/api/true?channel=tnn16hd', suffix: 'HD' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202306140918/chtnn/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -171,7 +171,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/true4u.png',
     // tvgId: 'True4U.th',
     sources: [
-      { url: 'https://iptv36.netlify.app/api/true?channel=true4uhd', suffix: 'HD' },
+      { url: 'https://iptv36.vercel.app/api/true?channel=true4uhd', suffix: 'HD' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202306140918/chtrue4u3/index.m3u8',
         options: { userAgent: defaultUserAgent },
