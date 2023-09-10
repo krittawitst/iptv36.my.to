@@ -255,6 +255,7 @@ const getEpgDataFromTrueId = async () => {
   const epgData = [];
 
   for (const channel of rawData) {
+    if (channel === null) continue;
     const channelKey = channelSlugToChannelKey[channel.slug];
     for (const program of channel.programList) {
       if (program.status === false) {
