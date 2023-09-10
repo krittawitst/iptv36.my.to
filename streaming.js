@@ -524,7 +524,18 @@ const streamingInfo = {
     logo: 'https://i.imgur.com/vUJZSvs.png',
     // tvgId: 'beINSports2Thailand.th',
     groupName: 'Sport',
-    sources: [],
+    sources: [
+      {
+        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/bein2/playlist.m3u8',
+        options: { referer: 'https://dooball2you.com/' },
+        suffix: 'HD',
+      },
+      {
+        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/bein2/playlist.m3u8',
+        options: { referer: 'https://www.livestream88.com/' },
+        suffix: 'HD',
+      },
+    ],
   },
 
   bein3: {
@@ -534,12 +545,12 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/bein2/playlist.m3u8',
+        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/bein3/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
         suffix: 'HD',
       },
       {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/bein2/playlist.m3u8',
+        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/bein3/playlist.m3u8',
         options: { referer: 'https://www.livestream88.com/' },
         suffix: 'HD',
       },

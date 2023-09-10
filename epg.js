@@ -188,7 +188,6 @@ const getEpgDataFromAisPlay = async () => {
 const getEpgDataFromTrueId = async () => {
   console.log('Fetching epg data from trueID...');
 
-  // mapping tvg id
   const channelSlugToChannelKey = {
     truepremierfootballhd1: 'premier1',
     truepremierfootballhd2: 'premier2',
@@ -199,44 +198,29 @@ const getEpgDataFromTrueId = async () => {
     'truesport-hd-2': 'truesportshd2',
   };
 
-  // build parameter
-  const currentDatetime = new Date();
-  const currentDatetimePlus7Hrs = new Date(currentDatetime.getTime() + 7 * 3600 * 1000);
-  const currentDatetimePlus31Hrs = new Date(currentDatetime.getTime() + 31 * 3600 * 1000);
-  const currentDatetimePlus55Hrs = new Date(currentDatetime.getTime() + 55 * 3600 * 1000);
-  const firstBkkDateStr = currentDatetimePlus7Hrs.toISOString().slice(0, 10);
-  const secondBkkDateStr = currentDatetimePlus31Hrs.toISOString().slice(0, 10);
-  const thirdBkkDateStr = currentDatetimePlus55Hrs.toISOString().slice(0, 10);
-
   // send request
-  const rawDataArray = await Promise.all(
-    [firstBkkDateStr, secondBkkDateStr, thirdBkkDateStr].map(async (dateStr) => {
+  const allPageProps = await Promise.all(
+    Object.keys(channelSlugToChannelKey).map(async (channelSlug) => {
       try {
-        const epgUrl = `https://tv.trueid.net/tvguide/trueidtv-sport/${dateStr}`;
+        const epgUrl = `https://tv.trueid.net/th-th/live/${channelSlug}`;
         const response = await axios.get(epgUrl);
         if (response.status === 200) {
           const $ = cheerio.load(response.data);
           const nextData = $('#__NEXT_DATA__').html();
           const data = JSON.parse(nextData);
-          if (
-            !data ||
-            !data.props ||
-            !data.props.pageProps ||
-            !data.props.pageProps.listEPG ||
-            !Array.isArray(data.props.pageProps.listEPG.data)
-          ) {
+          if (!data || !data.props || !data.props.pageProps) {
             return null;
           }
-          return data.props.pageProps.listEPG.data.filter((ch) =>
-            Object.keys(channelSlugToChannelKey).includes(ch.slug)
-          );
+          return data.props.pageProps;
         }
         return null;
       } catch (error) {
         if (error.response) {
           // The request was made and the server responded with a status code
           // that falls out of the range of 2xx
-          console.log(`trueid_epg response error => ${error.response.status}: ${error.response.data}`);
+          console.log(
+            `trueid_epg response error on ${channelSlug} => ${error.response.status}: ${error.response.data}`
+          );
         } else if (error.request) {
           // The request was made but no response was received
           // `error.request` is an instance of XMLHttpRequest in the browser and an instance of
@@ -249,29 +233,22 @@ const getEpgDataFromTrueId = async () => {
       }
     })
   );
-  const rawData = rawDataArray.flat();
 
   // process data
   const epgData = [];
 
-  for (const channel of rawData) {
-    if (channel === null) continue;
-    const channelKey = channelSlugToChannelKey[channel.slug];
-    for (const program of channel.programList) {
+  for (const pageProps of allPageProps) {
+    if (pageProps === null) continue;
+
+    const channelKey = channelSlugToChannelKey[pageProps.channelSlug];
+    for (const program of pageProps.epgList) {
       if (program.status === false) {
         continue;
       }
-      const programEnd = new Date(program.detail.end_date);
-      if (programEnd < currentDatetime) {
-        continue;
-      }
-      const programStartStr = `${program.detail.start_date.slice(0, 19).replace(/-|:|T/g, '')} +0000`;
-      const programEndStr = `${program.detail.end_date.slice(0, 19).replace(/-|:|T/g, '')} +0000`;
+      const programStartStr = `${program.start_date.slice(0, 19).replace(/-|:|T/g, '')} +0000`;
+      const programEndStr = `${program.end_date.slice(0, 19).replace(/-|:|T/g, '')} +0000`;
       const programTitle = program.title ? program.title.trim() : 'No Program Name';
-      let programDescription = undefined;
-      if (program.detail.ep_name && program.detail.ep_name.trim()) {
-        programDescription = program.detail.ep_name.trim();
-      }
+      const programDescription = program.ep_name || program.info.synopsis_th;
       epgData.push({
         programStartStr,
         programEndStr,
