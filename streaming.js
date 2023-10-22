@@ -1,4 +1,6 @@
 const axios = require('axios');
+const cheerio = require('cheerio');
+const get = require('lodash/get');
 
 const defaultUserAgent =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.78';
@@ -753,11 +755,6 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
   const config = [
     // [channelKey, priority, metaUrl]
     ['nation', undefined, 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
-    [
-      'workpoint',
-      undefined,
-      'https://www.dailymotion.com/player/metadata/video/k28IxkHn9OkzvvqoVob?embedder=https%3A%2F%2Fwww.workpointtv.com%2F&geo=1&player-id=x8wpe&locale=th&dmV1st=e0b9f14d-0f2e-4d3b-bb84-b045f1675c2b&dmTs=493785&is_native_app=0',
-    ],
   ];
 
   const suffixMapping = {
@@ -823,20 +820,21 @@ const dynamicallyAddStreamingUrlFromByteArkNextData = async () => {
       'amarin',
       'FHD',
       'https://www.amarintv.com/live',
+      'regexp',
       /https:\/\/amarin-ks7jcc\.cdn\.byteark\.com\/fleetstream\/amarin-live\/index\.m3u8[^"]+/,
     ],
-    [
-      'ch3',
-      'HD',
-      'https://ch3plus.com/live',
-      /https:\/\/bec-streaming-jb5qph\.cdn\.byteark\.com\/live\/playlist\.m3u8[^"]+/,
-    ],
+    // [
+    //   'ch3',
+    //   'HD',
+    //   'https://ch3plus.com/live',
+    //   'cheerio',
+    //   /https:\/\/bec-streaming-jb5qph\.cdn\.byteark\.com\/live\/playlist\.m3u8[^"]+/,
+    // ],
+    // null
   ];
 
-  // props.initialState.liveReducer.live.streamUrl;
-
   await Promise.all(
-    config.map(async ([channelKey, suffix, pageUrl, regExp]) => {
+    config.map(async ([channelKey, suffix, pageUrl, mode, regExp]) => {
       let pageHtml = '';
       try {
         const response = await axios.get(pageUrl);
@@ -846,13 +844,27 @@ const dynamicallyAddStreamingUrlFromByteArkNextData = async () => {
         console.error(error);
       }
 
-      let regExpMatchArray = pageHtml.match(regExp);
-      if (regExpMatchArray) {
-        let url = regExpMatchArray[0].replace(/\\u0026/g, '&');
-        streamingInfo[channelKey].sources.unshift({ url, suffix });
-        console.log(`  / added ${channelKey}`);
-      } else {
-        console.log(pageHtml);
+      if (mode === 'regexp') {
+        let regExpMatchArray = pageHtml.match(regExp);
+        if (regExpMatchArray) {
+          let url = regExpMatchArray[0].replace(/\\u0026/g, '&');
+          streamingInfo[channelKey].sources.unshift({ url, suffix });
+          console.log(`  / added ${channelKey}`);
+        } else {
+          console.log(`  X regex didn't match ${channelKey}`);
+        }
+      } else if (mode === 'cheerio') {
+        const $ = cheerio.load(pageHtml);
+        const nextData = $('#__NEXT_DATA__').html();
+        const data = JSON.parse(nextData);
+        const streamUrl = get(data, 'data.props.initialState.liveReducer.live.streamUrl');
+        console.log(data.props.initialState.liveReducer);
+        if (streamUrl) {
+          streamingInfo[channelKey].sources.unshift({ streamUrl, suffix });
+          console.log(`  / added ${channelKey}`);
+        } else {
+          console.log(`  X nextdata cannot read ${channelKey}`);
+        }
       }
     })
   );
@@ -897,7 +909,8 @@ const testUrl = async (url, options = {}) => {
       url.includes('pptv36-1tsjfj.cdn.byteark.com') || // Geo Restrict
       url.includes('3bb.co.th') ||
       url.includes('prsmedia') ||
-      url.includes('dailymotion.com'))
+      url.includes('dailymotion.com') ||
+      url.includes('tnn16hd'))
   ) {
     return true;
   }
