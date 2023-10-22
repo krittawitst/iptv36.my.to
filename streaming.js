@@ -11,13 +11,12 @@ const streamingInfo = {
     // tvgId: 'NBT2.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/202306140918/chnbt3/index.m3u8',
-        options: { userAgent: defaultUserAgent },
-        suffix: 'HD',
+        url: 'https://cdn-edge.iiptvcdn.com/live_event/smil:f180-054a-38d7-ce66-f7cf.smil/playlist.m3u8',
+        suffix: 'FHD',
       },
       {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/nbt/playlist.m3u8',
-        options: { referer: 'https://www.livestream88.com/' },
+        url: 'https://cdn6.goprimetime.info/feed/202306140918/chnbt3/index.m3u8',
+        options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
     ],
@@ -63,11 +62,11 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
-      {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/5hd/playlist.m3u8',
-        options: { referer: 'https://www.livestream88.com/' },
-        suffix: 'HD',
-      },
+      // {
+      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/5hd/playlist.m3u8',
+      //   options: { referer: 'https://www.livestream88.com/' },
+      //   suffix: 'HD',
+      // },
     ],
   },
 
@@ -106,15 +105,15 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/tnn16.png',
     // tvgId: 'TNN16.th',
     sources: [
-      // { url: 'https://iptv36.vercel.app/api/true?channel=tnn16hd', suffix: 'HD' },
+      { url: 'https://iptv36.vercel.app/api/true?channel=tnn16hd', suffix: 'HD' },
       {
         url: 'https://cdn6.goprimetime.info/feed/202306140918/chtnn/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/tnn16/playlist.m3u8',
-        options: { referer: 'https://www.livestream88.com/' },
-      },
+      // {
+      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/tnn16/playlist.m3u8',
+      //   options: { referer: 'https://www.livestream88.com/' },
+      // },
     ],
   },
 
@@ -143,10 +142,10 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202306140918/chnation/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/nation/playlist.m3u8',
-        options: { referer: 'https://www.livestream88.com/' },
-      },
+      // {
+      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/nation/playlist.m3u8',
+      //   options: { referer: 'https://www.livestream88.com/' },
+      // },
     ],
   },
 
@@ -206,10 +205,10 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/202306140918/ch8/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/ch8/playlist.m3u8',
-        options: { referer: 'https://www.livestream88.com/' },
-      },
+      // {
+      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/ch8/playlist.m3u8',
+      //   options: { referer: 'https://www.livestream88.com/' },
+      // },
     ],
   },
 
@@ -262,11 +261,11 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
-      {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/mcothd/digitaltv/mcothd/chunks.m3u8',
-        options: { referer: 'https://www.livestream88.com/' },
-        suffix: 'HD',
-      },
+      // {
+      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/mcothd/digitaltv/mcothd/chunks.m3u8',
+      //   options: { referer: 'https://www.livestream88.com/' },
+      //   suffix: 'HD',
+      // },
     ],
   },
 
@@ -281,8 +280,8 @@ const streamingInfo = {
         suffix: 'HD',
       },
       {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/one31/playlist.m3u8',
-        options: { referer: 'https://www.livestream88.com/' },
+        url: 'https://bcovlive-a.akamaihd.net/e11d0db446fe41fe9be61157033f9325/ap-southeast-1/6415628290001/playlist.m3u8',
+        options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
     ],
@@ -303,11 +302,11 @@ const streamingInfo = {
         url: 'https://streaming-web.thairath.co.th/hls/playlist_hi.m3u8',
         suffix: 'HD',
       },
-      {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/thairathtv/digitaltv/thairath/chunks.m3u8',
-        options: { referer: 'https://www.livestream88.com/' },
-        suffix: 'HD',
-      },
+      // {
+      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/thairathtv/digitaltv/thairath/chunks.m3u8',
+      //   options: { referer: 'https://www.livestream88.com/' },
+      //   suffix: 'HD',
+      // },
     ],
   },
 
@@ -339,11 +338,11 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
-      {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/amarin/digitaltv/amarin/chunks.m3u8',
-        options: { referer: 'https://www.livestream88.com/' },
-        suffix: 'HD',
-      },
+      // {
+      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/amarin/digitaltv/amarin/chunks.m3u8',
+      //   options: { referer: 'https://www.livestream88.com/' },
+      //   suffix: 'HD',
+      // },
     ],
   },
 
@@ -375,10 +374,10 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
-      {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/pptv/digitaltv/pptv/chunks.m3u8',
-        options: { referer: 'https://www.livestream88.com/' },
-      },
+      // {
+      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/pptv/digitaltv/pptv/chunks.m3u8',
+      //   options: { referer: 'https://www.livestream88.com/' },
+      // },
     ],
   },
 
@@ -754,6 +753,11 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
   const config = [
     // [channelKey, priority, metaUrl]
     ['nation', undefined, 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
+    [
+      'workpoint',
+      undefined,
+      'https://www.dailymotion.com/player/metadata/video/k28IxkHn9OkzvvqoVob?embedder=https%3A%2F%2Fwww.workpointtv.com%2F&geo=1&player-id=x8wpe&locale=th&dmV1st=e0b9f14d-0f2e-4d3b-bb84-b045f1675c2b&dmTs=493785&is_native_app=0',
+    ],
   ];
 
   const suffixMapping = {
@@ -821,7 +825,15 @@ const dynamicallyAddStreamingUrlFromByteArkNextData = async () => {
       'https://www.amarintv.com/live',
       /https:\/\/amarin-ks7jcc\.cdn\.byteark\.com\/fleetstream\/amarin-live\/index\.m3u8[^"]+/,
     ],
+    [
+      'ch3',
+      'HD',
+      'https://ch3plus.com/live',
+      /https:\/\/bec-streaming-jb5qph\.cdn\.byteark\.com\/live\/playlist\.m3u8[^"]+/,
+    ],
   ];
+
+  // props.initialState.liveReducer.live.streamUrl;
 
   await Promise.all(
     config.map(async ([channelKey, suffix, pageUrl, regExp]) => {
