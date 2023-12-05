@@ -219,7 +219,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/mono29.png',
     // tvgId: 'Mono29.th',
     sources: [
-      { url: 'https://live-3.monomax.me/tv/mono29_1440p.m3u8', suffix: 'FHD' },
+      { url: 'https://streaming.monomax.me/Mono29LiveStream/ngrp:myStream_all/playlist.m3u8', suffix: 'FHD' },
       {
         url: 'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080TH.stream/playlist.m3u8',
         suffix: 'FHD',
@@ -821,7 +821,7 @@ const dynamicallyAddStreamingUrlFromByteArkNextData = async () => {
       'FHD',
       'https://www.amarintv.com/live',
       'regexp',
-      /https:\/\/amarin-ks7jcc\.cdn\.byteark\.com\/fleetstream\/amarin-live\/index\.m3u8[^"]+/,
+      /https:\/\/amarin-ks7jcc\.cdn\.byteark\.com\/live\/playlist.m3u8[^"]+/,
     ],
     // [
     //   'ch3',
