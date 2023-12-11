@@ -30,8 +30,7 @@ const streamingInfo = {
     // tvgId: 'ThaiPBS3.th',
     sources: [
       {
-        url: 'https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8',
-        options: { userAgent: defaultUserAgent, referer: 'https://www.thaipbs.or.th/' },
+        url: 'https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8',
         suffix: 'FHD',
         priority: 35,
       },
@@ -161,6 +160,11 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/workpoint.png',
     // tvgId: 'Workpoint23.th',
     sources: [
+      {
+        url: 'https://stream-01.sg1.dailymotion.com/sec(xvicpH7H4LlcnXpZuORL-dC0PjwyJXdcQZ7EDAE0UtPYoWdR1DksdOLMSchSna3I)/cloud/3/x6g9qjj/s/live-3.m3u8',
+        suffix: 'HD',
+        priority: 30,
+      },
       {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chworkpoint/index.m3u8',
         options: { userAgent: defaultUserAgent },

@@ -112,11 +112,8 @@ const playlistV3 = {
     ...playlistV2.channelList,
 
     ['bein1'],
-    ['bein1', 1],
     ['bein2'],
-    ['bein2', 1],
     ['bein3'],
-    ['bein3', 1],
     ['premier1'],
     ['premier2'],
     ['premier3'],
