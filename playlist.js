@@ -118,7 +118,6 @@ const playlistV3 = {
     ['bein3'],
     ['bein3', 1],
     ['premier1'],
-    ['premier1', 1],
     ['premier2'],
     ['premier3'],
     ['premier4'],

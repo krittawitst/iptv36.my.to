@@ -31,7 +31,7 @@ const streamingInfo = {
     sources: [
       {
         url: 'https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8',
-        options: { referer: 'https://www.thaipbs.or.th/' },
+        options: { userAgent: defaultUserAgent, referer: 'https://www.thaipbs.or.th/' },
         suffix: 'FHD',
         priority: 35,
       },
@@ -164,10 +164,12 @@ const streamingInfo = {
       {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chworkpoint/index.m3u8',
         options: { userAgent: defaultUserAgent },
+        priority: 20,
       },
       {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC8/index.m3u8',
         options: { userAgent: defaultUserAgent },
+        priority: 10,
       },
       // {
       //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/workpoint/playlist.m3u8',
@@ -330,11 +332,13 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch3hd/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
+        priority: 20,
       },
       {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC52/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
+        priority: 10,
       },
       // {
       //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/3hd/digitaltv/3hd/chunks.m3u8',
@@ -584,10 +588,10 @@ const streamingInfo = {
     // tvgId: 'TruePremierFootball1.th',
     groupName: 'Sport',
     sources: [
-      {
-        url: 'https://219.livedoomovies.com:4431/02_PremierHD1_720p/chunklist.m3u8',
-        options: { referer: 'https://www.doomovie-hd.com/' },
-      },
+      // {
+      //   url: 'https://219.livedoomovies.com:4431/02_PremierHD1_720p/chunklist.m3u8',
+      //   options: { referer: 'https://www.doomovie-hd.com/' },
+      // },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/tpf1/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
@@ -606,10 +610,10 @@ const streamingInfo = {
     // tvgId: 'TruePremierFootball2.th',
     groupName: 'Sport',
     sources: [
-      {
-        url: 'https://219.livedoomovies.com:4431/02_PremierHD2_720p/chunklist.m3u8',
-        options: { referer: 'https://www.doomovie-hd.com/' },
-      },
+      // {
+      //   url: 'https://219.livedoomovies.com:4431/02_PremierHD2_720p/chunklist.m3u8',
+      //   options: { referer: 'https://www.doomovie-hd.com/' },
+      // },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/tpf2/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
@@ -627,10 +631,10 @@ const streamingInfo = {
     // tvgId: 'TruePremierFootball3.th',
     groupName: 'Sport',
     sources: [
-      {
-        url: 'https://sport.livedoomovies.com:4431/02_PremierHD3_720p/chunklist.m3u8',
-        options: { referer: 'https://www.doomovie-hd.com/' },
-      },
+      // {
+      //   url: 'https://sport.livedoomovies.com:4431/02_PremierHD3_720p/chunklist.m3u8',
+      //   options: { referer: 'https://www.doomovie-hd.com/' },
+      // },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/tpf3/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
@@ -645,9 +649,13 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://sport.livedoomovies.com:4431/02_PremierHD4_720p/chunklist.m3u8',
-        options: { referer: 'https://www.doomovie-hd.com/' },
+        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/tpf4/playlist.m3u8',
+        options: { referer: 'https://dooball2you.com/' },
       },
+      // {
+      //   url: 'https://sport.livedoomovies.com:4431/02_PremierHD4_720p/chunklist.m3u8',
+      //   options: { referer: 'https://www.doomovie-hd.com/' },
+      // },
     ],
   },
 
@@ -658,9 +666,13 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://sport.livedoomovies.com:4431/02_PremierHD5_720p/chunklist.m3u8',
-        options: { referer: 'https://www.doomovie-hd.com/' },
+        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/tpf5/playlist.m3u8',
+        options: { referer: 'https://dooball2you.com/' },
       },
+      // {
+      //   url: 'https://sport.livedoomovies.com:4431/02_PremierHD5_720p/chunklist.m3u8',
+      //   options: { referer: 'https://www.doomovie-hd.com/' },
+      // },
     ],
   },
 
@@ -688,9 +700,13 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://live.vip-streaming.com:30443/cloudstreaming/true-sport-2/playlist.m3u8',
-        options: { referer: 'https://ufabetcompany.com' },
+        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/truesporthd2/playlist.m3u8',
+        options: { referer: 'https://dooball2you.com/' },
       },
+      // {
+      //   url: 'https://live.vip-streaming.com:30443/cloudstreaming/true-sport-2/playlist.m3u8',
+      //   options: { referer: 'https://ufabetcompany.com' },
+      // },
     ],
   },
 
