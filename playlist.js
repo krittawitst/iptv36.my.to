@@ -102,6 +102,7 @@ const playlistV2 = {
     ['tvb'],
     ['ctb'],
     ['cartoonclub'],
+    ['boomerang'],
   ],
 };
 

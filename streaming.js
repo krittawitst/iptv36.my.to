@@ -29,7 +29,12 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/thaipbs.png',
     // tvgId: 'ThaiPBS3.th',
     sources: [
-      { url: 'https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8', suffix: 'FHD', priority: 35 },
+      {
+        url: 'https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8',
+        options: { referer: 'https://www.thaipbs.or.th/' },
+        suffix: 'FHD',
+        priority: 35,
+      },
       {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chthaipbs3/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -161,8 +166,8 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
       },
       {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/allball168/workpoint/playlist.m3u8',
-        options: { referer: 'https://allball168.com/' },
+        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC8/index.m3u8',
+        options: { userAgent: defaultUserAgent },
       },
       // {
       //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/workpoint/playlist.m3u8',
@@ -327,13 +332,8 @@ const streamingInfo = {
         suffix: 'HD',
       },
       {
-        url: 'https://freelive2.inwstream.com:1936/freelive-edge/3hd/chunks.m3u8',
-        options: { referer: 'https://freelive2.inwstream.com:1936/' },
-        suffix: 'HD',
-      },
-      {
-        url: 'https://rr5---sn-w5nuxa-c33lk-34.googleuservideo.com/doofootball_r2/3hd_480p/chunks.m3u8',
-        options: { referer: 'https://dooball2you.com/' },
+        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC52/index.m3u8',
+        options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
       // {
@@ -410,7 +410,13 @@ const streamingInfo = {
   boomerang: {
     channelName: 'Boomerang',
     logo: 'https://iptv36.my.to/logo/boomerang.png',
-    sources: [],
+    sources: [
+      {
+        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chboomberang/index.m3u8',
+        options: { userAgent: defaultUserAgent },
+        suffix: 'HD',
+      },
+    ],
   },
 
   toonee: {
