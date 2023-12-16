@@ -403,6 +403,7 @@ const streamingInfo = {
   cartoonclub: {
     channelName: 'Cartoon Club',
     logo: 'https://iptv36.my.to/logo/cartoonclub.png',
+    groupName: 'Other',
     sources: [
       {
         url: 'https://edge1-bkk.3bb.co.th:9443/cartoonLiveApp/cartoonLiveApp.stream/chunklist_w859044783.m3u8',
@@ -413,6 +414,7 @@ const streamingInfo = {
   boomerang: {
     channelName: 'Boomerang',
     logo: 'https://iptv36.my.to/logo/boomerang.png',
+    groupName: 'Other',
     sources: [
       {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chboomberang/index.m3u8',
@@ -437,6 +439,7 @@ const streamingInfo = {
   tvb: {
     channelName: 'TVB Thai FHD',
     logo: 'https://iptv36.my.to/logo/tvb.png',
+    groupName: 'Other',
     sources: [
       {
         url: 'https://edge6a.v2h-cdn.com/tvb_thai/tvb_thai.stream/playlist.m3u8',
@@ -469,7 +472,7 @@ const streamingInfo = {
   ctb: {
     channelName: 'CTB FHD',
     logo: 'https://sv1.picz.in.th/images/2022/10/11/pHGfHP.png',
-    groupName: 'Movie',
+    groupName: 'Other',
     sources: [
       {
         url: 'http://vip.login.in.th:1935/CTB/CTB/chunklist.m3u8',
