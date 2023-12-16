@@ -2,7 +2,7 @@ const playlistV1 = {
   filename: 'playlist-v1.m3u',
   channelList: [
     // 1-10
-    ['workpoint', 1],
+    ['boomerang'],
     ['nbt'],
     ['thaipbs'],
     ['altv'],
@@ -16,7 +16,7 @@ const playlistV1 = {
     // 11-20
     ['one', 1],
     ['thairath', 1],
-    ['ch3', 1],
+    ['ctb'],
     ['amarin', 1],
     ['ch7', 1],
     ['tnn16'],

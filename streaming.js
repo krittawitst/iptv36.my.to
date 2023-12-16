@@ -161,11 +161,6 @@ const streamingInfo = {
     // tvgId: 'Workpoint23.th',
     sources: [
       {
-        url: 'https://stream-01.sg1.dailymotion.com/sec(xvicpH7H4LlcnXpZuORL-dC0PjwyJXdcQZ7EDAE0UtPYoWdR1DksdOLMSchSna3I)/cloud/3/x6g9qjj/s/live-3.m3u8',
-        suffix: 'HD',
-        priority: 30,
-      },
-      {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chworkpoint/index.m3u8',
         options: { userAgent: defaultUserAgent },
         priority: 20,
@@ -540,11 +535,11 @@ const streamingInfo = {
         options: { referer: 'https://dooball2you.com/' },
         suffix: 'HD',
       },
-      {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/bein1/playlist.m3u8',
-        options: { referer: 'https://www.livestream88.com/' },
-        suffix: 'HD',
-      },
+      // {
+      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/bein1/playlist.m3u8',
+      //   options: { referer: 'https://www.livestream88.com/' },
+      //   suffix: 'HD',
+      // },
     ],
   },
 
@@ -559,11 +554,11 @@ const streamingInfo = {
         options: { referer: 'https://dooball2you.com/' },
         suffix: 'HD',
       },
-      {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/bein2/playlist.m3u8',
-        options: { referer: 'https://www.livestream88.com/' },
-        suffix: 'HD',
-      },
+      // {
+      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/bein2/playlist.m3u8',
+      //   options: { referer: 'https://www.livestream88.com/' },
+      //   suffix: 'HD',
+      // },
     ],
   },
 
@@ -578,11 +573,11 @@ const streamingInfo = {
         options: { referer: 'https://dooball2you.com/' },
         suffix: 'HD',
       },
-      {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/bein3/playlist.m3u8',
-        options: { referer: 'https://www.livestream88.com/' },
-        suffix: 'HD',
-      },
+      // {
+      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/bein3/playlist.m3u8',
+      //   options: { referer: 'https://www.livestream88.com/' },
+      //   suffix: 'HD',
+      // },
     ],
   },
 
@@ -707,10 +702,6 @@ const streamingInfo = {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/truesporthd2/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
       },
-      // {
-      //   url: 'https://live.vip-streaming.com:30443/cloudstreaming/true-sport-2/playlist.m3u8',
-      //   options: { referer: 'https://ufabetcompany.com' },
-      // },
     ],
   },
 
@@ -742,63 +733,6 @@ const generateAutoPriorityByFullChannelName = (channelName) => {
     return 20;
   } else {
     return 10;
-  }
-};
-
-const dynamicallyAddStreamingUrlFromAisPlay = async () => {
-  console.log('Getting dynamic streaming url from AIS PLAY...');
-
-  // config
-  let config = [
-    // [channelKey, channelNameSuffix, priority, code ]
-    ['nbt', 'FHD', undefined, 'B0001'],
-    ['thaipbs', 'FHD', undefined, 'B0014'],
-    ['tv5', 'FHD', undefined, 'B0007'],
-    ['tsports', '', undefined, 'B0129'],
-    ['tnn16', '', undefined, 'V0053'],
-    ['jkn18', '', undefined, 'B0010'],
-    ['nation', '', undefined, 'B0021'],
-    ['gmm25', '', undefined, 'B0019'],
-    ['mcot', 'FHD', undefined, 'B0008'],
-    ['one', 'FHD', undefined, 'B0012'],
-    ['thairath', 'FHD', undefined, 'B0013'],
-    ['ch3', 'FHD', undefined, 'B0003'],
-    ['amarin', 'FHD', undefined, 'B0017'],
-    ['ch7', 'FHD', undefined, 'B0018'],
-    ['pptv', 'FHD', undefined, 'B0022'],
-    ['topnews', 'FHD', undefined, 'V0033'],
-    ['boomerang', 'FHD', undefined, 'V0104'],
-    ['toonee', 'FHD', undefined, 'V0176'],
-    ['cartoonclub', '', undefined, 'V0100'],
-    ['mangkorn', 'FHD', undefined, 'V0159'],
-  ];
-
-  let kokowatvData;
-  try {
-    // const response = await axios.get('https://m.kokowatv.com/t.m3u', { headers: { 'User-Agent': 'Televizo' } });
-    // kokowatvData = response.data;
-
-    // const regExp = /^https:\/\/(?<ip>.+?)-rewriter.ais-vidnt.+\.m3u8\?(?<params>.+?)$/m;
-    // const regExpExecArray = regExp.exec(kokowatvData);
-
-    // if (regExpExecArray === null) {
-    //   throw new Error('regExpExecArray is null');
-    // }
-
-    for (const [channelKey, channelNameSuffix, priority, code] of config) {
-      // const url = `https://${regExpExecArray.groups.ip}-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/${code}/HLS/${code}.m3u8?${regExpExecArray.groups.params}`;
-      const url = `https://iptv36.netlify.app/api/aisplay/${channelKey}`;
-      streamingInfo[channelKey].sources.unshift({
-        url,
-        suffix: channelNameSuffix,
-        options: { referer: 'https://ais-vidnt.com/' },
-        priority,
-      });
-      console.log(`  / added ${channelKey}`);
-    }
-  } catch (error) {
-    console.log(`Cannot get data from kokowatv`);
-    console.log(error);
   }
 };
 
@@ -956,10 +890,9 @@ const testUrl = async (url, options = {}) => {
     process.env.VERCEL &&
     (url.includes('huaweicdncloud.com') || // Geo Restrict
       url.includes('ch7.com') || // Geo Restrict
-      url.includes('rewriter.ais-vidnt.com') || // X-Base-Request-Check-Status: INCORRECT
-      url.includes('vip-streaming.com') || // ECONNABORTED
       url.includes('cdn.mcot.net') || // Geo Restrict
       url.includes('pptv36-1tsjfj.cdn.byteark.com') || // Geo Restrict
+      url.includes('amarin-ks7jcc.cdn.byteark.com') || // Geo Restrict
       url.includes('3bb.co.th') ||
       url.includes('prsmedia') ||
       url.includes('dailymotion.com') ||
@@ -1063,7 +996,6 @@ const getStreamingInfo = async (channelKey, skip = 0) => {
 
 module.exports = {
   getStreamingInfo,
-  dynamicallyAddStreamingUrlFromAisPlay,
   dynamicallyAddStreamingUrlFromDailyMotion,
   dynamicallyAddStreamingUrlFromPPTV,
   dynamicallyAddStreamingUrlFromByteArkNextData,
