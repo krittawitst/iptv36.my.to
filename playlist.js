@@ -60,6 +60,7 @@ const playlistV2 = {
     ['tv5'],
     ['tv5', 1],
     ['tsports'],
+    ['tsports', 1],
     ['tptv'],
 
     // 11-20
@@ -103,6 +104,7 @@ const playlistV2 = {
     ['ctb'],
     ['cartoonclub'],
     ['boomerang'],
+    ['truexzyte'],
   ],
 };
 
@@ -116,11 +118,14 @@ const playlistV3 = {
     ['bein3'],
     ['premier1'],
     ['premier2'],
+    ['premier2', 1],
     ['premier3'],
     ['premier4'],
     ['premier5'],
     ['truesportshd1'],
+    ['truesportshd1', 1],
     ['truesportshd2'],
+    ['truesportshd2', 1],
   ],
 };
 

@@ -84,6 +84,10 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtsport/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
+      {
+        url: 'https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8',
+        options: { userAgent: defaultUserAgent },
+      },
     ],
   },
 
@@ -590,19 +594,10 @@ const streamingInfo = {
     // tvgId: 'TruePremierFootball1.th',
     groupName: 'Sport',
     sources: [
-      // {
-      //   url: 'https://219.livedoomovies.com:4431/02_PremierHD1_720p/chunklist.m3u8',
-      //   options: { referer: 'https://www.doomovie-hd.com/' },
-      // },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/tpf1/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
       },
-
-      // {
-      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/tpf1/playlist.m3u8',
-      //   options: { referer: 'https://www.livestream88.com/' },
-      // },
     ],
   },
 
@@ -612,18 +607,13 @@ const streamingInfo = {
     // tvgId: 'TruePremierFootball2.th',
     groupName: 'Sport',
     sources: [
-      // {
-      //   url: 'https://219.livedoomovies.com:4431/02_PremierHD2_720p/chunklist.m3u8',
-      //   options: { referer: 'https://www.doomovie-hd.com/' },
-      // },
+      {
+        url: 'https://str138.playhd.la/live1/premierleague2/playlist.m3u8',
+      },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/tpf2/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
       },
-      // {
-      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/tpf2/playlist.m3u8',
-      //   options: { referer: 'https://www.livestream88.com/' },
-      // },
     ],
   },
 
@@ -633,10 +623,6 @@ const streamingInfo = {
     // tvgId: 'TruePremierFootball3.th',
     groupName: 'Sport',
     sources: [
-      // {
-      //   url: 'https://sport.livedoomovies.com:4431/02_PremierHD3_720p/chunklist.m3u8',
-      //   options: { referer: 'https://www.doomovie-hd.com/' },
-      // },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/tpf3/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
@@ -654,10 +640,6 @@ const streamingInfo = {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/tpf4/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
       },
-      // {
-      //   url: 'https://sport.livedoomovies.com:4431/02_PremierHD4_720p/chunklist.m3u8',
-      //   options: { referer: 'https://www.doomovie-hd.com/' },
-      // },
     ],
   },
 
@@ -671,39 +653,46 @@ const streamingInfo = {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/tpf5/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
       },
-      // {
-      //   url: 'https://sport.livedoomovies.com:4431/02_PremierHD5_720p/chunklist.m3u8',
-      //   options: { referer: 'https://www.doomovie-hd.com/' },
-      // },
     ],
   },
 
   truesportshd1: {
     channelName: 'True Sports 1',
     logo: 'https://iptv36.my.to/logo/true_sports_hd.png',
-    // tvgId: 'TrueSports1.th',
     groupName: 'Sport',
     sources: [
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/truesporthd1/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
       },
-      // {
-      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/truesporthd1/playlist.m3u8',
-      //   options: { referer: 'https://www.livestream88.com/' },
-      // },
+      {
+        url: 'https://str136.playhd.la/threstr2/truesporthd/playlist.m3u8',
+      },
     ],
   },
 
   truesportshd2: {
     channelName: 'True Sports 2',
     logo: 'https://iptv36.my.to/logo/true_sports_hd2.png',
-    // tvgId: 'TrueSports2.th',
     groupName: 'Sport',
     sources: [
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/truesporthd2/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
+      },
+      {
+        url: 'https://str136.playhd.la/threstr2/truesporthd2/playlist.m3u8',
+      },
+    ],
+  },
+
+  truexzyte: {
+    channelName: 'True X-Zyte',
+    logo: 'http://tvsmagazine.com/images/channels/sm_034.jpg',
+    groupName: 'Other',
+    sources: [
+      {
+        url: 'https://str136.playhd.la/threstr2/truexzyte/playlist.m3u8',
       },
     ],
   },
