@@ -23,11 +23,11 @@ const playlistV1 = {
     ['tnn16', 1],
     ['jkn18'],
     ['tvb'],
-    ['news1'],
+    ['true4u', 1],
 
     // 21-30
-    ['topnews'],
     ['nation'],
+    ['nation', 1],
     ['workpoint'],
     ['true4u'],
     ['gmm25'],
@@ -58,29 +58,28 @@ const playlistV2 = {
     ['altv'],
     ['altv', 1],
     ['tv5'],
-    ['tv5', 1],
     ['tsports'],
-    ['tsports', 1],
     ['tptv'],
+    ['tptv', 1],
 
     // 11-20
-    ['tptv', 1],
     ['tnn16'],
     ['tnn16', 1],
     ['jkn18'],
     ['nation'],
     ['nation', 1],
     ['workpoint'],
-    ['workpoint', 1],
     ['true4u'],
     ['true4u', 1],
-
-    // 21-30
     ['gmm25'],
     ['gmm25', 1],
+
+    // 21-30
     ['ch8'],
     ['ch8', 1],
     ['mono29'],
+    ['mono29', 1],
+    ['mono29', 2],
     ['mono29soundtrack'],
     ['mcot'],
     ['mcot', 1],
@@ -91,20 +90,18 @@ const playlistV2 = {
     ['thairath'],
     ['thairath', 1],
     ['ch3'],
-    ['ch3', 1],
     ['amarin'],
     ['amarin', 1],
     ['ch7'],
     ['ch7', 1],
     ['pptv'],
     ['pptv', 1],
-
-    // 41-50
     ['tvb'],
+
+    // 41-43
     ['ctb'],
     ['cartoonclub'],
     ['boomerang'],
-    ['truexzyte'],
   ],
 };
 
@@ -113,9 +110,16 @@ const playlistV3 = {
   channelList: [
     ...playlistV2.channelList,
 
+    ['samrujlok'],
+    ['lovenature'],
+    ['truexzyte'],
+    ['hbo'],
+
     ['bein1'],
+    ['bein1', 1],
     ['bein2'],
     ['bein3'],
+
     ['premier1'],
     ['premier2'],
     ['premier2', 1],
