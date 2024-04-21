@@ -58,35 +58,38 @@ const playlistV2 = {
     ['altv'],
     ['altv', 1],
     ['tv5'],
+    ['tv5', 1],
     ['tsports'],
-    ['tptv'],
-    ['tptv', 1],
+    ['tsports', 1],
 
     // 11-20
+    ['tptv'],
+    ['tptv', 1],
     ['tnn16'],
     ['tnn16', 1],
     ['jkn18'],
+    ['jkn18', 1],
     ['nation'],
     ['nation', 1],
     ['workpoint'],
+    ['workpoint', 1],
+
+    // 21-30
     ['true4u'],
     ['true4u', 1],
     ['gmm25'],
     ['gmm25', 1],
-
-    // 21-30
     ['ch8'],
     ['ch8', 1],
     ['mono29'],
-    ['mono29', 1],
     ['mono29soundtrack'],
     ['mcot'],
     ['mcot', 1],
+
+    // 31-40
     ['one'],
     ['one', 1],
     ['thairath'],
-
-    // 31-40
     ['thairath', 1],
     ['ch3'],
     ['ch3', 1],
@@ -94,13 +97,15 @@ const playlistV2 = {
     ['amarin', 1],
     ['ch7'],
     ['ch7', 1],
+
+    // 41
     ['pptv'],
     ['pptv', 1],
     ['tvb'],
-
-    // 41
     ['cartoonclub'],
     ['boomerang'],
+    ['samrujlok'],
+    ['lovenature'],
   ],
 };
 
@@ -109,16 +114,16 @@ const playlistV3 = {
   channelList: [
     ...playlistV2.channelList,
 
-    ['samrujlok'],
-    ['lovenature'],
-
     ['bein1'],
     ['bein1', 1],
     ['bein2'],
+    ['bein2', 1],
     ['bein3'],
 
     ['premier1'],
+    ['premier1', 1],
     ['premier2'],
+    ['premier2', 1],
     ['premier3'],
     ['premier4'],
     ['premier5'],

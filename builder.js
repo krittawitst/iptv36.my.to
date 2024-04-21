@@ -16,7 +16,7 @@ const main = async () => {
   }
 
   // dynamically add streaming url
-  await streaming.dynamicallyAddStreamingUrlFromDailyMotion();
+  // await streaming.dynamicallyAddStreamingUrlFromDailyMotion();
   await streaming.dynamicallyAddStreamingUrlFromPPTV();
   await streaming.dynamicallyAddStreamingUrlFromByteArkNextData();
 

@@ -59,6 +59,10 @@ const streamingInfo = {
     // tvgId: 'ThaiTV5HD1.th',
     sources: [
       {
+        url: 'https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8',
+        suffix: 'FHD',
+      },
+      {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch5hd/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
@@ -73,6 +77,9 @@ const streamingInfo = {
       {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtsport3/index.m3u8',
         options: { userAgent: defaultUserAgent },
+      },
+      {
+        url: ' https://edge6a.v2h-cdn.com/t_sport/t_sport.stream/playlist.m3u8',
       },
     ],
   },
@@ -111,7 +118,11 @@ const streamingInfo = {
     // tvgId: 'JKN18.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/newtv/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/newtv3/index.m3u8',
+        options: { userAgent: defaultUserAgent },
+      },
+      {
+        url: 'https://edge6a.v2h-cdn.com/jkn18/jkn18.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -122,6 +133,10 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/nation.png',
     // tvgId: 'NationTV.th',
     sources: [
+      {
+        url: 'https://live.nationtv.tv/live/nationtv_testlive.m3u8',
+        suffix: 'HD',
+      },
       {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chnation3/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -137,7 +152,9 @@ const streamingInfo = {
       {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chworkpoint/index.m3u8',
         options: { userAgent: defaultUserAgent },
-        priority: 20,
+      },
+      {
+        url: 'https://edge6a.v2h-cdn.com/workpoint/workpoint.stream/playlist.m3u8',
       },
     ],
   },
@@ -203,6 +220,7 @@ const streamingInfo = {
       {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chmono29/index.m3u8',
         options: { userAgent: defaultUserAgent },
+        priority: 34,
       },
     ],
   },
@@ -279,16 +297,13 @@ const streamingInfo = {
     // tvgId: 'Channel3.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch3hd/index.m3u8',
-        options: { userAgent: defaultUserAgent },
+        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch3hd3/index.m3u8',
         suffix: 'HD',
-        priority: 20,
+        options: { userAgent: defaultUserAgent },
       },
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch3hd3/index.m3u8',
-        options: { userAgent: defaultUserAgent },
+        url: 'https://edge6a.v2h-cdn.com/3hd/3hd.stream/playlist.m3u8',
         suffix: 'HD',
-        priority: 10,
       },
     ],
   },
@@ -303,11 +318,10 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
-      // {
-      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/amarin/digitaltv/amarin/chunks.m3u8',
-      //   options: { referer: 'https://www.livestream88.com/' },
-      //   suffix: 'HD',
-      // },
+      {
+        url: 'https://edge6a.v2h-cdn.com/amarinhd/amarinhd.stream/playlist.m3u8',
+        suffix: 'HD',
+      },
     ],
   },
 
@@ -340,6 +354,9 @@ const streamingInfo = {
         suffix: 'HD',
       },
       {
+        url: 'https://edge6a.v2h-cdn.com/pptv/pptv.stream/playlist.m3u8',
+      },
+      {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/pptv/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
       },
@@ -352,7 +369,7 @@ const streamingInfo = {
     groupName: 'Other',
     sources: [
       {
-        url: 'https://edge1-bkk.3bb.co.th:9443/cartoonLiveApp/cartoonLiveApp.stream/chunklist_w859044783.m3u8',
+        url: 'https://edge2-bkk.3bb.co.th:9443/Web_CartoonClub_Live/cartoonclub_480P.stream/chunklist.m3u8',
       },
     ],
   },
@@ -365,6 +382,10 @@ const streamingInfo = {
       {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chboomberang/index.m3u8',
         options: { userAgent: defaultUserAgent },
+        suffix: 'HD',
+      },
+      {
+        url: 'https://edge6a.v2h-cdn.com/boomerang/boomerang.stream/playlist.m3u8',
         suffix: 'HD',
       },
     ],
@@ -386,11 +407,6 @@ const streamingInfo = {
     logo: 'https://i0.wp.com/www.nextsteptv.com/wp-content/uploads/2017/06/Samrulok_logo_on_top.jpg',
     groupName: 'Other',
     sources: [
-      // {
-      //   url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC52/index.m3u8',
-      //   options: { userAgent: defaultUserAgent },
-      //   suffix: 'HD',
-      // },
       {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC8/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -424,7 +440,7 @@ const streamingInfo = {
       {
         url: 'https://ctrl.laotv.la/live/Bsport1/index.m3u8',
         options: { referer: 'https://laotv.la' },
-        suffix: 'HD',
+        suffix: 'FHD',
       },
     ],
   },
@@ -440,11 +456,11 @@ const streamingInfo = {
         options: { referer: 'https://dooball2you.com/' },
         suffix: 'HD',
       },
-      // {
-      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/bein2/playlist.m3u8',
-      //   options: { referer: 'https://www.livestream88.com/' },
-      //   suffix: 'HD',
-      // },
+      {
+        url: 'https://ctrl.laotv.la/live/Bsport2/index.m3u8',
+        options: { referer: 'https://laotv.la' },
+        suffix: 'FHD',
+      },
     ],
   },
 
@@ -459,11 +475,6 @@ const streamingInfo = {
         options: { referer: 'https://dooball2you.com/' },
         suffix: 'HD',
       },
-      // {
-      //   url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/livestream88/bein3/playlist.m3u8',
-      //   options: { referer: 'https://www.livestream88.com/' },
-      //   suffix: 'HD',
-      // },
     ],
   },
 
@@ -477,6 +488,11 @@ const streamingInfo = {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/tpf1/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
       },
+      {
+        url: 'https://edge1.laotv.la/live/TSport1/sc-gaFECQ/v1/index.m3u8',
+        options: { referer: 'https://laotv.la' },
+        suffix: 'FHD',
+      },
     ],
   },
 
@@ -489,6 +505,11 @@ const streamingInfo = {
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/tpf2/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
+      },
+      {
+        url: 'https://edge1.laotv.la/live/TSport2/sc-gaFECQ/v1/index.m3u8',
+        options: { referer: 'https://laotv.la' },
+        suffix: 'FHD',
       },
     ],
   },
@@ -603,7 +624,7 @@ const dynamicallyAddStreamingUrlFromDailyMotion = async () => {
 
   const config = [
     // [channelKey, priority, metaUrl]
-    ['nation', undefined, 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
+    // ['nation', undefined, 'https://www.dailymotion.com/player/metadata/video/x6eoldf'],
   ];
 
   const suffixMapping = {
@@ -664,7 +685,7 @@ const dynamicallyAddStreamingUrlFromByteArkNextData = async () => {
   console.log('Getting dynamic streaming url from ByteArk NextData...');
 
   const config = [
-    // [channelKey, suffix, pageUrl, regExp]
+    // [channelKey, suffix, pageUrl, mode, regExp]
     [
       'amarin',
       'FHD',
@@ -673,14 +694,6 @@ const dynamicallyAddStreamingUrlFromByteArkNextData = async () => {
       // /https:\/\/amarin-ks7jcc\.cdn\.byteark\.com\/live\/playlist.m3u8[^"]+/,
       /https:\/\/amarin-ks7jcc\.cdn\.byteark\.com\/fleetstream\/amarin-live\/index.m3u8[^"]+/,
     ],
-    // [
-    //   'ch3',
-    //   'HD',
-    //   'https://ch3plus.com/live',
-    //   'cheerio',
-    //   /https:\/\/bec-streaming-jb5qph\.cdn\.byteark\.com\/live\/playlist\.m3u8[^"]+/,
-    // ],
-    // null
   ];
 
   await Promise.all(
@@ -744,7 +757,7 @@ const dynamicallyAddStreamingUrlFromPPTV = async () => {
 
 const testUrl = async (url, options = {}) => {
   // list of url that we will always not check
-  if (url.includes('rtsp://') || url.includes('livedoomovies.com') || url.includes('/api/aisplay')) {
+  if (url.includes('rtsp://')) {
     return true;
   }
 
