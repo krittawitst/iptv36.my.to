@@ -16,7 +16,7 @@ const playlistV1 = {
     // 11-20
     ['one', 1],
     ['thairath', 1],
-    ['ctb'],
+    ['ch3', 1],
     ['amarin', 1],
     ['ch7', 1],
     ['tnn16'],
@@ -79,17 +79,17 @@ const playlistV2 = {
     ['ch8', 1],
     ['mono29'],
     ['mono29', 1],
-    ['mono29', 2],
     ['mono29soundtrack'],
     ['mcot'],
     ['mcot', 1],
     ['one'],
     ['one', 1],
+    ['thairath'],
 
     // 31-40
-    ['thairath'],
     ['thairath', 1],
     ['ch3'],
+    ['ch3', 1],
     ['amarin'],
     ['amarin', 1],
     ['ch7'],
@@ -98,8 +98,7 @@ const playlistV2 = {
     ['pptv', 1],
     ['tvb'],
 
-    // 41-43
-    ['ctb'],
+    // 41
     ['cartoonclub'],
     ['boomerang'],
   ],
@@ -112,8 +111,6 @@ const playlistV3 = {
 
     ['samrujlok'],
     ['lovenature'],
-    ['truexzyte'],
-    ['hbo'],
 
     ['bein1'],
     ['bein1', 1],
@@ -122,14 +119,11 @@ const playlistV3 = {
 
     ['premier1'],
     ['premier2'],
-    ['premier2', 1],
     ['premier3'],
     ['premier4'],
     ['premier5'],
     ['truesportshd1'],
-    ['truesportshd1', 1],
     ['truesportshd2'],
-    ['truesportshd2', 1],
   ],
 };
 

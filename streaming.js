@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const get = require('lodash/get');
 
 const defaultUserAgent =
-  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0';
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0';
 const currentDatetimePlus7Hrs = new Date(new Date().getTime() + 7 * 60 * 60 * 1000);
 
 const streamingInfo = {
@@ -71,7 +71,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/tsports.png',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtsport/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtsport3/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -82,13 +82,9 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/tptv.png',
     sources: [
       {
-        url: 'https://cdn-live.tpchannel.org/v1/0180e10a4a7809df73070d7d8760/0180e10adac40b8ed59433d5f3ce/TV_1080p.m3u8',
+        url: 'https://tv-live.tpchannel.org/live/tv_1080p.m3u8?vhost=tv-live.tpchannel.org',
         suffix: 'FHD',
       },
-      // {
-      //   url: 'https://cdn-live.tpchannel.org/v1/0180e10a4a7809df73070d7d8760/0180e10adac40b8ed59433d5f3ce/TV_720p.m3u8',
-      //   suffix: 'HD',
-      // },
       {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/TPTV/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -127,7 +123,7 @@ const streamingInfo = {
     // tvgId: 'NationTV.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chnation/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chnation3/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -264,13 +260,14 @@ const streamingInfo = {
     // tvgId: 'ThairathTV32.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chthairath/index.m3u8',
+        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chthairath3/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
         priority: 25,
       },
       {
         url: 'https://streaming-web.thairath.co.th/hls/playlist_hi.m3u8',
+        options: { referer: 'https://www.thairath.co.th/' },
         suffix: 'HD',
       },
     ],
@@ -286,6 +283,12 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
         priority: 20,
+      },
+      {
+        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch3hd3/index.m3u8',
+        options: { userAgent: defaultUserAgent },
+        suffix: 'HD',
+        priority: 10,
       },
     ],
   },
@@ -374,28 +377,6 @@ const streamingInfo = {
     sources: [
       {
         url: 'https://edge6a.v2h-cdn.com/tvb_thai/tvb_thai.stream/playlist.m3u8',
-      },
-    ],
-  },
-
-  ctb: {
-    channelName: 'CTB FHD',
-    logo: 'https://sv1.picz.in.th/images/2022/10/11/pHGfHP.png',
-    groupName: 'Other',
-    sources: [
-      {
-        url: 'http://vip.login.in.th:1935/CTB/CTB/chunklist.m3u8',
-      },
-    ],
-  },
-
-  hbo: {
-    channelName: 'HBO HD',
-    logo: 'https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/R_0148.png',
-    groupName: 'Other',
-    sources: [
-      {
-        url: 'https://str136.playhd.la/threstr2/hbohd/playlist.m3u8',
       },
     ],
   },
@@ -506,10 +487,6 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://str138.playhd.la/live1/premierleague2/playlist.m3u8',
-        suffix: 'HD',
-      },
-      {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/tpf2/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
       },
@@ -564,9 +541,6 @@ const streamingInfo = {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/truesporthd1/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
       },
-      {
-        url: 'https://str136.playhd.la/threstr2/truesporthd/playlist.m3u8',
-      },
     ],
   },
 
@@ -575,10 +549,6 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/true_sports_hd2.png',
     groupName: 'Sport',
     sources: [
-      {
-        url: 'https://str136.playhd.la/threstr2/truesporthd2/playlist.m3u8',
-        suffix: 'HD',
-      },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/truesporthd2/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
@@ -789,7 +759,8 @@ const testUrl = async (url, options = {}) => {
       url.includes('3bb.co.th') ||
       url.includes('prsmedia') ||
       url.includes('dailymotion.com') ||
-      url.includes('tnn16hd'))
+      url.includes('tnn16hd') ||
+      url.includes('thairath.co.th'))
   ) {
     return true;
   }
