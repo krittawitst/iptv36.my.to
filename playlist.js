@@ -20,14 +20,14 @@ const playlistV1 = {
     ['amarin', 1],
     ['ch7', 1],
     ['tnn16'],
-    ['samrujlok'],
+    ['true4u', 1],
     ['jkn18'],
     ['tvb'],
     ['boomerang'],
 
     // 21-30
-    ['nation'],
     ['nation', 1],
+    ['nation'],
     ['workpoint'],
     ['true4u'],
     ['gmm25'],
@@ -103,15 +103,7 @@ const channelListWithBackupChannel = [
 
 const playlistV2 = {
   filename: 'playlist-v2.m3u',
-  channelList: [
-    ...channelListWithBackupChannel,
-
-    ['tvb'],
-    ['cartoonclub'],
-    ['boomerang'],
-    ['samrujlok'],
-    ['lovenature'],
-  ],
+  channelList: [...channelListWithBackupChannel, ['tvb'], ['cartoonclub'], ['boomerang']],
 };
 
 const playlistV3 = {
@@ -132,6 +124,9 @@ const playlistV3 = {
     ['premier3'],
     ['premier4'],
     ['premier5'],
+
+    ['samrujlok'],
+    ['lovenature'],
   ],
 };
 

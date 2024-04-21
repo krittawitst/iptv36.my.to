@@ -130,7 +130,9 @@ const getEpgDataFromAisPlay = async () => {
     '597d21477ed5a24e46f67258': 'cartoonclub',
     // '5e6215e6d817de33506cedf7': 'discoveryasia',
     '597dfea47ed5a24e46f67259': 'boomerang',
+    '5967375cbf6aee05dcdfc126': 'tvb',
     // '597fff9d7ed5a20c8ae865d9': 'mangkorn',
+    '6501774d8ffee1f226fe8300': 'samrujlok',
   };
 
   // build parameter
