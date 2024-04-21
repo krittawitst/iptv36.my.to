@@ -79,7 +79,7 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
       },
       {
-        url: ' https://edge6a.v2h-cdn.com/t_sport/t_sport.stream/playlist.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/t_sport/t_sport.stream/playlist.m3u8',
       },
     ],
   },
@@ -135,7 +135,7 @@ const streamingInfo = {
     sources: [
       {
         url: 'https://live.nationtv.tv/live/nationtv_testlive.m3u8',
-        suffix: 'HD',
+        suffix: 'FHD',
       },
       {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chnation3/index.m3u8',
@@ -150,12 +150,16 @@ const streamingInfo = {
     // tvgId: 'Workpoint23.th',
     sources: [
       {
+        url: 'https://ctrl.laotv.la/live/WorkPoint/index.m3u8',
+        options: { referer: 'https://laotv.la' },
+      },
+      {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chworkpoint/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      {
-        url: 'https://edge6a.v2h-cdn.com/workpoint/workpoint.stream/playlist.m3u8',
-      },
+      // {
+      //   url: 'https://edge6a.v2h-cdn.com/workpoint/workpoint.stream/playlist.m3u8',
+      // },
     ],
   },
 
@@ -284,10 +288,15 @@ const streamingInfo = {
         priority: 25,
       },
       {
-        url: 'https://streaming-web.thairath.co.th/hls/playlist_hi.m3u8',
-        options: { referer: 'https://www.thairath.co.th/' },
+        url: 'https://ctrl.laotv.la/live/THAIRATHTVHD/index.m3u88',
+        options: { referer: 'https://laotv.la' },
         suffix: 'HD',
       },
+      // {
+      //   url: 'https://streaming-web.thairath.co.th/hls/playlist_hi.m3u8',
+      //   options: { referer: 'https://www.thairath.co.th/' },
+      //   suffix: 'HD',
+      // },
     ],
   },
 
@@ -438,10 +447,15 @@ const streamingInfo = {
         suffix: 'HD',
       },
       {
-        url: 'https://ctrl.laotv.la/live/Bsport1/index.m3u8',
+        url: 'https://edge1.laotv.la/live/Bsport1/sc-gaFECQ/v0/index.m3u8',
         options: { referer: 'https://laotv.la' },
         suffix: 'FHD',
       },
+      // {
+      //   url: 'https://ctrl.laotv.la/live/Bsport1/index.m3u8',
+      //   options: { referer: 'https://laotv.la' },
+      //   suffix: 'FHD',
+      // },
     ],
   },
 
@@ -457,10 +471,15 @@ const streamingInfo = {
         suffix: 'HD',
       },
       {
-        url: 'https://ctrl.laotv.la/live/Bsport2/index.m3u8',
+        url: 'https://edge2.laotv.la/live/Bsport2/sc-gaFECQ/v0/index.m3u8',
         options: { referer: 'https://laotv.la' },
         suffix: 'FHD',
       },
+      // {
+      //   url: 'https://ctrl.laotv.la/live/Bsport2/index.m3u8',
+      //   options: { referer: 'https://laotv.la' },
+      //   suffix: 'FHD',
+      // },
     ],
   },
 
