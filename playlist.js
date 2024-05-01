@@ -125,8 +125,16 @@ const playlistV3 = {
     ['premier4'],
     ['premier5'],
 
+    ['truesportshd1'],
+    ['truesportshd1', 1],
+    ['truesportshd2'],
+    ['truesportshd2', 1],
+
     ['samrujlok'],
     ['lovenature'],
+    ['tvb'],
+    ['cartoonclub'],
+    ['boomerang'],
   ],
 };
 

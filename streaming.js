@@ -34,6 +34,11 @@ const streamingInfo = {
         suffix: 'FHD',
       },
       {
+        url: 'https://ctrl.laotv.la/live/ThaiPBS/index.m3u8',
+        suffix: 'FHD',
+        priority: 25,
+      },
+      {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chthaipbs3/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
@@ -63,6 +68,11 @@ const streamingInfo = {
         suffix: 'FHD',
       },
       {
+        url: 'https://ctrl.laotv.la/live/Thai5/index.m3u8',
+        suffix: 'FHD',
+        priority: 25,
+      },
+      {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch5hd/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
@@ -79,7 +89,7 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
       },
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtsport/index.m3u8',
+        url: 'https://ctrl.laotv.la/live/TSports7/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
       {
@@ -154,16 +164,16 @@ const streamingInfo = {
     // tvgId: 'Workpoint23.th',
     sources: [
       {
+        url: 'https://ctrl.laotv.la/live/WorkPoint/index.m3u8',
+        options: { referer: 'https://laotv.la' },
+        priority: 15,
+      },
+      {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chworkpoint/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
       {
         url: 'https://edge6a.v2h-cdn.com/workpoint/workpoint.stream/playlist.m3u8',
-      },
-      {
-        url: 'https://ctrl.laotv.la/live/WorkPoint/index.m3u8',
-        options: { referer: 'https://laotv.la' },
-        priority: 5,
       },
     ],
   },
@@ -204,6 +214,7 @@ const streamingInfo = {
     // tvgId: 'ThaiChannel8.th',
     sources: [
       { url: 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8', suffix: 'HD' },
+      { url: 'https://ctrl.laotv.la/live/CH8/index.m3u8' },
       {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch8/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -256,6 +267,11 @@ const streamingInfo = {
         suffix: 'FHD',
       },
       {
+        url: 'https://ctrl.laotv.la/live/Mcot/index.m3u8',
+        suffix: 'FHD',
+        priority: 25,
+      },
+      {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chmcothd/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
@@ -287,6 +303,10 @@ const streamingInfo = {
     // tvgId: 'ThairathTV32.th',
     sources: [
       {
+        url: 'https://ctrl.laotv.la/live/THAIRATHTVHD/index.m3u8',
+        suffix: 'FHD',
+      },
+      {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chthairath3/index.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
@@ -312,6 +332,10 @@ const streamingInfo = {
     // tvgId: 'Channel3.th',
     sources: [
       {
+        url: 'https://edge2.laotv.la/live/Thai3/index.m3u8',
+        suffix: 'FHD',
+      },
+      {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch3hd3/index.m3u8',
         suffix: 'HD',
         options: { userAgent: defaultUserAgent },
@@ -328,6 +352,11 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/amarin.png',
     // tvgId: 'Amarin34HD.th',
     sources: [
+      {
+        url: 'https://ctrl.laotv.la/live/AMARINTVHD/index.m3u8',
+        suffix: 'FHD',
+        priority: 25,
+      },
       {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chamarin/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -348,6 +377,10 @@ const streamingInfo = {
       {
         url: 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com',
         suffix: 'FHD',
+      },
+      {
+        url: 'https://ctrl.laotv.la/live/Thai7/index.m3u8',
+        suffix: 'FHD',
         priority: 25,
       },
       {
@@ -363,6 +396,11 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/pptv.png',
     // tvgId: 'PPTVHD36.th',
     sources: [
+      {
+        url: 'https://ctrl.laotv.la/live/PPTVHD/index.m3u8',
+        suffix: 'FHD',
+        priority: 25,
+      },
       {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chpptvhd3/index.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -588,6 +626,9 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
+        url: 'https://edge1.laotv.la/live/TrueSport6/index.m3u8',
+      },
+      {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/truesporthd1/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
       },
@@ -599,6 +640,9 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/true_sports_hd2.png',
     groupName: 'Sport',
     sources: [
+      {
+        url: 'https://edge1.laotv.la/live/TrueSport2/index.m3u8',
+      },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/truesporthd2/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
