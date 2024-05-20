@@ -425,7 +425,6 @@ const streamingInfo = {
       },
       {
         url: 'https://edge6a.v2h-cdn.com/boomerang/boomerang.stream/playlist.m3u8',
-
         suffix: 'HD',
       },
     ],
