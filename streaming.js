@@ -58,9 +58,6 @@ const streamingInfo = {
         url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ALTV/index.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      {
-        url: 'https://edge6a.v2h-cdn.com/altv/altv.stream/playlist.m3u8',
-      },
     ],
   },
 
