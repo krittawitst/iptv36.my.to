@@ -1,6 +1,6 @@
 ## IPTV Playlist
 
-ง่าย ๆ เพียงนำ IPTV Playlist URL ของเรา ด้านล่างนี้ ไปใส่ในโปรแกรมที่รองรับ ก็จะสามารถดูได้ทันที โดย Playlist เหล่านี้ สามารถแก้ไขช่องที่เสียด้วยตัวเองโดยอัตโนมัติทุก ๆ 2 ชม. และมีคุณภาพความคมชัดระดับ HD เกือบทุกช่อง
+เพียงนำ URL ด้านล่างนี้ไปใส่ในโปรแกรมที่รองรับ ก็สามารถดู Free TV ช่องต่าง ๆ ได้ทันที โดย Playlist เหล่านี้ สามารถแก้ไขช่องที่เสียด้วยตัวเองโดยอัตโนมัติทุก ๆ 2 ชม. และมีคุณภาพความคมชัดระดับ HD เกือบทุกช่อง
 
 ---
 
@@ -32,5 +32,5 @@
 
 ## Recommended App
 
-- [Televizo](https://play.google.com/store/apps/details?id=com.ottplay.ottplay) (Android/ATV)
-- [Media Player Classic](https://www.majorgeeks.com/files/details/k_lite_codec_pack_full.html) (Windows)
+- [Televizo](https://files.televizo.net/televizo-default.apk) (Android/ATV)
+- [PotPlayer](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe) (Windows)
