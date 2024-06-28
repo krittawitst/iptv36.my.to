@@ -176,3 +176,8 @@ proxy-from-env@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/proxy-from-env/-/proxy-from-env-1.1.0.tgz#e102f16ca355424865755d2c9e8ea4f24d58c3e2"
   integrity sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==
+
+twitch-m3u8-jeanouina@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/twitch-m3u8-jeanouina/-/twitch-m3u8-jeanouina-1.2.4.tgz#de008b38263f6669d0fd3994991261b23734ff95"
+  integrity sha512-APQW96+ZaCvpkwlYUkgDxB4kKfkx6jpeUzSeX779Gp/yUahl+Rzl8rFiUKnOCsTpYuVeT30vIVSjjsePNOejVA==
