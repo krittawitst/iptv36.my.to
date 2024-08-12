@@ -58,7 +58,7 @@ const channelListWithBackupChannel = [
   ['tv5'],
   ['tv5', 1],
   ['tsports'],
-  ['tsports', 1],
+  // ['tsports', 1],
 
   // 11-20
   ['tptv'],
@@ -66,9 +66,9 @@ const channelListWithBackupChannel = [
   ['tnn16'],
   ['tnn16', 1],
   ['jkn18'],
-  ['jkn18', 1],
+  // ['jkn18', 1],
   ['nation'],
-  ['nation', 1],
+  // ['nation', 1],
   ['workpoint'],
   ['workpoint', 1],
 
@@ -90,7 +90,7 @@ const channelListWithBackupChannel = [
   ['thairath'],
   ['thairath', 1],
   ['ch3'],
-  ['ch3', 1],
+  // ['ch3', 1],
   ['amarin'],
   ['amarin', 1],
   ['ch7'],
@@ -112,15 +112,15 @@ const playlistV3 = {
     ...channelListWithBackupChannel,
 
     ['bein1'],
-    ['bein1', 1],
+    // ['bein1', 1],
     ['bein2'],
-    ['bein2', 1],
+    // ['bein2', 1],
     ['bein3'],
 
     ['premier1'],
-    ['premier1', 1],
+    // ['premier1', 1],
     ['premier2'],
-    ['premier2', 1],
+    // ['premier2', 1],
     ['premier3'],
     ['premier4'],
     ['premier5'],
@@ -130,7 +130,6 @@ const playlistV3 = {
     ['truesportshd2'],
     ['truesportshd2', 1],
 
-    ['samrujlok'],
     ['lovenature'],
     ['tvb'],
     ['cartoonclub'],

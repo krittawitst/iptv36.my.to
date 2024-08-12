@@ -17,7 +17,7 @@ const streamingInfo = {
         suffix: 'FHD',
       },
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chnbt3/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/nbt/nbt.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
@@ -34,7 +34,7 @@ const streamingInfo = {
         suffix: 'FHD',
       },
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chthaipbs3/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/tpbs/tpbs.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
@@ -47,7 +47,7 @@ const streamingInfo = {
     sources: [
       { url: 'https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8', suffix: 'FHD' },
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ALTV/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/altv2/altv.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -63,7 +63,7 @@ const streamingInfo = {
         suffix: 'FHD',
       },
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch5hd/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/tv5hd/tv5hd.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
@@ -75,11 +75,8 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/tsports.png',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtsport3/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/t_sport/t_sport.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
-      },
-      {
-        url: 'https://tcdn.tsports7.com/videohls/flivech/B7B-w_K6RGhhlYuJGcF3Gw/1719580706/tsports-0/playlist.m3u8',
       },
     ],
   },
@@ -93,7 +90,7 @@ const streamingInfo = {
         suffix: 'FHD',
       },
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/TPTV/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/tptv/tptv.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -106,7 +103,7 @@ const streamingInfo = {
     sources: [
       { url: 'https://iptv36.vercel.app/api/true?channel=tnn16hd', suffix: 'HD' },
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtnn/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/tnn24/tnn24.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -118,7 +115,7 @@ const streamingInfo = {
     // tvgId: 'JKN18.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/newtv3/index.m3u8',
+        url: 'https://hls-test.v2h-cdn.com/hls/NEW_114.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -129,12 +126,12 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/nation.png',
     // tvgId: 'NationTV.th',
     sources: [
+      // {
+      //   url: 'https://live.nationtv.tv/live/nationtv_testlive.m3u8',
+      //   suffix: 'FHD',
+      // },
       {
-        url: 'https://live.nationtv.tv/live/nationtv_testlive.m3u8',
-        suffix: 'FHD',
-      },
-      {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chnation3/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/nation/nation.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -145,9 +142,9 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/workpoint.png',
     // tvgId: 'Workpoint23.th',
     sources: [
-      { url: 'https://iptv36.vercel.app/api/twitch?channel=workpointofficial', suffix: 'HD' },
+      { url: 'https://iptv36.vercel.app/api/twitch?channel=workpointofficial', suffix: 'FHD' },
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chworkpoint/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/workpoint/workpoint.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -158,9 +155,9 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/true4u.png',
     // tvgId: 'True4U.th',
     sources: [
-      { url: 'https://iptv36.vercel.app/api/true?channel=true4uhd', suffix: 'HD' },
+      // { url: 'https://iptv36.vercel.app/api/true?channel=true4uhd', suffix: 'HD' },
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtrue4u3/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/true4u/true4u.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -177,7 +174,7 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
       },
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chgmm3/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/gmm25/gmm25.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -190,7 +187,7 @@ const streamingInfo = {
     sources: [
       { url: 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8', suffix: 'HD' },
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch8/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/ch8/ch8.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -212,7 +209,7 @@ const streamingInfo = {
         suffix: 'FHD',
       },
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chmono29/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/mono/mono.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -240,7 +237,7 @@ const streamingInfo = {
         suffix: 'FHD',
       },
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chmcothd/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/mcothd/mcothd.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
@@ -253,7 +250,7 @@ const streamingInfo = {
     // tvgId: 'One31.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chonehd/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/onehd/onehd.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
@@ -271,7 +268,7 @@ const streamingInfo = {
     // tvgId: 'ThairathTV32.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chthairath3/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/thairathhd/thairathHD.stream/manifest.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
         priority: 25,
@@ -290,7 +287,7 @@ const streamingInfo = {
     // tvgId: 'Channel3.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch3hd3/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/3hd/3hd.stream/playlist.m3u8',
         suffix: 'HD',
         options: { userAgent: defaultUserAgent },
       },
@@ -303,7 +300,7 @@ const streamingInfo = {
     // tvgId: 'Amarin34HD.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chamarin/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/amarinhd/amarinhd.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
@@ -320,7 +317,7 @@ const streamingInfo = {
         suffix: 'FHD',
       },
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch7hd/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/7hd/7hd.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
@@ -333,7 +330,7 @@ const streamingInfo = {
     // tvgId: 'PPTVHD36.th',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chpptvhd3/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/pptv/pptv.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
@@ -361,7 +358,7 @@ const streamingInfo = {
     groupName: 'Other',
     sources: [
       {
-        url: 'https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chboomberang/index.m3u8',
+        url: 'https://edge6a.v2h-cdn.com/boomerang/boomerang.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
@@ -374,7 +371,7 @@ const streamingInfo = {
     groupName: 'Other',
     sources: [
       {
-        url: 'https://edge6a.v2h-cdn.com/tvb_thai/tvb_thai.stream/playlist.m3u8',
+        url: 'https://n-edge-1-th.v2h-cdn.com/tvb_m/tvb_thai/playlist.m3u8',
       },
     ],
   },

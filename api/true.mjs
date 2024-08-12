@@ -7,7 +7,7 @@ export default async function handler(request, response) {
     //   .toString(36)
     //   .substring(2, 12)}&session=${Math.random().toString(36).substring(2, 12)}`,
     tnn16hd: `https://www.tnnthailand.com/content-public-api/signer-url?prefix=/live/`,
-    true4uhd: `https://true4u.com/live-api/signer-url?prefix=/live`,
+    true4uhd: `https://www.true4u.com/live-api/signer-url?prefix=/live/`,
   };
 
   let channel = request.query.channel;
@@ -22,7 +22,13 @@ export default async function handler(request, response) {
   let rawData = '';
 
   try {
-    const fetchedResponse = await axios.get(pageUrl);
+    const fetchedResponse = await axios
+      .get(pageUrl, {
+        headers: {
+          'User-Agent': 'PostmanRuntime/7.41.0',
+        },
+      })
+      .then(({ data }) => console.log(data));
     rawData = fetchedResponse.data;
 
     if (channel === 'tnn16hd') {
@@ -42,6 +48,7 @@ export default async function handler(request, response) {
   } catch (error) {
     console.error(`request ${request.query.channel}\nreturn ${error}`);
     console.error('='.repeat(20));
+    console.log(error);
   }
 
   response.redirect(302, streamingUrl);
