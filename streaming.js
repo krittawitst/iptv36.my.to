@@ -54,9 +54,6 @@ const streamingInfo = {
         url: 'https://edge6a.v2h-cdn.com/altv2/altv.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      {
-        url: 'http://appdootv2.dootvde.com:1935/live/50006_tpbs_hd.stream.smil/playlist.m3u8',
-      },
     ],
   },
 
