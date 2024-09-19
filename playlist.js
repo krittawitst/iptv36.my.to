@@ -10,20 +10,20 @@ const playlistV1 = {
     ['pptv', 1],
     ['tsports'],
     ['ch8', 1],
-    ['cartoonclub'],
+    ['mcot', 1],
     ['tptv'],
 
     // 11-20
     ['one', 1],
     ['thairath', 1],
-    ['ch3', 1],
+    ['cartoonclub'],
     ['amarin', 1],
     ['ch7', 1],
     ['tnn16'],
+    ['tnn16', 1],
     ['true4u', 1],
-    ['jkn18'],
-    ['tvb'],
-    ['boomerang'],
+    ['mono29', 1],
+    ['pptv', 2],
 
     // 21-30
     ['nation', 1],
@@ -58,52 +58,47 @@ const channelListWithBackupChannel = [
   ['tv5'],
   ['tv5', 1],
   ['tsports'],
-  // ['tsports', 1],
+  ['tptv'],
 
   // 11-20
-  ['tptv'],
   ['tptv', 1],
   ['tnn16'],
   ['tnn16', 1],
-  ['jkn18'],
-  ['jkn18', 1],
   ['nation'],
   ['nation', 1],
   ['workpoint'],
   ['workpoint', 1],
-
-  // 21-30
   ['true4u'],
   ['true4u', 1],
   ['gmm25'],
+
+  // 21-30
   ['gmm25', 1],
   ['ch8'],
   ['ch8', 1],
   ['mono29'],
+  ['mono29', 1],
   ['mono29soundtrack'],
   ['mcot'],
   ['mcot', 1],
-
-  // 31-40
   ['one'],
   ['one', 1],
+
+  // 31-40
   ['thairath'],
   ['thairath', 1],
   ['ch3'],
-  // ['ch3', 1],
   ['amarin'],
   ['amarin', 1],
   ['ch7'],
   ['ch7', 1],
-
-  // 41-42
   ['pptv'],
   ['pptv', 1],
 ];
 
 const playlistV2 = {
   filename: 'playlist-v2.m3u',
-  channelList: [...channelListWithBackupChannel, ['tvb'], ['cartoonclub'], ['boomerang']],
+  channelList: [...channelListWithBackupChannel, ['cartoonclub']],
 };
 
 const playlistV3 = {
@@ -131,9 +126,7 @@ const playlistV3 = {
     ['truesportshd2', 1],
 
     ['lovenature'],
-    ['tvb'],
     ['cartoonclub'],
-    ['boomerang'],
   ],
 };
 
