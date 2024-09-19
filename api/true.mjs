@@ -22,22 +22,14 @@ export default async function handler(request, response) {
   let rawData = '';
 
   try {
-    const fetchedResponse = await axios
-      .get(pageUrl, {
-        headers: {
-          'User-Agent': 'PostmanRuntime/7.41.0',
-        },
-      })
-      .then(({ data }) => console.log(data));
+    const fetchedResponse = await axios.get(pageUrl, {
+      headers: {
+        'User-Agent': 'PostmanRuntime/7.41.0',
+      },
+    });
     rawData = fetchedResponse.data;
 
     if (channel === 'tnn16hd') {
-      // let regExpMatchArray = rawData.match(/https:\/\/.[^"']+?\.m3u8(\?[^"']+)?/);
-      // if (regExpMatchArray) {
-      //   streamingUrl = regExpMatchArray[0]
-      //     .replace('%3D%3D', '')
-      //     .replace('m_auto_tidl', 'w_auto_tidapp');
-      // }
       streamingUrl = rawData;
     } else if (channel === 'true4uhd') {
       streamingUrl = rawData.replace('playlist.m3u8', 'pl_720p/index.m3u8');

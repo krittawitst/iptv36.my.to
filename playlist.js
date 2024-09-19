@@ -50,7 +50,6 @@ const playlistV1 = {
 const channelListWithBackupChannel = [
   // 1-10
   ['nbt'],
-  ['nbt', 1],
   ['thaipbs'],
   ['thaipbs', 1],
   ['altv'],

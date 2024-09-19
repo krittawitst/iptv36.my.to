@@ -13,10 +13,6 @@ const streamingInfo = {
     // tvgId: 'NBT2.th',
     sources: [
       {
-        url: 'https://cdn-edge.iiptvcdn.com/live_event/smil:f180-054a-38d7-ce66-f7cf.smil/playlist.m3u8',
-        suffix: 'FHD',
-      },
-      {
         url: 'https://edge6a.v2h-cdn.com/nbt/nbt.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
