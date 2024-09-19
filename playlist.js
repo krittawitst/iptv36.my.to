@@ -50,6 +50,7 @@ const playlistV1 = {
 const channelListWithBackupChannel = [
   // 1-10
   ['nbt'],
+  ['nbt', 1],
   ['thaipbs'],
   ['thaipbs', 1],
   ['altv'],
@@ -65,9 +66,9 @@ const channelListWithBackupChannel = [
   ['tnn16'],
   ['tnn16', 1],
   ['jkn18'],
-  // ['jkn18', 1],
+  ['jkn18', 1],
   ['nation'],
-  // ['nation', 1],
+  ['nation', 1],
   ['workpoint'],
   ['workpoint', 1],
 

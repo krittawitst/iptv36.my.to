@@ -13,6 +13,10 @@ const streamingInfo = {
     // tvgId: 'NBT2.th',
     sources: [
       {
+        url: 'http://appdootv2.dootvde.com:1935/live/50005_nbt.stream.smil/playlist.m3u8',
+        suffix: 'HD',
+      },
+      {
         url: 'https://edge6a.v2h-cdn.com/nbt/nbt.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
@@ -111,7 +115,7 @@ const streamingInfo = {
     // tvgId: 'JKN18.th',
     sources: [
       {
-        url: 'https://hls-test.v2h-cdn.com/hls/NEW_114.m3u8',
+        url: 'https://edge2a.v2h-cdn.com/jkn18/jkn18.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -122,13 +126,12 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/nation.png',
     // tvgId: 'NationTV.th',
     sources: [
-      // {
-      //   url: 'https://live.nationtv.tv/live/nationtv_testlive.m3u8',
-      //   suffix: 'FHD',
-      // },
       {
-        url: 'https://edge6a.v2h-cdn.com/nation/nation.stream/playlist.m3u8',
-        options: { userAgent: defaultUserAgent },
+        url: 'https://nationtv-1jdcjo.cdn.byteark.com/fleetstream/nationtvlive/index.m3u8',
+        suffix: 'FHD',
+      },
+      {
+        url: 'http://appdootv2.dootvde.com:1935/live/50015_nation.stream.smil/playlist.m3u8',
       },
     ],
   },
@@ -151,7 +154,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/true4u.png',
     // tvgId: 'True4U.th',
     sources: [
-      // { url: 'https://iptv36.vercel.app/api/true?channel=true4uhd', suffix: 'HD' },
+      { url: 'https://iptv36.vercel.app/api/true?channel=true4uhd', suffix: 'HD' },
       {
         url: 'https://edge6a.v2h-cdn.com/true4u/true4u.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -246,8 +249,7 @@ const streamingInfo = {
     // tvgId: 'One31.th',
     sources: [
       {
-        url: 'https://edge6a.v2h-cdn.com/onehd/onehd.stream/playlist.m3u8',
-        options: { userAgent: defaultUserAgent },
+        url: 'http://appdootv2.dootvde.com:1935/live/50022_one_hd.stream.smil/playlist.m3u8',
         suffix: 'HD',
       },
       {
@@ -283,9 +285,8 @@ const streamingInfo = {
     // tvgId: 'Channel3.th',
     sources: [
       {
-        url: 'https://edge6a.v2h-cdn.com/3hd/3hd.stream/playlist.m3u8',
+        url: 'http://appdootv2.dootvde.com:1935/live/50001_ch3.stream.smil/chunklist_w575099455_b4692000_slThai.m3u8',
         suffix: 'HD',
-        options: { userAgent: defaultUserAgent },
       },
     ],
   },
