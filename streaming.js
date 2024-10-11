@@ -151,7 +151,7 @@ const streamingInfo = {
     sources: [
       { url: 'https://iptv36.vercel.app/api/twitch?channel=workpointofficial', suffix: 'FHD' },
       {
-        url: 'https://edge6a.v2h-cdn.com/workpoint/workpoint.stream/playlist.m3u8',
+        url: 'http://appdootv2.dootvde.com:1935/live/50016_workpoint_tv.stream.smil/chunklist_w25751215_b1128000_slThai.m3u8',
         options: { userAgent: defaultUserAgent },
       },
       {
@@ -165,7 +165,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/true4u.png',
     // tvgId: 'True4U.th',
     sources: [
-      { url: 'https://iptv36.vercel.app/api/true?channel=true4uhd', suffix: 'HD' },
+      // { url: 'https://iptv36.vercel.app/api/true?channel=true4uhd', suffix: 'HD' },
       {
         url: 'https://edge6a.v2h-cdn.com/true4u/true4u.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -180,7 +180,7 @@ const streamingInfo = {
     // tvgId: 'GMM25.th',
     sources: [
       {
-        url: 'https://bcovlive-a.akamaihd.net/fb7ac9cc4e1140238e3077ffd29337fe/ap-southeast-1/6415628290001/profile_0/chunklist.m3u8',
+        url: 'https://bcovlive-a.akamaihd.net/57d4bf695e80436d9335f4f50adbe438/ap-southeast-1/6415628290001/profile_1/chunklist.m3u8',
         suffix: 'HD',
         options: { userAgent: defaultUserAgent },
       },
@@ -296,12 +296,6 @@ const streamingInfo = {
         priority: 26,
       },
       {
-        url: 'https://edge6a.v2h-cdn.com/thairathhd/thairathHD.stream/manifest.m3u8',
-        options: { userAgent: defaultUserAgent },
-        suffix: 'HD',
-        priority: 25,
-      },
-      {
         url: 'https://streaming-web.thairath.co.th/live/playlist_hd/index.m3u8',
         options: { referer: 'https://www.thairath.co.th/' },
         suffix: 'HD',
@@ -355,17 +349,12 @@ const streamingInfo = {
     // tvgId: 'PPTVHD36.th',
     sources: [
       {
-        url: 'https://edge6a.v2h-cdn.com/pptv/pptv.stream/playlist.m3u8',
-        options: { userAgent: defaultUserAgent },
+        url: 'http://appdootv2.dootvde.com:1935/live/50026_pptv_hd.stream.smil/playlist.m3u8',
         suffix: 'HD',
       },
       {
         url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/pptv/playlist.m3u8',
         options: { referer: 'https://dooball2you.com/' },
-      },
-      {
-        url: 'http://appdootv2.dootvde.com:1935/live/50026_pptv_hd.stream.smil/playlist.m3u8',
-        suffix: 'HD',
       },
     ],
   },
