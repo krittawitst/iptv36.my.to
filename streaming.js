@@ -165,7 +165,7 @@ const streamingInfo = {
     logo: 'https://iptv36.my.to/logo/true4u.png',
     // tvgId: 'True4U.th',
     sources: [
-      // { url: 'https://iptv36.vercel.app/api/true?channel=true4uhd', suffix: 'HD' },
+      { url: 'https://iptv36.vercel.app/api/true?channel=true4uhd', suffix: 'HD' },
       {
         url: 'https://edge6a.v2h-cdn.com/true4u/true4u.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -184,9 +184,9 @@ const streamingInfo = {
         suffix: 'HD',
         options: { userAgent: defaultUserAgent },
       },
-      {
-        url: 'http://appdootv2.dootvde.com:1935/live/50018_gmm.stream.smil/playlist.m3u8',
-      },
+      // {
+      //   url: 'http://appdootv2.dootvde.com:1935/live/50018_gmm.stream.smil/playlist.m3u8',
+      // },
       {
         url: 'https://edge6a.v2h-cdn.com/gmm25/gmm25.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -278,7 +278,7 @@ const streamingInfo = {
         suffix: 'HD',
       },
       {
-        url: 'https://bcovlive-a.akamaihd.net/e11d0db446fe41fe9be61157033f9325/ap-southeast-1/6415628290001/playlist.m3u8',
+        url: 'https://bcovlive-a.akamaihd.net/0cd6bc78d30140749a0aad1523804f57/ap-southeast-1/6415628290001/profile_1/chunklist.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
