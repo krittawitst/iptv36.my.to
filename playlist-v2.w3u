@@ -1,7 +1,7 @@
 {
   "name": "w3u list",
   "author": "w3u author",
-  "url": "https://iptv36.uk.to/playlist-v2.w3u",
+  "url": "http://iptv36.uk.to/playlist-v2.w3u",
   "image": "https://i.imgur.com/5rjqSPj.png",
   "contact": "w3u@testmail.com",
   "info": "Sample list for w3u tutorial using publicly available links",
@@ -34,28 +34,28 @@
     },
     {
       "name": "GMM25 HD Embed",
-      "image": "https://iptv36.uk.to/logo/gmm25.png",
+      "image": "http://iptv36.uk.to/logo/gmm25.png",
       "url": "https://www.oned.net/live?channel=17263",
       "embed": true
     },
     {
       "name": "GMM25 HD Direct",
-      "image": "https://iptv36.uk.to/logo/gmm25.png",
+      "image": "http://iptv36.uk.to/logo/gmm25.png",
       "url": "https://stream-03.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_QYqcOJqGEr7dZirUE-lRnAO3RoJkKpfCPl9bGv16rAl)/dm/3/x6rz4t7/s/live-3.m3u8"
     },
     {
       "name": "Workpoint JW",
-      "image": "https://iptv36.uk.to/logo/workpoint.png",
+      "image": "http://iptv36.uk.to/logo/workpoint.png",
       "url": "https://cdn.jwplayer.com/players/oEutxSOJ-2CjMTVy1.html"
     },
     {
       "name": "Workpoint DM",
-      "image": "https://iptv36.uk.to/logo/workpoint.png",
+      "image": "http://iptv36.uk.to/logo/workpoint.png",
       "url": "https://www.dailymotion.com/video/x6g9qjj"
     },
     {
       "name": "Workpoint DM Embed",
-      "image": "https://iptv36.uk.to/logo/workpoint.png",
+      "image": "http://iptv36.uk.to/logo/workpoint.png",
       "url": "https://www.dailymotion.com/embed/video/x6g9qjj?autoplay=1"
     }
   ]

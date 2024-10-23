@@ -73,7 +73,7 @@ const main = async () => {
     }
 
     let versionInfo = `#EXTINF:-1 tvg-chno="${playlist.channelList.length + 1}" group-title="Thai Free TV" `;
-    versionInfo += `tvg-logo="https://iptv36.uk.to/logo/info.png",${currentBkkDatetimeStr}\nhttps://iptv36.uk.to/logo/info.png\n\n`;
+    versionInfo += `tvg-logo="http://iptv36.uk.to/logo/info.png",${currentBkkDatetimeStr}\nhttp://iptv36.uk.to/logo/info.png\n\n`;
     textStr = textStr + `${versionInfo}`;
 
     fs.writeFileSync(`${playlist.filename}`, textStr, 'utf8');
