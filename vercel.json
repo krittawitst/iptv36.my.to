@@ -1,3 +1,20 @@
 {
-  "redirects": [{ "source": "/", "destination": "https://iptv36.my.to/" }]
+  "redirects": [
+    {
+      "source": "/v1.m3u",
+      "destination": "https://iptv36.vercel.app/playlist-v1.m3u"
+    },
+    {
+      "source": "/v2.m3u",
+      "destination": "https://iptv36.vercel.app/playlist-v2.m3u"
+    },
+    {
+      "source": "/v3.m3u",
+      "destination": "https://iptv36.vercel.app/playlist-v3.m3u"
+    },
+    {
+      "source": "/",
+      "destination": "https://iptv36.uk.to/"
+    }
+  ]
 }

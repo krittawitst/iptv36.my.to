@@ -9,7 +9,7 @@ const currentDatetimePlus7Hrs = new Date(new Date().getTime() + 7 * 60 * 60 * 10
 const streamingInfo = {
   nbt: {
     channelName: 'NBT',
-    logo: 'https://iptv36.my.to/logo/nbt.png',
+    logo: 'https://iptv36.uk.to/logo/nbt.png',
     // tvgId: 'NBT2.th',
     sources: [
       {
@@ -26,7 +26,7 @@ const streamingInfo = {
 
   thaipbs: {
     channelName: 'Thai PBS',
-    logo: 'https://iptv36.my.to/logo/thaipbs.png',
+    logo: 'https://iptv36.uk.to/logo/thaipbs.png',
     // tvgId: 'ThaiPBS3.th',
     sources: [
       {
@@ -47,7 +47,7 @@ const streamingInfo = {
 
   altv: {
     channelName: 'ALTV',
-    logo: 'https://iptv36.my.to/logo/altv.png',
+    logo: 'https://iptv36.uk.to/logo/altv.png',
     sources: [
       { url: 'https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8', suffix: 'FHD' },
       {
@@ -59,7 +59,7 @@ const streamingInfo = {
 
   tv5: {
     channelName: 'TV5',
-    logo: 'https://iptv36.my.to/logo/tv5.png',
+    logo: 'https://iptv36.uk.to/logo/tv5.png',
     // tvgId: 'ThaiTV5HD1.th',
     sources: [
       {
@@ -80,7 +80,7 @@ const streamingInfo = {
 
   tsports: {
     channelName: 'T-Sports',
-    logo: 'https://iptv36.my.to/logo/tsports.png',
+    logo: 'https://iptv36.uk.to/logo/tsports.png',
     sources: [
       {
         url: 'https://edge6a.v2h-cdn.com/t_sport/t_sport.stream/playlist.m3u8',
@@ -91,7 +91,7 @@ const streamingInfo = {
 
   tptv: {
     channelName: 'TPTV',
-    logo: 'https://iptv36.my.to/logo/tptv.png',
+    logo: 'https://iptv36.uk.to/logo/tptv.png',
     sources: [
       {
         url: 'https://tv-live.tpchannel.org/live/tv_1080p.m3u8?vhost=tv-live.tpchannel.org',
@@ -106,10 +106,10 @@ const streamingInfo = {
 
   tnn16: {
     channelName: 'TNN16',
-    logo: 'https://iptv36.my.to/logo/tnn16.png',
+    logo: 'https://iptv36.uk.to/logo/tnn16.png',
     // tvgId: 'TNN16.th',
     sources: [
-      { url: 'https://iptv36.vercel.app/api/true?channel=tnn16hd', suffix: 'HD' },
+      { url: 'https://iptv36.vercel.app/api/true.m3u8?channel=tnn16', suffix: 'HD' },
       {
         url: 'https://edge6a.v2h-cdn.com/tnn24/tnn24.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -119,7 +119,7 @@ const streamingInfo = {
 
   jkn18: {
     channelName: 'JKN18',
-    logo: 'https://iptv36.my.to/logo/jkn18.png',
+    logo: 'https://iptv36.uk.to/logo/jkn18.png',
     // tvgId: 'JKN18.th',
     sources: [
       // {
@@ -131,7 +131,7 @@ const streamingInfo = {
 
   nation: {
     channelName: 'Nation TV',
-    logo: 'https://iptv36.my.to/logo/nation.png',
+    logo: 'https://iptv36.uk.to/logo/nation.png',
     // tvgId: 'NationTV.th',
     sources: [
       {
@@ -146,10 +146,10 @@ const streamingInfo = {
 
   workpoint: {
     channelName: 'Workpoint TV',
-    logo: 'https://iptv36.my.to/logo/workpoint.png',
+    logo: 'https://iptv36.uk.to/logo/workpoint.png',
     // tvgId: 'Workpoint23.th',
     sources: [
-      { url: 'https://iptv36.vercel.app/api/twitch?channel=workpointofficial', suffix: 'FHD' },
+      { url: 'https://iptv36.vercel.app/api/twitch.m3u8?channel=workpointofficial', suffix: 'FHD' },
       {
         url: 'http://appdootv2.dootvde.com:1935/live/50016_workpoint_tv.stream.smil/chunklist_w25751215_b1128000_slThai.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -162,10 +162,10 @@ const streamingInfo = {
 
   true4u: {
     channelName: 'True4U',
-    logo: 'https://iptv36.my.to/logo/true4u.png',
+    logo: 'https://iptv36.uk.to/logo/true4u.png',
     // tvgId: 'True4U.th',
     sources: [
-      { url: 'https://iptv36.vercel.app/api/true?channel=true4uhd', suffix: 'HD' },
+      { url: 'https://iptv36.vercel.app/api/true.m3u8?channel=true4u', suffix: 'HD' },
       {
         url: 'https://edge6a.v2h-cdn.com/true4u/true4u.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -176,11 +176,11 @@ const streamingInfo = {
 
   gmm25: {
     channelName: 'GMM25',
-    logo: 'https://iptv36.my.to/logo/gmm25.png',
+    logo: 'https://iptv36.uk.to/logo/gmm25.png',
     // tvgId: 'GMM25.th',
     sources: [
       {
-        url: 'https://bcovlive-a.akamaihd.net/57d4bf695e80436d9335f4f50adbe438/ap-southeast-1/6415628290001/profile_1/chunklist.m3u8',
+        url: 'https://bcovlive-a.akamaihd.net/6ba9620f3b3e4a87bb3845fe9e07dcf3/ap-southeast-1/6415628290001/profile_1/chunklist.m3u8',
         suffix: 'HD',
         options: { userAgent: defaultUserAgent },
       },
@@ -191,12 +191,12 @@ const streamingInfo = {
         url: 'https://edge6a.v2h-cdn.com/gmm25/gmm25.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-    ],
+    ],  
   },
 
   ch8: {
     channelName: 'CH8',
-    logo: 'https://iptv36.my.to/logo/ch8.png',
+    logo: 'https://iptv36.uk.to/logo/ch8.png',
     // tvgId: 'ThaiChannel8.th',
     sources: [
       { url: 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8', suffix: 'HD' },
@@ -212,7 +212,7 @@ const streamingInfo = {
 
   mono29: {
     channelName: 'MONO29',
-    logo: 'https://iptv36.my.to/logo/mono29.png',
+    logo: 'https://iptv36.uk.to/logo/mono29.png',
     // tvgId: 'Mono29.th',
     sources: [
       {
@@ -237,8 +237,8 @@ const streamingInfo = {
 
   mono29soundtrack: {
     channelName: 'MONO29 Soundtrack',
-    logo: 'https://iptv36.my.to/logo/mono29.png',
-    tvgId: 'mono29.iptv36.my.to',
+    logo: 'https://iptv36.uk.to/logo/mono29.png',
+    tvgId: 'mono29.iptv36.uk.to',
     sources: [
       {
         url: 'https://edge4-bkk.3bb.co.th:9443/Stream_HLSMONO29_1080P/mono29hls_1080EN.stream/playlist.m3u8',
@@ -249,7 +249,7 @@ const streamingInfo = {
 
   mcot: {
     channelName: 'MCOT',
-    logo: 'https://iptv36.my.to/logo/mcot.png',
+    logo: 'https://iptv36.uk.to/logo/mcot.png',
     // tvgId: 'MCOTHD.th',
     sources: [
       {
@@ -270,7 +270,7 @@ const streamingInfo = {
 
   one: {
     channelName: 'ONE',
-    logo: 'https://iptv36.my.to/logo/one.png',
+    logo: 'https://iptv36.uk.to/logo/one.png',
     // tvgId: 'One31.th',
     sources: [
       {
@@ -278,7 +278,7 @@ const streamingInfo = {
         suffix: 'HD',
       },
       {
-        url: 'https://bcovlive-a.akamaihd.net/0cd6bc78d30140749a0aad1523804f57/ap-southeast-1/6415628290001/profile_1/chunklist.m3u8',
+        url: 'https://bcovlive-a.akamaihd.net/99070042831f491bb45d05a9c2625818/ap-southeast-1/6415628290001/profile_1/chunklist.m3u8',
         options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
@@ -287,7 +287,7 @@ const streamingInfo = {
 
   thairath: {
     channelName: 'Thairath TV',
-    logo: 'https://iptv36.my.to/logo/thairath.png',
+    logo: 'https://iptv36.uk.to/logo/thairath.png',
     // tvgId: 'ThairathTV32.th',
     sources: [
       {
@@ -305,7 +305,7 @@ const streamingInfo = {
 
   ch3: {
     channelName: 'CH3',
-    logo: 'https://iptv36.my.to/logo/ch3.png',
+    logo: 'https://iptv36.uk.to/logo/ch3.png',
     // tvgId: 'Channel3.th',
     sources: [
       {
@@ -317,7 +317,7 @@ const streamingInfo = {
 
   amarin: {
     channelName: 'Amarin TV',
-    logo: 'https://iptv36.my.to/logo/amarin.png',
+    logo: 'https://iptv36.uk.to/logo/amarin.png',
     // tvgId: 'Amarin34HD.th',
     sources: [
       {
@@ -329,7 +329,7 @@ const streamingInfo = {
 
   ch7: {
     channelName: 'CH7',
-    logo: 'https://iptv36.my.to/logo/ch7.png',
+    logo: 'https://iptv36.uk.to/logo/ch7.png',
     // tvgId: 'BBTVChannel7.th',
     sources: [
       {
@@ -345,7 +345,7 @@ const streamingInfo = {
 
   pptv: {
     channelName: 'PPTV',
-    logo: 'https://iptv36.my.to/logo/pptv.png',
+    logo: 'https://iptv36.uk.to/logo/pptv.png',
     // tvgId: 'PPTVHD36.th',
     sources: [
       {
@@ -361,7 +361,7 @@ const streamingInfo = {
 
   cartoonclub: {
     channelName: 'Cartoon Club',
-    logo: 'https://iptv36.my.to/logo/cartoonclub.png',
+    logo: 'https://iptv36.uk.to/logo/cartoonclub.png',
     groupName: 'Other',
     sources: [
       {
@@ -385,7 +385,7 @@ const streamingInfo = {
 
   tvb: {
     channelName: 'TVB Thai FHD',
-    logo: 'https://iptv36.my.to/logo/tvb.png',
+    logo: 'https://iptv36.uk.to/logo/tvb.png',
     groupName: 'Other',
     sources: [
       // {
@@ -462,7 +462,7 @@ const streamingInfo = {
 
   premier1: {
     channelName: 'Premier 1',
-    logo: 'https://iptv36.my.to/logo/premier_hd1.png',
+    logo: 'https://iptv36.uk.to/logo/premier_hd1.png',
     // tvgId: 'TruePremierFootball1.th',
     groupName: 'Sport',
     sources: [
@@ -475,7 +475,7 @@ const streamingInfo = {
 
   premier2: {
     channelName: 'Premier 2',
-    logo: 'https://iptv36.my.to/logo/premier_hd1.png',
+    logo: 'https://iptv36.uk.to/logo/premier_hd1.png',
     // tvgId: 'TruePremierFootball2.th',
     groupName: 'Sport',
     sources: [
@@ -488,7 +488,7 @@ const streamingInfo = {
 
   premier3: {
     channelName: 'Premier 3',
-    logo: 'https://iptv36.my.to/logo/premier_hd3.png',
+    logo: 'https://iptv36.uk.to/logo/premier_hd3.png',
     // tvgId: 'TruePremierFootball3.th',
     groupName: 'Sport',
     sources: [
@@ -501,7 +501,7 @@ const streamingInfo = {
 
   premier4: {
     channelName: 'Premier 4',
-    logo: 'https://iptv36.my.to/logo/premier_hd4.png',
+    logo: 'https://iptv36.uk.to/logo/premier_hd4.png',
     // tvgId: 'TruePremierFootball4.th',
     groupName: 'Sport',
     sources: [
@@ -514,7 +514,7 @@ const streamingInfo = {
 
   premier5: {
     channelName: 'Premier 5',
-    logo: 'https://iptv36.my.to/logo/premier_hd5.png',
+    logo: 'https://iptv36.uk.to/logo/premier_hd5.png',
     // tvgId: 'TruePremierFootball5.th',
     groupName: 'Sport',
     sources: [
@@ -527,7 +527,7 @@ const streamingInfo = {
 
   truesportshd1: {
     channelName: 'True Sports 1',
-    logo: 'https://iptv36.my.to/logo/true_sports_hd.png',
+    logo: 'https://iptv36.uk.to/logo/true_sports_hd.png',
     groupName: 'Sport',
     sources: [
       {
@@ -539,7 +539,7 @@ const streamingInfo = {
 
   truesportshd2: {
     channelName: 'True Sports 2',
-    logo: 'https://iptv36.my.to/logo/true_sports_hd2.png',
+    logo: 'https://iptv36.uk.to/logo/true_sports_hd2.png',
     groupName: 'Sport',
     sources: [
       {
@@ -562,7 +562,7 @@ const streamingInfo = {
 
   ipcam: {
     channelName: 'CAM',
-    logo: 'https://iptv36.my.to/logo/ipcam.png',
+    logo: 'https://iptv36.uk.to/logo/ipcam.png',
     groupName: 'IP Camera',
     sources: [
       { url: 'rtsp://admin@192.168.1.200/user=admin&password=&channel=1&stream=1.sdp?', suffix: '01 Park-164' },

@@ -26,7 +26,7 @@ const main = async () => {
   // generate M3U PLAYLIST file
   for (let playlist of allPlaylist) {
     let textStr = `#EXTM3U url-tvg="https://iptv36.vercel.app/epg.xml" refresh="3600"\n#\n`;
-    textStr += `#   Homepage: https://iptv36.my.to/ (Find another version of IPTV playlists here)\n`;
+    textStr += `#   Homepage: http://iptv36.uk.to/ (Find another version of IPTV playlists here)\n`;
     textStr += `#   Automatically update at: ${currentBkkDatetimeStr} ICT\n\n`;
 
     // test all streaming simultaneously
@@ -52,7 +52,7 @@ const main = async () => {
       let [channelKey, skip = 0] = playlist.channelList[i];
       let streamingInfo = await streaming.getStreamingInfo(channelKey, skip);
       let channelName = streamingInfo.channelName;
-      let tvgId = streamingInfo.tvgId ? streamingInfo.tvgId : `${channelKey}.iptv36.my.to`;
+      let tvgId = streamingInfo.tvgId ? streamingInfo.tvgId : `${channelKey}.iptv36.uk.to`;
       let channelStr = `#EXTINF:-1 tvg-chno="${i + 1}" tvg-id="${tvgId}" group-title="${
         streamingInfo.groupName
       }" tvg-logo="${streamingInfo.logo}",${channelName}`;
@@ -73,7 +73,7 @@ const main = async () => {
     }
 
     let versionInfo = `#EXTINF:-1 tvg-chno="${playlist.channelList.length + 1}" group-title="Thai Free TV" `;
-    versionInfo += `tvg-logo="https://iptv36.my.to/logo/info.png",${currentBkkDatetimeStr}\nhttps://iptv36.my.to/logo/info.png\n\n`;
+    versionInfo += `tvg-logo="https://iptv36.uk.to/logo/info.png",${currentBkkDatetimeStr}\nhttps://iptv36.uk.to/logo/info.png\n\n`;
     textStr = textStr + `${versionInfo}`;
 
     fs.writeFileSync(`${playlist.filename}`, textStr, 'utf8');
@@ -100,7 +100,7 @@ const main = async () => {
         continue;
       }
 
-      let tvgId = `${epg.channelKey}.iptv36.my.to`;
+      let tvgId = `${epg.channelKey}.iptv36.uk.to`;
       xmlProgramBody += `  <programme start="${epg.programStartStr}" `;
       xmlProgramBody += epg.programEndStr ? `stop="${epg.programEndStr}" ` : '';
       xmlProgramBody += `channel="${tvgId}">\n`;

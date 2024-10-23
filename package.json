@@ -1,8 +1,8 @@
 {
-  "name": "iptv36.my.to",
+  "name": "iptv36",
   "version": "1.0.0",
   "description": "Thai IPTV Playlist & XMLTV EPG",
-  "repository": "https://github.com/krittawitst/iptv36.my.to.git",
+  "repository": "https://github.com/krittawitst/iptv36.git",
   "license": "MIT",
   "scripts": {
     "build": "node builder"
