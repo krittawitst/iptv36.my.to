@@ -31,7 +31,7 @@ export default async function handler(request, response) {
 
     if (channel === 'tnn16') {
       streamingUrl = rawData;
-    } else if (channel === 'true4uhd') {
+    } else if (channel === 'true4u') {
       streamingUrl = rawData.replace('playlist.m3u8', 'pl_720p/index.m3u8');
     }
 
