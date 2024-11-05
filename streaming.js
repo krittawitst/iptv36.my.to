@@ -86,6 +86,10 @@ const streamingInfo = {
         url: 'https://edge6a.v2h-cdn.com/t_sport/t_sport.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
+      {
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/t_sport/t_sport.stream?type=m3u8',
+        options: { userAgent: defaultUserAgent },
+      },
     ],
   },
 
@@ -179,14 +183,14 @@ const streamingInfo = {
     logo: 'http://iptv36.uk.to/logo/gmm25.png',
     // tvgId: 'GMM25.th',
     sources: [
-      {
-        url: 'https://bcovlive-a.akamaihd.net/6ba9620f3b3e4a87bb3845fe9e07dcf3/ap-southeast-1/6415628290001/profile_1/chunklist.m3u8',
-        suffix: 'HD',
-        options: { userAgent: defaultUserAgent },
-      },
       // {
-      //   url: 'http://appdootv2.dootvde.com:1935/live/50018_gmm.stream.smil/playlist.m3u8',
+      //   url: 'https://bcovlive-a.akamaihd.net/6ba9620f3b3e4a87bb3845fe9e07dcf3/ap-southeast-1/6415628290001/profile_1/chunklist.m3u8',
+      //   suffix: 'HD',
+      //   options: { userAgent: defaultUserAgent },
       // },
+      {
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/gmm25/gmm25.stream?type=m3u8',
+      },
       {
         url: 'https://edge6a.v2h-cdn.com/gmm25/gmm25.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
@@ -278,10 +282,14 @@ const streamingInfo = {
         suffix: 'HD',
       },
       {
-        url: 'https://bcovlive-a.akamaihd.net/99070042831f491bb45d05a9c2625818/ap-southeast-1/6415628290001/profile_1/chunklist.m3u8',
-        options: { userAgent: defaultUserAgent },
+        url: 'https://edge2a.v2h-cdn.com/hd_one/hd_one.stream/playlist.m3u8',
         suffix: 'HD',
       },
+      // {
+      //   url: 'https://bcovlive-a.akamaihd.net/99070042831f491bb45d05a9c2625818/ap-southeast-1/6415628290001/profile_1/chunklist.m3u8',
+      //   options: { userAgent: defaultUserAgent },
+      //   suffix: 'HD',
+      // },
     ],
   },
 
@@ -310,6 +318,10 @@ const streamingInfo = {
     sources: [
       {
         url: 'http://appdootv2.dootvde.com:1935/live/50001_ch3.stream.smil/chunklist_w575099455_b4692000_slThai.m3u8',
+        suffix: 'HD',
+      },
+      {
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/hd_3/hd3.stream?type=m3u8',
         suffix: 'HD',
       },
     ],

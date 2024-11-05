@@ -58,9 +58,10 @@ const channelListWithBackupChannel = [
   ['tv5'],
   ['tv5', 1],
   ['tsports'],
-  ['tptv'],
+  ['tsports', 1],
 
   // 11-20
+  ['tptv'],
   ['tptv', 1],
   ['tnn16'],
   ['tnn16', 1],
@@ -70,14 +71,13 @@ const channelListWithBackupChannel = [
   ['workpoint', 1],
   ['true4u'],
   ['true4u', 1],
-  ['gmm25'],
 
   // 21-30
+  ['gmm25'],
   ['gmm25', 1],
   ['ch8'],
   ['ch8', 1],
   ['mono29'],
-  ['mono29', 1],
   ['mono29soundtrack'],
   ['mcot'],
   ['mcot', 1],
@@ -88,6 +88,7 @@ const channelListWithBackupChannel = [
   ['thairath'],
   ['thairath', 1],
   ['ch3'],
+  ['ch3', 1],
   ['amarin'],
   ['amarin', 1],
   ['ch7'],
