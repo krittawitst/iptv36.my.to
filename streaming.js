@@ -294,6 +294,10 @@ const streamingInfo = {
     // tvgId: 'MCOTHD.th',
     sources: [
       {
+        url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/30/30.mpd',
+        suffix: 'FHD',
+      },
+      {
         url: 'https://live-org-01-cdn.mcot.net/mcothd1080p_edge/smil:mcothd1080p.smil/playlist.m3u8',
         suffix: 'FHD',
       },
@@ -317,6 +321,10 @@ const streamingInfo = {
       {
         url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/31/31.mpd',
         suffix: 'FHD',
+      },
+      {
+        url: 'https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/6415628290001/9c3d7fc7d10840a69e48b5939ae886e0/playlist_ssaiM.m3u8',
+        suffix: 'HD',
       },
       {
         url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/hd_one/hd_one.stream?type=m3u8',
@@ -409,6 +417,10 @@ const streamingInfo = {
         suffix: 'FHD',
       },
       {
+        url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/35/35.mpd',
+        suffix: 'FHD',
+      },
+      {
         url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/hd_7/hd7.stream?type=m3u8',
         suffix: 'HD',
       },
@@ -420,6 +432,10 @@ const streamingInfo = {
     logo: 'http://iptv36.uk.to/logo/pptv.png',
     // tvgId: 'PPTVHD36.th',
     sources: [
+      {
+        url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/36/36.mpd',
+        suffix: 'FHD',
+      },
       {
         url: 'https://edge2a.v2h-cdn.com/hd_pptv/hd_pptv.stream/playlist.m3u8',
         suffix: 'HD',
