@@ -21,9 +21,9 @@ const playlistV1 = {
     ['ch7', 1],
     ['tnn16'],
     ['tnn16', 1],
+    ['jkn'],
+    ['jkn', 1],
     ['true4u', 1],
-    ['mono29', 1],
-    ['tsports', 1],
 
     // 21-30
     ['nation', 1],
@@ -128,6 +128,7 @@ const playlistV3 = {
 
     ['lovenature'],
     ['cartoonclub'],
+    ['boomerang'],
   ],
 };
 
