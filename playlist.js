@@ -16,14 +16,14 @@ const playlistV1 = {
     // 11-20
     ['one', 1],
     ['thairath', 1],
-    ['cartoonclub'],
+    ['ch3', 1],
     ['amarin', 1],
     ['ch7', 1],
     ['tnn16'],
     ['tnn16', 1],
     ['true4u', 1],
     ['mono29', 1],
-    ['pptv', 2],
+    ['tsports', 1],
 
     // 21-30
     ['nation', 1],

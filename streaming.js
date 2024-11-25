@@ -13,7 +13,12 @@ const streamingInfo = {
     // tvgId: 'NBT2.th',
     sources: [
       {
-        url: 'http://appdootv2.dootvde.com:1935/live/50005_nbt.stream.smil/playlist.m3u8',
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/nbt/nbt.stream?type=m3u8',
+        suffix: 'HD',
+      },
+      {
+        url: 'https://edge2a.v2h-cdn.com/nbt/nbt.stream/playlist.m3u8',
+        options: { userAgent: defaultUserAgent },
         suffix: 'HD',
       },
       {
@@ -39,7 +44,7 @@ const streamingInfo = {
         suffix: 'HD',
       },
       {
-        url: 'http://appdootv2.dootvde.com:1935/live/50006_tpbs_hd.stream.smil/playlist.m3u8',
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/tpbs/tpbs.stream?type=m3u8',
         suffix: 'HD',
       },
     ],
@@ -52,6 +57,10 @@ const streamingInfo = {
       { url: 'https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8', suffix: 'FHD' },
       {
         url: 'https://edge6a.v2h-cdn.com/altv2/altv.stream/playlist.m3u8',
+        options: { userAgent: defaultUserAgent },
+      },
+      {
+        url: 'https://edge2a.v2h-cdn.com/altv2/altv.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -72,8 +81,8 @@ const streamingInfo = {
         suffix: 'HD',
       },
       {
-        url: 'http://appdootv2.dootvde.com:1935/live/50002_ch5.stream.smil/playlist.m3u8',
-        suffix: 'FHD',
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/tv5hd/tv5hd.stream?type=m3u8',
+        suffix: 'HD',
       },
     ],
   },
@@ -88,6 +97,10 @@ const streamingInfo = {
       },
       {
         url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/t_sport/t_sport.stream?type=m3u8',
+        options: { userAgent: defaultUserAgent },
+      },
+      {
+        url: 'https://edge2a.v2h-cdn.com/t_sport/t_sport.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
     ],
@@ -105,6 +118,10 @@ const streamingInfo = {
         url: 'https://edge6a.v2h-cdn.com/tptv/tptv.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
+      {
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/tptv/tptv.stream?type=m3u8',
+        options: { userAgent: defaultUserAgent },
+      },
     ],
   },
 
@@ -118,6 +135,10 @@ const streamingInfo = {
         url: 'https://edge6a.v2h-cdn.com/tnn24/tnn24.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
+      {
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/tnn24/tnn24.stream?type=m3u8',
+        options: { userAgent: defaultUserAgent },
+      },
     ],
   },
 
@@ -126,10 +147,14 @@ const streamingInfo = {
     logo: 'http://iptv36.uk.to/logo/jkn18.png',
     // tvgId: 'JKN18.th',
     sources: [
-      // {
-      //   url: 'https://edge2a.v2h-cdn.com/jkn18/jkn18.stream/playlist.m3u8',
-      //   options: { userAgent: defaultUserAgent },
-      // },
+      {
+        url: 'https://edge2a.v2h-cdn.com/jkn18/jkn18.stream/playlist.m3u8',
+        options: { userAgent: defaultUserAgent },
+      },
+      {
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/new/new.stream?type=m3u8',
+        options: { userAgent: defaultUserAgent },
+      },
     ],
   },
 
@@ -143,7 +168,12 @@ const streamingInfo = {
         suffix: 'FHD',
       },
       {
-        url: 'http://appdootv2.dootvde.com:1935/live/50015_nation.stream.smil/playlist.m3u8',
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/nation_1/nation_1.stream?type=m3u8',
+        options: { userAgent: defaultUserAgent },
+      },
+      {
+        url: 'https://edge2a.v2h-cdn.com/nation_1/nation_1.stream/playlist.m3u8',
+        options: { userAgent: defaultUserAgent },
       },
     ],
   },
@@ -153,13 +183,14 @@ const streamingInfo = {
     logo: 'http://iptv36.uk.to/logo/workpoint.png',
     // tvgId: 'Workpoint23.th',
     sources: [
-      { url: 'https://iptv36.vercel.app/api/twitch.m3u8?channel=workpointofficial', suffix: 'FHD' },
+      { url: 'https://global-media.sooplive.com/live/video/workpoint/1920x1080/playlist.m3u8', suffix: 'FHD' },
       {
-        url: 'http://appdootv2.dootvde.com:1935/live/50016_workpoint_tv.stream.smil/chunklist_w25751215_b1128000_slThai.m3u8',
+        url: 'https://edge2a.v2h-cdn.com/hd_workpoint/hd_workpoint.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
       {
-        url: 'http://appdootv2.dootvde.com:1935/live/50016_workpoint_tv.stream.smil/playlist.m3u8',
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/hd_workpoint/hd_workpoint.stream?type=m3u8',
+        options: { userAgent: defaultUserAgent },
       },
     ],
   },
@@ -174,7 +205,10 @@ const streamingInfo = {
         url: 'https://edge6a.v2h-cdn.com/true4u/true4u.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-      { url: 'http://appdootv2.dootvde.com:1935/live/50017_true_4u.stream.smil/playlist.m3u8' },
+      {
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/true4u/true4u.stream?type=m3u8',
+        options: { userAgent: defaultUserAgent },
+      },
     ],
   },
 
@@ -183,11 +217,10 @@ const streamingInfo = {
     logo: 'http://iptv36.uk.to/logo/gmm25.png',
     // tvgId: 'GMM25.th',
     sources: [
-      // {
-      //   url: 'https://bcovlive-a.akamaihd.net/6ba9620f3b3e4a87bb3845fe9e07dcf3/ap-southeast-1/6415628290001/profile_1/chunklist.m3u8',
-      //   suffix: 'HD',
-      //   options: { userAgent: defaultUserAgent },
-      // },
+      {
+        url: 'https://edge2a.v2h-cdn.com/gmm25/gmm25.stream/playlist.m3u8',
+        options: { userAgent: defaultUserAgent },
+      },
       {
         url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/gmm25/gmm25.stream?type=m3u8',
       },
@@ -195,7 +228,7 @@ const streamingInfo = {
         url: 'https://edge6a.v2h-cdn.com/gmm25/gmm25.stream/playlist.m3u8',
         options: { userAgent: defaultUserAgent },
       },
-    ],  
+    ],
   },
 
   ch8: {
@@ -209,7 +242,8 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
       },
       {
-        url: 'http://appdootv2.dootvde.com:1935/live/50028_ch8.stream.smil/playlist.m3u8',
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/ch8/ch8.stream?type=m3u8',
+        options: { userAgent: defaultUserAgent },
       },
     ],
   },
@@ -234,7 +268,7 @@ const streamingInfo = {
         options: { userAgent: defaultUserAgent },
       },
       {
-        url: 'http://appdootv2.dootvde.com:1935/live/50021_mono_tv.stream.smil/playlist.m3u8',
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/mono/mono.stream?type=m3u8',
       },
     ],
   },
@@ -266,7 +300,7 @@ const streamingInfo = {
         suffix: 'HD',
       },
       {
-        url: 'http://appdootv2.dootvde.com:1935/live/50004_ch9.stream.smil/playlist.m3u8',
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/mcothd/mcothd.stream?type=m3u8',
         suffix: 'HD',
       },
     ],
@@ -278,18 +312,21 @@ const streamingInfo = {
     // tvgId: 'One31.th',
     sources: [
       {
-        url: 'http://appdootv2.dootvde.com:1935/live/50022_one_hd.stream.smil/playlist.m3u8',
+        url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/31/31.mpd',
+        suffix: 'FHD',
+      },
+      {
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/hd_one/hd_one.stream?type=m3u8',
         suffix: 'HD',
       },
       {
         url: 'https://edge2a.v2h-cdn.com/hd_one/hd_one.stream/playlist.m3u8',
         suffix: 'HD',
       },
-      // {
-      //   url: 'https://bcovlive-a.akamaihd.net/99070042831f491bb45d05a9c2625818/ap-southeast-1/6415628290001/profile_1/chunklist.m3u8',
-      //   options: { userAgent: defaultUserAgent },
-      //   suffix: 'HD',
-      // },
+      {
+        url: 'https://edge6a.v2h-cdn.com/hd_one/hd_one.stream/playlist.m3u8',
+        suffix: 'HD',
+      },
     ],
   },
 
@@ -299,13 +336,22 @@ const streamingInfo = {
     // tvgId: 'ThairathTV32.th',
     sources: [
       {
-        url: 'http://appdootv2.dootvde.com:1935/live/50023_thairath_hd.stream.smil/playlist.m3u8',
+        url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/32/32.mpd',
+        suffix: 'FHD',
+      },
+      {
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/hd_thairath/hd_thairath.stream?type=m3u8',
         suffix: 'HD',
         priority: 26,
       },
       {
         url: 'https://streaming-web.thairath.co.th/live/playlist_hd/index.m3u8',
         options: { referer: 'https://www.thairath.co.th/' },
+        suffix: 'HD',
+      },
+      {
+        url: 'https://edge2a.v2h-cdn.com/hd_thairath/hd_thairath.stream/playlist.m3u8',
+
         suffix: 'HD',
       },
     ],
@@ -317,7 +363,11 @@ const streamingInfo = {
     // tvgId: 'Channel3.th',
     sources: [
       {
-        url: 'http://appdootv2.dootvde.com:1935/live/50001_ch3.stream.smil/chunklist_w575099455_b4692000_slThai.m3u8',
+        url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/33/33.mpd',
+        suffix: 'FHD',
+      },
+      {
+        url: 'https://edge2a.v2h-cdn.com/hd_3/hd3.stream/playlist.m3u8',
         suffix: 'HD',
       },
       {
@@ -333,7 +383,15 @@ const streamingInfo = {
     // tvgId: 'Amarin34HD.th',
     sources: [
       {
-        url: 'http://appdootv2.dootvde.com:1935/live/50025_amarin_tv_hd.stream.smil/playlist.m3u8',
+        url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/34/34.mpd',
+        suffix: 'FHD',
+      },
+      {
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/hd_amarin/hdamarin.stream?type=m3u8',
+        suffix: 'HD',
+      },
+      {
+        url: 'https://edge2a.v2h-cdn.com/hd_amarin/hdamarin.stream/playlist.m3u8',
         suffix: 'HD',
       },
     ],
@@ -349,7 +407,7 @@ const streamingInfo = {
         suffix: 'FHD',
       },
       {
-        url: 'http://appdootv2.dootvde.com:1935/live/50003_ch7.stream.smil/playlist.m3u8',
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/hd_7/hd7.stream?type=m3u8',
         suffix: 'HD',
       },
     ],
@@ -361,7 +419,11 @@ const streamingInfo = {
     // tvgId: 'PPTVHD36.th',
     sources: [
       {
-        url: 'http://appdootv2.dootvde.com:1935/live/50026_pptv_hd.stream.smil/playlist.m3u8',
+        url: 'https://edge2a.v2h-cdn.com/hd_pptv/hd_pptv.stream/playlist.m3u8',
+        suffix: 'HD',
+      },
+      {
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect//hd_pptv/hd_pptv.stream?type=m3u8',
         suffix: 'HD',
       },
       {
@@ -387,11 +449,11 @@ const streamingInfo = {
     logo: 'https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/Boomerang2024.png',
     groupName: 'Other',
     sources: [
-      // {
-      //   url: 'https://edge6a.v2h-cdn.com/boomerang/boomerang.stream/playlist.m3u8',
-      //   options: { userAgent: defaultUserAgent },
-      //   suffix: 'HD',
-      // },
+      {
+        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/boomerang/boomerang.stream?type=m3u8',
+        options: { userAgent: defaultUserAgent },
+        suffix: 'HD',
+      },
     ],
   },
 
@@ -400,9 +462,9 @@ const streamingInfo = {
     logo: 'http://iptv36.uk.to/logo/tvb.png',
     groupName: 'Other',
     sources: [
-      // {
-      //   url: 'https://n-edge-1-th.v2h-cdn.com/tvb_m/tvb_thai/playlist.m3u8',
-      // },
+      {
+        url: 'https://n-edge-1-th.v2h-cdn.com/tvb_m/tvb_thai/playlist.m3u8',
+      },
     ],
   },
 
