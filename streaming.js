@@ -15,7 +15,7 @@ const streamingInfo = {
       {
         url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/nbt/nbt.stream?type=m3u8',
         suffix: 'HD',
-        priority: 21
+        priority: 21,
       },
       {
         url: 'https://edge2a.v2h-cdn.com/nbt/nbt.stream/playlist.m3u8',
@@ -95,7 +95,7 @@ const streamingInfo = {
       {
         url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/t_sport/t_sport.stream?type=m3u8',
         options: { userAgent: defaultUserAgent },
-        priority: 11
+        priority: 11,
       },
       {
         url: 'https://edge6a.v2h-cdn.com/t_sport/t_sport.stream/playlist.m3u8',
@@ -221,7 +221,7 @@ const streamingInfo = {
     sources: [
       {
         url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/gmm25/gmm25.stream?type=m3u8',
-        priority: 11
+        priority: 11,
       },
       {
         url: 'https://edge2a.v2h-cdn.com/gmm25/gmm25.stream/playlist.m3u8',
@@ -821,8 +821,8 @@ const testUrl = async (url, options = {}) => {
       url.includes('prsmedia') ||
       url.includes('dailymotion.com') ||
       url.includes('iptv36.vercel.app/api/') ||
-      url.includes('thairath.co.th') || 
-      url.includes(':8443')
+      url.includes('thairath.co.th') ||
+      url.includes(':8443'))
   ) {
     return true;
   }
