@@ -21,8 +21,8 @@ const playlistV1 = {
     ['ch7', 1],
     ['tnn16'],
     ['tnn16', 1],
-    ['jkn'],
-    ['jkn', 1],
+    ['jkn18'],
+    ['jkn18', 1],
     ['true4u', 1],
 
     // 21-30
@@ -65,14 +65,16 @@ const channelListWithBackupChannel = [
   ['tptv', 1],
   ['tnn16'],
   ['tnn16', 1],
+  ['jkn18'],
+  ['jkn18', 1],
   ['nation'],
   ['nation', 1],
   ['workpoint'],
   ['workpoint', 1],
-  ['true4u'],
-  ['true4u', 1],
 
   // 21-30
+  ['true4u'],
+  ['true4u', 1],
   ['gmm25'],
   ['gmm25', 1],
   ['ch8'],
@@ -81,10 +83,10 @@ const channelListWithBackupChannel = [
   ['mono29soundtrack'],
   ['mcot'],
   ['mcot', 1],
-  ['one'],
-  ['one', 1],
 
   // 31-40
+  ['one'],
+  ['one', 1],
   ['thairath'],
   ['thairath', 1],
   ['ch3'],
@@ -93,6 +95,8 @@ const channelListWithBackupChannel = [
   ['amarin', 1],
   ['ch7'],
   ['ch7', 1],
+
+  // 41-42
   ['pptv'],
   ['pptv', 1],
 ];
@@ -138,6 +142,5 @@ const playlistV4 = {
 };
 
 const allPlaylist = [playlistV1, playlistV2, playlistV3];
-// const allPlaylist = [playlistV4];
 
 module.exports = allPlaylist;

@@ -857,8 +857,6 @@ const testUrl = async (url, options = {}) => {
 const generateValidSources = async (streamingData) => {
   streamingData.validSources = [];
 
-  if (streamingData.sources === undefined) console.log(streamingData.channelName);
-
   await Promise.all(
     streamingData.sources.map(async (source) => {
       let result = await testUrl(source.url, source.options);
@@ -885,7 +883,11 @@ const generateValidSources = async (streamingData) => {
 };
 
 const getStreamingInfo = async (channelKey, skip = 0) => {
-  let streamingData = streamingInfo[channelKey] || {};
+  if (streamingInfo[channelKey] === undefined) {
+    console.log(`Cannot retrive streamingInfo for channelKey ${channelKey}`);
+  }
+
+  let streamingData = streamingInfo[channelKey] || { channelName: `error ${channelKey}`, sources: [] };
 
   // check validSources available or not
   if (streamingData.validSources === undefined) {
