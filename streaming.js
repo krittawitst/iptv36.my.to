@@ -9,7 +9,7 @@ const currentDatetimePlus7Hrs = new Date(new Date().getTime() + 7 * 60 * 60 * 10
 const streamingInfo = {
   nbt: {
     channelName: 'NBT',
-    logo: 'https://iptv36.vercel.com/logo/nbt.png',
+    logo: 'https://iptv36.vercel.app/logo/nbt.png',
     // tvgId: 'NBT2.th',
     sources: [
       {
@@ -32,7 +32,7 @@ const streamingInfo = {
 
   thaipbs: {
     channelName: 'Thai PBS',
-    logo: 'https://iptv36.vercel.com/logo/thaipbs.png',
+    logo: 'https://iptv36.vercel.app/logo/thaipbs.png',
     // tvgId: 'ThaiPBS3.th',
     sources: [
       {
@@ -49,7 +49,7 @@ const streamingInfo = {
 
   altv: {
     channelName: 'ALTV',
-    logo: 'https://iptv36.vercel.com/logo/altv.png',
+    logo: 'https://iptv36.vercel.app/logo/altv.png',
     sources: [
       { url: 'https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8', suffix: 'FHD' },
       {
@@ -65,7 +65,7 @@ const streamingInfo = {
 
   tv5: {
     channelName: 'TV5',
-    logo: 'https://iptv36.vercel.com/logo/tv5.png',
+    logo: 'https://iptv36.vercel.app/logo/tv5.png',
     // tvgId: 'ThaiTV5HD1.th',
     sources: [
       {
@@ -86,7 +86,7 @@ const streamingInfo = {
 
   tsports: {
     channelName: 'T-Sports',
-    logo: 'https://iptv36.vercel.com/logo/tsports.png',
+    logo: 'https://iptv36.vercel.app/logo/tsports.png',
     sources: [
       {
         url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/t_sport/t_sport.stream?type=m3u8',
@@ -102,7 +102,7 @@ const streamingInfo = {
 
   tptv: {
     channelName: 'TPTV',
-    logo: 'https://iptv36.vercel.com/logo/tptv.png',
+    logo: 'https://iptv36.vercel.app/logo/tptv.png',
     sources: [
       {
         url: 'https://tv-live.tpchannel.org/live/tv_1080p.m3u8?vhost=tv-live.tpchannel.org',
@@ -121,7 +121,7 @@ const streamingInfo = {
 
   tnn16: {
     channelName: 'TNN16',
-    logo: 'https://iptv36.vercel.com/logo/tnn16.png',
+    logo: 'https://iptv36.vercel.app/logo/tnn16.png',
     // tvgId: 'TNN16.th',
     sources: [
       { url: 'https://iptv36.vercel.app/api/true.m3u8?channel=tnn16', suffix: 'HD' },
@@ -134,7 +134,7 @@ const streamingInfo = {
 
   jkn18: {
     channelName: 'JKN18',
-    logo: 'https://iptv36.vercel.com/logo/jkn18.png',
+    logo: 'https://iptv36.vercel.app/logo/jkn18.png',
     // tvgId: 'JKN18.th',
     sources: [
       {
@@ -150,7 +150,7 @@ const streamingInfo = {
 
   nation: {
     channelName: 'Nation TV',
-    logo: 'https://iptv36.vercel.com/logo/nation.png',
+    logo: 'https://iptv36.vercel.app/logo/nation.png',
     // tvgId: 'NationTV.th',
     sources: [
       {
@@ -170,7 +170,7 @@ const streamingInfo = {
 
   workpoint: {
     channelName: 'Workpoint TV',
-    logo: 'https://iptv36.vercel.com/logo/workpoint.png',
+    logo: 'https://iptv36.vercel.app/logo/workpoint.png',
     // tvgId: 'Workpoint23.th',
     sources: [
       { url: 'https://global-media.sooplive.com/live/video/workpoint/1920x1080/playlist.m3u8', suffix: 'FHD' },
@@ -181,7 +181,7 @@ const streamingInfo = {
 
   true4u: {
     channelName: 'True4U',
-    logo: 'https://iptv36.vercel.com/logo/true4u.png',
+    logo: 'https://iptv36.vercel.app/logo/true4u.png',
     // tvgId: 'True4U.th',
     sources: [
       { url: 'https://iptv36.vercel.app/api/true.m3u8?channel=true4u', suffix: 'HD' },
@@ -192,7 +192,7 @@ const streamingInfo = {
 
   gmm25: {
     channelName: 'GMM25',
-    logo: 'https://iptv36.vercel.com/logo/gmm25.png',
+    logo: 'https://iptv36.vercel.app/logo/gmm25.png',
     // tvgId: 'GMM25.th',
     sources: [
       { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/25/25.mpd' },
@@ -203,7 +203,7 @@ const streamingInfo = {
 
   ch8: {
     channelName: 'CH8',
-    logo: 'https://iptv36.vercel.com/logo/ch8.png',
+    logo: 'https://iptv36.vercel.app/logo/ch8.png',
     // tvgId: 'ThaiChannel8.th',
     sources: [
       { url: 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8', suffix: 'HD' },
@@ -214,7 +214,7 @@ const streamingInfo = {
 
   mono29: {
     channelName: 'MONO29',
-    logo: 'https://iptv36.vercel.com/logo/mono29.png',
+    logo: 'https://iptv36.vercel.app/logo/mono29.png',
     // tvgId: 'Mono29.th',
     sources: [
       {
@@ -233,7 +233,7 @@ const streamingInfo = {
 
   mono29soundtrack: {
     channelName: 'MONO29 Soundtrack',
-    logo: 'https://iptv36.vercel.com/logo/mono29.png',
+    logo: 'https://iptv36.vercel.app/logo/mono29.png',
     tvgId: 'iptv36.mono29',
     sources: [
       {
@@ -245,7 +245,7 @@ const streamingInfo = {
 
   mcot: {
     channelName: 'MCOT',
-    logo: 'https://iptv36.vercel.com/logo/mcot.png',
+    logo: 'https://iptv36.vercel.app/logo/mcot.png',
     // tvgId: 'MCOTHD.th',
     sources: [
       {
@@ -261,7 +261,7 @@ const streamingInfo = {
 
   one: {
     channelName: 'ONE',
-    logo: 'https://iptv36.vercel.com/logo/one.png',
+    logo: 'https://iptv36.vercel.app/logo/one.png',
     // tvgId: 'One31.th',
     sources: [
       {
@@ -281,7 +281,7 @@ const streamingInfo = {
 
   thairath: {
     channelName: 'Thairath TV',
-    logo: 'https://iptv36.vercel.com/logo/thairath.png',
+    logo: 'https://iptv36.vercel.app/logo/thairath.png',
     // tvgId: 'ThairathTV32.th',
     sources: [
       {
@@ -302,7 +302,7 @@ const streamingInfo = {
 
   ch3: {
     channelName: 'CH3',
-    logo: 'https://iptv36.vercel.com/logo/ch3.png',
+    logo: 'https://iptv36.vercel.app/logo/ch3.png',
     // tvgId: 'Channel3.th',
     sources: [
       {
@@ -318,7 +318,7 @@ const streamingInfo = {
 
   amarin: {
     channelName: 'Amarin TV',
-    logo: 'https://iptv36.vercel.com/logo/amarin.png',
+    logo: 'https://iptv36.vercel.app/logo/amarin.png',
     // tvgId: 'Amarin34HD.th',
     sources: [
       {
@@ -334,7 +334,7 @@ const streamingInfo = {
 
   ch7: {
     channelName: 'CH7',
-    logo: 'https://iptv36.vercel.com/logo/ch7.png',
+    logo: 'https://iptv36.vercel.app/logo/ch7.png',
     // tvgId: 'BBTVChannel7.th',
     sources: [
       {
@@ -354,7 +354,7 @@ const streamingInfo = {
 
   pptv: {
     channelName: 'PPTV',
-    logo: 'https://iptv36.vercel.com/logo/pptv.png',
+    logo: 'https://iptv36.vercel.app/logo/pptv.png',
     // tvgId: 'PPTVHD36.th',
     sources: [
       {
@@ -370,7 +370,7 @@ const streamingInfo = {
 
   cartoonclub: {
     channelName: 'Cartoon Club',
-    logo: 'https://iptv36.vercel.com/logo/cartoonclub.png',
+    logo: 'https://iptv36.vercel.app/logo/cartoonclub.png',
     groupName: 'Other',
     sources: [
       {
@@ -394,7 +394,7 @@ const streamingInfo = {
 
   tvb: {
     channelName: 'TVB Thai FHD',
-    logo: 'https://iptv36.vercel.com/logo/tvb.png',
+    logo: 'https://iptv36.vercel.app/logo/tvb.png',
     groupName: 'Other',
     sources: [
       {
@@ -471,7 +471,7 @@ const streamingInfo = {
 
   premier1: {
     channelName: 'Premier 1',
-    logo: 'https://iptv36.vercel.com/logo/premier_hd1.png',
+    logo: 'https://iptv36.vercel.app/logo/premier_hd1.png',
     // tvgId: 'TruePremierFootball1.th',
     groupName: 'Sport',
     sources: [
@@ -484,7 +484,7 @@ const streamingInfo = {
 
   premier2: {
     channelName: 'Premier 2',
-    logo: 'https://iptv36.vercel.com/logo/premier_hd1.png',
+    logo: 'https://iptv36.vercel.app/logo/premier_hd1.png',
     // tvgId: 'TruePremierFootball2.th',
     groupName: 'Sport',
     sources: [
@@ -497,7 +497,7 @@ const streamingInfo = {
 
   premier3: {
     channelName: 'Premier 3',
-    logo: 'https://iptv36.vercel.com/logo/premier_hd3.png',
+    logo: 'https://iptv36.vercel.app/logo/premier_hd3.png',
     // tvgId: 'TruePremierFootball3.th',
     groupName: 'Sport',
     sources: [
@@ -510,7 +510,7 @@ const streamingInfo = {
 
   premier4: {
     channelName: 'Premier 4',
-    logo: 'https://iptv36.vercel.com/logo/premier_hd4.png',
+    logo: 'https://iptv36.vercel.app/logo/premier_hd4.png',
     // tvgId: 'TruePremierFootball4.th',
     groupName: 'Sport',
     sources: [
@@ -523,7 +523,7 @@ const streamingInfo = {
 
   premier5: {
     channelName: 'Premier 5',
-    logo: 'https://iptv36.vercel.com/logo/premier_hd5.png',
+    logo: 'https://iptv36.vercel.app/logo/premier_hd5.png',
     // tvgId: 'TruePremierFootball5.th',
     groupName: 'Sport',
     sources: [
@@ -536,7 +536,7 @@ const streamingInfo = {
 
   truesportshd1: {
     channelName: 'True Sports 1',
-    logo: 'https://iptv36.vercel.com/logo/true_sports_hd.png',
+    logo: 'https://iptv36.vercel.app/logo/true_sports_hd.png',
     groupName: 'Sport',
     sources: [
       {
@@ -548,7 +548,7 @@ const streamingInfo = {
 
   truesportshd2: {
     channelName: 'True Sports 2',
-    logo: 'https://iptv36.vercel.com/logo/true_sports_hd2.png',
+    logo: 'https://iptv36.vercel.app/logo/true_sports_hd2.png',
     groupName: 'Sport',
     sources: [
       {
@@ -571,7 +571,7 @@ const streamingInfo = {
 
   ipcam: {
     channelName: 'CAM',
-    logo: 'https://iptv36.vercel.com/logo/ipcam.png',
+    logo: 'https://iptv36.vercel.app/logo/ipcam.png',
     groupName: 'IP Camera',
     sources: [
       { url: 'rtsp://admin@192.168.1.200/user=admin&password=&channel=1&stream=1.sdp?', suffix: '01 Park-164' },
