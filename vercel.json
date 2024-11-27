@@ -11,10 +11,6 @@
     {
       "source": "/v3.m3u",
       "destination": "https://iptv36.vercel.app/playlist-v3.m3u"
-    },
-    {
-      "source": "/",
-      "destination": "http://iptv36.uk.to/"
     }
   ]
 }
