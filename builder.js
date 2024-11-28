@@ -100,7 +100,7 @@ const main = async () => {
         continue;
       }
 
-      let tvgId = `${epg.channelKey}.iptv36.mooo.com`;
+      let tvgId = `iptv36.${epg.channelKey}`;
       xmlProgramBody += `  <programme start="${epg.programStartStr}" `;
       xmlProgramBody += epg.programEndStr ? `stop="${epg.programEndStr}" ` : '';
       xmlProgramBody += `channel="${tvgId}">\n`;

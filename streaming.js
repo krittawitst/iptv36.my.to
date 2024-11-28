@@ -196,8 +196,10 @@ const streamingInfo = {
     // tvgId: 'GMM25.th',
     sources: [
       { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/25/25.mpd' },
-      { url: 'https://hls-nginx.v2h-cdn.com/hls/workpointmyStream.m3u8' },
-      { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/25/25.mpd' },
+      { url: 'https://hls-nginx.v2h-cdn.com/hls/gmm25myStream.m3u8' },
+      {
+        url: 'https://bcovlive-a.akamaihd.net/57d4bf695e80436d9335f4f50adbe438/ap-southeast-1/6415628290001/7e85dc4a59904e45b4fdffebd62e1d82/playlist_ssaiM.m3u8',
+      },
     ],
   },
 
@@ -476,7 +478,7 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://streamamg-fa.akamaiz.com/dookeela/epl1_sd/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNCA5OjU2OjM2IEFNJmhhc2hfdmFsdWU9eWpud1ZUaUlsaUhuMmdqYy8xeFNadz09JnZhbGlkbWludXRlcz0xJmlkPTBkNGRlZTIyMzc0NjliNGJmZDU0YjU4YWRmMjUyMzM4JmNoZWNraXA9dHJ1ZSZzdHJtX2xlbj0xNg==',
+        url: 'https://streamamg-fa.akamaiz.com/dookeela/epl1_sd/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjgvMjAyNCAxMjozMzoyMiBBTSZoYXNoX3ZhbHVlPW5ZOUEwQWJGVEtXN2VrbG1vYTIranc9PSZ2YWxpZG1pbnV0ZXM9MSZpZD0wZDRkZWUyMjM3NDY5YjRiZmQ1NGI1OGFkZjI1MjMzOCZjaGVja2lwPXRydWUmc3RybV9sZW49MTY=',
         options: { referer: 'https://dookeela.live/' },
       },
     ],
@@ -489,7 +491,7 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://streamamg-fa.akamaiz.com/dookeela/epl2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNCA5OjUzOjI4IEFNJmhhc2hfdmFsdWU9ZDVZTjJVNUdma2F0WWJUU1E1b2pUZz09JnZhbGlkbWludXRlcz0xJmlkPTBkNGRlZTIyMzc0NjliNGJmZDU0YjU4YWRmMjUyMzM4JmNoZWNraXA9dHJ1ZSZzdHJtX2xlbj0xMw==',
+        url: 'https://streamamg-fa.akamaiz.com/dookeela/epl2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjgvMjAyNCAxMjozMzo1NiBBTSZoYXNoX3ZhbHVlPUIyR0tvQkd5Uk9JSVJ2RWNPQndGSWc9PSZ2YWxpZG1pbnV0ZXM9MSZpZD0wZDRkZWUyMjM3NDY5YjRiZmQ1NGI1OGFkZjI1MjMzOCZjaGVja2lwPXRydWUmc3RybV9sZW49MTM=',
         options: { referer: 'https://dookeela.live/' },
       },
     ],
