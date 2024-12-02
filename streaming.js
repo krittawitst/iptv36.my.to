@@ -12,21 +12,9 @@ const streamingInfo = {
     logo: 'https://iptv36.vercel.app/logo/nbt.png',
     // tvgId: 'NBT2.th',
     sources: [
-      {
-        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/nbt/nbt.stream?type=m3u8',
-        suffix: 'HD',
-        priority: 21,
-      },
-      {
-        url: 'https://edge2a.v2h-cdn.com/nbt/nbt.stream/playlist.m3u8',
-        options: { userAgent: defaultUserAgent },
-        suffix: 'HD',
-      },
-      {
-        url: 'https://edge6a.v2h-cdn.com/nbt/nbt.stream/playlist.m3u8',
-        options: { userAgent: defaultUserAgent },
-        suffix: 'HD',
-      },
+      { url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/nbt/nbt.stream?type=m3u8', suffix: 'HD' },
+      { url: 'https://edge2a.v2h-cdn.com/nbt/nbt.stream/playlist.m3u8', suffix: 'HD' },
+      { url: 'https://edge6a.v2h-cdn.com/nbt/nbt.stream/playlist.m3u8', suffix: 'HD' },
     ],
   },
 
@@ -35,15 +23,8 @@ const streamingInfo = {
     logo: 'https://iptv36.vercel.app/logo/thaipbs.png',
     // tvgId: 'ThaiPBS3.th',
     sources: [
-      {
-        url: 'https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8',
-        suffix: 'FHD',
-      },
-      {
-        url: 'https://edge6a.v2h-cdn.com/tpbs/tpbs.stream/playlist.m3u8',
-        options: { userAgent: defaultUserAgent },
-        suffix: 'HD',
-      },
+      { url: 'https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8', suffix: 'FHD' },
+      { url: 'https://edge6a.v2h-cdn.com/tpbs/tpbs.stream/playlist.m3u8', suffix: 'HD' },
     ],
   },
 
@@ -52,14 +33,8 @@ const streamingInfo = {
     logo: 'https://iptv36.vercel.app/logo/altv.png',
     sources: [
       { url: 'https://thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8', suffix: 'FHD' },
-      {
-        url: 'https://edge6a.v2h-cdn.com/altv2/altv.stream/playlist.m3u8',
-        options: { userAgent: defaultUserAgent },
-      },
-      {
-        url: 'https://edge2a.v2h-cdn.com/altv2/altv.stream/playlist.m3u8',
-        options: { userAgent: defaultUserAgent },
-      },
+      { url: 'https://edge6a.v2h-cdn.com/altv2/altv.stream/playlist.m3u8' },
+      { url: 'https://edge2a.v2h-cdn.com/altv2/altv.stream/playlist.m3u8' },
     ],
   },
 
@@ -68,19 +43,9 @@ const streamingInfo = {
     logo: 'https://iptv36.vercel.app/logo/tv5.png',
     // tvgId: 'ThaiTV5HD1.th',
     sources: [
-      {
-        url: 'https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8',
-        suffix: 'FHD',
-      },
-      {
-        url: 'https://edge6a.v2h-cdn.com/tv5hd/tv5hd.stream/playlist.m3u8',
-        options: { userAgent: defaultUserAgent },
-        suffix: 'HD',
-      },
-      {
-        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/tv5hd/tv5hd.stream?type=m3u8',
-        suffix: 'HD',
-      },
+      { url: 'https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8', suffix: 'FHD' },
+      { url: 'https://edge6a.v2h-cdn.com/tv5hd/tv5hd.stream/playlist.m3u8', suffix: 'HD' },
+      { url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/tv5hd/tv5hd.stream?type=m3u8', suffix: 'HD' },
     ],
   },
 
@@ -88,15 +53,8 @@ const streamingInfo = {
     channelName: 'T-Sports',
     logo: 'https://iptv36.vercel.app/logo/tsports.png',
     sources: [
-      {
-        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/t_sport/t_sport.stream?type=m3u8',
-        options: { userAgent: defaultUserAgent },
-        priority: 11,
-      },
-      {
-        url: 'https://edge6a.v2h-cdn.com/t_sport/t_sport.stream/playlist.m3u8',
-        options: { userAgent: defaultUserAgent },
-      },
+      { url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/t_sport/t_sport.stream?type=m3u8' },
+      { url: 'https://edge6a.v2h-cdn.com/t_sport/t_sport.stream/playlist.m3u8' },
     ],
   },
 
@@ -104,18 +62,9 @@ const streamingInfo = {
     channelName: 'TPTV',
     logo: 'https://iptv36.vercel.app/logo/tptv.png',
     sources: [
-      {
-        url: 'https://tv-live.tpchannel.org/live/tv_1080p.m3u8?vhost=tv-live.tpchannel.org',
-        suffix: 'FHD',
-      },
-      {
-        url: 'https://edge6a.v2h-cdn.com/tptv/tptv.stream/playlist.m3u8',
-        options: { userAgent: defaultUserAgent },
-      },
-      {
-        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/tptv/tptv.stream?type=m3u8',
-        options: { userAgent: defaultUserAgent },
-      },
+      { url: 'https://tv-live.tpchannel.org/live/tv_1080p.m3u8?vhost=tv-live.tpchannel.org', suffix: 'FHD' },
+      { url: 'https://edge6a.v2h-cdn.com/tptv/tptv.stream/playlist.m3u8' },
+      { url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/tptv/tptv.stream?type=m3u8' },
     ],
   },
 
@@ -125,10 +74,7 @@ const streamingInfo = {
     // tvgId: 'TNN16.th',
     sources: [
       { url: 'https://iptv36.vercel.app/api/true.m3u8?channel=tnn16', suffix: 'HD' },
-      {
-        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/tnn24/tnn24.stream?type=m3u8',
-        options: { userAgent: defaultUserAgent },
-      },
+      { url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/tnn24/tnn24.stream?type=m3u8' },
     ],
   },
 
@@ -137,14 +83,9 @@ const streamingInfo = {
     logo: 'https://iptv36.vercel.app/logo/jkn18.png',
     // tvgId: 'JKN18.th',
     sources: [
-      {
-        url: 'https://edge2a.v2h-cdn.com/jkn18/jkn18.stream/playlist.m3u8',
-        options: { userAgent: defaultUserAgent },
-      },
-      {
-        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/new/new.stream?type=m3u8',
-        options: { userAgent: defaultUserAgent },
-      },
+      { url: 'https://live3.topnews.co.th/hls/topnews_b_720.m3u8', suffix: 'HD' },
+      { url: 'https://edge2a.v2h-cdn.com/jkn18/jkn18.stream/playlist.m3u8' },
+      { url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/new/new.stream?type=m3u8' },
     ],
   },
 
@@ -157,14 +98,8 @@ const streamingInfo = {
         url: 'https://nationtv-1jdcjo.cdn.byteark.com/fleetstream/nationtvlive/index.m3u8',
         suffix: 'FHD',
       },
-      {
-        url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/nation_1/nation_1.stream?type=m3u8',
-        options: { userAgent: defaultUserAgent },
-      },
-      {
-        url: 'https://edge2a.v2h-cdn.com/nation_1/nation_1.stream/playlist.m3u8',
-        options: { userAgent: defaultUserAgent },
-      },
+      { url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/nation_1/nation_1.stream?type=m3u8' },
+      { url: 'https://edge2a.v2h-cdn.com/nation_1/nation_1.stream/playlist.m3u8' },
     ],
   },
 
@@ -173,9 +108,9 @@ const streamingInfo = {
     logo: 'https://iptv36.vercel.app/logo/workpoint.png',
     // tvgId: 'Workpoint23.th',
     sources: [
-      { url: 'https://global-media.sooplive.com/live/video/workpoint/1920x1080/playlist.m3u8', suffix: 'FHD' },
-      // { url: 'https://hls-nginx.v2h-cdn.com/hls/workpointmyStream.m3u8' },
-      { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/23/23.mpd' },
+      { url: 'https://global-media.sooplive.com/live/workpoint/master.m3u8', suffix: 'FHD' },
+      { url: 'https://hls-nginx.v2h-cdn.com/hls/workpointmyStream.m3u8' },
+      { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/23/23.mpd', priority: 9 },
     ],
   },
 
@@ -186,7 +121,7 @@ const streamingInfo = {
     sources: [
       { url: 'https://iptv36.vercel.app/api/true.m3u8?channel=true4u', suffix: 'HD' },
       { url: 'https://hls-nginx.v2h-cdn.com/hls/workpointmyStream.m3u8' },
-      { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/24/24.mpd' },
+      { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/24/24.mpd', priority: 9 },
     ],
   },
 
@@ -195,11 +130,12 @@ const streamingInfo = {
     logo: 'https://iptv36.vercel.app/logo/gmm25.png',
     // tvgId: 'GMM25.th',
     sources: [
-      { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/25/25.mpd' },
-      { url: 'https://hls-nginx.v2h-cdn.com/hls/gmm25myStream.m3u8' },
       {
         url: 'https://bcovlive-a.akamaihd.net/57d4bf695e80436d9335f4f50adbe438/ap-southeast-1/6415628290001/7e85dc4a59904e45b4fdffebd62e1d82/playlist_ssaiM.m3u8',
+        suffix: 'FHD',
       },
+      { url: 'https://hls-nginx.v2h-cdn.com/hls/gmm25myStream.m3u8' },
+      { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/25/25.mpd', priority: 9 },
     ],
   },
 
@@ -210,7 +146,7 @@ const streamingInfo = {
     sources: [
       { url: 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8', suffix: 'HD' },
       { url: 'https://hls-nginx.v2h-cdn.com/hls/ch8myStream.m3u8' },
-      { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/27/27.mpd' },
+      { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/27/27.mpd', priority: 9 },
     ],
   },
 
@@ -250,14 +186,8 @@ const streamingInfo = {
     logo: 'https://iptv36.vercel.app/logo/mcot.png',
     // tvgId: 'MCOTHD.th',
     sources: [
-      {
-        url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/30/30.mpd',
-        suffix: 'FHD',
-      },
-      {
-        url: 'https://live-org-01-cdn.mcot.net/mcothd1080p_edge/smil:mcothd1080p.smil/playlist.m3u8',
-        suffix: 'FHD',
-      },
+      { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/30/30.mpd', suffix: 'FHD' },
+      { url: 'https://live-org-01-cdn.mcot.net/mcothd1080p_edge/smil:mcothd1080p.smil/playlist.m3u8', suffix: 'FHD' },
     ],
   },
 
@@ -266,18 +196,12 @@ const streamingInfo = {
     logo: 'https://iptv36.vercel.app/logo/one.png',
     // tvgId: 'One31.th',
     sources: [
-      {
-        url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/31/31.mpd',
-        suffix: 'FHD',
-      },
+      { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/31/31.mpd', suffix: 'FHD' },
       {
         url: 'https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/6415628290001/9c3d7fc7d10840a69e48b5939ae886e0/playlist_ssaiM.m3u8',
-        suffix: 'HD',
+        suffix: 'FHD',
       },
-      {
-        url: 'https://hls-nginx.v2h-cdn.com/hls/onemyStream.m3u8',
-        suffix: 'HD',
-      },
+      { url: 'https://hls-nginx.v2h-cdn.com/hls/onemyStream.m3u8', suffix: 'HD' },
     ],
   },
 
@@ -286,14 +210,8 @@ const streamingInfo = {
     logo: 'https://iptv36.vercel.app/logo/thairath.png',
     // tvgId: 'ThairathTV32.th',
     sources: [
-      {
-        url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/32/32.mpd',
-        suffix: 'FHD',
-      },
-      {
-        url: 'https://hls-nginx.v2h-cdn.com/hls/thairathmyStream.m3u8',
-        suffix: 'HD',
-      },
+      { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/32/32.mpd', suffix: 'FHD' },
+      { url: 'https://hls-nginx.v2h-cdn.com/hls/thairathmyStream.m3u8', suffix: 'HD' },
       {
         url: 'https://streaming-web.thairath.co.th/live/playlist_hd/index.m3u8',
         options: { referer: 'https://www.thairath.co.th/' },
@@ -307,14 +225,8 @@ const streamingInfo = {
     logo: 'https://iptv36.vercel.app/logo/ch3.png',
     // tvgId: 'Channel3.th',
     sources: [
-      {
-        url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/33/33.mpd',
-        suffix: 'FHD',
-      },
-      {
-        url: 'https://hls-nginx.v2h-cdn.com/hls/ch3myStream.m3u8',
-        suffix: 'HD',
-      },
+      { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/33/33.mpd', suffix: 'FHD' },
+      { url: 'https://hls-nginx.v2h-cdn.com/hls/ch3myStream.m3u8', suffix: 'HD' },
     ],
   },
 
@@ -323,14 +235,8 @@ const streamingInfo = {
     logo: 'https://iptv36.vercel.app/logo/amarin.png',
     // tvgId: 'Amarin34HD.th',
     sources: [
-      {
-        url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/34/34.mpd',
-        suffix: 'FHD',
-      },
-      {
-        url: 'https://hls-nginx.v2h-cdn.com/hls/amarinmyStream.m3u8',
-        suffix: 'HD',
-      },
+      { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/34/34.mpd', suffix: 'FHD' },
+      { url: 'https://hls-nginx.v2h-cdn.com/hls/amarinmyStream.m3u8', suffix: 'HD' },
     ],
   },
 
@@ -339,18 +245,9 @@ const streamingInfo = {
     logo: 'https://iptv36.vercel.app/logo/ch7.png',
     // tvgId: 'BBTVChannel7.th',
     sources: [
-      {
-        url: 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com',
-        suffix: 'FHD',
-      },
-      {
-        url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/35/35.mpd',
-        suffix: 'FHD',
-      },
-      {
-        url: 'https://hls-nginx.v2h-cdn.com/hls/ch7myStream.m3u8',
-        suffix: 'HD',
-      },
+      { url: 'https://live-cdn-hwc.ch7.com/livech7hd/HD_1080p.m3u8?vhost=streaming-hwc.ch7.com', suffix: 'FHD' },
+      { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/35/35.mpd', suffix: 'FHD' },
+      { url: 'https://hls-nginx.v2h-cdn.com/hls/ch7myStream.m3u8', suffix: 'HD' },
     ],
   },
 
@@ -359,13 +256,11 @@ const streamingInfo = {
     logo: 'https://iptv36.vercel.app/logo/pptv.png',
     // tvgId: 'PPTVHD36.th',
     sources: [
+      { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/36/36.mpd', suffix: 'FHD' },
       {
-        url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/36/36.mpd',
-        suffix: 'FHD',
-      },
-      {
-        url: 'https://hls-nginx.v2h-cdn.com/hls/pptvmyStream.m3u8',
+        url: 'https://cdnsv1.bunnycdncloud.com/dooball2you/pptv/playlist.m3u8',
         suffix: 'HD',
+        options: { referer: 'https://dooball2you.com/' },
       },
     ],
   },
@@ -436,26 +331,26 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/bein1/playlist.m3u8',
-        options: { referer: 'https://dooball2you.com/' },
+        url: 'https://cdnsv1.bunnycdncloud.com/dooball2you/bein1/playlist.m3u8',
         suffix: 'HD',
+        options: { referer: 'https://dooball2you.com/' },
       },
     ],
   },
 
-  bein2: {
-    channelName: 'beIN Sports 2',
-    logo: 'https://i.imgur.com/vUJZSvs.png',
-    // tvgId: 'beINSports2Thailand.th',
-    groupName: 'Sport',
-    sources: [
-      {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/bein2/playlist.m3u8',
-        options: { referer: 'https://dooball2you.com/' },
-        suffix: 'HD',
-      },
-    ],
-  },
+  // bein2: {
+  //   channelName: 'beIN Sports 2',
+  //   logo: 'https://i.imgur.com/vUJZSvs.png',
+  //   // tvgId: 'beINSports2Thailand.th',
+  //   groupName: 'Sport',
+  //   sources: [
+  //     {
+  //       url: 'https://cdnsv1.bunnycdncloud.com/dooball2you/bein2/playlist.m3u8',
+  //       suffix: 'HD',
+  //       options: { referer: 'https://dooball2you.com/' },
+  //     },
+  //   ],
+  // },
 
   bein3: {
     channelName: 'beIN Sports 3',
@@ -464,9 +359,9 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/bein3/playlist.m3u8',
-        options: { referer: 'https://dooball2you.com/' },
+        url: 'https://cdnsv1.bunnycdncloud.com/dooball2you/bein3/playlist.m3u8',
         suffix: 'HD',
+        options: { referer: 'https://dooball2you.com/' },
       },
     ],
   },
@@ -478,8 +373,9 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://streamamg-fa.akamaiz.com/dookeela/epl1_sd/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjgvMjAyNCAxMjozMzoyMiBBTSZoYXNoX3ZhbHVlPW5ZOUEwQWJGVEtXN2VrbG1vYTIranc9PSZ2YWxpZG1pbnV0ZXM9MSZpZD0wZDRkZWUyMjM3NDY5YjRiZmQ1NGI1OGFkZjI1MjMzOCZjaGVja2lwPXRydWUmc3RybV9sZW49MTY=',
-        options: { referer: 'https://dookeela.live/' },
+        url: 'https://cdnsv1.bunnycdncloud.com/dooball2you/tpf1/playlist.m3u8',
+        suffix: 'HD',
+        options: { referer: 'https://dooball2you.com/' },
       },
     ],
   },
@@ -491,7 +387,7 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://streamamg-fa.akamaiz.com/dookeela/epl2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjgvMjAyNCAxMjozMzo1NiBBTSZoYXNoX3ZhbHVlPUIyR0tvQkd5Uk9JSVJ2RWNPQndGSWc9PSZ2YWxpZG1pbnV0ZXM9MSZpZD0wZDRkZWUyMjM3NDY5YjRiZmQ1NGI1OGFkZjI1MjMzOCZjaGVja2lwPXRydWUmc3RybV9sZW49MTM=',
+        url: 'https://streamamg-fa.akamaiz.com/dookeela/epl2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMi8yMDI0IDI6MjY6MTggQU0maGFzaF92YWx1ZT0xdkF1VlBpSkliQjdReE9yNVhUdVBnPT0mdmFsaWRtaW51dGVzPTEmaWQ9MWE4M2JjZTYyNTAyMzQ5MzljZjI5ODgyZGI3YzNmMTQmY2hlY2tpcD10cnVlJnN0cm1fbGVuPTEz',
         options: { referer: 'https://dookeela.live/' },
       },
     ],
@@ -504,7 +400,8 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/tpf3/playlist.m3u8',
+        url: 'https://cdnsv1.bunnycdncloud.com/dooball2you/tpf3/playlist.m3u8',
+        suffix: 'HD',
         options: { referer: 'https://dooball2you.com/' },
       },
     ],
@@ -517,7 +414,8 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/tpf4/playlist.m3u8',
+        url: 'https://cdnsv1.bunnycdncloud.com/dooball2you/tpf4/playlist.m3u8',
+        suffix: 'HD',
         options: { referer: 'https://dooball2you.com/' },
       },
     ],
@@ -530,7 +428,8 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/tpf5/playlist.m3u8',
+        url: 'https://cdnsv1.bunnycdncloud.com/dooball2you/tpf5/playlist.m3u8',
+        suffix: 'HD',
         options: { referer: 'https://dooball2you.com/' },
       },
     ],
@@ -542,7 +441,8 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/truesporthd1/playlist.m3u8',
+        url: 'https://cdnsv1.bunnycdncloud.com/dooball2you/truesporthd1/playlist.m3u8',
+        suffix: 'HD',
         options: { referer: 'https://dooball2you.com/' },
       },
     ],
@@ -554,7 +454,8 @@ const streamingInfo = {
     groupName: 'Sport',
     sources: [
       {
-        url: 'https://rr3-ic3d-ndjcs.huaweicdncloud.com/dooball2you/truesporthd2/playlist.m3u8',
+        url: 'https://cdnsv1.bunnycdncloud.com/dooball2you/truesporthd2/playlist.m3u8',
+        suffix: 'HD',
         options: { referer: 'https://dooball2you.com/' },
       },
     ],
@@ -738,9 +639,26 @@ const dynamicallyAddStreamingUrlFromPPTV = async () => {
   }
 };
 
+const getDb66License = async () => {
+  console.log('Getting db66 license...');
+
+  let licenseKey = '';
+  try {
+    const endpoint = `https://license.dooball66.xyz?_=${new Date().getTime()}`;
+    const response = await axios.get(endpoint);
+    data = response.data;
+    licenseKey = data.license;
+  } catch (error) {
+    console.error(`Cannot get license key`);
+    console.error(error);
+  }
+
+  return licenseKey;
+};
+
 const testUrl = async (url, options = {}) => {
   // list of url that we will always not check
-  if (url.includes('rtsp://') || url.includes('akamaiz.com')) {
+  if (url.includes('rtsp://') || url.includes('akamaiz.com') || url.includes('bunnycdncloud')) {
     return true;
   }
 
@@ -864,4 +782,5 @@ module.exports = {
   dynamicallyAddStreamingUrlFromDailyMotion,
   dynamicallyAddStreamingUrlFromPPTV,
   dynamicallyAddStreamingUrlFromByteArkNextData,
+  getDb66License,
 };

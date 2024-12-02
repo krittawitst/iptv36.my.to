@@ -19,6 +19,8 @@ const main = async () => {
   // await streaming.dynamicallyAddStreamingUrlFromDailyMotion();
   await streaming.dynamicallyAddStreamingUrlFromPPTV();
   // await streaming.dynamicallyAddStreamingUrlFromByteArkNextData();
+  const db66LicenseKey = await streaming.getDb66License();
+  console.log(`db66LicenseKey = ${db66LicenseKey}`);
 
   // remember all active channel key to build epg
   let allActiveChannelKey = [];
@@ -57,24 +59,37 @@ const main = async () => {
         streamingInfo.groupName
       }" tvg-logo="${streamingInfo.logo}",${channelName}`;
 
-      // added option #EXTVLCOPT
+      // add option #EXTVLCOPT
+      let isNeedAppendLicense = false;
       if (streamingInfo.options) {
         if (streamingInfo.options.referer) {
           channelStr += `\n#EXTVLCOPT:http-referrer=${streamingInfo.options.referer}`;
+          if (streamingInfo.options.referer === 'https://dooball2you.com/') isNeedAppendLicense = true;
         }
         if (streamingInfo.options.userAgent) {
           channelStr += `\n#EXTVLCOPT:http-user-agent=${streamingInfo.options.userAgent}`;
         }
       }
 
-      channelStr += `\n${streamingInfo.url}\n\n`;
+      // add license
+      if (isNeedAppendLicense && db66LicenseKey !== '') {
+        channelStr += `\n${streamingInfo.url}?wmsAuthSign=${db66LicenseKey}\n\n`;
+      } else {
+        channelStr += `\n${streamingInfo.url}\n\n`;
+      }
 
       textStr = textStr + `${channelStr}`;
     }
 
+    // Added latest update date
     let versionInfo = `#EXTINF:-1 tvg-chno="${playlist.channelList.length + 1}" group-title="Thai Free TV" `;
     versionInfo += `tvg-logo="http://iptv36.mooo.com/logo/info.png",${currentBkkDatetimeStr}\nhttp://iptv36.mooo.com/logo/info.png\n\n`;
     textStr = textStr + `${versionInfo}`;
+
+    // Added website url
+    let websiteUrl = `#EXTINF:-1 tvg-chno="${playlist.channelList.length + 2}" group-title="Thai Free TV" `;
+    websiteUrl += `tvg-logo="http://iptv36.mooo.com/logo/info.png",https://iptv36.mooo.com/\nhttp://iptv36.mooo.com/logo/info.png\n\n`;
+    textStr = textStr + `${websiteUrl}`;
 
     fs.writeFileSync(`${playlist.filename}`, textStr, 'utf8');
 
