@@ -374,7 +374,7 @@ const streamingInfo = {
     sources: [
       {
         url: 'https://cdnsv1.bunnycdncloud.com/dooball2you/tpf1/playlist.m3u8',
-        suffix: 'HD',
+        // suffix: 'HD',
         options: { referer: 'https://dooball2you.com/' },
       },
     ],
@@ -386,9 +386,14 @@ const streamingInfo = {
     // tvgId: 'TruePremierFootball2.th',
     groupName: 'Sport',
     sources: [
+      // {
+      //   url: 'https://streamamg-fa.akamaiz.com/dookeela/epl2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMi8yMDI0IDI6MjY6MTggQU0maGFzaF92YWx1ZT0xdkF1VlBpSkliQjdReE9yNVhUdVBnPT0mdmFsaWRtaW51dGVzPTEmaWQ9MWE4M2JjZTYyNTAyMzQ5MzljZjI5ODgyZGI3YzNmMTQmY2hlY2tpcD10cnVlJnN0cm1fbGVuPTEz',
+      //   options: { referer: 'https://dookeela.live/' },
+      // },
       {
-        url: 'https://streamamg-fa.akamaiz.com/dookeela/epl2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMi8yMDI0IDI6MjY6MTggQU0maGFzaF92YWx1ZT0xdkF1VlBpSkliQjdReE9yNVhUdVBnPT0mdmFsaWRtaW51dGVzPTEmaWQ9MWE4M2JjZTYyNTAyMzQ5MzljZjI5ODgyZGI3YzNmMTQmY2hlY2tpcD10cnVlJnN0cm1fbGVuPTEz',
-        options: { referer: 'https://dookeela.live/' },
+        url: 'https://cdnsv1.bunnycdncloud.com/dooball2you/tpf2/playlist.m3u8',
+        // suffix: 'HD',
+        options: { referer: 'https://dooball2you.com/' },
       },
     ],
   },
@@ -401,7 +406,7 @@ const streamingInfo = {
     sources: [
       {
         url: 'https://cdnsv1.bunnycdncloud.com/dooball2you/tpf3/playlist.m3u8',
-        suffix: 'HD',
+        // suffix: 'HD',
         options: { referer: 'https://dooball2you.com/' },
       },
     ],
@@ -415,25 +420,25 @@ const streamingInfo = {
     sources: [
       {
         url: 'https://cdnsv1.bunnycdncloud.com/dooball2you/tpf4/playlist.m3u8',
-        suffix: 'HD',
+        // suffix: 'HD',
         options: { referer: 'https://dooball2you.com/' },
       },
     ],
   },
 
-  premier5: {
-    channelName: 'Premier 5',
-    logo: 'https://iptv36.vercel.app/logo/premier_hd5.png',
-    // tvgId: 'TruePremierFootball5.th',
-    groupName: 'Sport',
-    sources: [
-      {
-        url: 'https://cdnsv1.bunnycdncloud.com/dooball2you/tpf5/playlist.m3u8',
-        suffix: 'HD',
-        options: { referer: 'https://dooball2you.com/' },
-      },
-    ],
-  },
+  // premier5: {
+  //   channelName: 'Premier 5',
+  //   logo: 'https://iptv36.vercel.app/logo/premier_hd5.png',
+  //   // tvgId: 'TruePremierFootball5.th',
+  //   groupName: 'Sport',
+  //   sources: [
+  //     {
+  //       url: 'https://cdnsv1.bunnycdncloud.com/dooball2you/tpf5/playlist.m3u8',
+  //       // suffix: 'HD',
+  //       options: { referer: 'https://dooball2you.com/' },
+  //     },
+  //   ],
+  // },
 
   truesportshd1: {
     channelName: 'True Sports 1',
@@ -442,7 +447,7 @@ const streamingInfo = {
     sources: [
       {
         url: 'https://cdnsv1.bunnycdncloud.com/dooball2you/truesporthd1/playlist.m3u8',
-        suffix: 'HD',
+        suffix: 'FHD',
         options: { referer: 'https://dooball2you.com/' },
       },
     ],
@@ -461,16 +466,16 @@ const streamingInfo = {
     ],
   },
 
-  truexzyte: {
-    channelName: 'True X-Zyte HD',
-    logo: 'http://tvsmagazine.com/images/channels/sm_034.jpg',
-    groupName: 'Other',
-    sources: [
-      {
-        url: 'https://str136.playhd.la/threstr2/truexzyte/playlist.m3u8',
-      },
-    ],
-  },
+  // truexzyte: {
+  //   channelName: 'True X-Zyte HD',
+  //   logo: 'http://tvsmagazine.com/images/channels/sm_034.jpg',
+  //   groupName: 'Other',
+  //   sources: [
+  //     {
+  //       url: 'https://str136.playhd.la/threstr2/truexzyte/playlist.m3u8',
+  //     },
+  //   ],
+  // },
 
   ipcam: {
     channelName: 'CAM',
