@@ -111,24 +111,14 @@ const playlistV3 = {
   channelList: [
     ...channelListWithBackupChannel,
 
-    ['bein1'],
-    // ['bein1', 1],
-    // ['bein2'],
-    // ['bein2', 1],
-    ['bein3'],
-
-    ['premier1'],
-    // ['premier1', 1],
-    ['premier2'],
-    // ['premier2', 1],
-    ['premier3'],
-    ['premier4'],
-    // ['premier5'],
-
-    ['truesportshd1'],
-    ['truesportshd1', 1],
-    ['truesportshd2'],
-    ['truesportshd2', 1],
+    // ['bein1'],
+    // ['bein3'],
+    // ['premier1'],
+    // ['premier2'],
+    // ['premier3'],
+    // ['premier4'],
+    // ['truesportshd1'],
+    // ['truesportshd2'],
 
     ['lovenature'],
     ['cartoonclub'],

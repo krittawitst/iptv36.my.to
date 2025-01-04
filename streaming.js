@@ -13,8 +13,9 @@ const streamingInfo = {
     // tvgId: 'NBT2.th',
     sources: [
       { url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/nbt/nbt.stream?type=m3u8', suffix: 'HD' },
-      { url: 'https://edge2a.v2h-cdn.com/nbt/nbt.stream/playlist.m3u8', suffix: 'HD' },
-      { url: 'https://edge6a.v2h-cdn.com/nbt/nbt.stream/playlist.m3u8', suffix: 'HD' },
+      { url: 'https://cdn-edge-ott.prd.go.th/live_vlc/smil:c30f-97f7-c767-ca64-98aa.smil/playlist.m3u8', suffix: 'HD' },
+      // { url: 'https://edge2a.v2h-cdn.com/nbt/nbt.stream/playlist.m3u8', suffix: 'HD' },
+      // { url: 'https://edge6a.v2h-cdn.com/nbt/nbt.stream/playlist.m3u8', suffix: 'HD' },
     ],
   },
 
@@ -83,7 +84,7 @@ const streamingInfo = {
     logo: 'https://iptv36.vercel.app/logo/jkn18.png',
     // tvgId: 'JKN18.th',
     sources: [
-      { url: 'https://live3.topnews.co.th/hls/topnews_b_720.m3u8', suffix: 'HD' },
+      { url: 'https://live.topnews.co.th/hls/topnews_a_720.m3u8', suffix: 'HD' },
       { url: 'https://edge2a.v2h-cdn.com/jkn18/jkn18.stream/playlist.m3u8' },
       { url: 'https://lb-mvtv-live.v2h-cdn.com/redirect/new/new.stream?type=m3u8' },
     ],
@@ -120,7 +121,7 @@ const streamingInfo = {
     // tvgId: 'True4U.th',
     sources: [
       { url: 'https://iptv36.vercel.app/api/true.m3u8?channel=true4u', suffix: 'HD' },
-      { url: 'https://hls-nginx.v2h-cdn.com/hls/workpointmyStream.m3u8' },
+      { url: 'https://hls-nginx.v2h-cdn.com/hls/true4umyStream.m3u8' },
       { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/24/24.mpd', priority: 9 },
     ],
   },
@@ -386,10 +387,6 @@ const streamingInfo = {
     // tvgId: 'TruePremierFootball2.th',
     groupName: 'Sport',
     sources: [
-      // {
-      //   url: 'https://streamamg-fa.akamaiz.com/dookeela/epl2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMi8yMDI0IDI6MjY6MTggQU0maGFzaF92YWx1ZT0xdkF1VlBpSkliQjdReE9yNVhUdVBnPT0mdmFsaWRtaW51dGVzPTEmaWQ9MWE4M2JjZTYyNTAyMzQ5MzljZjI5ODgyZGI3YzNmMTQmY2hlY2tpcD10cnVlJnN0cm1fbGVuPTEz',
-      //   options: { referer: 'https://dookeela.live/' },
-      // },
       {
         url: 'https://cdnsv1.bunnycdncloud.com/dooball2you/tpf2/playlist.m3u8',
         // suffix: 'HD',
