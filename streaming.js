@@ -145,7 +145,7 @@ const streamingInfo = {
     logo: 'https://iptv36.vercel.app/logo/ch8.png',
     // tvgId: 'ThaiChannel8.th',
     sources: [
-      { url: 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8', suffix: 'HD' },
+      // { url: 'https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8', suffix: 'HD' },
       { url: 'https://hls-nginx.v2h-cdn.com/hls/ch8myStream.m3u8' },
       { url: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/27/27.mpd', priority: 9 },
     ],
@@ -157,8 +157,7 @@ const streamingInfo = {
     // tvgId: 'Mono29.th',
     sources: [
       {
-        url: 'https://streaming.monomax.me/Mono29LiveStream/ngrp:myStream_all/chunklist_b6628000.m3u8',
-        options: { referer: 'https://www.monomax.me/' },
+        url: 'https://live-mono29.monomax.me/out/v1/a0775b0326524af8a7497a555c0b843f/mono29.m3u8',
         suffix: 'FHD',
         priority: 35,
       },
